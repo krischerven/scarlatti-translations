@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-27 13:51+0100\n"
-"PO-Revision-Date: 2017-05-23 07:37+0000\n"
-"Last-Translator: Emin Tufan <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2017-07-03 15:52+0200\n"
+"PO-Revision-Date: 2017-07-03 13:52+0000\n"
+"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/gnumdk/lollypop/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,7 +160,7 @@ msgstr "MP3ʼü normalleştir (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:34 ../data/SettingsDialog.ui.h:16
 msgid "Auto update music"
-msgstr "Kendiliğinden müzik gücelleme"
+msgstr "Müziği kendiliğinden gücelle"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:35
 msgid "Split playlists view"
@@ -172,7 +172,7 @@ msgstr "Türlerin listesini göster"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Show navigation list"
-msgstr ""
+msgstr "Gezinti listesini göster"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Show charts"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:39 ../data/SettingsDialog.ui.h:8
 msgid "Show artist artwork"
-msgstr ""
+msgstr "Sanatçı çizimini göster"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:40
 msgid "Use dark gtk theme"
@@ -188,7 +188,7 @@ msgstr "Karanlık GTK gövdesini kullan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Disable use of client side window decorations (headerbar)"
-msgstr ""
+msgstr "İstemci tarafı pencere süslemeleri (üst çubuk) kullanımını devre dışı bırak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -251,18 +251,22 @@ msgid "Mix duration"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
+msgid "Restart current track on previous"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Shuffle mode"
 msgstr "Tekrar kipi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:58
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Playback behaviour"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:59 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:60 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
-msgstr ""
+msgstr "Albümleri şuna göre sırala"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:60
+#: ../data/org.gnome.Lollypop.gschema.xml.h:61
 msgid "Charts provider"
 msgstr ""
 
@@ -284,12 +288,12 @@ msgstr "Müzik koleksiyonunu çal ve düzenle"
 msgid "Play/Pause"
 msgstr "Oynat/Duraklat"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:120
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Sonraki"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:114
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Önceki"
@@ -318,14 +322,14 @@ msgstr "Tür/Kapak gezinimi"
 msgid "Genre/Artist/Cover browsing"
 msgstr "Tür/Sanatçı/Kapak gezinimi"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:291
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Ara"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
-#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:441
+#: ../src/pop_menu.py:460 ../src/toolbar_end.py:432
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Sıra"
@@ -381,13 +385,13 @@ msgid ""
 "    - Artist informations disabled"
 msgstr "- Skroplama devre dışı\n- Kendiliğinden kapak indirme devre dışı\n- Sanatçı bilgileri devre dışı"
 
-#: ../src/application.py:639
+#: ../src/application.py:611
 msgid "Lollypop: You need to install yelp."
-msgstr "Lollypop: Yelp'i indirmeniz gerekmektedir."
+msgstr "Lollypop: Yelp'i kurmanız gerekmektedir."
 
 #: ../src/art_widgets.py:71
 msgid "Select artwork"
-msgstr ""
+msgstr "Çizim seç"
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key…"
@@ -395,26 +399,26 @@ msgstr "Düşük kalite, eksik API anahtarı…"
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
-msgstr ""
+msgstr "Çizimi sıfırla?"
 
-#: ../src/collectionscanner.py:187
+#: ../src/collectionscanner.py:188
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop boş bir dizin saptıyor."
 
-#: ../src/collectionscanner.py:188
+#: ../src/collectionscanner.py:189
 msgid "Check your music settings."
 msgstr "Müzik ayarlarınızı gözden geçirin."
 
-#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
+#: ../src/collectionscanner.py:296 ../src/database_albums.py:439
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
-#: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
-#: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
-#: ../src/tagreader.py:188 ../src/tagreader.py:195
+#: ../src/database_tracks.py:333 ../src/selectionlist.py:407
+#: ../src/selectionlist.py:420 ../src/tagreader.py:86 ../src/tagreader.py:102
+#: ../src/tagreader.py:118 ../src/tagreader.py:166 ../src/tagreader.py:182
+#: ../src/tagreader.py:186 ../src/tagreader.py:196 ../src/tagreader.py:204
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: ../src/container.py:467 ../src/widgets_device.py:309
+#: ../src/container.py:501 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "Derlemeler"
 
@@ -423,9 +427,8 @@ msgid "Pause"
 msgstr "Duraklat"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
-#: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
-#: ../data/CoverBox.ui.h:1
+#: ../src/widgets_album_simple.py:137 ../src/widgets_radio.py:183
+#: ../data/ToolbarPlayback.ui.h:2 ../data/CoverBox.ui.h:1
 msgid "Play"
 msgstr "Oynat"
 
@@ -446,14 +449,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "Yanlış Last.fm kimliği"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:148
+#: ../src/notification.py:154
 #, python-format
 msgid "by %s"
 msgstr "%s dan"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:156
+#: ../src/notification.py:162
 #, python-format
 msgid "by %s, from %s"
 msgstr "%s'a, %s'dan"
@@ -466,27 +469,27 @@ msgstr "Kullanılabilir ağ yok, bu parça oynatılamaz"
 msgid "Loved tracks"
 msgstr "Sevilen parçalar"
 
-#: ../src/playlists.py:243
+#: ../src/playlists.py:261
 msgid "Spotify charts"
 msgstr "Spotify listeleri"
 
-#: ../src/playlists.py:245
+#: ../src/playlists.py:263
 msgid "Last.fm charts"
 msgstr "Last.fm listeleri"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:296
+#: ../src/playlists.py:283 ../src/selectionlist.py:310
 msgid "Popular tracks"
 msgstr "Popüler parçalar"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:298
+#: ../src/playlists.py:285 ../src/selectionlist.py:312
 msgid "Recently played"
 msgstr "Son çalınanlar"
 
-#: ../src/playlists.py:269 ../src/selectionlist.py:299
+#: ../src/playlists.py:287 ../src/selectionlist.py:313
 msgid "Never played"
 msgstr "Hiç çalınmayanlar"
 
-#: ../src/playlists.py:271 ../src/selectionlist.py:300
+#: ../src/playlists.py:289 ../src/selectionlist.py:314
 msgid "Random tracks"
 msgstr "Rastgele parçalar"
 
@@ -503,7 +506,7 @@ msgstr "Albümleri sil"
 msgid "Go to current track"
 msgstr "Güncel parçaya git"
 
-#: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
+#: ../src/pop_albums.py:303 ../src/toolbar_end.py:436
 msgid "Playing albums"
 msgstr "Oynatılan albümler"
 
@@ -515,94 +518,93 @@ msgstr "Gelişmiş sanatçı bilgileri etkisizleştirildi"
 msgid "WebKit support disabled"
 msgstr "WebKit desteği devredışı bırakıldı"
 
-#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
+#: ../src/pop_info.py:269 ../src/settings.py:348 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
 msgstr "Ağ erişimi devre dışı"
 
-#: ../src/pop_info.py:259
+#: ../src/pop_info.py:277
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Hiç söz bulunamadı, lütfen gir1.2-webkit2-4.0'ı yükleyin"
 
-#: ../src/pop_menu.py:65
+#: ../src/pop_menu.py:66
 msgid "Show albums from artist"
 msgstr ""
 
-#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
+#: ../src/pop_menu.py:130 ../src/widgets_context.py:136
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Sıraya ekle"
 
-#: ../src/pop_menu.py:134
+#: ../src/pop_menu.py:135
 msgid "Next tracks"
 msgstr "Sonraki parçalar"
 
-#: ../src/pop_menu.py:136 ../data/NextPopover.ui.h:1
+#: ../src/pop_menu.py:137 ../data/NextPopover.ui.h:1
 msgid "Next track"
 msgstr "Sonraki parça"
 
-#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
+#: ../src/pop_menu.py:141 ../src/widgets_context.py:133
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Sıradan kaldır"
 
-#: ../src/pop_menu.py:213
+#: ../src/pop_menu.py:214
 msgid "Add to others"
 msgstr "Diğerlerine ekle"
 
-#: ../src/pop_menu.py:226
+#: ../src/pop_menu.py:227
 msgid "Remove from \"Not in party\""
 msgstr ""
 
-#: ../src/pop_menu.py:231
+#: ../src/pop_menu.py:232
 msgid "Add to \"Not in party\""
 msgstr ""
 
-#: ../src/pop_menu.py:252
+#: ../src/pop_menu.py:253
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "\"%s\"dan kaldır"
 
-#: ../src/pop_menu.py:258
+#: ../src/pop_menu.py:259
 #, python-format
 msgid "Add to \"%s\""
 msgstr "\"%s\"e ekle"
 
-#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
+#: ../src/pop_menu.py:380 ../src/widgets_context.py:105
 msgid "Remove album"
 msgstr "Albümü kaldır"
 
-#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
+#: ../src/pop_menu.py:382 ../src/widgets_context.py:107
 msgid "Remove track"
 msgstr "Parçayı kaldır"
 
-#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
+#: ../src/pop_menu.py:391 ../src/widgets_context.py:118
 msgid "Modify information"
 msgstr "Bilgileri değiştir"
 
-#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:439 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Sanatçı"
 
-#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
-#: ../src/widgets_playlist.py:557
+#: ../src/pop_menu.py:443 ../src/pop_menu.py:462 ../src/selectionlist.py:293
+#: ../src/widgets_device.py:125 ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Çalma listeleri"
 
-#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:445 ../src/pop_menu.py:464 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Düzenle"
 
-#: ../src/pop_menu.py:585
+#: ../src/pop_menu.py:576
 msgid "Video address"
-msgstr ""
+msgstr "Video adresi"
 
-#: ../src/pop_menu.py:640
+#: ../src/pop_menu.py:631
 msgid "Save genre"
 msgstr ""
 
-#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:652 ../src/widgets_context.py:97
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr ""
@@ -618,7 +620,7 @@ msgstr "Ekle"
 msgid "Modify"
 msgstr "Değiştir"
 
-#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:338 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "youtube-dl yüklemeniz gerekiyor"
 
@@ -630,74 +632,74 @@ msgstr "Lütfen bekle…"
 msgid "Can't connect to TuneIn…"
 msgstr "TuneInʼe bağlanamıyor…"
 
-#: ../src/selectionlist.py:275
+#: ../src/selectionlist.py:288
 msgid "Popular albums"
 msgstr "Popüler albümler"
 
-#: ../src/selectionlist.py:276
+#: ../src/selectionlist.py:290
 msgid "Loved albums"
 msgstr "Sevilen albümler"
 
-#: ../src/selectionlist.py:277
+#: ../src/selectionlist.py:291
 msgid "Recently added albums"
 msgstr "Son eklenen albümler"
 
-#: ../src/selectionlist.py:278
+#: ../src/selectionlist.py:292
 msgid "Random albums"
 msgstr "Rastgele albümler"
 
-#: ../src/selectionlist.py:280
+#: ../src/selectionlist.py:294
 msgid "Radios"
 msgstr "Radyolar"
 
-#: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
+#: ../src/selectionlist.py:297 ../src/settings.py:337 ../src/settings.py:347
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
 msgstr "Listeler"
 
-#: ../src/selectionlist.py:285
+#: ../src/selectionlist.py:299
 msgid "All albums"
 msgstr "Tüm albümler"
 
-#: ../src/selectionlist.py:287
+#: ../src/selectionlist.py:301
 msgid "All artists"
 msgstr "Tüm sanatçılar"
 
-#: ../src/selectionlist.py:301
+#: ../src/selectionlist.py:315
 msgid "Not in party"
 msgstr ""
 
-#: ../src/settings.py:91
-msgid "Google Web Services need a custom API key"
-msgstr ""
-
 #: ../src/settings.py:92
-msgid "Lollypop needs this to search artwork and music."
-msgstr ""
+msgid "Google Web Services need a custom API key"
+msgstr "Google Web Hizmetleri özel API anahtarına gereksiniyor"
 
-#: ../src/settings.py:107
+#: ../src/settings.py:93
+msgid "Lollypop needs this to search artwork and music."
+msgstr "Lollypop buna çizim ve müzik bulmak için gereksinir."
+
+#: ../src/settings.py:108
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d sanatçı"
 
-#: ../src/settings.py:109
+#: ../src/settings.py:110
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d albüm"
 
-#: ../src/settings.py:111
+#: ../src/settings.py:112
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d parça"
 
-#: ../src/settings.py:122 ../src/settings.py:125 ../data/SettingsDialog.ui.h:3
+#: ../src/settings.py:123 ../src/settings.py:126 ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: ../src/settings.py:174
+#: ../src/settings.py:727
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli'i indirmen gerekmektedir"
 
@@ -709,18 +711,18 @@ msgstr "Popüler olanlar"
 msgid "Recently added"
 msgstr "Son eklenenler"
 
-#: ../src/toolbar_end.py:429
+#: ../src/toolbar_end.py:430
 msgid "External tracks"
-msgstr ""
+msgstr "Harici parçalar"
 
-#: ../src/toolbar_end.py:433
+#: ../src/toolbar_end.py:434
 msgid "Playing playlists"
 msgstr "Oynatılan oynatma listeleri"
 
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../src/utils.py:122
+#: ../src/utils.py:147
 msgid "The the"
 msgstr "_"
 
@@ -746,37 +748,41 @@ msgstr "%s eşitle"
 msgid "Cancel synchronization"
 msgstr "Eşitlemeyi iptal et"
 
-#: ../src/widgets_album.py:293
-msgid "Append"
-msgstr "Sona ekle"
-
-#: ../src/widgets_album_simple.py:141
-msgid "Play albums"
-msgstr "Albümleri çal"
-
-#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
-msgid "Change artwork"
-msgstr ""
-
-#: ../src/widgets_album_detailed.py:382
+#: ../src/view_playlists.py:208 ../src/widgets_album_detailed.py:375
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s s  %s d"
 
-#: ../src/widgets_album_detailed.py:384
+#: ../src/view_playlists.py:210 ../src/widgets_album_detailed.py:377
 #, python-format
 msgid "%s h"
 msgstr "%s s"
 
-#: ../src/widgets_album_detailed.py:386
+#: ../src/view_playlists.py:212 ../src/widgets_album_detailed.py:379
 #, python-format
 msgid "%s m"
 msgstr "%s d"
 
-#: ../src/widgets_album_detailed.py:530
+#: ../src/widgets_album.py:293
+msgid "Append"
+msgstr "Sona ekle"
+
+#: ../src/widgets_album_simple.py:148 ../data/ArtistView.ui.h:2
+msgid "Play albums"
+msgstr "Albümleri çal"
+
+#: ../src/widgets_album_simple.py:158 ../data/CoverBox.ui.h:2
+msgid "Change artwork"
+msgstr "Çizimi değiştir"
+
+#: ../src/widgets_album_detailed.py:523
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
+
+#: ../src/widgets_context.py:125 ../data/InternalSearchRow.ui.h:1
+msgid "Add to playlist"
+msgstr "Oynatma listesine ekle"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
@@ -803,27 +809,27 @@ msgstr "Cihazda yeterli boş alan yok"
 msgid "Synced albums"
 msgstr ""
 
-#: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
+#: ../src/widgets_playlist.py:590 ../src/widgets_playlist.py:593
 msgid "New playlist "
 msgstr "Yeni oynatma listesi"
 
 #. Need a copy, segfault on EOS 3.1
-#: ../src/widgets_playlist.py:695 ../src/widgets_playlist.py:901
+#: ../src/widgets_playlist.py:699 ../src/widgets_playlist.py:905
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\" kaldır?"
 
-#: ../src/widgets_playlist.py:909
+#: ../src/widgets_playlist.py:913
 msgid "Remove these tracks?"
 msgstr "Bu parçaları kaldır?"
 
-#: ../src/widgets_radio.py:198
+#: ../src/widgets_radio.py:199
 msgid "Modify radio"
 msgstr "Radyoyu düzenle"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
-#. Unused be we keep this for now (as it's already translated)
+#. Unused be we keep this for now (as it"s already translated)
 #: ../src/wikipedia.py:36
 msgid "musician;band"
 msgstr "musician;band"
@@ -831,6 +837,16 @@ msgstr "musician;band"
 #: ../data/LastfmPopover.ui.h:1 ../data/ArtistView.ui.h:4
 msgid "Similar artists"
 msgstr "Benzer sanatçılar"
+
+#: ../data/FirstRunView.ui.h:1
+msgid ""
+"<b>Welcome to Lollypop!</b>\n"
+"Here you can enable network access, allowing Lollypop to fetch music informations from the Web."
+msgstr ""
+
+#: ../data/FirstRunView.ui.h:3
+msgid "Enable network access:"
+msgstr ""
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A music player for GNOME."
@@ -906,7 +922,7 @@ msgstr "Şarkı sözleri"
 msgid ""
 "Reload information\n"
 "Long press to activate auto reload"
-msgstr ""
+msgstr "Bilgi yeniden yükle\nKendiliğinden yenilemeyi açmak için uzunca bas"
 
 #: ../data/ArtistView.ui.h:1
 msgid "Photo"
@@ -914,8 +930,8 @@ msgstr "Fotoğraf"
 
 #: ../data/ArtistView.ui.h:3
 msgctxt "artist context"
-msgid "Add"
-msgstr "Ekle"
+msgid "Add albums"
+msgstr ""
 
 #: ../data/ArtworkSearch.ui.h:1 ../data/RadioPopover.ui.h:2
 msgid "Select a local file"
@@ -931,7 +947,7 @@ msgid ""
 "Lollypop uses \"Google Custom Search API\" to search images on the web.\n"
 "This API is limited so it mays not work with default API key.\n"
 "Please create a \"Custom Search Engine\" here:"
-msgstr ""
+msgstr "Lollypop, resimleri internette aramak için \"Google Özel Arama API\"sini kullanır.\nBu API sınırlıdır, bu yüzden öntanımlı API anahtarıyla çalışmayabilir.\nLütfen buradan \"Özel Arama Motoru\" oluşturun:"
 
 #: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
@@ -943,7 +959,7 @@ msgstr ""
 
 #: ../data/DeviceManagerView.ui.h:2
 msgid "This will remove some files on your device!"
-msgstr ""
+msgstr "Bu, aygıtınızdaki bazı dosyaları silecektir!"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
@@ -959,7 +975,7 @@ msgstr "Yeni oynatma listesi"
 
 #: ../data/PlaylistView.ui.h:2
 msgid "Unsplit view"
-msgstr ""
+msgstr "Bölünmemiş görünüm"
 
 #: ../data/QueuePopover.ui.h:1
 msgid "Clear queue"
@@ -967,7 +983,7 @@ msgstr "Sırayı sil"
 
 #: ../data/RadioPopover.ui.h:3
 msgid "No logo found…"
-msgstr ""
+msgstr "Logo bulunamadı…"
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
@@ -975,7 +991,7 @@ msgstr "Bu radyo için bir logo seç"
 
 #: ../data/RadioPopover.ui.h:5
 msgid "Name:"
-msgstr "İsim:"
+msgstr "Ad:"
 
 #: ../data/RadioPopover.ui.h:6
 msgid "Address:"
@@ -1005,10 +1021,6 @@ msgstr "Aramaya dayalı çalma listesi oluştur"
 msgid "Search on the web"
 msgstr "Web üzerinde ara"
 
-#: ../data/InternalSearchRow.ui.h:1
-msgid "Add to playlist"
-msgstr "Oynatma listesine ekle"
-
 #: ../data/SettingsDialog.ui.h:1
 msgid "Only in party mode"
 msgstr "Yalnızca parti kipinde"
@@ -1027,7 +1039,7 @@ msgstr "Türleri göster"
 
 #: ../data/SettingsDialog.ui.h:11
 msgid "Name"
-msgstr "İsim:"
+msgstr "Ad"
 
 #: ../data/SettingsDialog.ui.h:12
 msgid "Year"
@@ -1039,7 +1051,7 @@ msgstr "Popülerlik"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Configure Lollypop appearance"
-msgstr "Lollypop davranışını yapılandır"
+msgstr "Lollypop görünümünü yapılandır"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1063,7 +1075,7 @@ msgstr "Değişiklikleri dosyalara kaydet"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "Preview tracks on"
-msgstr "p: Önceki parça"
+msgstr "Parçaları şunda önizle"
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "No audio device"
@@ -1071,7 +1083,7 @@ msgstr "Ses aygıtı yok"
 
 #: ../data/SettingsDialog.ui.h:24
 msgid "Configure Lollypop behaviour"
-msgstr "Lollypop görünüşünü yapılandır"
+msgstr "Lollypop davranışını yapılandır"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1221,7 +1233,7 @@ msgstr "Türleri göster"
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show/Hide filter"
-msgstr ""
+msgstr "Süzgeci göster/gizle"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
@@ -1231,12 +1243,12 @@ msgstr "Güncel parçayı kitle"
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
-msgstr ""
+msgstr "Gezinti listesini göster/gizle"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
-msgstr ""
+msgstr "Ses denetimini göster/gizle"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
@@ -1261,7 +1273,7 @@ msgstr "Duraklat"
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Stop"
-msgstr "v: Durdur"
+msgstr "Durdur"
 
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
