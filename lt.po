@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-21 18:25+0200\n"
-"PO-Revision-Date: 2017-09-21 16:27+0000\n"
+"POT-Creation-Date: 2017-09-23 14:15+0200\n"
+"PO-Revision-Date: 2017-09-23 12:16+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/gnumdk/lollypop/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -140,12 +140,12 @@ msgid "Sync all albums(MTP)"
 msgstr "Sinchronizuoti visus albumus(MTP)"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:30
-msgid "Convert to MP3(MTP)"
-msgstr "Konvertuoti į MP3(MTP)"
+msgid "Encode to MP3(MTP)"
+msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:31
-msgid "Quality for converting MP3"
-msgstr "MP3 konvertavimo kokybė"
+msgid "Quality of MP3 encoding"
+msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Normalize MP3(MTP)"
@@ -161,8 +161,8 @@ msgid "Split playlists view"
 msgstr "Skaidyti grojaraščių rodinį"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:35
-msgid "Show genres list"
-msgstr "Rodyti žanrų sąrašą"
+msgid "Show list of genres"
+msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show navigation list"
@@ -174,8 +174,8 @@ msgid "Show artist artwork"
 msgstr "Rodyti atlikėjo iliustraciją"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:38
-msgid "Use dark gtk theme"
-msgstr "Naudoti tamsią gtk temą"
+msgid "Use dark GTK theme"
+msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Disable use of client side window decorations (headerbar)"
@@ -196,8 +196,8 @@ msgid "Smart sort for artist"
 msgstr "Išmanusis atlikėjo rikiavimas"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:43
-msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr "Pvz., The Beatles rikiuojama kaip Beatles. Reikalingas duomenų bazės atstatymas."
+msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
+msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Restore previous state"
@@ -209,10 +209,10 @@ msgstr "Išjungti MPRIS"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Disable all notifications"
-msgstr ""
+msgstr "Išjungti visus pranešimus"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:47
-msgid "Disable notifications at song changes"
+msgid "Disable notifications upon change of song"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:48
@@ -249,11 +249,10 @@ msgstr "Maišymo veiksena"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Possibilities for powermanagement options"
-msgstr ""
+msgstr "Energijos valdymo parametrų galimybės"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:57
-msgid ""
-"This option is to inhibit screensaver or suspend while lollypop is playing."
+msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:58
@@ -362,27 +361,27 @@ msgstr "Daugybė atlikėjų"
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm tapatybės nustatymas išjungtas"
 
-#: ../../lollypop/lastfm.py:318
+#: ../../lollypop/lastfm.py:320
 msgid "Wrong Last.fm credentials"
 msgstr "Neteisingi Last.fm prisijungimo duomenys"
 
-#: ../../lollypop/notification.py:130 ../../data/ToolbarPlayback.ui.h:1
+#: ../../lollypop/notification.py:123 ../../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Ankstesnis"
 
-#: ../../lollypop/notification.py:136 ../../data/ToolbarPlayback.ui.h:3
+#: ../../lollypop/notification.py:129 ../../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Kitas"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../../lollypop/notification.py:170
+#: ../../lollypop/notification.py:160
 #, python-format
 msgid "by %s"
 msgstr "atlieka %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../../lollypop/notification.py:178
+#: ../../lollypop/notification.py:168
 #, python-format
 msgid "by %s, from %s"
 msgstr "atlieka %s, albume %s"
@@ -408,7 +407,7 @@ msgid "Random tracks"
 msgstr "Atsitiktiniai takeliai"
 
 #: ../../lollypop/playlists.py:286 ../../data/ArtistInfo.ui.h:5
-#: ../../data/SettingsDialog.ui.h:43 ../../data/ToolbarEnd.ui.h:13
+#: ../../data/SettingsDialog.ui.h:41 ../../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Paieška"
 
@@ -431,7 +430,7 @@ msgstr "Grojami albumai"
 
 #: ../../lollypop/pop_info.py:36
 msgid "Advanced artist information disabled"
-msgstr ""
+msgstr "Išplėstinė informacija apie atlikėją išjungta"
 
 #: ../../lollypop/pop_info.py:44
 msgid "WebKit support disabled"
@@ -536,7 +535,7 @@ msgstr "Prašome palaukti…"
 
 #: ../../lollypop/pop_tunein.py:376 ../../lollypop/pop_tunein.py:378
 msgid "No result…"
-msgstr ""
+msgstr "Nėra rezultatų…"
 
 #: ../../lollypop/selectionlist.py:285
 msgid "Popular albums"
@@ -556,7 +555,7 @@ msgstr "Atsitiktiniai albumai"
 
 #: ../../lollypop/selectionlist.py:290
 msgid "Never played albums"
-msgstr ""
+msgstr "Niekada negroti albumai"
 
 #: ../../lollypop/selectionlist.py:292
 msgid "Radios"
@@ -603,7 +602,7 @@ msgstr[2] "%d takelių"
 msgid "Preferences"
 msgstr "Nuostatos"
 
-#: ../../lollypop/settings.py:725
+#: ../../lollypop/settings.py:688
 msgid "You need to install kid3-cli"
 msgstr "Jums reikia įdiegti kid3-cli"
 
@@ -736,6 +735,11 @@ msgstr "Šalinti šiuos takelius?"
 msgid "Modify radio"
 msgstr "Modifikuoti radiją"
 
+#: ../../lollypop/widgets_rating.py:49
+#, python-format
+msgid "Song played %s times"
+msgstr ""
+
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
 #. Unused be we keep this for now (as it"s already translated)
@@ -743,7 +747,7 @@ msgstr "Modifikuoti radiją"
 msgid "musician;band"
 msgstr "dainininkas;dainininkė;grupė"
 
-#: ../../lollypop/window.py:405
+#: ../../lollypop/window.py:331
 msgid "<span size='xx-large'><b>Import music</b></span>"
 msgstr ""
 
@@ -815,7 +819,7 @@ msgid "Select a local file"
 msgstr "Pasirinkti vietinį failą"
 
 #: ../../data/ArtworkSearch.ui.h:2 ../../data/PlaylistEditWidget.ui.h:1
-#: ../../data/PlaylistsManagerWidget.ui.h:1 ../../data/SettingsDialog.ui.h:28
+#: ../../data/PlaylistsManagerWidget.ui.h:1 ../../data/SettingsDialog.ui.h:26
 msgid "Confirm"
 msgstr "Patvirtinti"
 
@@ -825,7 +829,7 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</small>"
 msgstr ""
 
-#: ../../data/ArtworkSearch.ui.h:5 ../../data/SettingsDialog.ui.h:40
+#: ../../data/ArtworkSearch.ui.h:5 ../../data/SettingsDialog.ui.h:38
 msgid "API key"
 msgstr "API raktas"
 
@@ -857,7 +861,7 @@ msgstr "Įrašyti į kolekciją"
 msgid ""
 "<b>Welcome to Lollypop!</b>\n"
 "Here you can enable network access, allowing Lollypop to fetch music information from the Web."
-msgstr ""
+msgstr "<b>Sveiki atvykę į Lollypop!</b>\nČia galite įjungti tinklo prieigą, taip leisdami Lollypop gauti muzikos informaciją iš saityno."
 
 #: ../../data/FirstRunView.ui.h:3
 msgid "Enable network access:"
@@ -972,67 +976,59 @@ msgid "No audio device"
 msgstr "Jokio garso įrenginio"
 
 #: ../../data/SettingsDialog.ui.h:24
-msgid "Desktop notifications at song changes"
-msgstr ""
-
-#: ../../data/SettingsDialog.ui.h:25
-msgid "Show desktop notifications at song changes"
-msgstr ""
-
-#: ../../data/SettingsDialog.ui.h:26
 msgid "Configure Lollypop behaviour"
 msgstr "Konfigūruoti Lollypop elgseną"
 
-#: ../../data/SettingsDialog.ui.h:27
+#: ../../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
 msgstr "Elgsena"
 
-#: ../../data/SettingsDialog.ui.h:29
+#: ../../data/SettingsDialog.ui.h:27
 msgid "Reset database"
 msgstr "Atstatyti duomenų bazę"
 
-#: ../../data/SettingsDialog.ui.h:30
+#: ../../data/SettingsDialog.ui.h:28
 msgid "Select music folders"
 msgstr "Pasirinkti muzikos aplankus"
 
-#: ../../data/SettingsDialog.ui.h:31
+#: ../../data/SettingsDialog.ui.h:29
 msgid "Music"
 msgstr "Muzika"
 
-#: ../../data/SettingsDialog.ui.h:32
+#: ../../data/SettingsDialog.ui.h:30
 msgid "Login:"
 msgstr "Prisijungimas:"
 
-#: ../../data/SettingsDialog.ui.h:33
+#: ../../data/SettingsDialog.ui.h:31
 msgid "Password:"
 msgstr "Slaptažodis:"
 
-#: ../../data/SettingsDialog.ui.h:34
+#: ../../data/SettingsDialog.ui.h:32
 msgid "Connect"
 msgstr "Prisijungti"
 
-#: ../../data/SettingsDialog.ui.h:35
+#: ../../data/SettingsDialog.ui.h:33
 msgid "You need to install pylast and gi secret"
 msgstr "Jums reikia įdiegti pylast ir gi secret"
 
-#: ../../data/SettingsDialog.ui.h:36
+#: ../../data/SettingsDialog.ui.h:34
 msgid "Libre.fm"
-msgstr ""
+msgstr "Libre.fm"
 
-#: ../../data/SettingsDialog.ui.h:37
+#: ../../data/SettingsDialog.ui.h:35
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork and music.</small>"
 msgstr ""
 
-#: ../../data/SettingsDialog.ui.h:41
+#: ../../data/SettingsDialog.ui.h:39
 msgid ""
 "<small>You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project.</small>"
 msgstr ""
 
-#: ../../data/SettingsDialog.ui.h:44
+#: ../../data/SettingsDialog.ui.h:42
 msgid "Web"
 msgstr "Saitynas"
 
