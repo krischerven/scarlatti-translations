@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-23 14:15+0200\n"
-"PO-Revision-Date: 2017-09-23 12:16+0000\n"
+"POT-Creation-Date: 2017-09-25 11:41+0200\n"
+"PO-Revision-Date: 2017-09-25 09:41+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Dutch (http://www.transifex.com/gnumdk/lollypop/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -145,11 +145,11 @@ msgstr "Alle albums synchroniseren (MTP)"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Encode to MP3(MTP)"
-msgstr ""
+msgstr "Decoderen naar MP3 (MTP)"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Quality of MP3 encoding"
-msgstr ""
+msgstr "Kwaliteitsinstelling voor decoderen naar MP3"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Normalize MP3(MTP)"
@@ -166,7 +166,7 @@ msgstr "Afspeellijstoverzicht splitsen"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:35
 msgid "Show list of genres"
-msgstr ""
+msgstr "Genrelijst tonen"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show navigation list"
@@ -179,7 +179,7 @@ msgstr "Artiestfoto tonen"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Use dark GTK theme"
-msgstr ""
+msgstr "Donker GTK-thema gebruiken"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Disable use of client side window decorations (headerbar)"
@@ -201,7 +201,7 @@ msgstr "Artiesten slim sorteren"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:43
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
-msgstr ""
+msgstr "Bijv.: The Beatles sorteren als Beatles. De database moet hiervoor opnieuw worden ingesteld."
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Restore previous state"
@@ -217,7 +217,7 @@ msgstr "Alle meldingen uitschakelen"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable notifications upon change of song"
-msgstr ""
+msgstr "Meldingen bij nummerwijzigingen uitschakelen"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Show track number from tags"
@@ -257,7 +257,7 @@ msgstr "Mogelijkheden tot energiebesparing"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr ""
+msgstr "Deze optie schakelt de schermbeveiliging of pauzestand uit zolang Lollypop bezig is met afspelen."
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Playback behaviour"
@@ -411,7 +411,7 @@ msgid "Random tracks"
 msgstr "Willekeurige nummers"
 
 #: ../../lollypop/playlists.py:286 ../../data/ArtistInfo.ui.h:5
-#: ../../data/SettingsDialog.ui.h:41 ../../data/ToolbarEnd.ui.h:13
+#: ../../data/SettingsDialog.ui.h:40 ../../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Zoeken"
 
@@ -739,7 +739,7 @@ msgstr "Radiozender bewerken"
 #: ../../lollypop/widgets_rating.py:49
 #, python-format
 msgid "Song played %s times"
-msgstr ""
+msgstr "%s keer beluisterd"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
@@ -1020,16 +1020,14 @@ msgstr "Libre.fm"
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
-"Lollypop needs this to search for artwork and music.</small>"
-msgstr "<b>Google-webdiensten hebben een aangepaste API-sleutel nodig.</b>\n<small>Zonder deze sleutel raakt u snel aan de standaardquota…\nLollypop heeft dit nodig om naar albumhoezen en muziek te zoeken.</small>"
+"Lollypop needs this to search for artwork.</small>"
+msgstr ""
 
 #: ../../data/SettingsDialog.ui.h:39
-msgid ""
-"<small>You need to enable \"Custom Search API\" \n"
-"and \"YouTube Data API\" for your project.</small>"
-msgstr "<small>U moet de \"aangepast zoeken-API\" en de \n\"YouTube-gegevens-API\" voor uw project inschakelen."
+msgid "<small>You need to enable \"Custom Search API\"  for your project.</small>"
+msgstr ""
 
-#: ../../data/SettingsDialog.ui.h:42
+#: ../../data/SettingsDialog.ui.h:41
 msgid "Web"
 msgstr "Internet"
 

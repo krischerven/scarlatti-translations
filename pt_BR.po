@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-23 14:15+0200\n"
-"PO-Revision-Date: 2017-09-23 12:16+0000\n"
+"POT-Creation-Date: 2017-09-25 11:41+0200\n"
+"PO-Revision-Date: 2017-09-25 09:41+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/gnumdk/lollypop/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -147,11 +147,11 @@ msgstr "Sinc. todos os álbuns (MTP)"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Encode to MP3(MTP)"
-msgstr ""
+msgstr "Converter para MP3 (MTP)"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Quality of MP3 encoding"
-msgstr ""
+msgstr "Qualidade da conversão MP3"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Normalize MP3(MTP)"
@@ -168,7 +168,7 @@ msgstr "Dividir tela de listas de reprodução"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:35
 msgid "Show list of genres"
-msgstr ""
+msgstr "Mostrar lista de gêneros"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show navigation list"
@@ -181,7 +181,7 @@ msgstr "Mostrar imagem de capa do artista"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Use dark GTK theme"
-msgstr ""
+msgstr "Usar tema GTK escuro"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Disable use of client side window decorations (headerbar)"
@@ -203,7 +203,7 @@ msgstr "Organização inteligente para artistas"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:43
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
-msgstr ""
+msgstr "Ex: The Beatles organizado como Beatles. É necessário reiniciar o banco de dados."
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Restore previous state"
@@ -219,7 +219,7 @@ msgstr "Desativar todas as notificações"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable notifications upon change of song"
-msgstr ""
+msgstr "Desativar notificações ao mudar de música"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Show track number from tags"
@@ -259,7 +259,7 @@ msgstr "Opções de economia de energia"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr ""
+msgstr "Ative isto para desativar o protetor de tela e entrar em suspensão enquanto o lollypop estiver sendo executado."
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Playback behaviour"
@@ -413,7 +413,7 @@ msgid "Random tracks"
 msgstr "Faixas aleatórias"
 
 #: ../../lollypop/playlists.py:286 ../../data/ArtistInfo.ui.h:5
-#: ../../data/SettingsDialog.ui.h:41 ../../data/ToolbarEnd.ui.h:13
+#: ../../data/SettingsDialog.ui.h:40 ../../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Pesquisa"
 
@@ -741,7 +741,7 @@ msgstr "Modificar rádio"
 #: ../../lollypop/widgets_rating.py:49
 #, python-format
 msgid "Song played %s times"
-msgstr ""
+msgstr "Música tocada %s vezes"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
@@ -1022,16 +1022,14 @@ msgstr "Libre.fm"
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
-"Lollypop needs this to search for artwork and music.</small>"
-msgstr "<b>O Google Web Services precisa de uma chave de API personalizada.</b>\n<small>Sem uma, a cota padrão de pesquisas se esgotará rápido.\nO Lollypop precisa dela para pesquisar imagens de capa e músicas.</small>"
+"Lollypop needs this to search for artwork.</small>"
+msgstr ""
 
 #: ../../data/SettingsDialog.ui.h:39
-msgid ""
-"<small>You need to enable \"Custom Search API\" \n"
-"and \"YouTube Data API\" for your project.</small>"
-msgstr "<small>Você precisa ativar o \"Custom Search API\"\ne o \"YouTube Data API\" no seu projeto.</small>"
+msgid "<small>You need to enable \"Custom Search API\"  for your project.</small>"
+msgstr ""
 
-#: ../../data/SettingsDialog.ui.h:42
+#: ../../data/SettingsDialog.ui.h:41
 msgid "Web"
 msgstr "Web"
 
