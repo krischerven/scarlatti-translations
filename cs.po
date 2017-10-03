@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-25 11:41+0200\n"
-"PO-Revision-Date: 2017-09-25 09:41+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-09-25 13:34+0000\n"
+"Last-Translator: fri\n"
 "Language-Team: Czech (http://www.transifex.com/gnumdk/lollypop/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -216,7 +216,7 @@ msgstr "Zakázat všechna oznámení"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable notifications upon change of song"
-msgstr ""
+msgstr "Zakázat oznámení po změně písně"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Show track number from tags"
@@ -252,11 +252,11 @@ msgstr "Režim míchání"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Possibilities for powermanagement options"
-msgstr ""
+msgstr "Možnosti pro volby správy energie"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr ""
+msgstr "Tato volba zabrání vyvolání spořiče obrazovky a uspání do paměti během přehrávání"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Playback behaviour"
@@ -298,7 +298,7 @@ msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
-msgstr ""
+msgstr "    - Odesílání informací o přehrávaných skladbách zakázáno\n    - Automatické stahování obalů zakázáno\n    - Zprávy o umělcích zakázány"
 
 #: ../../lollypop/application.py:590
 msgid "Lollypop: You need to install yelp."
@@ -433,7 +433,7 @@ msgstr "Přehrávání alb"
 
 #: ../../lollypop/pop_info.py:36
 msgid "Advanced artist information disabled"
-msgstr ""
+msgstr "Rozšířené údaje o umělci zakázány"
 
 #: ../../lollypop/pop_info.py:44
 msgid "WebKit support disabled"
@@ -741,7 +741,7 @@ msgstr "Upravit rádio"
 #: ../../lollypop/widgets_rating.py:49
 #, python-format
 msgid "Song played %s times"
-msgstr ""
+msgstr "Píseň hrána %s krát"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
@@ -752,7 +752,7 @@ msgstr "hudebník;skupina"
 
 #: ../../lollypop/window.py:331
 msgid "<span size='xx-large'><b>Import music</b></span>"
-msgstr ""
+msgstr "<span size='xx-large'><b>Zavést hudbu</b></span>"
 
 #: ../../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -830,7 +830,7 @@ msgstr "Potvrdit"
 msgid ""
 "<b>Lollypop uses the Google Custom Search API to search for images on the web.</b>\n"
 "<small>This API is limited, so it may not work with the default API key.</small>"
-msgstr ""
+msgstr "<b>Lollypop používá při hledání obrázků na internetu \"Vlastní hledání Google (Google Custom Search API)\".</b>\n<small>Toto API je omezeno, takže nemusí pracovat s výchozím klíčem API.</small>"
 
 #: ../../data/ArtworkSearch.ui.h:5 ../../data/SettingsDialog.ui.h:38
 msgid "API key"
@@ -838,7 +838,7 @@ msgstr "Klíč API"
 
 #: ../../data/ArtworkSearch.ui.h:6
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
-msgstr ""
+msgstr "<b>Vytvořte, prosím, vyhledávač pro vlastní hledání zde:</b>:"
 
 #: ../../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
@@ -864,7 +864,7 @@ msgstr "Uložit do sbírky"
 msgid ""
 "<b>Welcome to Lollypop!</b>\n"
 "Here you can enable network access, allowing Lollypop to fetch music information from the Web."
-msgstr ""
+msgstr "<b>Vítejte v Lollypopu!</b>\nZde můžete povolit přístup k síti, čímž Lollypopu dovolíte natahování údajů o hudbě z internetu."
 
 #: ../../data/FirstRunView.ui.h:3
 msgid "Enable network access:"
@@ -1023,11 +1023,11 @@ msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
-msgstr ""
+msgstr "<b>Internetové služby Google potřebují vlastní klíč API.</b>\n<small>Bez jednoho takového brzy dosáhnete výchozího přídělu...Lollypop jej potřebuje kvůli hledání umění k hudbě.</small>"
 
 #: ../../data/SettingsDialog.ui.h:39
 msgid "<small>You need to enable \"Custom Search API\"  for your project.</small>"
-msgstr ""
+msgstr "<small>Pro svůj projekt musíte povolit \"Vlastní vyhledávací API\".</small>"
 
 #: ../../data/SettingsDialog.ui.h:41
 msgid "Web"
