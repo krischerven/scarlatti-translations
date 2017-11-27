@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-25 11:41+0200\n"
-"PO-Revision-Date: 2017-09-25 10:12+0000\n"
-"Last-Translator: Moo\n"
+"POT-Creation-Date: 2017-11-27 14:59+0100\n"
+"PO-Revision-Date: 2017-11-27 14:00+0000\n"
+"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/gnumdk/lollypop/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -297,7 +297,7 @@ msgid ""
 "    - Artist information disabled"
 msgstr "    - \"Scrobbler\" paslauga išjungta\n    - Automatinis viršelių atsiuntimas išjungtas\n    - Atlikėjų informacija išjungta"
 
-#: ../../lollypop/application.py:590
+#: ../../lollypop/application.py:594
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: Jums reikia įdiegti yelp."
 
@@ -314,11 +314,11 @@ msgid "Reset artwork?"
 msgstr "Atstatyti iliustraciją?"
 
 #: ../../lollypop/collectionimporter.py:98
-#: ../../lollypop/collectionscanner.py:274
-#: ../../lollypop/database_albums.py:373
-#: ../../lollypop/database_artists.py:104 ../../lollypop/database_genres.py:70
-#: ../../lollypop/database_tracks.py:274 ../../lollypop/selectionlist.py:402
-#: ../../lollypop/selectionlist.py:415 ../../lollypop/tagreader.py:85
+#: ../../lollypop/collectionscanner.py:275
+#: ../../lollypop/database_albums.py:369
+#: ../../lollypop/database_artists.py:110 ../../lollypop/database_genres.py:70
+#: ../../lollypop/database_tracks.py:293 ../../lollypop/selectionlist.py:448
+#: ../../lollypop/selectionlist.py:461 ../../lollypop/tagreader.py:85
 #: ../../lollypop/tagreader.py:101 ../../lollypop/tagreader.py:117
 #: ../../lollypop/tagreader.py:165 ../../lollypop/tagreader.py:181
 #: ../../lollypop/tagreader.py:185 ../../lollypop/tagreader.py:195
@@ -326,15 +326,15 @@ msgstr "Atstatyti iliustraciją?"
 msgid "Unknown"
 msgstr "Nežinoma"
 
-#: ../../lollypop/collectionscanner.py:170
+#: ../../lollypop/collectionscanner.py:171
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop aptinka tuščią aplanką."
 
-#: ../../lollypop/collectionscanner.py:171
+#: ../../lollypop/collectionscanner.py:172
 msgid "Check your music settings."
 msgstr "Patikrinkite savo muzikos nustatymus."
 
-#: ../../lollypop/container.py:500 ../../lollypop/widgets_device.py:306
+#: ../../lollypop/container.py:503 ../../lollypop/widgets_device.py:306
 msgid "Compilations"
 msgstr "Rinkiniai"
 
@@ -353,17 +353,13 @@ msgstr "Groti"
 msgid "Volume"
 msgstr "Garsis"
 
-#: ../../lollypop/database_artists.py:97
+#: ../../lollypop/database_artists.py:103
 msgid "Many artists"
 msgstr "Daugybė atlikėjų"
 
 #: ../../lollypop/lastfm.py:23
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm tapatybės nustatymas išjungtas"
-
-#: ../../lollypop/lastfm.py:320
-msgid "Wrong Last.fm credentials"
-msgstr "Neteisingi Last.fm prisijungimo duomenys"
 
 #: ../../lollypop/notification.py:123 ../../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
@@ -386,27 +382,27 @@ msgstr "atlieka %s"
 msgid "by %s, from %s"
 msgstr "atlieka %s, albume %s"
 
-#: ../../lollypop/playlists.py:57
+#: ../../lollypop/playlists.py:54
 msgid "Loved tracks"
 msgstr "Pamėgti takeliai"
 
-#: ../../lollypop/playlists.py:278 ../../lollypop/selectionlist.py:305
+#: ../../lollypop/playlists.py:275 ../../lollypop/selectionlist.py:335
 msgid "Popular tracks"
 msgstr "Populiarūs takeliai"
 
-#: ../../lollypop/playlists.py:280 ../../lollypop/selectionlist.py:307
+#: ../../lollypop/playlists.py:277 ../../lollypop/selectionlist.py:337
 msgid "Recently played"
 msgstr "Paskiausiai groti"
 
-#: ../../lollypop/playlists.py:282 ../../lollypop/selectionlist.py:308
+#: ../../lollypop/playlists.py:279 ../../lollypop/selectionlist.py:338
 msgid "Never played"
 msgstr "Niekada negroti"
 
-#: ../../lollypop/playlists.py:284 ../../lollypop/selectionlist.py:309
+#: ../../lollypop/playlists.py:281 ../../lollypop/selectionlist.py:339
 msgid "Random tracks"
 msgstr "Atsitiktiniai takeliai"
 
-#: ../../lollypop/playlists.py:286 ../../data/ArtistInfo.ui.h:5
+#: ../../lollypop/playlists.py:283 ../../data/ArtistInfo.ui.h:5
 #: ../../data/SettingsDialog.ui.h:40 ../../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Paieška"
@@ -503,7 +499,7 @@ msgid "Queue"
 msgstr "Eilė"
 
 #: ../../lollypop/pop_menu.py:424 ../../lollypop/pop_menu.py:443
-#: ../../lollypop/selectionlist.py:291 ../../lollypop/widgets_device.py:124
+#: ../../lollypop/selectionlist.py:321 ../../lollypop/widgets_device.py:124
 #: ../../lollypop/widgets_playlist.py:545
 msgid "Playlists"
 msgstr "Grojaraščiai"
@@ -516,7 +512,7 @@ msgstr "Redaguoti"
 #. Translators: radio context
 #. Translators: artist context
 #: ../../lollypop/pop_radio.py:83 ../../lollypop/pop_tunein.py:197
-#: ../../lollypop/view_artist.py:369
+#: ../../lollypop/view_artist.py:378
 msgid "Add"
 msgstr "Pridėti"
 
@@ -525,7 +521,7 @@ msgstr "Pridėti"
 msgid "Modify"
 msgstr "Modifikuoti"
 
-#: ../../lollypop/pop_tunein.py:91 ../../lollypop/pop_tunein.py:381
+#: ../../lollypop/pop_tunein.py:91 ../../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
 msgstr "Nepavyksta prisijungti prie TuneIn…"
 
@@ -533,43 +529,47 @@ msgstr "Nepavyksta prisijungti prie TuneIn…"
 msgid "Please wait…"
 msgstr "Prašome palaukti…"
 
-#: ../../lollypop/pop_tunein.py:376 ../../lollypop/pop_tunein.py:378
+#: ../../lollypop/pop_tunein.py:394 ../../lollypop/pop_tunein.py:396
 msgid "No result…"
 msgstr "Nėra rezultatų…"
 
-#: ../../lollypop/selectionlist.py:285
+#: ../../lollypop/selectionlist.py:39
+msgid "Default on startup"
+msgstr ""
+
+#: ../../lollypop/selectionlist.py:315
 msgid "Popular albums"
 msgstr "Populiarūs albumai"
 
-#: ../../lollypop/selectionlist.py:287
+#: ../../lollypop/selectionlist.py:317
 msgid "Loved albums"
 msgstr "Pamėgti albumai"
 
-#: ../../lollypop/selectionlist.py:288
+#: ../../lollypop/selectionlist.py:318
 msgid "Recently added albums"
 msgstr "Paskiausiai pridėti albumai"
 
-#: ../../lollypop/selectionlist.py:289
+#: ../../lollypop/selectionlist.py:319
 msgid "Random albums"
 msgstr "Atsitiktiniai albumai"
 
-#: ../../lollypop/selectionlist.py:290
+#: ../../lollypop/selectionlist.py:320
 msgid "Never played albums"
 msgstr "Niekada negroti albumai"
 
-#: ../../lollypop/selectionlist.py:292
+#: ../../lollypop/selectionlist.py:322
 msgid "Radios"
 msgstr "Radijai"
 
-#: ../../lollypop/selectionlist.py:294
+#: ../../lollypop/selectionlist.py:324
 msgid "All albums"
 msgstr "Visi albumai"
 
-#: ../../lollypop/selectionlist.py:296
+#: ../../lollypop/selectionlist.py:326
 msgid "All artists"
 msgstr "Visi atlikėjai"
 
-#: ../../lollypop/selectionlist.py:310
+#: ../../lollypop/selectionlist.py:340
 msgid "Not in party"
 msgstr "Ne vakarėlyje"
 
@@ -602,7 +602,7 @@ msgstr[2] "%d takelių"
 msgid "Preferences"
 msgstr "Nuostatos"
 
-#: ../../lollypop/settings.py:688
+#: ../../lollypop/settings.py:685
 msgid "You need to install kid3-cli"
 msgstr "Jums reikia įdiegti kid3-cli"
 
@@ -625,7 +625,7 @@ msgstr "Grojami grojaraščiai"
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../../lollypop/utils.py:146
+#: ../../lollypop/utils.py:133
 msgid "The the"
 msgstr "The the"
 
@@ -634,7 +634,7 @@ msgid "Go back"
 msgstr "Grįžti atgal"
 
 #. Translators: artist context
-#: ../../lollypop/view_artist.py:363 ../../lollypop/widgets_album.py:297
+#: ../../lollypop/view_artist.py:372 ../../lollypop/widgets_album.py:297
 msgid "Remove"
 msgstr "Šalinti"
 
@@ -652,24 +652,24 @@ msgid "Cancel synchronization"
 msgstr "Atšaukti sinchronizaciją"
 
 #: ../../lollypop/view_playlists.py:207
-#: ../../lollypop/widgets_album_detailed.py:372
+#: ../../lollypop/widgets_album_detailed.py:371
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s val.  %s min."
 
 #: ../../lollypop/view_playlists.py:209
-#: ../../lollypop/widgets_album_detailed.py:374
+#: ../../lollypop/widgets_album_detailed.py:373
 #, python-format
 msgid "%s h"
 msgstr "%s val."
 
 #: ../../lollypop/view_playlists.py:211
-#: ../../lollypop/widgets_album_detailed.py:376
+#: ../../lollypop/widgets_album_detailed.py:375
 #, python-format
 msgid "%s m"
 msgstr "%s min."
 
-#: ../../lollypop/widgets_album_detailed.py:498
+#: ../../lollypop/widgets_album_detailed.py:497
 #, python-format
 msgid "Disc %s"
 msgstr "Diskas %s"
@@ -747,7 +747,7 @@ msgstr "Daina grota %s kartų"
 msgid "musician;band"
 msgstr "dainininkas;dainininkė;grupė"
 
-#: ../../lollypop/window.py:331
+#: ../../lollypop/window.py:410
 msgid "<span size='xx-large'><b>Import music</b></span>"
 msgstr "<span size='xx-large'><b>Importuoti muziką</b></span>"
 
