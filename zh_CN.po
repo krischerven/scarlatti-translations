@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-23 12:09+0100\n"
-"PO-Revision-Date: 2017-11-27 14:00+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/gnumdk/lollypop/"
-"language/zh_CN/)\n"
+"PO-Revision-Date: 2018-01-24 12:05+0000\n"
+"Last-Translator: bdfish <lipanXJ@gmail.com>\n"
+"Language-Team: Chinese (Simplified) "
+"<https://hosted.weblate.org/projects/gnumdk/lollypop/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
 msgid "Window size"
@@ -29,7 +30,7 @@ msgstr "窗口大小"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:2
 msgid "Window size (width and height)."
-msgstr "视窗大小(宽度和高度)"
+msgstr "窗口大小(宽度和高度)。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:3
 msgid "Window position"
@@ -61,7 +62,7 @@ msgstr "窗口最大化"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:10
 msgid "Window maximized state."
-msgstr "窗口最大化状态"
+msgstr "窗口最大化状态。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:11
 msgid "Enabled genres in party mode"
@@ -142,7 +143,7 @@ msgstr "界于-15和15之间"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Allow MTP syncing to USB disks"
-msgstr ""
+msgstr "允许通过MTP同步到USB设备"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Sync all albums(MTP)"
@@ -150,11 +151,11 @@ msgstr "同步所有专辑 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Encode to MP3(MTP)"
-msgstr ""
+msgstr "解码为 MP3（MTP）"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality of MP3 encoding"
-msgstr ""
+msgstr "MP3 编码器的质量"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -170,7 +171,7 @@ msgstr "分割播放列表视图"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show list of genres"
-msgstr ""
+msgstr "显示音乐类型列表"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Show navigation list"
@@ -182,7 +183,7 @@ msgstr "显示艺术家图片"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Use dark GTK theme"
-msgstr ""
+msgstr "使用深色GTK主题"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:40
 msgid "Disable use of client side window decorations (headerbar)"
@@ -214,11 +215,11 @@ msgstr "关闭MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable all notifications"
-msgstr ""
+msgstr "禁止所有通知"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Disable notifications upon change of song"
-msgstr ""
+msgstr "当切换歌曲时禁用通知"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:49
 msgid "Show track number from tags"
@@ -254,11 +255,11 @@ msgstr "随机模式"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "Possibilities for powermanagement options"
-msgstr ""
+msgstr "可能的电源管理选项"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr ""
+msgstr "在Lollypop录音时该选项会阻止屏幕保护程序和电脑挂起。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Playback behaviour"
@@ -300,6 +301,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
+"    -禁用Scrobbler\n"
+" -禁止自动下载封面\n"
+" -禁用艺术家信息"
 
 #: ../lollypop/art_widgets.py:70
 msgid "Select artwork"
@@ -424,7 +428,7 @@ msgstr "正在播放专辑"
 
 #: ../lollypop/pop_info.py:36
 msgid "Advanced artist information disabled"
-msgstr ""
+msgstr "禁用高级艺术家详情"
 
 #: ../lollypop/pop_info.py:44
 msgid "WebKit support disabled"
@@ -529,7 +533,7 @@ msgstr "请稍候……"
 
 #: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
 msgid "No result…"
-msgstr ""
+msgstr "无结果…"
 
 #: ../lollypop/selectionlist.py:39
 msgid "Default on startup"
@@ -553,7 +557,7 @@ msgstr "随机专辑"
 
 #: ../lollypop/selectionlist.py:321
 msgid "Never played albums"
-msgstr ""
+msgstr "永不播放专辑"
 
 #: ../lollypop/selectionlist.py:323
 msgid "Radios"
@@ -706,7 +710,7 @@ msgstr "没有找到该艺术家的信息"
 
 #: ../lollypop/widgets_playlist.py:578 ../lollypop/widgets_playlist.py:581
 msgid "New playlist "
-msgstr "新的播放列表"
+msgstr "新的播放列表 "
 
 #. Need a copy, segfault on EOS 3.1
 #: ../lollypop/widgets_playlist.py:687 ../lollypop/widgets_playlist.py:891
@@ -725,7 +729,7 @@ msgstr "更改广播电台"
 #: ../lollypop/widgets_rating.py:49
 #, python-format
 msgid "Song played %s times"
-msgstr ""
+msgstr "音乐播放了 %s 次"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
@@ -736,7 +740,7 @@ msgstr "音乐家；乐队"
 
 #: ../lollypop/window.py:410
 msgid "<span size='xx-large'><b>Import music</b></span>"
-msgstr ""
+msgstr "<span size='xx-large'><b>导入音乐</b></span>"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -815,6 +819,8 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</"
 "small>"
 msgstr ""
+"<b>Lollypop使用自定义的Google搜索API来从网上搜索图片</b>\n"
+"<small>该API受到限制，可能无法和默认API密钥一起使用</small>"
 
 #: ../data/ArtworkSearch.ui.h:5 ../data/SettingsDialog.ui.h:38
 msgid "API key"
@@ -822,7 +828,7 @@ msgstr "API 密钥"
 
 #: ../data/ArtworkSearch.ui.h:6
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
-msgstr ""
+msgstr "<b>请在这里创建一个“自定义搜索引擎”</b>"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
@@ -830,7 +836,7 @@ msgstr "同步到您的设备"
 
 #: ../data/DeviceManagerView.ui.h:2
 msgid "This will remove some files on your device!"
-msgstr "这将从你的设备上删除文件！"
+msgstr "这将删除你设备上的一些文件！"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
@@ -850,6 +856,8 @@ msgid ""
 "Here you can enable network access, allowing Lollypop to fetch music "
 "information from the Web."
 msgstr ""
+"<b>欢迎来到 Lollypop!</b>\n"
+"在这里你可以为Lollypop启用网络连接，让其在网络上抓取音乐信息。"
 
 #: ../data/FirstRunView.ui.h:3
 msgid "Enable network access:"
@@ -1001,7 +1009,7 @@ msgstr "您需要安装pylast和gi secret"
 
 #: ../data/SettingsDialog.ui.h:34
 msgid "Libre.fm"
-msgstr ""
+msgstr "Libre.fm"
 
 #: ../data/SettingsDialog.ui.h:35
 msgid ""
@@ -1009,11 +1017,14 @@ msgid ""
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
+"<b>Google网络搜索服务需要API密钥</b>\n"
+"<small>否则你将很快用完默认次数\n"
+"Lollypop需要这个来搜索插图</small>"
 
 #: ../data/SettingsDialog.ui.h:39
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
-msgstr ""
+msgstr "<small>你需要为你的项目启用“自定义搜索API\"</small>"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Web"
