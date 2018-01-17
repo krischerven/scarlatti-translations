@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-23 12:08+0100\n"
-"PO-Revision-Date: 2017-11-27 14:00+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/gnumdk/lollypop/language/"
-"ca/)\n"
+"PO-Revision-Date: 2018-01-17 11:03+0000\n"
+"Last-Translator: ferranroig <forums@ferranroig.com>\n"
+"Language-Team: Catalan "
+"<https://hosted.weblate.org/projects/gnumdk/lollypop/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
 msgid "Window size"
@@ -144,7 +145,7 @@ msgstr "Entre -15 i 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Allow MTP syncing to USB disks"
-msgstr ""
+msgstr "Permet sincronització MTP amb discs USB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Sync all albums(MTP)"
@@ -152,11 +153,11 @@ msgstr "Sincronitza tots el àlbums (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Encode to MP3(MTP)"
-msgstr ""
+msgstr "Codifica a MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality of MP3 encoding"
-msgstr ""
+msgstr "Qualitat de la codificació MP3"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -172,7 +173,7 @@ msgstr "Divideix vista de la llista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show list of genres"
-msgstr ""
+msgstr "Mostra la llista de gèneres"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Show navigation list"
@@ -184,7 +185,7 @@ msgstr "Mostra il·lustracions de l'artista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Use dark GTK theme"
-msgstr ""
+msgstr "Tema GTK fosc"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:40
 msgid "Disable use of client side window decorations (headerbar)"
@@ -207,6 +208,8 @@ msgstr "Ordre intel·ligent pels artistes"
 #: ../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
+"Ex: The Beatles s'ordena com Beatles. És necessari regenerar la base de "
+"dades."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Restore previous state"
@@ -218,11 +221,11 @@ msgstr "Desactiva MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable all notifications"
-msgstr ""
+msgstr "Desactiva totes les notoficacions"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Disable notifications upon change of song"
-msgstr ""
+msgstr "Desactiva les notificacions quan canvii de cançó"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:49
 msgid "Show track number from tags"
@@ -250,7 +253,7 @@ msgstr "Durada de la mescla"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:55
 msgid "Restart current track on previous"
-msgstr ""
+msgstr "Ves al inici de la pista al clicar 'Anterior'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Shuffle mode"
@@ -258,11 +261,12 @@ msgstr "Mode aleatori"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "Possibilities for powermanagement options"
-msgstr ""
+msgstr "Possibilitats per a les opcions d'administració d'energia"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
+"Aquesta opció desactiva el salvapantalles  i el suspèn mentre està sonant."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Playback behaviour"
@@ -306,6 +310,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
+"    - Scrobbler desactivat\n"
+"    - Descàrrega de caràtules desactivada\n"
+"    - Informació de l'artista desactivada"
 
 #: ../lollypop/art_widgets.py:70
 msgid "Select artwork"
@@ -430,7 +437,7 @@ msgstr "Reproduint àlbums"
 
 #: ../lollypop/pop_info.py:36
 msgid "Advanced artist information disabled"
-msgstr ""
+msgstr "Informació extensa de l'artista desactivada"
 
 #: ../lollypop/pop_info.py:44
 msgid "WebKit support disabled"
@@ -535,11 +542,11 @@ msgstr "Espereu..."
 
 #: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
 msgid "No result…"
-msgstr ""
+msgstr "Cap resultat…"
 
 #: ../lollypop/selectionlist.py:39
 msgid "Default on startup"
-msgstr ""
+msgstr "Per defecte a l'inici"
 
 #: ../lollypop/selectionlist.py:316
 msgid "Popular albums"
@@ -559,7 +566,7 @@ msgstr "Àlbums a l'atzar"
 
 #: ../lollypop/selectionlist.py:321
 msgid "Never played albums"
-msgstr ""
+msgstr "Àlbums mai reproduïts"
 
 #: ../lollypop/selectionlist.py:323
 msgid "Radios"
@@ -734,7 +741,7 @@ msgstr "Modifica ràdio"
 #: ../lollypop/widgets_rating.py:49
 #, python-format
 msgid "Song played %s times"
-msgstr ""
+msgstr "Reproduït %s cops"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
@@ -745,7 +752,7 @@ msgstr "músic;banda"
 
 #: ../lollypop/window.py:410
 msgid "<span size='xx-large'><b>Import music</b></span>"
-msgstr ""
+msgstr "<span size='xx-large'><b>Importa música</b></span>"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -802,7 +809,7 @@ msgstr "Foto"
 #: ../data/ArtistView.ui.h:3
 msgctxt "artist context"
 msgid "Add albums"
-msgstr ""
+msgstr "Afegeix àlbum"
 
 #: ../data/ArtistView.ui.h:4 ../data/LastfmPopover.ui.h:1
 msgid "Similar artists"
@@ -824,6 +831,10 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</"
 "small>"
 msgstr ""
+"<b>Lollypop utilitza l'API Google Custom Search per cercar imatges "
+"d'internet.</b>\n"
+"<small>Aquesta  API està limitada, de manera que pot ser que no funcioni amb "
+"la clau API predeterminada.</small>"
 
 #: ../data/ArtworkSearch.ui.h:5 ../data/SettingsDialog.ui.h:38
 msgid "API key"
@@ -831,7 +842,7 @@ msgstr "Clau API"
 
 #: ../data/ArtworkSearch.ui.h:6
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
-msgstr ""
+msgstr "<b>Creeu des d'aquí un \"Custom Search Engine\"</b>:"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
@@ -859,10 +870,13 @@ msgid ""
 "Here you can enable network access, allowing Lollypop to fetch music "
 "information from the Web."
 msgstr ""
+"<b>Lollypop us dóna la benvinguda!</b>\n"
+"Aquí podeu permetre al Lollypop accedir a la xarxa per obtenir informació de "
+"la música."
 
 #: ../data/FirstRunView.ui.h:3
 msgid "Enable network access:"
-msgstr ""
+msgstr "Activar accés a la xarxa:"
 
 #: ../data/PlaylistsManagerView.ui.h:1
 msgid "New playlist"
@@ -1010,7 +1024,7 @@ msgstr "Heu d'instal·lar \"pylast\" i \"gi secret\""
 
 #: ../data/SettingsDialog.ui.h:34
 msgid "Libre.fm"
-msgstr ""
+msgstr "Libre.fm"
 
 #: ../data/SettingsDialog.ui.h:35
 msgid ""
@@ -1018,11 +1032,15 @@ msgid ""
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
+"<b>Google Web Services necessita una clau API.</b>\n"
+"<small>En cas contrari, aviat arribareu a la quota per defecte…\n"
+"Lollypop la necessita per cercar imatges.</small>"
 
 #: ../data/SettingsDialog.ui.h:39
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
+"<small>Heu d'activar \"Custom Search API\"  del vostre projecte.</small>"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Web"
