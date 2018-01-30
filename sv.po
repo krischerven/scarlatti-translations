@@ -11,11 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-23 12:09+0100\n"
+"POT-Creation-Date: 2018-01-30 22:58+0100\n"
 "PO-Revision-Date: 2017-12-23 14:53+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish "
-"<https://hosted.weblate.org/projects/gnumdk/lollypop/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
+"sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,54 +56,62 @@ msgid "Save artwork/popularity in tags"
 msgstr "Spara bildmaterial/popularitet i taggar"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
+msgid "Preserve the cover’s aspect ratio"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:10
 msgid "Window maximized"
 msgstr "Fönster maximerat"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:10
+#: ../data/org.gnome.Lollypop.gschema.xml.h:11
 msgid "Window maximized state."
 msgstr "Maximerat fönstertillstånd."
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:11
+#: ../data/org.gnome.Lollypop.gschema.xml.h:12
 msgid "Enabled genres in party mode"
 msgstr "Aktiverade genrer i partyläge"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:12
+#: ../data/org.gnome.Lollypop.gschema.xml.h:13
 msgid "ID for genres."
 msgstr "ID för genrer."
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:13
+#: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music URI"
 msgstr "Musik URI"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:14
+#: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Använd XDG_MUSIC_DIR då tom"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:15
+#: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Använd Libre.fm istället för Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:16
+#: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
 msgstr "Last.fm-inloggning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:17
+#: ../data/org.gnome.Lollypop.gschema.xml.h:18
+msgid "ListenBrainz user token"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:19
 msgid "Google Custom Search API key"
 msgstr "Google Custom Search API-nyckel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:18
+#: ../data/org.gnome.Lollypop.gschema.xml.h:20
 msgid "Favorite tag editor"
 msgstr "Föredragen taggredigerare"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:19
+#: ../data/org.gnome.Lollypop.gschema.xml.h:21
 msgid "INTERNAL"
 msgstr "INTERN"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:20
+#: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid "Audio output preview on track hover"
 msgstr "Förhandsgranskning av ljudutmatning vid hovring över spår"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:21
+#: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
@@ -111,165 +119,165 @@ msgstr ""
 "Endast PulseAudio. Exempel: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Kommando för att få utgångar: $ pacmd list-sinks|grep 'name:'"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:22
+#: ../data/org.gnome.Lollypop.gschema.xml.h:24
 msgid "Favorite cover file"
 msgstr "Favoritfil för omslag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:23
+#: ../data/org.gnome.Lollypop.gschema.xml.h:25
 msgid "Restart needed"
 msgstr "Omstart krävs"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:24
+#: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid "Database version"
 msgstr "Databasversion"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:25
+#: ../data/org.gnome.Lollypop.gschema.xml.h:27
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Återställning av detta värde kommer att nollställa databasen, populära album "
 "kommer att återskapas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:26 ../data/SettingsDialog.ui.h:7
+#: ../data/org.gnome.Lollypop.gschema.xml.h:28 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
 msgstr "Storlek på omslagsbilder för album"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:27
+#: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Replay gain value in dB"
 msgstr "Replay gain-värde i dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:28
+#: ../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Between -15 and 15"
 msgstr "Mellan -15 och 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:29
+#: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Allow MTP syncing to USB disks"
 msgstr "Tillåt MTP-synkronisering till USB-diskar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:30
+#: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Sync all albums(MTP)"
 msgstr "Synka alla album(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:31
+#: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Encode to MP3(MTP)"
 msgstr "Koda till MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:32
+#: ../data/org.gnome.Lollypop.gschema.xml.h:34
 msgid "Quality of MP3 encoding"
 msgstr "Kvalitet på MP3-kodning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:33
+#: ../data/org.gnome.Lollypop.gschema.xml.h:35
 msgid "Normalize MP3(MTP)"
 msgstr "Normalisera MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:34 ../data/SettingsDialog.ui.h:16
+#: ../data/org.gnome.Lollypop.gschema.xml.h:36 ../data/SettingsDialog.ui.h:16
 msgid "Auto update music"
 msgstr "Uppdatera automatiskt musik"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:35
+#: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Split playlists view"
 msgstr "Dela spellistevy"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:36
+#: ../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Show list of genres"
 msgstr "Visa lista över genrer"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:37
+#: ../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Show navigation list"
 msgstr "Visa navigationslista"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:38 ../data/SettingsDialog.ui.h:8
+#: ../data/org.gnome.Lollypop.gschema.xml.h:40 ../data/SettingsDialog.ui.h:8
 msgid "Show artist artwork"
 msgstr "Visa bildmaterial för artist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:39
+#: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Use dark GTK theme"
 msgstr "Använd mörkt GTK-tema"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:40
+#: ../data/org.gnome.Lollypop.gschema.xml.h:42
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Inaktivera användning av fönsterdekorationer på klientsida (rubrikrad)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:41 ../data/SettingsDialog.ui.h:6
+#: ../data/org.gnome.Lollypop.gschema.xml.h:43 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
 msgstr "Visa samlingsalbum i albumvy"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:17
+#: ../data/org.gnome.Lollypop.gschema.xml.h:44 ../data/SettingsDialog.ui.h:17
 msgid "Continue playback when closed"
 msgstr "Fortsätt uppspelning vid stängning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:43
+#: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Smart sort for artist"
 msgstr "Smart sortering av artister"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:44
+#: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 "T.ex: The Beatles sorteras som Beatles. Nollställning av databasen krävs."
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:45
+#: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Restore previous state"
 msgstr "Återställ föregående tillstånd"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:46
+#: ../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Disable MPRIS"
 msgstr "Inaktivera MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:47
+#: ../data/org.gnome.Lollypop.gschema.xml.h:49
 msgid "Disable all notifications"
 msgstr "Inaktivera alla aviseringar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:48
+#: ../data/org.gnome.Lollypop.gschema.xml.h:50
 msgid "Disable notifications upon change of song"
 msgstr "Inaktivera aviseringar vid låtbyte"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:49
+#: ../data/org.gnome.Lollypop.gschema.xml.h:51
 msgid "Show track number from tags"
 msgstr "Visa spårnummer från taggar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:50
+#: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "JPG cover quality"
 msgstr "JPG omslagskvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:51
+#: ../data/org.gnome.Lollypop.gschema.xml.h:53
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:52
+#: ../data/org.gnome.Lollypop.gschema.xml.h:54
 msgid "Mix songs"
 msgstr "Mixa låtar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:53
+#: ../data/org.gnome.Lollypop.gschema.xml.h:55
 msgid "Only mix songs in party mode"
 msgstr "Mixa endast låtar i partyläge"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:54
+#: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Mix duration"
 msgstr "Mixlängd"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:55
+#: ../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "Restart current track on previous"
 msgstr "Starta om aktuellt spår på föregående"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:56
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Shuffle mode"
 msgstr "Blandningsläge"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:57
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Possibilities for powermanagement options"
 msgstr "Möjligheter för energisparfunktioner"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:58
+#: ../data/org.gnome.Lollypop.gschema.xml.h:60
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Detta alternativ hindrar skärmsläckare och vänteläge under uppspelning med "
 "Lollypop."
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:59
+#: ../data/org.gnome.Lollypop.gschema.xml.h:61
 msgid "Playback behaviour"
 msgstr "Uppspelningsbeteende"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:60 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:62 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
 msgstr "Sortera album efter"
 
@@ -296,6 +304,10 @@ msgid "Flattr"
 msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:68 ../data/AboutDialog.ui.in.h:7
+msgid "Liberapay"
+msgstr ""
+
+#: ../data/AboutDialog.ui.in:78 ../data/AboutDialog.ui.in.h:8
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -321,26 +333,26 @@ msgstr "Låg kvalitet, saknar API-nyckel…"
 msgid "Reset artwork?"
 msgstr "Återställ bildmaterial?"
 
-#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:275
-#: ../lollypop/database_albums.py:369 ../lollypop/database_artists.py:110
-#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:293
+#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:281
+#: ../lollypop/database_albums.py:378 ../lollypop/database_artists.py:110
+#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:309
 #: ../lollypop/selectionlist.py:453 ../lollypop/selectionlist.py:466
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
-#: ../lollypop/tagreader.py:117 ../lollypop/tagreader.py:165
-#: ../lollypop/tagreader.py:181 ../lollypop/tagreader.py:185
-#: ../lollypop/tagreader.py:195 ../lollypop/tagreader.py:203
+#: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
+#: ../lollypop/tagreader.py:204 ../lollypop/tagreader.py:208
+#: ../lollypop/tagreader.py:218 ../lollypop/tagreader.py:226
 msgid "Unknown"
 msgstr "Okänd"
 
-#: ../lollypop/collectionscanner.py:171
+#: ../lollypop/collectionscanner.py:175
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop upptäcker en tom mapp."
 
-#: ../lollypop/collectionscanner.py:172
+#: ../lollypop/collectionscanner.py:176
 msgid "Check your music settings."
 msgstr "Kontrollera dina musikinställningar."
 
-#: ../lollypop/container.py:499 ../lollypop/widgets_device.py:306
+#: ../lollypop/container.py:515 ../lollypop/widgets_device.py:306
 msgid "Compilations"
 msgstr "Samlingsalbum"
 
@@ -355,7 +367,7 @@ msgstr "Pausa"
 msgid "Play"
 msgstr "Spela upp"
 
-#: ../lollypop/controllers.py:196
+#: ../lollypop/controllers.py:204
 msgid "Volume"
 msgstr "Volym"
 
@@ -409,7 +421,7 @@ msgid "Random tracks"
 msgstr "Slumpmässiga spår"
 
 #: ../lollypop/playlists.py:283 ../data/ArtistInfo.ui.h:5
-#: ../data/SettingsDialog.ui.h:40 ../data/ToolbarEnd.ui.h:13
+#: ../data/SettingsDialog.ui.h:45 ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Sökning"
 
@@ -426,7 +438,7 @@ msgstr "Rensa album"
 msgid "Go to current track"
 msgstr "Gå till aktuellt spår"
 
-#: ../lollypop/pop_albums.py:302 ../lollypop/toolbar_end.py:436
+#: ../lollypop/pop_albums.py:302 ../lollypop/toolbar_end.py:447
 msgid "Playing albums"
 msgstr "Album som spelas"
 
@@ -438,12 +450,12 @@ msgstr "Avancerad artistinformation inaktiverad"
 msgid "WebKit support disabled"
 msgstr "Stöd för WebKit inaktiverat"
 
-#: ../lollypop/pop_info.py:263 ../lollypop/view_artist_albums.py:76
+#: ../lollypop/pop_info.py:262 ../lollypop/view_artist_albums.py:76
 #: ../lollypop/view_artist.py:60 ../lollypop/widgets_info.py:123
 msgid "Network access disabled"
 msgstr "Nätverksåtkomst inaktiverat"
 
-#: ../lollypop/pop_info.py:271
+#: ../lollypop/pop_info.py:270
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Ingen sångtext hittades, vänligen installera gir1.2-webkit2-4.0"
 
@@ -451,7 +463,7 @@ msgstr "Ingen sångtext hittades, vänligen installera gir1.2-webkit2-4.0"
 msgid "Show albums from artist"
 msgstr "Visa alla album av artist"
 
-#: ../lollypop/pop_menu.py:128 ../lollypop/widgets_context.py:114
+#: ../lollypop/pop_menu.py:128 ../lollypop/widgets_context.py:123
 #: ../lollypop/widgets_indicator.py:111 ../data/SearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Lägg till i kö"
@@ -464,7 +476,7 @@ msgstr "Nästa spår"
 msgid "Next track"
 msgstr "Nästa spår"
 
-#: ../lollypop/pop_menu.py:139 ../lollypop/widgets_context.py:111
+#: ../lollypop/pop_menu.py:139 ../lollypop/widgets_context.py:120
 #: ../lollypop/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Ta bort från kö"
@@ -491,26 +503,26 @@ msgstr "Ta bort från ”%s”"
 msgid "Add to \"%s\""
 msgstr "Lägg till i ”%s”"
 
-#: ../lollypop/pop_menu.py:372 ../lollypop/widgets_context.py:97
+#: ../lollypop/pop_menu.py:381 ../lollypop/widgets_context.py:106
 msgid "Modify information"
 msgstr "Ändra information"
 
-#: ../lollypop/pop_menu.py:420 ../data/SettingsDialog.ui.h:10
+#: ../lollypop/pop_menu.py:431 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Artist"
 
-#: ../lollypop/pop_menu.py:422 ../lollypop/pop_menu.py:441
-#: ../lollypop/toolbar_end.py:432 ../data/QueuePopover.ui.h:2
+#: ../lollypop/pop_menu.py:433 ../lollypop/pop_menu.py:452
+#: ../lollypop/toolbar_end.py:443 ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Kö"
 
-#: ../lollypop/pop_menu.py:424 ../lollypop/pop_menu.py:443
+#: ../lollypop/pop_menu.py:435 ../lollypop/pop_menu.py:454
 #: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:124
-#: ../lollypop/widgets_playlist.py:545
+#: ../lollypop/widgets_playlist.py:547
 msgid "Playlists"
 msgstr "Spellistor"
 
-#: ../lollypop/pop_menu.py:426 ../lollypop/pop_menu.py:445
+#: ../lollypop/pop_menu.py:437 ../lollypop/pop_menu.py:456
 #: ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Redigera"
@@ -518,7 +530,7 @@ msgstr "Redigera"
 #. Translators: radio context
 #. Translators: artist context
 #: ../lollypop/pop_radio.py:83 ../lollypop/pop_tunein.py:197
-#: ../lollypop/view_artist.py:378
+#: ../lollypop/view_artist.py:391
 msgid "Add"
 msgstr "Lägg till"
 
@@ -527,7 +539,7 @@ msgstr "Lägg till"
 msgid "Modify"
 msgstr "Modifiera"
 
-#: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:399
+#: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:400
 msgid "Can't connect to TuneIn…"
 msgstr "Kan inte ansluta till TuneIn…"
 
@@ -535,7 +547,7 @@ msgstr "Kan inte ansluta till TuneIn…"
 msgid "Please wait…"
 msgstr "Vänligen vänta…"
 
-#: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
+#: ../lollypop/pop_tunein.py:395 ../lollypop/pop_tunein.py:397
 msgid "No result…"
 msgstr "Inga resultat…"
 
@@ -605,7 +617,7 @@ msgstr[1] "%d spår"
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: ../lollypop/settings.py:685
+#: ../lollypop/settings.py:713
 msgid "You need to install kid3-cli"
 msgstr "Du måste installera kid3-cli"
 
@@ -617,11 +629,11 @@ msgstr "Populära"
 msgid "Recently added"
 msgstr "Nyligen tillagda"
 
-#: ../lollypop/toolbar_end.py:430
+#: ../lollypop/toolbar_end.py:441
 msgid "External tracks"
 msgstr "Externa spår"
 
-#: ../lollypop/toolbar_end.py:434
+#: ../lollypop/toolbar_end.py:445
 msgid "Playing playlists"
 msgstr "Spellistor som spelas"
 
@@ -637,7 +649,7 @@ msgid "Go back"
 msgstr "Gå bakåt"
 
 #. Translators: artist context
-#: ../lollypop/view_artist.py:372 ../lollypop/widgets_album.py:297
+#: ../lollypop/view_artist.py:385 ../lollypop/widgets_album.py:297
 msgid "Remove"
 msgstr "Ta bort"
 
@@ -654,22 +666,22 @@ msgstr "Synkronisera %s"
 msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
 
-#: ../lollypop/view_playlists.py:207 ../lollypop/widgets_album_detailed.py:371
+#: ../lollypop/view_playlists.py:207 ../lollypop/widgets_album_detailed.py:382
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:209 ../lollypop/widgets_album_detailed.py:373
+#: ../lollypop/view_playlists.py:209 ../lollypop/widgets_album_detailed.py:384
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:211 ../lollypop/widgets_album_detailed.py:375
+#: ../lollypop/view_playlists.py:211 ../lollypop/widgets_album_detailed.py:386
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/widgets_album_detailed.py:497
+#: ../lollypop/widgets_album_detailed.py:512
 #, python-format
 msgid "Disc %s"
 msgstr "Skiva %s"
@@ -686,7 +698,7 @@ msgstr "Spela album"
 msgid "Change artwork"
 msgstr "Ändra bildmaterial"
 
-#: ../lollypop/widgets_context.py:103 ../data/SearchRow.ui.h:1
+#: ../lollypop/widgets_context.py:112 ../data/SearchRow.ui.h:1
 msgid "Add to playlist"
 msgstr "Lägg till i spellista"
 
@@ -715,17 +727,17 @@ msgstr "Synkade album"
 msgid "No information for this artist"
 msgstr "Ingen information för denna artist"
 
-#: ../lollypop/widgets_playlist.py:578 ../lollypop/widgets_playlist.py:581
+#: ../lollypop/widgets_playlist.py:580 ../lollypop/widgets_playlist.py:583
 msgid "New playlist "
 msgstr "Ny spellista "
 
 #. Need a copy, segfault on EOS 3.1
-#: ../lollypop/widgets_playlist.py:687 ../lollypop/widgets_playlist.py:891
+#: ../lollypop/widgets_playlist.py:689 ../lollypop/widgets_playlist.py:893
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Ta bort ”%s”?"
 
-#: ../lollypop/widgets_playlist.py:899
+#: ../lollypop/widgets_playlist.py:901
 msgid "Remove these tracks?"
 msgstr "Ta bort dessa spår?"
 
@@ -745,7 +757,7 @@ msgstr "Låt spelad %s gånger"
 msgid "musician;band"
 msgstr "musiker;band"
 
-#: ../lollypop/window.py:410
+#: ../lollypop/window.py:408
 msgid "<span size='xx-large'><b>Import music</b></span>"
 msgstr "<span size='xx-large'><b>Importera musik</b></span>"
 
@@ -758,22 +770,18 @@ msgid "_Fullscreen"
 msgstr "_Helskärm"
 
 #: ../data/Appmenu.ui.h:3
-msgid "_Network access"
-msgstr "_Nätverksåtkomst"
-
-#: ../data/Appmenu.ui.h:4
 msgid "_Preferences"
 msgstr "_Inställningar"
 
-#: ../data/Appmenu.ui.h:5
+#: ../data/Appmenu.ui.h:4
 msgid "_Keyboard Shortcuts"
 msgstr "_Tangentbordsgenvägar"
 
-#: ../data/Appmenu.ui.h:6
+#: ../data/Appmenu.ui.h:5
 msgid "_About"
 msgstr "_Om"
 
-#: ../data/Appmenu.ui.h:7
+#: ../data/Appmenu.ui.h:6
 msgid "_Quit"
 msgstr "A_vsluta"
 
@@ -815,7 +823,7 @@ msgid "Select a local file"
 msgstr "Välj en lokal fil"
 
 #: ../data/ArtworkSearch.ui.h:2 ../data/PlaylistEditWidget.ui.h:1
-#: ../data/PlaylistsManagerWidget.ui.h:1 ../data/SettingsDialog.ui.h:26
+#: ../data/PlaylistsManagerWidget.ui.h:1 ../data/SettingsDialog.ui.h:27
 msgid "Confirm"
 msgstr "Bekräfta"
 
@@ -831,7 +839,7 @@ msgstr ""
 "<small>Detta API är begränsat, därför fungerar möjligen inte standard-API-"
 "nyckeln.</small>"
 
-#: ../data/ArtworkSearch.ui.h:5 ../data/SettingsDialog.ui.h:38
+#: ../data/ArtworkSearch.ui.h:5 ../data/SettingsDialog.ui.h:43
 msgid "API key"
 msgstr "API-nyckel"
 
@@ -982,46 +990,67 @@ msgid "No audio device"
 msgstr "Ingen ljudenhet"
 
 #: ../data/SettingsDialog.ui.h:24
+#, fuzzy
+msgid "Enable network access"
+msgstr "Aktivera nätverksbehörighet:"
+
+#: ../data/SettingsDialog.ui.h:25
 msgid "Configure Lollypop behaviour"
 msgstr "Konfigurera beteende för Lollypop"
 
-#: ../data/SettingsDialog.ui.h:25
+#: ../data/SettingsDialog.ui.h:26
 msgid "Behaviour"
 msgstr "Beteende"
 
-#: ../data/SettingsDialog.ui.h:27
+#: ../data/SettingsDialog.ui.h:28
 msgid "Reset database"
 msgstr "Återställ databas"
 
-#: ../data/SettingsDialog.ui.h:28
+#: ../data/SettingsDialog.ui.h:29
 msgid "Select music folders"
 msgstr "Välj musikmappar"
 
-#: ../data/SettingsDialog.ui.h:29
+#: ../data/SettingsDialog.ui.h:30
 msgid "Music"
 msgstr "Musik"
 
-#: ../data/SettingsDialog.ui.h:30
+#: ../data/SettingsDialog.ui.h:31
 msgid "Login:"
 msgstr "Inloggning:"
 
-#: ../data/SettingsDialog.ui.h:31
+#: ../data/SettingsDialog.ui.h:32
 msgid "Password:"
 msgstr "Lösenord:"
 
-#: ../data/SettingsDialog.ui.h:32
+#: ../data/SettingsDialog.ui.h:33
 msgid "Connect"
 msgstr "Anslut"
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:34
 msgid "You need to install pylast and gi secret"
 msgstr "Du måste installera pylast och gi secret"
 
-#: ../data/SettingsDialog.ui.h:34
+#: ../data/SettingsDialog.ui.h:35
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:36
+msgid ""
+"<b>ListenBrainz user token</b>\n"
+"<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
+"token below. You can see your user token in your <a href=\"https://"
+"listenbrainz.org/profile/\">user profile</a>.</small>"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:38
+msgid "User token"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:39
+msgid "ListenBrainz"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:40
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -1031,13 +1060,13 @@ msgstr ""
 "<small>Du kommer annars snart att nå standardkvoten...\n"
 "Lollypop behöver detta för att söka efter bildmaterial.</small>"
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:44
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 "<small>Du måste aktivera \"Custom Search API\" för ditt projekt.</small>"
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:46
 msgid "Web"
 msgstr "Webb"
 
@@ -1202,6 +1231,9 @@ msgstr ""
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
 msgstr "Gå hem"
+
+#~ msgid "_Network access"
+#~ msgstr "_Nätverksåtkomst"
 
 #~ msgid "Lollypop: You need to install yelp."
 #~ msgstr "Lollypop: Du måste installera yelp."
