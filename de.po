@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-23 12:08+0100\n"
-"PO-Revision-Date: 2017-12-26 17:13+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2018-01-30 21:56+0000\n"
+"Last-Translator: Philipp Wolfer <ph.wolfer@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/gnumdk/lollypop/de/>\n"
 "Language: de\n"
@@ -116,8 +116,8 @@ msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
-"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
-"Command to get outputs: $ pacmd list-sinks|grep 'name:'"
+"Nur PulseAudio. Beispiel: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"Befehl, um Ausgabe zu sehen: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid "Favorite cover file"
@@ -125,7 +125,7 @@ msgstr "Bevorzugte Cover-Datei"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Restart needed"
-msgstr "Neustart nötig"
+msgstr "Neustart erforderlich"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:24
 msgid "Database version"
@@ -136,7 +136,7 @@ msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Zurücksetzen dieses Wertes wird die Datenbank zurücksetzen. Albumpopularität "
-"wird erhalten."
+"bleibt erhalten."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -160,15 +160,15 @@ msgstr "Alle Alben synchronisieren(MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Encode to MP3(MTP)"
-msgstr "Als MP3 kodieren (MTP)."
+msgstr "Als MP3 kodieren (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality of MP3 encoding"
-msgstr "Qualität der MP3-Kodierung."
+msgstr "Qualität der MP3-Kodierung"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
-msgstr " MP3(MTP) normalisieren"
+msgstr "MP3 (MTP) normalisieren"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:34 ../data/SettingsDialog.ui.h:16
 msgid "Auto update music"
@@ -294,7 +294,9 @@ msgstr "Besuche die Lollypop-Webseite"
 #: ../data/AboutDialog.ui.in:18 ../data/AboutDialog.ui.in.h:4
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+msgstr ""
+"Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
+"Philipp Wolfer <ph.wolfer@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:51 ../data/AboutDialog.ui.in.h:5
 msgid "Donations:"
@@ -314,9 +316,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
-"- Scrobbler deaktiviert\n"
-"- Automatischer Albencover-Download deaktiviert\n"
-"- Künstlerinfos deaktiviert"
+"    - Scrobbler deaktiviert\n"
+"    - Automatischer Albencover-Download deaktiviert\n"
+"    - Künstlerinfos deaktiviert"
 
 #: ../lollypop/art_widgets.py:70
 msgid "Select artwork"
@@ -538,15 +540,15 @@ msgstr "Ändern"
 
 #: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
-msgstr "Kann nicht mit TuneIn verbinden... "
+msgstr "Kann nicht mit TuneIn verbinden…"
 
 #: ../lollypop/pop_tunein.py:98 ../data/RadioPopover.ui.h:1
 msgid "Please wait…"
-msgstr "Bitte warten..."
+msgstr "Bitte warten…"
 
 #: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
 msgid "No result…"
-msgstr "Nichts gefunden..."
+msgstr "Nichts gefunden…"
 
 #: ../lollypop/selectionlist.py:39
 msgid "Default on startup"
@@ -778,7 +780,7 @@ msgstr "_Einstellungen"
 
 #: ../data/Appmenu.ui.h:5
 msgid "_Keyboard Shortcuts"
-msgstr "Tastenkombinationen"
+msgstr "_Tastenkürzel"
 
 #: ../data/Appmenu.ui.h:6
 msgid "_About"
@@ -898,7 +900,7 @@ msgstr "Warteschlange leeren"
 
 #: ../data/RadioPopover.ui.h:3
 msgid "No logo found…"
-msgstr "Kein Logo gefunden..."
+msgstr "Kein Logo gefunden…"
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
