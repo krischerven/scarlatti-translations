@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-30 22:58+0100\n"
+"POT-Creation-Date: 2018-02-08 12:56+0100\n"
 "PO-Revision-Date: 2018-01-25 16:39+0000\n"
 "Last-Translator: Samuel Henrique <samosaara@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -339,7 +339,7 @@ msgstr "Baixa qualidade, falta a chave de API…"
 msgid "Reset artwork?"
 msgstr "Redefinir arte de capa?"
 
-#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:281
+#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:283
 #: ../lollypop/database_albums.py:378 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:309
 #: ../lollypop/selectionlist.py:453 ../lollypop/selectionlist.py:466
@@ -358,7 +358,7 @@ msgstr "O Lollypop está detectando uma pasta vazia."
 msgid "Check your music settings."
 msgstr "Veja suas configurações de música."
 
-#: ../lollypop/container.py:515 ../lollypop/widgets_device.py:306
+#: ../lollypop/container.py:515 ../lollypop/widgets_device.py:308
 msgid "Compilations"
 msgstr "Compilações"
 
@@ -368,7 +368,7 @@ msgstr "Pausar"
 
 #: ../lollypop/controllers.py:87 ../lollypop/controllers.py:106
 #: ../lollypop/pop_tunein.py:190 ../lollypop/widgets_album_simple.py:134
-#: ../lollypop/widgets_radio.py:182 ../data/CoverBox.ui.h:1
+#: ../lollypop/widgets_radio.py:183 ../data/CoverBox.ui.h:1
 #: ../data/ToolbarPlayback.ui.h:2
 msgid "Play"
 msgstr "Reproduzir"
@@ -431,20 +431,16 @@ msgstr "Faixas aleatórias"
 msgid "Search"
 msgstr "Pesquisa"
 
-#: ../lollypop/pop_albums.py:81
-msgid "Compilation"
-msgstr "Compilação"
-
-#: ../lollypop/pop_albums.py:293
+#: ../lollypop/pop_albums.py:35
 msgid "Clear albums"
 msgstr "Limpar álbuns"
 
-#: ../lollypop/pop_albums.py:301 ../lollypop/view_artist.py:51
+#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:51
 #: ../data/ArtistInfo.ui.h:8 ../data/ArtistView.ui.h:5
 msgid "Go to current track"
 msgstr "Ir para a faixa atual"
 
-#: ../lollypop/pop_albums.py:302 ../lollypop/toolbar_end.py:447
+#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:450
 msgid "Playing albums"
 msgstr "Álbuns tocando"
 
@@ -465,70 +461,70 @@ msgstr "Acesso à rede desativado"
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Nenhuma letra encontrada. Por favor, instale o gir1.2-webkit2-4.0."
 
-#: ../lollypop/pop_menu.py:64
+#: ../lollypop/pop_menu.py:76
 msgid "Show albums from artist"
 msgstr "Mostrar álbuns do artista"
 
-#: ../lollypop/pop_menu.py:128 ../lollypop/widgets_context.py:123
-#: ../lollypop/widgets_indicator.py:111 ../data/SearchRow.ui.h:2
+#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_context.py:111
 msgid "Add to queue"
 msgstr "Adicionar à fila"
 
-#: ../lollypop/pop_menu.py:133
+#: ../lollypop/pop_menu.py:145
 msgid "Next tracks"
 msgstr "Próximas faixas"
 
-#: ../lollypop/pop_menu.py:135 ../data/NextPopover.ui.h:1
+#: ../lollypop/pop_menu.py:147 ../data/NextPopover.ui.h:1
 msgid "Next track"
 msgstr "Próxima faixa"
 
-#: ../lollypop/pop_menu.py:139 ../lollypop/widgets_context.py:120
-#: ../lollypop/widgets_indicator.py:107
+#: ../lollypop/pop_menu.py:151 ../lollypop/widgets_context.py:116
+#: ../lollypop/widgets_context.py:121
 msgid "Remove from queue"
 msgstr "Remover da fila"
 
-#: ../lollypop/pop_menu.py:212
+#: ../lollypop/pop_menu.py:226
 msgid "Add to others"
 msgstr "Adicionar a outras"
 
-#: ../lollypop/pop_menu.py:225
+#: ../lollypop/pop_menu.py:239
 msgid "Remove from \"Not in party\""
 msgstr "Remover da \"Fora da festa\""
 
-#: ../lollypop/pop_menu.py:230
+#: ../lollypop/pop_menu.py:244
 msgid "Add to \"Not in party\""
 msgstr "Adicionar à \"Fora da festa\""
 
-#: ../lollypop/pop_menu.py:251
+#: ../lollypop/pop_menu.py:265
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Remover de \"%s\""
 
-#: ../lollypop/pop_menu.py:257
+#: ../lollypop/pop_menu.py:271
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Adicionar a \"%s\""
 
-#: ../lollypop/pop_menu.py:381 ../lollypop/widgets_context.py:106
+#: ../lollypop/pop_menu.py:395 ../lollypop/widgets_context.py:106
 msgid "Modify information"
 msgstr "Alterar informações"
 
-#: ../lollypop/pop_menu.py:431 ../data/SettingsDialog.ui.h:10
+#: ../lollypop/pop_menu.py:437 ../lollypop/pop_menu.py:460
+#: ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Artista"
 
-#: ../lollypop/pop_menu.py:433 ../lollypop/pop_menu.py:452
-#: ../lollypop/toolbar_end.py:443 ../data/QueuePopover.ui.h:2
+#: ../lollypop/pop_menu.py:439 ../lollypop/pop_menu.py:462
+#: ../lollypop/toolbar_end.py:446 ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Fila"
 
-#: ../lollypop/pop_menu.py:435 ../lollypop/pop_menu.py:454
-#: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:124
-#: ../lollypop/widgets_playlist.py:547
+#: ../lollypop/pop_menu.py:441 ../lollypop/pop_menu.py:464
+#: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:125
+#: ../lollypop/widgets_playlist.py:587
 msgid "Playlists"
 msgstr "Listas de reprodução"
 
-#: ../lollypop/pop_menu.py:437 ../lollypop/pop_menu.py:456
+#: ../lollypop/pop_menu.py:443 ../lollypop/pop_menu.py:466
 #: ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Editar"
@@ -536,7 +532,7 @@ msgstr "Editar"
 #. Translators: radio context
 #. Translators: artist context
 #: ../lollypop/pop_radio.py:83 ../lollypop/pop_tunein.py:197
-#: ../lollypop/view_artist.py:391
+#: ../lollypop/view_artist.py:393
 msgid "Add"
 msgstr "Adicionar"
 
@@ -618,12 +614,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d faixa"
 msgstr[1] "%d faixas"
 
-#: ../lollypop/settings.py:105 ../lollypop/settings.py:108
+#: ../lollypop/settings.py:106 ../lollypop/settings.py:109
 #: ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Preferências"
 
-#: ../lollypop/settings.py:713
+#: ../lollypop/settings.py:721
 msgid "You need to install kid3-cli"
 msgstr "Você precisa instalar o kid3-cli"
 
@@ -635,11 +631,11 @@ msgstr "Populares"
 msgid "Recently added"
 msgstr "Adicionado recentemente"
 
-#: ../lollypop/toolbar_end.py:441
+#: ../lollypop/toolbar_end.py:444
 msgid "External tracks"
 msgstr "Faixas externas"
 
-#: ../lollypop/toolbar_end.py:445
+#: ../lollypop/toolbar_end.py:448
 msgid "Playing playlists"
 msgstr "Listas de reprodução tocando"
 
@@ -650,12 +646,12 @@ msgstr "Listas de reprodução tocando"
 msgid "The the"
 msgstr "A a O o As as Os os The the"
 
-#: ../lollypop/view_albums.py:181 ../data/TuneinPopover.ui.h:1
-msgid "Go back"
-msgstr "Voltar"
+#: ../lollypop/view_albums_list.py:94
+msgid "Compilation"
+msgstr "Compilação"
 
 #. Translators: artist context
-#: ../lollypop/view_artist.py:385 ../lollypop/widgets_album.py:297
+#: ../lollypop/view_artist.py:387 ../lollypop/widgets_album.py:296
 msgid "Remove"
 msgstr "Remover"
 
@@ -663,36 +659,36 @@ msgstr "Remover"
 msgid "Please unlock your device"
 msgstr "Por favor desbloqueie o dispositivo"
 
-#: ../lollypop/view_device.py:95 ../lollypop/view_device.py:198
+#: ../lollypop/view_device.py:95 ../lollypop/view_device.py:206
 #, python-format
 msgid "Synchronize %s"
 msgstr "Sincronizar %s"
 
-#: ../lollypop/view_device.py:147
+#: ../lollypop/view_device.py:155
 msgid "Cancel synchronization"
 msgstr "Cancelar sincronização"
 
-#: ../lollypop/view_playlists.py:207 ../lollypop/widgets_album_detailed.py:382
+#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:287
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:209 ../lollypop/widgets_album_detailed.py:384
+#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:289
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:211 ../lollypop/widgets_album_detailed.py:386
+#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:291
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/widgets_album_detailed.py:512
+#: ../lollypop/view_tracks.py:374
 #, python-format
 msgid "Disc %s"
 msgstr "Disco %s"
 
-#: ../lollypop/widgets_album.py:293
+#: ../lollypop/widgets_album.py:292
 msgid "Append"
 msgstr "Anexar"
 
@@ -704,7 +700,7 @@ msgstr "Reproduzir álbuns"
 msgid "Change artwork"
 msgstr "Alterar arte de capa"
 
-#: ../lollypop/widgets_context.py:112 ../data/SearchRow.ui.h:1
+#: ../lollypop/widgets_context.py:134 ../data/SearchRow.ui.h:1
 msgid "Add to playlist"
 msgstr "Adicionar à lista de reprodução"
 
@@ -712,42 +708,51 @@ msgstr "Adicionar à lista de reprodução"
 msgid "You need to install gstreamer-plugins-ugly"
 msgstr "Você precisa instalar o gstreamer-plugins-ugly"
 
-#: ../lollypop/widgets_device.py:116 ../data/ArtistInfo.ui.h:1
+#: ../lollypop/widgets_device.py:117 ../data/ArtistInfo.ui.h:1
 #: ../data/DeviceManagerWidget.ui.h:1
 msgid "Albums"
 msgstr "Álbuns"
 
-#: ../lollypop/widgets_device.py:231
+#: ../lollypop/widgets_device.py:233
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Erro desconhecido ao sincronizar, tente reiniciar o seu dispositivo"
 
-#: ../lollypop/widgets_device.py:239
+#: ../lollypop/widgets_device.py:241
 msgid "No free space available on device"
 msgstr "Espaço vazio não disponível no dispositivo"
 
-#: ../lollypop/widgets_device.py:304
+#: ../lollypop/widgets_device.py:306
 msgid "Synced albums"
 msgstr "Álbuns sincronizados"
+
+#: ../lollypop/widgets_indicator.py:108
+msgid "Remove track from current playlist"
+msgstr ""
+
+#: ../lollypop/widgets_indicator.py:112
+#, fuzzy
+msgid "Add track to current playlist"
+msgstr "Adicionar à lista de reprodução"
 
 #: ../lollypop/widgets_info.py:121
 msgid "No information for this artist"
 msgstr "Não há informações deste artista"
 
-#: ../lollypop/widgets_playlist.py:580 ../lollypop/widgets_playlist.py:583
+#: ../lollypop/widgets_playlist.py:620 ../lollypop/widgets_playlist.py:623
 msgid "New playlist "
 msgstr "Nova playlist "
 
 #. Need a copy, segfault on EOS 3.1
-#: ../lollypop/widgets_playlist.py:689 ../lollypop/widgets_playlist.py:893
+#: ../lollypop/widgets_playlist.py:729 ../lollypop/widgets_playlist.py:926
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Remover \"%s\"?"
 
-#: ../lollypop/widgets_playlist.py:901
+#: ../lollypop/widgets_playlist.py:934
 msgid "Remove these tracks?"
 msgstr "Remover estas faixas?"
 
-#: ../lollypop/widgets_radio.py:198
+#: ../lollypop/widgets_radio.py:199
 msgid "Modify radio"
 msgstr "Modificar rádio"
 
@@ -762,10 +767,6 @@ msgstr "Música tocada %s vezes"
 #: ../lollypop/wikipedia.py:36
 msgid "musician;band"
 msgstr "músico;banda"
-
-#: ../lollypop/window.py:408
-msgid "<span size='xx-large'><b>Import music</b></span>"
-msgstr "<span size='xx-large'><b>Importar músicas</b></span>"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -888,6 +889,10 @@ msgstr ""
 #: ../data/FirstRunView.ui.h:3
 msgid "Enable network access:"
 msgstr "Ativar acesso à rede:"
+
+#: ../data/PlaylistEditWidget.ui.h:2
+msgid "You can select tracks with mouse or Ctrl key"
+msgstr ""
 
 #: ../data/PlaylistsManagerView.ui.h:1
 msgid "New playlist"
@@ -1236,9 +1241,16 @@ msgstr ""
 "Modo de festa\n"
 "Clique direito para filtrar"
 
+#: ../data/TuneinPopover.ui.h:1
+msgid "Go back"
+msgstr "Voltar"
+
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
 msgstr "Ir para a página inicial"
+
+#~ msgid "<span size='xx-large'><b>Import music</b></span>"
+#~ msgstr "<span size='xx-large'><b>Importar músicas</b></span>"
 
 #~ msgid "_Network access"
 #~ msgstr "_Acesso à rede"
