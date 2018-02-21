@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-08 12:55+0100\n"
+"POT-Creation-Date: 2018-02-21 14:59+0100\n"
 "PO-Revision-Date: 2017-11-29 00:27+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -309,7 +309,7 @@ msgstr ""
 msgid "PayPal"
 msgstr "PayPal"
 
-#: ../lollypop/application.py:30
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -331,9 +331,9 @@ msgstr "Lav kvalitet, manglende API-nøgle…"
 msgid "Reset artwork?"
 msgstr "Nulstil billede?"
 
-#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:283
-#: ../lollypop/database_albums.py:378 ../lollypop/database_artists.py:110
-#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:309
+#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:285
+#: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
+#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:453 ../lollypop/selectionlist.py:466
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
@@ -350,7 +350,7 @@ msgstr "Lollypop registrerer en tom mappe."
 msgid "Check your music settings."
 msgstr "Tjek dine musikindstillinger."
 
-#: ../lollypop/container.py:515 ../lollypop/widgets_device.py:308
+#: ../lollypop/container.py:495 ../lollypop/widgets_device.py:307
 msgid "Compilations"
 msgstr "Samlinger"
 
@@ -365,7 +365,7 @@ msgstr "Pause"
 msgid "Play"
 msgstr "Afspil"
 
-#: ../lollypop/controllers.py:204
+#: ../lollypop/controllers.py:205
 msgid "Volume"
 msgstr "Lydstyrke"
 
@@ -398,27 +398,27 @@ msgstr "af %s"
 msgid "by %s, from %s"
 msgstr "af %s, fra %s"
 
-#: ../lollypop/playlists.py:54
+#: ../lollypop/playlists.py:56
 msgid "Loved tracks"
 msgstr "Elskede spor"
 
-#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:336
+#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:336
 msgid "Popular tracks"
 msgstr "Populære spor"
 
-#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:338
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:338
 msgid "Recently played"
 msgstr "Nyligt afspillede"
 
-#: ../lollypop/playlists.py:279 ../lollypop/selectionlist.py:339
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:339
 msgid "Never played"
 msgstr "Aldrig afspillede"
 
-#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:340
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:340
 msgid "Random tracks"
 msgstr "Tilfældige spor"
 
-#: ../lollypop/playlists.py:283 ../data/ArtistInfo.ui.h:5
+#: ../lollypop/playlists.py:280 ../data/ArtistInfo.ui.h:5
 #: ../data/SettingsDialog.ui.h:45 ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Søgning"
@@ -453,73 +453,64 @@ msgstr "Netværksadgang deaktiveret"
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Igen sangtekster fundet, installér venligst gir1.2-webkit2-4.0"
 
-#: ../lollypop/pop_menu.py:76
+#: ../lollypop/pop_menu.py:75
 msgid "Show albums from artist"
 msgstr "Vis albummer fra kunstner"
 
-#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_context.py:111
+#: ../lollypop/pop_menu.py:111 ../lollypop/widgets_context.py:69
 msgid "Add to queue"
 msgstr "Tilføj til kø"
 
-#: ../lollypop/pop_menu.py:145
-msgid "Next tracks"
-msgstr "Næste spor"
-
-#: ../lollypop/pop_menu.py:147 ../data/NextPopover.ui.h:1
-msgid "Next track"
-msgstr "Næste spor"
-
-#: ../lollypop/pop_menu.py:151 ../lollypop/widgets_context.py:116
-#: ../lollypop/widgets_context.py:121
+#: ../lollypop/pop_menu.py:117 ../lollypop/widgets_context.py:73
 msgid "Remove from queue"
 msgstr "Fjern fra kø"
 
-#: ../lollypop/pop_menu.py:226
+#: ../lollypop/pop_menu.py:162
 msgid "Add to others"
 msgstr "Tilføj til andre"
 
-#: ../lollypop/pop_menu.py:239
+#: ../lollypop/pop_menu.py:173
 msgid "Remove from \"Not in party\""
 msgstr "Fjern fra \"Ikke i fest\""
 
-#: ../lollypop/pop_menu.py:244
+#: ../lollypop/pop_menu.py:178
 msgid "Add to \"Not in party\""
 msgstr "Tilføj til \"Ikke i fest\""
 
-#: ../lollypop/pop_menu.py:265
+#: ../lollypop/pop_menu.py:197
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Fjern fra \"%s\""
 
-#: ../lollypop/pop_menu.py:271
+#: ../lollypop/pop_menu.py:203
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Tilføj til \"%s\""
 
-#: ../lollypop/pop_menu.py:395 ../lollypop/widgets_context.py:106
+#: ../lollypop/pop_menu.py:323 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr "Rediger information"
 
-#: ../lollypop/pop_menu.py:437 ../lollypop/pop_menu.py:460
+#: ../lollypop/pop_menu.py:365 ../lollypop/pop_menu.py:386
 #: ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Kunstner"
 
-#: ../lollypop/pop_menu.py:439 ../lollypop/pop_menu.py:462
-#: ../lollypop/toolbar_end.py:446 ../data/QueuePopover.ui.h:2
-msgid "Queue"
-msgstr "Kø"
-
-#: ../lollypop/pop_menu.py:441 ../lollypop/pop_menu.py:464
-#: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:125
-#: ../lollypop/widgets_playlist.py:587
+#: ../lollypop/pop_menu.py:367 ../lollypop/pop_menu.py:390
+#: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:124
+#: ../lollypop/widgets_playlist.py:581
 msgid "Playlists"
 msgstr "Afspilningslister"
 
-#: ../lollypop/pop_menu.py:443 ../lollypop/pop_menu.py:466
+#: ../lollypop/pop_menu.py:369 ../lollypop/pop_menu.py:392
 #: ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Rediger"
+
+#: ../lollypop/pop_menu.py:388 ../lollypop/toolbar_end.py:446
+#: ../data/QueuePopover.ui.h:2
+msgid "Queue"
+msgstr "Kø"
 
 #. Translators: radio context
 #. Translators: artist context
@@ -585,33 +576,33 @@ msgstr "Alle kunstnere"
 msgid "Not in party"
 msgstr "Ikke i fest"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d kunstner"
 msgstr[1] "%d kunstnere"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d album"
 msgstr[1] "%d albummer"
 
-#: ../lollypop/settings.py:94
+#: ../lollypop/settings.py:93
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d spor"
 msgstr[1] "%d spor"
 
-#: ../lollypop/settings.py:106 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:105 ../lollypop/settings.py:108
 #: ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Præferencer"
 
-#: ../lollypop/settings.py:721
+#: ../lollypop/settings.py:731
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli skal være installeret"
 
@@ -634,7 +625,7 @@ msgstr "Afspiller afspilningslister"
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../lollypop/utils.py:133
+#: ../lollypop/utils.py:163
 msgid "The the"
 msgstr "The the Den den De de"
 
@@ -643,7 +634,7 @@ msgid "Compilation"
 msgstr "Samling"
 
 #. Translators: artist context
-#: ../lollypop/view_artist.py:387 ../lollypop/widgets_album.py:296
+#: ../lollypop/view_artist.py:387
 msgid "Remove"
 msgstr "Fjern"
 
@@ -660,29 +651,37 @@ msgstr "Synkronisér %s"
 msgid "Cancel synchronization"
 msgstr "Annullér synkronisering"
 
-#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:287
+#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s t %s m"
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:289
+#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s t"
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:291
+#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/view_tracks.py:374
+#: ../lollypop/view_tracks.py:378
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
 
-#: ../lollypop/widgets_album.py:292
-msgid "Append"
-msgstr "Tilføj til slutningen"
+#: ../lollypop/widgets_album.py:292 ../lollypop/widgets_context.py:87
+#: ../lollypop/widgets_indicator.py:111
+#, fuzzy
+msgid "Add to current playlist"
+msgstr "Tilføj til afspilningsliste"
+
+#: ../lollypop/widgets_album.py:297 ../lollypop/widgets_context.py:102
+#: ../lollypop/widgets_indicator.py:107
+#, fuzzy
+msgid "Remove from current playlist"
+msgstr "Tilføj til afspilningsliste"
 
 #: ../lollypop/widgets_album_simple.py:145 ../data/ArtistView.ui.h:2
 msgid "Play albums"
@@ -692,55 +691,46 @@ msgstr "Afspil albummer"
 msgid "Change artwork"
 msgstr "Skift billede"
 
-#: ../lollypop/widgets_context.py:134 ../data/SearchRow.ui.h:1
+#: ../lollypop/widgets_context.py:120 ../data/SearchRow.ui.h:1
 msgid "Add to playlist"
 msgstr "Tilføj til afspilningsliste"
 
-#: ../lollypop/widgets_device.py:60
+#: ../lollypop/widgets_device.py:59
 msgid "You need to install gstreamer-plugins-ugly"
 msgstr "gstreamer-plugins-ugly skal være installeret"
 
-#: ../lollypop/widgets_device.py:117 ../data/ArtistInfo.ui.h:1
+#: ../lollypop/widgets_device.py:116 ../data/ArtistInfo.ui.h:1
 #: ../data/DeviceManagerWidget.ui.h:1
 msgid "Albums"
 msgstr "Albummer"
 
-#: ../lollypop/widgets_device.py:233
+#: ../lollypop/widgets_device.py:232
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Ukendt fejl ved synkronisering; prøv at genstarte din enhed"
 
-#: ../lollypop/widgets_device.py:241
+#: ../lollypop/widgets_device.py:240
 msgid "No free space available on device"
 msgstr "Der er ingen ledig plads på enheden"
 
-#: ../lollypop/widgets_device.py:306
+#: ../lollypop/widgets_device.py:305
 msgid "Synced albums"
 msgstr "Synkroniserede albummer"
-
-#: ../lollypop/widgets_indicator.py:108
-msgid "Remove track from current playlist"
-msgstr ""
-
-#: ../lollypop/widgets_indicator.py:112
-#, fuzzy
-msgid "Add track to current playlist"
-msgstr "Tilføj til afspilningsliste"
 
 #: ../lollypop/widgets_info.py:121
 msgid "No information for this artist"
 msgstr "Ingen information om denne kunstner"
 
-#: ../lollypop/widgets_playlist.py:620 ../lollypop/widgets_playlist.py:623
+#: ../lollypop/widgets_playlist.py:614 ../lollypop/widgets_playlist.py:617
 msgid "New playlist "
 msgstr "Ny afspilningsliste "
 
 #. Need a copy, segfault on EOS 3.1
-#: ../lollypop/widgets_playlist.py:729 ../lollypop/widgets_playlist.py:926
+#: ../lollypop/widgets_playlist.py:722 ../lollypop/widgets_playlist.py:916
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Fjern \"%s\"?"
 
-#: ../lollypop/widgets_playlist.py:934
+#: ../lollypop/widgets_playlist.py:924
 msgid "Remove these tracks?"
 msgstr "Fjern disse spor?"
 
@@ -748,7 +738,7 @@ msgstr "Fjern disse spor?"
 msgid "Modify radio"
 msgstr "Rediger radio"
 
-#: ../lollypop/widgets_rating.py:49
+#: ../lollypop/widgets_rating.py:50
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
@@ -866,19 +856,9 @@ msgstr "Normalisér MP3"
 msgid "Save into collection"
 msgstr "Gem i samling"
 
-#: ../data/FirstRunView.ui.h:1
-msgid ""
-"<b>Welcome to Lollypop!</b>\n"
-"Here you can enable network access, allowing Lollypop to fetch music "
-"information from the Web."
-msgstr ""
-"<b>Velkommen til Lollypop!</b>\n"
-"Her kan du aktivere netværksadgangs, så Lollypop har mulighed for at hente "
-"musikinformationer fra webbet."
-
-#: ../data/FirstRunView.ui.h:3
-msgid "Enable network access:"
-msgstr "Aktivér netværksadgang:"
+#: ../data/NextPopover.ui.h:1
+msgid "Next track"
+msgstr "Næste spor"
 
 #: ../data/PlaylistEditWidget.ui.h:2
 msgid "You can select tracks with mouse or Ctrl key"
@@ -1237,6 +1217,24 @@ msgstr "Gå tilbage"
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
 msgstr "Gå hjem"
+
+#~ msgid "Next tracks"
+#~ msgstr "Næste spor"
+
+#~ msgid "Append"
+#~ msgstr "Tilføj til slutningen"
+
+#~ msgid ""
+#~ "<b>Welcome to Lollypop!</b>\n"
+#~ "Here you can enable network access, allowing Lollypop to fetch music "
+#~ "information from the Web."
+#~ msgstr ""
+#~ "<b>Velkommen til Lollypop!</b>\n"
+#~ "Her kan du aktivere netværksadgangs, så Lollypop har mulighed for at "
+#~ "hente musikinformationer fra webbet."
+
+#~ msgid "Enable network access:"
+#~ msgstr "Aktivér netværksadgang:"
 
 #~ msgid "<span size='xx-large'><b>Import music</b></span>"
 #~ msgstr "<span size='xx-large'><b>Importér musik</b></span>"

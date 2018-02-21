@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-08 12:55+0100\n"
+"POT-Creation-Date: 2018-02-21 14:59+0100\n"
 "PO-Revision-Date: 2017-11-27 17:21+0000\n"
 "Last-Translator: fri\n"
 "Language-Team: Czech (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -310,7 +310,7 @@ msgstr ""
 msgid "PayPal"
 msgstr "PayPal"
 
-#: ../lollypop/application.py:30
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -332,9 +332,9 @@ msgstr "Nízká jakost. Chybí klíč API..."
 msgid "Reset artwork?"
 msgstr "Nastavit obal znovu?"
 
-#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:283
-#: ../lollypop/database_albums.py:378 ../lollypop/database_artists.py:110
-#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:309
+#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:285
+#: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
+#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:453 ../lollypop/selectionlist.py:466
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
@@ -351,7 +351,7 @@ msgstr "Lollypop zjistil prázdnou složku."
 msgid "Check your music settings."
 msgstr "Prověřte nastavení pro vaši hudbu."
 
-#: ../lollypop/container.py:515 ../lollypop/widgets_device.py:308
+#: ../lollypop/container.py:495 ../lollypop/widgets_device.py:307
 msgid "Compilations"
 msgstr "Kompilace"
 
@@ -366,7 +366,7 @@ msgstr "Pozastavit"
 msgid "Play"
 msgstr "Přehrát"
 
-#: ../lollypop/controllers.py:204
+#: ../lollypop/controllers.py:205
 msgid "Volume"
 msgstr "Hlasitost"
 
@@ -399,27 +399,27 @@ msgstr "od %s"
 msgid "by %s, from %s"
 msgstr "od %s, na %s"
 
-#: ../lollypop/playlists.py:54
+#: ../lollypop/playlists.py:56
 msgid "Loved tracks"
 msgstr "Zamilované skladby"
 
-#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:336
+#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:336
 msgid "Popular tracks"
 msgstr "Oblíbené skladby"
 
-#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:338
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:338
 msgid "Recently played"
 msgstr "Nedávno hráno"
 
-#: ../lollypop/playlists.py:279 ../lollypop/selectionlist.py:339
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:339
 msgid "Never played"
 msgstr "Nikdy nehráno"
 
-#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:340
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:340
 msgid "Random tracks"
 msgstr "Náhodné skladby"
 
-#: ../lollypop/playlists.py:283 ../data/ArtistInfo.ui.h:5
+#: ../lollypop/playlists.py:280 ../data/ArtistInfo.ui.h:5
 #: ../data/SettingsDialog.ui.h:45 ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Hledat"
@@ -454,73 +454,64 @@ msgstr "Přístup k síti zakázán"
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Nenalezen žádný text písně. Nainstalujte, prosím, gir1.2-webkit2-4.0"
 
-#: ../lollypop/pop_menu.py:76
+#: ../lollypop/pop_menu.py:75
 msgid "Show albums from artist"
 msgstr "Ukázat alba podle umělce"
 
-#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_context.py:111
+#: ../lollypop/pop_menu.py:111 ../lollypop/widgets_context.py:69
 msgid "Add to queue"
 msgstr "Přidat do řady"
 
-#: ../lollypop/pop_menu.py:145
-msgid "Next tracks"
-msgstr "Další skladby"
-
-#: ../lollypop/pop_menu.py:147 ../data/NextPopover.ui.h:1
-msgid "Next track"
-msgstr "Další skladba"
-
-#: ../lollypop/pop_menu.py:151 ../lollypop/widgets_context.py:116
-#: ../lollypop/widgets_context.py:121
+#: ../lollypop/pop_menu.py:117 ../lollypop/widgets_context.py:73
 msgid "Remove from queue"
 msgstr "Odstranit z řady"
 
-#: ../lollypop/pop_menu.py:226
+#: ../lollypop/pop_menu.py:162
 msgid "Add to others"
 msgstr "Přidat do ostatních"
 
-#: ../lollypop/pop_menu.py:239
+#: ../lollypop/pop_menu.py:173
 msgid "Remove from \"Not in party\""
 msgstr "Odstranit z Není na večírku"
 
-#: ../lollypop/pop_menu.py:244
+#: ../lollypop/pop_menu.py:178
 msgid "Add to \"Not in party\""
 msgstr "Přidat do Není na večírku"
 
-#: ../lollypop/pop_menu.py:265
+#: ../lollypop/pop_menu.py:197
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Odstranit z \"%s\""
 
-#: ../lollypop/pop_menu.py:271
+#: ../lollypop/pop_menu.py:203
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Přidat do \"%s\""
 
-#: ../lollypop/pop_menu.py:395 ../lollypop/widgets_context.py:106
+#: ../lollypop/pop_menu.py:323 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr "Upravit údaje"
 
-#: ../lollypop/pop_menu.py:437 ../lollypop/pop_menu.py:460
+#: ../lollypop/pop_menu.py:365 ../lollypop/pop_menu.py:386
 #: ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Umělec"
 
-#: ../lollypop/pop_menu.py:439 ../lollypop/pop_menu.py:462
-#: ../lollypop/toolbar_end.py:446 ../data/QueuePopover.ui.h:2
-msgid "Queue"
-msgstr "Řada"
-
-#: ../lollypop/pop_menu.py:441 ../lollypop/pop_menu.py:464
-#: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:125
-#: ../lollypop/widgets_playlist.py:587
+#: ../lollypop/pop_menu.py:367 ../lollypop/pop_menu.py:390
+#: ../lollypop/selectionlist.py:322 ../lollypop/widgets_device.py:124
+#: ../lollypop/widgets_playlist.py:581
 msgid "Playlists"
 msgstr "Seznamy skladeb"
 
-#: ../lollypop/pop_menu.py:443 ../lollypop/pop_menu.py:466
+#: ../lollypop/pop_menu.py:369 ../lollypop/pop_menu.py:392
 #: ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Upravit"
+
+#: ../lollypop/pop_menu.py:388 ../lollypop/toolbar_end.py:446
+#: ../data/QueuePopover.ui.h:2
+msgid "Queue"
+msgstr "Řada"
 
 #. Translators: radio context
 #. Translators: artist context
@@ -586,7 +577,7 @@ msgstr "Všichni umělci"
 msgid "Not in party"
 msgstr "Není na večírku"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
@@ -594,7 +585,7 @@ msgstr[0] "%d umělec"
 msgstr[1] "%d umělci"
 msgstr[2] "%d umělců"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
@@ -602,7 +593,7 @@ msgstr[0] "%d album"
 msgstr[1] "%d alba"
 msgstr[2] "%d alb"
 
-#: ../lollypop/settings.py:94
+#: ../lollypop/settings.py:93
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
@@ -610,12 +601,12 @@ msgstr[0] "%d skladba"
 msgstr[1] "%d skladby"
 msgstr[2] "%d skladeb"
 
-#: ../lollypop/settings.py:106 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:105 ../lollypop/settings.py:108
 #: ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Nastavení"
 
-#: ../lollypop/settings.py:721
+#: ../lollypop/settings.py:731
 msgid "You need to install kid3-cli"
 msgstr "Je potřeba nainstalovat kid3-cli"
 
@@ -638,7 +629,7 @@ msgstr "Přehrávání seznamů skladeb"
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../lollypop/utils.py:133
+#: ../lollypop/utils.py:163
 msgid "The the"
 msgstr "\"The\""
 
@@ -647,7 +638,7 @@ msgid "Compilation"
 msgstr "Sbírka skladeb"
 
 #. Translators: artist context
-#: ../lollypop/view_artist.py:387 ../lollypop/widgets_album.py:296
+#: ../lollypop/view_artist.py:387
 msgid "Remove"
 msgstr "Odstranit"
 
@@ -664,29 +655,37 @@ msgstr "Seřídit %s"
 msgid "Cancel synchronization"
 msgstr "Zrušit seřizování"
 
-#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:287
+#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:289
+#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:291
+#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/view_tracks.py:374
+#: ../lollypop/view_tracks.py:378
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
 
-#: ../lollypop/widgets_album.py:292
-msgid "Append"
-msgstr "Připojit"
+#: ../lollypop/widgets_album.py:292 ../lollypop/widgets_context.py:87
+#: ../lollypop/widgets_indicator.py:111
+#, fuzzy
+msgid "Add to current playlist"
+msgstr "Přidat do seznamu skladeb"
+
+#: ../lollypop/widgets_album.py:297 ../lollypop/widgets_context.py:102
+#: ../lollypop/widgets_indicator.py:107
+#, fuzzy
+msgid "Remove from current playlist"
+msgstr "Přidat do seznamu skladeb"
 
 #: ../lollypop/widgets_album_simple.py:145 ../data/ArtistView.ui.h:2
 msgid "Play albums"
@@ -696,56 +695,47 @@ msgstr "Přehrát alba"
 msgid "Change artwork"
 msgstr "Změnit obal"
 
-#: ../lollypop/widgets_context.py:134 ../data/SearchRow.ui.h:1
+#: ../lollypop/widgets_context.py:120 ../data/SearchRow.ui.h:1
 msgid "Add to playlist"
 msgstr "Přidat do seznamu skladeb"
 
-#: ../lollypop/widgets_device.py:60
+#: ../lollypop/widgets_device.py:59
 msgid "You need to install gstreamer-plugins-ugly"
 msgstr "Potřebujete nainstalovat gstreamer-plugins-ugly"
 
-#: ../lollypop/widgets_device.py:117 ../data/ArtistInfo.ui.h:1
+#: ../lollypop/widgets_device.py:116 ../data/ArtistInfo.ui.h:1
 #: ../data/DeviceManagerWidget.ui.h:1
 msgid "Albums"
 msgstr "Alba"
 
-#: ../lollypop/widgets_device.py:233
+#: ../lollypop/widgets_device.py:232
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr ""
 "Při seřizování nastala neznámá chyba. pokuste se své zařízení zavést znovu"
 
-#: ../lollypop/widgets_device.py:241
+#: ../lollypop/widgets_device.py:240
 msgid "No free space available on device"
 msgstr "Na zařízení není žádné volné místo"
 
-#: ../lollypop/widgets_device.py:306
+#: ../lollypop/widgets_device.py:305
 msgid "Synced albums"
 msgstr "Seřízená alba"
-
-#: ../lollypop/widgets_indicator.py:108
-msgid "Remove track from current playlist"
-msgstr ""
-
-#: ../lollypop/widgets_indicator.py:112
-#, fuzzy
-msgid "Add track to current playlist"
-msgstr "Přidat do seznamu skladeb"
 
 #: ../lollypop/widgets_info.py:121
 msgid "No information for this artist"
 msgstr "Źádné údaje k tomuto umělci"
 
-#: ../lollypop/widgets_playlist.py:620 ../lollypop/widgets_playlist.py:623
+#: ../lollypop/widgets_playlist.py:614 ../lollypop/widgets_playlist.py:617
 msgid "New playlist "
 msgstr "Nový seznam skladeb"
 
 #. Need a copy, segfault on EOS 3.1
-#: ../lollypop/widgets_playlist.py:729 ../lollypop/widgets_playlist.py:926
+#: ../lollypop/widgets_playlist.py:722 ../lollypop/widgets_playlist.py:916
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Odstranit \"%s\"?"
 
-#: ../lollypop/widgets_playlist.py:934
+#: ../lollypop/widgets_playlist.py:924
 msgid "Remove these tracks?"
 msgstr "Odstranit tyto skladby?"
 
@@ -753,7 +743,7 @@ msgstr "Odstranit tyto skladby?"
 msgid "Modify radio"
 msgstr "Upravit rádio"
 
-#: ../lollypop/widgets_rating.py:49
+#: ../lollypop/widgets_rating.py:50
 #, python-format
 msgid "Song played %s times"
 msgstr "Píseň hrána %s krát"
@@ -871,19 +861,9 @@ msgstr "Normalizovat MP3"
 msgid "Save into collection"
 msgstr "Uložit do sbírky"
 
-#: ../data/FirstRunView.ui.h:1
-msgid ""
-"<b>Welcome to Lollypop!</b>\n"
-"Here you can enable network access, allowing Lollypop to fetch music "
-"information from the Web."
-msgstr ""
-"<b>Vítejte v Lollypopu!</b>\n"
-"Zde můžete povolit přístup k síti, čímž Lollypopu dovolíte natahování údajů "
-"o hudbě z internetu."
-
-#: ../data/FirstRunView.ui.h:3
-msgid "Enable network access:"
-msgstr "Povolit přístup k síti:"
+#: ../data/NextPopover.ui.h:1
+msgid "Next track"
+msgstr "Další skladba"
 
 #: ../data/PlaylistEditWidget.ui.h:2
 msgid "You can select tracks with mouse or Ctrl key"
@@ -1243,6 +1223,24 @@ msgstr "Jít zpět"
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
 msgstr "Jít zpět"
+
+#~ msgid "Next tracks"
+#~ msgstr "Další skladby"
+
+#~ msgid "Append"
+#~ msgstr "Připojit"
+
+#~ msgid ""
+#~ "<b>Welcome to Lollypop!</b>\n"
+#~ "Here you can enable network access, allowing Lollypop to fetch music "
+#~ "information from the Web."
+#~ msgstr ""
+#~ "<b>Vítejte v Lollypopu!</b>\n"
+#~ "Zde můžete povolit přístup k síti, čímž Lollypopu dovolíte natahování "
+#~ "údajů o hudbě z internetu."
+
+#~ msgid "Enable network access:"
+#~ msgstr "Povolit přístup k síti:"
 
 #~ msgid "<span size='xx-large'><b>Import music</b></span>"
 #~ msgstr "<span size='xx-large'><b>Zavést hudbu</b></span>"
