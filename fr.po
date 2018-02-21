@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-08 12:56+0100\n"
-"PO-Revision-Date: 2018-02-20 22:36+0000\n"
+"PO-Revision-Date: 2018-02-21 13:58+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French "
 "<https://hosted.weblate.org/projects/gnumdk/lollypop/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
 msgid "Window size"
@@ -71,7 +71,7 @@ msgstr "Genres actif en mode soirée"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
 msgid "ID for genres."
-msgstr "Les ID des genres"
+msgstr "Les identifiants des genres."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music URI"
@@ -282,7 +282,7 @@ msgstr "Trier les albums par"
 
 #: ../data/AboutDialog.ui.in:13 ../data/AboutDialog.ui.in.h:1
 msgid "A music player for GNOME."
-msgstr "Lecteur de musique pour GNOME"
+msgstr "Lecteur de musique pour GNOME."
 
 #: ../data/AboutDialog.ui.in:15 ../data/AboutDialog.ui.in.h:2
 msgid "Visit Lollypop website"
@@ -316,9 +316,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
-"- Scrobbler désactivé\n"
-"- Auto téléchargement des pochettes désactivé\n"
-"- Information sur les artistes désactivée"
+"    - Scrobbler désactivé\n"
+"    - Auto téléchargement des pochettes désactivé\n"
+"    - Information sur les artistes désactivée"
 
 #: ../lollypop/art_widgets.py:70
 msgid "Select artwork"
@@ -835,11 +835,10 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</"
 "small>"
 msgstr ""
-"Lollypop utilise \"Google Custom Search API\" pour rechercher des images sur "
-"le web.\n"
-"Cette API est limitée donc cela pourrait ne pas fonctionner avec la clé "
-"d'API par défaut.\n"
-"Merci de créer un moteur de recherche ici:"
+"<b>Lollypop utilise \"Google Custom Search API\" pour rechercher des images "
+"sur le web.</b>\n"
+"<small>Cette API est limitée donc cela pourrait ne pas fonctionner avec la "
+"clé d'API par défaut.</small>"
 
 #: ../data/ArtworkSearch.ui.h:5 ../data/SettingsDialog.ui.h:43
 msgid "API key"
