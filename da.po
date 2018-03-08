@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 08:57+0100\n"
+"POT-Creation-Date: 2018-03-09 00:00+0100\n"
 "PO-Revision-Date: 2017-11-29 00:27+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -104,10 +104,10 @@ msgstr "Foretrukken tag-redigeringsprogram"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:108
 #: ../data/org.gnome.Lollypop.gschema.xml:113
-#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:246
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 #: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -128,7 +128,7 @@ msgid "Favorite cover file"
 msgstr "Foretrukken coverfil"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:124
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Restart needed"
 msgstr "Genstart nødvendig"
 
@@ -143,7 +143,7 @@ msgstr ""
 "Nulstilles denne værdi, så nulstilles databasen, populære albummer vil blive "
 "gendannet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsDialog.ui:219
+#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsDialog.ui:136
 msgid "Albums cover size"
 msgstr "Albummers coverstørrelse"
 
@@ -175,8 +175,8 @@ msgstr "Kvalitet af MP3-kodning"
 msgid "Normalize MP3(MTP)"
 msgstr "Normalisér MP3 (MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:327
-#: ../data/SettingsDialog.ui:329 ../data/SettingsDialog.ui:340
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
+#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
 msgid "Auto update music"
 msgstr "Opdater musik automatisk"
 
@@ -192,8 +192,8 @@ msgstr "Vis liste over genre"
 msgid "Show navigation list"
 msgstr "Vis navigationsliste"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:246
-#: ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
+#: ../data/SettingsDialog.ui:174
 msgid "Show artist artwork"
 msgstr "Vis billede"
 
@@ -205,87 +205,90 @@ msgstr "Brug mørkt GTK-tema"
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Deaktivér brug af klientside-vinduesdekorationer (hovedbjælke)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:194
-#: ../data/SettingsDialog.ui:205
+#: ../data/org.gnome.Lollypop.gschema.xml:203
+msgid "Handle compilations"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
 msgid "Show compilations in albums view"
 msgstr "Vis samlinger i albumvisning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:354
-#: ../data/SettingsDialog.ui:381
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
+#: ../data/SettingsDialog.ui:298
 msgid "Continue playback when closed"
 msgstr "Fortsæt afspilning når lukket"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Smart sort for artist"
 msgstr "Smart sortering af kunstner"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 "F.eks.: The Beatles sorteret som Beatles. Kræver nulstilling af database."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Restore previous state"
 msgstr "Gendan tidligere tilstand"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:228
 msgid "Disable MPRIS"
 msgstr "Deaktivér MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:228
+#: ../data/org.gnome.Lollypop.gschema.xml:233
 msgid "Disable all notifications"
 msgstr "Deaktivér alle notifikationer"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:232
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Disable notifications upon change of song"
 msgstr "Deaktivér notifikationer når sangen ændres"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show track number from tags"
 msgstr "Vis spornummer fra tags"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "JPG cover quality"
 msgstr "JPG-coverkvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:252
+#: ../data/org.gnome.Lollypop.gschema.xml:257
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-msgid "Mix songs"
-msgstr "Bland sange"
-
 #: ../data/org.gnome.Lollypop.gschema.xml:271
+msgid "Smooth transitions between tracks"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Only mix songs in party mode"
 msgstr "Bland kun sange i festtilstand"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
-msgid "Mix duration"
-msgstr "Blandvarighed"
-
 #: ../data/org.gnome.Lollypop.gschema.xml:281
+msgid "Smooth transition duration"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Restart current track on previous"
 msgstr "Genstart aktuelle sprog på forrige"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Shuffle mode"
 msgstr "Blandingstilstand"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Possibilities for powermanagement options"
 msgstr "Muligheder til strømstyringsvalgmuligheder"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:292
+#: ../data/org.gnome.Lollypop.gschema.xml:297
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Denne valgmulighed forhindre pauseskærm og hvile mens Lollypop afspiller."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Playback behaviour"
 msgstr "Afspilningsopførsel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301 ../data/SettingsDialog.ui:271
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
 msgid "Order albums by"
 msgstr "Sortér albummer efter"
 
@@ -298,36 +301,36 @@ msgid "Visit Lollypop website"
 msgstr "Besøg Lollypops websted"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:18
+#: ../data/AboutDialog.ui.in:26
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
 "Chris Darnell <cedeel@gmail.com>\n"
 "scootergrisen"
 
-#: ../data/AboutDialog.ui.in:48
+#: ../data/AboutDialog.ui.in:56
 msgid "Donations:"
 msgstr "Donationer:"
 
-#: ../data/AboutDialog.ui.in:55
+#: ../data/AboutDialog.ui.in:63
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:65
+#: ../data/AboutDialog.ui.in:73
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:75
+#: ../data/AboutDialog.ui.in:83
 msgid "PayPal"
 msgstr "PayPal"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:6
-#: ../data/org.gnome.Lollypop.desktop.in:4
+#: ../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:7
-#: ../data/org.gnome.Lollypop.desktop.in:6
+#: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
 msgstr ""
 
@@ -399,24 +402,24 @@ msgstr ""
 msgid "TuneIn support"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:5
+#: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:8
+#: ../data/org.gnome.Lollypop.desktop.in:7
 msgid "org.gnome.Lollypop"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:20
+#: ../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:24 ../data/ToolbarPlayback.ui:103
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
 #: ../lollypop/notification.py:129
 msgid "Next"
 msgstr "Næste"
 
-#: ../data/org.gnome.Lollypop.desktop.in:28 ../data/ToolbarPlayback.ui:65
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
 #: ../lollypop/notification.py:123
 msgid "Previous"
 msgstr "Forrige"
@@ -462,7 +465,7 @@ msgstr "Wikipedia"
 msgid "Lyrics"
 msgstr "Sangtekster"
 
-#: ../data/ArtistInfo.ui:148 ../data/SettingsDialog.ui:1199
+#: ../data/ArtistInfo.ui:148 ../data/SettingsDialog.ui:1115
 #: ../data/ToolbarEnd.ui:140 ../lollypop/playlists.py:280
 msgid "Search"
 msgstr "Søgning"
@@ -503,7 +506,7 @@ msgid "Select a local file"
 msgstr "Vælg en lokal fil"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:561
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
 msgid "Confirm"
 msgstr "Bekræft"
 
@@ -519,7 +522,7 @@ msgstr ""
 "<small>Dette API er begrænset så det virker muligvis ikke med standard-API-"
 "nøglen.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1160
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
 msgid "API key"
 msgstr "API-nøgle"
 
@@ -624,122 +627,118 @@ msgstr "Søg i TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Opret en ny afspilningsliste ud fra søgningen"
 
-#: ../data/SettingsDialog.ui:31
-msgid "Only in party mode"
-msgstr "Kun i festtilstand"
-
-#: ../data/SettingsDialog.ui:97
-msgid "Mix duration in seconds"
-msgstr "Blandvarighed i sekunder"
-
-#: ../data/SettingsDialog.ui:107 ../lollypop/settings.py:105
-#: ../lollypop/settings.py:108
+#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:112
 msgid "Preferences"
 msgstr "Præferencer"
 
-#: ../data/SettingsDialog.ui:140 ../data/SettingsDialog.ui:152
+#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
 msgid "Use dark theme variant"
 msgstr "Brug mørk temavariant"
 
-#: ../data/SettingsDialog.ui:167 ../data/SettingsDialog.ui:179
+#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
 msgid "Show genres"
 msgstr "Vis genrer"
 
-#: ../data/SettingsDialog.ui:284 ../lollypop/pop_menu.py:365
+#: ../data/SettingsDialog.ui:111
+msgid "Show compilations"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
+msgid "Long press to show options"
+msgstr "Langt tryk for at vise valgmuligheder"
+
+#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:365
 #: ../lollypop/pop_menu.py:386
 msgid "Artist"
 msgstr "Kunstner"
 
-#: ../data/SettingsDialog.ui:285
+#: ../data/SettingsDialog.ui:202
 msgid "Name"
 msgstr "Navn"
 
-#: ../data/SettingsDialog.ui:286
+#: ../data/SettingsDialog.ui:203
 msgid "Year"
 msgstr "År"
 
-#: ../data/SettingsDialog.ui:287
+#: ../data/SettingsDialog.ui:204
 msgid "Popularity"
 msgstr "Popularitet"
 
-#: ../data/SettingsDialog.ui:302
+#: ../data/SettingsDialog.ui:219
 msgid "Configure Lollypop appearance"
 msgstr "Konfigurér Lollypops udseende"
 
-#: ../data/SettingsDialog.ui:303
+#: ../data/SettingsDialog.ui:220
 msgid "Appearance"
 msgstr "Udseende"
 
-#: ../data/SettingsDialog.ui:369 ../data/SettingsDialog.ui:392
+#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
 msgid "Restore state on startup"
 msgstr "Gendan tilstand ved start"
 
-#: ../data/SettingsDialog.ui:407
-msgid "Mix tracks"
-msgstr "Bland spor"
+#: ../data/SettingsDialog.ui:324
+msgid "Smooth transitions"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:419
-msgid "Long press to show options"
-msgstr "Langt tryk for at vise valgmuligheder"
-
-#: ../data/SettingsDialog.ui:433 ../data/SettingsDialog.ui:444
+#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
 msgid "Save changes to files"
 msgstr "Gem ændringer til filer"
 
-#: ../data/SettingsDialog.ui:458
+#: ../data/SettingsDialog.ui:374
 msgid "Preview tracks on"
 msgstr "Lyt til spor på"
 
-#: ../data/SettingsDialog.ui:472
+#: ../data/SettingsDialog.ui:388
 msgid "No audio device"
 msgstr "Ingen lydenhed"
 
-#: ../data/SettingsDialog.ui:487
+#: ../data/SettingsDialog.ui:403
 #, fuzzy
 msgid "Enable network access"
 msgstr "Aktivér netværksadgang:"
 
-#: ../data/SettingsDialog.ui:515
+#: ../data/SettingsDialog.ui:431
 msgid "Configure Lollypop behaviour"
 msgstr "Konfigurér Lollypops opførsel"
 
-#: ../data/SettingsDialog.ui:516
+#: ../data/SettingsDialog.ui:432
 msgid "Behaviour"
 msgstr "Opførsel"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:545
 msgid "Reset database"
 msgstr "Nulstil database"
 
-#: ../data/SettingsDialog.ui:798
+#: ../data/SettingsDialog.ui:714
 msgid "Select music folders"
 msgstr "Vælg musikmapper"
 
-#: ../data/SettingsDialog.ui:799
+#: ../data/SettingsDialog.ui:715
 msgid "Music"
 msgstr "Musik"
 
-#: ../data/SettingsDialog.ui:829 ../data/SettingsDialog.ui:944
+#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
 msgid "Login:"
 msgstr "Login:"
 
-#: ../data/SettingsDialog.ui:842 ../data/SettingsDialog.ui:957
+#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
 msgid "Password:"
 msgstr "Adgangskode:"
 
-#: ../data/SettingsDialog.ui:878 ../data/SettingsDialog.ui:993
+#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
 msgid "Connect"
 msgstr "Opret forbindelse"
 
-#: ../data/SettingsDialog.ui:905 ../data/SettingsDialog.ui:1020
+#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
 msgid "You need to install pylast and gi secret"
 msgstr "pylast og gi secret skal være installeret"
 
-#: ../data/SettingsDialog.ui:1040
+#: ../data/SettingsDialog.ui:956
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:1064
+#: ../data/SettingsDialog.ui:980
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -747,15 +746,15 @@ msgid ""
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1010
 msgid "User token"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1110
+#: ../data/SettingsDialog.ui:1026
 msgid "ListenBrainz"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1134
+#: ../data/SettingsDialog.ui:1050
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -765,14 +764,32 @@ msgstr ""
 "<small>Uden en, vil du hurtigt nå standardkvoten…\n"
 "Lollypop behøver dette for at søge efter billede.</small>"
 
-#: ../data/SettingsDialog.ui:1178
+#: ../data/SettingsDialog.ui:1094
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr "<small>Du skal aktivere \"Custom Search API\" for dit projekt.</small>"
 
-#: ../data/SettingsDialog.ui:1221 ../data/SettingsDialog.ui:1222
+#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
 msgid "Web"
 msgstr "Web"
+
+#: ../data/SettingsDialog.ui:1226
+msgid ""
+"A compilation is an album without any \"Album artist tag\"\n"
+"and with different artists."
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1240
+msgid "You need to reset database [Music]"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1274
+msgid "Only in party mode"
+msgstr "Kun i festtilstand"
+
+#: ../data/SettingsDialog.ui:1340
+msgid "Transition duration in seconds"
+msgstr ""
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -962,7 +979,7 @@ msgstr "Lav kvalitet, manglende API-nøgle…"
 msgid "Reset artwork?"
 msgstr "Nulstil billede?"
 
-#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:285
+#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:289
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:453 ../lollypop/selectionlist.py:466
@@ -973,11 +990,11 @@ msgstr "Nulstil billede?"
 msgid "Unknown"
 msgstr "Ukendt"
 
-#: ../lollypop/collectionscanner.py:175
+#: ../lollypop/collectionscanner.py:178
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop registrerer en tom mappe."
 
-#: ../lollypop/collectionscanner.py:176
+#: ../lollypop/collectionscanner.py:179
 msgid "Check your music settings."
 msgstr "Tjek dine musikindstillinger."
 
@@ -1177,7 +1194,7 @@ msgid_plural "%d tracks"
 msgstr[0] "%d spor"
 msgstr[1] "%d spor"
 
-#: ../lollypop/settings.py:731
+#: ../lollypop/settings.py:759
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli skal være installeret"
 
@@ -1201,7 +1218,7 @@ msgstr "Afspiller afspilningslister"
 msgid "The the"
 msgstr "The the Den den De de"
 
-#: ../lollypop/view_albums_list.py:95
+#: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Samling"
 
@@ -1299,6 +1316,18 @@ msgstr "Sang afspillet %s gange"
 #: ../lollypop/wikipedia.py:36
 msgid "musician;band"
 msgstr "musiker;band"
+
+#~ msgid "Mix songs"
+#~ msgstr "Bland sange"
+
+#~ msgid "Mix duration"
+#~ msgstr "Blandvarighed"
+
+#~ msgid "Mix duration in seconds"
+#~ msgstr "Blandvarighed i sekunder"
+
+#~ msgid "Mix tracks"
+#~ msgstr "Bland spor"
 
 #~ msgid "Remove"
 #~ msgstr "Fjern"
