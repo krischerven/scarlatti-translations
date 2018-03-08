@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 08:57+0100\n"
+"POT-Creation-Date: 2018-03-09 00:00+0100\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Irish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -105,10 +105,10 @@ msgstr "Eagarthóir clibe na coitiantachta"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:108
 #: ../data/org.gnome.Lollypop.gschema.xml:113
-#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:246
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 #: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "INTERNAL"
 msgstr "INMHEÁNACH"
 
@@ -127,7 +127,7 @@ msgid "Favorite cover file"
 msgstr "Comhad clúdaigh na coitiantachta"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:124
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Restart needed"
 msgstr "Atosú de dhíth"
 
@@ -140,7 +140,7 @@ msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsDialog.ui:219
+#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsDialog.ui:136
 msgid "Albums cover size"
 msgstr "Méid chlúdach albam"
 
@@ -172,8 +172,8 @@ msgstr ""
 msgid "Normalize MP3(MTP)"
 msgstr "Normalaigh MP3 (MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:327
-#: ../data/SettingsDialog.ui:329 ../data/SettingsDialog.ui:340
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
+#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
 msgid "Auto update music"
 msgstr "Uath-nuashonraigh ceol"
 
@@ -189,8 +189,8 @@ msgstr ""
 msgid "Show navigation list"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:246
-#: ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
+#: ../data/SettingsDialog.ui:174
 msgid "Show artist artwork"
 msgstr "Taispeáin saothar ealaíne ealaíontóra"
 
@@ -202,85 +202,88 @@ msgstr ""
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:194
-#: ../data/SettingsDialog.ui:205
+#: ../data/org.gnome.Lollypop.gschema.xml:203
+msgid "Handle compilations"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
 msgid "Show compilations in albums view"
 msgstr "Taispeáin teaglaimí i radharc albam"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:354
-#: ../data/SettingsDialog.ui:381
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
+#: ../data/SettingsDialog.ui:298
 msgid "Continue playback when closed"
 msgstr "Lean ar athsheinm nuair dúnta"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Smart sort for artist"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Restore previous state"
 msgstr "Athbhunaigh staid roimhe"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:228
 msgid "Disable MPRIS"
 msgstr "Míchumasaigh MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:228
+#: ../data/org.gnome.Lollypop.gschema.xml:233
 msgid "Disable all notifications"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:232
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Disable notifications upon change of song"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show track number from tags"
 msgstr "Taispeáin uimhir riain as chlibeanna"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "JPG cover quality"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:252
+#: ../data/org.gnome.Lollypop.gschema.xml:257
 msgid "0-100"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-msgid "Mix songs"
-msgstr "Measc amhráin"
-
 #: ../data/org.gnome.Lollypop.gschema.xml:271
-msgid "Only mix songs in party mode"
+msgid "Smooth transitions between tracks"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:276
-msgid "Mix duration"
-msgstr "Fad measctha"
+msgid "Only mix songs in party mode"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:281
-msgid "Restart current track on previous"
+msgid "Smooth transition duration"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:286
+msgid "Restart current track on previous"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Shuffle mode"
 msgstr "Mód suaite"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:292
+#: ../data/org.gnome.Lollypop.gschema.xml:297
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Playback behaviour"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301 ../data/SettingsDialog.ui:271
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
 msgid "Order albums by"
 msgstr "Cuir albaim in eagar le"
 
@@ -293,34 +296,34 @@ msgid "Visit Lollypop website"
 msgstr "Tabhair cuirt ar shuíomh gréasáin Lollypop"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:18
+#: ../data/AboutDialog.ui.in:26
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "David Ó Laıġeanáın <david.lynam@redbrick.dcu.ie>"
 
-#: ../data/AboutDialog.ui.in:48
+#: ../data/AboutDialog.ui.in:56
 msgid "Donations:"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:55
+#: ../data/AboutDialog.ui.in:63
 msgid "Flattr"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:65
+#: ../data/AboutDialog.ui.in:73
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:75
+#: ../data/AboutDialog.ui.in:83
 msgid "PayPal"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:6
-#: ../data/org.gnome.Lollypop.desktop.in:4
+#: ../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:7
-#: ../data/org.gnome.Lollypop.desktop.in:6
+#: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
 msgstr ""
 
@@ -392,24 +395,24 @@ msgstr ""
 msgid "TuneIn support"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:5
+#: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:8
+#: ../data/org.gnome.Lollypop.desktop.in:7
 msgid "org.gnome.Lollypop"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:20
+#: ../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in:24 ../data/ToolbarPlayback.ui:103
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
 #: ../lollypop/notification.py:129
 msgid "Next"
 msgstr "An chéad rian eile"
 
-#: ../data/org.gnome.Lollypop.desktop.in:28 ../data/ToolbarPlayback.ui:65
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
 #: ../lollypop/notification.py:123
 msgid "Previous"
 msgstr "An rian roimhe"
@@ -455,7 +458,7 @@ msgstr "Wikipedia"
 msgid "Lyrics"
 msgstr "Focail"
 
-#: ../data/ArtistInfo.ui:148 ../data/SettingsDialog.ui:1199
+#: ../data/ArtistInfo.ui:148 ../data/SettingsDialog.ui:1115
 #: ../data/ToolbarEnd.ui:140 ../lollypop/playlists.py:280
 msgid "Search"
 msgstr "Cuardach"
@@ -496,7 +499,7 @@ msgid "Select a local file"
 msgstr "Roghnaigh comhad áitiúil"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:561
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
 msgid "Confirm"
 msgstr "Deimhnigh"
 
@@ -508,7 +511,7 @@ msgid ""
 "small>"
 msgstr ""
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1160
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
 msgid "API key"
 msgstr "Eochar API"
 
@@ -613,121 +616,117 @@ msgstr "Cuardaigh i TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Déan seinnliosta nua atá bunaithe ar chuardach"
 
-#: ../data/SettingsDialog.ui:31
-msgid "Only in party mode"
-msgstr "Ach amháin i mód cóisire"
-
-#: ../data/SettingsDialog.ui:97
-msgid "Mix duration in seconds"
-msgstr "Fad measctha i soicindí"
-
-#: ../data/SettingsDialog.ui:107 ../lollypop/settings.py:105
-#: ../lollypop/settings.py:108
+#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:112
 msgid "Preferences"
 msgstr "Sainroghanna"
 
-#: ../data/SettingsDialog.ui:140 ../data/SettingsDialog.ui:152
+#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
 msgid "Use dark theme variant"
 msgstr "Úsáid leagan cuma dorcha"
 
-#: ../data/SettingsDialog.ui:167 ../data/SettingsDialog.ui:179
+#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
 msgid "Show genres"
 msgstr "Taispeáin seánraí"
 
-#: ../data/SettingsDialog.ui:284 ../lollypop/pop_menu.py:365
+#: ../data/SettingsDialog.ui:111
+msgid "Show compilations"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
+msgid "Long press to show options"
+msgstr "Brú fada chun roghanna a thaispeáint"
+
+#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:365
 #: ../lollypop/pop_menu.py:386
 msgid "Artist"
 msgstr "Ealaíontóir"
 
-#: ../data/SettingsDialog.ui:285
+#: ../data/SettingsDialog.ui:202
 msgid "Name"
 msgstr "Ainm"
 
-#: ../data/SettingsDialog.ui:286
+#: ../data/SettingsDialog.ui:203
 msgid "Year"
 msgstr "Bliain"
 
-#: ../data/SettingsDialog.ui:287
+#: ../data/SettingsDialog.ui:204
 msgid "Popularity"
 msgstr "Tóir"
 
-#: ../data/SettingsDialog.ui:302
+#: ../data/SettingsDialog.ui:219
 msgid "Configure Lollypop appearance"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:303
+#: ../data/SettingsDialog.ui:220
 msgid "Appearance"
 msgstr "Cuma"
 
-#: ../data/SettingsDialog.ui:369 ../data/SettingsDialog.ui:392
+#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
 msgid "Restore state on startup"
 msgstr "Athbhunaigh staid ar thosú"
 
-#: ../data/SettingsDialog.ui:407
-msgid "Mix tracks"
-msgstr "Measc rianta"
+#: ../data/SettingsDialog.ui:324
+msgid "Smooth transitions"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:419
-msgid "Long press to show options"
-msgstr "Brú fada chun roghanna a thaispeáint"
-
-#: ../data/SettingsDialog.ui:433 ../data/SettingsDialog.ui:444
+#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
 msgid "Save changes to files"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:458
+#: ../data/SettingsDialog.ui:374
 msgid "Preview tracks on"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:472
+#: ../data/SettingsDialog.ui:388
 msgid "No audio device"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:487
+#: ../data/SettingsDialog.ui:403
 msgid "Enable network access"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:515
+#: ../data/SettingsDialog.ui:431
 msgid "Configure Lollypop behaviour"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:516
+#: ../data/SettingsDialog.ui:432
 msgid "Behaviour"
 msgstr "Iompar"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:545
 msgid "Reset database"
 msgstr "Athshocraigh bunachar sonraí"
 
-#: ../data/SettingsDialog.ui:798
+#: ../data/SettingsDialog.ui:714
 msgid "Select music folders"
 msgstr "Roghnaigh fillteáin ceoil"
 
-#: ../data/SettingsDialog.ui:799
+#: ../data/SettingsDialog.ui:715
 msgid "Music"
 msgstr "Ceol"
 
-#: ../data/SettingsDialog.ui:829 ../data/SettingsDialog.ui:944
+#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
 msgid "Login:"
 msgstr "Ainm úsáideora:"
 
-#: ../data/SettingsDialog.ui:842 ../data/SettingsDialog.ui:957
+#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
 msgid "Password:"
 msgstr "Focal faire:"
 
-#: ../data/SettingsDialog.ui:878 ../data/SettingsDialog.ui:993
+#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
 msgid "Connect"
 msgstr "Ceangail"
 
-#: ../data/SettingsDialog.ui:905 ../data/SettingsDialog.ui:1020
+#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
 msgid "You need to install pylast and gi secret"
 msgstr "Is gá pylast agus gi secret a shuiteáil"
 
-#: ../data/SettingsDialog.ui:1040
+#: ../data/SettingsDialog.ui:956
 msgid "Libre.fm"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1064
+#: ../data/SettingsDialog.ui:980
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -735,28 +734,46 @@ msgid ""
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1010
 msgid "User token"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1110
+#: ../data/SettingsDialog.ui:1026
 msgid "ListenBrainz"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1134
+#: ../data/SettingsDialog.ui:1050
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1178
+#: ../data/SettingsDialog.ui:1094
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1221 ../data/SettingsDialog.ui:1222
+#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
 msgid "Web"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1226
+msgid ""
+"A compilation is an album without any \"Album artist tag\"\n"
+"and with different artists."
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1240
+msgid "You need to reset database [Music]"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1274
+msgid "Only in party mode"
+msgstr "Ach amháin i mód cóisire"
+
+#: ../data/SettingsDialog.ui:1340
+msgid "Transition duration in seconds"
 msgstr ""
 
 #: ../data/Shortcuts.ui:13
@@ -942,7 +959,7 @@ msgstr ""
 msgid "Reset artwork?"
 msgstr "Athshocraigh saothar ealaíne?"
 
-#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:285
+#: ../lollypop/collectionimporter.py:98 ../lollypop/collectionscanner.py:289
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:453 ../lollypop/selectionlist.py:466
@@ -953,11 +970,11 @@ msgstr "Athshocraigh saothar ealaíne?"
 msgid "Unknown"
 msgstr "Anaithnid"
 
-#: ../lollypop/collectionscanner.py:175
+#: ../lollypop/collectionscanner.py:178
 msgid "Lollypop is detecting an empty folder."
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:176
+#: ../lollypop/collectionscanner.py:179
 msgid "Check your music settings."
 msgstr ""
 
@@ -1166,7 +1183,7 @@ msgstr[2] "%d rian"
 msgstr[3] "%d rian"
 msgstr[4] "%d rian"
 
-#: ../lollypop/settings.py:731
+#: ../lollypop/settings.py:759
 msgid "You need to install kid3-cli"
 msgstr "Is gá kid3-cli a shuiteáil"
 
@@ -1190,7 +1207,7 @@ msgstr "Seinnliostaí á sheinm"
 msgid "The the"
 msgstr "An an Na na"
 
-#: ../lollypop/view_albums_list.py:95
+#: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Teaglaim"
 
@@ -1288,6 +1305,18 @@ msgstr ""
 #: ../lollypop/wikipedia.py:36
 msgid "musician;band"
 msgstr "ceoltóir;buíon cheoil"
+
+#~ msgid "Mix songs"
+#~ msgstr "Measc amhráin"
+
+#~ msgid "Mix duration"
+#~ msgstr "Fad measctha"
+
+#~ msgid "Mix duration in seconds"
+#~ msgstr "Fad measctha i soicindí"
+
+#~ msgid "Mix tracks"
+#~ msgstr "Measc rianta"
 
 #~ msgid "Remove"
 #~ msgstr "Bain"
