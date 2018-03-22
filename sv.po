@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-09 00:00+0100\n"
-"PO-Revision-Date: 2018-03-20 23:02+0000\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"PO-Revision-Date: 2018-03-22 22:42+0000\n"
+"Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "sv/>\n"
 "Language: sv\n"
@@ -95,7 +95,7 @@ msgstr "Last.fm-inloggning"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:93
 msgid "ListenBrainz user token"
-msgstr ""
+msgstr "ListenBrainz användarpolett"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Google Custom Search API key"
@@ -353,6 +353,8 @@ msgid ""
 "Intuitive browsing: walk through your collection by genres/artists and "
 "through albums artwork"
 msgstr ""
+"Intuitiv bläddring: gå igenom din samling via genrer/artister och genom "
+"skivomslag"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Search in your collection by artist, album and title"
@@ -360,7 +362,7 @@ msgstr "Sök i din samling efter artist, album och titel"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Artist bio, lyrics: get artists and tracks information from the web"
-msgstr ""
+msgstr "Artistbiografi, låttexter: få artist- och låtinformation från webben"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Party mode: no awkward silences, let Lollypop choose music for you"
@@ -368,13 +370,15 @@ msgstr "Partyläge: inga pinsamma tystnader, låt Lollypop välja musik åt dig"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:17
 msgid "ReplayGain (RG): automatically select the best audio level"
-msgstr ""
+msgstr "ReplayGain (RG): välj automatiskt den bästa ljudnivån"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:18
 msgid ""
 "Cover art downloader: automatic artwork downloader from Last.fm, Itunes and "
 "Spotify"
 msgstr ""
+"Skivomslagsnerladdare: ladda automatiskt ner omslag från Last.fm, Itunes och "
+"Spotify"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:19
 msgid "MTP devices: sync your music with Android phones and any MTP devices"
@@ -645,7 +649,7 @@ msgstr "Visa genrer"
 
 #: ../data/SettingsDialog.ui:111
 msgid "Show compilations"
-msgstr ""
+msgstr "Visa samlingsalbum"
 
 #: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
 msgid "Long press to show options"
@@ -682,7 +686,7 @@ msgstr "Återställ tillstånd vid uppstart"
 
 #: ../data/SettingsDialog.ui:324
 msgid "Smooth transitions"
-msgstr ""
+msgstr "Mjuka övergångar"
 
 #: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
 msgid "Save changes to files"
@@ -747,10 +751,14 @@ msgid ""
 "token below. You can see your user token in your <a href=\"https://"
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
+"<b> 1ListenBrainz användarpolett</b> 2\n"
+"<small> 3För att skicka dina lyssningar till ListenBrainz, ange din "
+"ListenBrainz användarpolett nedan. Du kan se din användarpolett i din <a "
+"href=\"https://listenbrainz.org/profile/\"> 4användarprofil</a> 5.</small> 6"
 
 #: ../data/SettingsDialog.ui:1010
 msgid "User token"
-msgstr ""
+msgstr "Användarpolett"
 
 #: ../data/SettingsDialog.ui:1026
 msgid "ListenBrainz"
@@ -781,10 +789,12 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
+"Ett samlingsalbum är ett album utan någon \"Albumartist tag\"\n"
+"och med olika artister."
 
 #: ../data/SettingsDialog.ui:1240
 msgid "You need to reset database [Music]"
-msgstr ""
+msgstr "Du måste återställa databasen [Musik]"
 
 #: ../data/SettingsDialog.ui:1274
 msgid "Only in party mode"
@@ -792,7 +802,7 @@ msgstr "Endast i partyläge"
 
 #: ../data/SettingsDialog.ui:1340
 msgid "Transition duration in seconds"
-msgstr ""
+msgstr "Övergångsvaraktighet i sekunder"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -966,9 +976,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
-"- Scrobbler inaktiverad\n"
-"- Automatisk hämtning av omslag inaktiverad\n"
-"- Artistinformation inaktiverad"
+"    - Scrobbler inaktiverad\n"
+"    - Automatisk hämtning av omslag inaktiverad\n"
+"    - Artistinformation inaktiverad"
 
 #: ../lollypop/art_widgets.py:70
 msgid "Select artwork"
