@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-27 22:29+0200\n"
-"PO-Revision-Date: 2018-03-29 16:32+0000\n"
+"PO-Revision-Date: 2018-03-29 16:44+0000\n"
 "Last-Translator: Svitozar Cherepii <razotivs@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/uk/>\n"
@@ -87,7 +87,7 @@ msgstr "ID жанрів."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:83
 msgid "REMOVE ME LATER"
-msgstr ""
+msgstr "ЗАБЕРІТЬ МЕНЕ ПОТІМ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:88
 msgid "Music URI"
@@ -320,7 +320,6 @@ msgid "Flattr"
 msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:73
-#, fuzzy
 msgid "Liberapay"
 msgstr "Liberapay"
 
@@ -774,10 +773,12 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
+"Збірка це альбом без жодного \"тегу виконавця альбому\"\n"
+"та з різними виконавцями."
 
 #: ../data/SettingsDialog.ui:1240
 msgid "You need to reset database [Music]"
-msgstr ""
+msgstr "Необхідне скидання бази даних [Music]"
 
 #: ../data/SettingsDialog.ui:1274
 msgid "Only in party mode"
@@ -785,7 +786,7 @@ msgstr "Тільки в режимі вечірки"
 
 #: ../data/SettingsDialog.ui:1340
 msgid "Transition duration in seconds"
-msgstr ""
+msgstr "Тривалість переходу в секундах"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -840,7 +841,7 @@ msgstr "Показати/сховати контроль гучності"
 #: ../data/Shortcuts.ui:80
 msgctxt "shortcut window"
 msgid "Show lyrics"
-msgstr ""
+msgstr "Показати текст пісні"
 
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
@@ -1017,11 +1018,11 @@ msgstr "Автентифікація Last.fm вимкнена"
 
 #: ../lollypop/notification.py:33
 msgid "Lollypop is running"
-msgstr ""
+msgstr "Lollypop працює"
 
 #: ../lollypop/notification.py:34
 msgid "Click to close"
-msgstr ""
+msgstr "Натисніть щоб закрити"
 
 #: ../lollypop/notification.py:144
 #, python-format
@@ -1063,11 +1064,11 @@ msgstr "Відтворення альбомів"
 
 #: ../lollypop/pop_information.py:84
 msgid "Loading information"
-msgstr ""
+msgstr "Завантаження інформації"
 
 #: ../lollypop/pop_information.py:149
 msgid "No information on this artist"
-msgstr ""
+msgstr "Немає даних на цього виконавця"
 
 #: ../lollypop/pop_menu.py:75
 msgid "Show albums from artist"
@@ -1105,7 +1106,7 @@ msgstr "Додати до \"%s\""
 
 #: ../lollypop/pop_menu.py:300
 msgid "Show lyrics"
-msgstr ""
+msgstr "Показати текст пісні"
 
 #: ../lollypop/pop_menu.py:301
 msgid "Lyrics"
@@ -1179,15 +1180,15 @@ msgstr "Не для вечірки"
 
 #: ../lollypop/selectionlist.py:113
 msgid "Default on startup"
-msgstr ""
+msgstr "За замовчуванням при запуску"
 
 #: ../lollypop/selectionlist.py:116
 msgid "Startup"
-msgstr ""
+msgstr "Запуск"
 
 #: ../lollypop/selectionlist.py:139
 msgid "Shown"
-msgstr ""
+msgstr "Показано"
 
 #: ../lollypop/settings.py:88
 #, python-format
@@ -1247,15 +1248,13 @@ msgstr "Доступ до мережі вимкнено"
 
 #: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:292
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
-#, fuzzy
 msgid "Add to current playlist"
-msgstr "Додати до списку відтворення"
+msgstr "Додати до поточного списку відтворення"
 
 #: ../lollypop/view_artist.py:352 ../lollypop/widgets_album.py:297
 #: ../lollypop/widgets_context.py:102 ../lollypop/widgets_indicator.py:105
-#, fuzzy
 msgid "Remove from current playlist"
-msgstr "Додати до списку відтворення"
+msgstr "Вилучити з поточного списку відтворення"
 
 #: ../lollypop/view_device.py:36
 msgid "Please unlock your device"
@@ -1272,7 +1271,7 @@ msgstr "Скасувати синхронізацію"
 
 #: ../lollypop/view_lyrics.py:171
 msgid "No lyrics found "
-msgstr ""
+msgstr "Не знайдено тексти пісень "
 
 #: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:290
 #, python-format
