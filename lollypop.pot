@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-27 22:29+0200\n"
+"POT-Creation-Date: 2018-04-12 10:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -409,12 +409,12 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:124
+#: ../lollypop/notification.py:129
 msgid "Next"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:120
+#: ../lollypop/notification.py:123
 msgid "Previous"
 msgstr ""
 
@@ -533,8 +533,8 @@ msgstr ""
 msgid "New playlist"
 msgstr ""
 
-#: ../data/PlaylistView.ui:68 ../lollypop/pop_menu.py:401
-#: ../lollypop/pop_menu.py:424
+#: ../data/PlaylistView.ui:68 ../lollypop/pop_menu.py:402
+#: ../lollypop/pop_menu.py:425
 msgid "Edit"
 msgstr ""
 
@@ -546,7 +546,7 @@ msgstr ""
 msgid "Clear queue"
 msgstr ""
 
-#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:420
+#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:421
 #: ../lollypop/toolbar_end.py:420
 msgid "Queue"
 msgstr ""
@@ -612,8 +612,8 @@ msgstr ""
 msgid "Long press to show options"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:397
-#: ../lollypop/pop_menu.py:418
+#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:398
+#: ../lollypop/pop_menu.py:419
 msgid "Artist"
 msgstr ""
 
@@ -944,10 +944,10 @@ msgstr ""
 msgid "Reset artwork?"
 msgstr ""
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:289
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:293
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:583 ../lollypop/selectionlist.py:596
+#: ../lollypop/selectionlist.py:579 ../lollypop/selectionlist.py:592
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
 #: ../lollypop/tagreader.py:204 ../lollypop/tagreader.py:208
@@ -955,12 +955,20 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:178
+#: ../lollypop/collectionscanner.py:180
 msgid "Lollypop is detecting an empty folder."
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:179
+#: ../lollypop/collectionscanner.py:181
 msgid "Check your music settings."
+msgstr ""
+
+#: ../lollypop/container.py:860
+msgid "New tracks available"
+msgstr ""
+
+#: ../lollypop/container.py:861
+msgid "Refresh"
 msgstr ""
 
 #: ../lollypop/controllers.py:85 ../lollypop/controllers.py:109
@@ -979,20 +987,12 @@ msgstr ""
 msgid "Last.fm authentication disabled"
 msgstr ""
 
-#: ../lollypop/notification.py:33
-msgid "Lollypop is running"
-msgstr ""
-
-#: ../lollypop/notification.py:34
-msgid "Click to close"
-msgstr ""
-
-#: ../lollypop/notification.py:144
+#: ../lollypop/notification.py:160
 #, python-format
 msgid "by %s"
 msgstr ""
 
-#: ../lollypop/notification.py:152
+#: ../lollypop/notification.py:168
 #, python-format
 msgid "by %s, from %s"
 msgstr ""
@@ -1001,19 +1001,19 @@ msgstr ""
 msgid "Loved tracks"
 msgstr ""
 
-#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:73
+#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:74
 msgid "Popular tracks"
 msgstr ""
 
-#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:77
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:78
 msgid "Recently played"
 msgstr ""
 
-#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:79
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:80
 msgid "Never played"
 msgstr ""
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:81
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
 msgid "Random tracks"
 msgstr ""
 
@@ -1067,21 +1067,21 @@ msgstr ""
 msgid "Add to \"%s\""
 msgstr ""
 
-#: ../lollypop/pop_menu.py:300
+#: ../lollypop/pop_menu.py:299
 msgid "Show lyrics"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:301
+#: ../lollypop/pop_menu.py:300
 msgid "Lyrics"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:302 ../lollypop/pop_menu.py:399
-#: ../lollypop/pop_menu.py:422 ../lollypop/selectionlist.py:47
+#: ../lollypop/pop_menu.py:303 ../lollypop/pop_menu.py:400
+#: ../lollypop/pop_menu.py:423 ../lollypop/selectionlist.py:48
 #: ../lollypop/widgets_device.py:124 ../lollypop/widgets_playlist.py:587
 msgid "Playlists"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:355 ../lollypop/widgets_context.py:58
+#: ../lollypop/pop_menu.py:356 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr ""
 
@@ -1093,59 +1093,59 @@ msgstr ""
 msgid "Modify"
 msgstr ""
 
-#: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:400
+#: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:402
 msgid "Can't connect to TuneIn…"
 msgstr ""
 
-#: ../lollypop/pop_tunein.py:395 ../lollypop/pop_tunein.py:397
+#: ../lollypop/pop_tunein.py:397 ../lollypop/pop_tunein.py:399
 msgid "No result…"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:37
+#: ../lollypop/selectionlist.py:38
 msgid "Popular albums"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:39
+#: ../lollypop/selectionlist.py:40
 msgid "Loved albums"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:41
+#: ../lollypop/selectionlist.py:42
 msgid "Recently added albums"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:43
+#: ../lollypop/selectionlist.py:44
 msgid "Random albums"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:45
+#: ../lollypop/selectionlist.py:46
 msgid "Never played albums"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:49
+#: ../lollypop/selectionlist.py:50
 msgid "Radios"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:52
+#: ../lollypop/selectionlist.py:53
 msgid "All albums"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:54
+#: ../lollypop/selectionlist.py:55
 msgid "All artists"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:57 ../lollypop/widgets_device.py:307
+#: ../lollypop/selectionlist.py:58 ../lollypop/widgets_device.py:307
 msgid "Compilations"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:83
+#: ../lollypop/selectionlist.py:84
 msgid "Not in party"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:113
+#: ../lollypop/selectionlist.py:114
 msgid "Default on startup"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:116
+#: ../lollypop/selectionlist.py:117
 msgid "Startup"
 msgstr ""
 
@@ -1206,12 +1206,12 @@ msgstr ""
 msgid "Network access disabled"
 msgstr ""
 
-#: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:292
+#: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
 msgid "Add to current playlist"
 msgstr ""
 
-#: ../lollypop/view_artist.py:352 ../lollypop/widgets_album.py:297
+#: ../lollypop/view_artist.py:352 ../lollypop/widgets_album.py:296
 #: ../lollypop/widgets_context.py:102 ../lollypop/widgets_indicator.py:105
 msgid "Remove from current playlist"
 msgstr ""
@@ -1229,26 +1229,26 @@ msgstr ""
 msgid "Cancel synchronization"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:171
+#: ../lollypop/view_lyrics.py:192
 msgid "No lyrics found "
 msgstr ""
 
-#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:290
+#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr ""
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:292
+#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr ""
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:294
+#: ../lollypop/view_playlists.py:261 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr ""
 
-#: ../lollypop/view_tracks.py:378
+#: ../lollypop/view_tracks.py:385
 #, python-format
 msgid "Disc %s"
 msgstr ""
