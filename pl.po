@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-12 10:39+0200\n"
+"POT-Creation-Date: 2018-04-16 22:29+0200\n"
 "PO-Revision-Date: 2018-01-24 12:25+0000\n"
 "Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -427,12 +427,12 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:129
+#: ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Następny"
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:123
+#: ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Poprzedni"
 
@@ -946,7 +946,7 @@ msgstr "Przechodzi wstecz"
 msgid "Go home"
 msgstr "Przechodzi na początek"
 
-#: ../lollypop/application.py:32
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -965,7 +965,7 @@ msgstr "Niska jakość, brakujący klucz API..."
 msgid "Reset artwork?"
 msgstr "Przywraca domyślną okładkę"
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:293
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:300
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:579 ../lollypop/selectionlist.py:592
@@ -984,11 +984,11 @@ msgstr "Wykryto pusty katalog."
 msgid "Check your music settings."
 msgstr "Sprawdź ustawienia muzyczne."
 
-#: ../lollypop/container.py:860
+#: ../lollypop/container.py:861
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:861
+#: ../lollypop/container.py:862
 msgid "Refresh"
 msgstr ""
 
@@ -1008,12 +1008,12 @@ msgstr "Wielu wykonawców"
 msgid "Last.fm authentication disabled"
 msgstr "Wyłączono uwierzytelnianie Last.fm"
 
-#: ../lollypop/notification.py:160
+#: ../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "w wykonaniu %s"
 
-#: ../lollypop/notification.py:168
+#: ../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "w wykonaniu %s, z albumu %s"
@@ -1046,11 +1046,16 @@ msgstr "Czyści albumy"
 msgid "Playing albums"
 msgstr "Odtwarzane albumy"
 
-#: ../lollypop/pop_information.py:84
+#: ../lollypop/pop_information.py:87 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:58 ../lollypop/view_lyrics.py:77
+msgid "Network access disabled"
+msgstr "Dostęp do sieci wyłączony"
+
+#: ../lollypop/pop_information.py:89
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/pop_information.py:149
+#: ../lollypop/pop_information.py:151
 msgid "No information on this artist"
 msgstr ""
 
@@ -1221,17 +1226,13 @@ msgstr "Zewnętrzne utwory"
 msgid "Playing playlists"
 msgstr "Odtwarzanie list odtwarzania"
 
-#: ../lollypop/utils.py:202
+#: ../lollypop/utils.py:256
 msgid "The the"
 msgstr "The the"
 
 #: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Kompilacja"
-
-#: ../lollypop/view_artist_albums.py:74 ../lollypop/view_artist.py:58
-msgid "Network access disabled"
-msgstr "Dostęp do sieci wyłączony"
 
 #: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
@@ -1258,7 +1259,11 @@ msgstr "Synchronizuj %s"
 msgid "Cancel synchronization"
 msgstr "Anuluj synchronizowanie"
 
-#: ../lollypop/view_lyrics.py:192
+#: ../lollypop/view_lyrics.py:57
+msgid "Loading…"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:220
 msgid "No lyrics found "
 msgstr ""
 

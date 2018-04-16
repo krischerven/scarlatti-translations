@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-12 10:39+0200\n"
+"POT-Creation-Date: 2018-04-16 22:29+0200\n"
 "PO-Revision-Date: 2018-03-17 08:34+0000\n"
 "Last-Translator: Ferran Roig <ailospedrer@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -434,12 +434,12 @@ msgid "Play/Pause"
 msgstr "Sona / Pausa"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:129
+#: ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Següent"
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:123
+#: ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Anterior"
 
@@ -967,7 +967,7 @@ msgstr "Vés enrere"
 msgid "Go home"
 msgstr "Vés a l’inici"
 
-#: ../lollypop/application.py:32
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -989,7 +989,7 @@ msgstr "Qualitat baixa, manca la clau API…"
 msgid "Reset artwork?"
 msgstr "Reiniciar il·lustracions?"
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:293
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:300
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:579 ../lollypop/selectionlist.py:592
@@ -1008,11 +1008,11 @@ msgstr "Llollypop ha detectat una carpeta buida."
 msgid "Check your music settings."
 msgstr "Comproveu configuració de la mediateca."
 
-#: ../lollypop/container.py:860
+#: ../lollypop/container.py:861
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:861
+#: ../lollypop/container.py:862
 msgid "Refresh"
 msgstr ""
 
@@ -1032,12 +1032,12 @@ msgstr "Molts artistes"
 msgid "Last.fm authentication disabled"
 msgstr "Autentificació Last.fm desactivada"
 
-#: ../lollypop/notification.py:160
+#: ../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "per %s"
 
-#: ../lollypop/notification.py:168
+#: ../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "per %s, de l’àlbum %s"
@@ -1070,11 +1070,16 @@ msgstr "Neteja àlbums"
 msgid "Playing albums"
 msgstr "Reproduint àlbums"
 
-#: ../lollypop/pop_information.py:84
+#: ../lollypop/pop_information.py:87 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:58 ../lollypop/view_lyrics.py:77
+msgid "Network access disabled"
+msgstr "Accés a la xarxa deshabilitat"
+
+#: ../lollypop/pop_information.py:89
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/pop_information.py:149
+#: ../lollypop/pop_information.py:151
 msgid "No information on this artist"
 msgstr ""
 
@@ -1239,17 +1244,13 @@ msgstr "Pistes externes"
 msgid "Playing playlists"
 msgstr "Reproduint llistes"
 
-#: ../lollypop/utils.py:202
+#: ../lollypop/utils.py:256
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
 #: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Compilació"
-
-#: ../lollypop/view_artist_albums.py:74 ../lollypop/view_artist.py:58
-msgid "Network access disabled"
-msgstr "Accés a la xarxa deshabilitat"
 
 #: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
@@ -1274,7 +1275,11 @@ msgstr "Sincronitza %s"
 msgid "Cancel synchronization"
 msgstr "Atura sincronització"
 
-#: ../lollypop/view_lyrics.py:192
+#: ../lollypop/view_lyrics.py:57
+msgid "Loading…"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:220
 msgid "No lyrics found "
 msgstr ""
 

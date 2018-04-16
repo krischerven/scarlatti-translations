@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-12 10:39+0200\n"
+"POT-Creation-Date: 2018-04-16 22:29+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Greek (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -416,12 +416,12 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:129
+#: ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Επόμενο "
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:123
+#: ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Προηγούμενο"
 
@@ -935,7 +935,7 @@ msgstr "Πίσω"
 msgid "Go home"
 msgstr "Αρχή"
 
-#: ../lollypop/application.py:32
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -954,7 +954,7 @@ msgstr "Χαμηλή ποιότητα, απώλεια κλειδιού API"
 msgid "Reset artwork?"
 msgstr "Επαναφορά γραφικών?"
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:293
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:300
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:579 ../lollypop/selectionlist.py:592
@@ -973,11 +973,11 @@ msgstr "Το Lollypop βρήκε άδειο φάκελο."
 msgid "Check your music settings."
 msgstr "Ελέγξτε τις μουσικές ρυθμίσεις "
 
-#: ../lollypop/container.py:860
+#: ../lollypop/container.py:861
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:861
+#: ../lollypop/container.py:862
 msgid "Refresh"
 msgstr ""
 
@@ -997,12 +997,12 @@ msgstr "πολλοί καλλιτέχνες"
 msgid "Last.fm authentication disabled"
 msgstr "Απενεργοποίηση πιστοποίησης Last.fm"
 
-#: ../lollypop/notification.py:160
+#: ../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "με %s"
 
-#: ../lollypop/notification.py:168
+#: ../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "με %s, από %s"
@@ -1035,11 +1035,16 @@ msgstr "Καθαρισμός άλμπουμ"
 msgid "Playing albums"
 msgstr "Αναπαραγόμενο άλμπουμ"
 
-#: ../lollypop/pop_information.py:84
+#: ../lollypop/pop_information.py:87 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:58 ../lollypop/view_lyrics.py:77
+msgid "Network access disabled"
+msgstr "Πρόσβαση δικτύου ανενεργή"
+
+#: ../lollypop/pop_information.py:89
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/pop_information.py:149
+#: ../lollypop/pop_information.py:151
 msgid "No information on this artist"
 msgstr ""
 
@@ -1204,17 +1209,13 @@ msgstr "Εξωτερικά τραγούδια"
 msgid "Playing playlists"
 msgstr "Αναπαραγωγή λίστας"
 
-#: ../lollypop/utils.py:202
+#: ../lollypop/utils.py:256
 msgid "The the"
 msgstr "Το το"
 
 #: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Συλλογή"
-
-#: ../lollypop/view_artist_albums.py:74 ../lollypop/view_artist.py:58
-msgid "Network access disabled"
-msgstr "Πρόσβαση δικτύου ανενεργή"
 
 #: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
@@ -1241,7 +1242,11 @@ msgstr "Συγχρονισμός %s"
 msgid "Cancel synchronization"
 msgstr "Ακύρωση συγχρονισμού"
 
-#: ../lollypop/view_lyrics.py:192
+#: ../lollypop/view_lyrics.py:57
+msgid "Loading…"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:220
 msgid "No lyrics found "
 msgstr ""
 

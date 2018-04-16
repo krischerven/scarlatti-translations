@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-12 10:39+0200\n"
+"POT-Creation-Date: 2018-04-16 22:29+0200\n"
 "PO-Revision-Date: 2018-03-19 22:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -428,12 +428,12 @@ msgid "Play/Pause"
 msgstr "Spill/pause"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:129
+#: ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Neste"
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:123
+#: ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Forrige"
 
@@ -962,7 +962,7 @@ msgstr "Gå tilbake"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/application.py:32
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -984,7 +984,7 @@ msgstr "Lav kvalitet, mangler API-nøkkel…"
 msgid "Reset artwork?"
 msgstr "Tilbakestill omslag?"
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:293
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:300
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:579 ../lollypop/selectionlist.py:592
@@ -1003,11 +1003,11 @@ msgstr "Lollypop fant ei tom mappe."
 msgid "Check your music settings."
 msgstr "Sjekk dine musikkinnstillinger."
 
-#: ../lollypop/container.py:860
+#: ../lollypop/container.py:861
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:861
+#: ../lollypop/container.py:862
 msgid "Refresh"
 msgstr ""
 
@@ -1027,12 +1027,12 @@ msgstr "Mange artister"
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm-autentisering avskrudd"
 
-#: ../lollypop/notification.py:160
+#: ../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "av %s"
 
-#: ../lollypop/notification.py:168
+#: ../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "av %s, fra %s"
@@ -1065,11 +1065,16 @@ msgstr "Tøm album"
 msgid "Playing albums"
 msgstr "Album som spilles"
 
-#: ../lollypop/pop_information.py:84
+#: ../lollypop/pop_information.py:87 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:58 ../lollypop/view_lyrics.py:77
+msgid "Network access disabled"
+msgstr "Nettverkstilgang avskrudd"
+
+#: ../lollypop/pop_information.py:89
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/pop_information.py:149
+#: ../lollypop/pop_information.py:151
 msgid "No information on this artist"
 msgstr ""
 
@@ -1234,17 +1239,13 @@ msgstr "Eksterne spor"
 msgid "Playing playlists"
 msgstr "Spillelister som spilles"
 
-#: ../lollypop/utils.py:202
+#: ../lollypop/utils.py:256
 msgid "The the"
 msgstr "The the De de"
 
 #: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Samling"
-
-#: ../lollypop/view_artist_albums.py:74 ../lollypop/view_artist.py:58
-msgid "Network access disabled"
-msgstr "Nettverkstilgang avskrudd"
 
 #: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
@@ -1269,7 +1270,11 @@ msgstr "Synkroniser %s"
 msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
 
-#: ../lollypop/view_lyrics.py:192
+#: ../lollypop/view_lyrics.py:57
+msgid "Loading…"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:220
 msgid "No lyrics found "
 msgstr ""
 

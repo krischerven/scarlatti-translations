@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-12 10:39+0200\n"
+"POT-Creation-Date: 2018-04-16 22:29+0200\n"
 "PO-Revision-Date: 2018-03-27 20:31+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -430,12 +430,12 @@ msgid "Play/Pause"
 msgstr "Groti/Pristabdyti"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:129
+#: ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Kitas"
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:123
+#: ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Ankstesnis"
 
@@ -964,7 +964,7 @@ msgstr "Grįžti atgal"
 msgid "Go home"
 msgstr "Grįžti į pradžią"
 
-#: ../lollypop/application.py:32
+#: ../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -986,7 +986,7 @@ msgstr "Žema kokybė, trūksta API rakto…"
 msgid "Reset artwork?"
 msgstr "Atstatyti iliustraciją?"
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:293
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:300
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:579 ../lollypop/selectionlist.py:592
@@ -1005,11 +1005,11 @@ msgstr "Lollypop aptinka tuščią aplanką."
 msgid "Check your music settings."
 msgstr "Patikrinkite savo muzikos nustatymus."
 
-#: ../lollypop/container.py:860
+#: ../lollypop/container.py:861
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:861
+#: ../lollypop/container.py:862
 msgid "Refresh"
 msgstr ""
 
@@ -1029,12 +1029,12 @@ msgstr "Daugybė atlikėjų"
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm tapatybės nustatymas išjungtas"
 
-#: ../lollypop/notification.py:160
+#: ../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "atlieka %s"
 
-#: ../lollypop/notification.py:168
+#: ../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "atlieka %s, albume %s"
@@ -1067,11 +1067,16 @@ msgstr "Išvalyti albumus"
 msgid "Playing albums"
 msgstr "Grojami albumai"
 
-#: ../lollypop/pop_information.py:84
+#: ../lollypop/pop_information.py:87 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:58 ../lollypop/view_lyrics.py:77
+msgid "Network access disabled"
+msgstr "Tinklo prieiga išjungta"
+
+#: ../lollypop/pop_information.py:89
 msgid "Loading information"
 msgstr "Įkeliama informacija"
 
-#: ../lollypop/pop_information.py:149
+#: ../lollypop/pop_information.py:151
 msgid "No information on this artist"
 msgstr "Apie šį atlikėją nėra jokios informacijos"
 
@@ -1239,17 +1244,13 @@ msgstr "Išoriniai takeliai"
 msgid "Playing playlists"
 msgstr "Grojami grojaraščiai"
 
-#: ../lollypop/utils.py:202
+#: ../lollypop/utils.py:256
 msgid "The the"
 msgstr "The the"
 
 #: ../lollypop/view_albums_list.py:94
 msgid "Compilation"
 msgstr "Rinkinys"
-
-#: ../lollypop/view_artist_albums.py:74 ../lollypop/view_artist.py:58
-msgid "Network access disabled"
-msgstr "Tinklo prieiga išjungta"
 
 #: ../lollypop/view_artist.py:345 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:109
@@ -1274,7 +1275,11 @@ msgstr "Sinchronizuoti %s"
 msgid "Cancel synchronization"
 msgstr "Atsisakyti sinchronizacijos"
 
-#: ../lollypop/view_lyrics.py:192
+#: ../lollypop/view_lyrics.py:57
+msgid "Loading…"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:220
 msgid "No lyrics found "
 msgstr "Dainos žodžių nerasta "
 
