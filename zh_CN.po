@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 22:29+0200\n"
+"POT-Creation-Date: 2018-04-17 22:00+0200\n"
 "PO-Revision-Date: 2018-01-24 12:05+0000\n"
 "Last-Translator: bdfish <lipanXJ@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -467,8 +467,8 @@ msgstr ""
 msgid "Similar artists"
 msgstr "相似艺术家"
 
-#: ../data/ArtistView.ui:148 ../lollypop/pop_albums.py:43
-#: ../lollypop/view_artist.py:49
+#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
+#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:49
 msgid "Go to current track"
 msgstr "转到当前曲目"
 
@@ -543,14 +543,17 @@ msgstr ""
 msgid "New playlist"
 msgstr "新播放列表"
 
-#: ../data/PlaylistView.ui:68 ../lollypop/pop_menu.py:402
-#: ../lollypop/pop_menu.py:425
-msgid "Edit"
-msgstr "编辑"
+#: ../data/PlaylistView.ui:73
+msgid "Edit playlist"
+msgstr ""
 
-#: ../data/PlaylistView.ui:102
+#: ../data/PlaylistView.ui:108
 msgid "Unsplit view"
 msgstr "取消视图分割"
+
+#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:207
+msgid "Save playlist"
+msgstr ""
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -744,7 +747,7 @@ msgid ""
 msgstr "<small>你需要为你的项目启用“自定义搜索API\"</small>"
 
 #: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
-#: ../lollypop/playlists.py:280
+#: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "搜索"
 
@@ -1020,19 +1023,19 @@ msgstr "由%s，来自%s"
 msgid "Loved tracks"
 msgstr "喜爱的曲目"
 
-#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:74
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:74
 msgid "Popular tracks"
 msgstr "流行曲目"
 
-#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:78
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:78
 msgid "Recently played"
 msgstr "最近播放"
 
-#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:80
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:80
 msgid "Never played"
 msgstr "从未播放"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:280 ../lollypop/selectionlist.py:82
 msgid "Random tracks"
 msgstr "随机曲目"
 
@@ -1108,6 +1111,10 @@ msgstr "播放列表"
 #: ../lollypop/pop_menu.py:356 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr "修改信息"
+
+#: ../lollypop/pop_menu.py:402 ../lollypop/pop_menu.py:425
+msgid "Edit"
+msgstr "编辑"
 
 #: ../lollypop/pop_radio.py:83 ../lollypop/pop_tunein.py:197
 msgid "Add"
@@ -1215,7 +1222,7 @@ msgstr "外部曲目"
 msgid "Playing playlists"
 msgstr "正在播放播放列表"
 
-#: ../lollypop/utils.py:256
+#: ../lollypop/utils.py:252
 msgid "The the"
 msgstr "The the"
 
@@ -1256,17 +1263,25 @@ msgstr ""
 msgid "No lyrics found "
 msgstr ""
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:290
+#: ../lollypop/view_playlists.py:210
+msgid "Save"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:211
+msgid "Cancel"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:276 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s小时%s分钟"
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:292
+#: ../lollypop/view_playlists.py:278 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s小时"
 
-#: ../lollypop/view_playlists.py:261 ../lollypop/widgets_album_detailed.py:294
+#: ../lollypop/view_playlists.py:280 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s分钟"

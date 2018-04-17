@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 22:29+0200\n"
+"POT-Creation-Date: 2018-04-17 22:00+0200\n"
 "PO-Revision-Date: 2017-11-27 17:21+0000\n"
 "Last-Translator: fri\n"
 "Language-Team: Czech (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -470,8 +470,8 @@ msgstr ""
 msgid "Similar artists"
 msgstr "Podobní umělci"
 
-#: ../data/ArtistView.ui:148 ../lollypop/pop_albums.py:43
-#: ../lollypop/view_artist.py:49
+#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
+#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:49
 msgid "Go to current track"
 msgstr "Jít na nynější skladbu"
 
@@ -548,14 +548,17 @@ msgstr ""
 msgid "New playlist"
 msgstr "Nový seznam skladeb"
 
-#: ../data/PlaylistView.ui:68 ../lollypop/pop_menu.py:402
-#: ../lollypop/pop_menu.py:425
-msgid "Edit"
-msgstr "Upravit"
+#: ../data/PlaylistView.ui:73
+msgid "Edit playlist"
+msgstr ""
 
-#: ../data/PlaylistView.ui:102
+#: ../data/PlaylistView.ui:108
 msgid "Unsplit view"
 msgstr "Zrušit rozdělení pohledu"
+
+#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:207
+msgid "Save playlist"
+msgstr ""
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -750,7 +753,7 @@ msgstr ""
 "<small>Pro svůj projekt musíte povolit \"Vlastní vyhledávací API\".</small>"
 
 #: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
-#: ../lollypop/playlists.py:280
+#: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Hledat"
 
@@ -1026,19 +1029,19 @@ msgstr "od %s, na %s"
 msgid "Loved tracks"
 msgstr "Zamilované skladby"
 
-#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:74
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:74
 msgid "Popular tracks"
 msgstr "Oblíbené skladby"
 
-#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:78
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:78
 msgid "Recently played"
 msgstr "Nedávno hráno"
 
-#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:80
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:80
 msgid "Never played"
 msgstr "Nikdy nehráno"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:280 ../lollypop/selectionlist.py:82
 msgid "Random tracks"
 msgstr "Náhodné skladby"
 
@@ -1114,6 +1117,10 @@ msgstr "Seznamy skladeb"
 #: ../lollypop/pop_menu.py:356 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr "Upravit údaje"
+
+#: ../lollypop/pop_menu.py:402 ../lollypop/pop_menu.py:425
+msgid "Edit"
+msgstr "Upravit"
 
 #: ../lollypop/pop_radio.py:83 ../lollypop/pop_tunein.py:197
 msgid "Add"
@@ -1227,7 +1234,7 @@ msgstr "Vnější skladby"
 msgid "Playing playlists"
 msgstr "Přehrávání seznamů skladeb"
 
-#: ../lollypop/utils.py:256
+#: ../lollypop/utils.py:252
 msgid "The the"
 msgstr "\"The\""
 
@@ -1268,17 +1275,25 @@ msgstr ""
 msgid "No lyrics found "
 msgstr ""
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:290
+#: ../lollypop/view_playlists.py:210
+msgid "Save"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:211
+msgid "Cancel"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:276 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:292
+#: ../lollypop/view_playlists.py:278 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:261 ../lollypop/widgets_album_detailed.py:294
+#: ../lollypop/view_playlists.py:280 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s m"

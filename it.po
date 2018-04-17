@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 22:29+0200\n"
+"POT-Creation-Date: 2018-04-17 22:00+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Italian (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -477,8 +477,8 @@ msgstr ""
 msgid "Similar artists"
 msgstr "Artisti simili"
 
-#: ../data/ArtistView.ui:148 ../lollypop/pop_albums.py:43
-#: ../lollypop/view_artist.py:49
+#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
+#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:49
 msgid "Go to current track"
 msgstr "Va all'attuale traccia"
 
@@ -555,14 +555,17 @@ msgstr ""
 msgid "New playlist"
 msgstr "Nuova scaletta"
 
-#: ../data/PlaylistView.ui:68 ../lollypop/pop_menu.py:402
-#: ../lollypop/pop_menu.py:425
-msgid "Edit"
-msgstr "Modifica"
+#: ../data/PlaylistView.ui:73
+msgid "Edit playlist"
+msgstr ""
 
-#: ../data/PlaylistView.ui:102
+#: ../data/PlaylistView.ui:108
 msgid "Unsplit view"
 msgstr "Visualizzazione non divisa"
+
+#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:207
+msgid "Save playlist"
+msgstr ""
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -757,7 +760,7 @@ msgstr ""
 "<small>È necessario abilitare le «Custom Search API» per il progetto.</small>"
 
 #: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
-#: ../lollypop/playlists.py:280
+#: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Ricerca"
 
@@ -1033,19 +1036,19 @@ msgstr "di %s, da %s"
 msgid "Loved tracks"
 msgstr "Tracce piaciute"
 
-#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:74
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:74
 msgid "Popular tracks"
 msgstr "Tracce popolari"
 
-#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:78
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:78
 msgid "Recently played"
 msgstr "Riprodotte di recente"
 
-#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:80
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:80
 msgid "Never played"
 msgstr "Mai riprodotte"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:280 ../lollypop/selectionlist.py:82
 msgid "Random tracks"
 msgstr "Tracce casuali"
 
@@ -1121,6 +1124,10 @@ msgstr "Scalette"
 #: ../lollypop/pop_menu.py:356 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr "Modifica le informazioni"
+
+#: ../lollypop/pop_menu.py:402 ../lollypop/pop_menu.py:425
+msgid "Edit"
+msgstr "Modifica"
 
 #: ../lollypop/pop_radio.py:83 ../lollypop/pop_tunein.py:197
 msgid "Add"
@@ -1231,7 +1238,7 @@ msgstr "Tracce esterne"
 msgid "Playing playlists"
 msgstr "Scalette in riproduzione"
 
-#: ../lollypop/utils.py:256
+#: ../lollypop/utils.py:252
 msgid "The the"
 msgstr "The the"
 
@@ -1272,17 +1279,25 @@ msgstr ""
 msgid "No lyrics found "
 msgstr ""
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:290
+#: ../lollypop/view_playlists.py:210
+msgid "Save"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:211
+msgid "Cancel"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:276 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s ora  %s min"
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:292
+#: ../lollypop/view_playlists.py:278 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s ora"
 
-#: ../lollypop/view_playlists.py:261 ../lollypop/widgets_album_detailed.py:294
+#: ../lollypop/view_playlists.py:280 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s min"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 22:29+0200\n"
+"POT-Creation-Date: 2018-04-17 22:00+0200\n"
 "PO-Revision-Date: 2018-04-17 06:54+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -484,8 +484,8 @@ msgstr "Afegeix a la llista actual"
 msgid "Similar artists"
 msgstr "Artistes semblants"
 
-#: ../data/ArtistView.ui:148 ../lollypop/pop_albums.py:43
-#: ../lollypop/view_artist.py:49
+#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
+#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:49
 msgid "Go to current track"
 msgstr "Vés a la pista actual"
 
@@ -562,14 +562,17 @@ msgstr "Podeu seleccionar pistes amb el ratolí o amb la tecla Ctrl"
 msgid "New playlist"
 msgstr "Llista nova"
 
-#: ../data/PlaylistView.ui:68 ../lollypop/pop_menu.py:402
-#: ../lollypop/pop_menu.py:425
-msgid "Edit"
-msgstr "Edita"
+#: ../data/PlaylistView.ui:73
+msgid "Edit playlist"
+msgstr ""
 
-#: ../data/PlaylistView.ui:102
+#: ../data/PlaylistView.ui:108
 msgid "Unsplit view"
 msgstr "Vista sense divisor"
+
+#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:207
+msgid "Save playlist"
+msgstr ""
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -768,7 +771,7 @@ msgstr ""
 "<small>Heu d'activar \"Custom Search API\"  del vostre projecte.</small>"
 
 #: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
-#: ../lollypop/playlists.py:280
+#: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Cerca"
 
@@ -1046,19 +1049,19 @@ msgstr "per %s, de l’àlbum %s"
 msgid "Loved tracks"
 msgstr "Pistes preferides"
 
-#: ../lollypop/playlists.py:272 ../lollypop/selectionlist.py:74
+#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:74
 msgid "Popular tracks"
 msgstr "Pistes populars"
 
-#: ../lollypop/playlists.py:274 ../lollypop/selectionlist.py:78
+#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:78
 msgid "Recently played"
 msgstr "Reproduït recentment"
 
-#: ../lollypop/playlists.py:276 ../lollypop/selectionlist.py:80
+#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:80
 msgid "Never played"
 msgstr "Mai reproduït"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:280 ../lollypop/selectionlist.py:82
 msgid "Random tracks"
 msgstr "Pistes a l'atzar"
 
@@ -1134,6 +1137,10 @@ msgstr "Llistes"
 #: ../lollypop/pop_menu.py:356 ../lollypop/widgets_context.py:58
 msgid "Modify information"
 msgstr "Modifica la informació"
+
+#: ../lollypop/pop_menu.py:402 ../lollypop/pop_menu.py:425
+msgid "Edit"
+msgstr "Edita"
 
 #: ../lollypop/pop_radio.py:83 ../lollypop/pop_tunein.py:197
 msgid "Add"
@@ -1244,7 +1251,7 @@ msgstr "Pistes externes"
 msgid "Playing playlists"
 msgstr "Reproduint llistes"
 
-#: ../lollypop/utils.py:256
+#: ../lollypop/utils.py:252
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
@@ -1283,17 +1290,25 @@ msgstr "Carregant…"
 msgid "No lyrics found "
 msgstr "No s'ha trobat la lletra "
 
-#: ../lollypop/view_playlists.py:257 ../lollypop/widgets_album_detailed.py:290
+#: ../lollypop/view_playlists.py:210
+msgid "Save"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:211
+msgid "Cancel"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:276 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:292
+#: ../lollypop/view_playlists.py:278 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:261 ../lollypop/widgets_album_detailed.py:294
+#: ../lollypop/view_playlists.py:280 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s m"
