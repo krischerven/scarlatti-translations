@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-04-20 10:39+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -1052,7 +1052,7 @@ msgstr "Populaire nummers"
 msgid "Recently played"
 msgstr "Recent afgespeeld"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Nooit afgespeeld"
 
@@ -1170,8 +1170,8 @@ msgid "Random albums"
 msgstr "Willekeurige albums"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Nooit afgespeelde albums"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1190,8 +1190,12 @@ msgid "Compilations"
 msgstr "Compilaties"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
-msgstr "USB-schijven"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:86
 msgid "Not in party"
@@ -1358,6 +1362,12 @@ msgstr "Radiozender bewerken"
 #, python-format
 msgid "Song played %s times"
 msgstr "%s keer beluisterd"
+
+#~ msgid "Never played albums"
+#~ msgstr "Nooit afgespeelde albums"
+
+#~ msgid "Usb disks"
+#~ msgstr "USB-schijven"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "MTP-synchronisatie naar USB-schijven toestaan"

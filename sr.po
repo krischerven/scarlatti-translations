@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Serbian (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -1023,7 +1023,7 @@ msgstr "Популарне песме"
 msgid "Recently played"
 msgstr "Скоро слушано"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Никада слушано"
 
@@ -1141,8 +1141,8 @@ msgid "Random albums"
 msgstr "Насумични албуми"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Никада пуштани албуми"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1161,7 +1161,11 @@ msgid "Compilations"
 msgstr "Компилације"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1336,6 +1340,9 @@ msgstr "Измени станицу"
 #, python-format
 msgid "Song played %s times"
 msgstr "Песма је пуштена %s пута"
+
+#~ msgid "Never played albums"
+#~ msgstr "Никада пуштани албуми"
 
 #~ msgid "Last.fm"
 #~ msgstr "Ласт.фм"

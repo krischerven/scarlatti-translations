@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-01-24 12:29+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1047,7 +1047,7 @@ msgstr "Pistas populares"
 msgid "Recently played"
 msgstr "Recientemente reproducida"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "No reproducido nunca"
 
@@ -1165,8 +1165,8 @@ msgid "Random albums"
 msgstr "Álbumes aleatorios"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Álbumes jamás reproducidos"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1185,7 +1185,11 @@ msgid "Compilations"
 msgstr "Recopilaciones"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1356,6 +1360,9 @@ msgstr "Modificar radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Canción reproducida %s veces"
+
+#~ msgid "Never played albums"
+#~ msgstr "Álbumes jamás reproducidos"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "Permitir sincronización MTP a discos USB"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-04-23 06:56+0000\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1052,7 +1052,7 @@ msgstr "Gözde parçalar"
 msgid "Recently played"
 msgstr "Son çalınanlar"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Hiç çalınmayanlar"
 
@@ -1170,8 +1170,8 @@ msgid "Random albums"
 msgstr "Rastgele albümler"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Hiç çalınmayan albümler"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1190,8 +1190,12 @@ msgid "Compilations"
 msgstr "Derlemeler"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
-msgstr "Usb diskler"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:86
 msgid "Not in party"
@@ -1358,6 +1362,12 @@ msgstr "Radyoyu düzenle"
 #, python-format
 msgid "Song played %s times"
 msgstr "Şarkı %s kez çalındı"
+
+#~ msgid "Never played albums"
+#~ msgstr "Hiç çalınmayan albümler"
+
+#~ msgid "Usb disks"
+#~ msgstr "Usb diskler"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "USB disklere MTP eşzamanlamaya izin ver"

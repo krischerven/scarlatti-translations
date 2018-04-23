@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2017-11-27 18:01+0000\n"
 "Last-Translator: Alberto Almeida <albertocalmeida@sapo.pt>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/gnumdk/"
@@ -1035,7 +1035,7 @@ msgstr "Faixas populares"
 msgid "Recently played"
 msgstr "Reproduzidas recentemente"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Nunca reproduzidas"
 
@@ -1153,8 +1153,8 @@ msgid "Random albums"
 msgstr "Álbuns aleatórios"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Álbuns nunca reproduzidos"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1173,7 +1173,11 @@ msgid "Compilations"
 msgstr "Compilações"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1343,6 +1347,9 @@ msgstr "Modificar rádio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Faixa reproduzida %s vezes"
+
+#~ msgid "Never played albums"
+#~ msgstr "Álbuns nunca reproduzidos"
 
 #~ msgid "Last.fm"
 #~ msgstr "Last.fm"

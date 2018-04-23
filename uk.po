@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-03-30 17:42+0000\n"
 "Last-Translator: Svitozar Cherepii <razotivs@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
@@ -1044,7 +1044,7 @@ msgstr "Популярні треки"
 msgid "Recently played"
 msgstr "Нещодавно відтворене"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Ніколи не відтворене"
 
@@ -1162,8 +1162,8 @@ msgid "Random albums"
 msgstr "Випадкові альбоми"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Ще не відтворені"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1182,7 +1182,11 @@ msgid "Compilations"
 msgstr "Збірки"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1354,6 +1358,9 @@ msgstr "Змінити радіо"
 #, python-format
 msgid "Song played %s times"
 msgstr "Кількість відтворень: %s"
+
+#~ msgid "Never played albums"
+#~ msgstr "Ще не відтворені"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "Дозволити синхронізацію MTP до USB-накопичувачів"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-04-20 10:09+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1050,7 +1050,7 @@ msgstr "Morceaux populaires"
 msgid "Recently played"
 msgstr "Jouées récemment"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Jamais jouées"
 
@@ -1168,8 +1168,8 @@ msgid "Random albums"
 msgstr "Albums aléatoires"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Albums jamais joués"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1188,8 +1188,12 @@ msgid "Compilations"
 msgstr "Compilations"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
-msgstr "Disques USB"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:86
 msgid "Not in party"
@@ -1358,6 +1362,12 @@ msgstr "Modifier la radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
+
+#~ msgid "Never played albums"
+#~ msgstr "Albums jamais joués"
+
+#~ msgid "Usb disks"
+#~ msgstr "Disques USB"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "Autoriser la synchronisation MTP vers les disques USB"

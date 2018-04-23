@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-04-23 07:13+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -1048,7 +1048,7 @@ msgstr "Populære spor"
 msgid "Recently played"
 msgstr "Nylig spilt"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Aldri spilt"
 
@@ -1166,8 +1166,8 @@ msgid "Random albums"
 msgstr "Tilfeldige album"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Aldri spilte album"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1186,8 +1186,12 @@ msgid "Compilations"
 msgstr "Samlere"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
-msgstr "USB-medium"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:86
 msgid "Not in party"
@@ -1355,6 +1359,12 @@ msgstr "Modifiser radiostasjon"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
+
+#~ msgid "Never played albums"
+#~ msgstr "Aldri spilte album"
+
+#~ msgid "Usb disks"
+#~ msgstr "USB-medium"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "Tillat MTP-synkronisering til USB-disker"

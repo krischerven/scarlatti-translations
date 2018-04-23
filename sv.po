@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-03-24 22:17+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1044,7 +1044,7 @@ msgstr "Populära spår"
 msgid "Recently played"
 msgstr "Nyligen spelade"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Aldrig spelade"
 
@@ -1162,8 +1162,8 @@ msgid "Random albums"
 msgstr "Slumpmässiga album"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Aldrig spelade album"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1182,7 +1182,11 @@ msgid "Compilations"
 msgstr "Samlingsalbum"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1350,6 +1354,9 @@ msgstr "Modifiera radiostation"
 #, python-format
 msgid "Song played %s times"
 msgstr "Låt spelad %s gånger"
+
+#~ msgid "Never played albums"
+#~ msgstr "Aldrig spelade album"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "Tillåt MTP-synkronisering till USB-diskar"

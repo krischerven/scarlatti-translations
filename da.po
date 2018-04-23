@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2017-11-29 00:27+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -1031,7 +1031,7 @@ msgstr "Populære spor"
 msgid "Recently played"
 msgstr "Nyligt afspillede"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Aldrig afspillede"
 
@@ -1149,8 +1149,8 @@ msgid "Random albums"
 msgstr "Tilfældige albummer"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Albums som aldrig har været afspillet"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1169,7 +1169,11 @@ msgid "Compilations"
 msgstr "Samlinger"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1339,6 +1343,9 @@ msgstr "Rediger radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
+
+#~ msgid "Never played albums"
+#~ msgstr "Albums som aldrig har været afspillet"
 
 #~ msgid "Last.fm"
 #~ msgstr "Last.fm"

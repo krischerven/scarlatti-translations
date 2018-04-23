@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Hungarian (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -1016,7 +1016,7 @@ msgstr "Népszerű"
 msgid "Recently played"
 msgstr "Legutóbb lejátszott"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Soha nem játszott"
 
@@ -1134,8 +1134,8 @@ msgid "Random albums"
 msgstr "Véletlen album"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Soha nem játszott albumok"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1154,7 +1154,11 @@ msgid "Compilations"
 msgstr "Összeállítások"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1324,6 +1328,9 @@ msgstr "Adó módosítása"
 #, python-format
 msgid "Song played %s times"
 msgstr "A szám %s alkalommal lett lejátszva"
+
+#~ msgid "Never played albums"
+#~ msgstr "Soha nem játszott albumok"
 
 #~ msgid "Last.fm"
 #~ msgstr "Last.fm"

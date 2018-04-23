@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2017-12-07 21:27+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -1032,7 +1032,7 @@ msgstr "Popularaj pecoj"
 msgid "Recently played"
 msgstr "Freŝluditaj"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Neniam luditaj"
 
@@ -1150,8 +1150,8 @@ msgid "Random albums"
 msgstr "Hazardelektitaj albumoj"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Neniam luditaj albumoj"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1170,7 +1170,11 @@ msgid "Compilations"
 msgstr "Kompiloj"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1340,6 +1344,9 @@ msgstr "Redakti radion"
 #, python-format
 msgid "Song played %s times"
 msgstr "Kanto ludita %s-oble"
+
+#~ msgid "Never played albums"
+#~ msgstr "Neniam luditaj albumoj"
 
 #~ msgid "Last.fm"
 #~ msgstr "Last.fm"

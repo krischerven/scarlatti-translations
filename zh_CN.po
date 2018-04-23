@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-01-24 12:05+0000\n"
 "Last-Translator: bdfish <lipanXJ@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -1027,7 +1027,7 @@ msgstr "流行曲目"
 msgid "Recently played"
 msgstr "最近播放"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "从未播放"
 
@@ -1145,8 +1145,8 @@ msgid "Random albums"
 msgstr "随机专辑"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "永不播放专辑"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1165,7 +1165,11 @@ msgid "Compilations"
 msgstr "曲集"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:86
@@ -1332,6 +1336,9 @@ msgstr "更改广播电台"
 #, python-format
 msgid "Song played %s times"
 msgstr "音乐播放了 %s 次"
+
+#~ msgid "Never played albums"
+#~ msgstr "永不播放专辑"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "允许通过MTP同步到USB设备"

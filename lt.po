@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 12:00+0200\n"
+"POT-Creation-Date: 2018-04-23 09:14+0200\n"
 "PO-Revision-Date: 2018-04-21 19:01+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -1050,7 +1050,7 @@ msgstr "Populiarūs takeliai"
 msgid "Recently played"
 msgstr "Paskiausiai groti"
 
-#: ../lollypop/playlists.py:278 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:278
 msgid "Never played"
 msgstr "Niekada negroti"
 
@@ -1168,8 +1168,8 @@ msgid "Random albums"
 msgstr "Atsitiktiniai albumai"
 
 #: ../lollypop/selectionlist.py:46
-msgid "Never played albums"
-msgstr "Niekada negroti albumai"
+msgid "Unplayed albums"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:50
 msgid "Radios"
@@ -1188,8 +1188,12 @@ msgid "Compilations"
 msgstr "Rinkiniai"
 
 #: ../lollypop/selectionlist.py:60
-msgid "Usb disks"
-msgstr "Usb diskai"
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
+msgstr ""
 
 #: ../lollypop/selectionlist.py:86
 msgid "Not in party"
@@ -1361,6 +1365,12 @@ msgstr "Modifikuoti radiją"
 #, python-format
 msgid "Song played %s times"
 msgstr "Daina grota %s kartų"
+
+#~ msgid "Never played albums"
+#~ msgstr "Niekada negroti albumai"
+
+#~ msgid "Usb disks"
+#~ msgstr "Usb diskai"
 
 #~ msgid "Allow MTP syncing to USB disks"
 #~ msgstr "Leisti MTP sinchronizavimą į USB diskus"
