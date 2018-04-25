@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 09:14+0200\n"
+"POT-Creation-Date: 2018-04-25 21:58+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Greek (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -47,78 +47,82 @@ msgstr "Θέση μικρο-εφαρμογής"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:48
 #: ../data/org.gnome.Lollypop.gschema.xml:53
-#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:246
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 #: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "INTERNAL"
 msgstr "ΕΣΩΤΕΡΙΚΟ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:58
+msgid "Allow user to donate to the project"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:63
 msgid "Access network"
 msgstr "Πρόσβαση δικτύου"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:63
+#: ../data/org.gnome.Lollypop.gschema.xml:68
 msgid "Save artwork/popularity in tags"
 msgstr "Αποθήκευση γραφικού/δημοφιλίας στην ετικέτα"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:68
+#: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Preserve the cover’s aspect ratio"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:73
+#: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Window maximized"
 msgstr "Μεγιστοποίηση παραθύρου"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:74
+#: ../data/org.gnome.Lollypop.gschema.xml:79
 msgid "Window maximized state."
 msgstr "Κατάσταση πλήρους παραθύρου"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:78
+#: ../data/org.gnome.Lollypop.gschema.xml:83
 msgid "Enabled genres in party mode"
 msgstr "Ενεργοποίση στιλ σε κατάσταση πάρτη "
 
-#: ../data/org.gnome.Lollypop.gschema.xml:79
+#: ../data/org.gnome.Lollypop.gschema.xml:84
 msgid "ID for genres."
 msgstr "Ταυτότητα ανά είδος."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:83
+#: ../data/org.gnome.Lollypop.gschema.xml:88
 msgid "REMOVE ME LATER"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:88
+#: ../data/org.gnome.Lollypop.gschema.xml:93
 msgid "Music URI"
 msgstr "URI Μουσικής"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:89
+#: ../data/org.gnome.Lollypop.gschema.xml:94
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Αν άδειο, χρήση XDG_MISIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:93
+#: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Χρήση Libre.fm αντί του Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:98
+#: ../data/org.gnome.Lollypop.gschema.xml:103
 msgid "Last.fm login"
 msgstr "Σύνδεση Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:103
+#: ../data/org.gnome.Lollypop.gschema.xml:108
 msgid "ListenBrainz user token"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:108
+#: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "Google Custom Search API key"
 msgstr "κλειδί Google Custom Search API"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:113
+#: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "Favorite tag editor"
 msgstr "Αγαπημένος επεξεργαστής ετικέτας"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:118
+#: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Audio output preview on track hover"
 msgstr "Προβολή εξόδου ήχου πάνω από το τραγούδι"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
@@ -126,168 +130,168 @@ msgstr ""
 "Μόνο ψευδό-ήχος ΠΧ: alsa_output.pci-0000_00_14.2.analog-stereo. Εντολή για "
 "αποτελέσματα: $ pacmd list-sinks|grep 'name:'"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:123
+#: ../data/org.gnome.Lollypop.gschema.xml:128
 msgid "Favorite cover file"
 msgstr "Αγαπημένο αρχείο εξωφύλλου"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Restart needed"
 msgstr "Χρειάζεται επανεκκίνηση "
 
-#: ../data/org.gnome.Lollypop.gschema.xml:128
+#: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Database version"
 msgstr "Έκδοση ΒΔ"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Η επαναφορά της τιμής θα επαναφέρει τη ΒΔ, θα επανέλθουν τα δημοφιλέστερα "
 "άλμπουμ"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsDialog.ui:136
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:136
 msgid "Albums cover size"
 msgstr "Μέγεθος εξωφύλλου άλμπουμ "
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138
+#: ../data/org.gnome.Lollypop.gschema.xml:143
 msgid "Replay gain value in dB"
 msgstr "Επανάκτηση τιμής στη ΒΔ"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139
+#: ../data/org.gnome.Lollypop.gschema.xml:144
 msgid "Between -15 and 15"
 msgstr "Μεταξύ -15 και 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:143
+#: ../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Sync all albums(MTP)"
 msgstr "Συγχρονισμός των άλμπουμ(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:148
+#: ../data/org.gnome.Lollypop.gschema.xml:153
 msgid "Encode to MP3(MTP)"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:153
+#: ../data/org.gnome.Lollypop.gschema.xml:158
 msgid "Quality of MP3 encoding"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:158
+#: ../data/org.gnome.Lollypop.gschema.xml:163
 msgid "Normalize MP3(MTP)"
 msgstr "Ομαλοποίηση MP3(MTP) "
 
-#: ../data/org.gnome.Lollypop.gschema.xml:163 ../data/SettingsDialog.ui:244
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
 #: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
 msgid "Auto update music"
 msgstr "Αυτόματη ενημέρωση μουσικής"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168
+#: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Split playlists view"
 msgstr "Προβολή διαιρεμένης λίστας"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173
+#: ../data/org.gnome.Lollypop.gschema.xml:178
 msgid "Show list of genres"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:178
+#: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Show navigation list"
 msgstr "Εμφάνιση λίστας πλοήγησης"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:183 ../data/SettingsDialog.ui:163
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
 #: ../data/SettingsDialog.ui:174
 msgid "Show artist artwork"
 msgstr "Εμφάνιση γραφικού καλλιτέχνη"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188
+#: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Use dark GTK theme"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193
+#: ../data/org.gnome.Lollypop.gschema.xml:198
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 "Απενεργοποίηση διακόσμησης παραθύρου στον client\n"
 "(επικεφαλίδα)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198
+#: ../data/org.gnome.Lollypop.gschema.xml:203
 msgid "Handle compilations"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:1175
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
 msgid "Show compilations in albums view"
 msgstr "Εμφάνιση συλλογών στην προβολή των άλμπουμ"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:271
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
 #: ../data/SettingsDialog.ui:298
 msgid "Continue playback when closed"
 msgstr "Συνέχιση της επανάληψης όταν κλείσει"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Smart sort for artist"
 msgstr "Έξυπνη ταξινόμηση για καλλιτέχνες"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Restore previous state"
 msgstr "Επαναφορά κατάστασης"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:228
 msgid "Disable MPRIS"
 msgstr "Απενεργοποίηση MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:228
+#: ../data/org.gnome.Lollypop.gschema.xml:233
 msgid "Disable all notifications"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:232
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Disable notifications upon change of song"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show track number from tags"
 msgstr "Προβολή αρ. τραγουδιού από ετικέτες"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "JPG cover quality"
 msgstr "Ποιότητα εξωφύλλου JPG"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:252
+#: ../data/org.gnome.Lollypop.gschema.xml:257
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:271
 msgid "Smooth transitions between tracks"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Only mix songs in party mode"
 msgstr "Μίξη τραγουδιών μόνο σε κατάσταση πάρτι"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Smooth transition duration"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:281
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Restart current track on previous"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Shuffle mode"
 msgstr "Ανακάτεμα"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:292
+#: ../data/org.gnome.Lollypop.gschema.xml:297
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Playback behaviour"
 msgstr "Συμπεριφορά αναπαραγωγής"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301 ../data/SettingsDialog.ui:188
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
 msgid "Order albums by"
 msgstr "Ταξινόμηση άλμπουμ ανά"
 
@@ -313,7 +317,7 @@ msgstr "Δωρεές:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:768
 msgid "Liberapay"
 msgstr ""
 
@@ -494,7 +498,7 @@ msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr ""
 
 #: ../data/CoverBox.ui:50 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controllers.py:87 ../lollypop/controllers.py:106
+#: ../lollypop/controllers.py:88 ../lollypop/controllers.py:107
 #: ../lollypop/pop_tunein.py:190 ../lollypop/widgets_album_simple.py:134
 #: ../lollypop/widgets_radio.py:183
 msgid "Play"
@@ -553,7 +557,7 @@ msgid "Clear queue"
 msgstr "Καθάρισμα λίστας"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:421
-#: ../lollypop/toolbar_end.py:420
+#: ../lollypop/toolbar_end.py:415
 msgid "Queue"
 msgstr "Λίστα"
 
@@ -953,7 +957,7 @@ msgstr "Χαμηλή ποιότητα, απώλεια κλειδιού API"
 msgid "Reset artwork?"
 msgstr "Επαναφορά γραφικών?"
 
-#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:300
+#: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:308
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
 #: ../lollypop/selectionlist.py:581 ../lollypop/selectionlist.py:594
@@ -964,27 +968,27 @@ msgstr "Επαναφορά γραφικών?"
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: ../lollypop/collectionscanner.py:180
-msgid "Lollypop is detecting an empty folder."
-msgstr "Το Lollypop βρήκε άδειο φάκελο."
+#: ../lollypop/container.py:767
+msgid "Please consider a donation to the project"
+msgstr ""
 
-#: ../lollypop/collectionscanner.py:181
-msgid "Check your music settings."
-msgstr "Ελέγξτε τις μουσικές ρυθμίσεις "
+#: ../lollypop/container.py:768
+msgid "Paypal"
+msgstr ""
 
-#: ../lollypop/container.py:860
+#: ../lollypop/container.py:888
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:861
+#: ../lollypop/container.py:889
 msgid "Refresh"
 msgstr ""
 
-#: ../lollypop/controllers.py:85 ../lollypop/controllers.py:109
+#: ../lollypop/controllers.py:86 ../lollypop/controllers.py:110
 msgid "Pause"
 msgstr "Παύση"
 
-#: ../lollypop/controllers.py:205
+#: ../lollypop/controllers.py:206
 msgid "Volume"
 msgstr "Ένταση"
 
@@ -1030,7 +1034,7 @@ msgstr "Τυχαία τραγούδια"
 msgid "Clear albums"
 msgstr "Καθαρισμός άλμπουμ"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:424
+#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:419
 msgid "Playing albums"
 msgstr "Αναπαραγόμενο άλμπουμ"
 
@@ -1108,14 +1112,14 @@ msgid "Add"
 msgstr "Προσθήκη"
 
 #: ../lollypop/pop_radio.py:86
-msgid "Modify"
-msgstr "Αλλαγή"
+msgid "Image"
+msgstr ""
 
-#: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:402
+#: ../lollypop/pop_tunein.py:91 ../lollypop/pop_tunein.py:398
 msgid "Can't connect to TuneIn…"
 msgstr "Αδύνατη σύνδεση στο TuneIn"
 
-#: ../lollypop/pop_tunein.py:397 ../lollypop/pop_tunein.py:399
+#: ../lollypop/pop_tunein.py:393 ../lollypop/pop_tunein.py:395
 msgid "No result…"
 msgstr ""
 
@@ -1212,11 +1216,7 @@ msgstr "Δημοφιλή "
 msgid "Recently added"
 msgstr "Προστέθηκαν πρόσφατα"
 
-#: ../lollypop/toolbar_end.py:418
-msgid "External tracks"
-msgstr "Εξωτερικά τραγούδια"
-
-#: ../lollypop/toolbar_end.py:422
+#: ../lollypop/toolbar_end.py:417
 msgid "Playing playlists"
 msgstr "Αναπαραγωγή λίστας"
 
@@ -1331,6 +1331,18 @@ msgstr "Τροποποίηση σταθμού"
 #, python-format
 msgid "Song played %s times"
 msgstr ""
+
+#~ msgid "Lollypop is detecting an empty folder."
+#~ msgstr "Το Lollypop βρήκε άδειο φάκελο."
+
+#~ msgid "Check your music settings."
+#~ msgstr "Ελέγξτε τις μουσικές ρυθμίσεις "
+
+#~ msgid "Modify"
+#~ msgstr "Αλλαγή"
+
+#~ msgid "External tracks"
+#~ msgstr "Εξωτερικά τραγούδια"
 
 #~ msgid "Last.fm"
 #~ msgstr "Last.fm"
