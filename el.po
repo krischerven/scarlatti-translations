@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 07:11+0200\n"
+"POT-Creation-Date: 2018-05-07 23:48+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Greek (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -192,8 +192,8 @@ msgid "Show list of genres"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:183
-msgid "Show navigation list"
-msgstr "Εμφάνιση λίστας πλοήγησης"
+msgid "Show sidebar"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
 #: ../data/SettingsDialog.ui:174
@@ -317,11 +317,11 @@ msgstr "Δωρεές:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:768
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:777
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:768
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:777
 msgid "PayPal"
 msgstr ""
 
@@ -433,19 +433,23 @@ msgstr "_Ενημέρωση μουσικής"
 msgid "_Fullscreen"
 msgstr "Πλήρης Οθόνη"
 
-#: ../data/Appmenu.ui:17
+#: ../data/Appmenu.ui:15
+msgid "_Sidebar"
+msgstr ""
+
+#: ../data/Appmenu.ui:21
 msgid "_Preferences"
 msgstr "_Ρυθμίσεις "
 
-#: ../data/Appmenu.ui:23
+#: ../data/Appmenu.ui:27
 msgid "_Keyboard Shortcuts"
 msgstr "_Συντομεύσεις πληκτρολογίου"
 
-#: ../data/Appmenu.ui:27
+#: ../data/Appmenu.ui:31
 msgid "_About"
 msgstr "_Σχετικά"
 
-#: ../data/Appmenu.ui:31
+#: ../data/Appmenu.ui:35
 msgid "_Quit"
 msgstr "_Έξοδος "
 
@@ -824,60 +828,65 @@ msgstr ""
 
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
+msgid "Show albums from artist"
+msgstr ""
+
+#: ../data/Shortcuts.ui:94
+msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Πλήρη οθόνη"
 
-#: ../data/Shortcuts.ui:96
+#: ../data/Shortcuts.ui:103
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Αναπαραγωγή"
 
-#: ../data/Shortcuts.ui:100
+#: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "Έναρξη"
 
-#: ../data/Shortcuts.ui:107
+#: ../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "Παύση"
 
-#: ../data/Shortcuts.ui:114
+#: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "Διακοπή"
 
-#: ../data/Shortcuts.ui:121
+#: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "Επόμενο τραγούδι"
 
-#: ../data/Shortcuts.ui:128
+#: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "Προηγούμενο τραγούδι"
 
-#: ../data/Shortcuts.ui:135
+#: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "Παράληψη αυτής του άλμπουμ"
 
-#: ../data/Shortcuts.ui:142
+#: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "Αγαπημένο τρέχων τραγούδι"
 
-#: ../data/Shortcuts.ui:149
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Επανάληψη τραγουδιού"
 
-#: ../data/Shortcuts.ui:156
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Πήγαινε στο προηγούμενο τραγούδι"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Πήγαινε στο επόμενο τραγούδι"
@@ -960,7 +969,7 @@ msgstr "Επαναφορά γραφικών?"
 #: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:308
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:581 ../lollypop/selectionlist.py:594
+#: ../lollypop/selectionlist.py:571 ../lollypop/selectionlist.py:584
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
 #: ../lollypop/tagreader.py:204 ../lollypop/tagreader.py:208
@@ -968,15 +977,15 @@ msgstr "Επαναφορά γραφικών?"
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: ../lollypop/container.py:767
+#: ../lollypop/container.py:776
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../lollypop/container.py:888
+#: ../lollypop/container.py:896
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:889
+#: ../lollypop/container.py:897
 msgid "Refresh"
 msgstr ""
 
@@ -1327,6 +1336,9 @@ msgstr "Τροποποίηση σταθμού"
 #, python-format
 msgid "Song played %s times"
 msgstr ""
+
+#~ msgid "Show navigation list"
+#~ msgstr "Εμφάνιση λίστας πλοήγησης"
 
 #~ msgid "Lollypop is detecting an empty folder."
 #~ msgstr "Το Lollypop βρήκε άδειο φάκελο."
