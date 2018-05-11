@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-07 23:48+0200\n"
+"POT-Creation-Date: 2018-05-11 19:38+0200\n"
 "PO-Revision-Date: 2018-03-30 17:42+0000\n"
 "Last-Translator: Svitozar Cherepii <razotivs@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
@@ -153,7 +153,7 @@ msgstr ""
 "Скидання цього значення перезавантажить базу даних, популярні альбоми будуть "
 "відновлені"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:136
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:137
 msgid "Albums cover size"
 msgstr "Розмір обгортки альбому"
 
@@ -181,8 +181,8 @@ msgstr "Якість MP3 кодування"
 msgid "Normalize MP3(MTP)"
 msgstr "Нормалізувати MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
-#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "Автоматично оновлювати музику"
 
@@ -198,8 +198,8 @@ msgstr "Показувати список жанрів"
 msgid "Show sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
-#: ../data/SettingsDialog.ui:174
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "Показувати обгортку виконавця"
 
@@ -215,12 +215,12 @@ msgstr "Вимкнути декорації на стороні клієнта (
 msgid "Handle compilations"
 msgstr "Обробляти збірки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "Показувати компіляції в перегляді альбомів"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
-#: ../data/SettingsDialog.ui:298
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "Продовжувати відтворення після закриття"
 
@@ -293,7 +293,7 @@ msgstr "Зупинити збереження екрану та режим сн�
 msgid "Playback behaviour"
 msgstr "Поведінка відтворення"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "Сортувати альбоми за"
 
@@ -491,7 +491,7 @@ msgid "Select a local file"
 msgstr "Виберіть локальний файл"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:539
 msgid "Confirm"
 msgstr "Підтвердити"
 
@@ -507,7 +507,7 @@ msgstr ""
 "<small>Це API обмежено тому воно може не працювати з ключем API за "
 "замовчуванням.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1138
 msgid "API key"
 msgstr "Ключ API"
 
@@ -619,117 +619,113 @@ msgstr "Пошук в TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Створити новий список відтворення за пошуком"
 
-#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:107
+#: ../lollypop/settings.py:110
 msgid "Preferences"
 msgstr "Параметри"
 
-#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
+#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
 msgid "Use dark theme variant"
 msgstr "Темний варіант теми"
 
-#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
 msgid "Show genres"
 msgstr "Показати жанри"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:112
 msgid "Show compilations"
 msgstr "Відображати збірки"
 
-#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
-msgid "Long press to show options"
-msgstr "Довге натискання відображає опції"
-
-#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:398
+#: ../data/SettingsDialog.ui:202 ../lollypop/pop_menu.py:398
 #: ../lollypop/pop_menu.py:419
 msgid "Artist"
 msgstr "Виконавець"
 
-#: ../data/SettingsDialog.ui:202
+#: ../data/SettingsDialog.ui:203
 msgid "Name"
 msgstr "Назва"
 
-#: ../data/SettingsDialog.ui:203
+#: ../data/SettingsDialog.ui:204
 msgid "Year"
 msgstr "Рік"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsDialog.ui:205
 msgid "Popularity"
 msgstr "Популярність"
 
-#: ../data/SettingsDialog.ui:219
+#: ../data/SettingsDialog.ui:249
 msgid "Configure Lollypop appearance"
 msgstr "Налаштувати вигляд Lollypop"
 
-#: ../data/SettingsDialog.ui:220
+#: ../data/SettingsDialog.ui:250
 msgid "Appearance"
 msgstr "Зовнішній вигляд"
 
-#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
+#: ../data/SettingsDialog.ui:316 ../data/SettingsDialog.ui:339
 msgid "Restore state on startup"
 msgstr "Відновити стан при запуску"
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:354
 msgid "Smooth transitions"
 msgstr "Плавні переходи"
 
-#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
+#: ../data/SettingsDialog.ui:379 ../data/SettingsDialog.ui:390
 msgid "Save changes to files"
 msgstr "Зберегти зміни до файлів"
 
-#: ../data/SettingsDialog.ui:374
+#: ../data/SettingsDialog.ui:404
 msgid "Preview tracks on"
 msgstr "Попереднє прослуховування треків на"
 
-#: ../data/SettingsDialog.ui:388
+#: ../data/SettingsDialog.ui:418
 msgid "No audio device"
 msgstr "Немає аудіо пристрою"
 
-#: ../data/SettingsDialog.ui:403
+#: ../data/SettingsDialog.ui:433
 msgid "Enable network access"
 msgstr "Увімкнути доступ до мережі"
 
-#: ../data/SettingsDialog.ui:431
+#: ../data/SettingsDialog.ui:493
 msgid "Configure Lollypop behaviour"
 msgstr "Налаштувати поведінку Lollypop"
 
-#: ../data/SettingsDialog.ui:432
+#: ../data/SettingsDialog.ui:494
 msgid "Behaviour"
 msgstr "Поведінка"
 
-#: ../data/SettingsDialog.ui:545
+#: ../data/SettingsDialog.ui:607
 msgid "Reset database"
 msgstr "Скинути базу даних"
 
-#: ../data/SettingsDialog.ui:714
+#: ../data/SettingsDialog.ui:776
 msgid "Select music folders"
 msgstr "Вибрати теки з музикою"
 
-#: ../data/SettingsDialog.ui:715
+#: ../data/SettingsDialog.ui:777
 msgid "Music"
 msgstr "Музика"
 
-#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
+#: ../data/SettingsDialog.ui:807 ../data/SettingsDialog.ui:922
 msgid "Login:"
 msgstr "Логін:"
 
-#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
+#: ../data/SettingsDialog.ui:820 ../data/SettingsDialog.ui:935
 msgid "Password:"
 msgstr "Пароль:"
 
-#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
+#: ../data/SettingsDialog.ui:856 ../data/SettingsDialog.ui:971
 msgid "Connect"
 msgstr "Приєднатися"
 
-#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
+#: ../data/SettingsDialog.ui:883 ../data/SettingsDialog.ui:998
 msgid "You need to install pylast and gi secret"
 msgstr "Необхідно встановити pylast та gi secret"
 
-#: ../data/SettingsDialog.ui:956
+#: ../data/SettingsDialog.ui:1018
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:980
+#: ../data/SettingsDialog.ui:1042
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -741,15 +737,15 @@ msgstr ""
 "внизу. Ви можете переглянути ваш маркер відвідавши ваш <a href=\"https://"
 "listenbrainz.org/profile/\">профілі користувача</a>.</small>"
 
-#: ../data/SettingsDialog.ui:1010
+#: ../data/SettingsDialog.ui:1072
 msgid "User token"
 msgstr "Маркер користувача"
 
-#: ../data/SettingsDialog.ui:1026
+#: ../data/SettingsDialog.ui:1088
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1050
+#: ../data/SettingsDialog.ui:1112
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -759,22 +755,22 @@ msgstr ""
 "<small>Без нього, ви скоро досягнете стандартної квоти…\n"
 "Необхідно Lollypop для пошуку обкладинок.</small>"
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1156
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 "<small>Необхідно ввімкнути \"Custom Search API\" для вашого проекту.</small>"
 
-#: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1177 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Пошук"
 
-#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
+#: ../data/SettingsDialog.ui:1199 ../data/SettingsDialog.ui:1200
 msgid "Web"
 msgstr "Тенет"
 
-#: ../data/SettingsDialog.ui:1226
+#: ../data/SettingsDialog.ui:1268
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -782,15 +778,15 @@ msgstr ""
 "Збірка це альбом без жодного \"тегу виконавця альбому\"\n"
 "та з різними виконавцями."
 
-#: ../data/SettingsDialog.ui:1240
+#: ../data/SettingsDialog.ui:1282
 msgid "You need to reset database [Music]"
 msgstr "Необхідне скидання бази даних [Music]"
 
-#: ../data/SettingsDialog.ui:1274
+#: ../data/SettingsDialog.ui:1318
 msgid "Only in party mode"
 msgstr "Тільки в режимі вечірки"
 
-#: ../data/SettingsDialog.ui:1340
+#: ../data/SettingsDialog.ui:1368
 msgid "Transition duration in seconds"
 msgstr "Тривалість переходу в секундах"
 
@@ -1214,7 +1210,7 @@ msgstr "Запуск"
 msgid "Shown"
 msgstr "Показано"
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:87
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
@@ -1222,7 +1218,7 @@ msgstr[0] "%d виконавець"
 msgstr[1] "%d виконавці"
 msgstr[2] "%d виконавців"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
@@ -1230,7 +1226,7 @@ msgstr[0] "%d альбом"
 msgstr[1] "%d альбоми"
 msgstr[2] "%d альбомів"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
@@ -1238,7 +1234,7 @@ msgstr[0] "%d трек"
 msgstr[1] "%d треки"
 msgstr[2] "%d треків"
 
-#: ../lollypop/settings.py:753
+#: ../lollypop/settings.py:751
 msgid "You need to install kid3-cli"
 msgstr "Необхідно встановити kid3-cli"
 
@@ -1363,6 +1359,9 @@ msgstr "Змінити радіо"
 #, python-format
 msgid "Song played %s times"
 msgstr "Кількість відтворень: %s"
+
+#~ msgid "Long press to show options"
+#~ msgstr "Довге натискання відображає опції"
 
 #~ msgid "Show navigation list"
 #~ msgstr "Показати список навігації"

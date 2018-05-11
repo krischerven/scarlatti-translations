@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-07 23:48+0200\n"
+"POT-Creation-Date: 2018-05-11 19:38+0200\n"
 "PO-Revision-Date: 2018-01-24 12:05+0000\n"
 "Last-Translator: bdfish <lipanXJ@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -153,7 +153,7 @@ msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr "重置本值将重置数据库，流行专辑将被还原"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:136
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:137
 msgid "Albums cover size"
 msgstr "专辑封面大小"
 
@@ -181,8 +181,8 @@ msgstr "MP3 编码器的质量"
 msgid "Normalize MP3(MTP)"
 msgstr "调制MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
-#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "自动更新音乐"
 
@@ -198,8 +198,8 @@ msgstr "显示音乐类型列表"
 msgid "Show sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
-#: ../data/SettingsDialog.ui:174
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "显示艺术家图片"
 
@@ -215,12 +215,12 @@ msgstr "不使用客户侧窗口装饰（标题栏）"
 msgid "Handle compilations"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "以专辑视图显示曲目"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
-#: ../data/SettingsDialog.ui:298
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "关闭后继续播放"
 
@@ -292,7 +292,7 @@ msgstr "在Lollypop录音时该选项会阻止屏幕保护程序和电脑挂起�
 msgid "Playback behaviour"
 msgstr "回放行为"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "专辑分类方式"
 
@@ -482,7 +482,7 @@ msgid "Select a local file"
 msgstr "选择一个本地文件"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:539
 msgid "Confirm"
 msgstr "确认"
 
@@ -496,7 +496,7 @@ msgstr ""
 "<b>Lollypop使用自定义的Google搜索API来从网上搜索图片</b>\n"
 "<small>该API受到限制，可能无法和默认API密钥一起使用</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1138
 msgid "API key"
 msgstr "API 密钥"
 
@@ -608,118 +608,114 @@ msgstr "在TuneIn中搜索"
 msgid "Create a new playlist based on search"
 msgstr "根据查询内容创建一个新的播放列表"
 
-#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:107
+#: ../lollypop/settings.py:110
 msgid "Preferences"
 msgstr "首选项"
 
-#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
+#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
 msgid "Use dark theme variant"
 msgstr "使用暗色主题"
 
-#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
 msgid "Show genres"
 msgstr "查看分类"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:112
 msgid "Show compilations"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
-msgid "Long press to show options"
-msgstr "长按以显示选项"
-
-#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:398
+#: ../data/SettingsDialog.ui:202 ../lollypop/pop_menu.py:398
 #: ../lollypop/pop_menu.py:419
 msgid "Artist"
 msgstr "艺术家"
 
-#: ../data/SettingsDialog.ui:202
+#: ../data/SettingsDialog.ui:203
 msgid "Name"
 msgstr "姓名"
 
-#: ../data/SettingsDialog.ui:203
+#: ../data/SettingsDialog.ui:204
 msgid "Year"
 msgstr "年份"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsDialog.ui:205
 msgid "Popularity"
 msgstr "流行度"
 
-#: ../data/SettingsDialog.ui:219
+#: ../data/SettingsDialog.ui:249
 msgid "Configure Lollypop appearance"
 msgstr "配置 Lollypop 外观"
 
-#: ../data/SettingsDialog.ui:220
+#: ../data/SettingsDialog.ui:250
 msgid "Appearance"
 msgstr "外观"
 
-#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
+#: ../data/SettingsDialog.ui:316 ../data/SettingsDialog.ui:339
 msgid "Restore state on startup"
 msgstr "启动后恢复到上次的播放状态"
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:354
 msgid "Smooth transitions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
+#: ../data/SettingsDialog.ui:379 ../data/SettingsDialog.ui:390
 msgid "Save changes to files"
 msgstr "将更改保存到文件"
 
-#: ../data/SettingsDialog.ui:374
+#: ../data/SettingsDialog.ui:404
 msgid "Preview tracks on"
 msgstr "预览曲目"
 
-#: ../data/SettingsDialog.ui:388
+#: ../data/SettingsDialog.ui:418
 msgid "No audio device"
 msgstr "无音频设备"
 
-#: ../data/SettingsDialog.ui:403
+#: ../data/SettingsDialog.ui:433
 #, fuzzy
 msgid "Enable network access"
 msgstr "启用网络访问："
 
-#: ../data/SettingsDialog.ui:431
+#: ../data/SettingsDialog.ui:493
 msgid "Configure Lollypop behaviour"
 msgstr "配置 Lollypop 行为"
 
-#: ../data/SettingsDialog.ui:432
+#: ../data/SettingsDialog.ui:494
 msgid "Behaviour"
 msgstr "行为"
 
-#: ../data/SettingsDialog.ui:545
+#: ../data/SettingsDialog.ui:607
 msgid "Reset database"
 msgstr "重置数据库"
 
-#: ../data/SettingsDialog.ui:714
+#: ../data/SettingsDialog.ui:776
 msgid "Select music folders"
 msgstr "选择音乐文件夹"
 
-#: ../data/SettingsDialog.ui:715
+#: ../data/SettingsDialog.ui:777
 msgid "Music"
 msgstr "音乐"
 
-#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
+#: ../data/SettingsDialog.ui:807 ../data/SettingsDialog.ui:922
 msgid "Login:"
 msgstr "登录："
 
-#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
+#: ../data/SettingsDialog.ui:820 ../data/SettingsDialog.ui:935
 msgid "Password:"
 msgstr "密码："
 
-#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
+#: ../data/SettingsDialog.ui:856 ../data/SettingsDialog.ui:971
 msgid "Connect"
 msgstr "连接"
 
-#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
+#: ../data/SettingsDialog.ui:883 ../data/SettingsDialog.ui:998
 msgid "You need to install pylast and gi secret"
 msgstr "您需要安装pylast和gi secret"
 
-#: ../data/SettingsDialog.ui:956
+#: ../data/SettingsDialog.ui:1018
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:980
+#: ../data/SettingsDialog.ui:1042
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -727,15 +723,15 @@ msgid ""
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1010
+#: ../data/SettingsDialog.ui:1072
 msgid "User token"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1026
+#: ../data/SettingsDialog.ui:1088
 msgid "ListenBrainz"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1050
+#: ../data/SettingsDialog.ui:1112
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -745,35 +741,35 @@ msgstr ""
 "<small>否则你将很快用完默认次数\n"
 "Lollypop需要这个来搜索插图</small>"
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1156
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr "<small>你需要为你的项目启用“自定义搜索API\"</small>"
 
-#: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1177 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "搜索"
 
-#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
+#: ../data/SettingsDialog.ui:1199 ../data/SettingsDialog.ui:1200
 msgid "Web"
 msgstr "Web"
 
-#: ../data/SettingsDialog.ui:1226
+#: ../data/SettingsDialog.ui:1268
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1240
+#: ../data/SettingsDialog.ui:1282
 msgid "You need to reset database [Music]"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1274
+#: ../data/SettingsDialog.ui:1318
 msgid "Only in party mode"
 msgstr "仅在派对模式中"
 
-#: ../data/SettingsDialog.ui:1340
+#: ../data/SettingsDialog.ui:1368
 msgid "Transition duration in seconds"
 msgstr ""
 
@@ -1197,25 +1193,25 @@ msgstr ""
 msgid "Shown"
 msgstr ""
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:87
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d 个艺术家"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d 个专辑"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d 个音轨"
 
-#: ../lollypop/settings.py:753
+#: ../lollypop/settings.py:751
 msgid "You need to install kid3-cli"
 msgstr "您需要安装kid3-cli"
 
@@ -1341,6 +1337,9 @@ msgstr "更改广播电台"
 #, python-format
 msgid "Song played %s times"
 msgstr "音乐播放了 %s 次"
+
+#~ msgid "Long press to show options"
+#~ msgstr "长按以显示选项"
 
 #~ msgid "Show navigation list"
 #~ msgstr "查看导航列表"

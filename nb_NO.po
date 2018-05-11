@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-07 23:48+0200\n"
+"POT-Creation-Date: 2018-05-11 19:38+0200\n"
 "PO-Revision-Date: 2018-05-11 00:40+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -151,7 +151,7 @@ msgstr ""
 "Tilbakestilling av denne verdien vil tilbakestille databasen, populære album "
 "vil bli gjenopprettet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:136
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:137
 msgid "Albums cover size"
 msgstr "Størrelse på omslag"
 
@@ -179,8 +179,8 @@ msgstr "Kvalitet for koding av MP3-filer"
 msgid "Normalize MP3(MTP)"
 msgstr "Normaliser MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
-#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "Oppdater musikk automatisk"
 
@@ -196,8 +196,8 @@ msgstr "Vis sjangerliste"
 msgid "Show sidebar"
 msgstr "Vis sidefelt"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
-#: ../data/SettingsDialog.ui:174
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "Vis bildemateriale for artist"
 
@@ -213,12 +213,12 @@ msgstr "Skru av vindusdekorasjoner på klientsiden (hodefelt)"
 msgid "Handle compilations"
 msgstr "Håndter samlinger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "Vis samlere i albumvisning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
-#: ../data/SettingsDialog.ui:298
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "Fortsett avspilling når lukket"
 
@@ -293,7 +293,7 @@ msgstr ""
 msgid "Playback behaviour"
 msgstr "Avspillingsoppførsel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "Sorter album etter"
 
@@ -493,7 +493,7 @@ msgid "Select a local file"
 msgstr "Velg ei lokal fil"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:539
 msgid "Confirm"
 msgstr "Bekreft"
 
@@ -509,7 +509,7 @@ msgstr ""
 "<small>Dette API-et er begrenset, så det fungerer kanskje ikke med forvalgt "
 "API-nøkkel.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1138
 msgid "API key"
 msgstr "API-nøkkel"
 
@@ -621,117 +621,113 @@ msgstr "Søk i TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Opprett ny spilleliste basert på søk"
 
-#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:107
+#: ../lollypop/settings.py:110
 msgid "Preferences"
 msgstr "Innstillinger"
 
-#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
+#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
 msgid "Use dark theme variant"
 msgstr "Bruk mørk draktvariant"
 
-#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
 msgid "Show genres"
 msgstr "Vis sjangre"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:112
 msgid "Show compilations"
 msgstr "Vis samlinger"
 
-#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
-msgid "Long press to show options"
-msgstr "Trykk lenge for å vise valg"
-
-#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:398
+#: ../data/SettingsDialog.ui:202 ../lollypop/pop_menu.py:398
 #: ../lollypop/pop_menu.py:419
 msgid "Artist"
 msgstr "Artist"
 
-#: ../data/SettingsDialog.ui:202
+#: ../data/SettingsDialog.ui:203
 msgid "Name"
 msgstr "Navn"
 
-#: ../data/SettingsDialog.ui:203
+#: ../data/SettingsDialog.ui:204
 msgid "Year"
 msgstr "År"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsDialog.ui:205
 msgid "Popularity"
 msgstr "Popularitet"
 
-#: ../data/SettingsDialog.ui:219
+#: ../data/SettingsDialog.ui:249
 msgid "Configure Lollypop appearance"
 msgstr "Sett opp Lollypop-utseende"
 
-#: ../data/SettingsDialog.ui:220
+#: ../data/SettingsDialog.ui:250
 msgid "Appearance"
 msgstr "Utseende"
 
-#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
+#: ../data/SettingsDialog.ui:316 ../data/SettingsDialog.ui:339
 msgid "Restore state on startup"
 msgstr "Gjenopprett tilstand ved oppstart"
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:354
 msgid "Smooth transitions"
 msgstr "Myke overganger"
 
-#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
+#: ../data/SettingsDialog.ui:379 ../data/SettingsDialog.ui:390
 msgid "Save changes to files"
 msgstr "Lagre endringer til filer"
 
-#: ../data/SettingsDialog.ui:374
+#: ../data/SettingsDialog.ui:404
 msgid "Preview tracks on"
 msgstr "Forhåndsvis filer på"
 
-#: ../data/SettingsDialog.ui:388
+#: ../data/SettingsDialog.ui:418
 msgid "No audio device"
 msgstr "Ingen lydenhet"
 
-#: ../data/SettingsDialog.ui:403
+#: ../data/SettingsDialog.ui:433
 msgid "Enable network access"
 msgstr "Skru på nettverkstilgang"
 
-#: ../data/SettingsDialog.ui:431
+#: ../data/SettingsDialog.ui:493
 msgid "Configure Lollypop behaviour"
 msgstr "Sett opp Lollypop-oppførsel"
 
-#: ../data/SettingsDialog.ui:432
+#: ../data/SettingsDialog.ui:494
 msgid "Behaviour"
 msgstr "Oppførsel"
 
-#: ../data/SettingsDialog.ui:545
+#: ../data/SettingsDialog.ui:607
 msgid "Reset database"
 msgstr "Tilbakestill database"
 
-#: ../data/SettingsDialog.ui:714
+#: ../data/SettingsDialog.ui:776
 msgid "Select music folders"
 msgstr "Velg musikkmapper"
 
-#: ../data/SettingsDialog.ui:715
+#: ../data/SettingsDialog.ui:777
 msgid "Music"
 msgstr "Musikk"
 
-#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
+#: ../data/SettingsDialog.ui:807 ../data/SettingsDialog.ui:922
 msgid "Login:"
 msgstr "Innlogging:"
 
-#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
+#: ../data/SettingsDialog.ui:820 ../data/SettingsDialog.ui:935
 msgid "Password:"
 msgstr "Passord:"
 
-#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
+#: ../data/SettingsDialog.ui:856 ../data/SettingsDialog.ui:971
 msgid "Connect"
 msgstr "Koble til"
 
-#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
+#: ../data/SettingsDialog.ui:883 ../data/SettingsDialog.ui:998
 msgid "You need to install pylast and gi secret"
 msgstr "Du må installere pylast og gi secret"
 
-#: ../data/SettingsDialog.ui:956
+#: ../data/SettingsDialog.ui:1018
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:980
+#: ../data/SettingsDialog.ui:1042
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -743,15 +739,15 @@ msgstr ""
 "ListenBrainz-brukersymbol nedenfor. Du kan se ditt brukersymbol i din <a "
 "href=\"https://listenbrainz.org/profile/\">brukerprofil</a>.</small>"
 
-#: ../data/SettingsDialog.ui:1010
+#: ../data/SettingsDialog.ui:1072
 msgid "User token"
 msgstr "Brukersymbol"
 
-#: ../data/SettingsDialog.ui:1026
+#: ../data/SettingsDialog.ui:1088
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1050
+#: ../data/SettingsDialog.ui:1112
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -762,23 +758,23 @@ msgstr ""
 "Lollypop trenger dette for å søke etter omslag.\n"
 "</small>"
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1156
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 "<small>Du trenger å skru på \"API for egendefinert søk\" for prosjektet ditt."
 "</small>"
 
-#: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1177 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Søk"
 
-#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
+#: ../data/SettingsDialog.ui:1199 ../data/SettingsDialog.ui:1200
 msgid "Web"
 msgstr "Nett"
 
-#: ../data/SettingsDialog.ui:1226
+#: ../data/SettingsDialog.ui:1268
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -786,15 +782,15 @@ msgstr ""
 "En samling er et album uten noe \"Albumartistetikett\"\n"
 "og med forskjellige artister."
 
-#: ../data/SettingsDialog.ui:1240
+#: ../data/SettingsDialog.ui:1282
 msgid "You need to reset database [Music]"
 msgstr "Du må tilbakestille databasen [Music]"
 
-#: ../data/SettingsDialog.ui:1274
+#: ../data/SettingsDialog.ui:1318
 msgid "Only in party mode"
 msgstr "Bare i festmodus"
 
-#: ../data/SettingsDialog.ui:1340
+#: ../data/SettingsDialog.ui:1368
 msgid "Transition duration in seconds"
 msgstr "Overgangsvarighet i sekunder"
 
@@ -1218,28 +1214,28 @@ msgstr "Programstart"
 msgid "Shown"
 msgstr "Vist"
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:87
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artist"
 msgstr[1] "%d artister"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d album"
 msgstr[1] "%d album"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d spor"
 msgstr[1] "%d spor"
 
-#: ../lollypop/settings.py:753
+#: ../lollypop/settings.py:751
 msgid "You need to install kid3-cli"
 msgstr "Du må installere kid3-cli"
 
@@ -1364,6 +1360,9 @@ msgstr "Modifiser radiostasjon"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
+
+#~ msgid "Long press to show options"
+#~ msgstr "Trykk lenge for å vise valg"
 
 #~ msgid "Show navigation list"
 #~ msgstr "Vis navigasjonsliste"

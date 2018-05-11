@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-07 23:48+0200\n"
+"POT-Creation-Date: 2018-05-11 19:38+0200\n"
 "PO-Revision-Date: 2018-05-07 22:19+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -150,7 +150,7 @@ msgstr ""
 "Deze waarde opnieuw instellen zal den databank opnieuw instellen; populaire "
 "albums zullen hersteld worden"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:136
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:137
 msgid "Albums cover size"
 msgstr "Albumhoesgrootte"
 
@@ -178,8 +178,8 @@ msgstr "Kwaliteitsinstelling voor coderen naar MP3"
 msgid "Normalize MP3(MTP)"
 msgstr "MP3 normaliseren (MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
-#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "Muziek automatisch bijwerken"
 
@@ -195,8 +195,8 @@ msgstr "Genrelijst tonen"
 msgid "Show sidebar"
 msgstr "Zijbalk tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
-#: ../data/SettingsDialog.ui:174
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "Artiestfoto tonen"
 
@@ -212,12 +212,12 @@ msgstr "Vensterdecoraties aan cliëntzijde (headerbar) uitschakelen"
 msgid "Handle compilations"
 msgstr "Compilaties verwerken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "Compilaties tonen in albumoverzicht"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
-#: ../data/SettingsDialog.ui:298
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "Doorgaan me afspelen wanneer gesloten"
 
@@ -293,7 +293,7 @@ msgstr ""
 msgid "Playback behaviour"
 msgstr "Afspeelgedrag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "Albums rangschikken op"
 
@@ -495,7 +495,7 @@ msgid "Select a local file"
 msgstr "Kiesd een lokaal bestand"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:539
 msgid "Confirm"
 msgstr "Bevestigen"
 
@@ -511,7 +511,7 @@ msgstr ""
 "<small>Dezen API is beperkt en werkt dus misschien nie me’ de standaard-API-"
 "sleutel.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1138
 msgid "API key"
 msgstr "API-sleutel"
 
@@ -623,117 +623,113 @@ msgstr "Zoeken op TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Maakt ne nieuwen afspeellijst aan gebaseerd op de zoekopdracht"
 
-#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:107
+#: ../lollypop/settings.py:110
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
+#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
 msgid "Use dark theme variant"
 msgstr "Donkeren themavariant gebruiken"
 
-#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
 msgid "Show genres"
 msgstr "Genres tonen"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:112
 msgid "Show compilations"
 msgstr "Compilaties weergeven"
 
-#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
-msgid "Long press to show options"
-msgstr "Houd lang ingedrukt voor opties te tonen"
-
-#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:398
+#: ../data/SettingsDialog.ui:202 ../lollypop/pop_menu.py:398
 #: ../lollypop/pop_menu.py:419
 msgid "Artist"
 msgstr "Artiest"
 
-#: ../data/SettingsDialog.ui:202
+#: ../data/SettingsDialog.ui:203
 msgid "Name"
 msgstr "Naam"
 
-#: ../data/SettingsDialog.ui:203
+#: ../data/SettingsDialog.ui:204
 msgid "Year"
 msgstr "Jaar"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsDialog.ui:205
 msgid "Popularity"
 msgstr "Populariteit"
 
-#: ../data/SettingsDialog.ui:219
+#: ../data/SettingsDialog.ui:249
 msgid "Configure Lollypop appearance"
 msgstr "Uiterlijk van Lollypop aanpassen"
 
-#: ../data/SettingsDialog.ui:220
+#: ../data/SettingsDialog.ui:250
 msgid "Appearance"
 msgstr "Uiterlijk"
 
-#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
+#: ../data/SettingsDialog.ui:316 ../data/SettingsDialog.ui:339
 msgid "Restore state on startup"
 msgstr "Toestand herstellen bij opstarten"
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:354
 msgid "Smooth transitions"
 msgstr "Vloeiende overgangen"
 
-#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
+#: ../data/SettingsDialog.ui:379 ../data/SettingsDialog.ui:390
 msgid "Save changes to files"
 msgstr "Wijzigingen opslaan in bestanden"
 
-#: ../data/SettingsDialog.ui:374
+#: ../data/SettingsDialog.ui:404
 msgid "Preview tracks on"
 msgstr "Voorbeeldweergave van nummer afspelen via"
 
-#: ../data/SettingsDialog.ui:388
+#: ../data/SettingsDialog.ui:418
 msgid "No audio device"
 msgstr "Geen audio-apparaat"
 
-#: ../data/SettingsDialog.ui:403
+#: ../data/SettingsDialog.ui:433
 msgid "Enable network access"
 msgstr "Netwerktoegang inschakelen"
 
-#: ../data/SettingsDialog.ui:431
+#: ../data/SettingsDialog.ui:493
 msgid "Configure Lollypop behaviour"
 msgstr "Gedrag van Lollypop aanpassen"
 
-#: ../data/SettingsDialog.ui:432
+#: ../data/SettingsDialog.ui:494
 msgid "Behaviour"
 msgstr "Gedrag"
 
-#: ../data/SettingsDialog.ui:545
+#: ../data/SettingsDialog.ui:607
 msgid "Reset database"
 msgstr "Databank opnieuw instellen"
 
-#: ../data/SettingsDialog.ui:714
+#: ../data/SettingsDialog.ui:776
 msgid "Select music folders"
 msgstr "Kiesd muziekmappen"
 
-#: ../data/SettingsDialog.ui:715
+#: ../data/SettingsDialog.ui:777
 msgid "Music"
 msgstr "Muziek"
 
-#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
+#: ../data/SettingsDialog.ui:807 ../data/SettingsDialog.ui:922
 msgid "Login:"
 msgstr "Gebruikersnaam:"
 
-#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
+#: ../data/SettingsDialog.ui:820 ../data/SettingsDialog.ui:935
 msgid "Password:"
 msgstr "Paswoord:"
 
-#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
+#: ../data/SettingsDialog.ui:856 ../data/SettingsDialog.ui:971
 msgid "Connect"
 msgstr "Verbinden"
 
-#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
+#: ../data/SettingsDialog.ui:883 ../data/SettingsDialog.ui:998
 msgid "You need to install pylast and gi secret"
 msgstr "Ge moet pylast en gi secret installeren"
 
-#: ../data/SettingsDialog.ui:956
+#: ../data/SettingsDialog.ui:1018
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:980
+#: ../data/SettingsDialog.ui:1042
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -746,15 +742,15 @@ msgstr ""
 "vinden in uw <a href=\"https://listenbrainz.org/profile/"
 "\">gebruikersprofiel</a>.</small>"
 
-#: ../data/SettingsDialog.ui:1010
+#: ../data/SettingsDialog.ui:1072
 msgid "User token"
 msgstr "Gebruikerstoken"
 
-#: ../data/SettingsDialog.ui:1026
+#: ../data/SettingsDialog.ui:1088
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1050
+#: ../data/SettingsDialog.ui:1112
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -764,21 +760,21 @@ msgstr ""
 "<small>Zonder deze sleutel geraakt ge rap aan de standaardquota…\n"
 "Lollypop heefd dit nodig voor naar albumhoezen te zoeken.</small>"
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1156
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr "<small>Schakeld den ‘aangepast zoeken-API’ voor uw project in.</small>"
 
-#: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1177 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Zoeken"
 
-#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
+#: ../data/SettingsDialog.ui:1199 ../data/SettingsDialog.ui:1200
 msgid "Web"
 msgstr "Internet"
 
-#: ../data/SettingsDialog.ui:1226
+#: ../data/SettingsDialog.ui:1268
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -786,15 +782,15 @@ msgstr ""
 "Een compilatie is een album zonder ‘albumartiest’-label,\n"
 "en bevat verschillende artiesten."
 
-#: ../data/SettingsDialog.ui:1240
+#: ../data/SettingsDialog.ui:1282
 msgid "You need to reset database [Music]"
 msgstr "Ge moet den databank opnieuw instellen [Muziek]"
 
-#: ../data/SettingsDialog.ui:1274
+#: ../data/SettingsDialog.ui:1318
 msgid "Only in party mode"
 msgstr "Enkel in feestmodus"
 
-#: ../data/SettingsDialog.ui:1340
+#: ../data/SettingsDialog.ui:1368
 msgid "Transition duration in seconds"
 msgstr "Overgangsduur, in seconden"
 
@@ -1218,28 +1214,28 @@ msgstr "Opstarten"
 msgid "Shown"
 msgstr "Getoond"
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:87
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artiest"
 msgstr[1] "%d artiesten"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d album"
 msgstr[1] "%d albums"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d nummer"
 msgstr[1] "%d nummers"
 
-#: ../lollypop/settings.py:753
+#: ../lollypop/settings.py:751
 msgid "You need to install kid3-cli"
 msgstr "Ge moet kid3-cli installeren"
 
@@ -1363,6 +1359,9 @@ msgstr "Radiozender bewerken"
 #, python-format
 msgid "Song played %s times"
 msgstr "%s keer beluisterd"
+
+#~ msgid "Long press to show options"
+#~ msgstr "Houd lang ingedrukt voor opties te tonen"
 
 #~ msgid "Show navigation list"
 #~ msgstr "Navigatielijst tonen"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-07 23:48+0200\n"
+"POT-Creation-Date: 2018-05-11 19:38+0200\n"
 "PO-Revision-Date: 2018-05-03 08:35+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -155,7 +155,7 @@ msgstr ""
 "Reinicialitzar aquest valor reinicialitzarà la base de dades, els àlbums "
 "populars seran restaurats"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:136
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:137
 msgid "Albums cover size"
 msgstr "Mida de la caràtula"
 
@@ -183,8 +183,8 @@ msgstr "Qualitat de la codificació MP3"
 msgid "Normalize MP3(MTP)"
 msgstr "Normalitza MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:244
-#: ../data/SettingsDialog.ui:246 ../data/SettingsDialog.ui:257
+#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "Actualització automàtica de la música"
 
@@ -200,8 +200,8 @@ msgstr "Mostra la llista de gèneres"
 msgid "Show sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:163
-#: ../data/SettingsDialog.ui:174
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "Mostra il·lustracions de l'artista"
 
@@ -219,12 +219,12 @@ msgstr ""
 msgid "Handle compilations"
 msgstr "Gestiona compilacions"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1175
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "Mostra compilacions en la finestra d'àlbums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:271
-#: ../data/SettingsDialog.ui:298
+#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "Continua sonant quan es tanqui"
 
@@ -299,7 +299,7 @@ msgstr ""
 msgid "Playback behaviour"
 msgstr "Comportament de la reproducció"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:188
+#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "Ordena els àlbums per"
 
@@ -499,7 +499,7 @@ msgid "Select a local file"
 msgstr "Trieu un fitxer local"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:477
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:539
 msgid "Confirm"
 msgstr "Confirma"
 
@@ -515,7 +515,7 @@ msgstr ""
 "<small>Aquesta  API està limitada, de manera que pot ser que no funcioni amb "
 "la clau API predeterminada.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1076
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1138
 msgid "API key"
 msgstr "Clau API"
 
@@ -627,117 +627,113 @@ msgstr "Cerca en el TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Crea una nova llista basada en la cerca"
 
-#: ../data/SettingsDialog.ui:24 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:107
+#: ../lollypop/settings.py:110
 msgid "Preferences"
 msgstr "Configuració"
 
-#: ../data/SettingsDialog.ui:57 ../data/SettingsDialog.ui:69
+#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
 msgid "Use dark theme variant"
 msgstr "Utilitza la variant fosca del tema"
 
-#: ../data/SettingsDialog.ui:84 ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
 msgid "Show genres"
 msgstr "Mostra els gèneres"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:112
 msgid "Show compilations"
 msgstr "Mostra compilacions"
 
-#: ../data/SettingsDialog.ui:122 ../data/SettingsDialog.ui:335
-msgid "Long press to show options"
-msgstr "Clic per mostrar opcions"
-
-#: ../data/SettingsDialog.ui:201 ../lollypop/pop_menu.py:398
+#: ../data/SettingsDialog.ui:202 ../lollypop/pop_menu.py:398
 #: ../lollypop/pop_menu.py:419
 msgid "Artist"
 msgstr "Artista"
 
-#: ../data/SettingsDialog.ui:202
+#: ../data/SettingsDialog.ui:203
 msgid "Name"
 msgstr "Nom"
 
-#: ../data/SettingsDialog.ui:203
+#: ../data/SettingsDialog.ui:204
 msgid "Year"
 msgstr "Any"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsDialog.ui:205
 msgid "Popularity"
 msgstr "Popularitat"
 
-#: ../data/SettingsDialog.ui:219
+#: ../data/SettingsDialog.ui:249
 msgid "Configure Lollypop appearance"
 msgstr "Configura l'aparença del Lollypop"
 
-#: ../data/SettingsDialog.ui:220
+#: ../data/SettingsDialog.ui:250
 msgid "Appearance"
 msgstr "Aparença"
 
-#: ../data/SettingsDialog.ui:286 ../data/SettingsDialog.ui:309
+#: ../data/SettingsDialog.ui:316 ../data/SettingsDialog.ui:339
 msgid "Restore state on startup"
 msgstr "Restaura estat al iniciar"
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:354
 msgid "Smooth transitions"
 msgstr "Transicions suaus"
 
-#: ../data/SettingsDialog.ui:349 ../data/SettingsDialog.ui:360
+#: ../data/SettingsDialog.ui:379 ../data/SettingsDialog.ui:390
 msgid "Save changes to files"
 msgstr "Desa els canvis als fitxers"
 
-#: ../data/SettingsDialog.ui:374
+#: ../data/SettingsDialog.ui:404
 msgid "Preview tracks on"
 msgstr "Sortida d'àudio"
 
-#: ../data/SettingsDialog.ui:388
+#: ../data/SettingsDialog.ui:418
 msgid "No audio device"
 msgstr "Cap dispositiu d'àudio"
 
-#: ../data/SettingsDialog.ui:403
+#: ../data/SettingsDialog.ui:433
 msgid "Enable network access"
 msgstr "Activar accés a la xarxa"
 
-#: ../data/SettingsDialog.ui:431
+#: ../data/SettingsDialog.ui:493
 msgid "Configure Lollypop behaviour"
 msgstr "Configura el comportament del Lollypop"
 
-#: ../data/SettingsDialog.ui:432
+#: ../data/SettingsDialog.ui:494
 msgid "Behaviour"
 msgstr "Comportament"
 
-#: ../data/SettingsDialog.ui:545
+#: ../data/SettingsDialog.ui:607
 msgid "Reset database"
 msgstr "Reinicia base de dades"
 
-#: ../data/SettingsDialog.ui:714
+#: ../data/SettingsDialog.ui:776
 msgid "Select music folders"
 msgstr "Trieu carpetes de música"
 
-#: ../data/SettingsDialog.ui:715
+#: ../data/SettingsDialog.ui:777
 msgid "Music"
 msgstr "Música"
 
-#: ../data/SettingsDialog.ui:745 ../data/SettingsDialog.ui:860
+#: ../data/SettingsDialog.ui:807 ../data/SettingsDialog.ui:922
 msgid "Login:"
 msgstr "Nom usuari:"
 
-#: ../data/SettingsDialog.ui:758 ../data/SettingsDialog.ui:873
+#: ../data/SettingsDialog.ui:820 ../data/SettingsDialog.ui:935
 msgid "Password:"
 msgstr "Contrasenya:"
 
-#: ../data/SettingsDialog.ui:794 ../data/SettingsDialog.ui:909
+#: ../data/SettingsDialog.ui:856 ../data/SettingsDialog.ui:971
 msgid "Connect"
 msgstr "Connecta"
 
-#: ../data/SettingsDialog.ui:821 ../data/SettingsDialog.ui:936
+#: ../data/SettingsDialog.ui:883 ../data/SettingsDialog.ui:998
 msgid "You need to install pylast and gi secret"
 msgstr "Heu d'instal·lar \"pylast\" i \"gi secret\""
 
-#: ../data/SettingsDialog.ui:956
+#: ../data/SettingsDialog.ui:1018
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:980
+#: ../data/SettingsDialog.ui:1042
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -750,15 +746,15 @@ msgstr ""
 "web <a href=\"https://listenbrainz.org/profile/\">listenbrainz.org</a> "
 "trobareu aquest codi anomenat \"User token\"</small>"
 
-#: ../data/SettingsDialog.ui:1010
+#: ../data/SettingsDialog.ui:1072
 msgid "User token"
 msgstr "Identificadors d'usuari"
 
-#: ../data/SettingsDialog.ui:1026
+#: ../data/SettingsDialog.ui:1088
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1050
+#: ../data/SettingsDialog.ui:1112
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -768,22 +764,22 @@ msgstr ""
 "<small>En cas contrari, aviat arribareu a la quota per defecte…\n"
 "Lollypop la necessita per cercar imatges.</small>"
 
-#: ../data/SettingsDialog.ui:1094
+#: ../data/SettingsDialog.ui:1156
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 "<small>Heu d'activar \"Custom Search API\"  del vostre projecte.</small>"
 
-#: ../data/SettingsDialog.ui:1115 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1177 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:282
 msgid "Search"
 msgstr "Cerca"
 
-#: ../data/SettingsDialog.ui:1137 ../data/SettingsDialog.ui:1138
+#: ../data/SettingsDialog.ui:1199 ../data/SettingsDialog.ui:1200
 msgid "Web"
 msgstr "Web"
 
-#: ../data/SettingsDialog.ui:1226
+#: ../data/SettingsDialog.ui:1268
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -791,15 +787,15 @@ msgstr ""
 "Una compilació és un àlbum sense cap \"etiqueta d'artista d'àlbum\"\n"
 "i amb diversos artistes."
 
-#: ../data/SettingsDialog.ui:1240
+#: ../data/SettingsDialog.ui:1282
 msgid "You need to reset database [Music]"
 msgstr "Heu de reiniciar la base de dades de la música"
 
-#: ../data/SettingsDialog.ui:1274
+#: ../data/SettingsDialog.ui:1318
 msgid "Only in party mode"
 msgstr "Només en mode festa"
 
-#: ../data/SettingsDialog.ui:1340
+#: ../data/SettingsDialog.ui:1368
 msgid "Transition duration in seconds"
 msgstr "Durada de la transició en segons"
 
@@ -1223,28 +1219,28 @@ msgstr "Engegada"
 msgid "Shown"
 msgstr "Mostrat"
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:87
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artista"
 msgstr[1] "%d artistes"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d àlbum"
 msgstr[1] "%d àlbums"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d pista"
 msgstr[1] "%d pistes"
 
-#: ../lollypop/settings.py:753
+#: ../lollypop/settings.py:751
 msgid "You need to install kid3-cli"
 msgstr "Heu d'instal·lar \"kid3-cli\""
 
@@ -1368,6 +1364,9 @@ msgstr "Modifica ràdio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Reproduït %s cops"
+
+#~ msgid "Long press to show options"
+#~ msgstr "Clic per mostrar opcions"
 
 #~ msgid "Show navigation list"
 #~ msgstr "Mostrar llista de navegació"
