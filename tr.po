@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-11 19:38+0200\n"
+"POT-Creation-Date: 2018-05-16 14:06+0200\n"
 "PO-Revision-Date: 2018-05-10 20:34+0000\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -51,10 +51,10 @@ msgstr "Küçük oynatıcı konumu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:48
 #: ../data/org.gnome.Lollypop.gschema.xml:53
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:261
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "INTERNAL"
 msgstr "DAHİLİ"
 
@@ -139,7 +139,7 @@ msgid "Favorite cover file"
 msgstr "Gözde kapak dosyası"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
-#: ../data/org.gnome.Lollypop.gschema.xml:229
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restart needed"
 msgstr "Yeniden başlatmak gerekli"
 
@@ -171,134 +171,126 @@ msgid "Sync all albums(MTP)"
 msgstr "Tüm albümleri eşzamanla(MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:153
-msgid "Encode to MP3(MTP)"
-msgstr "MP3'e kodla (MTP)"
+msgid "Quality of encoding"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:158
-msgid "Quality of MP3 encoding"
-msgstr "MP3 kodlamanın niteliği"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:163
-msgid "Normalize MP3(MTP)"
-msgstr "MP3ʼü normalleştir (MTP)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:274
 #: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "Müziği kendiliğinden gücelle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173
+#: ../data/org.gnome.Lollypop.gschema.xml:163
 msgid "Split playlists view"
 msgstr "Çalma listeleri görünümünü böl"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:178
+#: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Show list of genres"
 msgstr "Türlerin listesini göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:183
+#: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Show sidebar"
 msgstr "Kenar çubuğu göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/org.gnome.Lollypop.gschema.xml:178 ../data/SettingsDialog.ui:164
 #: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "Sanatçı çizimini göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193
+#: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Use dark GTK theme"
 msgstr "Karanlık GTK gövdesi kullan"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198
+#: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 "İstemci tarafı pencere süslemeleri (üst çubuk) kullanımını devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203
+#: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Handle compilations"
 msgstr "Derlemeleri idare et"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "Derlemeleri albüm görünümünde göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:301
 #: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "Kapandığında kayıttan çalmaya devam et"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Smart sort for artist"
 msgstr "Sanatçı için akıllı sıralama"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 "Örn: The Beatles, Beatles olarak sıralanır. Veri tabanının sıfırlanması "
 "gerekir."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Restore previous state"
 msgstr "Bir önceki durumuna geri yükle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:228
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable MPRIS"
 msgstr "MPRISʼi devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:233
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Disable all notifications"
 msgstr "Tüm bildirimleri devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:237
+#: ../data/org.gnome.Lollypop.gschema.xml:227
 msgid "Disable notifications upon change of song"
 msgstr "Şarkı değişikliğinde bildirimleri devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Show track number from tags"
 msgstr "Parça numarasını etiketten göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "JPG cover quality"
 msgstr "JPG kapak niteliği"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:247
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:261
 msgid "Smooth transitions between tracks"
 msgstr "Parçalar arası yumuşak geçişler"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Only mix songs in party mode"
 msgstr "Şarkıları yalnızca parti kipinde karıştır"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:281
+#: ../data/org.gnome.Lollypop.gschema.xml:271
 msgid "Smooth transition duration"
 msgstr "Yumuşak geçiş süresi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Restart current track on previous"
 msgstr "Geçerli parçayı öncekinde yeniden başlat"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Shuffle mode"
 msgstr "Karma kipi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Possibilities for powermanagement options"
 msgstr "Güç yönetimi seçenekleri için olasılıklar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:297
+#: ../data/org.gnome.Lollypop.gschema.xml:287
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Bu seçenek ekran koruyucuyu önler ve Lollypop'un kayıttan çalması boyunca "
 "askıya alır."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
 msgstr "Kayıttan çalma davranışı"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
+#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "Albümleri şuna göre sırala"
 
@@ -324,11 +316,11 @@ msgstr "Bağışlar:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:777
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:777
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -540,17 +532,37 @@ msgstr "Aygıtınıza eşzamanlayın"
 msgid "This will remove some files on your device!"
 msgstr "Bu, aygıtınızdaki bazı dosyaları silecektir!"
 
-#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:116
+#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:108
 msgid "Albums"
 msgstr "Albümler"
 
 #: ../data/DeviceManagerWidget.ui:225
-msgid "Convert to MP3"
-msgstr "MP3'e Dönüştür"
+msgid "Convert to:"
+msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:249
-msgid "Normalize MP3"
-msgstr "MP3'i normalleştir"
+#: ../data/DeviceManagerWidget.ui:237
+msgid "Normalize"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:258
+msgid "Do not convert"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:276
+msgid "MP3"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:295
+msgid "Ogg Vorbis"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:314
+msgid "AAC"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:333
+msgid "FLAC"
+msgstr ""
 
 #: ../data/NextPopover.ui:84
 msgid "Next track"
@@ -999,7 +1011,7 @@ msgstr "Çizimi sıfırla?"
 #: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:308
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:571 ../lollypop/selectionlist.py:584
+#: ../lollypop/selectionlist.py:564 ../lollypop/selectionlist.py:577
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
 #: ../lollypop/tagreader.py:204 ../lollypop/tagreader.py:208
@@ -1007,15 +1019,15 @@ msgstr "Çizimi sıfırla?"
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: ../lollypop/container.py:776
+#: ../lollypop/container.py:769
 msgid "Please consider a donation to the project"
 msgstr "Lütfen projeye bağış yapmayı düşünün"
 
-#: ../lollypop/container.py:896
+#: ../lollypop/container.py:890
 msgid "New tracks available"
 msgstr "Yeni parçalar var"
 
-#: ../lollypop/container.py:897
+#: ../lollypop/container.py:891
 msgid "Refresh"
 msgstr "Tazele"
 
@@ -1130,7 +1142,7 @@ msgstr "Şarkı sözleri"
 
 #: ../lollypop/pop_menu.py:303 ../lollypop/pop_menu.py:400
 #: ../lollypop/pop_menu.py:423 ../lollypop/selectionlist.py:48
-#: ../lollypop/widgets_device.py:124 ../lollypop/widgets_playlist.py:587
+#: ../lollypop/widgets_device.py:116 ../lollypop/widgets_playlist.py:587
 msgid "Playlists"
 msgstr "Çalma listeleri"
 
@@ -1326,10 +1338,6 @@ msgstr "%s diski"
 msgid "Add to playlist"
 msgstr "Çalma listesine ekle"
 
-#: ../lollypop/widgets_device.py:59
-msgid "You need to install gstreamer-plugins-ugly"
-msgstr "gstreamer-plugins-ugly paketini kurmalısınız"
-
 #: ../lollypop/widgets_device.py:232
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Eşzamanlanırken bilinmeyen hata, aygıtınızı yeniden başlatmayı deneyin"
@@ -1363,6 +1371,24 @@ msgstr "Radyoyu düzenle"
 #, python-format
 msgid "Song played %s times"
 msgstr "Şarkı %s kez çalındı"
+
+#~ msgid "Encode to MP3(MTP)"
+#~ msgstr "MP3'e kodla (MTP)"
+
+#~ msgid "Quality of MP3 encoding"
+#~ msgstr "MP3 kodlamanın niteliği"
+
+#~ msgid "Normalize MP3(MTP)"
+#~ msgstr "MP3ʼü normalleştir (MTP)"
+
+#~ msgid "Convert to MP3"
+#~ msgstr "MP3'e Dönüştür"
+
+#~ msgid "Normalize MP3"
+#~ msgstr "MP3'i normalleştir"
+
+#~ msgid "You need to install gstreamer-plugins-ugly"
+#~ msgstr "gstreamer-plugins-ugly paketini kurmalısınız"
 
 #~ msgid "Long press to show options"
 #~ msgstr "Ayarları görüntülemek için basılı tut"

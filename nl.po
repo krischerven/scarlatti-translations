@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-11 19:38+0200\n"
+"POT-Creation-Date: 2018-05-16 14:06+0200\n"
 "PO-Revision-Date: 2018-05-07 22:18+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -52,10 +52,10 @@ msgstr "Positie van minispeler"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:48
 #: ../data/org.gnome.Lollypop.gschema.xml:53
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:261
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -140,7 +140,7 @@ msgid "Favorite cover file"
 msgstr "Favoriete albumhoes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
-#: ../data/org.gnome.Lollypop.gschema.xml:229
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restart needed"
 msgstr "Herstart vereist"
 
@@ -172,133 +172,125 @@ msgid "Sync all albums(MTP)"
 msgstr "Alle albums synchroniseren (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:153
-msgid "Encode to MP3(MTP)"
-msgstr "Coderen naar MP3 (MTP)"
+msgid "Quality of encoding"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:158
-msgid "Quality of MP3 encoding"
-msgstr "Kwaliteitsinstelling voor coderen naar MP3"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:163
-msgid "Normalize MP3(MTP)"
-msgstr "MP3 normaliseren (MTP)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsDialog.ui:274
+#: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:274
 #: ../data/SettingsDialog.ui:276 ../data/SettingsDialog.ui:287
 msgid "Auto update music"
 msgstr "Muziek automatisch bijwerken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173
+#: ../data/org.gnome.Lollypop.gschema.xml:163
 msgid "Split playlists view"
 msgstr "Afspeellijstoverzicht splitsen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:178
+#: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Show list of genres"
 msgstr "Genrelijst tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:183
+#: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Show sidebar"
 msgstr "Zijbalk tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsDialog.ui:164
+#: ../data/org.gnome.Lollypop.gschema.xml:178 ../data/SettingsDialog.ui:164
 #: ../data/SettingsDialog.ui:175
 msgid "Show artist artwork"
 msgstr "Artiestfoto tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193
+#: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Use dark GTK theme"
 msgstr "Donker GTK-thema gebruiken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198
+#: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Vensterdecoraties aan cliëntzijde (headerbar) uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203
+#: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Handle compilations"
 msgstr "Compilaties verwerken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:1233
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1233
 msgid "Show compilations in albums view"
 msgstr "Compilaties tonen in albumoverzicht"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213 ../data/SettingsDialog.ui:301
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:301
 #: ../data/SettingsDialog.ui:328
 msgid "Continue playback when closed"
 msgstr "Doorgaan met afspelen wanneer gesloten"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Smart sort for artist"
 msgstr "Artiesten slim sorteren"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 "Bijv.: The Beatles sorteren als Beatles. De database moet hiervoor opnieuw "
 "worden ingesteld."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Restore previous state"
 msgstr "Vorige toestand herstellen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:228
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable MPRIS"
 msgstr "MPRIS uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:233
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Disable all notifications"
 msgstr "Alle meldingen uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:237
+#: ../data/org.gnome.Lollypop.gschema.xml:227
 msgid "Disable notifications upon change of song"
 msgstr "Meldingen bij nummerwijzigingen uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Show track number from tags"
 msgstr "Tracknummer uit tags tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "JPG cover quality"
 msgstr "JPG-albumhoeskwaliteit"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:247
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:261
 msgid "Smooth transitions between tracks"
 msgstr "Vloeiende overgang tussen nummers"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Only mix songs in party mode"
 msgstr "Nummers enkel mengen in feestmodus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:281
+#: ../data/org.gnome.Lollypop.gschema.xml:271
 msgid "Smooth transition duration"
 msgstr "Overgangsduur"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Restart current track on previous"
 msgstr "Huidig nummer herstarten bij ‘Vorig nummer’"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Shuffle mode"
 msgstr "Willekeurige volgorde-modus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Possibilities for powermanagement options"
 msgstr "Mogelijkheden tot energiebesparing"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:297
+#: ../data/org.gnome.Lollypop.gschema.xml:287
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Deze optie schakelt de schermbeveiliging of pauzestand uit zolang Lollypop "
 "bezig is met afspelen."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
 msgstr "Afspeelgedrag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306 ../data/SettingsDialog.ui:189
+#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:189
 msgid "Order albums by"
 msgstr "Albums rangschikken op"
 
@@ -326,11 +318,11 @@ msgstr "Donaties:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:777
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:777
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -543,17 +535,37 @@ msgstr "Synchroniseren naar uw apparaat"
 msgid "This will remove some files on your device!"
 msgstr "Dit zal sommige bestanden op uw apparaat verwijderen!"
 
-#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:116
+#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:108
 msgid "Albums"
 msgstr "Albums"
 
 #: ../data/DeviceManagerWidget.ui:225
-msgid "Convert to MP3"
-msgstr "Converteren naar MP3"
+msgid "Convert to:"
+msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:249
-msgid "Normalize MP3"
-msgstr "MP3 normaliseren"
+#: ../data/DeviceManagerWidget.ui:237
+msgid "Normalize"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:258
+msgid "Do not convert"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:276
+msgid "MP3"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:295
+msgid "Ogg Vorbis"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:314
+msgid "AAC"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:333
+msgid "FLAC"
+msgstr ""
 
 #: ../data/NextPopover.ui:84
 msgid "Next track"
@@ -999,7 +1011,7 @@ msgstr "Albumhoes opnieuw instellen?"
 #: ../lollypop/collectionimporter.py:99 ../lollypop/collectionscanner.py:308
 #: ../lollypop/database_albums.py:372 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:571 ../lollypop/selectionlist.py:584
+#: ../lollypop/selectionlist.py:564 ../lollypop/selectionlist.py:577
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:140 ../lollypop/tagreader.py:188
 #: ../lollypop/tagreader.py:204 ../lollypop/tagreader.py:208
@@ -1007,15 +1019,15 @@ msgstr "Albumhoes opnieuw instellen?"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: ../lollypop/container.py:776
+#: ../lollypop/container.py:769
 msgid "Please consider a donation to the project"
 msgstr "Gelieve een donatie aan het project te overwegen"
 
-#: ../lollypop/container.py:896
+#: ../lollypop/container.py:890
 msgid "New tracks available"
 msgstr "Nieuwe nummers beschikbaar"
 
-#: ../lollypop/container.py:897
+#: ../lollypop/container.py:891
 msgid "Refresh"
 msgstr "Vernieuwen"
 
@@ -1130,7 +1142,7 @@ msgstr "Songtekst"
 
 #: ../lollypop/pop_menu.py:303 ../lollypop/pop_menu.py:400
 #: ../lollypop/pop_menu.py:423 ../lollypop/selectionlist.py:48
-#: ../lollypop/widgets_device.py:124 ../lollypop/widgets_playlist.py:587
+#: ../lollypop/widgets_device.py:116 ../lollypop/widgets_playlist.py:587
 msgid "Playlists"
 msgstr "Afspeellijsten"
 
@@ -1326,10 +1338,6 @@ msgstr "Schijf %s"
 msgid "Add to playlist"
 msgstr "Toevoegen aan afspeellijst"
 
-#: ../lollypop/widgets_device.py:59
-msgid "You need to install gstreamer-plugins-ugly"
-msgstr "U moet gstreamer-plugins-ugly installeren"
-
 #: ../lollypop/widgets_device.py:232
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Onbekende fout bij synchroniseren; probeer uw apparaat te herstarten"
@@ -1363,6 +1371,24 @@ msgstr "Radiozender bewerken"
 #, python-format
 msgid "Song played %s times"
 msgstr "%s keer beluisterd"
+
+#~ msgid "Encode to MP3(MTP)"
+#~ msgstr "Coderen naar MP3 (MTP)"
+
+#~ msgid "Quality of MP3 encoding"
+#~ msgstr "Kwaliteitsinstelling voor coderen naar MP3"
+
+#~ msgid "Normalize MP3(MTP)"
+#~ msgstr "MP3 normaliseren (MTP)"
+
+#~ msgid "Convert to MP3"
+#~ msgstr "Converteren naar MP3"
+
+#~ msgid "Normalize MP3"
+#~ msgstr "MP3 normaliseren"
+
+#~ msgid "You need to install gstreamer-plugins-ugly"
+#~ msgstr "U moet gstreamer-plugins-ugly installeren"
 
 #~ msgid "Long press to show options"
 #~ msgstr "Houd lang ingedrukt om opties te tonen"
