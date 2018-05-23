@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 10:59+0200\n"
+"POT-Creation-Date: 2018-05-23 12:53+0200\n"
 "PO-Revision-Date: 2018-05-19 09:36+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -167,8 +167,8 @@ msgid "Between -15 and 15"
 msgstr "Tussen -15 en 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:153
-msgid "encoding quality"
-msgstr "coderingskwaliteit"
+msgid "Encoding quality"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:275
 #: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
@@ -635,8 +635,8 @@ msgstr "Zoeken op TuneIn"
 msgid "Create a new playlist based on search"
 msgstr "Maakt ne nieuwen afspeellijst aan gebaseerd op de zoekopdracht"
 
-#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:112
 msgid "Preferences"
 msgstr "Voorkeuren"
 
@@ -802,7 +802,7 @@ msgstr "Ge moet den databank opnieuw instellen [Muziek]"
 msgid "Only in party mode"
 msgstr "Enkel in feestmodus"
 
-#: ../data/SettingsDialog.ui:1371
+#: ../data/SettingsDialog.ui:1372
 msgid "Transition duration in seconds"
 msgstr "Overgangsduur, in seconden"
 
@@ -1019,11 +1019,11 @@ msgstr "Onbekend"
 msgid "Please consider a donation to the project"
 msgstr "Gelieve een donatie aan het project t’overwegen"
 
-#: ../lollypop/container.py:890
+#: ../lollypop/container.py:892
 msgid "New tracks available"
 msgstr "Nieuwe nummers beschikbaar"
 
-#: ../lollypop/container.py:891
+#: ../lollypop/container.py:893
 msgid "Refresh"
 msgstr "Vernieuwen"
 
@@ -1226,28 +1226,32 @@ msgstr "Opstarten"
 msgid "Shown"
 msgstr "Getoond"
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:82
+msgid "Using \"Gnome Online Accounts\" settings"
+msgstr ""
+
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artiest"
 msgstr[1] "%d artiesten"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d album"
 msgstr[1] "%d albums"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:93
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d nummer"
 msgstr[1] "%d nummers"
 
-#: ../lollypop/settings.py:736
+#: ../lollypop/settings.py:740
 msgid "You need to install kid3-cli"
 msgstr "Ge moet kid3-cli installeren"
 
@@ -1367,6 +1371,9 @@ msgstr "Radiozender bewerken"
 #, python-format
 msgid "Song played %s times"
 msgstr "%s keer beluisterd"
+
+#~ msgid "encoding quality"
+#~ msgstr "coderingskwaliteit"
 
 #~ msgid "Quality of encoding"
 #~ msgstr "Coderingskwaliteit"

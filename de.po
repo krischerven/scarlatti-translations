@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 10:59+0200\n"
+"POT-Creation-Date: 2018-05-23 12:53+0200\n"
 "PO-Revision-Date: 2018-05-20 19:37+0000\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -179,8 +179,8 @@ msgid "Between -15 and 15"
 msgstr "Zwischen -15 und 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:153
-msgid "encoding quality"
-msgstr "Qualität der Enkodierung"
+msgid "Encoding quality"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:275
 #: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
@@ -643,8 +643,8 @@ msgstr "In TuneIn suchen"
 msgid "Create a new playlist based on search"
 msgstr "Eine neue Wiedergabeliste auf Basis der Suchergebnisse erstellen"
 
-#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:112
 msgid "Preferences"
 msgstr "Einstellungen"
 
@@ -810,7 +810,7 @@ msgstr "Die Musik-Datenbank muss zurückgesetzt werden"
 msgid "Only in party mode"
 msgstr "Nur im Partymodus"
 
-#: ../data/SettingsDialog.ui:1371
+#: ../data/SettingsDialog.ui:1372
 msgid "Transition duration in seconds"
 msgstr "Übergangsdauer in Sekunden"
 
@@ -1027,11 +1027,11 @@ msgstr "Unbekannt"
 msgid "Please consider a donation to the project"
 msgstr "Bitte erwägen Sie eine Spende an das Projekt"
 
-#: ../lollypop/container.py:890
+#: ../lollypop/container.py:892
 msgid "New tracks available"
 msgstr "Neue Titel verfügbar"
 
-#: ../lollypop/container.py:891
+#: ../lollypop/container.py:893
 msgid "Refresh"
 msgstr "Aktualisieren"
 
@@ -1234,28 +1234,32 @@ msgstr "Programmstart"
 msgid "Shown"
 msgstr "Angezeigt"
 
-#: ../lollypop/settings.py:88
+#: ../lollypop/settings.py:82
+msgid "Using \"Gnome Online Accounts\" settings"
+msgstr ""
+
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d Künstler"
 msgstr[1] "%d Künstler"
 
-#: ../lollypop/settings.py:90
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d Album"
 msgstr[1] "%d Alben"
 
-#: ../lollypop/settings.py:92
+#: ../lollypop/settings.py:93
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d Titel"
 msgstr[1] "%d Titel"
 
-#: ../lollypop/settings.py:736
+#: ../lollypop/settings.py:740
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli muss installiert werden"
 
@@ -1377,6 +1381,9 @@ msgstr "Radio modifzieren"
 #, python-format
 msgid "Song played %s times"
 msgstr "Titel wurde %s mal abgespielt."
+
+#~ msgid "encoding quality"
+#~ msgstr "Qualität der Enkodierung"
 
 #~ msgid "Smooth transitions between tracks"
 #~ msgstr "Sanfte Übergänge zwischen Titeln"
