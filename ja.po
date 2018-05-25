@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-23 19:07+0200\n"
-"PO-Revision-Date: 2018-05-25 01:08+0000\n"
+"PO-Revision-Date: 2018-05-26 02:39+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
@@ -39,11 +39,11 @@ msgstr "ウィンドウの位置 (x および y)。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:38
 msgid "Mini player size"
-msgstr "ミニ プレーヤーのサイズ"
+msgstr "ミニプレーヤーのサイズ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:43
 msgid "Mini player position"
-msgstr "ミニ プレーヤーの位置"
+msgstr "ミニプレーヤーの位置"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:48
 #: ../data/org.gnome.Lollypop.gschema.xml:53
@@ -64,11 +64,11 @@ msgstr "トラック毎のカバーの使用を許可"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:68
 msgid "Access network"
-msgstr "ネットワークアクセス"
+msgstr "ネットワークにアクセス"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Save artwork/popularity in tags"
-msgstr "タグでartwork//人気を保存"
+msgstr "タグでアートワーク/人気度を保存"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Preserve the cover’s aspect ratio"
@@ -120,11 +120,11 @@ msgstr "Google カスタム検索 API キー"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Favorite tag editor"
-msgstr "お気に入りタグ エディター"
+msgstr "お気に入りタグエディター"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:128
 msgid "Audio output preview on track hover"
-msgstr "ホバー トラックのオーディオ出力プレビュー"
+msgstr "トラックホバーでオーディオ出力プレビュー(試聴)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid ""
@@ -132,11 +132,11 @@ msgid ""
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
 "PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-ステレオ。コマンドの出力を取得する: $ "
-"pacmd リスト シンク | grep ' 名前:'"
+"pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Favorite cover file"
-msgstr "お気に入りのカバー ファイル"
+msgstr "お気に入りのカバーファイル"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:134
 #: ../data/org.gnome.Lollypop.gschema.xml:219
@@ -150,7 +150,7 @@ msgstr "データベースのバージョン"
 #: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
-msgstr "この値をリセットすると、データベースがリセットされます、人気アルバムが戻ります"
+msgstr "この値をリセットするとデータベースがリセットされ、アルバム人気度が戻ります(初期化)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsDialog.ui:138
 msgid "Albums cover size"
@@ -192,7 +192,7 @@ msgstr "アーティストのアートワークを表示"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Use dark GTK theme"
-msgstr "暗い GTK テーマを使用"
+msgstr "ダーク GTK テーマを使用"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable use of client side window decorations (headerbar)"
@@ -209,7 +209,7 @@ msgstr "アルバム ビューでコンピレーションを表示"
 #: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
 #: ../data/SettingsDialog.ui:329
 msgid "Continue playback when closed"
-msgstr "閉じたときの再生を継続"
+msgstr "閉じたときのプレイバックを継続"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Smart sort for artist"
@@ -273,11 +273,11 @@ msgstr "[電源オプションの可能性"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:287
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr "このオプションは、スクリーン セーバーを抑制する、ロリーポップ再生中に中断します。"
+msgstr "このオプションは、スクリーン セーバーを抑制する、ロリーポッププレイバック中に中断します。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
-msgstr "再生挙動"
+msgstr "プレイバック挙動"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:190
 msgid "Order albums by"
@@ -295,7 +295,7 @@ msgstr "ロリーポップのウェブサイトを訪問"
 #: ../data/AboutDialog.ui.in:26
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Kenkowo Nishihama <hitobashira.weblate@gmail.com>"
+msgstr "Kenkowo Nishihama 西浜ケンコヲ<hitobashira.weblate@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:56
 msgid "Donations:"
@@ -316,7 +316,7 @@ msgstr "PayPal"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:7
 #: ../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
-msgstr "Lollypop"
+msgstr "ロリーポップ"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:5
@@ -577,7 +577,7 @@ msgstr "キュー"
 
 #: ../data/RadioPopover.ui:34 ../lollypop/pop_tunein.py:99
 msgid "Please wait…"
-msgstr "お待ちください"
+msgstr "お待ちください……"
 
 #: ../data/RadioPopover.ui:75
 msgid "No logo found…"
@@ -821,7 +821,7 @@ msgstr "表示/非表示フィルター"
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Lock playback"
-msgstr "ロック再生"
+msgstr "プレイバックを固定"
 
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
@@ -851,7 +851,7 @@ msgstr "全画面表示"
 #: ../data/Shortcuts.ui:103
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "再生"
+msgstr "プレイバック"
 
 #: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
@@ -925,7 +925,7 @@ msgstr "リピート"
 
 #: ../data/ToolbarEnd.ui:27
 msgid "Continuous playback"
-msgstr "連続再生"
+msgstr "連続プレイバック"
 
 #: ../data/ToolbarEnd.ui:32
 msgid "Repeat track"
@@ -941,7 +941,7 @@ msgstr "設定"
 
 #: ../data/ToolbarEnd.ui:81
 msgid "Playback"
-msgstr "再生"
+msgstr "プレイバック"
 
 #: ../data/ToolbarEnd.ui:111
 msgid ""
@@ -970,7 +970,7 @@ msgstr "アートワークを選択"
 
 #: ../lollypop/art_widgets.py:237
 msgid "Low quality, missing API key…"
-msgstr "低品質で、API キーがありません"
+msgstr "低品質で、API キーが見つかりません……"
 
 #: ../lollypop/art_widgets.py:362
 msgid "Reset artwork?"
@@ -1093,7 +1093,7 @@ msgstr "「パーティーでない」へ追加"
 #: ../lollypop/pop_menu.py:198
 #, python-format
 msgid "Remove from \"%s\""
-msgstr "\"%S\" から削除"
+msgstr "\"%S\"から削除"
 
 #: ../lollypop/pop_menu.py:204
 #, python-format
@@ -1132,11 +1132,11 @@ msgstr "画像"
 
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
-msgstr "TuneIn に接続できない."
+msgstr "TuneIn に接続できない……"
 
 #: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
 msgid "No result…"
-msgstr "結果はありません"
+msgstr "結果なし……"
 
 #: ../lollypop/selectionlist.py:38
 msgid "Popular albums"
