@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-23 19:07+0200\n"
+"POT-Creation-Date: 2018-06-01 12:00+0200\n"
 "PO-Revision-Date: 2018-05-30 03:38+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -131,8 +131,8 @@ msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
-"PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-ステレオ。コマンドの出力を取得する: $ "
-"pacmd list-sinks|grep 'name:'"
+"PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-ステレオ。コマンドの"
+"出力を取得する: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Favorite cover file"
@@ -150,7 +150,9 @@ msgstr "データベースのバージョン"
 #: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
-msgstr "この値をリセットするとデータベースがリセットされ、アルバム人気度が戻ります(初期化)"
+msgstr ""
+"この値をリセットするとデータベースがリセットされ、アルバム人気度が戻ります(初"
+"期化)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsDialog.ui:138
 msgid "Albums cover size"
@@ -202,7 +204,7 @@ msgstr "クライアント側の窓飾り (headerbar) の使用を無効に"
 msgid "Handle compilations"
 msgstr "コンピレーションを処理"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1236
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
 msgstr "アルバム ビューでコンピレーションを表示"
 
@@ -273,7 +275,9 @@ msgstr "パワーマネージメントオプション"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:287
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr "このオプションは、スクリーン セーバーを抑制する、ロリーポッププレイバック中に中断します。"
+msgstr ""
+"このオプションは、スクリーン セーバーを抑制する、ロリーポッププレイバック中に"
+"中断します。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
@@ -339,7 +343,9 @@ msgstr "多くのオーディオ フォーマットを再生: MP3、MP4、OGG、
 msgid ""
 "Intuitive browsing: Walk through your collection by genre/artist and album "
 "artwork"
-msgstr "直感的に閲覧: ジャンル/アーティストとアルバムのアートワークで、コレクションを縦走"
+msgstr ""
+"直感的に閲覧: ジャンル/アーティストとアルバムのアートワークで、コレクションを"
+"縦走"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Search in your collection by artist, album and title"
@@ -351,7 +357,8 @@ msgstr "アーティスト バイオ、歌詞: web からアーティストや�
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:17
 msgid "Party mode: No awkward silences, let Lollypop choose music for you"
-msgstr "パーティー モード: ロリーポップに音楽の選択させれば、ぎこちない沈黙なし。"
+msgstr ""
+"パーティー モード: ロリーポップに音楽の選択させれば、ぎこちない沈黙なし。"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:18
 msgid "ReplayGain (RG): Automatically select the best audio level"
@@ -480,10 +487,11 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</"
 "small>"
 msgstr ""
-"<b>ロリーポップはウェブ上の画像を検索するため Google カスタム検索 API を使用します</b>。\n"
+"<b>ロリーポップはウェブ上の画像を検索するため Google カスタム検索 API を使用"
+"します</b>。\n"
 "<small>既定の API キーで動かないので、この API は限られています.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1141
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
 msgid "API key"
 msgstr "API キー"
 
@@ -689,39 +697,39 @@ msgstr "ロリーポップ動作を設定"
 msgid "Behaviour"
 msgstr "基本動作"
 
-#: ../data/SettingsDialog.ui:610
+#: ../data/SettingsDialog.ui:629
 msgid "Reset database"
 msgstr "データベースをリセット"
 
-#: ../data/SettingsDialog.ui:779
+#: ../data/SettingsDialog.ui:745
 msgid "Select music folders"
 msgstr "音楽フォルダーを選択"
 
-#: ../data/SettingsDialog.ui:780
+#: ../data/SettingsDialog.ui:746
 msgid "Music"
 msgstr "音楽"
 
-#: ../data/SettingsDialog.ui:810 ../data/SettingsDialog.ui:925
+#: ../data/SettingsDialog.ui:776 ../data/SettingsDialog.ui:891
 msgid "Login:"
 msgstr "ログイン:"
 
-#: ../data/SettingsDialog.ui:823 ../data/SettingsDialog.ui:938
+#: ../data/SettingsDialog.ui:789 ../data/SettingsDialog.ui:904
 msgid "Password:"
 msgstr "パスワード:"
 
-#: ../data/SettingsDialog.ui:859 ../data/SettingsDialog.ui:974
+#: ../data/SettingsDialog.ui:825 ../data/SettingsDialog.ui:940
 msgid "Connect"
 msgstr "接続"
 
-#: ../data/SettingsDialog.ui:886 ../data/SettingsDialog.ui:1001
+#: ../data/SettingsDialog.ui:852 ../data/SettingsDialog.ui:967
 msgid "You need to install pylast and gi secret"
 msgstr "Pylast と gi の秘密をインストールする必要あり"
 
-#: ../data/SettingsDialog.ui:1021
+#: ../data/SettingsDialog.ui:987
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:1045
+#: ../data/SettingsDialog.ui:1011
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -729,19 +737,19 @@ msgid ""
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
 "<b>ListenBrainz ユーザー トークン</b>\n"
-"<small>に待機して ListenBrainz を送信し、下記 ListenBrainz ユーザー トークンを入力してください。<a href=\""
-"https://listenbrainz.org/profile/\"> ユーザー プロファイル</a> にユーザー "
-"トークンを見ることができます</small>"
+"<small>に待機して ListenBrainz を送信し、下記 ListenBrainz ユーザー トークン"
+"を入力してください。<a href=\"https://listenbrainz.org/profile/\"> ユーザー "
+"プロファイル</a> にユーザー トークンを見ることができます</small>"
 
-#: ../data/SettingsDialog.ui:1075
+#: ../data/SettingsDialog.ui:1041
 msgid "User token"
 msgstr "ユーザー トークン"
 
-#: ../data/SettingsDialog.ui:1091
+#: ../data/SettingsDialog.ui:1057
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1115
+#: ../data/SettingsDialog.ui:1081
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -751,35 +759,37 @@ msgstr ""
 "<small>それ以外の場合あなたはすぐに既定のクォータを達する.\n"
 "ロリポップはこのアートワークを検索する必要があります</small>"
 
-#: ../data/SettingsDialog.ui:1159
+#: ../data/SettingsDialog.ui:1125
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
-msgstr "<small>プロジェクトの「カスタム検索 API」有効にする必要があります。</small>"
+msgstr ""
+"<small>プロジェクトの「カスタム検索 API」有効にする必要があります。</small>"
 
-#: ../data/SettingsDialog.ui:1180 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:283
 msgid "Search"
 msgstr "検索"
 
-#: ../data/SettingsDialog.ui:1202 ../data/SettingsDialog.ui:1203
+#: ../data/SettingsDialog.ui:1168 ../data/SettingsDialog.ui:1169
 msgid "Web"
 msgstr "ウェブ"
 
-#: ../data/SettingsDialog.ui:1271
+#: ../data/SettingsDialog.ui:1237
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
-msgstr "コンピレーション(アルバム)は、アーティストが混在するアルバムです(意訳)。"
+msgstr ""
+"コンピレーション(アルバム)は、アーティストが混在するアルバムです(意訳)。"
 
-#: ../data/SettingsDialog.ui:1285
+#: ../data/SettingsDialog.ui:1251
 msgid "You need to reset database [Music]"
 msgstr "[音楽] データベースをリセットする必要あり"
 
-#: ../data/SettingsDialog.ui:1321
+#: ../data/SettingsDialog.ui:1287
 msgid "Only in party mode"
 msgstr "パーティ モードでのみ"
 
-#: ../data/SettingsDialog.ui:1372
+#: ../data/SettingsDialog.ui:1338
 msgid "Transition duration in seconds"
 msgstr "トランジションのデュレーションを秒単位で"
 
@@ -962,7 +972,8 @@ msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
-msgstr "    -Scrobbler 無効 - 自動カバー ダウンロード無効 - アーティスト情報 無効"
+msgstr ""
+"    -Scrobbler 無効 - 自動カバー ダウンロード無効 - アーティスト情報 無効"
 
 #: ../lollypop/art_widgets.py:71
 msgid "Select artwork"
@@ -1220,7 +1231,7 @@ msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d トラック"
 
-#: ../lollypop/settings.py:740
+#: ../lollypop/settings.py:739
 msgid "You need to install kid3-cli"
 msgstr "Kid3 cli をインストールする必要あり"
 

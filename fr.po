@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-23 19:07+0200\n"
+"POT-Creation-Date: 2018-06-01 12:00+0200\n"
 "PO-Revision-Date: 2018-05-23 17:09+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -206,7 +206,7 @@ msgstr "Désactiver les décorations coté client (Barre de titre)"
 msgid "Handle compilations"
 msgstr "Gère les compilations"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1236
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
 msgstr "Afficher les compilations dans la vue des albums"
 
@@ -503,7 +503,7 @@ msgstr ""
 "<small>Cette API est limitée donc cela pourrait ne pas fonctionner avec la "
 "clé d'API par défaut.</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1141
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
 msgid "API key"
 msgstr "Clé d'API"
 
@@ -709,39 +709,39 @@ msgstr "Configurer le comportement de Lollypop"
 msgid "Behaviour"
 msgstr "Comportement"
 
-#: ../data/SettingsDialog.ui:610
+#: ../data/SettingsDialog.ui:629
 msgid "Reset database"
 msgstr "Remise à zéro de la base de données"
 
-#: ../data/SettingsDialog.ui:779
+#: ../data/SettingsDialog.ui:745
 msgid "Select music folders"
 msgstr "Selectionnez vos dossiers de musique"
 
-#: ../data/SettingsDialog.ui:780
+#: ../data/SettingsDialog.ui:746
 msgid "Music"
 msgstr "Musique"
 
-#: ../data/SettingsDialog.ui:810 ../data/SettingsDialog.ui:925
+#: ../data/SettingsDialog.ui:776 ../data/SettingsDialog.ui:891
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui:823 ../data/SettingsDialog.ui:938
+#: ../data/SettingsDialog.ui:789 ../data/SettingsDialog.ui:904
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui:859 ../data/SettingsDialog.ui:974
+#: ../data/SettingsDialog.ui:825 ../data/SettingsDialog.ui:940
 msgid "Connect"
 msgstr "Connexion"
 
-#: ../data/SettingsDialog.ui:886 ../data/SettingsDialog.ui:1001
+#: ../data/SettingsDialog.ui:852 ../data/SettingsDialog.ui:967
 msgid "You need to install pylast and gi secret"
 msgstr "Vous devez installer pylast et gi secret"
 
-#: ../data/SettingsDialog.ui:1021
+#: ../data/SettingsDialog.ui:987
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:1045
+#: ../data/SettingsDialog.ui:1011
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -754,15 +754,15 @@ msgstr ""
 "utilisateur dans <a href=\"https://listenbrainz.org/profile/\">votre profil</"
 "a></small>"
 
-#: ../data/SettingsDialog.ui:1075
+#: ../data/SettingsDialog.ui:1041
 msgid "User token"
 msgstr "Jeton utilisateur"
 
-#: ../data/SettingsDialog.ui:1091
+#: ../data/SettingsDialog.ui:1057
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1115
+#: ../data/SettingsDialog.ui:1081
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -773,21 +773,21 @@ msgstr ""
 "rapidement…\n"
 "Lollypop a besoin de cela pour rechercher des pochettes.</small>"
 
-#: ../data/SettingsDialog.ui:1159
+#: ../data/SettingsDialog.ui:1125
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr "<small>Vous devez activer \"Custom Search API\".</small>"
 
-#: ../data/SettingsDialog.ui:1180 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
 #: ../lollypop/playlists.py:283
 msgid "Search"
 msgstr "Rechercher"
 
-#: ../data/SettingsDialog.ui:1202 ../data/SettingsDialog.ui:1203
+#: ../data/SettingsDialog.ui:1168 ../data/SettingsDialog.ui:1169
 msgid "Web"
 msgstr "Web"
 
-#: ../data/SettingsDialog.ui:1271
+#: ../data/SettingsDialog.ui:1237
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -795,15 +795,15 @@ msgstr ""
 "Une compilation est un album sans aucun «tag artistes de l'album»\n"
 "et avec des artistes différents."
 
-#: ../data/SettingsDialog.ui:1285
+#: ../data/SettingsDialog.ui:1251
 msgid "You need to reset database [Music]"
 msgstr "Vous devez réinitialiser votre base de donnée [Musique]"
 
-#: ../data/SettingsDialog.ui:1321
+#: ../data/SettingsDialog.ui:1287
 msgid "Only in party mode"
 msgstr "Seulement en mode soirée"
 
-#: ../data/SettingsDialog.ui:1372
+#: ../data/SettingsDialog.ui:1338
 msgid "Transition duration in seconds"
 msgstr "Durée de la transition en secondes"
 
@@ -1252,7 +1252,7 @@ msgid_plural "%d tracks"
 msgstr[0] "%d morceau"
 msgstr[1] "%d morceaux"
 
-#: ../lollypop/settings.py:740
+#: ../lollypop/settings.py:739
 msgid "You need to install kid3-cli"
 msgstr "Vous devez installer kid3-cli"
 
