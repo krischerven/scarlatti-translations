@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-01 12:00+0200\n"
-"PO-Revision-Date: 2018-05-30 03:38+0000\n"
+"PO-Revision-Date: 2018-06-05 01:44+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.0\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -357,8 +357,7 @@ msgstr "アーティスト バイオ、歌詞: web からアーティストや�
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:17
 msgid "Party mode: No awkward silences, let Lollypop choose music for you"
-msgstr ""
-"パーティー モード: ロリーポップに音楽の選択させれば、ぎこちない沈黙なし。"
+msgstr "パーティーモード: ロリーポップに音楽の選択させれば、ぎこちない沈黙なし"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:18
 msgid "ReplayGain (RG): Automatically select the best audio level"
@@ -426,7 +425,7 @@ msgstr "_ 楽曲アップデート"
 
 #: ../data/Appmenu.ui:11
 msgid "_Fullscreen"
-msgstr "全画面表示"
+msgstr "_全画面表示"
 
 #: ../data/Appmenu.ui:15
 msgid "_Sidebar"
@@ -434,7 +433,7 @@ msgstr "サイド バー"
 
 #: ../data/Appmenu.ui:21
 msgid "_Preferences"
-msgstr "基本設定"
+msgstr "_基本設定"
 
 #: ../data/Appmenu.ui:27
 msgid "_Keyboard Shortcuts"
@@ -442,7 +441,7 @@ msgstr "キーボード ショートカット"
 
 #: ../data/Appmenu.ui:31
 msgid "_About"
-msgstr "バージョン情報"
+msgstr "_バージョン情報"
 
 #: ../data/Appmenu.ui:35
 msgid "_Quit"
@@ -473,7 +472,7 @@ msgstr "現在のトラックへ移動"
 #: ../data/ArtworkSearch.ui:52 ../data/RadioPopover.ui:46
 #: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:163
 msgid "Select a local file"
-msgstr "ローカルのファイルを選択"
+msgstr "ローカルファイルを選択"
 
 #: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
 #: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:542
@@ -487,9 +486,8 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</"
 "small>"
 msgstr ""
-"<b>ロリーポップはウェブ上の画像を検索するため Google カスタム検索 API を使用"
-"します</b>。\n"
-"<small>既定の API キーで動かないので、この API は限られています.</small>"
+"<b>ロリーポップはウェブ上の画像を検索するため Google カスタム検索 API を使用します</b>。\n"
+"<small>既定の API キーで動かないので、この API は限られています。</small>"
 
 #: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
 msgid "API key"
@@ -679,7 +677,7 @@ msgstr "変更をファイルに保存"
 
 #: ../data/SettingsDialog.ui:406
 msgid "Preview tracks on"
-msgstr "プレビュー トラック"
+msgstr "トラックをプレビュー"
 
 #: ../data/SettingsDialog.ui:420
 msgid "No audio device"
@@ -816,7 +814,7 @@ msgstr "パーティーモード"
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Mini Player"
-msgstr "ミニ プレーヤー"
+msgstr "ミニプレーヤー"
 
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
@@ -841,7 +839,7 @@ msgstr "ナビゲーション リストの表示/非表示"
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
-msgstr "ボリューム コントロールの表示/非表示"
+msgstr "ボリュームコントロールの表示/非表示"
 
 #: ../data/Shortcuts.ui:80
 msgctxt "shortcut window"
@@ -891,27 +889,27 @@ msgstr "前のトラック"
 #: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Skip current album"
-msgstr "現在のアルバムをスキップする"
+msgstr "現在アルバムをスキップする"
 
 #: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Love current track"
-msgstr "現在トラックに Love"
+msgstr "現在トラックを Love"
 
 #: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Repeat track"
-msgstr "リピート再生"
+msgstr "トラックをリピート"
 
 #: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip backward in track"
-msgstr "トラックの後へスキップ"
+msgstr "戻る/backwardk"
 
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Skip forward in track"
-msgstr "トラックをスキップ"
+msgstr "進む/forward"
 
 #: ../data/ToolbarEnd.ui:7
 msgid "Shuffle"
@@ -957,7 +955,9 @@ msgstr "プレイバック"
 msgid ""
 "Party mode\n"
 "Right click to filter"
-msgstr "パーティー モード右クリックしてフィルターを適用します"
+msgstr ""
+"パーティー モード\n"
+"右クリックしてフィルターを適用"
 
 #: ../data/TuneinPopover.ui:38
 msgid "Go back"
@@ -973,7 +973,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
-"    -Scrobbler 無効 - 自動カバー ダウンロード無効 - アーティスト情報 無効"
+"    - Scrobbler 無効\n"
+"- 自動カバー ダウンロード無効 \n"
+"- アーティスト情報 無効"
 
 #: ../lollypop/art_widgets.py:71
 msgid "Select artwork"
@@ -981,7 +983,7 @@ msgstr "アートワークを選択"
 
 #: ../lollypop/art_widgets.py:237
 msgid "Low quality, missing API key…"
-msgstr "低品質で、API キーが見つかりません……"
+msgstr "低品質、API キーが見つかりません……"
 
 #: ../lollypop/art_widgets.py:362
 msgid "Reset artwork?"
@@ -1104,12 +1106,12 @@ msgstr "「パーティーでない」へ追加"
 #: ../lollypop/pop_menu.py:198
 #, python-format
 msgid "Remove from \"%s\""
-msgstr "\"%S\"から削除"
+msgstr "\"%s\"から削除"
 
 #: ../lollypop/pop_menu.py:204
 #, python-format
 msgid "Add to \"%s\""
-msgstr "%s に追加"
+msgstr "\"%s\"に追加"
 
 #: ../lollypop/pop_menu.py:300
 msgid "Show lyrics"
@@ -1163,7 +1165,7 @@ msgstr "最近追加されたアルバム"
 
 #: ../lollypop/selectionlist.py:44
 msgid "Random albums"
-msgstr "ランダム アルバム"
+msgstr "ランダムなアルバム"
 
 #: ../lollypop/selectionlist.py:46
 msgid "Unplayed albums"
@@ -1241,7 +1243,7 @@ msgstr "人気度"
 
 #: ../lollypop/toolbar_end.py:51
 msgid "Recently added"
-msgstr "最近追加されたもの"
+msgstr "最近の追加"
 
 #: ../lollypop/toolbar_end.py:423
 msgid "Playing playlists"
@@ -1267,12 +1269,12 @@ msgstr "現在のプレイリストから削除"
 
 #: ../lollypop/view_device.py:37
 msgid "Please unlock your device"
-msgstr "お使いのデバイスのロックを解除"
+msgstr "お使いのデバイスをロック解除して"
 
 #: ../lollypop/view_device.py:97 ../lollypop/view_device.py:208
 #, python-format
 msgid "Synchronize %s"
-msgstr "同期%s"
+msgstr "同期 %s"
 
 #: ../lollypop/view_device.py:157
 msgid "Cancel synchronization"
