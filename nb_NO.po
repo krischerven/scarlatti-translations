@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-05-23 22:26+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -469,7 +469,7 @@ msgid "Similar artists"
 msgstr "Lignende artister"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Gå til nåværende spor"
 
@@ -623,9 +623,9 @@ msgstr "Ny radiostasjon"
 msgid "Search in TuneIn"
 msgstr "Søk i TuneIn"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Opprett ny spilleliste basert på søk"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1067,11 +1067,11 @@ msgstr "Aldri spilt"
 msgid "Random tracks"
 msgstr "Tilfeldige spor"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Tøm album"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Album som spilles"
 
@@ -1365,6 +1365,9 @@ msgstr "Modifiser radiostasjon"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Opprett ny spilleliste basert på søk"
 
 #~ msgid "Using \"Gnome Online Accounts\" settings"
 #~ msgstr "Bruker innstillinger fra \"Nettbaserte GNOME-kontoer\""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: English (Ireland) (http://www.transifex.com/gnumdk/lollypop/"
@@ -459,7 +459,7 @@ msgid "Similar artists"
 msgstr ""
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr ""
 
@@ -609,9 +609,9 @@ msgstr "New radio"
 msgid "Search in TuneIn"
 msgstr "Search in TuneIn"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Create a new playlist based on search"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1036,11 +1036,11 @@ msgstr "Never played"
 msgid "Random tracks"
 msgstr "Random tracks"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr ""
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr ""
 
@@ -1337,6 +1337,9 @@ msgstr ""
 #, python-format
 msgid "Song played %s times"
 msgstr ""
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Create a new playlist based on search"
 
 #, fuzzy
 #~ msgid "You need to install gstreamer-plugins-ugly"

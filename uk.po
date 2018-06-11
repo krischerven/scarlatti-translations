@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-03-30 17:42+0000\n"
 "Last-Translator: Svitozar Cherepii <razotivs@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
@@ -465,7 +465,7 @@ msgid "Similar artists"
 msgstr "Схожі виконавці"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Перейти до поточного треку"
 
@@ -619,9 +619,9 @@ msgstr "Нове радіо"
 msgid "Search in TuneIn"
 msgstr "Пошук в TuneIn"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Створити новий список відтворення за пошуком"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1061,11 +1061,11 @@ msgstr "Ніколи не відтворене"
 msgid "Random tracks"
 msgstr "Випадкові треки"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Очистити альбоми"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Відтворення альбомів"
 
@@ -1363,6 +1363,9 @@ msgstr "Змінити радіо"
 #, python-format
 msgid "Song played %s times"
 msgstr "Кількість відтворень: %s"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Створити новий список відтворення за пошуком"
 
 #~ msgid "Smooth transitions between tracks"
 #~ msgstr "Плавний перехід між композиціями"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-05-27 19:59+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -477,7 +477,7 @@ msgid "Similar artists"
 msgstr "Panašūs atlikėjai"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Pereiti prie esamo takelio"
 
@@ -631,9 +631,9 @@ msgstr "Naujas radijas"
 msgid "Search in TuneIn"
 msgstr "Ieškoti sistemoje TuneIn"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Sukurti naują, paieškos rezultatais paremtą, grojaraštį"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1075,11 +1075,11 @@ msgstr "Niekada negroti"
 msgid "Random tracks"
 msgstr "Atsitiktiniai takeliai"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Išvalyti albumus"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Grojami albumai"
 
@@ -1378,6 +1378,9 @@ msgstr "Modifikuoti radiją"
 #, python-format
 msgid "Song played %s times"
 msgstr "Daina grota %s kartų"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Sukurti naują, paieškos rezultatais paremtą, grojaraštį"
 
 #~ msgid "encoding quality"
 #~ msgstr "kodavimo kokybė"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-05-20 19:37+0000\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -485,7 +485,7 @@ msgid "Similar artists"
 msgstr "Ähnliche Künstler"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Zu aktuellem Titel wechseln"
 
@@ -639,9 +639,9 @@ msgstr "Neue Station"
 msgid "Search in TuneIn"
 msgstr "In TuneIn suchen"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Eine neue Wiedergabeliste auf Basis der Suchergebnisse erstellen"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1081,11 +1081,11 @@ msgstr "Noch nie abgespielt"
 msgid "Random tracks"
 msgstr "Zufällige Titel"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Bereinige Alben"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Spiele Alben"
 
@@ -1381,6 +1381,9 @@ msgstr "Radio modifzieren"
 #, python-format
 msgid "Song played %s times"
 msgstr "Titel wurde %s mal abgespielt."
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Eine neue Wiedergabeliste auf Basis der Suchergebnisse erstellen"
 
 #~ msgid "encoding quality"
 #~ msgstr "Qualität der Enkodierung"

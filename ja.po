@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-06-05 02:03+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -465,7 +465,7 @@ msgid "Similar artists"
 msgstr "類似のアーティスト"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "現在のトラックへ移動"
 
@@ -486,7 +486,8 @@ msgid ""
 "<small>This API is limited, so it may not work with the default API key.</"
 "small>"
 msgstr ""
-"<b>ロリーポップはウェブ上の画像を検索するため Google カスタム検索 API を使用します</b>。\n"
+"<b>ロリーポップはウェブ上の画像を検索するため Google カスタム検索 API を使用"
+"します</b>。\n"
 "<small>既定の API キーで動かないので、この API は限られています。</small>"
 
 #: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
@@ -617,9 +618,9 @@ msgstr "新しいラジオ"
 msgid "Search in TuneIn"
 msgstr "TuneIn で検索"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "検索に基づいて新しいプレイリストを作成"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1058,11 +1059,11 @@ msgstr "未再生"
 msgid "Random tracks"
 msgstr "ランダムなトラック"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "アルバムをクリア"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "アルバムを再生"
 
@@ -1353,3 +1354,6 @@ msgstr "ラジオをモディファイ"
 #, python-format
 msgid "Song played %s times"
 msgstr "再生数 %s 回"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "検索に基づいて新しいプレイリストを作成"

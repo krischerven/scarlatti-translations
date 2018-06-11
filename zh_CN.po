@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-01-24 12:05+0000\n"
 "Last-Translator: bdfish <lipanXJ@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -464,7 +464,7 @@ msgid "Similar artists"
 msgstr "相似艺术家"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "转到当前曲目"
 
@@ -616,9 +616,9 @@ msgstr "新电台"
 msgid "Search in TuneIn"
 msgstr "在TuneIn中搜索"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "根据查询内容创建一个新的播放列表"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1051,11 +1051,11 @@ msgstr "从未播放"
 msgid "Random tracks"
 msgstr "随机曲目"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "清除专辑"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "正在播放专辑"
 
@@ -1348,6 +1348,9 @@ msgstr "更改广播电台"
 #, python-format
 msgid "Song played %s times"
 msgstr "音乐播放了 %s 次"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "根据查询内容创建一个新的播放列表"
 
 #~ msgid "Sync all albums(MTP)"
 #~ msgstr "同步所有专辑 (MTP)"

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-01-25 16:39+0000\n"
 "Last-Translator: Samuel Henrique <samosaara@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -474,7 +474,7 @@ msgid "Similar artists"
 msgstr "Artistas semelhantes"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Ir para a faixa atual"
 
@@ -630,9 +630,9 @@ msgstr "Nova rádio"
 msgid "Search in TuneIn"
 msgstr "Pesquisar no TuneIn"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Criar uma nova playlist baseada na pesquisa"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1066,11 +1066,11 @@ msgstr "Nunca tocadas"
 msgid "Random tracks"
 msgstr "Faixas aleatórias"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Limpar álbuns"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Álbuns tocando"
 
@@ -1366,6 +1366,9 @@ msgstr "Modificar rádio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Música tocada %s vezes"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Criar uma nova playlist baseada na pesquisa"
 
 #~ msgid "Sync all albums(MTP)"
 #~ msgstr "Sinc. todos os álbuns (MTP)"

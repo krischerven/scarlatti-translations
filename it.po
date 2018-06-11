@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 12:00+0200\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
 "PO-Revision-Date: 2018-04-21 21:38+0000\n"
 "Last-Translator: Ale-Ma <alemassimiani@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -475,7 +475,7 @@ msgid "Similar artists"
 msgstr "Artisti simili"
 
 #: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:43 ../lollypop/view_artist.py:50
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Va all'attuale traccia"
 
@@ -629,9 +629,9 @@ msgstr "Nuova radio"
 msgid "Search in TuneIn"
 msgstr "Cerca in Tunein"
 
-#: ../data/SearchPopover.ui:45
-msgid "Create a new playlist based on search"
-msgstr "Crea una nuova scaletta basata sulla ricerca"
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
 #: ../lollypop/settings.py:112
@@ -1065,11 +1065,11 @@ msgstr "Mai riprodotte"
 msgid "Random tracks"
 msgstr "Tracce casuali"
 
-#: ../lollypop/pop_albums.py:35
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Pulisce album"
 
-#: ../lollypop/pop_albums.py:44 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Album in riproduzione"
 
@@ -1367,6 +1367,9 @@ msgstr "Modifica la radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Brano riprodotto %s volte"
+
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Crea una nuova scaletta basata sulla ricerca"
 
 #~ msgid "Smooth transitions between tracks"
 #~ msgstr "Dissolvenza tra i brani"
