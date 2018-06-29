@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-19 23:50+0200\n"
+"POT-Creation-Date: 2018-06-29 18:04+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Greek (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -310,11 +310,11 @@ msgstr "Δωρεές:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:773
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:773
 msgid "PayPal"
 msgstr ""
 
@@ -409,7 +409,7 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:240
 msgid "Next"
 msgstr "Επόμενο "
 
@@ -574,7 +574,7 @@ msgid "Clear queue"
 msgstr "Καθάρισμα λίστας"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
-#: ../lollypop/toolbar_end.py:421
+#: ../lollypop/toolbar_end.py:405
 msgid "Queue"
 msgstr "Λίστα"
 
@@ -752,7 +752,7 @@ msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
 #: ../lollypop/playlists.py:283
 msgid "Search"
 msgstr "Αναζήτηση"
@@ -900,52 +900,52 @@ msgid "Skip forward in track"
 msgstr "Πήγαινε στο επόμενο τραγούδι"
 
 #: ../data/ToolbarEnd.ui:7
+msgid "Party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:9
+msgid "Enable party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
 msgstr "Ανακάτεμα"
 
-#: ../data/ToolbarEnd.ui:9
+#: ../data/ToolbarEnd.ui:19
 msgid "No shuffle"
 msgstr "Όχι ανακάτεμα"
 
-#: ../data/ToolbarEnd.ui:14
+#: ../data/ToolbarEnd.ui:24
 msgid "Shuffle albums"
 msgstr "Ανακατεμένα άλμπουμ"
 
-#: ../data/ToolbarEnd.ui:19
+#: ../data/ToolbarEnd.ui:29
 msgid "Shuffle tracks"
 msgstr "Ανακατεμένα τραγουδιών"
 
-#: ../data/ToolbarEnd.ui:25
+#: ../data/ToolbarEnd.ui:35
 msgid "Repetition"
 msgstr "Επανάληψη"
 
-#: ../data/ToolbarEnd.ui:27
+#: ../data/ToolbarEnd.ui:37
 msgid "Continuous playback"
 msgstr "Συνεχόμενη επανάληψη"
 
-#: ../data/ToolbarEnd.ui:32
+#: ../data/ToolbarEnd.ui:42
 msgid "Repeat track"
 msgstr "Επανάληψη τραγουδιού"
 
-#: ../data/ToolbarEnd.ui:37
+#: ../data/ToolbarEnd.ui:47
 msgid "Do not repeat"
 msgstr "Όχι επανάληψη "
 
-#: ../data/ToolbarEnd.ui:52
+#: ../data/ToolbarEnd.ui:63
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: ../data/ToolbarEnd.ui:81
-msgid "Playback"
-msgstr "Αναπαραγωγή"
-
-#: ../data/ToolbarEnd.ui:111
-msgid ""
-"Party mode\n"
-"Right click to filter"
+#: ../data/ToolbarEnd.ui:92
+msgid "Playback type"
 msgstr ""
-"Κατάσταση πάρτι\n"
-"Δεξί κλικ για φιλτράρισμα"
 
 #: ../data/TuneinPopover.ui:38
 msgid "Go back"
@@ -985,15 +985,15 @@ msgstr "Επαναφορά γραφικών?"
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: ../lollypop/container.py:769
+#: ../lollypop/container.py:772
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../lollypop/container.py:892
+#: ../lollypop/container.py:895
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:893
+#: ../lollypop/container.py:896
 msgid "Refresh"
 msgstr ""
 
@@ -1047,7 +1047,7 @@ msgstr "Τυχαία τραγούδια"
 msgid "Clear albums"
 msgstr "Καθαρισμός άλμπουμ"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:409
 msgid "Playing albums"
 msgstr "Αναπαραγόμενο άλμπουμ"
 
@@ -1229,15 +1229,11 @@ msgstr[1] "%d τραγούδια"
 msgid "You need to install kid3-cli"
 msgstr "Απαιτείται εγκατάσταση του kid3-cli"
 
-#: ../lollypop/toolbar_end.py:50
-msgid "Populars"
-msgstr "Δημοφιλή "
+#: ../lollypop/toolbar_end.py:236
+msgid "All genres"
+msgstr ""
 
-#: ../lollypop/toolbar_end.py:51
-msgid "Recently added"
-msgstr "Προστέθηκαν πρόσφατα"
-
-#: ../lollypop/toolbar_end.py:423
+#: ../lollypop/toolbar_end.py:407
 msgid "Playing playlists"
 msgstr "Αναπαραγωγή λίστας"
 
@@ -1348,6 +1344,22 @@ msgstr "Τροποποίηση σταθμού"
 #, python-format
 msgid "Song played %s times"
 msgstr ""
+
+#~ msgid "Playback"
+#~ msgstr "Αναπαραγωγή"
+
+#~ msgid ""
+#~ "Party mode\n"
+#~ "Right click to filter"
+#~ msgstr ""
+#~ "Κατάσταση πάρτι\n"
+#~ "Δεξί κλικ για φιλτράρισμα"
+
+#~ msgid "Populars"
+#~ msgstr "Δημοφιλή "
+
+#~ msgid "Recently added"
+#~ msgstr "Προστέθηκαν πρόσφατα"
 
 #~ msgid "Create a new playlist based on search"
 #~ msgstr "Δημιουργία μουσικής λίστας μέσω αναζήτησης"

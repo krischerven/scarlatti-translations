@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-19 23:50+0200\n"
+"POT-Creation-Date: 2018-06-29 18:04+0200\n"
 "PO-Revision-Date: 2017-11-29 00:27+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -313,11 +313,11 @@ msgstr "Donationer:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:773
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:773
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -412,7 +412,7 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:240
 msgid "Next"
 msgstr "Næste"
 
@@ -581,7 +581,7 @@ msgid "Clear queue"
 msgstr "Ryd kø"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
-#: ../lollypop/toolbar_end.py:421
+#: ../lollypop/toolbar_end.py:405
 msgid "Queue"
 msgstr "Kø"
 
@@ -762,7 +762,7 @@ msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr "<small>Du skal aktivere \"Custom Search API\" for dit projekt.</small>"
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
 #: ../lollypop/playlists.py:283
 msgid "Search"
 msgstr "Søgning"
@@ -910,52 +910,52 @@ msgid "Skip forward in track"
 msgstr "Spring forlæns i spor"
 
 #: ../data/ToolbarEnd.ui:7
+msgid "Party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:9
+msgid "Enable party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
 msgstr "Bland"
 
-#: ../data/ToolbarEnd.ui:9
+#: ../data/ToolbarEnd.ui:19
 msgid "No shuffle"
 msgstr "Ingen blanding"
 
-#: ../data/ToolbarEnd.ui:14
+#: ../data/ToolbarEnd.ui:24
 msgid "Shuffle albums"
 msgstr "Bland albummer"
 
-#: ../data/ToolbarEnd.ui:19
+#: ../data/ToolbarEnd.ui:29
 msgid "Shuffle tracks"
 msgstr "Bland spor"
 
-#: ../data/ToolbarEnd.ui:25
+#: ../data/ToolbarEnd.ui:35
 msgid "Repetition"
 msgstr "Gentagelse"
 
-#: ../data/ToolbarEnd.ui:27
+#: ../data/ToolbarEnd.ui:37
 msgid "Continuous playback"
 msgstr "Vedvarende afspilning"
 
-#: ../data/ToolbarEnd.ui:32
+#: ../data/ToolbarEnd.ui:42
 msgid "Repeat track"
 msgstr "Gentag spor"
 
-#: ../data/ToolbarEnd.ui:37
+#: ../data/ToolbarEnd.ui:47
 msgid "Do not repeat"
 msgstr "Gentag ikke"
 
-#: ../data/ToolbarEnd.ui:52
+#: ../data/ToolbarEnd.ui:63
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: ../data/ToolbarEnd.ui:81
-msgid "Playback"
-msgstr "Afspilning"
-
-#: ../data/ToolbarEnd.ui:111
-msgid ""
-"Party mode\n"
-"Right click to filter"
+#: ../data/ToolbarEnd.ui:92
+msgid "Playback type"
 msgstr ""
-"Festtilstand\n"
-"Højre klik for at filtrerer"
 
 #: ../data/TuneinPopover.ui:38
 msgid "Go back"
@@ -998,15 +998,15 @@ msgstr "Nulstil billede?"
 msgid "Unknown"
 msgstr "Ukendt"
 
-#: ../lollypop/container.py:769
+#: ../lollypop/container.py:772
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../lollypop/container.py:892
+#: ../lollypop/container.py:895
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:893
+#: ../lollypop/container.py:896
 msgid "Refresh"
 msgstr ""
 
@@ -1060,7 +1060,7 @@ msgstr "Tilfældige spor"
 msgid "Clear albums"
 msgstr "Ryd albummer"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:409
 msgid "Playing albums"
 msgstr "Afspillende albummer"
 
@@ -1242,15 +1242,11 @@ msgstr[1] "%d spor"
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli skal være installeret"
 
-#: ../lollypop/toolbar_end.py:50
-msgid "Populars"
-msgstr "Populære"
+#: ../lollypop/toolbar_end.py:236
+msgid "All genres"
+msgstr ""
 
-#: ../lollypop/toolbar_end.py:51
-msgid "Recently added"
-msgstr "Nyligt tilføjede"
-
-#: ../lollypop/toolbar_end.py:423
+#: ../lollypop/toolbar_end.py:407
 msgid "Playing playlists"
 msgstr "Afspiller afspilningslister"
 
@@ -1360,6 +1356,22 @@ msgstr "Rediger radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
+
+#~ msgid "Playback"
+#~ msgstr "Afspilning"
+
+#~ msgid ""
+#~ "Party mode\n"
+#~ "Right click to filter"
+#~ msgstr ""
+#~ "Festtilstand\n"
+#~ "Højre klik for at filtrerer"
+
+#~ msgid "Populars"
+#~ msgstr "Populære"
+
+#~ msgid "Recently added"
+#~ msgstr "Nyligt tilføjede"
 
 #~ msgid "Create a new playlist based on search"
 #~ msgstr "Opret en ny afspilningsliste ud fra søgningen"

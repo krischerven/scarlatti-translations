@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-19 23:50+0200\n"
+"POT-Creation-Date: 2018-06-29 18:04+0200\n"
 "PO-Revision-Date: 2018-06-26 20:17+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -314,11 +314,11 @@ msgstr "Paaukojimai:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:773
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:773
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -423,7 +423,7 @@ msgid "Play/Pause"
 msgstr "Groti/Pristabdyti"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:240
 msgid "Next"
 msgstr "Kitas"
 
@@ -592,7 +592,7 @@ msgid "Clear queue"
 msgstr "Išvalyti eilę"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
-#: ../lollypop/toolbar_end.py:421
+#: ../lollypop/toolbar_end.py:405
 msgid "Queue"
 msgstr "Eilė"
 
@@ -780,7 +780,7 @@ msgid ""
 msgstr ""
 "<small>Savo projektui turite įjungti \"Tinkintą paieškos API\".</small>"
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
 #: ../lollypop/playlists.py:283
 msgid "Search"
 msgstr "Paieška"
@@ -930,52 +930,52 @@ msgid "Skip forward in track"
 msgstr "Peršokti takelyje pirmyn"
 
 #: ../data/ToolbarEnd.ui:7
+msgid "Party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:9
+msgid "Enable party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
 msgstr "Maišyti"
 
-#: ../data/ToolbarEnd.ui:9
+#: ../data/ToolbarEnd.ui:19
 msgid "No shuffle"
 msgstr "Nemaišyti"
 
-#: ../data/ToolbarEnd.ui:14
+#: ../data/ToolbarEnd.ui:24
 msgid "Shuffle albums"
 msgstr "Maišyti albumus"
 
-#: ../data/ToolbarEnd.ui:19
+#: ../data/ToolbarEnd.ui:29
 msgid "Shuffle tracks"
 msgstr "Maišyti takelius"
 
-#: ../data/ToolbarEnd.ui:25
+#: ../data/ToolbarEnd.ui:35
 msgid "Repetition"
 msgstr "Kartojimas"
 
-#: ../data/ToolbarEnd.ui:27
+#: ../data/ToolbarEnd.ui:37
 msgid "Continuous playback"
 msgstr "Tęstinis grojimas"
 
-#: ../data/ToolbarEnd.ui:32
+#: ../data/ToolbarEnd.ui:42
 msgid "Repeat track"
 msgstr "Kartoti takelį"
 
-#: ../data/ToolbarEnd.ui:37
+#: ../data/ToolbarEnd.ui:47
 msgid "Do not repeat"
 msgstr "Nekartoti"
 
-#: ../data/ToolbarEnd.ui:52
+#: ../data/ToolbarEnd.ui:63
 msgid "Settings"
 msgstr "Nustatymai"
 
-#: ../data/ToolbarEnd.ui:81
-msgid "Playback"
-msgstr "Grojimas"
-
-#: ../data/ToolbarEnd.ui:111
-msgid ""
-"Party mode\n"
-"Right click to filter"
+#: ../data/ToolbarEnd.ui:92
+msgid "Playback type"
 msgstr ""
-"Vakarėlio veiksena\n"
-"Spustelėkite dešinįjį mygtuką, kad filtruotumėte"
 
 #: ../data/TuneinPopover.ui:38
 msgid "Go back"
@@ -1018,15 +1018,15 @@ msgstr "Atstatyti iliustraciją?"
 msgid "Unknown"
 msgstr "Nežinoma"
 
-#: ../lollypop/container.py:769
+#: ../lollypop/container.py:772
 msgid "Please consider a donation to the project"
 msgstr "Pasvarstykite paaukoti šiam projektui"
 
-#: ../lollypop/container.py:892
+#: ../lollypop/container.py:895
 msgid "New tracks available"
 msgstr "Prieinami nauji takeliai"
 
-#: ../lollypop/container.py:893
+#: ../lollypop/container.py:896
 msgid "Refresh"
 msgstr "Įkelti iš naujo"
 
@@ -1080,7 +1080,7 @@ msgstr "Atsitiktiniai takeliai"
 msgid "Clear albums"
 msgstr "Išvalyti albumus"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:425
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:409
 msgid "Playing albums"
 msgstr "Grojami albumai"
 
@@ -1265,15 +1265,11 @@ msgstr[2] "%d takelių"
 msgid "You need to install kid3-cli"
 msgstr "Jums reikia įdiegti kid3-cli"
 
-#: ../lollypop/toolbar_end.py:50
-msgid "Populars"
-msgstr "Populiarūs"
+#: ../lollypop/toolbar_end.py:236
+msgid "All genres"
+msgstr ""
 
-#: ../lollypop/toolbar_end.py:51
-msgid "Recently added"
-msgstr "Paskiausiai pridėti"
-
-#: ../lollypop/toolbar_end.py:423
+#: ../lollypop/toolbar_end.py:407
 msgid "Playing playlists"
 msgstr "Grojami grojaraščiai"
 
@@ -1383,6 +1379,22 @@ msgstr "Modifikuoti radiją"
 #, python-format
 msgid "Song played %s times"
 msgstr "Daina grota %s kartų"
+
+#~ msgid "Playback"
+#~ msgstr "Grojimas"
+
+#~ msgid ""
+#~ "Party mode\n"
+#~ "Right click to filter"
+#~ msgstr ""
+#~ "Vakarėlio veiksena\n"
+#~ "Spustelėkite dešinįjį mygtuką, kad filtruotumėte"
+
+#~ msgid "Populars"
+#~ msgstr "Populiarūs"
+
+#~ msgid "Recently added"
+#~ msgstr "Paskiausiai pridėti"
 
 #~ msgid "Create a new playlist based on search"
 #~ msgstr "Sukurti naują, paieškos rezultatais paremtą, grojaraštį"
