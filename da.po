@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 18:04+0200\n"
+"POT-Creation-Date: 2018-08-14 00:55+0200\n"
 "PO-Revision-Date: 2018-07-14 11:37+0000\n"
 "Last-Translator: Rasmus Sæderup <ragnkinson@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -314,11 +314,11 @@ msgstr "Donationer:"
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:773
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:844
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:773
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:844
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -400,6 +400,18 @@ msgstr ""
 msgid "TuneIn support"
 msgstr ""
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "Allow lyrics translation"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:34
+msgid "Fix a crash in Mini Player"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:41
+msgid "Fix shuffle menu"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Musik afspiller"
@@ -413,7 +425,7 @@ msgid "Play/Pause"
 msgstr "Afspil/Sæt på pause"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:240
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:267
 msgid "Next"
 msgstr "Næste"
 
@@ -450,24 +462,28 @@ msgstr "_Om"
 msgid "_Quit"
 msgstr "_Afslut"
 
-#: ../data/ArtistView.ui:65
+#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:300
+msgid "Show lyrics"
+msgstr "Vis sangtekst"
+
+#: ../data/ArtistView.ui:64
 msgid "Photo"
 msgstr "Foto"
 
-#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:145
+#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:145
 msgid "Play albums"
 msgstr "Afspil albummer"
 
-#: ../data/ArtistView.ui:117
+#: ../data/ArtistView.ui:116
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Tilføj til nuværende playliste"
 
-#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:60
+#: ../data/ArtistView.ui:131 ../data/LastfmPopover.ui:60
 msgid "Similar artists"
 msgstr "Ligende kunstnere"
 
-#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
+#: ../data/ArtistView.ui:147 ../data/PlaylistView.ui:92
 #: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Gå til aktuelle spor"
@@ -504,7 +520,7 @@ msgstr "<b>Opret venligst en \"Custom Search Engine\" her</b>:"
 
 #: ../data/CoverBox.ui:50 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controllers.py:88 ../lollypop/controllers.py:107
-#: ../lollypop/pop_tunein.py:191 ../lollypop/widgets_album_simple.py:134
+#: ../lollypop/pop_tunein.py:192 ../lollypop/widgets_album_simple.py:134
 #: ../lollypop/widgets_radio.py:179
 msgid "Play"
 msgstr "Afspil"
@@ -553,6 +569,10 @@ msgstr ""
 msgid "FLAC"
 msgstr ""
 
+#: ../data/LyricsView.ui:62
+msgid "Translate"
+msgstr ""
+
 #: ../data/NextPopover.ui:84
 msgid "Next track"
 msgstr "Næste spor"
@@ -582,11 +602,11 @@ msgid "Clear queue"
 msgstr "Ryd kø"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
-#: ../lollypop/toolbar_end.py:405
+#: ../lollypop/toolbar_end.py:431
 msgid "Queue"
 msgstr "Kø"
 
-#: ../data/RadioPopover.ui:34 ../lollypop/pop_tunein.py:99
+#: ../data/RadioPopover.ui:34 ../lollypop/pop_tunein.py:100
 msgid "Please wait…"
 msgstr "Vent venligst…"
 
@@ -950,10 +970,6 @@ msgstr "Gentag spor"
 msgid "Do not repeat"
 msgstr "Gentag ikke"
 
-#: ../data/ToolbarEnd.ui:63
-msgid "Settings"
-msgstr "Indstillinger"
-
 #: ../data/ToolbarEnd.ui:92
 msgid "Playback type"
 msgstr ""
@@ -991,7 +1007,7 @@ msgstr "Nulstil billede?"
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:313
 #: ../lollypop/database_albums.py:373 ../lollypop/database_artists.py:110
 #: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:568 ../lollypop/selectionlist.py:581
+#: ../lollypop/selectionlist.py:571 ../lollypop/selectionlist.py:584
 #: ../lollypop/tagreader.py:86 ../lollypop/tagreader.py:102
 #: ../lollypop/tagreader.py:141 ../lollypop/tagreader.py:189
 #: ../lollypop/tagreader.py:205 ../lollypop/tagreader.py:209
@@ -999,15 +1015,15 @@ msgstr "Nulstil billede?"
 msgid "Unknown"
 msgstr "Ukendt"
 
-#: ../lollypop/container.py:772
+#: ../lollypop/container.py:843
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../lollypop/container.py:895
+#: ../lollypop/container.py:970
 msgid "New tracks available"
 msgstr "Nye numre tilgængelige"
 
-#: ../lollypop/container.py:896
+#: ../lollypop/container.py:971
 msgid "Refresh"
 msgstr ""
 
@@ -1015,7 +1031,7 @@ msgstr ""
 msgid "Pause"
 msgstr "Pause"
 
-#: ../lollypop/controllers.py:206
+#: ../lollypop/controllers.py:214
 msgid "Volume"
 msgstr "Lydstyrke"
 
@@ -1041,11 +1057,11 @@ msgstr "af %s, fra %s"
 msgid "Loved tracks"
 msgstr "Elskede spor"
 
-#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:76
+#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:78
 msgid "Popular tracks"
 msgstr "Populære spor"
 
-#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:80
+#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:82
 msgid "Recently played"
 msgstr "Nyligt afspillede"
 
@@ -1053,7 +1069,7 @@ msgstr "Nyligt afspillede"
 msgid "Never played"
 msgstr "Aldrig afspillede"
 
-#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:84
+#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:86
 msgid "Random tracks"
 msgstr "Tilfældige spor"
 
@@ -1061,20 +1077,20 @@ msgstr "Tilfældige spor"
 msgid "Clear albums"
 msgstr "Ryd albummer"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:409
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:435
 msgid "Playing albums"
 msgstr "Afspillende albummer"
 
-#: ../lollypop/pop_information.py:88 ../lollypop/view_artist_albums.py:74
-#: ../lollypop/view_artist.py:59 ../lollypop/view_lyrics.py:77
+#: ../lollypop/pop_information.py:93 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:59 ../lollypop/view_lyrics.py:80
 msgid "Network access disabled"
 msgstr "Netværksadgang deaktiveret"
 
-#: ../lollypop/pop_information.py:90
+#: ../lollypop/pop_information.py:95
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/pop_information.py:152
+#: ../lollypop/pop_information.py:157
 msgid "No information on this artist"
 msgstr ""
 
@@ -1112,10 +1128,6 @@ msgstr "Fjern fra \"%s\""
 msgid "Add to \"%s\""
 msgstr "Tilføj til \"%s\""
 
-#: ../lollypop/pop_menu.py:300
-msgid "Show lyrics"
-msgstr "Vis sangtekst"
-
 #: ../lollypop/pop_menu.py:301
 msgid "Lyrics"
 msgstr "Sangtekster"
@@ -1134,7 +1146,7 @@ msgstr "Rediger information"
 msgid "Edit"
 msgstr "Rediger"
 
-#: ../lollypop/pop_radio.py:84 ../lollypop/pop_tunein.py:198
+#: ../lollypop/pop_radio.py:84 ../lollypop/pop_tunein.py:199
 msgid "Add"
 msgstr "Tilføj"
 
@@ -1142,11 +1154,11 @@ msgstr "Tilføj"
 msgid "Image"
 msgstr "Billede"
 
-#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:399
+#: ../lollypop/pop_tunein.py:93 ../lollypop/pop_tunein.py:401
 msgid "Can't connect to TuneIn…"
 msgstr "Kan ikke oprette forbindelse til TuneIn…"
 
-#: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
+#: ../lollypop/pop_tunein.py:396 ../lollypop/pop_tunein.py:398
 msgid "No result…"
 msgstr "Intet resultat…"
 
@@ -1174,43 +1186,47 @@ msgstr ""
 msgid "Radios"
 msgstr "Radioer"
 
-#: ../lollypop/selectionlist.py:53
+#: ../lollypop/selectionlist.py:52
+msgid "Years"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:55
 msgid "All albums"
 msgstr "Alle albummer"
 
-#: ../lollypop/selectionlist.py:55
+#: ../lollypop/selectionlist.py:57
 msgid "All artists"
 msgstr "Alle kunstnere"
 
-#: ../lollypop/selectionlist.py:58 ../lollypop/widgets_device.py:303
+#: ../lollypop/selectionlist.py:60 ../lollypop/widgets_device.py:303
 msgid "Compilations"
 msgstr "Samlinger"
 
-#: ../lollypop/selectionlist.py:60
+#: ../lollypop/selectionlist.py:62
 msgid "USB disks"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:82
+#: ../lollypop/selectionlist.py:84
 msgid "Unplayed"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:86
+#: ../lollypop/selectionlist.py:88
 msgid "Not in party"
 msgstr "Ikke i fest"
 
-#: ../lollypop/selectionlist.py:116
+#: ../lollypop/selectionlist.py:118
 msgid "Default on startup"
 msgstr "Standard ved start"
 
-#: ../lollypop/selectionlist.py:119
+#: ../lollypop/selectionlist.py:121
 msgid "Startup"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:141
+#: ../lollypop/selectionlist.py:143
 msgid "Shown"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:530
+#: ../lollypop/selectionlist.py:533
 msgid "Right click to configure"
 msgstr ""
 
@@ -1243,11 +1259,11 @@ msgstr[1] "%d spor"
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli skal være installeret"
 
-#: ../lollypop/toolbar_end.py:236
+#: ../lollypop/toolbar_end.py:263
 msgid "All genres"
 msgstr "Alle genrer"
 
-#: ../lollypop/toolbar_end.py:407
+#: ../lollypop/toolbar_end.py:433
 msgid "Playing playlists"
 msgstr "Afspiller afspilningslister"
 
@@ -1259,13 +1275,13 @@ msgstr "The the Den den De de"
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/view_artist.py:346 ../lollypop/widgets_album.py:291
+#: ../lollypop/view_artist.py:347 ../lollypop/widgets_album.py:291
 #: ../lollypop/widgets_context.py:88 ../lollypop/widgets_indicator.py:109
 #, fuzzy
 msgid "Add to current playlist"
 msgstr "Tilføj til afspilningsliste"
 
-#: ../lollypop/view_artist.py:353 ../lollypop/widgets_album.py:296
+#: ../lollypop/view_artist.py:354 ../lollypop/widgets_album.py:296
 #: ../lollypop/widgets_context.py:103 ../lollypop/widgets_indicator.py:105
 #, fuzzy
 msgid "Remove from current playlist"
@@ -1284,11 +1300,11 @@ msgstr "Synkronisér %s"
 msgid "Cancel synchronization"
 msgstr "Annullér synkronisering"
 
-#: ../lollypop/view_lyrics.py:57
+#: ../lollypop/view_lyrics.py:60
 msgid "Loading…"
 msgstr "Indlæser…"
 
-#: ../lollypop/view_lyrics.py:220
+#: ../lollypop/view_lyrics.py:248
 msgid "No lyrics found "
 msgstr "Der blev ikke fundet nogen sangtekster "
 
@@ -1357,6 +1373,9 @@ msgstr "Rediger radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
+
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
 
 #~ msgid "Playback"
 #~ msgstr "Afspilning"
