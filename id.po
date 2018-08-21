@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-14 00:55+0200\n"
+"POT-Creation-Date: 2018-08-21 16:50+0200\n"
 "PO-Revision-Date: 2018-05-16 01:38+0000\n"
 "Last-Translator: Fiki Maulana <fikimaul@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/gnumdk/"
@@ -302,15 +302,11 @@ msgstr ""
 msgid "Donations:"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:63
-msgid "Flattr"
-msgstr ""
-
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:844
+#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:845
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:844
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:845
 msgid "PayPal"
 msgstr ""
 
@@ -557,7 +553,7 @@ msgstr ""
 msgid "FLAC"
 msgstr ""
 
-#: ../data/LyricsView.ui:62
+#: ../data/LyricsView.ui:76
 msgid "Translate"
 msgstr ""
 
@@ -987,25 +983,26 @@ msgid "Reset artwork?"
 msgstr ""
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:313
-#: ../lollypop/database_albums.py:373 ../lollypop/database_artists.py:110
-#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:571 ../lollypop/selectionlist.py:584
-#: ../lollypop/tagreader.py:86 ../lollypop/tagreader.py:102
-#: ../lollypop/tagreader.py:141 ../lollypop/tagreader.py:189
-#: ../lollypop/tagreader.py:205 ../lollypop/tagreader.py:209
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:227
+#: ../lollypop/container.py:561 ../lollypop/database_albums.py:373
+#: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
+#: ../lollypop/database_tracks.py:307 ../lollypop/selectionlist.py:571
+#: ../lollypop/selectionlist.py:584 ../lollypop/tagreader.py:86
+#: ../lollypop/tagreader.py:102 ../lollypop/tagreader.py:141
+#: ../lollypop/tagreader.py:189 ../lollypop/tagreader.py:205
+#: ../lollypop/tagreader.py:209 ../lollypop/tagreader.py:219
+#: ../lollypop/tagreader.py:227
 msgid "Unknown"
 msgstr ""
 
-#: ../lollypop/container.py:843
+#: ../lollypop/container.py:844
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../lollypop/container.py:970
+#: ../lollypop/container.py:973
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:971
+#: ../lollypop/container.py:974
 msgid "Refresh"
 msgstr ""
 
@@ -1013,12 +1010,16 @@ msgstr ""
 msgid "Pause"
 msgstr ""
 
-#: ../lollypop/controllers.py:214
+#: ../lollypop/controllers.py:222
 msgid "Volume"
 msgstr ""
 
 #: ../lollypop/database_artists.py:103
 msgid "Many artists"
+msgstr ""
+
+#: ../lollypop/inhibitor.py:101
+msgid "Playing music"
 msgstr ""
 
 #: ../lollypop/lastfm.py:23
@@ -1149,15 +1150,15 @@ msgid "Popular albums"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:40
-msgid "Loved albums"
+msgid "Random albums"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:42
-msgid "Recently added albums"
+msgid "Loved albums"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:44
-msgid "Random albums"
+msgid "Recently added albums"
 msgstr ""
 
 #: ../lollypop/selectionlist.py:46
@@ -1283,7 +1284,7 @@ msgstr ""
 msgid "Loading…"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:248
+#: ../lollypop/view_lyrics.py:255
 msgid "No lyrics found "
 msgstr ""
 
