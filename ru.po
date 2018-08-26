@@ -19,17 +19,17 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-21 16:50+0200\n"
-"PO-Revision-Date: 2018-01-24 12:27+0000\n"
-"Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
+"PO-Revision-Date: 2018-08-27 11:41+0000\n"
+"Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -69,7 +69,7 @@ msgstr "ВНУТРЕННИЙ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:63
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Разрешить пользователю жертвовать проекту"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:68
 msgid "Allow using a cover per track"
@@ -85,7 +85,7 @@ msgstr "Сохранять изображения или популярност�
 
 #: ../data/org.gnome.Lollypop.gschema.xml:83
 msgid "Preserve the cover’s aspect ratio"
-msgstr ""
+msgstr "Сохранять пропорции обложки"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:88
 msgid "Window maximized"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:103
 msgid "Music URI"
-msgstr ""
+msgstr "URI музыки"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "When empty, use XDG_MUSIC_DIR"
@@ -125,7 +125,7 @@ msgstr "Last.fm авторизация"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "ListenBrainz user token"
-msgstr ""
+msgstr "Токен пользователя ListenBrainz"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Google Custom Search API key"
@@ -144,6 +144,8 @@ msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
+"Только PulseAudio. Пример: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"Команда для получения устройств вывода: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:138
 msgid "Favorite cover file"
@@ -177,7 +179,7 @@ msgstr "Между -15 и 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:158
 msgid "Encoding quality"
-msgstr ""
+msgstr "Качество кодирования"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:163 ../data/SettingsDialog.ui:275
 #: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
@@ -190,11 +192,11 @@ msgstr "Разделенный вид плейлистов"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Show list of genres"
-msgstr ""
+msgstr "Показать список жанров"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:178
 msgid "Show sidebar"
-msgstr ""
+msgstr "Показать боковую панель"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:183 ../data/SettingsDialog.ui:165
 #: ../data/SettingsDialog.ui:176
@@ -203,15 +205,15 @@ msgstr "Показывать обложку исполнителя"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Use dark GTK theme"
-msgstr ""
+msgstr "Использовать темную тему GTK"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Disable use of client side window decorations (headerbar)"
-msgstr ""
+msgstr "Запретить использования клиентских декораций окон (в заголовке)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:198
 msgid "Handle compilations"
-msgstr ""
+msgstr "Обработка компиляций"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
@@ -228,7 +230,7 @@ msgstr "Умная сортировка для исполнителя"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
-msgstr ""
+msgstr "Напр. The Beatles сортируются как Beatles. Требуется сброс базы данных."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -240,7 +242,7 @@ msgstr "Отключить MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:228
 msgid "Disable all notifications"
-msgstr ""
+msgstr "Отключить все уведомления"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:232
 msgid "Disable notifications upon change of song"
@@ -330,15 +332,15 @@ msgstr ""
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr ""
+msgstr "Воспроизведение и упорядочивание вашей музыкальной коллекции"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:10
 msgid "Lollypop is a modern music player for GNOME."
-msgstr ""
+msgstr "Lollypop это современный музыкальный проигрыватель для GNOME."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:11
 msgid "Features:"
-msgstr ""
+msgstr "Характеристики:"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Play many audio formats: MP3, MP4, OGG, and FLAC"
