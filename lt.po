@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-21 16:50+0200\n"
+"POT-Creation-Date: 2018-08-30 19:36+0200\n"
 "PO-Revision-Date: 2018-08-21 19:32+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -310,11 +310,11 @@ msgstr "Moo"
 msgid "Donations:"
 msgstr "Paaukojimai:"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:845
+#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:847
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:845
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:847
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -407,16 +407,8 @@ msgid "TuneIn support"
 msgstr "TuneIn palaikymas"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Allow lyrics translation"
-msgstr "Leisti dainos žodžių vertimą"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:34
-msgid "Fix a crash in Mini Player"
-msgstr "Pataisyti strigtį Mini grotuve"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:41
-msgid "Fix shuffle menu"
-msgstr "Pataisyti maišymo meniu"
+msgid "Browse albums by years"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -1019,27 +1011,27 @@ msgstr "Žema kokybė, trūksta API rakto…"
 msgid "Reset artwork?"
 msgstr "Atstatyti iliustraciją?"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:313
-#: ../lollypop/container.py:561 ../lollypop/database_albums.py:373
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:317
+#: ../lollypop/container.py:562 ../lollypop/database_albums.py:373
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
 #: ../lollypop/database_tracks.py:307 ../lollypop/selectionlist.py:571
 #: ../lollypop/selectionlist.py:584 ../lollypop/tagreader.py:86
-#: ../lollypop/tagreader.py:102 ../lollypop/tagreader.py:141
-#: ../lollypop/tagreader.py:189 ../lollypop/tagreader.py:205
-#: ../lollypop/tagreader.py:209 ../lollypop/tagreader.py:219
-#: ../lollypop/tagreader.py:227
+#: ../lollypop/tagreader.py:102 ../lollypop/tagreader.py:152
+#: ../lollypop/tagreader.py:200 ../lollypop/tagreader.py:216
+#: ../lollypop/tagreader.py:220 ../lollypop/tagreader.py:230
+#: ../lollypop/tagreader.py:238
 msgid "Unknown"
 msgstr "Nežinoma"
 
-#: ../lollypop/container.py:844
+#: ../lollypop/container.py:846
 msgid "Please consider a donation to the project"
 msgstr "Pasvarstykite paaukoti šiam projektui"
 
-#: ../lollypop/container.py:973
+#: ../lollypop/container.py:975
 msgid "New tracks available"
 msgstr "Prieinami nauji takeliai"
 
-#: ../lollypop/container.py:974
+#: ../lollypop/container.py:976
 msgid "Refresh"
 msgstr "Įkelti iš naujo"
 
@@ -1396,6 +1388,15 @@ msgstr "Modifikuoti radiją"
 #, python-format
 msgid "Song played %s times"
 msgstr "Daina grota %s kartų"
+
+#~ msgid "Allow lyrics translation"
+#~ msgstr "Leisti dainos žodžių vertimą"
+
+#~ msgid "Fix a crash in Mini Player"
+#~ msgstr "Pataisyti strigtį Mini grotuve"
+
+#~ msgid "Fix shuffle menu"
+#~ msgstr "Pataisyti maišymo meniu"
 
 #~ msgid "Flattr"
 #~ msgstr "Flattr"
