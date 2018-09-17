@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-30 19:36+0200\n"
+"POT-Creation-Date: 2018-09-17 22:23+0200\n"
 "PO-Revision-Date: 2018-08-12 16:41+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -310,11 +310,11 @@ msgstr "Sébastien Zurfluh - sezuo <sebastien.zurfluh@gmail.com>, 2016-2018"
 msgid "Donations:"
 msgstr "Donacoj:"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:847
+#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:850
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:847
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:850
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -398,7 +398,15 @@ msgid "TuneIn support"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Browse albums by years"
+msgid "Reworked playlist management"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:34
+msgid "Reworked sync to MTP"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:35
+msgid "lollypop-portal not needed anymore"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
@@ -414,7 +422,7 @@ msgid "Play/Pause"
 msgstr "Ludi/Paŭzi"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:267
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:263
 msgid "Next"
 msgstr "Sekvantigi"
 
@@ -451,7 +459,7 @@ msgstr "_Pri"
 msgid "_Quit"
 msgstr "_Ĉesi"
 
-#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:300
+#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:299
 msgid "Show lyrics"
 msgstr "Vidigi parolojn"
 
@@ -459,7 +467,7 @@ msgstr "Vidigi parolojn"
 msgid "Photo"
 msgstr "Bildo"
 
-#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:145
+#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:143
 msgid "Play albums"
 msgstr "Ludi albumoj"
 
@@ -472,18 +480,17 @@ msgstr "Aldoni je nuna ludlisto"
 msgid "Similar artists"
 msgstr "Similaj artistoj"
 
-#: ../data/ArtistView.ui:147 ../data/PlaylistView.ui:92
+#: ../data/ArtistView.ui:147 ../data/PlaylistView.ui:69
 #: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "Iri al nuntempa peco"
 
 #: ../data/ArtworkSearch.ui:52 ../data/RadioPopover.ui:46
-#: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:163
+#: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:164
 msgid "Select a local file"
 msgstr "Elekti lokan dosieron"
 
-#: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:542
+#: ../data/ArtworkSearch.ui:143 ../data/SettingsDialog.ui:542
 msgid "Confirm"
 msgstr "Akcepti"
 
@@ -507,54 +514,47 @@ msgstr "API-Ŝlosilo"
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr "<b>Bonvolu krei na \"Custom Search Engine\" ĉi tie</b>:"
 
-#: ../data/CoverBox.ui:50 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controllers.py:88 ../lollypop/controllers.py:107
-#: ../lollypop/pop_tunein.py:192 ../lollypop/widgets_album_simple.py:134
-#: ../lollypop/widgets_radio.py:179
+#: ../data/CoverBox.ui:51 ../data/ToolbarPlayback.ui:84
+#: ../lollypop/controller_playback.py:87 ../lollypop/controller_playback.py:106
+#: ../lollypop/pop_tunein.py:192 ../lollypop/widgets_albums_decade.py:89
+#: ../lollypop/widgets_album_simple.py:132
+#: ../lollypop/widgets_playlist_rounded.py:172 ../lollypop/widgets_radio.py:171
 msgid "Play"
 msgstr "Ludi"
 
-#: ../data/CoverBox.ui:76 ../lollypop/widgets_album_simple.py:155
+#: ../data/CoverBox.ui:77 ../lollypop/widgets_album_simple.py:154
 msgid "Change artwork"
 msgstr "Redakti la artaĵon"
 
-#: ../data/DeviceManagerView.ui:40
+#: ../data/DeviceManagerView.ui:22
 msgid "Synchronize to your device"
 msgstr "Sinkronigi al via aparato"
 
-#: ../data/DeviceManagerView.ui:106
-msgid "This will remove some files on your device!"
-msgstr "Tiu ĉi forviŝos kelkajn dosierojn de via aparato!"
-
-#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:108
-msgid "Albums"
-msgstr "Albumoj"
-
-#: ../data/DeviceManagerWidget.ui:224
+#: ../data/DeviceManagerWidget.ui:152
 msgid "Convert to:"
 msgstr "Konverti al:"
 
-#: ../data/DeviceManagerWidget.ui:236
+#: ../data/DeviceManagerWidget.ui:164
 msgid "Normalize"
 msgstr "Normigi"
 
-#: ../data/DeviceManagerWidget.ui:257
+#: ../data/DeviceManagerWidget.ui:185
 msgid "Do not convert"
 msgstr "Ne konverti"
 
-#: ../data/DeviceManagerWidget.ui:275
+#: ../data/DeviceManagerWidget.ui:203
 msgid "MP3"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:294
+#: ../data/DeviceManagerWidget.ui:222
 msgid "Ogg Vorbis"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:313
+#: ../data/DeviceManagerWidget.ui:241
 msgid "AAC"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:332
+#: ../data/DeviceManagerWidget.ui:260
 msgid "FLAC"
 msgstr ""
 
@@ -566,23 +566,20 @@ msgstr ""
 msgid "Next track"
 msgstr "Sekvanta peco"
 
-#: ../data/PlaylistEditWidget.ui:102
-msgid "You can select tracks with mouse or Ctrl key"
-msgstr "Vi povas elekti muzikpecojn per muso aŭ stirklavo"
+#: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:200
+msgid "Name:"
+msgstr "Namo:"
 
-#: ../data/PlaylistsManagerView.ui:22
-msgid "New playlist"
-msgstr "Nova ludlisto"
+#: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
+#: ../lollypop/view_playlists.py:199
+msgid "Save"
+msgstr "Konservi"
 
-#: ../data/PlaylistView.ui:73
-msgid "Edit playlist"
-msgstr "Redakti ludliston"
-
-#: ../data/PlaylistView.ui:108
+#: ../data/PlaylistView.ui:85
 msgid "Unsplit view"
 msgstr "Kunmeti vido"
 
-#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:208
+#: ../data/PlaylistView.ui:114 ../lollypop/view_playlists.py:196
 msgid "Save playlist"
 msgstr "Konservi ludliston"
 
@@ -590,8 +587,8 @@ msgstr "Konservi ludliston"
 msgid "Clear queue"
 msgstr "Malpleni atendovico"
 
-#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
-#: ../lollypop/toolbar_end.py:431
+#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:407
+#: ../lollypop/toolbar_end.py:426
 msgid "Queue"
 msgstr "Atendovico"
 
@@ -607,27 +604,15 @@ msgstr "Neniu logotipo trovita..."
 msgid "Select a logo  for this radio"
 msgstr "Elektu logotipo por ĉi tiu radio"
 
-#: ../data/RadioPopover.ui:192
-msgid "Name:"
-msgstr "Namo:"
-
-#: ../data/RadioPopover.ui:215
+#: ../data/RadioPopover.ui:223
 msgid "Address:"
 msgstr "Adreso:"
 
-#: ../data/RadioPopover.ui:255
-msgid "Delete"
-msgstr "Forigi"
-
-#: ../data/RadiosView.ui:10
-msgid "No favorite radios"
-msgstr "Neniu radio favoritas"
-
-#: ../data/RadiosView.ui:38
+#: ../data/RadiosView.ui:24
 msgid "New radio"
 msgstr "Nova radio"
 
-#: ../data/RadiosView.ui:58
+#: ../data/RadiosView.ui:44
 msgid "Search in TuneIn"
 msgstr "Serĉi per TuneIn"
 
@@ -635,8 +620,8 @@ msgstr "Serĉi per TuneIn"
 msgid "Create a new playlist"
 msgstr "Krei novan ludliston"
 
-#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
-#: ../lollypop/settings.py:112
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:108
+#: ../lollypop/settings.py:111
 msgid "Preferences"
 msgstr "Preferoj"
 
@@ -652,8 +637,8 @@ msgstr "Vidigi ĝenrojn"
 msgid "Show compilations"
 msgstr "Vidigi kompilojn"
 
-#: ../data/SettingsDialog.ui:203 ../lollypop/pop_menu.py:399
-#: ../lollypop/pop_menu.py:420
+#: ../data/SettingsDialog.ui:203 ../lollypop/pop_menu.py:384
+#: ../lollypop/pop_menu.py:405
 msgid "Artist"
 msgstr "Artisto"
 
@@ -778,7 +763,7 @@ msgstr ""
 "<small>Vi bezonas ŝalti \"Custom Search API\" por via projekto.</small>"
 
 #: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
-#: ../lollypop/playlists.py:283
+#: ../lollypop/playlists.py:321
 msgid "Search"
 msgstr "Serĉilo"
 
@@ -1002,10 +987,10 @@ msgid "Reset artwork?"
 msgstr "Rekomencigi la artaĵon?"
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:317
-#: ../lollypop/container.py:562 ../lollypop/database_albums.py:373
+#: ../lollypop/container.py:545 ../lollypop/database_albums.py:373
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
-#: ../lollypop/database_tracks.py:307 ../lollypop/selectionlist.py:571
-#: ../lollypop/selectionlist.py:584 ../lollypop/tagreader.py:86
+#: ../lollypop/database_tracks.py:307 ../lollypop/selectionlist.py:502
+#: ../lollypop/selectionlist.py:516 ../lollypop/tagreader.py:86
 #: ../lollypop/tagreader.py:102 ../lollypop/tagreader.py:152
 #: ../lollypop/tagreader.py:200 ../lollypop/tagreader.py:216
 #: ../lollypop/tagreader.py:220 ../lollypop/tagreader.py:230
@@ -1013,23 +998,45 @@ msgstr "Rekomencigi la artaĵon?"
 msgid "Unknown"
 msgstr "Nekonata"
 
-#: ../lollypop/container.py:846
+#: ../lollypop/container.py:564
+msgid "Synced albums"
+msgstr "Sinkronigitaj albumoj"
+
+#: ../lollypop/container.py:565 ../lollypop/pop_menu.py:303
+#: ../lollypop/pop_menu.py:386 ../lollypop/pop_menu.py:409
+#: ../lollypop/shown.py:42 ../lollypop/widgets_device.py:105
+msgid "Playlists"
+msgstr "Ludlistoj"
+
+#: ../lollypop/container.py:567 ../lollypop/shown.py:54
+msgid "Compilations"
+msgstr "Kompiloj"
+
+#: ../lollypop/container.py:611
+msgid "Please unlock your device"
+msgstr "Bonvolu malŝlosi vian aparaton"
+
+#: ../lollypop/container.py:800
+msgid "No favorite radios"
+msgstr "Neniu radio favoritas"
+
+#: ../lollypop/container.py:849
 msgid "Please consider a donation to the project"
 msgstr "Bonvolu konsideri dono al projekto"
 
-#: ../lollypop/container.py:975
+#: ../lollypop/container.py:991
 msgid "New tracks available"
 msgstr "Novaj muzikpecoj disponeblas"
 
-#: ../lollypop/container.py:976
+#: ../lollypop/container.py:992
 msgid "Refresh"
 msgstr "Reŝarĝi"
 
-#: ../lollypop/controllers.py:86 ../lollypop/controllers.py:110
+#: ../lollypop/controller_playback.py:85 ../lollypop/controller_playback.py:109
 msgid "Pause"
 msgstr "Paŭzi"
 
-#: ../lollypop/controllers.py:222
+#: ../lollypop/controller_progress.py:131
 msgid "Volume"
 msgstr "Sonlaŭto"
 
@@ -1055,23 +1062,23 @@ msgstr "de %s"
 msgid "by %s, from %s"
 msgstr "de %s, el %s"
 
-#: ../lollypop/playlists.py:57
+#: ../lollypop/playlists.py:59
 msgid "Loved tracks"
 msgstr "Favorataj pecoj"
 
-#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:78
+#: ../lollypop/playlists.py:313 ../lollypop/shown.py:72
 msgid "Popular tracks"
 msgstr "Popularaj pecoj"
 
-#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:82
+#: ../lollypop/playlists.py:315 ../lollypop/shown.py:76
 msgid "Recently played"
 msgstr "Freŝluditaj"
 
-#: ../lollypop/playlists.py:279
+#: ../lollypop/playlists.py:317
 msgid "Never played"
 msgstr "Neniam luditaj"
 
-#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:86
+#: ../lollypop/playlists.py:319 ../lollypop/shown.py:80
 msgid "Random tracks"
 msgstr "Hazardelektitaj pecoj"
 
@@ -1079,11 +1086,11 @@ msgstr "Hazardelektitaj pecoj"
 msgid "Clear albums"
 msgstr "Malpleni la albumaron"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:435
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:430
 msgid "Playing albums"
 msgstr "Ludataj albumoj"
 
-#: ../lollypop/pop_information.py:93 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/pop_information.py:93 ../lollypop/view_artist_albums.py:80
 #: ../lollypop/view_artist.py:59 ../lollypop/view_lyrics.py:80
 msgid "Network access disabled"
 msgstr "Reta atingo malŝaltita"
@@ -1096,176 +1103,162 @@ msgstr "Ŝarĝante informon"
 msgid "No information on this artist"
 msgstr "Nenio pri ĉi-tiu artisto"
 
-#: ../lollypop/pop_menu.py:76
+#: ../lollypop/pop_menu.py:75
 msgid "Show albums from artist"
 msgstr "Vidigi albumojn de la artisto"
 
-#: ../lollypop/pop_menu.py:112 ../lollypop/widgets_context.py:70
+#: ../lollypop/pop_menu.py:111 ../lollypop/widgets_context.py:59
 msgid "Add to queue"
 msgstr "Almeti je atendovico"
 
-#: ../lollypop/pop_menu.py:118 ../lollypop/widgets_context.py:74
+#: ../lollypop/pop_menu.py:117 ../lollypop/widgets_context.py:63
 msgid "Remove from queue"
 msgstr "Forigi el atendovico"
 
-#: ../lollypop/pop_menu.py:163
+#: ../lollypop/pop_menu.py:162
 msgid "Add to others"
 msgstr "Almeti je aliaj"
 
-#: ../lollypop/pop_menu.py:174
+#: ../lollypop/pop_menu.py:173
 msgid "Remove from \"Not in party\""
 msgstr "Forigi el \"Neniam dum festado\""
 
-#: ../lollypop/pop_menu.py:179
+#: ../lollypop/pop_menu.py:178
 msgid "Add to \"Not in party\""
 msgstr "Aldoni je \"Neniam dum festado\""
 
-#: ../lollypop/pop_menu.py:198
+#: ../lollypop/pop_menu.py:197
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Forigi el \"%s\""
 
-#: ../lollypop/pop_menu.py:204
+#: ../lollypop/pop_menu.py:203
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Almeti al \"%s\""
 
-#: ../lollypop/pop_menu.py:301
+#: ../lollypop/pop_menu.py:300
 msgid "Lyrics"
 msgstr "Paroloj"
 
-#: ../lollypop/pop_menu.py:304 ../lollypop/pop_menu.py:401
-#: ../lollypop/pop_menu.py:424 ../lollypop/selectionlist.py:48
-#: ../lollypop/widgets_device.py:116 ../lollypop/widgets_playlist.py:587
-msgid "Playlists"
-msgstr "Ludlistoj"
-
-#: ../lollypop/pop_menu.py:357 ../lollypop/widgets_context.py:59
+#: ../lollypop/pop_menu.py:346 ../lollypop/widgets_context.py:50
 msgid "Modify information"
 msgstr "Modifi la detalojn"
 
-#: ../lollypop/pop_menu.py:403 ../lollypop/pop_menu.py:426
+#: ../lollypop/pop_menu.py:388 ../lollypop/pop_menu.py:411
 msgid "Edit"
 msgstr "Redakti"
 
-#: ../lollypop/pop_radio.py:84 ../lollypop/pop_tunein.py:199
-msgid "Add"
-msgstr "Almeti"
-
-#: ../lollypop/pop_radio.py:87
-msgid "Image"
-msgstr "Bildo"
-
-#: ../lollypop/pop_tunein.py:93 ../lollypop/pop_tunein.py:401
+#: ../lollypop/pop_tunein.py:93 ../lollypop/pop_tunein.py:402
 msgid "Can't connect to TuneIn…"
 msgstr "Maleblas konekti al TuneIn..."
 
-#: ../lollypop/pop_tunein.py:396 ../lollypop/pop_tunein.py:398
+#: ../lollypop/pop_tunein.py:199 ../lollypop/widgets_playlist_rounded.py:178
+msgid "Add"
+msgstr "Almeti"
+
+#: ../lollypop/pop_tunein.py:397 ../lollypop/pop_tunein.py:399
 msgid "No result…"
 msgstr "Neniu rezulto..."
 
-#: ../lollypop/selectionlist.py:38
-msgid "Popular albums"
-msgstr "Popularaj albumoj"
-
-#: ../lollypop/selectionlist.py:40
-msgid "Random albums"
-msgstr "Hazardelektitaj albumoj"
-
-#: ../lollypop/selectionlist.py:42
-msgid "Loved albums"
-msgstr "Favorataj albumoj"
-
-#: ../lollypop/selectionlist.py:44
-msgid "Recently added albums"
-msgstr "Freŝaldonitaj albumoj"
-
-#: ../lollypop/selectionlist.py:46
-msgid "Unplayed albums"
-msgstr "Neluditaj albumoj"
-
-#: ../lollypop/selectionlist.py:50
-msgid "Radios"
-msgstr "Radioj"
-
-#: ../lollypop/selectionlist.py:52
-msgid "Years"
-msgstr ""
-
-#: ../lollypop/selectionlist.py:55
-msgid "All albums"
-msgstr "Ĉiuj albumoj"
-
-#: ../lollypop/selectionlist.py:57
-msgid "All artists"
-msgstr "Ĉiuj artistoj"
-
-#: ../lollypop/selectionlist.py:60 ../lollypop/widgets_device.py:303
-msgid "Compilations"
-msgstr "Kompiloj"
-
-#: ../lollypop/selectionlist.py:62
-msgid "USB disks"
-msgstr "USB-diskoj"
-
-#: ../lollypop/selectionlist.py:84
-msgid "Unplayed"
-msgstr "Neludita"
-
-#: ../lollypop/selectionlist.py:88
-msgid "Not in party"
-msgstr "Neniam dum festado"
-
-#: ../lollypop/selectionlist.py:118
+#: ../lollypop/selectionlist.py:51
 msgid "Default on startup"
 msgstr "Defaŭlto ĉe komenco"
 
-#: ../lollypop/selectionlist.py:121
+#: ../lollypop/selectionlist.py:54
 msgid "Startup"
 msgstr "Ekfirmao"
 
-#: ../lollypop/selectionlist.py:143
+#: ../lollypop/selectionlist.py:76
 msgid "Shown"
 msgstr "Vidigita"
 
-#: ../lollypop/selectionlist.py:533
+#: ../lollypop/selectionlist.py:464
 msgid "Right click to configure"
 msgstr "Dekstre klaku por agordi"
 
-#: ../lollypop/settings.py:82
+#: ../lollypop/settings.py:81
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Kun \"Retkontoj de GNOME\" agordoj"
 
-#: ../lollypop/settings.py:89
+#: ../lollypop/settings.py:88
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artisto"
 msgstr[1] "%d artistoj"
 
-#: ../lollypop/settings.py:91
+#: ../lollypop/settings.py:90
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d albumo"
 msgstr[1] "%d albumoj"
 
-#: ../lollypop/settings.py:93
+#: ../lollypop/settings.py:92
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d peco"
 msgstr[1] "%d pecoj"
 
-#: ../lollypop/settings.py:739
+#: ../lollypop/settings.py:741
 msgid "You need to install kid3-cli"
 msgstr "Vi bezonas instali kid3-cli"
 
-#: ../lollypop/toolbar_end.py:263
+#: ../lollypop/shown.py:32
+msgid "Popular albums"
+msgstr "Popularaj albumoj"
+
+#: ../lollypop/shown.py:34
+msgid "Random albums"
+msgstr "Hazardelektitaj albumoj"
+
+#: ../lollypop/shown.py:36
+msgid "Loved albums"
+msgstr "Favorataj albumoj"
+
+#: ../lollypop/shown.py:38
+msgid "Recently added albums"
+msgstr "Freŝaldonitaj albumoj"
+
+#: ../lollypop/shown.py:40
+msgid "Unplayed albums"
+msgstr "Neluditaj albumoj"
+
+#: ../lollypop/shown.py:44
+msgid "Radios"
+msgstr "Radioj"
+
+#: ../lollypop/shown.py:46
+msgid "Years"
+msgstr ""
+
+#: ../lollypop/shown.py:49
+msgid "All albums"
+msgstr "Ĉiuj albumoj"
+
+#: ../lollypop/shown.py:51
+msgid "All artists"
+msgstr "Ĉiuj artistoj"
+
+#: ../lollypop/shown.py:56
+msgid "USB disks"
+msgstr "USB-diskoj"
+
+#: ../lollypop/shown.py:78
+msgid "Unplayed"
+msgstr "Neludita"
+
+#: ../lollypop/shown.py:82
+msgid "Not in party"
+msgstr "Neniam dum festado"
+
+#: ../lollypop/toolbar_end.py:259
 msgid "All genres"
 msgstr "Ĉiu ĝenro"
 
-#: ../lollypop/toolbar_end.py:433
+#: ../lollypop/toolbar_end.py:428
 msgid "Playing playlists"
 msgstr "Ludantaj ludlistoj"
 
@@ -1273,32 +1266,36 @@ msgstr "Ludantaj ludlistoj"
 msgid "The the"
 msgstr "Oh ve"
 
-#: ../lollypop/view_albums_list.py:95
+#: ../lollypop/view_albums_list.py:98
 msgid "Compilation"
 msgstr "Kompilo"
 
-#: ../lollypop/view_artist.py:347 ../lollypop/widgets_album.py:291
-#: ../lollypop/widgets_context.py:88 ../lollypop/widgets_indicator.py:109
+#: ../lollypop/view_artist.py:353 ../lollypop/widgets_album.py:273
+#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:109
 #, fuzzy
 msgid "Add to current playlist"
 msgstr "Almeti je ludlisto"
 
-#: ../lollypop/view_artist.py:354 ../lollypop/widgets_album.py:296
-#: ../lollypop/widgets_context.py:103 ../lollypop/widgets_indicator.py:105
+#: ../lollypop/view_artist.py:360 ../lollypop/widgets_album.py:278
+#: ../lollypop/widgets_context.py:92 ../lollypop/widgets_indicator.py:105
 #, fuzzy
 msgid "Remove from current playlist"
 msgstr "Almeti je ludlisto"
 
-#: ../lollypop/view_device.py:37
-msgid "Please unlock your device"
-msgstr "Bonvolu malŝlosi vian aparaton"
+#: ../lollypop/view_device.py:83
+msgid "Synchronize"
+msgstr ""
 
-#: ../lollypop/view_device.py:97 ../lollypop/view_device.py:208
+#: ../lollypop/view_device.py:84 ../lollypop/view_device.py:205
 #, python-format
 msgid "Synchronize %s"
 msgstr "Sinkronigi %s"
 
-#: ../lollypop/view_device.py:157
+#: ../lollypop/view_device.py:108
+msgid "This will remove some files on your device!"
+msgstr "Tiu ĉi forviŝos kelkajn dosierojn de via aparato!"
+
+#: ../lollypop/view_device.py:158
 msgid "Cancel synchronization"
 msgstr "Nuligi sinkronigon"
 
@@ -1310,71 +1307,93 @@ msgstr "Ŝarĝante…"
 msgid "No lyrics found "
 msgstr "Neniu paroloj trovita "
 
-#: ../lollypop/view_playlists.py:211
-msgid "Save"
-msgstr "Konservi"
+#: ../lollypop/view_playlists_manager.py:48
+msgid "New playlist"
+msgstr "Nova ludlisto"
 
-#: ../lollypop/view_playlists.py:212
+#: ../lollypop/view_playlists_manager.py:105
+#: ../lollypop/view_playlists_manager.py:108
+msgid "New playlist "
+msgstr "Nova ludlisto"
+
+#: ../lollypop/view_playlists.py:200
 msgid "Cancel"
 msgstr "Nuligi"
 
-#: ../lollypop/view_playlists.py:278 ../lollypop/widgets_album_detailed.py:289
+#: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:304
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:280 ../lollypop/widgets_album_detailed.py:291
+#: ../lollypop/view_playlists.py:262 ../lollypop/widgets_album_detailed.py:306
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:282 ../lollypop/widgets_album_detailed.py:293
+#: ../lollypop/view_playlists.py:265 ../lollypop/widgets_album_detailed.py:308
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/view_tracks.py:393
+#: ../lollypop/view_tracks.py:384
 #, python-format
 msgid "Disc %s"
 msgstr "Disko %s"
 
-#: ../lollypop/widgets_context.py:121
+#: ../lollypop/widgets_albums_decade.py:94
+msgid "Open"
+msgstr ""
+
+#: ../lollypop/widgets_context.py:110
 msgid "Add to playlist"
 msgstr "Almeti je ludlisto"
 
-#: ../lollypop/widgets_device.py:239
+#: ../lollypop/widgets_device.py:116
+msgid "Albums"
+msgstr "Albumoj"
+
+#: ../lollypop/widgets_device.py:220
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Nekonata eraro dum sinkronigo, trafu restartigi vian aparaton"
 
-#: ../lollypop/widgets_device.py:247
+#: ../lollypop/widgets_device.py:228
 msgid "No free space available on device"
 msgstr "Neniu libera spaco disponigas al aparato"
 
-#: ../lollypop/widgets_device.py:301
-msgid "Synced albums"
-msgstr "Sinkronigitaj albumoj"
+#: ../lollypop/widgets_playlist_rounded.py:184
+msgid "Remove"
+msgstr "Forigi"
 
-#: ../lollypop/widgets_playlist.py:620 ../lollypop/widgets_playlist.py:623
-msgid "New playlist "
-msgstr "Nova ludlisto"
+#: ../lollypop/widgets_playlist_rounded.py:189
+msgid "Modify playlist"
+msgstr ""
 
-#: ../lollypop/widgets_playlist.py:728 ../lollypop/widgets_playlist.py:922
-#, python-format
-msgid "Remove \"%s\"?"
-msgstr "Forigi \"%s\"?"
-
-#: ../lollypop/widgets_playlist.py:930
-msgid "Remove these tracks?"
-msgstr "Forigi ĉi tiujn pecojn?"
-
-#: ../lollypop/widgets_radio.py:195
+#: ../lollypop/widgets_radio.py:187
 msgid "Modify radio"
 msgstr "Redakti radion"
 
-#: ../lollypop/widgets_rating.py:51
+#: ../lollypop/widgets_rating.py:50
 #, python-format
 msgid "Song played %s times"
 msgstr "Kanto ludita %s-oble"
+
+#~ msgid "You can select tracks with mouse or Ctrl key"
+#~ msgstr "Vi povas elekti muzikpecojn per muso aŭ stirklavo"
+
+#~ msgid "Edit playlist"
+#~ msgstr "Redakti ludliston"
+
+#~ msgid "Delete"
+#~ msgstr "Forigi"
+
+#~ msgid "Image"
+#~ msgstr "Bildo"
+
+#~ msgid "Remove \"%s\"?"
+#~ msgstr "Forigi \"%s\"?"
+
+#~ msgid "Remove these tracks?"
+#~ msgstr "Forigi ĉi tiujn pecojn?"
 
 #~ msgid "Flattr"
 #~ msgstr "Flattr"
@@ -1486,9 +1505,6 @@ msgstr "Kanto ludita %s-oble"
 
 #~ msgid "Mix tracks"
 #~ msgstr "Miksadi pecojn"
-
-#~ msgid "Remove"
-#~ msgstr "Forigi"
 
 #~ msgctxt "artist context"
 #~ msgid "Add albums"
