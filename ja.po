@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-17 22:23+0200\n"
-"PO-Revision-Date: 2018-09-23 21:36+0000\n"
-"Last-Translator: Sunatomo Masuda <sunatomo@gmail.com>\n"
+"PO-Revision-Date: 2018-09-25 01:31+0000\n"
+"Last-Translator: YAMADA Shinichirou "
+"<yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -65,7 +66,7 @@ msgstr "トラック毎のカバーの使用を許可"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Access network"
-msgstr "ネットワークにアクセス"
+msgstr "ネットワークアクセス"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Save artwork/popularity in tags"
@@ -178,7 +179,7 @@ msgstr "楽曲自動更新"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Split playlists view"
-msgstr "分割プレイリストビュー"
+msgstr "プレイリストビューを分割"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Show list of genres"
@@ -397,15 +398,15 @@ msgstr "TuneIn サポート"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
 msgid "Reworked playlist management"
-msgstr ""
+msgstr "プレイリスト管理を再構築"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:34
 msgid "Reworked sync to MTP"
-msgstr ""
+msgstr "MTP での同期を再構築"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:35
 msgid "lollypop-portal not needed anymore"
-msgstr ""
+msgstr "lollypop-portal はもはや必要ありません"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -508,7 +509,7 @@ msgstr "API キー"
 
 #: ../data/ArtworkSearch.ui:265
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
-msgstr "<b>ここで「カスタム検索エンジン」を作成してください</b>:"
+msgstr "<b>ここで \"カスタム検索エンジン\" を作成してください</b>:"
 
 #: ../data/CoverBox.ui:51 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:87 ../lollypop/controller_playback.py:106
@@ -755,8 +756,7 @@ msgstr ""
 #: ../data/SettingsDialog.ui:1125
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
-msgstr ""
-"<small>プロジェクトの「カスタム検索 API」有効にする必要があります。</small>"
+msgstr "<small>プロジェクトの \"カスタム検索 API\" を有効にする必要があります。</small>"
 
 #: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
 #: ../lollypop/playlists.py:321
@@ -772,7 +772,7 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
-"コンピレーションは「アルバムアーティストタグ」がなく、\n"
+"コンピレーションは \"アルバムアーティストタグ\" がなく、\n"
 "複数のアーティストが混在するアルバムです。"
 
 #: ../data/SettingsDialog.ui:1251
@@ -1041,7 +1041,7 @@ msgstr "多くのアーティスト"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
-msgstr ""
+msgstr "楽曲を再生中"
 
 #: ../lollypop/lastfm.py:23
 msgid "Last.fm authentication disabled"
@@ -1088,7 +1088,7 @@ msgstr "再生中のアルバム"
 #: ../lollypop/pop_information.py:93 ../lollypop/view_artist_albums.py:80
 #: ../lollypop/view_artist.py:59 ../lollypop/view_lyrics.py:80
 msgid "Network access disabled"
-msgstr "ネットワーク アクセス無効"
+msgstr "ネットワークアクセスが無効です"
 
 #: ../lollypop/pop_information.py:95
 msgid "Loading information"
@@ -1116,16 +1116,16 @@ msgstr "他に追加"
 
 #: ../lollypop/pop_menu.py:173
 msgid "Remove from \"Not in party\""
-msgstr "「パーティーでない」から削除"
+msgstr "\"パーティー以外\" から削除"
 
 #: ../lollypop/pop_menu.py:178
 msgid "Add to \"Not in party\""
-msgstr "「パーティーでない」へ追加"
+msgstr "\"パーティー以外\" に追加"
 
 #: ../lollypop/pop_menu.py:197
 #, python-format
 msgid "Remove from \"%s\""
-msgstr "\"%s\"から削除"
+msgstr "\"%s\" から削除"
 
 #: ../lollypop/pop_menu.py:203
 #, python-format
@@ -1146,7 +1146,7 @@ msgstr "編集"
 
 #: ../lollypop/pop_tunein.py:93 ../lollypop/pop_tunein.py:402
 msgid "Can't connect to TuneIn…"
-msgstr "TuneIn に接続できない……"
+msgstr "TuneIn に接続できません…"
 
 #: ../lollypop/pop_tunein.py:199 ../lollypop/widgets_playlist_rounded.py:178
 msgid "Add"
@@ -1154,11 +1154,11 @@ msgstr "追加"
 
 #: ../lollypop/pop_tunein.py:397 ../lollypop/pop_tunein.py:399
 msgid "No result…"
-msgstr "結果なし……"
+msgstr "結果はありません…"
 
 #: ../lollypop/selectionlist.py:51
 msgid "Default on startup"
-msgstr "起動時デフォルト"
+msgstr "起動時のデフォルト"
 
 #: ../lollypop/selectionlist.py:54
 msgid "Startup"
@@ -1170,11 +1170,11 @@ msgstr "表示"
 
 #: ../lollypop/selectionlist.py:464
 msgid "Right click to configure"
-msgstr ""
+msgstr "右クリックで設定できます"
 
 #: ../lollypop/settings.py:81
 msgid "Using \"GNOME Online Accounts\" settings"
-msgstr "「GNOME オンライン アカウント」設定を使用"
+msgstr "\"GNOME オンラインアカウント\" の設定を使用しています"
 
 #: ../lollypop/settings.py:88
 #, python-format
@@ -1196,7 +1196,7 @@ msgstr[0] "%d トラック"
 
 #: ../lollypop/settings.py:741
 msgid "You need to install kid3-cli"
-msgstr "Kid3 cli をインストールする必要あり"
+msgstr "kid3-cli をインストールする必要があります"
 
 #: ../lollypop/shown.py:32
 msgid "Popular albums"
@@ -1208,7 +1208,7 @@ msgstr "ランダムなアルバム"
 
 #: ../lollypop/shown.py:36
 msgid "Loved albums"
-msgstr "愛するアルバム"
+msgstr "評価したアルバム"
 
 #: ../lollypop/shown.py:38
 msgid "Recently added albums"
@@ -1224,7 +1224,7 @@ msgstr "ラジオ"
 
 #: ../lollypop/shown.py:46
 msgid "Years"
-msgstr ""
+msgstr "年"
 
 #: ../lollypop/shown.py:49
 msgid "All albums"
@@ -1244,15 +1244,15 @@ msgstr "未再生"
 
 #: ../lollypop/shown.py:82
 msgid "Not in party"
-msgstr "パーティーではなく"
+msgstr "パーティー以外"
 
 #: ../lollypop/toolbar_end.py:259
 msgid "All genres"
-msgstr ""
+msgstr "すべてのジャンル"
 
 #: ../lollypop/toolbar_end.py:428
 msgid "Playing playlists"
-msgstr "プレイリストの再生"
+msgstr "再生中のプレイリスト"
 
 #: ../lollypop/utils.py:252
 msgid "The the"
@@ -1274,16 +1274,16 @@ msgstr "現在のプレイリストから削除"
 
 #: ../lollypop/view_device.py:83
 msgid "Synchronize"
-msgstr ""
+msgstr "同期する"
 
 #: ../lollypop/view_device.py:84 ../lollypop/view_device.py:205
 #, python-format
 msgid "Synchronize %s"
-msgstr "同期 %s"
+msgstr "%s と同期"
 
 #: ../lollypop/view_device.py:108
 msgid "This will remove some files on your device!"
-msgstr "あなたのデバイス上のいくつかのファイルが削除されます!"
+msgstr "これはデバイスにある複数のファイルを削除します!"
 
 #: ../lollypop/view_device.py:158
 msgid "Cancel synchronization"
@@ -1291,7 +1291,7 @@ msgstr "同期をキャンセル"
 
 #: ../lollypop/view_lyrics.py:60
 msgid "Loading…"
-msgstr "ロード中…"
+msgstr "読み込み中…"
 
 #: ../lollypop/view_lyrics.py:255
 msgid "No lyrics found "
@@ -1313,17 +1313,17 @@ msgstr "キャンセル"
 #: ../lollypop/view_playlists.py:259 ../lollypop/widgets_album_detailed.py:304
 #, python-format
 msgid "%s h  %s m"
-msgstr "%s h  %s m"
+msgstr "%s 時間  %s 分"
 
 #: ../lollypop/view_playlists.py:262 ../lollypop/widgets_album_detailed.py:306
 #, python-format
 msgid "%s h"
-msgstr "%s h"
+msgstr "%s 時間"
 
 #: ../lollypop/view_playlists.py:265 ../lollypop/widgets_album_detailed.py:308
 #, python-format
 msgid "%s m"
-msgstr "%s m"
+msgstr "%s 分"
 
 #: ../lollypop/view_tracks.py:384
 #, python-format
@@ -1332,7 +1332,7 @@ msgstr "Disc %s"
 
 #: ../lollypop/widgets_albums_decade.py:94
 msgid "Open"
-msgstr ""
+msgstr "開く"
 
 #: ../lollypop/widgets_context.py:110
 msgid "Add to playlist"
@@ -1344,15 +1344,15 @@ msgstr "アルバム"
 
 #: ../lollypop/widgets_device.py:220
 msgid "Unknown error while syncing, try to reboot your device"
-msgstr "同期中に不明なエラー、デバイスを再起動してみて"
+msgstr "同期中の不明なエラー: デバイスを再起動してください"
 
 #: ../lollypop/widgets_device.py:228
 msgid "No free space available on device"
-msgstr "デバイスに残り容量がありません"
+msgstr "デバイスに利用可能な空き領域がありません"
 
 #: ../lollypop/widgets_playlist_rounded.py:184
 msgid "Remove"
-msgstr ""
+msgstr "削除"
 
 #: ../lollypop/widgets_playlist_rounded.py:189
 msgid "Modify playlist"
@@ -1360,7 +1360,7 @@ msgstr "プレイリストを修正"
 
 #: ../lollypop/widgets_radio.py:187
 msgid "Modify radio"
-msgstr "ラジオをモディファイ"
+msgstr "ラジオを変更"
 
 #: ../lollypop/widgets_rating.py:50
 #, python-format
