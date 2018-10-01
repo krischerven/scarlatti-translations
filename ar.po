@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-01 07:34+0200\n"
-"PO-Revision-Date: 2018-10-01 05:33+0000\n"
+"PO-Revision-Date: 2018-10-02 21:21+0000\n"
 "Last-Translator: AbouZakaria <zakariakov@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ar/>\n"
@@ -60,7 +60,7 @@ msgstr "الوصول إلى الشبكة"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:68
 msgid "Save artwork/popularity in tags"
-msgstr "حفظ الصورة الفني / الشعبية في العلامات"
+msgstr "حفظ الصورة الفنية / الشعبية في العلامات"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Preserve the cover’s aspect ratio"
@@ -104,7 +104,7 @@ msgstr "معرف  Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:108
 msgid "ListenBrainz user token"
-msgstr "listenbrainz رمز المستخدم"
+msgstr "رمز المستخدم listenbrainz"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "Google Custom Search API key"
@@ -186,7 +186,7 @@ msgstr "عرض صورة الفنان"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:178
 msgid "Use dark GTK theme"
-msgstr "استخدم متغير سمة داكن"
+msgstr "استخدم متغير سمة جي تي ك داكنة"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Disable use of client side window decorations (headerbar)"
@@ -289,7 +289,7 @@ msgstr "قم بزيارة موقع Lollypop"
 #: ../data/AboutDialog.ui.in:26
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+msgstr "أبو زكريا <zakariakov@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:56
 msgid "Donations:"
@@ -297,7 +297,7 @@ msgstr "التبرعات:"
 
 #: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:834
 msgid "Liberapay"
-msgstr "Liberapay"
+msgstr "ليبرابي Liberapay"
 
 #: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:834
 msgid "PayPal"
@@ -385,7 +385,7 @@ msgstr "دعم TuneIn"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
 msgid "Fix a crash"
-msgstr ""
+msgstr "إصلاح الانهيار"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:34
 msgid "Reworked playlist management"
@@ -397,7 +397,7 @@ msgstr "وضع مزامنة MTP جديد"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:36
 msgid "lollypop-portal not needed anymore"
-msgstr "lollypop-portal ليست هناك حاجة بعد الآن"
+msgstr "ليست هناك حاجة بعد الآن ل lollypop-portal"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -443,7 +443,7 @@ msgstr "اختصارات _لوحة المفاتيح"
 
 #: ../data/Appmenu.ui:31
 msgid "_About"
-msgstr "_حول أيولي"
+msgstr "_حول"
 
 #: ../data/Appmenu.ui:35
 msgid "_Quit"
@@ -523,9 +523,8 @@ msgid "Convert to:"
 msgstr "تحويل إلى:"
 
 #: ../data/DeviceManagerWidget.ui:164
-#, fuzzy
 msgid "Normalize"
-msgstr "عادي"
+msgstr "قياسي"
 
 #: ../data/DeviceManagerWidget.ui:185
 msgid "Do not convert"
@@ -565,7 +564,6 @@ msgid "Save"
 msgstr "احفظ"
 
 #: ../data/PlaylistView.ui:94
-#, fuzzy
 msgid "Unsplit view"
 msgstr "دمج العرض"
 
@@ -723,6 +721,10 @@ msgid ""
 "token below. You can see your user token in your <a href=\"https://"
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
+"<b>رمز المستخدم ListenBrainz</b>\n"
+"<small>لارسال ما تسمعه الى  ListenBrainz, الرجاء ادخال رمز المستخدم في "
+"الاسفل . يمكنك رؤية زمز استخدامك في <a href=\"https://listenbrainz.org/"
+"profile/\">الخاص بك</a></small>"
 
 #: ../data/SettingsDialog.ui:1041
 msgid "User token"
@@ -730,7 +732,7 @@ msgstr "رمز المستخدم"
 
 #: ../data/SettingsDialog.ui:1057
 msgid "ListenBrainz"
-msgstr "ListenBrainz"
+msgstr "ليستينبراينز ListenBrainz"
 
 #: ../data/SettingsDialog.ui:1081
 msgid ""
@@ -738,6 +740,9 @@ msgid ""
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
+"<b>خدمات ويب Google تتطلب مفتاح  API خاص.</b>\n"
+"<small>بدون هذا الاخير, والا ستصل الى الحصة الافتراضية…\n"
+"Lollypop يحتاج لهاذا للبحث عن الاغلفة القنية .</small>"
 
 #: ../data/SettingsDialog.ui:1125
 msgid ""
@@ -946,6 +951,9 @@ msgid ""
 "    - Auto cover download disabled\n"
 "    - Artist information disabled"
 msgstr ""
+"    - Scrobbler  معطل\n"
+"    -التحميل التلقائي للغلاف الفني معطل\n"
+"    -معلومات الفنانين معطلة"
 
 #: ../lollypop/art_widgets.py:71
 msgid "Select artwork"
@@ -1103,7 +1111,7 @@ msgstr "إزالة من \"%s\""
 #: ../lollypop/pop_menu.py:203
 #, python-format
 msgid "Add to \"%s\""
-msgstr "إضافة إلى \"% s\""
+msgstr "إضافة إلى \"%s\""
 
 #: ../lollypop/pop_menu.py:300
 msgid "Lyrics"
@@ -1119,11 +1127,11 @@ msgstr "تحرير"
 
 #: ../lollypop/pop_search.py:105
 msgid "<big>No results for this search</big>"
-msgstr ""
+msgstr "<big>لا توجد نتائج لهذا البحث</big>"
 
 #: ../lollypop/pop_search.py:112
 msgid "<big>Search for artists, albums and tracks</big>"
-msgstr ""
+msgstr "<big>البحث عن فنانين البومات و مقطوعات صوتية</big>"
 
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:401
 msgid "Can't connect to TuneIn…"
