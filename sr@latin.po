@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-01 07:34+0200\n"
+"POT-Creation-Date: 2018-10-08 15:55+0200\n"
 "PO-Revision-Date: 2018-09-29 00:33+0000\n"
 "Last-Translator: Slobodan Terzić <githzerai06@gmail.com>\n"
 "Language-Team: Serbian (latin) <https://hosted.weblate.org/projects/gnumdk/"
@@ -41,10 +41,10 @@ msgstr "Položaj prozora (X i Y položaj)."
 #: ../data/org.gnome.Lollypop.gschema.xml:38
 #: ../data/org.gnome.Lollypop.gschema.xml:43
 #: ../data/org.gnome.Lollypop.gschema.xml:48
-#: ../data/org.gnome.Lollypop.gschema.xml:231
 #: ../data/org.gnome.Lollypop.gschema.xml:236
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "INTERNAL"
 msgstr "INTERNO"
 
@@ -133,7 +133,7 @@ msgid "Favorite cover file"
 msgstr "Datoteka sa omiljenim omotom albuma"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restart needed"
 msgstr "Potrebno je ponovo pokrenuti program"
 
@@ -196,87 +196,91 @@ msgstr ""
 "Onemogući korišćenje klijentskih prozorskih dekoracija (zaglavlje programa)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188
+msgid "Disable scrobbling usage"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Handle compilations"
 msgstr "Barataj sa kompilacijama"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193 ../data/SettingsDialog.ui:1202
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
 msgstr "Prikaži kompilacije u delu sa albumima"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
 #: ../data/SettingsDialog.ui:329
 msgid "Continue playback when closed"
 msgstr "Nastavi sa puštanjem pesama nakon zatvaranja programa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Smart sort for artist"
 msgstr "Pametno ređanje po izvođaču"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr "Npr: The Beatles poređano kao Beatles. Zahteva resetovanje baze."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Restore previous state"
 msgstr "Povrati prethodno stanje programa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable MPRIS"
 msgstr "Isključi MPRIS kontrole"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Disable all notifications"
 msgstr "Onemogući obaveštenja"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:222
+#: ../data/org.gnome.Lollypop.gschema.xml:227
 msgid "Disable notifications upon change of song"
 msgstr "Onemogući obaveštenja o promeni numere"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Show track number from tags"
 msgstr "Kao broj pesme koristi broj iz oznake pesme"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "JPG cover quality"
 msgstr "Kvalitet JPG omota"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:242
+#: ../data/org.gnome.Lollypop.gschema.xml:247
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:261
 msgid "Smooth track transitions"
 msgstr "Glatki prelaz između numera"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Only mix songs in party mode"
 msgstr "Preklapaj pesme samo u režimu za žurke"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:271
 msgid "Smoothing duration"
 msgstr "Trajanje uglađvanja"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Restart current track on previous"
 msgstr "Ponovo pusti prethodnu numeru klikom na nazad"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Shuffle mode"
 msgstr "Režim mešanja pesama"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:281
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Possibilities for powermanagement options"
 msgstr "Mogućnosti za opcije uravljanja napajanjem"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:282
+#: ../data/org.gnome.Lollypop.gschema.xml:287
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr "Ova opcija sprečava čuvar ekrana i suspenziju dok Lollypop svira."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
 msgstr "Ponašanje puštanja"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291 ../data/SettingsDialog.ui:190
+#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:190
 msgid "Order albums by"
 msgstr "Poređaj albume po"
 
@@ -390,19 +394,11 @@ msgid "TuneIn support"
 msgstr "Podrška za Tuneln"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Fix a crash"
+msgid "Fix a crash in artist view"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:34
-msgid "Reworked playlist management"
-msgstr "Ponovno osmišljeno upravljanje plejlistom"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:35
-msgid "Reworked sync to MTP"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:36
-msgid "lollypop-portal not needed anymore"
+#: ../data/org.gnome.Lollypop.appdata.xml.in:40
+msgid "Fix a freeze in playlists"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
@@ -418,7 +414,7 @@ msgid "Play/Pause"
 msgstr "Pusti/zaustavi"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:260
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:271
 msgid "Next"
 msgstr "Sledeća"
 
@@ -580,7 +576,7 @@ msgid "Clear queue"
 msgstr "Očisti redosled"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:407
-#: ../lollypop/toolbar_end.py:423
+#: ../lollypop/toolbar_end.py:444
 msgid "Queue"
 msgstr "Redosled"
 
@@ -746,8 +742,8 @@ msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
-#: ../lollypop/playlists.py:321
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:125
+#: ../lollypop/playlists.py:323
 msgid "Search"
 msgstr "Pretraga"
 
@@ -888,6 +884,11 @@ msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Premotaj napred pesmu"
 
+#: ../data/Shortcuts.ui:170
+msgctxt "shortcut window"
+msgid "Enable/disable scrobbling"
+msgstr ""
+
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
 msgstr "Režim za žurke"
@@ -928,7 +929,15 @@ msgstr "Ponovi pesmu"
 msgid "Do not repeat"
 msgstr "Ne ponavljaj"
 
-#: ../data/ToolbarEnd.ui:92
+#: ../data/ToolbarEnd.ui:53
+msgid "Scrobbling"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:55
+msgid "Enable scrobbling"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:99
 msgid "Playback type"
 msgstr "Vrsta reprodukcije"
 
@@ -1039,19 +1048,19 @@ msgstr "izvodi %s, sa albuma %s"
 msgid "Loved tracks"
 msgstr "Omiljene pesme"
 
-#: ../lollypop/playlists.py:313 ../lollypop/shown.py:72
+#: ../lollypop/playlists.py:315 ../lollypop/shown.py:72
 msgid "Popular tracks"
 msgstr "Popularne pesme"
 
-#: ../lollypop/playlists.py:315 ../lollypop/shown.py:76
+#: ../lollypop/playlists.py:317 ../lollypop/shown.py:76
 msgid "Recently played"
 msgstr "Skoro slušano"
 
-#: ../lollypop/playlists.py:317
+#: ../lollypop/playlists.py:319
 msgid "Never played"
 msgstr "Nikada slušano"
 
-#: ../lollypop/playlists.py:319 ../lollypop/shown.py:80
+#: ../lollypop/playlists.py:321 ../lollypop/shown.py:80
 msgid "Random tracks"
 msgstr "Nasumične pesme"
 
@@ -1059,7 +1068,7 @@ msgstr "Nasumične pesme"
 msgid "Clear albums"
 msgstr "Očisti albume"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:427
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:448
 msgid "Playing albums"
 msgstr "Pušteni albumi"
 
@@ -1117,11 +1126,11 @@ msgstr "Izmeni podatke"
 msgid "Edit"
 msgstr "Uredi"
 
-#: ../lollypop/pop_search.py:105
+#: ../lollypop/pop_search.py:112
 msgid "<big>No results for this search</big>"
 msgstr ""
 
-#: ../lollypop/pop_search.py:112
+#: ../lollypop/pop_search.py:119
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr ""
 
@@ -1233,11 +1242,11 @@ msgstr "Nepuštano"
 msgid "Not in party"
 msgstr "Nije u žurci"
 
-#: ../lollypop/toolbar_end.py:256
+#: ../lollypop/toolbar_end.py:267
 msgid "All genres"
 msgstr "Svi žanrovi"
 
-#: ../lollypop/toolbar_end.py:425
+#: ../lollypop/toolbar_end.py:446
 msgid "Playing playlists"
 msgstr "Pušteni spiskovi pesama"
 
@@ -1245,7 +1254,7 @@ msgstr "Pušteni spiskovi pesama"
 msgid "The the"
 msgstr "Član član"
 
-#: ../lollypop/view_albums_list.py:98
+#: ../lollypop/view_albums_list.py:100
 msgid "Compilation"
 msgstr "Kompilacija"
 
@@ -1362,6 +1371,9 @@ msgstr "Izmeni stanicu"
 #, python-format
 msgid "Song played %s times"
 msgstr "Pesma je puštana %s  puta"
+
+#~ msgid "Reworked playlist management"
+#~ msgstr "Ponovno osmišljeno upravljanje plejlistom"
 
 #~ msgid "Mini player size"
 #~ msgstr "Veličina mini puštača"

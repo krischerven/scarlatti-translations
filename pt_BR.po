@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-01 07:34+0200\n"
+"POT-Creation-Date: 2018-10-08 15:55+0200\n"
 "PO-Revision-Date: 2018-01-25 16:39+0000\n"
 "Last-Translator: Samuel Henrique <samosaara@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -45,10 +45,10 @@ msgstr "Posição da janela (x e y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:38
 #: ../data/org.gnome.Lollypop.gschema.xml:43
 #: ../data/org.gnome.Lollypop.gschema.xml:48
-#: ../data/org.gnome.Lollypop.gschema.xml:231
 #: ../data/org.gnome.Lollypop.gschema.xml:236
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "INTERNAL"
 msgstr "INTERNO"
 
@@ -137,7 +137,7 @@ msgid "Favorite cover file"
 msgstr "Arquivo de capa favorito"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restart needed"
 msgstr "Reinicialização necessária"
 
@@ -199,91 +199,95 @@ msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Desativar o uso de decorações de janela (barra de título)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188
+msgid "Disable scrobbling usage"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Handle compilations"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193 ../data/SettingsDialog.ui:1202
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
 msgstr "Mostrar compilados na visualização de álbums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
 #: ../data/SettingsDialog.ui:329
 msgid "Continue playback when closed"
 msgstr "Continuar reprodução quando fechado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Smart sort for artist"
 msgstr "Organização inteligente para artistas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 "Ex: The Beatles organizado como Beatles. É necessário reiniciar o banco de "
 "dados."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Restore previous state"
 msgstr "Restaurar estado anterior"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable MPRIS"
 msgstr "Desabilitar MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Disable all notifications"
 msgstr "Desativar todas as notificações"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:222
+#: ../data/org.gnome.Lollypop.gschema.xml:227
 msgid "Disable notifications upon change of song"
 msgstr "Desativar notificações ao mudar de música"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Show track number from tags"
 msgstr "Mostrar número da faixa a partir das tags"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "JPG cover quality"
 msgstr "Qualidade da capa JPG"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:242
+#: ../data/org.gnome.Lollypop.gschema.xml:247
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:261
 msgid "Smooth track transitions"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Only mix songs in party mode"
 msgstr "Misturar músicas apenas no modo de festa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:271
 msgid "Smoothing duration"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Restart current track on previous"
 msgstr "Reiniciar faixa atual ao usar o botão 'faixa anterior'"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Shuffle mode"
 msgstr "Modo de mistura"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:281
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Possibilities for powermanagement options"
 msgstr "Opções de economia de energia"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:282
+#: ../data/org.gnome.Lollypop.gschema.xml:287
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Ative isto para desativar o protetor de tela e entrar em suspensão enquanto "
 "o lollypop estiver sendo executado."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
 msgstr "Reprodução em plano de fundo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291 ../data/SettingsDialog.ui:190
+#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:190
 msgid "Order albums by"
 msgstr "Ordenar álbuns por"
 
@@ -394,19 +398,11 @@ msgid "TuneIn support"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Fix a crash"
+msgid "Fix a crash in artist view"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:34
-msgid "Reworked playlist management"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:35
-msgid "Reworked sync to MTP"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:36
-msgid "lollypop-portal not needed anymore"
+#: ../data/org.gnome.Lollypop.appdata.xml.in:40
+msgid "Fix a freeze in playlists"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
@@ -422,7 +418,7 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:260
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:271
 msgid "Next"
 msgstr "Próxima"
 
@@ -590,7 +586,7 @@ msgid "Clear queue"
 msgstr "Limpar fila"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:407
-#: ../lollypop/toolbar_end.py:423
+#: ../lollypop/toolbar_end.py:444
 msgid "Queue"
 msgstr "Fila"
 
@@ -760,8 +756,8 @@ msgid ""
 msgstr ""
 "<small>Você precisa ativar o \"Custom Search API\" no seu projeto.</small>"
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:118
-#: ../lollypop/playlists.py:321
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:125
+#: ../lollypop/playlists.py:323
 msgid "Search"
 msgstr "Pesquisa"
 
@@ -902,6 +898,11 @@ msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Avançar rapidamente"
 
+#: ../data/Shortcuts.ui:170
+msgctxt "shortcut window"
+msgid "Enable/disable scrobbling"
+msgstr ""
+
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
 msgstr ""
@@ -942,7 +943,15 @@ msgstr "Repetir faixa"
 msgid "Do not repeat"
 msgstr "Não repetir"
 
-#: ../data/ToolbarEnd.ui:92
+#: ../data/ToolbarEnd.ui:53
+msgid "Scrobbling"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:55
+msgid "Enable scrobbling"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:99
 msgid "Playback type"
 msgstr ""
 
@@ -1056,19 +1065,19 @@ msgstr "por %s, de %s"
 msgid "Loved tracks"
 msgstr "Faixas favoritas"
 
-#: ../lollypop/playlists.py:313 ../lollypop/shown.py:72
+#: ../lollypop/playlists.py:315 ../lollypop/shown.py:72
 msgid "Popular tracks"
 msgstr "Faixas populares"
 
-#: ../lollypop/playlists.py:315 ../lollypop/shown.py:76
+#: ../lollypop/playlists.py:317 ../lollypop/shown.py:76
 msgid "Recently played"
 msgstr "Tocadas recentemente"
 
-#: ../lollypop/playlists.py:317
+#: ../lollypop/playlists.py:319
 msgid "Never played"
 msgstr "Nunca tocadas"
 
-#: ../lollypop/playlists.py:319 ../lollypop/shown.py:80
+#: ../lollypop/playlists.py:321 ../lollypop/shown.py:80
 msgid "Random tracks"
 msgstr "Faixas aleatórias"
 
@@ -1076,7 +1085,7 @@ msgstr "Faixas aleatórias"
 msgid "Clear albums"
 msgstr "Limpar álbuns"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:427
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:448
 msgid "Playing albums"
 msgstr "Álbuns tocando"
 
@@ -1134,11 +1143,11 @@ msgstr "Alterar informações"
 msgid "Edit"
 msgstr "Editar"
 
-#: ../lollypop/pop_search.py:105
+#: ../lollypop/pop_search.py:112
 msgid "<big>No results for this search</big>"
 msgstr ""
 
-#: ../lollypop/pop_search.py:112
+#: ../lollypop/pop_search.py:119
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr ""
 
@@ -1247,11 +1256,11 @@ msgstr ""
 msgid "Not in party"
 msgstr "Fora da festa"
 
-#: ../lollypop/toolbar_end.py:256
+#: ../lollypop/toolbar_end.py:267
 msgid "All genres"
 msgstr ""
 
-#: ../lollypop/toolbar_end.py:425
+#: ../lollypop/toolbar_end.py:446
 msgid "Playing playlists"
 msgstr "Listas de reprodução tocando"
 
@@ -1259,7 +1268,7 @@ msgstr "Listas de reprodução tocando"
 msgid "The the"
 msgstr "A a O o As as Os os The the"
 
-#: ../lollypop/view_albums_list.py:98
+#: ../lollypop/view_albums_list.py:100
 msgid "Compilation"
 msgstr "Compilação"
 
