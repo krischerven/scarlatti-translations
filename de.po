@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 15:55+0200\n"
+"POT-Creation-Date: 2018-10-09 18:44+0200\n"
 "PO-Revision-Date: 2018-09-28 20:27+0000\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -474,7 +474,7 @@ msgstr "Liedtext anzeigen"
 msgid "Photo"
 msgstr "Foto"
 
-#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:143
+#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:158
 msgid "Play albums"
 msgstr "Album wiedergeben"
 
@@ -521,15 +521,15 @@ msgstr "API-Schlüssel"
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr "<b>Bitte hier die benutzerdefinierte Suchmaschine erstellen</b>:"
 
-#: ../data/CoverBox.ui:51 ../data/ToolbarPlayback.ui:84
+#: ../data/CoverBox.ui:40 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:89 ../lollypop/controller_playback.py:108
 #: ../lollypop/pop_tunein.py:191 ../lollypop/widgets_albums_decade.py:89
-#: ../lollypop/widgets_album_simple.py:132
-#: ../lollypop/widgets_playlist_rounded.py:176 ../lollypop/widgets_radio.py:171
+#: ../lollypop/widgets_album_simple.py:147
+#: ../lollypop/widgets_playlist_rounded.py:176 ../lollypop/widgets_radio.py:181
 msgid "Play"
 msgstr "Wiedergabe"
 
-#: ../data/CoverBox.ui:77 ../lollypop/widgets_album_simple.py:154
+#: ../data/CoverBox.ui:66 ../lollypop/widgets_album_simple.py:169
 msgid "Change artwork"
 msgstr "Coverbild ändern"
 
@@ -1283,21 +1283,21 @@ msgstr "Spiele Wiedergabelisten"
 msgid "The the"
 msgstr "Der der"
 
-#: ../lollypop/view_albums_list.py:100
+#: ../lollypop/view_albums_list.py:106
 msgid "Compilation"
 msgstr "Kompilation"
 
-#: ../lollypop/view_artist_albums.py:80 ../lollypop/view_artist.py:59
+#: ../lollypop/view_artist_albums.py:79 ../lollypop/view_artist.py:59
 #: ../lollypop/view_lyrics.py:83
 msgid "Network access disabled"
 msgstr "Netzwerkzugriff deaktiviert"
 
-#: ../lollypop/view_artist.py:357 ../lollypop/widgets_album.py:273
+#: ../lollypop/view_artist.py:356 ../lollypop/widgets_album.py:280
 #: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:109
 msgid "Add to current playlist"
 msgstr "Zur aktuellen Wiedergabeliste hinzufügen"
 
-#: ../lollypop/view_artist.py:364 ../lollypop/widgets_album.py:278
+#: ../lollypop/view_artist.py:363 ../lollypop/widgets_album.py:285
 #: ../lollypop/widgets_context.py:92 ../lollypop/widgets_indicator.py:105
 msgid "Remove from current playlist"
 msgstr "Aus aktueller Wiedergabeliste entfernen"
@@ -1340,22 +1340,22 @@ msgstr "Neue Wiedergabeliste "
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../lollypop/view_playlists.py:293 ../lollypop/widgets_album_detailed.py:296
+#: ../lollypop/view_playlists.py:291 ../lollypop/widgets_album_detailed.py:283
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:296 ../lollypop/widgets_album_detailed.py:298
+#: ../lollypop/view_playlists.py:294 ../lollypop/widgets_album_detailed.py:285
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:299 ../lollypop/widgets_album_detailed.py:300
+#: ../lollypop/view_playlists.py:297 ../lollypop/widgets_album_detailed.py:287
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/view_tracks.py:384
+#: ../lollypop/view_tracks.py:385
 #, python-format
 msgid "Disc %s"
 msgstr "CD %s"
@@ -1390,7 +1390,7 @@ msgstr "Entfernen"
 msgid "Modify playlist"
 msgstr "Wiedergabeliste bearbeiten"
 
-#: ../lollypop/widgets_radio.py:187
+#: ../lollypop/widgets_radio.py:197
 msgid "Modify radio"
 msgstr "Radio modifzieren"
 
