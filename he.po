@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-09 18:44+0200\n"
+"POT-Creation-Date: 2018-11-18 11:29+0100\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Hebrew (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -40,10 +40,13 @@ msgstr "Window position (x and y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:38
 #: ../data/org.gnome.Lollypop.gschema.xml:43
 #: ../data/org.gnome.Lollypop.gschema.xml:48
-#: ../data/org.gnome.Lollypop.gschema.xml:236
 #: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 #: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:276
 msgid "INTERNAL"
 msgstr "INTERNAL"
 
@@ -84,197 +87,205 @@ msgid "ID for genres."
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:88
-msgid "REMOVE ME LATER"
+msgid "Ids for internal synced objects"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:93
+msgid "REMOVE ME LATER"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Music URI"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:94
+#: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "When empty, use XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:98
+#: ../data/org.gnome.Lollypop.gschema.xml:103
 msgid "Use Libre.fm instead of Last.fm"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:103
+#: ../data/org.gnome.Lollypop.gschema.xml:108
 msgid "Last.fm login"
 msgstr "התחברות ל־Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:108
+#: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "ListenBrainz user token"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:113
+#: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "Google Custom Search API key"
 msgstr "Google Custom Search API key"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:118
+#: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Favorite tag editor"
 msgstr "Favorite tag editor"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:123
+#: ../data/org.gnome.Lollypop.gschema.xml:128
 msgid "Audio output preview on track hover"
 msgstr "Audio output preview on track hover"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:128
+#: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Favorite cover file"
 msgstr "Favorite cover file"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Restart needed"
 msgstr "Restart needed"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:133
+#: ../data/org.gnome.Lollypop.gschema.xml:138
 msgid "Database version"
 msgstr "Database version"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsDialog.ui:138
 msgid "Albums cover size"
 msgstr "גודל עטיפת אלבום"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:143
+#: ../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Replay gain value in dB"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Between -15 and 15"
 msgstr "Between -15 and 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:148
+#: ../data/org.gnome.Lollypop.gschema.xml:153
 msgid "Encoding quality"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:153 ../data/SettingsDialog.ui:275
+#: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:275
 #: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
 msgid "Auto update music"
 msgstr "עדכון מוזיקה באופן אוטומטי"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:158
+#: ../data/org.gnome.Lollypop.gschema.xml:163
 msgid "Split playlists view"
 msgstr "Split playlists view"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:163
+#: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Show list of genres"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168
+#: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Show sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173 ../data/SettingsDialog.ui:165
+#: ../data/org.gnome.Lollypop.gschema.xml:178 ../data/SettingsDialog.ui:165
 #: ../data/SettingsDialog.ui:176
 msgid "Show artist artwork"
 msgstr "הצגת תמונת אמן"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:178
+#: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Use dark GTK theme"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:183
+#: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188
+#: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Disable scrobbling usage"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193
+#: ../data/org.gnome.Lollypop.gschema.xml:198
 msgid "Handle compilations"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
 msgstr "הצגת אוספים בתצוגת האלבומים"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:208 ../data/SettingsDialog.ui:302
 #: ../data/SettingsDialog.ui:329
 msgid "Continue playback when closed"
 msgstr "להמשיך השמעה עם סגירה"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Smart sort for artist"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
 msgstr "Restore previous state"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Disable MPRIS"
 msgstr "Disable MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:228
 msgid "Disable all notifications"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:227
+#: ../data/org.gnome.Lollypop.gschema.xml:232
 msgid "Disable notifications upon change of song"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Show track number from tags"
 msgstr "Show track number from tags"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "JPG cover quality"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:247
+#: ../data/org.gnome.Lollypop.gschema.xml:257
 msgid "0-100"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Smooth track transitions"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Only mix songs in party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:271
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Smoothing duration"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:276
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Restart current track on previous"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:281
+#: ../data/org.gnome.Lollypop.gschema.xml:301
+msgid "Last.fm loved tracks already set"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:306
 msgid "Shuffle mode"
 msgstr "Shuffle mode"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:311
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:287
+#: ../data/org.gnome.Lollypop.gschema.xml:312
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:316
 msgid "Playback behaviour"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:190
+#: ../data/org.gnome.Lollypop.gschema.xml:321 ../data/SettingsDialog.ui:190
 msgid "Order albums by"
 msgstr "סידור אלבומים לפי"
 
@@ -296,11 +307,11 @@ msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgid "Donations:"
 msgstr "תורמים:"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:834
+#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:933
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:834
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:933
 msgid "PayPal"
 msgstr ""
 
@@ -383,11 +394,15 @@ msgid "TuneIn support"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Fix a crash in artist view"
+msgid "Fix broken MTP sync on GNOME 3.30"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:40
-msgid "Fix a freeze in playlists"
+#: ../data/org.gnome.Lollypop.appdata.xml.in:34
+msgid "Fix a crash about album discs"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:35
+msgid "Fix broken radio view"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
@@ -403,7 +418,7 @@ msgid "Play/Pause"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:271
+#: ../lollypop/notification.py:39 ../lollypop/toolbar_end.py:268
 msgid "Next"
 msgstr "הבא"
 
@@ -440,15 +455,15 @@ msgstr "על _אודות"
 msgid "_Quit"
 msgstr "_יציאה"
 
-#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:299
+#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:273
 msgid "Show lyrics"
 msgstr ""
 
-#: ../data/ArtistView.ui:64
+#: ../data/ArtistView.ui:65
 msgid "Photo"
 msgstr "תמונה"
 
-#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:158
+#: ../data/ArtistView.ui:101 ../lollypop/widgets_album_simple.py:153
 msgid "Play albums"
 msgstr "ניגון אלבומים"
 
@@ -461,21 +476,21 @@ msgstr ""
 msgid "Similar artists"
 msgstr ""
 
-#: ../data/ArtistView.ui:147 ../data/PlaylistView.ui:78
-#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
+#: ../data/ArtistView.ui:147 ../data/PlaylistView.ui:83
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:53
 msgid "Go to current track"
 msgstr "חזרה לרצועה הנוכחית"
 
-#: ../data/ArtworkSearch.ui:52 ../data/RadioPopover.ui:46
+#: ../data/ArtworkSearch.ui:45 ../data/RadioPopover.ui:46
 #: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:164
 msgid "Select a local file"
 msgstr "בחירת קובץ מקומי"
 
-#: ../data/ArtworkSearch.ui:143 ../data/SettingsDialog.ui:542
+#: ../data/ArtworkSearch.ui:136 ../data/SettingsDialog.ui:542
 msgid "Confirm"
 msgstr "אימות"
 
-#: ../data/ArtworkSearch.ui:221
+#: ../data/ArtworkSearch.ui:233
 msgid ""
 "<b>Lollypop uses the Google Custom Search API to search for images on the "
 "web.</b>\n"
@@ -483,59 +498,51 @@ msgid ""
 "small>"
 msgstr ""
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
+#: ../data/ArtworkSearch.ui:265 ../data/SettingsDialog.ui:1107
 msgid "API key"
 msgstr "מפתח API"
 
-#: ../data/ArtworkSearch.ui:265
+#: ../data/ArtworkSearch.ui:277
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr ""
 
-#: ../data/CoverBox.ui:40 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controller_playback.py:89 ../lollypop/controller_playback.py:108
-#: ../lollypop/pop_tunein.py:191 ../lollypop/widgets_albums_decade.py:89
-#: ../lollypop/widgets_album_simple.py:147
-#: ../lollypop/widgets_playlist_rounded.py:176 ../lollypop/widgets_radio.py:181
-msgid "Play"
-msgstr "ניגון"
-
-#: ../data/CoverBox.ui:66 ../lollypop/widgets_album_simple.py:169
-msgid "Change artwork"
-msgstr "שינוי עטיפה"
-
-#: ../data/DeviceManagerView.ui:22
+#: ../data/DeviceManagerView.ui:25
 msgid "Synchronize to your device"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:152
+#: ../data/DeviceManagerView.ui:90
+msgid "label"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:94
 msgid "Convert to:"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:164
+#: ../data/DeviceManagerWidget.ui:106
 msgid "Normalize"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:185
+#: ../data/DeviceManagerWidget.ui:127
 msgid "Do not convert"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:203
+#: ../data/DeviceManagerWidget.ui:145
 msgid "MP3"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:222
+#: ../data/DeviceManagerWidget.ui:164
 msgid "Ogg Vorbis"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:241
+#: ../data/DeviceManagerWidget.ui:183
 msgid "AAC"
 msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:260
+#: ../data/DeviceManagerWidget.ui:202
 msgid "FLAC"
 msgstr ""
 
-#: ../data/LyricsView.ui:76
+#: ../data/LyricsView.ui:71
 msgid "Translate"
 msgstr ""
 
@@ -548,24 +555,40 @@ msgid "Name:"
 msgstr "שם:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../lollypop/view_playlists.py:204
+#: ../data/SmartPlaylistView.ui:151 ../lollypop/view_playlists.py:196
 msgid "Save"
 msgstr ""
 
-#: ../data/PlaylistView.ui:94
+#: ../data/PlaylistView.ui:99
 msgid "Unsplit view"
 msgstr ""
 
-#: ../data/PlaylistView.ui:123 ../lollypop/view_playlists.py:201
+#: ../data/PlaylistView.ui:128 ../lollypop/view_playlists.py:193
 msgid "Save playlist"
+msgstr ""
+
+#: ../data/PlaylistView.ui:143 ../data/ToolbarPlayback.ui:84
+#: ../lollypop/controller_playback.py:89 ../lollypop/controller_playback.py:108
+#: ../lollypop/helper_overlay.py:160 ../lollypop/pop_tunein.py:191
+#: ../lollypop/view_albums_list.py:129 ../lollypop/widgets_albums_decade.py:90
+#: ../lollypop/widgets_playlist_rounded.py:179 ../lollypop/widgets_radio.py:176
+msgid "Play"
+msgstr "ניגון"
+
+#: ../data/PlaylistView.ui:159
+msgid "Play playlist randomized"
+msgstr ""
+
+#: ../data/PlaylistView.ui:176
+msgid "Configure smart playlist"
 msgstr ""
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
 msgstr "ניקוי התור"
 
-#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:407
-#: ../lollypop/toolbar_end.py:444
+#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:381
+#: ../lollypop/toolbar_end.py:441
 msgid "Queue"
 msgstr "תור"
 
@@ -614,8 +637,8 @@ msgstr "הצגת סוגה"
 msgid "Show compilations"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:203 ../lollypop/pop_menu.py:384
-#: ../lollypop/pop_menu.py:405
+#: ../data/SettingsDialog.ui:203 ../data/SmartPlaylistWidget.ui:29
+#: ../lollypop/pop_menu.py:358 ../lollypop/pop_menu.py:379
 msgid "Artist"
 msgstr "אמן"
 
@@ -623,7 +646,7 @@ msgstr "אמן"
 msgid "Name"
 msgstr "שם"
 
-#: ../data/SettingsDialog.ui:205
+#: ../data/SettingsDialog.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "שנה"
 
@@ -732,7 +755,7 @@ msgid ""
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:125
-#: ../lollypop/playlists.py:323
+#: ../lollypop/playlists.py:416
 msgid "Search"
 msgstr "חיפוש"
 
@@ -878,12 +901,72 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr ""
 
+#: ../data/SmartPlaylistView.ui:94
+msgid "Limit to"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:121
+msgid "tracks selected by"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:136
+msgid "random"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:137
+msgid "album"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:138
+msgid "artist"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:139
+msgid "year"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:140
+msgid "duration"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:183
+msgid "Match music for "
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:208
+msgid "all"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:209
+msgid "one"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:224
+msgid "of the following rules :"
+msgstr ""
+
+#: ../data/SmartPlaylistWidget.ui:28
+msgid "Genre"
+msgstr ""
+
+#: ../data/SmartPlaylistWidget.ui:30
+msgid "Album"
+msgstr ""
+
+#: ../data/SmartPlaylistWidget.ui:31
+msgid "Rating"
+msgstr ""
+
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
 msgstr ""
 
 #: ../data/ToolbarEnd.ui:9
 msgid "Enable party mode"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui:13
+msgid "Configure"
 msgstr ""
 
 #: ../data/ToolbarEnd.ui:17
@@ -945,61 +1028,30 @@ msgid ""
 "    - Artist information disabled"
 msgstr ""
 
-#: ../lollypop/art_widgets.py:71
-msgid "Select artwork"
-msgstr "בחירת תמונה"
-
-#: ../lollypop/art_widgets.py:237
-msgid "Low quality, missing API key…"
-msgstr ""
-
-#: ../lollypop/art_widgets.py:362
-msgid "Reset artwork?"
-msgstr "איפוס תמונה?"
-
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:317
-#: ../lollypop/container.py:528 ../lollypop/database_albums.py:373
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:319
+#: ../lollypop/container.py:600 ../lollypop/database_albums.py:384
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
-#: ../lollypop/database_tracks.py:307 ../lollypop/selectionlist.py:479
-#: ../lollypop/selectionlist.py:493 ../lollypop/tagreader.py:86
-#: ../lollypop/tagreader.py:102 ../lollypop/tagreader.py:152
-#: ../lollypop/tagreader.py:200 ../lollypop/tagreader.py:216
-#: ../lollypop/tagreader.py:220 ../lollypop/tagreader.py:230
-#: ../lollypop/tagreader.py:238
+#: ../lollypop/database_tracks.py:345 ../lollypop/selectionlist.py:412
+#: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
+#: ../lollypop/tagreader.py:151 ../lollypop/tagreader.py:199
+#: ../lollypop/tagreader.py:215 ../lollypop/tagreader.py:219
+#: ../lollypop/tagreader.py:229 ../lollypop/tagreader.py:237
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: ../lollypop/container.py:547
-msgid "Synced albums"
-msgstr ""
-
-#: ../lollypop/container.py:548 ../lollypop/pop_menu.py:303
-#: ../lollypop/pop_menu.py:386 ../lollypop/pop_menu.py:409
-#: ../lollypop/shown.py:42 ../lollypop/widgets_device.py:105
-msgid "Playlists"
-msgstr "רשימות השמעה"
-
-#: ../lollypop/container.py:550 ../lollypop/shown.py:54
-msgid "Compilations"
-msgstr "אוספים"
-
-#: ../lollypop/container.py:594
+#: ../lollypop/container.py:679
 msgid "Please unlock your device"
 msgstr "יש לשחרר נעילת ההתקן שלל"
 
-#: ../lollypop/container.py:783
-msgid "No favorite radios"
-msgstr "אין תחנות רדיו מועדפות"
-
-#: ../lollypop/container.py:833
+#: ../lollypop/container.py:932
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../lollypop/container.py:974
+#: ../lollypop/container.py:1069
 msgid "New tracks available"
 msgstr ""
 
-#: ../lollypop/container.py:975
+#: ../lollypop/container.py:1070
 msgid "Refresh"
 msgstr ""
 
@@ -1014,6 +1066,23 @@ msgstr ""
 #: ../lollypop/database_artists.py:103
 msgid "Many artists"
 msgstr "אמנים שונים"
+
+#: ../lollypop/helper_overlay.py:178
+msgid "Change artwork"
+msgstr "שינוי עטיפה"
+
+#: ../lollypop/helper_overlay.py:241 ../lollypop/view_artist.py:373
+#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:100
+#, fuzzy
+msgid "Add to current playlist"
+msgstr "הוספה לרשימת השמעה"
+
+#: ../lollypop/helper_overlay.py:246 ../lollypop/view_albums_list.py:132
+#: ../lollypop/view_artist.py:380 ../lollypop/widgets_context.py:92
+#: ../lollypop/widgets_indicator.py:96
+#, fuzzy
+msgid "Remove from current playlist"
+msgstr "הוספה לרשימת השמעה"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1033,23 +1102,23 @@ msgstr "מאת %s"
 msgid "by %s, from %s"
 msgstr "מאת %s, מתוך %s"
 
-#: ../lollypop/playlists.py:59
+#: ../lollypop/playlists.py:64
 msgid "Loved tracks"
 msgstr "רצועות אהובות"
 
-#: ../lollypop/playlists.py:315 ../lollypop/shown.py:72
+#: ../lollypop/playlists.py:408 ../lollypop/shown.py:73
 msgid "Popular tracks"
 msgstr "רצועות אהובות"
 
-#: ../lollypop/playlists.py:317 ../lollypop/shown.py:76
+#: ../lollypop/playlists.py:410 ../lollypop/shown.py:77
 msgid "Recently played"
 msgstr "נוגן לאחרונה"
 
-#: ../lollypop/playlists.py:319
+#: ../lollypop/playlists.py:412
 msgid "Never played"
 msgstr "לעולם לא נוגן"
 
-#: ../lollypop/playlists.py:321 ../lollypop/shown.py:80
+#: ../lollypop/playlists.py:414 ../lollypop/shown.py:81
 msgid "Random tracks"
 msgstr "רצועות אקראיות"
 
@@ -1057,15 +1126,15 @@ msgstr "רצועות אקראיות"
 msgid "Clear albums"
 msgstr "ניקוי אלבומים"
 
-#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:448
+#: ../lollypop/pop_albums.py:53 ../lollypop/toolbar_end.py:445
 msgid "Playing albums"
 msgstr "ניגון אלבומים"
 
-#: ../lollypop/pop_information.py:95
+#: ../lollypop/pop_information.py:163
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/pop_information.py:157
+#: ../lollypop/pop_information.py:211
 msgid "No information on this artist"
 msgstr ""
 
@@ -1085,35 +1154,49 @@ msgstr "הסרה מהתור"
 msgid "Add to others"
 msgstr "הוספה לאחרים"
 
-#: ../lollypop/pop_menu.py:173
-msgid "Remove from \"Not in party\""
-msgstr ""
-
-#: ../lollypop/pop_menu.py:178
-msgid "Add to \"Not in party\""
-msgstr ""
-
-#: ../lollypop/pop_menu.py:197
+#: ../lollypop/pop_menu.py:177
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "הסרה מתוך „%s"
 
-#: ../lollypop/pop_menu.py:203
+#: ../lollypop/pop_menu.py:183
 #, python-format
 msgid "Add to \"%s\""
 msgstr "הוספה אל „%s”"
 
-#: ../lollypop/pop_menu.py:300
+#: ../lollypop/pop_menu.py:274
 msgid "Lyrics"
 msgstr "מילים"
 
-#: ../lollypop/pop_menu.py:346 ../lollypop/widgets_context.py:50
+#: ../lollypop/pop_menu.py:277 ../lollypop/pop_menu.py:360
+#: ../lollypop/pop_menu.py:383 ../lollypop/shown.py:42
+#: ../lollypop/view_device.py:238 ../lollypop/widgets_device.py:94
+msgid "Playlists"
+msgstr "רשימות השמעה"
+
+#: ../lollypop/pop_menu.py:320 ../lollypop/widgets_context.py:50
 msgid "Modify information"
 msgstr "שינוי מידע"
 
-#: ../lollypop/pop_menu.py:388 ../lollypop/pop_menu.py:411
+#: ../lollypop/pop_menu.py:362 ../lollypop/pop_menu.py:385
 msgid "Edit"
 msgstr "עריכה"
+
+#: ../lollypop/pop_menu.py:408
+msgid "%Y-%m-%d"
+msgstr ""
+
+#: ../lollypop/pop_menu_views.py:59
+msgid "Default on startup"
+msgstr ""
+
+#: ../lollypop/pop_menu_views.py:62
+msgid "Startup"
+msgstr ""
+
+#: ../lollypop/pop_menu_views.py:84
+msgid "Shown"
+msgstr ""
 
 #: ../lollypop/pop_search.py:112
 msgid "<big>No results for this search</big>"
@@ -1123,31 +1206,19 @@ msgstr ""
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr ""
 
-#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:401
+#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
 msgstr ""
 
-#: ../lollypop/pop_tunein.py:198 ../lollypop/widgets_playlist_rounded.py:182
+#: ../lollypop/pop_tunein.py:198 ../lollypop/widgets_playlist_rounded.py:185
 msgid "Add"
 msgstr "הוספה"
 
-#: ../lollypop/pop_tunein.py:396 ../lollypop/pop_tunein.py:398
+#: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
 msgid "No result…"
 msgstr ""
 
-#: ../lollypop/selectionlist.py:51
-msgid "Default on startup"
-msgstr ""
-
-#: ../lollypop/selectionlist.py:54
-msgid "Startup"
-msgstr ""
-
-#: ../lollypop/selectionlist.py:76
-msgid "Shown"
-msgstr ""
-
-#: ../lollypop/selectionlist.py:441
+#: ../lollypop/selectionlist.py:372
 msgid "Right click to configure"
 msgstr ""
 
@@ -1176,7 +1247,7 @@ msgid_plural "%d tracks"
 msgstr[0] "%d רצועות"
 msgstr[1] "%d רצועות"
 
-#: ../lollypop/settings.py:741
+#: ../lollypop/settings.py:740
 msgid "You need to install kid3-cli"
 msgstr "יש להתקין kid3-cli"
 
@@ -1208,7 +1279,7 @@ msgstr "תחנות רדיו"
 msgid "Years"
 msgstr ""
 
-#: ../lollypop/shown.py:49
+#: ../lollypop/shown.py:48
 msgid "All albums"
 msgstr "כל האלבומים"
 
@@ -1216,73 +1287,72 @@ msgstr "כל האלבומים"
 msgid "All artists"
 msgstr "כל האמנים"
 
-#: ../lollypop/shown.py:56
+#: ../lollypop/shown.py:54 ../lollypop/view_device.py:240
+msgid "Compilations"
+msgstr "אוספים"
+
+#: ../lollypop/shown.py:57
 msgid "USB disks"
 msgstr ""
 
-#: ../lollypop/shown.py:78
+#: ../lollypop/shown.py:79
 msgid "Unplayed"
 msgstr ""
 
-#: ../lollypop/shown.py:82
-msgid "Not in party"
-msgstr ""
-
-#: ../lollypop/toolbar_end.py:267
+#: ../lollypop/toolbar_end.py:264
 msgid "All genres"
 msgstr ""
 
-#: ../lollypop/toolbar_end.py:446
+#: ../lollypop/toolbar_end.py:443
 msgid "Playing playlists"
 msgstr "ניגון רשימות השמעה"
 
-#: ../lollypop/utils.py:252
+#: ../lollypop/utils.py:202
 msgid "The the"
 msgstr " ו"
 
-#: ../lollypop/view_albums_list.py:106
+#: ../lollypop/view_albums_list.py:111
 msgid "Compilation"
 msgstr "אוסף"
 
-#: ../lollypop/view_artist_albums.py:79 ../lollypop/view_artist.py:59
-#: ../lollypop/view_lyrics.py:83
+#: ../lollypop/view_albums_list.py:155
+msgid "Go to artist view"
+msgstr ""
+
+#: ../lollypop/view_artist_albums.py:79 ../lollypop/view_artist.py:62
 msgid "Network access disabled"
 msgstr ""
 
-#: ../lollypop/view_artist.py:356 ../lollypop/widgets_album.py:280
-#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:109
-#, fuzzy
-msgid "Add to current playlist"
-msgstr "הוספה לרשימת השמעה"
-
-#: ../lollypop/view_artist.py:363 ../lollypop/widgets_album.py:285
-#: ../lollypop/widgets_context.py:92 ../lollypop/widgets_indicator.py:105
-#, fuzzy
-msgid "Remove from current playlist"
-msgstr "הוספה לרשימת השמעה"
-
-#: ../lollypop/view_device.py:83
+#: ../lollypop/view_device.py:85
 msgid "Synchronize"
 msgstr ""
 
-#: ../lollypop/view_device.py:84 ../lollypop/view_device.py:205
+#: ../lollypop/view_device.py:86 ../lollypop/view_device.py:286
 #, python-format
 msgid "Synchronize %s"
 msgstr "מתאם %s"
 
-#: ../lollypop/view_device.py:108
+#: ../lollypop/view_device.py:125
 msgid "This will remove some files on your device!"
 msgstr ""
 
-#: ../lollypop/view_device.py:158
+#: ../lollypop/view_device.py:190
 msgid "Cancel synchronization"
 msgstr "ביטול התיאום"
 
-#: ../lollypop/view_lyrics.py:63
+#: ../lollypop/view_device.py:237
+msgid "Synced albums"
+msgstr ""
+
+#: ../lollypop/view_device.py:274
+msgid "Unknown error while syncing, try to reboot your device"
+msgstr "שגיאה בלתי ידועה אירעה בעת התיאום, יש לנסות להפעיל מחדש את ההתקן שלך"
+
+#: ../lollypop/view_lyrics.py:61
 msgid "Loading…"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:250
+#: ../lollypop/view_lyrics.py:264
 msgid "No lyrics found "
 msgstr ""
 
@@ -1290,64 +1360,105 @@ msgstr ""
 msgid "New playlist"
 msgstr "רשימת השמעה חדשה"
 
-#: ../lollypop/view_playlists_manager.py:105
-#: ../lollypop/view_playlists_manager.py:108
+#: ../lollypop/view_playlists_manager.py:110
+#: ../lollypop/view_playlists_manager.py:113
 msgid "New playlist "
 msgstr "רשימת השמעה חדשה"
 
-#: ../lollypop/view_playlists.py:205
+#: ../lollypop/view_playlists.py:197
 msgid "Cancel"
 msgstr ""
 
-#: ../lollypop/view_playlists.py:291 ../lollypop/widgets_album_detailed.py:283
+#: ../lollypop/view_playlists.py:269 ../lollypop/widgets_album_detailed.py:299
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s ש׳ ו־%s דק׳"
 
-#: ../lollypop/view_playlists.py:294 ../lollypop/widgets_album_detailed.py:285
+#: ../lollypop/view_playlists.py:272 ../lollypop/widgets_album_detailed.py:301
 #, python-format
 msgid "%s h"
 msgstr "%s שעות"
 
-#: ../lollypop/view_playlists.py:297 ../lollypop/widgets_album_detailed.py:287
+#: ../lollypop/view_playlists.py:275 ../lollypop/widgets_album_detailed.py:303
 #, python-format
 msgid "%s m"
 msgstr "%s דקות"
 
-#: ../lollypop/view_tracks.py:385
+#: ../lollypop/view_radios.py:56
+msgid "No favorite radios"
+msgstr "אין תחנות רדיו מועדפות"
+
+#: ../lollypop/view_tracks.py:378
 #, python-format
 msgid "Disc %s"
 msgstr "דיסק %s"
 
-#: ../lollypop/widgets_albums_decade.py:94
+#: ../lollypop/widgets_albums_decade.py:95
+#: ../lollypop/widgets_playlist_rounded.py:196
 msgid "Open"
 msgstr ""
+
+#: ../lollypop/widgets_artwork.py:148
+msgid "Select artwork"
+msgstr "בחירת תמונה"
+
+#: ../lollypop/widgets_artwork.py:452
+msgid "Reset artwork?"
+msgstr "איפוס תמונה?"
 
 #: ../lollypop/widgets_context.py:110
 msgid "Add to playlist"
 msgstr "הוספה לרשימת השמעה"
 
-#: ../lollypop/widgets_device.py:116
+#: ../lollypop/widgets_device.py:105
 msgid "Albums"
 msgstr "אלבומים"
 
-#: ../lollypop/widgets_device.py:220
-msgid "Unknown error while syncing, try to reboot your device"
-msgstr "שגיאה בלתי ידועה אירעה בעת התיאום, יש לנסות להפעיל מחדש את ההתקן שלך"
+#: ../lollypop/widgets_loved.py:110
+msgid "Allow playback"
+msgstr ""
 
-#: ../lollypop/widgets_device.py:228
-msgid "No free space available on device"
-msgstr "אין שטח פנוי זמן על ההתקן"
+#: ../lollypop/widgets_loved.py:115
+msgid "Like"
+msgstr ""
 
-#: ../lollypop/widgets_playlist_rounded.py:188
+#: ../lollypop/widgets_loved.py:120
+msgid "Disallow playback"
+msgstr ""
+
+#: ../lollypop/widgets_playlist_rounded.py:191
 msgid "Remove"
 msgstr "הסרה"
 
-#: ../lollypop/widgets_playlist_rounded.py:193
+#: ../lollypop/widgets_playlist_rounded.py:207
 msgid "Modify playlist"
 msgstr ""
 
-#: ../lollypop/widgets_radio.py:197
+#: ../lollypop/widgets_playlist_smart.py:161
+msgid "is equal to"
+msgstr ""
+
+#: ../lollypop/widgets_playlist_smart.py:162
+msgid "is not equal to"
+msgstr ""
+
+#: ../lollypop/widgets_playlist_smart.py:164
+msgid "contains "
+msgstr ""
+
+#: ../lollypop/widgets_playlist_smart.py:165
+msgid "does not contain"
+msgstr ""
+
+#: ../lollypop/widgets_playlist_smart.py:167
+msgid "is greater than"
+msgstr ""
+
+#: ../lollypop/widgets_playlist_smart.py:168
+msgid "is less than"
+msgstr ""
+
+#: ../lollypop/widgets_radio.py:191
 msgid "Modify radio"
 msgstr "ו"
 
@@ -1355,6 +1466,9 @@ msgstr "ו"
 #, python-format
 msgid "Song played %s times"
 msgstr ""
+
+#~ msgid "No free space available on device"
+#~ msgstr "אין שטח פנוי זמן על ההתקן"
 
 #~ msgid "Mini player size"
 #~ msgstr "Mini player size"
