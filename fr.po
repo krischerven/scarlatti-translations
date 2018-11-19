@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 12:32+0100\n"
+"POT-Creation-Date: 2018-11-19 12:08+0100\n"
 "PO-Revision-Date: 2018-11-18 11:42+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -312,11 +312,11 @@ msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgid "Donations:"
 msgstr "Donations :"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:933
+#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:935
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:933
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:935
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -458,7 +458,7 @@ msgstr "_A propos"
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:273
+#: ../data/ArtistInformation.ui:104 ../lollypop/pop_menu.py:273
 msgid "Show lyrics"
 msgstr "Afficher les paroles"
 
@@ -558,7 +558,7 @@ msgid "Name:"
 msgstr "Nom:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:151 ../lollypop/view_playlists.py:196
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/view_playlists.py:196
 msgid "Save"
 msgstr "Enregistrer"
 
@@ -572,9 +572,9 @@ msgstr "Enregistrer la liste de lecture"
 
 #: ../data/PlaylistView.ui:143 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:89 ../lollypop/controller_playback.py:108
-#: ../lollypop/helper_overlay.py:160 ../lollypop/pop_tunein.py:191
-#: ../lollypop/view_albums_list.py:129 ../lollypop/widgets_albums_decade.py:90
-#: ../lollypop/widgets_playlist_rounded.py:179 ../lollypop/widgets_radio.py:176
+#: ../lollypop/helper_overlay.py:167 ../lollypop/pop_tunein.py:191
+#: ../lollypop/view_albums_list.py:126 ../lollypop/widgets_albums_decade.py:92
+#: ../lollypop/widgets_playlist_rounded.py:173 ../lollypop/widgets_radio.py:176
 msgid "Play"
 msgstr "Lire"
 
@@ -936,26 +936,34 @@ msgid "artist"
 msgstr "artiste"
 
 #: ../data/SmartPlaylistView.ui:139
-msgid "year"
-msgstr "année"
+msgid "year DESC"
+msgstr ""
 
 #: ../data/SmartPlaylistView.ui:140
-msgid "duration"
-msgstr "durée"
+msgid "year ASC"
+msgstr ""
 
-#: ../data/SmartPlaylistView.ui:183
+#: ../data/SmartPlaylistView.ui:141
+msgid "duration DESC"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:142
+msgid "duration ASC"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:185
 msgid "Match music for "
 msgstr "Choisir de la musique pour "
 
-#: ../data/SmartPlaylistView.ui:208
+#: ../data/SmartPlaylistView.ui:210
 msgid "all"
 msgstr "toutes les"
 
-#: ../data/SmartPlaylistView.ui:209
+#: ../data/SmartPlaylistView.ui:211
 msgid "one"
 msgstr "n'importe laquelle des"
 
-#: ../data/SmartPlaylistView.ui:224
+#: ../data/SmartPlaylistView.ui:226
 msgid "of the following rules :"
 msgstr "règles suivantes :"
 
@@ -1046,7 +1054,7 @@ msgstr ""
 "    - Information sur les artistes désactivée"
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:319
-#: ../lollypop/container.py:600 ../lollypop/database_albums.py:384
+#: ../lollypop/container.py:603 ../lollypop/database_albums.py:384
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
 #: ../lollypop/database_tracks.py:345 ../lollypop/selectionlist.py:412
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
@@ -1056,19 +1064,19 @@ msgstr ""
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: ../lollypop/container.py:679
+#: ../lollypop/container.py:681
 msgid "Please unlock your device"
 msgstr "Merci de déverrouiller votre appareil"
 
-#: ../lollypop/container.py:932
+#: ../lollypop/container.py:934
 msgid "Please consider a donation to the project"
 msgstr "Merci de considérer un don au projet"
 
-#: ../lollypop/container.py:1069
+#: ../lollypop/container.py:1073
 msgid "New tracks available"
 msgstr "Nouveaux morceaux disponibles"
 
-#: ../lollypop/container.py:1070
+#: ../lollypop/container.py:1074
 msgid "Refresh"
 msgstr "Rafraîchir"
 
@@ -1084,18 +1092,26 @@ msgstr "Volume"
 msgid "Many artists"
 msgstr "Plusieurs artistes"
 
-#: ../lollypop/helper_overlay.py:178
+#: ../lollypop/helper_overlay.py:115 ../lollypop/miniplayer.py:122
+#: ../lollypop/pop_information.py:179 ../lollypop/toolbar_info.py:119
+#: ../lollypop/view_artist.py:132 ../lollypop/view_artist.py:142
+#: ../lollypop/widgets_albums_decade.py:168
+#: ../lollypop/widgets_artist_rounded.py:159
+msgid "You are using a broken cursor theme!"
+msgstr ""
+
+#: ../lollypop/helper_overlay.py:186
 msgid "Change artwork"
 msgstr "Modifier la pochette"
 
-#: ../lollypop/helper_overlay.py:241 ../lollypop/view_artist.py:373
-#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:100
+#: ../lollypop/helper_overlay.py:251 ../lollypop/view_artist.py:374
+#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:99
 msgid "Add to current playlist"
 msgstr "Ajouter à la liste de lecture courante"
 
-#: ../lollypop/helper_overlay.py:246 ../lollypop/view_albums_list.py:132
-#: ../lollypop/view_artist.py:380 ../lollypop/widgets_context.py:92
-#: ../lollypop/widgets_indicator.py:96
+#: ../lollypop/helper_overlay.py:256 ../lollypop/view_albums_list.py:129
+#: ../lollypop/view_artist.py:381 ../lollypop/widgets_context.py:91
+#: ../lollypop/widgets_indicator.py:95
 msgid "Remove from current playlist"
 msgstr "Enlever de la liste de lecture courante"
 
@@ -1145,11 +1161,11 @@ msgstr "Vider la liste des albums"
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
-#: ../lollypop/pop_information.py:163
+#: ../lollypop/pop_information.py:164
 msgid "Loading information"
 msgstr "Chargement des informations"
 
-#: ../lollypop/pop_information.py:211
+#: ../lollypop/pop_information.py:215
 msgid "No information on this artist"
 msgstr "Pas d'informations sur cet artiste"
 
@@ -1225,7 +1241,7 @@ msgstr "<big>Recherchez des artistes, des albums et des morceaux</big>"
 msgid "Can't connect to TuneIn…"
 msgstr "Impossible de se connecter à TuneIn…"
 
-#: ../lollypop/pop_tunein.py:198 ../lollypop/widgets_playlist_rounded.py:185
+#: ../lollypop/pop_tunein.py:198 ../lollypop/widgets_playlist_rounded.py:179
 msgid "Add"
 msgstr "Ajouter"
 
@@ -1330,7 +1346,7 @@ msgstr "The the La la Le le Les les"
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/view_albums_list.py:155
+#: ../lollypop/view_albums_list.py:152
 msgid "Go to artist view"
 msgstr "Aller à la vue de l'artiste"
 
@@ -1365,11 +1381,11 @@ msgstr ""
 "Erreur inconnue lors de la synchronisation, essayez de redémarrer votre "
 "appareil"
 
-#: ../lollypop/view_lyrics.py:61
+#: ../lollypop/view_lyrics.py:60
 msgid "Loading…"
 msgstr "Chargement…"
 
-#: ../lollypop/view_lyrics.py:264
+#: ../lollypop/view_lyrics.py:261
 msgid "No lyrics found "
 msgstr "Pas de paroles trouvées "
 
@@ -1386,17 +1402,17 @@ msgstr "Nouvelle liste de lecture "
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../lollypop/view_playlists.py:269 ../lollypop/widgets_album_detailed.py:299
+#: ../lollypop/view_playlists.py:269 ../lollypop/widgets_album_detailed.py:301
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:272 ../lollypop/widgets_album_detailed.py:301
+#: ../lollypop/view_playlists.py:272 ../lollypop/widgets_album_detailed.py:303
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:275 ../lollypop/widgets_album_detailed.py:303
+#: ../lollypop/view_playlists.py:275 ../lollypop/widgets_album_detailed.py:305
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1410,8 +1426,8 @@ msgstr "Pas de radios favorites"
 msgid "Disc %s"
 msgstr "Disque %s"
 
-#: ../lollypop/widgets_albums_decade.py:95
-#: ../lollypop/widgets_playlist_rounded.py:196
+#: ../lollypop/widgets_albums_decade.py:98
+#: ../lollypop/widgets_playlist_rounded.py:191
 msgid "Open"
 msgstr "Ouvrir"
 
@@ -1423,7 +1439,7 @@ msgstr "Choisissez une image"
 msgid "Reset artwork?"
 msgstr "Réinitialiser l'image ?"
 
-#: ../lollypop/widgets_context.py:110
+#: ../lollypop/widgets_context.py:109
 msgid "Add to playlist"
 msgstr "Ajouter à la liste de lecture"
 
@@ -1443,11 +1459,11 @@ msgstr "Aimer"
 msgid "Disallow playback"
 msgstr "Ne pas autoriser la lecture"
 
-#: ../lollypop/widgets_playlist_rounded.py:191
+#: ../lollypop/widgets_playlist_rounded.py:185
 msgid "Remove"
 msgstr "Enlever"
 
-#: ../lollypop/widgets_playlist_rounded.py:207
+#: ../lollypop/widgets_playlist_rounded.py:203
 msgid "Modify playlist"
 msgstr "Modifier la liste de lecture"
 
@@ -1483,6 +1499,12 @@ msgstr "Modifier la radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
+
+#~ msgid "year"
+#~ msgstr "année"
+
+#~ msgid "duration"
+#~ msgstr "durée"
 
 #~ msgid "Low quality, missing API key…"
 #~ msgstr "Qualité basse, clé d'API manquante…"

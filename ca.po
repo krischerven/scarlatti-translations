@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 12:36+0100\n"
+"POT-Creation-Date: 2018-11-19 12:08+0100\n"
 "PO-Revision-Date: 2018-10-20 08:24+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -318,11 +318,11 @@ msgstr ""
 msgid "Donations:"
 msgstr "Donatius:"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:933
+#: ../data/AboutDialog.ui.in:63 ../lollypop/container.py:935
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:933
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:935
 msgid "PayPal"
 msgstr "Paypal"
 
@@ -463,7 +463,7 @@ msgstr "_Quant a"
 msgid "_Quit"
 msgstr "_Surt"
 
-#: ../data/ArtistInformation.ui:108 ../lollypop/pop_menu.py:273
+#: ../data/ArtistInformation.ui:104 ../lollypop/pop_menu.py:273
 msgid "Show lyrics"
 msgstr "Mostra la lletra"
 
@@ -563,7 +563,7 @@ msgid "Name:"
 msgstr "Nom:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:151 ../lollypop/view_playlists.py:196
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/view_playlists.py:196
 msgid "Save"
 msgstr "Desa"
 
@@ -577,9 +577,9 @@ msgstr "Desa llista"
 
 #: ../data/PlaylistView.ui:143 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:89 ../lollypop/controller_playback.py:108
-#: ../lollypop/helper_overlay.py:160 ../lollypop/pop_tunein.py:191
-#: ../lollypop/view_albums_list.py:129 ../lollypop/widgets_albums_decade.py:90
-#: ../lollypop/widgets_playlist_rounded.py:179 ../lollypop/widgets_radio.py:176
+#: ../lollypop/helper_overlay.py:167 ../lollypop/pop_tunein.py:191
+#: ../lollypop/view_albums_list.py:126 ../lollypop/widgets_albums_decade.py:92
+#: ../lollypop/widgets_playlist_rounded.py:173 ../lollypop/widgets_radio.py:176
 msgid "Play"
 msgstr "Reprodueix"
 
@@ -941,26 +941,34 @@ msgid "artist"
 msgstr ""
 
 #: ../data/SmartPlaylistView.ui:139
-msgid "year"
+msgid "year DESC"
 msgstr ""
 
 #: ../data/SmartPlaylistView.ui:140
-msgid "duration"
+msgid "year ASC"
 msgstr ""
 
-#: ../data/SmartPlaylistView.ui:183
+#: ../data/SmartPlaylistView.ui:141
+msgid "duration DESC"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:142
+msgid "duration ASC"
+msgstr ""
+
+#: ../data/SmartPlaylistView.ui:185
 msgid "Match music for "
 msgstr ""
 
-#: ../data/SmartPlaylistView.ui:208
+#: ../data/SmartPlaylistView.ui:210
 msgid "all"
 msgstr ""
 
-#: ../data/SmartPlaylistView.ui:209
+#: ../data/SmartPlaylistView.ui:211
 msgid "one"
 msgstr ""
 
-#: ../data/SmartPlaylistView.ui:224
+#: ../data/SmartPlaylistView.ui:226
 msgid "of the following rules :"
 msgstr ""
 
@@ -1051,7 +1059,7 @@ msgstr ""
 "    - Informació de l'artista desactivada"
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:319
-#: ../lollypop/container.py:600 ../lollypop/database_albums.py:384
+#: ../lollypop/container.py:603 ../lollypop/database_albums.py:384
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
 #: ../lollypop/database_tracks.py:345 ../lollypop/selectionlist.py:412
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
@@ -1061,19 +1069,19 @@ msgstr ""
 msgid "Unknown"
 msgstr "Desconegut"
 
-#: ../lollypop/container.py:679
+#: ../lollypop/container.py:681
 msgid "Please unlock your device"
 msgstr "Desbloquegeu el dispositiu"
 
-#: ../lollypop/container.py:932
+#: ../lollypop/container.py:934
 msgid "Please consider a donation to the project"
 msgstr "Considereu fer un donatiu al projecte"
 
-#: ../lollypop/container.py:1069
+#: ../lollypop/container.py:1073
 msgid "New tracks available"
 msgstr "Noves pistes disponibles"
 
-#: ../lollypop/container.py:1070
+#: ../lollypop/container.py:1074
 msgid "Refresh"
 msgstr "Actualitza"
 
@@ -1089,18 +1097,26 @@ msgstr "Volum"
 msgid "Many artists"
 msgstr "Molts artistes"
 
-#: ../lollypop/helper_overlay.py:178
+#: ../lollypop/helper_overlay.py:115 ../lollypop/miniplayer.py:122
+#: ../lollypop/pop_information.py:179 ../lollypop/toolbar_info.py:119
+#: ../lollypop/view_artist.py:132 ../lollypop/view_artist.py:142
+#: ../lollypop/widgets_albums_decade.py:168
+#: ../lollypop/widgets_artist_rounded.py:159
+msgid "You are using a broken cursor theme!"
+msgstr ""
+
+#: ../lollypop/helper_overlay.py:186
 msgid "Change artwork"
 msgstr "Canvia il·lustracions"
 
-#: ../lollypop/helper_overlay.py:241 ../lollypop/view_artist.py:373
-#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:100
+#: ../lollypop/helper_overlay.py:251 ../lollypop/view_artist.py:374
+#: ../lollypop/widgets_context.py:77 ../lollypop/widgets_indicator.py:99
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
 
-#: ../lollypop/helper_overlay.py:246 ../lollypop/view_albums_list.py:132
-#: ../lollypop/view_artist.py:380 ../lollypop/widgets_context.py:92
-#: ../lollypop/widgets_indicator.py:96
+#: ../lollypop/helper_overlay.py:256 ../lollypop/view_albums_list.py:129
+#: ../lollypop/view_artist.py:381 ../lollypop/widgets_context.py:91
+#: ../lollypop/widgets_indicator.py:95
 msgid "Remove from current playlist"
 msgstr "Elimina de la llista actual"
 
@@ -1150,11 +1166,11 @@ msgstr "Neteja àlbums"
 msgid "Playing albums"
 msgstr "Reproduint àlbums"
 
-#: ../lollypop/pop_information.py:163
+#: ../lollypop/pop_information.py:164
 msgid "Loading information"
 msgstr "Carregant informació"
 
-#: ../lollypop/pop_information.py:211
+#: ../lollypop/pop_information.py:215
 msgid "No information on this artist"
 msgstr "Cap informació d'aquest artista"
 
@@ -1230,7 +1246,7 @@ msgstr "<big>Cerca artistes, àlbums i pistes</big>"
 msgid "Can't connect to TuneIn…"
 msgstr "No es pot connectar al TuneIn…"
 
-#: ../lollypop/pop_tunein.py:198 ../lollypop/widgets_playlist_rounded.py:185
+#: ../lollypop/pop_tunein.py:198 ../lollypop/widgets_playlist_rounded.py:179
 msgid "Add"
 msgstr "Afegeix"
 
@@ -1335,7 +1351,7 @@ msgstr "The the El el La la Els els Les les L' l' L’ l’"
 msgid "Compilation"
 msgstr "Compilació"
 
-#: ../lollypop/view_albums_list.py:155
+#: ../lollypop/view_albums_list.py:152
 msgid "Go to artist view"
 msgstr ""
 
@@ -1368,11 +1384,11 @@ msgstr "Àlbums sincronitzats"
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Error desconegut en sincronitzar. Proveu de reiniciar el dispositiu"
 
-#: ../lollypop/view_lyrics.py:61
+#: ../lollypop/view_lyrics.py:60
 msgid "Loading…"
 msgstr "Carregant…"
 
-#: ../lollypop/view_lyrics.py:264
+#: ../lollypop/view_lyrics.py:261
 msgid "No lyrics found "
 msgstr "No s'ha trobat la lletra "
 
@@ -1389,17 +1405,17 @@ msgstr "Llista nova "
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: ../lollypop/view_playlists.py:269 ../lollypop/widgets_album_detailed.py:299
+#: ../lollypop/view_playlists.py:269 ../lollypop/widgets_album_detailed.py:301
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:272 ../lollypop/widgets_album_detailed.py:301
+#: ../lollypop/view_playlists.py:272 ../lollypop/widgets_album_detailed.py:303
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:275 ../lollypop/widgets_album_detailed.py:303
+#: ../lollypop/view_playlists.py:275 ../lollypop/widgets_album_detailed.py:305
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1413,8 +1429,8 @@ msgstr "Cap ràdio preferida"
 msgid "Disc %s"
 msgstr "Disc %s"
 
-#: ../lollypop/widgets_albums_decade.py:95
-#: ../lollypop/widgets_playlist_rounded.py:196
+#: ../lollypop/widgets_albums_decade.py:98
+#: ../lollypop/widgets_playlist_rounded.py:191
 msgid "Open"
 msgstr "Obre"
 
@@ -1426,7 +1442,7 @@ msgstr "Trieu caràtula"
 msgid "Reset artwork?"
 msgstr "Reiniciar il·lustracions?"
 
-#: ../lollypop/widgets_context.py:110
+#: ../lollypop/widgets_context.py:109
 msgid "Add to playlist"
 msgstr "Afegeix a la llista"
 
@@ -1446,11 +1462,11 @@ msgstr ""
 msgid "Disallow playback"
 msgstr ""
 
-#: ../lollypop/widgets_playlist_rounded.py:191
+#: ../lollypop/widgets_playlist_rounded.py:185
 msgid "Remove"
 msgstr "Elimina"
 
-#: ../lollypop/widgets_playlist_rounded.py:207
+#: ../lollypop/widgets_playlist_rounded.py:203
 msgid "Modify playlist"
 msgstr "Modifica la llista"
 
