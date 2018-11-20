@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-19 12:08+0100\n"
-"PO-Revision-Date: 2018-09-27 17:25+0000\n"
+"PO-Revision-Date: 2018-11-22 16:07+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -108,7 +108,7 @@ msgstr "Last.fm-kirjautuminen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "ListenBrainz user token"
-msgstr ""
+msgstr "ListenBrainz-käyttäjävaltuus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "Google Custom Search API key"
@@ -732,7 +732,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:1041
 msgid "User token"
-msgstr ""
+msgstr "Käyttäjävaltuus"
 
 #: ../data/SettingsDialog.ui:1057
 msgid "ListenBrainz"
@@ -744,6 +744,9 @@ msgid ""
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
+"<b>Google Web Services vaatii API-avaimen.</b>\n"
+"<small>Muussa tapauksessa kiintiö tulee pian vastaan…\n"
+"Lollypop tarvitsee API-avaimen etsiäkseen kuvituksia.</small>"
 
 #: ../data/SettingsDialog.ui:1125
 msgid ""
@@ -907,15 +910,15 @@ msgstr ""
 
 #: ../data/SmartPlaylistView.ui:136
 msgid "random"
-msgstr ""
+msgstr "satunnainen"
 
 #: ../data/SmartPlaylistView.ui:137
 msgid "album"
-msgstr ""
+msgstr "albumi"
 
 #: ../data/SmartPlaylistView.ui:138
 msgid "artist"
-msgstr ""
+msgstr "esittäjä"
 
 #: ../data/SmartPlaylistView.ui:139
 msgid "year DESC"
@@ -939,7 +942,7 @@ msgstr ""
 
 #: ../data/SmartPlaylistView.ui:210
 msgid "all"
-msgstr ""
+msgstr "kaikki"
 
 #: ../data/SmartPlaylistView.ui:211
 msgid "one"
@@ -951,11 +954,11 @@ msgstr ""
 
 #: ../data/SmartPlaylistWidget.ui:28
 msgid "Genre"
-msgstr ""
+msgstr "Tyylilaji"
 
 #: ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
-msgstr ""
+msgstr "Albumi"
 
 #: ../data/SmartPlaylistWidget.ui:31
 msgid "Rating"
@@ -971,7 +974,7 @@ msgstr "Käytä biletilaa"
 
 #: ../data/ToolbarEnd.ui:13
 msgid "Configure"
-msgstr ""
+msgstr "Määritä"
 
 #: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
@@ -1007,11 +1010,11 @@ msgstr "Älä kertaa"
 
 #: ../data/ToolbarEnd.ui:53
 msgid "Scrobbling"
-msgstr ""
+msgstr "Scrobblaus"
 
 #: ../data/ToolbarEnd.ui:55
 msgid "Enable scrobbling"
-msgstr ""
+msgstr "Käytä scrobblausta"
 
 #: ../data/ToolbarEnd.ui:99
 msgid "Playback type"
@@ -1080,7 +1083,7 @@ msgstr "Useita esittäjiä"
 #: ../lollypop/widgets_albums_decade.py:168
 #: ../lollypop/widgets_artist_rounded.py:159
 msgid "You are using a broken cursor theme!"
-msgstr ""
+msgstr "Käytössäsi on rikkinäinen osoitinteema!"
 
 #: ../lollypop/helper_overlay.py:186
 msgid "Change artwork"
@@ -1209,15 +1212,15 @@ msgstr "Käynnistys"
 
 #: ../lollypop/pop_menu_views.py:84
 msgid "Shown"
-msgstr ""
+msgstr "Näytetään"
 
 #: ../lollypop/pop_search.py:112
 msgid "<big>No results for this search</big>"
-msgstr ""
+msgstr "<big>Ei tuloksia tälle haulle</big>"
 
 #: ../lollypop/pop_search.py:119
 msgid "<big>Search for artists, albums and tracks</big>"
-msgstr ""
+msgstr "<big>Etsi esittäjiä, albumeita ja kappaleita</big>"
 
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
@@ -1330,7 +1333,7 @@ msgstr "Kokoelma"
 
 #: ../lollypop/view_albums_list.py:152
 msgid "Go to artist view"
-msgstr ""
+msgstr "Siirry esittäjänäkymään"
 
 #: ../lollypop/view_artist_albums.py:79 ../lollypop/view_artist.py:62
 msgid "Network access disabled"
@@ -1409,7 +1412,7 @@ msgstr "Levy %s"
 #: ../lollypop/widgets_albums_decade.py:98
 #: ../lollypop/widgets_playlist_rounded.py:191
 msgid "Open"
-msgstr ""
+msgstr "Avaa"
 
 #: ../lollypop/widgets_artwork.py:148
 msgid "Select artwork"
@@ -1457,19 +1460,19 @@ msgstr ""
 
 #: ../lollypop/widgets_playlist_smart.py:164
 msgid "contains "
-msgstr ""
+msgstr "sisältää "
 
 #: ../lollypop/widgets_playlist_smart.py:165
 msgid "does not contain"
-msgstr ""
+msgstr "ei sisällä"
 
 #: ../lollypop/widgets_playlist_smart.py:167
 msgid "is greater than"
-msgstr ""
+msgstr "on suurempi kuin"
 
 #: ../lollypop/widgets_playlist_smart.py:168
 msgid "is less than"
-msgstr ""
+msgstr "on pienempi kuin"
 
 #: ../lollypop/widgets_radio.py:191
 msgid "Modify radio"
