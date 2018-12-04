@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-01 18:23+0100\n"
-"PO-Revision-Date: 2018-11-27 21:07+0000\n"
+"PO-Revision-Date: 2018-12-06 18:08+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ar/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.3-dev\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -53,7 +53,7 @@ msgstr "داخلي"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:58
 msgid "Allow using a cover per track"
-msgstr "السماح باستخدام صورة غلاف  لكل المسار"
+msgstr "اسمح باستخدام صورة غلاف لكل المسار"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:63
 msgid "Access network"
@@ -65,7 +65,7 @@ msgstr "حفظ الصورة الفنية / الشعبية في العلامات"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Preserve the cover’s aspect ratio"
-msgstr "الحفاظ على نسبة العرض و الارتفاع في الغلاف"
+msgstr "حافظ على نسبة العرض والارتفاع في الغلاف"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Window maximized"
@@ -77,7 +77,7 @@ msgstr "حالة النافذة المكبرة."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:83
 msgid "Enabled genres in party mode"
-msgstr "الأنواع نشطة في وضع الحفل"
+msgstr "الأنواع المُفعلة في وضع الحفل"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:84
 msgid "ID for genres."
@@ -85,7 +85,7 @@ msgstr "معرف للأنواع."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:93
 msgid "REMOVE ME LATER"
-msgstr "حذفني لاحقا"
+msgstr "احذفني لاحقا"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Music URI"
@@ -109,7 +109,7 @@ msgstr "رمز المستخدم listenbrainz"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "Google Custom Search API key"
-msgstr "مفتاح API بحث مخصص جوجل"
+msgstr "مفتاح API لبحث جوجل المخصص"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Favorite tag editor"
@@ -147,7 +147,7 @@ msgstr "تصفير هذه القيمة سيصفِّر قاعدة البيانا�
 
 #: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsDialog.ui:138
 msgid "Albums cover size"
-msgstr "حجم صورة غطاء الالبزم"
+msgstr "حجم صورة غطاء الألبوم"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Replay gain value in dB"
@@ -159,7 +159,7 @@ msgstr "بين -15 و 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:153
 msgid "Encoding quality"
-msgstr "ترميز الجودة"
+msgstr "جودة الترميز"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:275
 #: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
@@ -215,7 +215,7 @@ msgstr "الفرز الذكي للفنان"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
-msgstr "مثلاً: فرز البيتلز كفريق البيتلز. تصفير قاعدة البيانات مطلوب."
+msgstr "مثلاً: فرز البيتلز كفريق بيتلز. تصفير قاعدة البيانات مطلوب."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -303,7 +303,7 @@ msgstr "التبرعات:"
 
 #: ../data/AboutDialog.ui.in:63 ../lollypop/container_donation.py:47
 msgid "Patreon"
-msgstr ""
+msgstr "بيتريون"
 
 #: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
 msgid "PayPal"
@@ -564,7 +564,7 @@ msgstr ""
 
 #: ../data/PlaylistView.ui:176
 msgid "Configure smart playlist"
-msgstr ""
+msgstr "اضبط قائمة التشغيل الذكية"
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -1056,9 +1056,8 @@ msgid "New tracks available"
 msgstr "مقطوعات جديدة متاحة"
 
 #: ../lollypop/container_scanner.py:47
-#, fuzzy
 msgid "Refresh"
-msgstr "تحديث"
+msgstr "حدِّث"
 
 #: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:114
 msgid "Pause"
@@ -1078,7 +1077,7 @@ msgstr "العديد من الفنانين"
 #: ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:118
 msgid "You are using a broken cursor theme!"
-msgstr ""
+msgstr "أنت تستعمل سمة مؤشر معطوبة!"
 
 #: ../lollypop/helper_overlay.py:180
 msgid "Change artwork"
@@ -1440,7 +1439,7 @@ msgstr "الألبومات"
 
 #: ../lollypop/widgets_indicator.py:96
 msgid "Remove from playlist"
-msgstr ""
+msgstr "أزل من قائمة التشغيل"
 
 #: ../lollypop/widgets_loved.py:110
 msgid "Allow playback"
@@ -1448,7 +1447,7 @@ msgstr ""
 
 #: ../lollypop/widgets_loved.py:115
 msgid "Like"
-msgstr ""
+msgstr "أعجبني"
 
 #: ../lollypop/widgets_loved.py:120
 msgid "Disallow playback"
