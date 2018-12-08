@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-07 15:49+0100\n"
-"PO-Revision-Date: 2018-12-03 22:13+0000\n"
-"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
-"co.jp>\n"
+"PO-Revision-Date: 2018-12-10 13:08+0000\n"
+"Last-Translator: YAMADA Shinichirou "
+"<yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -116,15 +116,15 @@ msgstr "お気に入りタグエディター"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Audio output preview on track hover"
-msgstr "トラックホバーでオーディオ出力プレビュー(試聴)"
+msgstr "トラックホバーで楽曲をプレビュー再生"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
-"PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-ステレオ。コマンドの"
-"出力を取得する: $ pacmd list-sinks|grep 'name:'"
+"PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-stereo。コマンド出力の取得: $ "
+"pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:128
 msgid "Favorite cover file"
@@ -142,9 +142,7 @@ msgstr "データベースのバージョン"
 #: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
-msgstr ""
-"この値をリセットするとデータベースがリセットされ、アルバム人気度が戻ります(初"
-"期化)"
+msgstr "この値をリセットするとデータベースがリセットされ、アルバムの人気度が初期化されます"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:138
 msgid "Albums cover size"
@@ -215,15 +213,15 @@ msgstr "アーティストのスマートソート"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
-msgstr ""
+msgstr "例: The Beatles を Beatles としてソート (データベースのリセットが必要です)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Show sort tag as artist. Reset of database may be required"
-msgstr ""
+msgstr "ソートタグをアーティストとして表示 (データベースのリセットが必要になる可能性があります)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "例: Beatles, The"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -243,7 +241,7 @@ msgstr "楽曲変更時の通知を無効化"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Fullscreen album rotates"
-msgstr ""
+msgstr "全画面表示アルバムの回転"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Show track number from tags"
@@ -1245,7 +1243,7 @@ msgstr "結果はありません…"
 #: ../lollypop/selectionlist.py:246 ../lollypop/window.py:576
 #: ../lollypop/window.py:577
 msgid "Current playlist"
-msgstr ""
+msgstr "現在のプレイリスト"
 
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
