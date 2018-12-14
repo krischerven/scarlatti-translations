@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 15:49+0100\n"
+"POT-Creation-Date: 2018-12-14 23:37+0100\n"
 "PO-Revision-Date: 2018-03-30 17:42+0000\n"
 "Last-Translator: Svitozar Cherepii <razotivs@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
@@ -399,6 +399,34 @@ msgstr "Підтримка HiDPI"
 msgid "TuneIn support"
 msgstr "Підтримка TuneIn"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:32
+msgid "New navigation mode when sidebar is off"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "New smart playlists"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:34
+msgid "Faster album loading"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:35
+msgid "Faster track loading"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:36
+msgid "Better sync to device"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:37
+msgid "Restore playback position on start"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:38
+msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Відтворювач музики"
@@ -412,7 +440,7 @@ msgid "Play/Pause"
 msgstr "Відтворити/Призупинити"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:275
+#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:272
 msgid "Next"
 msgstr "Наступний"
 
@@ -449,7 +477,7 @@ msgstr "_Про програму"
 msgid "_Quit"
 msgstr "_Вийти"
 
-#: ../data/ArtistInformation.ui:104 ../lollypop/pop_menu.py:263
+#: ../data/ArtistInformation.ui:106 ../lollypop/pop_menu.py:263
 msgid "Show lyrics"
 msgstr "Показати текст пісні"
 
@@ -583,7 +611,7 @@ msgid "Clear queue"
 msgstr "Очистити чергу"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:373
-#: ../lollypop/toolbar_end.py:419
+#: ../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "Черга"
 
@@ -760,7 +788,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:126
 #: ../lollypop/playlists.py:440 ../lollypop/selectionlist.py:244
-#: ../lollypop/window.py:573 ../lollypop/window.py:574
+#: ../lollypop/window.py:551 ../lollypop/window.py:552
 msgid "Search"
 msgstr "Пошук"
 
@@ -1086,9 +1114,9 @@ msgid "Many artists"
 msgstr "Багато виконавців"
 
 #: ../lollypop/fullscreen.py:233 ../lollypop/helper_overlay.py:115
-#: ../lollypop/miniplayer.py:132 ../lollypop/pop_information.py:180
-#: ../lollypop/toolbar_info.py:118 ../lollypop/view_artist.py:127
-#: ../lollypop/view_artist.py:137 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:118
+#: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
+#: ../lollypop/view_information.py:178 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
 msgstr ""
@@ -1098,13 +1126,13 @@ msgid "Change artwork"
 msgstr "Змінити обкладинку"
 
 #: ../lollypop/helper_overlay.py:236 ../lollypop/view_artist.py:348
-#: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:105
+#: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:60
 msgid "Add to current playlist"
 msgstr "Додати до поточного списку відтворення"
 
 #: ../lollypop/helper_overlay.py:242 ../lollypop/view_albums_list.py:129
 #: ../lollypop/view_artist.py:355 ../lollypop/widgets_context.py:101
-#: ../lollypop/widgets_indicator.py:101
+#: ../lollypop/widgets_indicator.py:56
 msgid "Remove from current playlist"
 msgstr "Вилучити з поточного списку відтворення"
 
@@ -1145,14 +1173,6 @@ msgstr "Ніколи не відтворене"
 #: ../lollypop/playlists.py:438 ../lollypop/shown.py:81
 msgid "Random tracks"
 msgstr "Випадкові треки"
-
-#: ../lollypop/pop_information.py:165
-msgid "Loading information"
-msgstr "Завантаження інформації"
-
-#: ../lollypop/pop_information.py:216
-msgid "No information on this artist"
-msgstr "Немає даних на цього виконавця"
 
 #: ../lollypop/pop_menu.py:63
 msgid "Show albums from artist"
@@ -1214,14 +1234,6 @@ msgstr "Запуск"
 msgid "Shown"
 msgstr "Показано"
 
-#: ../lollypop/pop_search.py:104 ../lollypop/view_search.py:117
-msgid "<big>No results for this search</big>"
-msgstr ""
-
-#: ../lollypop/pop_search.py:111 ../lollypop/view_search.py:124
-msgid "<big>Search for artists, albums and tracks</big>"
-msgstr ""
-
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:406
 msgid "Can't connect to TuneIn…"
 msgstr "Не вдалось приєднатись до TuneIn…"
@@ -1234,8 +1246,8 @@ msgstr "Додати"
 msgid "No result…"
 msgstr "Безрезультатно…"
 
-#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:576
-#: ../lollypop/window.py:577
+#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:554
+#: ../lollypop/window.py:555
 msgid "Current playlist"
 msgstr ""
 
@@ -1323,15 +1335,15 @@ msgstr ""
 msgid "Unplayed"
 msgstr ""
 
-#: ../lollypop/toolbar_end.py:271
+#: ../lollypop/toolbar_end.py:268
 msgid "All genres"
 msgstr ""
 
-#: ../lollypop/toolbar_end.py:421
+#: ../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "Відтворення списків"
 
-#: ../lollypop/toolbar_end.py:423 ../lollypop/view_current_albums.py:52
+#: ../lollypop/toolbar_end.py:431 ../lollypop/view_current_albums.py:52
 msgid "Playing albums"
 msgstr "Відтворення альбомів"
 
@@ -1381,11 +1393,27 @@ msgid "Unknown error while syncing, try to reboot your device"
 msgstr ""
 "Невідома помилка при синхронізації, спробуйте перезавантажити ваш пристрій"
 
+#: ../lollypop/view_information.py:163
+msgid "Loading information"
+msgstr "Завантаження інформації"
+
+#: ../lollypop/view_information.py:214
+msgid "No information on this artist"
+msgstr "Немає даних на цього виконавця"
+
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:263
+#: ../lollypop/view_lyrics.py:130
+msgid "You need to install python3-textblob module"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:135
+msgid "Can't translate this lyrics"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
 msgstr "Не знайдено тексти пісень "
 
@@ -1402,17 +1430,17 @@ msgstr "Новий список відтворення "
 msgid "Cancel"
 msgstr ""
 
-#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:309
+#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:307
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s г %s хв"
 
-#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:311
+#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:309
 #, python-format
 msgid "%s h"
 msgstr "%s г"
 
-#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:313
+#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:311
 #, python-format
 msgid "%s m"
 msgstr "%s хв"
@@ -1421,7 +1449,15 @@ msgstr "%s хв"
 msgid "No favorite radios"
 msgstr "Немає улюблених радіо"
 
-#: ../lollypop/view_tracks.py:593
+#: ../lollypop/view_search.py:117
+msgid "<big>No results for this search</big>"
+msgstr ""
+
+#: ../lollypop/view_search.py:124
+msgid "<big>Search for artists, albums and tracks</big>"
+msgstr ""
+
+#: ../lollypop/view_tracks.py:601
 #, python-format
 msgid "Disc %s"
 msgstr "Диск %s"
@@ -1447,19 +1483,19 @@ msgstr "Додати до списку відтворення"
 msgid "Albums"
 msgstr "Альбоми"
 
-#: ../lollypop/widgets_indicator.py:96
+#: ../lollypop/widgets_indicator.py:51
 msgid "Remove from playlist"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:113
+#: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:118
+#: ../lollypop/widgets_loved.py:117
 msgid "Like"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:123
+#: ../lollypop/widgets_loved.py:122
 msgid "Disallow playback"
 msgstr ""
 

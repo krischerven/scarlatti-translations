@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 15:49+0100\n"
+"POT-Creation-Date: 2018-12-14 23:37+0100\n"
 "PO-Revision-Date: 2018-12-14 22:37+0000\n"
 "Last-Translator: Yannick A. <yannick.armand@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -414,6 +414,34 @@ msgstr "Support de HiDPI"
 msgid "TuneIn support"
 msgstr "Support de TuneIn"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:32
+msgid "New navigation mode when sidebar is off"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "New smart playlists"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:34
+msgid "Faster album loading"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:35
+msgid "Faster track loading"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:36
+msgid "Better sync to device"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:37
+msgid "Restore playback position on start"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:38
+msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Lecteur de musique"
@@ -427,7 +455,7 @@ msgid "Play/Pause"
 msgstr "Lecture/Pause"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:275
+#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:272
 msgid "Next"
 msgstr "Suivant"
 
@@ -464,7 +492,7 @@ msgstr "_A propos"
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: ../data/ArtistInformation.ui:104 ../lollypop/pop_menu.py:263
+#: ../data/ArtistInformation.ui:106 ../lollypop/pop_menu.py:263
 msgid "Show lyrics"
 msgstr "Afficher les paroles"
 
@@ -598,7 +626,7 @@ msgid "Clear queue"
 msgstr "Vider la file d'attente"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:373
-#: ../lollypop/toolbar_end.py:419
+#: ../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "File d'attente"
 
@@ -776,7 +804,7 @@ msgstr "<small>Vous devez activer \"Custom Search API\".</small>"
 
 #: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:126
 #: ../lollypop/playlists.py:440 ../lollypop/selectionlist.py:244
-#: ../lollypop/window.py:573 ../lollypop/window.py:574
+#: ../lollypop/window.py:551 ../lollypop/window.py:552
 msgid "Search"
 msgstr "Rechercher"
 
@@ -1102,9 +1130,9 @@ msgid "Many artists"
 msgstr "Plusieurs artistes"
 
 #: ../lollypop/fullscreen.py:233 ../lollypop/helper_overlay.py:115
-#: ../lollypop/miniplayer.py:132 ../lollypop/pop_information.py:180
-#: ../lollypop/toolbar_info.py:118 ../lollypop/view_artist.py:127
-#: ../lollypop/view_artist.py:137 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:118
+#: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
+#: ../lollypop/view_information.py:178 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
 msgstr "Vous utilisez un thème de curseur cassé !"
@@ -1114,13 +1142,13 @@ msgid "Change artwork"
 msgstr "Modifier la pochette"
 
 #: ../lollypop/helper_overlay.py:236 ../lollypop/view_artist.py:348
-#: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:105
+#: ../lollypop/widgets_context.py:87 ../lollypop/widgets_indicator.py:60
 msgid "Add to current playlist"
 msgstr "Ajouter à la liste de lecture courante"
 
 #: ../lollypop/helper_overlay.py:242 ../lollypop/view_albums_list.py:129
 #: ../lollypop/view_artist.py:355 ../lollypop/widgets_context.py:101
-#: ../lollypop/widgets_indicator.py:101
+#: ../lollypop/widgets_indicator.py:56
 msgid "Remove from current playlist"
 msgstr "Enlever de la liste de lecture courante"
 
@@ -1161,14 +1189,6 @@ msgstr "Jamais jouées"
 #: ../lollypop/playlists.py:438 ../lollypop/shown.py:81
 msgid "Random tracks"
 msgstr "Morceaux aléatoires"
-
-#: ../lollypop/pop_information.py:165
-msgid "Loading information"
-msgstr "Chargement des informations"
-
-#: ../lollypop/pop_information.py:216
-msgid "No information on this artist"
-msgstr "Pas d'informations sur cet artiste"
 
 #: ../lollypop/pop_menu.py:63
 msgid "Show albums from artist"
@@ -1230,14 +1250,6 @@ msgstr "Démarrage"
 msgid "Shown"
 msgstr "Affichés"
 
-#: ../lollypop/pop_search.py:104 ../lollypop/view_search.py:117
-msgid "<big>No results for this search</big>"
-msgstr "<big>Pas de résultats pour cette recherche</big>"
-
-#: ../lollypop/pop_search.py:111 ../lollypop/view_search.py:124
-msgid "<big>Search for artists, albums and tracks</big>"
-msgstr "<big>Recherchez des artistes, des albums et des morceaux</big>"
-
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:406
 msgid "Can't connect to TuneIn…"
 msgstr "Impossible de se connecter à TuneIn…"
@@ -1250,8 +1262,8 @@ msgstr "Ajouter"
 msgid "No result…"
 msgstr "Pas de résultats…"
 
-#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:576
-#: ../lollypop/window.py:577
+#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:554
+#: ../lollypop/window.py:555
 msgid "Current playlist"
 msgstr "Liste de lecture courante"
 
@@ -1336,15 +1348,15 @@ msgstr "Disques USB"
 msgid "Unplayed"
 msgstr "Jamais joué"
 
-#: ../lollypop/toolbar_end.py:271
+#: ../lollypop/toolbar_end.py:268
 msgid "All genres"
 msgstr "Tous les genres"
 
-#: ../lollypop/toolbar_end.py:421
+#: ../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "Listes de lecture en cours"
 
-#: ../lollypop/toolbar_end.py:423 ../lollypop/view_current_albums.py:52
+#: ../lollypop/toolbar_end.py:431 ../lollypop/view_current_albums.py:52
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
@@ -1395,11 +1407,27 @@ msgstr ""
 "Erreur inconnue lors de la synchronisation, essayez de redémarrer votre "
 "appareil"
 
+#: ../lollypop/view_information.py:163
+msgid "Loading information"
+msgstr "Chargement des informations"
+
+#: ../lollypop/view_information.py:214
+msgid "No information on this artist"
+msgstr "Pas d'informations sur cet artiste"
+
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
 msgstr "Chargement…"
 
-#: ../lollypop/view_lyrics.py:263
+#: ../lollypop/view_lyrics.py:130
+msgid "You need to install python3-textblob module"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:135
+msgid "Can't translate this lyrics"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
 msgstr "Pas de paroles trouvées "
 
@@ -1416,17 +1444,17 @@ msgstr "Nouvelle liste de lecture "
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:309
+#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:307
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:311
+#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:309
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:313
+#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:311
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1435,7 +1463,15 @@ msgstr "%s m"
 msgid "No favorite radios"
 msgstr "Pas de radios favorites"
 
-#: ../lollypop/view_tracks.py:593
+#: ../lollypop/view_search.py:117
+msgid "<big>No results for this search</big>"
+msgstr "<big>Pas de résultats pour cette recherche</big>"
+
+#: ../lollypop/view_search.py:124
+msgid "<big>Search for artists, albums and tracks</big>"
+msgstr "<big>Recherchez des artistes, des albums et des morceaux</big>"
+
+#: ../lollypop/view_tracks.py:601
 #, python-format
 msgid "Disc %s"
 msgstr "Disque %s"
@@ -1461,19 +1497,19 @@ msgstr "Ajouter à la liste de lecture"
 msgid "Albums"
 msgstr "Albums"
 
-#: ../lollypop/widgets_indicator.py:96
+#: ../lollypop/widgets_indicator.py:51
 msgid "Remove from playlist"
 msgstr "Supprimer de la liste de lecture"
 
-#: ../lollypop/widgets_loved.py:113
+#: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
 msgstr "Autoriser la lecture"
 
-#: ../lollypop/widgets_loved.py:118
+#: ../lollypop/widgets_loved.py:117
 msgid "Like"
 msgstr "Aimer"
 
-#: ../lollypop/widgets_loved.py:123
+#: ../lollypop/widgets_loved.py:122
 msgid "Disallow playback"
 msgstr "Ne pas autoriser la lecture"
 
