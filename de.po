@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-14 23:46+0100\n"
-"PO-Revision-Date: 2018-12-01 17:22+0000\n"
+"PO-Revision-Date: 2018-12-17 13:08+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "de/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -227,14 +227,18 @@ msgstr "Smarte Sortierung für Künstler"
 #: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
+"Z.B.: Die Beatles sortiert als Beatles. Zurücksetzen der Datenbank "
+"erforderlich"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
+"Sortier-Tag als Künstler anzeigen. Ein Reset der Datenbank kann erforderlich "
+"sein"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "Z.B.: Beatles, The"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -254,7 +258,7 @@ msgstr "Benachrichtigung bei Songwechsel deaktivieren"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Fullscreen album rotates"
-msgstr ""
+msgstr "Vollbild-Album dreht sich"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Show track number from tags"
@@ -328,7 +332,7 @@ msgstr "Spenden:"
 
 #: ../data/AboutDialog.ui.in:63 ../lollypop/container_donation.py:47
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
 msgid "PayPal"
@@ -420,31 +424,33 @@ msgstr "Unterstützung von TuneIn"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:32
 msgid "New navigation mode when sidebar is off"
-msgstr ""
+msgstr "Neuer Navigationsmodus wenn die Sidebar ausgeschaltet ist"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
 msgid "New smart playlists"
-msgstr ""
+msgstr "Neue intelligente Wiedergabelisten"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:34
 msgid "Faster album loading"
-msgstr ""
+msgstr "Schnelleres Laden von Alben"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:35
 msgid "Faster track loading"
-msgstr ""
+msgstr "Schnelleres Laden von Tracks"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:36
 msgid "Better sync to device"
-msgstr ""
+msgstr "Bessere Synchronisation mit Geräten"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:37
 msgid "Restore playback position on start"
-msgstr ""
+msgstr "Wiederherstellen der Wiedergabeposition beim Start"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:38
 msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
 msgstr ""
+"Besserer adaptiver Modus: Radiounterstützung, Schaltflächen in der "
+"Symbolleiste, Suche,...."
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -1268,7 +1274,7 @@ msgstr "Nichts gefunden…"
 #: ../lollypop/selectionlist.py:246 ../lollypop/window.py:554
 #: ../lollypop/window.py:555
 msgid "Current playlist"
-msgstr ""
+msgstr "Aktuelle Wiedergabeliste"
 
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
@@ -1424,11 +1430,11 @@ msgstr "Lade…"
 
 #: ../lollypop/view_lyrics.py:130
 msgid "You need to install python3-textblob module"
-msgstr ""
+msgstr "Sie müssen das python3-textblob-Modul installieren"
 
 #: ../lollypop/view_lyrics.py:135
 msgid "Can't translate this lyrics"
-msgstr ""
+msgstr "Dieser Text kann nicht übersetzt werden"
 
 #: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
@@ -1502,7 +1508,7 @@ msgstr "Alben"
 
 #: ../lollypop/widgets_indicator.py:51
 msgid "Remove from playlist"
-msgstr ""
+msgstr "Aus der Wiedergabeliste entfernen"
 
 #: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
