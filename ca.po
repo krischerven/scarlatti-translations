@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-14 23:46+0100\n"
+"POT-Creation-Date: 2018-12-17 22:36+0100\n"
 "PO-Revision-Date: 2018-10-20 08:24+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -493,7 +493,12 @@ msgstr "_Quant a"
 msgid "_Quit"
 msgstr "_Surt"
 
-#: ../data/ArtistInformation.ui:106 ../lollypop/pop_menu.py:263
+#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:89
+#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
+msgid "Turn on background data"
+msgstr "Permet la connexió de dades en segon pla"
+
+#: ../data/ArtistInformation.ui:154 ../lollypop/pop_menu.py:263
 msgid "Show lyrics"
 msgstr "Mostra la lletra"
 
@@ -501,7 +506,7 @@ msgstr "Mostra la lletra"
 msgid "Photo"
 msgstr "Foto"
 
-#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:148
+#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:135
 msgid "Play albums"
 msgstr "Reprodueix àlbums"
 
@@ -510,7 +515,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
 
-#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:60
+#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:77
 msgid "Similar artists"
 msgstr "Artistes semblants"
 
@@ -579,6 +584,10 @@ msgstr "AAC"
 #: ../data/DeviceManagerWidget.ui:202
 msgid "FLAC"
 msgstr "FLAC"
+
+#: ../data/LastfmPopover.ui:46
+msgid "No results"
+msgstr ""
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
@@ -721,10 +730,6 @@ msgstr "Sortida d'àudio"
 #: ../data/SettingsDialog.ui:420
 msgid "No audio device"
 msgstr "Cap dispositiu d'àudio"
-
-#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
-msgid "Turn on background data"
-msgstr "Permet la connexió de dades en segon pla"
 
 #: ../data/SettingsDialog.ui:496
 msgid "Configure Lollypop behaviour"
@@ -1133,7 +1138,7 @@ msgstr "Molts artistes"
 #: ../lollypop/fullscreen.py:233 ../lollypop/helper_overlay.py:115
 #: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:118
 #: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
-#: ../lollypop/view_information.py:178 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/view_information.py:188 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
 msgstr ""
@@ -1406,13 +1411,14 @@ msgstr "Àlbums sincronitzats"
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Error desconegut en sincronitzar. Proveu de reiniciar el dispositiu"
 
-#: ../lollypop/view_information.py:163
+#: ../lollypop/view_information.py:167 ../lollypop/view_information.py:236
+#, python-format
+msgid "No information for %s"
+msgstr ""
+
+#: ../lollypop/view_information.py:172 ../lollypop/view_information.py:200
 msgid "Loading information"
 msgstr "Carregant informació"
-
-#: ../lollypop/view_information.py:214
-msgid "No information on this artist"
-msgstr "Cap informació d'aquest artista"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1443,17 +1449,17 @@ msgstr "Llista nova "
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:307
+#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:316
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:309
+#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:318
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:311
+#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:320
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1552,6 +1558,9 @@ msgstr "Modifica ràdio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Reproduït %s cops"
+
+#~ msgid "No information on this artist"
+#~ msgstr "Cap informació d'aquest artista"
 
 #~ msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 #~ msgstr ""

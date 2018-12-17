@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-14 23:46+0100\n"
+"POT-Creation-Date: 2018-12-17 22:36+0100\n"
 "PO-Revision-Date: 2018-07-01 17:42+0000\n"
 "Last-Translator: Wilfer Daniel Ciro Maya <wilcirom@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -497,7 +497,12 @@ msgstr "_Acerca de"
 msgid "_Quit"
 msgstr "_Salir"
 
-#: ../data/ArtistInformation.ui:106 ../lollypop/pop_menu.py:263
+#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:89
+#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
+msgid "Turn on background data"
+msgstr "Activar datos de fondo"
+
+#: ../data/ArtistInformation.ui:154 ../lollypop/pop_menu.py:263
 msgid "Show lyrics"
 msgstr "Mostrar letra de la canción"
 
@@ -505,7 +510,7 @@ msgstr "Mostrar letra de la canción"
 msgid "Photo"
 msgstr "Foto"
 
-#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:148
+#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:135
 msgid "Play albums"
 msgstr "Reproducir álbumes"
 
@@ -514,7 +519,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Añadir a la actual lista de reproducción"
 
-#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:60
+#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:77
 msgid "Similar artists"
 msgstr "Artistas similares"
 
@@ -583,6 +588,10 @@ msgstr "AAC"
 #: ../data/DeviceManagerWidget.ui:202
 msgid "FLAC"
 msgstr "FLAC"
+
+#: ../data/LastfmPopover.ui:46
+msgid "No results"
+msgstr ""
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
@@ -725,10 +734,6 @@ msgstr "Previsualizar pistas en"
 #: ../data/SettingsDialog.ui:420
 msgid "No audio device"
 msgstr "Sin dispositivo de audio"
-
-#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
-msgid "Turn on background data"
-msgstr "Activar datos de fondo"
 
 #: ../data/SettingsDialog.ui:496
 msgid "Configure Lollypop behaviour"
@@ -1138,7 +1143,7 @@ msgstr "Muchos artistas"
 #: ../lollypop/fullscreen.py:233 ../lollypop/helper_overlay.py:115
 #: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:118
 #: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
-#: ../lollypop/view_information.py:178 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/view_information.py:188 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
 msgstr ""
@@ -1412,13 +1417,14 @@ msgid "Unknown error while syncing, try to reboot your device"
 msgstr ""
 "Error desconocido durante la sincronización, intente reiniciar el dispositivo"
 
-#: ../lollypop/view_information.py:163
+#: ../lollypop/view_information.py:167 ../lollypop/view_information.py:236
+#, python-format
+msgid "No information for %s"
+msgstr ""
+
+#: ../lollypop/view_information.py:172 ../lollypop/view_information.py:200
 msgid "Loading information"
 msgstr "Cargando información"
-
-#: ../lollypop/view_information.py:214
-msgid "No information on this artist"
-msgstr "No hay información del artista"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1449,17 +1455,17 @@ msgstr "Lista nueva "
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:307
+#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:316
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:309
+#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:318
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:311
+#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:320
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1558,6 +1564,9 @@ msgstr "Modificar radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Canción reproducida %s veces"
+
+#~ msgid "No information on this artist"
+#~ msgstr "No hay información del artista"
 
 #~ msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 #~ msgstr ""
