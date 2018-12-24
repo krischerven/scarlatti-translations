@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-17 22:36+0100\n"
-"PO-Revision-Date: 2018-12-17 13:08+0000\n"
+"PO-Revision-Date: 2018-12-25 18:08+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/nb_NO/>\n"
@@ -275,7 +275,7 @@ msgstr "Overgangsperiode"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:300
 msgid "Last.fm loved track status"
-msgstr ""
+msgstr "Last.fm elsket sporstatus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:305
 msgid "Shuffle mode"
@@ -410,7 +410,7 @@ msgstr "TuneIn-støtte"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:32
 msgid "New navigation mode when sidebar is off"
-msgstr ""
+msgstr "Nytt navigasjonsmodus når sidefeltet er avslått"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
 msgid "New smart playlists"
@@ -426,15 +426,16 @@ msgstr "Raskere sporinnlasting"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:36
 msgid "Better sync to device"
-msgstr ""
+msgstr "Bedre synkronisering til enhet"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:37
 msgid "Restore playback position on start"
 msgstr "Gjenoppretting av avspillingsposisjon ved start"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:38
+#, fuzzy
 msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
-msgstr ""
+msgstr "Bedre adaptivt modus: Radiostøtte, verktøysknapper, søk, …"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -580,7 +581,7 @@ msgstr "FLAC"
 
 #: ../data/LastfmPopover.ui:46
 msgid "No results"
-msgstr ""
+msgstr "Resultatløst"
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
@@ -617,8 +618,9 @@ msgid "Play"
 msgstr "Spill"
 
 #: ../data/PlaylistView.ui:159
+#, fuzzy
 msgid "Play playlist randomized"
-msgstr ""
+msgstr "Tilfedlig avspilling i spilleliste"
 
 #: ../data/PlaylistView.ui:176
 msgid "Configure smart playlist"
@@ -973,36 +975,38 @@ msgid "artist"
 msgstr "artist"
 
 #: ../data/SmartPlaylistView.ui:139
+#, fuzzy
 msgid "year DESC"
-msgstr ""
+msgstr "år ↓"
 
 #: ../data/SmartPlaylistView.ui:140
 msgid "year ASC"
-msgstr ""
+msgstr "år ↑"
 
 #: ../data/SmartPlaylistView.ui:141
 msgid "duration DESC"
-msgstr ""
+msgstr "varighet ↓"
 
 #: ../data/SmartPlaylistView.ui:142
 msgid "duration ASC"
-msgstr ""
+msgstr "varighet ↑"
 
 #: ../data/SmartPlaylistView.ui:185
 msgid "Match music for "
-msgstr ""
+msgstr "Passende musikk for "
 
 #: ../data/SmartPlaylistView.ui:210
 msgid "all"
-msgstr ""
+msgstr "alle"
 
 #: ../data/SmartPlaylistView.ui:211
 msgid "one"
-msgstr ""
+msgstr "én"
 
 #: ../data/SmartPlaylistView.ui:226
+#, fuzzy
 msgid "of the following rules :"
-msgstr ""
+msgstr "av følgende regler:"
 
 #: ../data/SmartPlaylistWidget.ui:28
 msgid "Genre"
@@ -1265,7 +1269,7 @@ msgstr "Ingen resultat…"
 #: ../lollypop/selectionlist.py:246 ../lollypop/window.py:554
 #: ../lollypop/window.py:555
 msgid "Current playlist"
-msgstr ""
+msgstr "Nåværende spilleliste"
 
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
@@ -1406,9 +1410,9 @@ msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Ukjent feil ved synkronisering, prøv å starte din enhet på ny"
 
 #: ../lollypop/view_information.py:167 ../lollypop/view_information.py:236
-#, python-format
+#, fuzzy, python-format
 msgid "No information for %s"
-msgstr ""
+msgstr "Ingen info for %s"
 
 #: ../lollypop/view_information.py:172 ../lollypop/view_information.py:200
 msgid "Loading information"
@@ -1420,11 +1424,12 @@ msgstr "Laster…"
 
 #: ../lollypop/view_lyrics.py:130
 msgid "You need to install python3-textblob module"
-msgstr ""
+msgstr "Du må installere python3-textblob-modulen"
 
 #: ../lollypop/view_lyrics.py:135
+#, fuzzy
 msgid "Can't translate this lyrics"
-msgstr ""
+msgstr "Kan ikke oversette disse sangtekstene"
 
 #: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
@@ -1502,15 +1507,16 @@ msgstr "Fjern fra spilleliste"
 
 #: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
-msgstr ""
+msgstr "Tillat avspilling"
 
 #: ../lollypop/widgets_loved.py:117
+#, fuzzy
 msgid "Like"
-msgstr ""
+msgstr "Lik"
 
 #: ../lollypop/widgets_loved.py:122
 msgid "Disallow playback"
-msgstr ""
+msgstr "Ikke tillat avspilling"
 
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
@@ -1522,27 +1528,28 @@ msgstr "Rediger spilleliste"
 
 #: ../lollypop/widgets_playlist_smart.py:161
 msgid "is equal to"
-msgstr ""
+msgstr "er lik"
 
 #: ../lollypop/widgets_playlist_smart.py:162
 msgid "is not equal to"
-msgstr ""
+msgstr "er ikke lik"
 
 #: ../lollypop/widgets_playlist_smart.py:164
+#, fuzzy
 msgid "contains "
-msgstr ""
+msgstr "inneholder "
 
 #: ../lollypop/widgets_playlist_smart.py:165
 msgid "does not contain"
-msgstr ""
+msgstr "inneholder ikke"
 
 #: ../lollypop/widgets_playlist_smart.py:167
 msgid "is greater than"
-msgstr ""
+msgstr "er større enn"
 
 #: ../lollypop/widgets_playlist_smart.py:168
 msgid "is less than"
-msgstr ""
+msgstr "er mindre enn"
 
 #: ../lollypop/widgets_radio.py:204
 msgid "Modify radio"
