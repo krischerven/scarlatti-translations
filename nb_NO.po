@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-17 22:36+0100\n"
+"POT-Creation-Date: 2018-12-26 23:29+0100\n"
 "PO-Revision-Date: 2018-12-25 18:08+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -317,11 +317,15 @@ msgstr "Allan Nordhøy <epost@anotheragency.no>"
 msgid "Donations:"
 msgstr "Donasjoner:"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:63
+msgid "Liberapay"
+msgstr "Liberapay"
+
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container_donation.py:47
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -450,7 +454,7 @@ msgid "Play/Pause"
 msgstr "Spill/pause"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:272
+#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:273
 msgid "Next"
 msgstr "Neste"
 
@@ -487,12 +491,12 @@ msgstr "_Om"
 msgid "_Quit"
 msgstr "_Avslutt"
 
-#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:89
+#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
 #: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
 msgid "Turn on background data"
 msgstr "Skru på bakgrunnsdata"
 
-#: ../data/ArtistInformation.ui:154 ../lollypop/pop_menu.py:263
+#: ../data/ArtistInformation.ui:156 ../lollypop/pop_menu.py:263
 msgid "Show lyrics"
 msgstr "Vis sangtekster"
 
@@ -504,17 +508,17 @@ msgstr "Bilde"
 msgid "Play albums"
 msgstr "Spill av album"
 
-#: ../data/ArtistView.ui:117
+#: ../data/ArtistView.ui:120
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Legg til i gjeldende spilleliste"
 
-#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:77
+#: ../data/ArtistView.ui:138 ../data/LastfmPopover.ui:77
 msgid "Similar artists"
 msgstr "Lignende artister"
 
-#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:83
-#: ../lollypop/view_artist.py:46 ../lollypop/view_current_albums.py:50
+#: ../data/ArtistView.ui:157 ../data/PlaylistView.ui:83
+#: ../lollypop/view_artist.py:46 ../lollypop/view_current_albums.py:55
 msgid "Go to current track"
 msgstr "Gå til nåværende spor"
 
@@ -523,7 +527,8 @@ msgstr "Gå til nåværende spor"
 msgid "Select a local file"
 msgstr "Velg ei lokal fil"
 
-#: ../data/ArtworkSearch.ui:136 ../data/SettingsDialog.ui:542
+#: ../data/ArtworkSearch.ui:136 ../data/PlaylistEditWidget.ui:46
+#: ../data/SettingsDialog.ui:542
 msgid "Confirm"
 msgstr "Bekreft"
 
@@ -596,19 +601,19 @@ msgid "Name:"
 msgstr "Navn:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/view_playlists.py:177
+#: ../data/SmartPlaylistView.ui:147 ../lollypop/view_playlists.py:179
 msgid "Save"
 msgstr "Lagre"
 
-#: ../data/PlaylistView.ui:99
+#: ../data/PlaylistView.ui:103
 msgid "Unsplit view"
 msgstr "Sammenfatt visning"
 
-#: ../data/PlaylistView.ui:128 ../lollypop/view_playlists.py:174
+#: ../data/PlaylistView.ui:136 ../lollypop/view_playlists.py:176
 msgid "Save playlist"
 msgstr "Lagre spilleliste"
 
-#: ../data/PlaylistView.ui:143 ../data/SearchView.ui:110
+#: ../data/PlaylistView.ui:155 ../data/SearchView.ui:115
 #: ../data/ToolbarPlayback.ui:84 ../lollypop/controller_playback.py:92
 #: ../lollypop/controller_playback.py:111 ../lollypop/helper_overlay.py:166
 #: ../lollypop/pop_tunein.py:200 ../lollypop/view_albums_list.py:126
@@ -617,21 +622,21 @@ msgstr "Lagre spilleliste"
 msgid "Play"
 msgstr "Spill"
 
-#: ../data/PlaylistView.ui:159
+#: ../data/PlaylistView.ui:175
 #, fuzzy
 msgid "Play playlist randomized"
 msgstr "Tilfedlig avspilling i spilleliste"
 
-#: ../data/PlaylistView.ui:176
-msgid "Configure smart playlist"
-msgstr "Sett opp smart spilleliste"
+#: ../data/PlaylistView.ui:197 ../data/ToolbarEnd.ui:13
+msgid "Configure"
+msgstr "Sett opp"
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
 msgstr "Tøm kø"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:373
-#: ../lollypop/toolbar_end.py:427
+#: ../lollypop/toolbar_end.py:428
 msgid "Queue"
 msgstr "Kø"
 
@@ -659,7 +664,7 @@ msgstr "Ny radiostasjon"
 msgid "Search in TuneIn"
 msgstr "Søk i TuneIn"
 
-#: ../data/SearchView.ui:50 ../lollypop/view_current_albums.py:42
+#: ../data/SearchView.ui:50 ../lollypop/view_current_albums.py:45
 msgid "Create a new playlist"
 msgstr "Opprett en ny spilleliste"
 
@@ -954,56 +959,56 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Skru på/av skrobbling"
 
-#: ../data/SmartPlaylistView.ui:94
+#: ../data/SmartPlaylistView.ui:88
 msgid "Limit to"
 msgstr "Begrens til"
 
-#: ../data/SmartPlaylistView.ui:121
+#: ../data/SmartPlaylistView.ui:115
 msgid "tracks selected by"
 msgstr "spor valgt av"
 
-#: ../data/SmartPlaylistView.ui:136
+#: ../data/SmartPlaylistView.ui:130
 msgid "random"
 msgstr "tilfeldig"
 
-#: ../data/SmartPlaylistView.ui:137
+#: ../data/SmartPlaylistView.ui:131
 msgid "album"
 msgstr "album"
 
-#: ../data/SmartPlaylistView.ui:138
+#: ../data/SmartPlaylistView.ui:132
 msgid "artist"
 msgstr "artist"
 
-#: ../data/SmartPlaylistView.ui:139
+#: ../data/SmartPlaylistView.ui:133
 #, fuzzy
 msgid "year DESC"
 msgstr "år ↓"
 
-#: ../data/SmartPlaylistView.ui:140
+#: ../data/SmartPlaylistView.ui:134
 msgid "year ASC"
 msgstr "år ↑"
 
-#: ../data/SmartPlaylistView.ui:141
+#: ../data/SmartPlaylistView.ui:135
 msgid "duration DESC"
 msgstr "varighet ↓"
 
-#: ../data/SmartPlaylistView.ui:142
+#: ../data/SmartPlaylistView.ui:136
 msgid "duration ASC"
 msgstr "varighet ↑"
 
-#: ../data/SmartPlaylistView.ui:185
-msgid "Match music for "
-msgstr "Passende musikk for "
+#: ../data/SmartPlaylistView.ui:179 ../lollypop/view_playlist_smart.py:216
+msgid "Smart playlist"
+msgstr ""
 
-#: ../data/SmartPlaylistView.ui:210
+#: ../data/SmartPlaylistView.ui:202
 msgid "all"
 msgstr "alle"
 
-#: ../data/SmartPlaylistView.ui:211
+#: ../data/SmartPlaylistView.ui:203
 msgid "one"
 msgstr "én"
 
-#: ../data/SmartPlaylistView.ui:226
+#: ../data/SmartPlaylistView.ui:218
 #, fuzzy
 msgid "of the following rules :"
 msgstr "av følgende regler:"
@@ -1027,10 +1032,6 @@ msgstr "Festmodus"
 #: ../data/ToolbarEnd.ui:9
 msgid "Enable party mode"
 msgstr "Skru på festmodus"
-
-#: ../data/ToolbarEnd.ui:13
-msgid "Configure"
-msgstr "Sett opp"
 
 #: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
@@ -1133,10 +1134,10 @@ msgstr "Lydstyrke"
 msgid "Many artists"
 msgstr "Mange artister"
 
-#: ../lollypop/fullscreen.py:233 ../lollypop/helper_overlay.py:115
-#: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:118
+#: ../lollypop/fullscreen.py:235 ../lollypop/helper_overlay.py:115
+#: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:110
 #: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
-#: ../lollypop/view_information.py:188 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/view_information.py:175 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
 msgstr "Du bruker en knekt pekerdrakt!"
@@ -1352,15 +1353,15 @@ msgstr "USB-medium"
 msgid "Unplayed"
 msgstr "Uspilt"
 
-#: ../lollypop/toolbar_end.py:268
+#: ../lollypop/toolbar_end.py:269
 msgid "All genres"
 msgstr "Alle sjangere"
 
-#: ../lollypop/toolbar_end.py:429
+#: ../lollypop/toolbar_end.py:430
 msgid "Playing playlists"
 msgstr "Spillelister som spilles"
 
-#: ../lollypop/toolbar_end.py:431 ../lollypop/view_current_albums.py:52
+#: ../lollypop/toolbar_end.py:432 ../lollypop/view_current_albums.py:57
 msgid "Playing albums"
 msgstr "Album som spilles"
 
@@ -1409,14 +1410,14 @@ msgstr "Synkroniserte album"
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Ukjent feil ved synkronisering, prøv å starte din enhet på ny"
 
-#: ../lollypop/view_information.py:167 ../lollypop/view_information.py:236
+#: ../lollypop/view_information.py:187 ../lollypop/view_information.py:300
+msgid "Loading information"
+msgstr "Laster informasjon"
+
+#: ../lollypop/view_information.py:224 ../lollypop/view_information.py:295
 #, fuzzy, python-format
 msgid "No information for %s"
 msgstr "Ingen info for %s"
-
-#: ../lollypop/view_information.py:172 ../lollypop/view_information.py:200
-msgid "Loading information"
-msgstr "Laster informasjon"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1444,21 +1445,25 @@ msgstr "Ny spilleliste"
 msgid "New playlist "
 msgstr "Ny spilleliste "
 
-#: ../lollypop/view_playlists.py:178
+#: ../lollypop/view_playlist_smart.py:209
+msgid "Match music for "
+msgstr "Passende musikk for "
+
+#: ../lollypop/view_playlists.py:180
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:316
+#: ../lollypop/view_playlists.py:249 ../lollypop/widgets_album_detailed.py:316
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s t %s m"
 
-#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:318
+#: ../lollypop/view_playlists.py:252 ../lollypop/widgets_album_detailed.py:318
 #, python-format
 msgid "%s h"
 msgstr "%s t"
 
-#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:320
+#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:320
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1518,6 +1523,10 @@ msgstr "Lik"
 msgid "Disallow playback"
 msgstr "Ikke tillat avspilling"
 
+#: ../lollypop/widgets_playlist_edit.py:115
+msgid "Remove?"
+msgstr ""
+
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
 msgstr "Fjern"
@@ -1560,6 +1569,9 @@ msgstr "Modifiser radiostasjon"
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
 
+#~ msgid "Configure smart playlist"
+#~ msgstr "Sett opp smart spilleliste"
+
 #~ msgid "No information on this artist"
 #~ msgstr "Ingen informasjon om denne artisten"
 
@@ -1571,9 +1583,6 @@ msgstr "Sang spilt %s ganger"
 
 #~ msgid "Restart current track on previous"
 #~ msgstr "Start gjeldende spor på tidligere"
-
-#~ msgid "Liberapay"
-#~ msgstr "Liberapay"
 
 #~ msgid "Fix a crash in artist view"
 #~ msgstr "Kræsj i artistvisning fikset"

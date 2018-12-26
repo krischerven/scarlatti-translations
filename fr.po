@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-17 22:36+0100\n"
+"POT-Creation-Date: 2018-12-26 23:29+0100\n"
 "PO-Revision-Date: 2018-12-17 21:40+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -318,11 +318,15 @@ msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgid "Donations:"
 msgstr "Donations :"
 
-#: ../data/AboutDialog.ui.in:63 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:63
+msgid "Liberapay"
+msgstr "Liberapay"
+
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container_donation.py:47
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -455,7 +459,7 @@ msgid "Play/Pause"
 msgstr "Lecture/Pause"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:272
+#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:273
 msgid "Next"
 msgstr "Suivant"
 
@@ -492,12 +496,12 @@ msgstr "_A propos"
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:89
+#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
 #: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
 msgid "Turn on background data"
 msgstr "Autoriser la connexion des données en arrière plan"
 
-#: ../data/ArtistInformation.ui:154 ../lollypop/pop_menu.py:263
+#: ../data/ArtistInformation.ui:156 ../lollypop/pop_menu.py:263
 msgid "Show lyrics"
 msgstr "Afficher les paroles"
 
@@ -509,17 +513,17 @@ msgstr "Photo"
 msgid "Play albums"
 msgstr "Lire les albums"
 
-#: ../data/ArtistView.ui:117
+#: ../data/ArtistView.ui:120
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Ajouter à la liste de lecture courante"
 
-#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:77
+#: ../data/ArtistView.ui:138 ../data/LastfmPopover.ui:77
 msgid "Similar artists"
 msgstr "Artistes similaires"
 
-#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:83
-#: ../lollypop/view_artist.py:46 ../lollypop/view_current_albums.py:50
+#: ../data/ArtistView.ui:157 ../data/PlaylistView.ui:83
+#: ../lollypop/view_artist.py:46 ../lollypop/view_current_albums.py:55
 msgid "Go to current track"
 msgstr "Aller au morceau courant"
 
@@ -528,7 +532,8 @@ msgstr "Aller au morceau courant"
 msgid "Select a local file"
 msgstr "Utiliser un fichier local"
 
-#: ../data/ArtworkSearch.ui:136 ../data/SettingsDialog.ui:542
+#: ../data/ArtworkSearch.ui:136 ../data/PlaylistEditWidget.ui:46
+#: ../data/SettingsDialog.ui:542
 msgid "Confirm"
 msgstr "Confirmer"
 
@@ -601,19 +606,19 @@ msgid "Name:"
 msgstr "Nom:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/view_playlists.py:177
+#: ../data/SmartPlaylistView.ui:147 ../lollypop/view_playlists.py:179
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../data/PlaylistView.ui:99
+#: ../data/PlaylistView.ui:103
 msgid "Unsplit view"
 msgstr "Fusionner la vue"
 
-#: ../data/PlaylistView.ui:128 ../lollypop/view_playlists.py:174
+#: ../data/PlaylistView.ui:136 ../lollypop/view_playlists.py:176
 msgid "Save playlist"
 msgstr "Enregistrer la liste de lecture"
 
-#: ../data/PlaylistView.ui:143 ../data/SearchView.ui:110
+#: ../data/PlaylistView.ui:155 ../data/SearchView.ui:115
 #: ../data/ToolbarPlayback.ui:84 ../lollypop/controller_playback.py:92
 #: ../lollypop/controller_playback.py:111 ../lollypop/helper_overlay.py:166
 #: ../lollypop/pop_tunein.py:200 ../lollypop/view_albums_list.py:126
@@ -622,20 +627,20 @@ msgstr "Enregistrer la liste de lecture"
 msgid "Play"
 msgstr "Lire"
 
-#: ../data/PlaylistView.ui:159
+#: ../data/PlaylistView.ui:175
 msgid "Play playlist randomized"
 msgstr "Lecture aléatoire de la liste de lecture"
 
-#: ../data/PlaylistView.ui:176
-msgid "Configure smart playlist"
-msgstr "Configurer les listes de lecture intelligentes"
+#: ../data/PlaylistView.ui:197 ../data/ToolbarEnd.ui:13
+msgid "Configure"
+msgstr "Configurer"
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
 msgstr "Vider la file d'attente"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:373
-#: ../lollypop/toolbar_end.py:427
+#: ../lollypop/toolbar_end.py:428
 msgid "Queue"
 msgstr "File d'attente"
 
@@ -663,7 +668,7 @@ msgstr "Nouvelle radio"
 msgid "Search in TuneIn"
 msgstr "Rechercher dans TuneIn"
 
-#: ../data/SearchView.ui:50 ../lollypop/view_current_albums.py:42
+#: ../data/SearchView.ui:50 ../lollypop/view_current_albums.py:45
 msgid "Create a new playlist"
 msgstr "Créer une nouvelle liste de lecture"
 
@@ -957,55 +962,55 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Activer/Désactiver le scrobbler"
 
-#: ../data/SmartPlaylistView.ui:94
+#: ../data/SmartPlaylistView.ui:88
 msgid "Limit to"
 msgstr "Limité à"
 
-#: ../data/SmartPlaylistView.ui:121
+#: ../data/SmartPlaylistView.ui:115
 msgid "tracks selected by"
 msgstr "avec sélection par"
 
-#: ../data/SmartPlaylistView.ui:136
+#: ../data/SmartPlaylistView.ui:130
 msgid "random"
 msgstr "aléatoire"
 
-#: ../data/SmartPlaylistView.ui:137
+#: ../data/SmartPlaylistView.ui:131
 msgid "album"
 msgstr "album"
 
-#: ../data/SmartPlaylistView.ui:138
+#: ../data/SmartPlaylistView.ui:132
 msgid "artist"
 msgstr "artiste"
 
-#: ../data/SmartPlaylistView.ui:139
+#: ../data/SmartPlaylistView.ui:133
 msgid "year DESC"
 msgstr "année décroissante"
 
-#: ../data/SmartPlaylistView.ui:140
+#: ../data/SmartPlaylistView.ui:134
 msgid "year ASC"
 msgstr "année croissante"
 
-#: ../data/SmartPlaylistView.ui:141
+#: ../data/SmartPlaylistView.ui:135
 msgid "duration DESC"
 msgstr "durée décroissante"
 
-#: ../data/SmartPlaylistView.ui:142
+#: ../data/SmartPlaylistView.ui:136
 msgid "duration ASC"
 msgstr "durée croissante"
 
-#: ../data/SmartPlaylistView.ui:185
-msgid "Match music for "
-msgstr "Choisir de la musique pour "
+#: ../data/SmartPlaylistView.ui:179 ../lollypop/view_playlist_smart.py:216
+msgid "Smart playlist"
+msgstr ""
 
-#: ../data/SmartPlaylistView.ui:210
+#: ../data/SmartPlaylistView.ui:202
 msgid "all"
 msgstr "toutes les"
 
-#: ../data/SmartPlaylistView.ui:211
+#: ../data/SmartPlaylistView.ui:203
 msgid "one"
 msgstr "n'importe laquelle des"
 
-#: ../data/SmartPlaylistView.ui:226
+#: ../data/SmartPlaylistView.ui:218
 msgid "of the following rules :"
 msgstr "règles suivantes :"
 
@@ -1028,10 +1033,6 @@ msgstr "Mode soirée"
 #: ../data/ToolbarEnd.ui:9
 msgid "Enable party mode"
 msgstr "Activer le mode soirée"
-
-#: ../data/ToolbarEnd.ui:13
-msgid "Configure"
-msgstr "Configurer"
 
 #: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
@@ -1134,10 +1135,10 @@ msgstr "Volume"
 msgid "Many artists"
 msgstr "Plusieurs artistes"
 
-#: ../lollypop/fullscreen.py:233 ../lollypop/helper_overlay.py:115
-#: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:118
+#: ../lollypop/fullscreen.py:235 ../lollypop/helper_overlay.py:115
+#: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:110
 #: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
-#: ../lollypop/view_information.py:188 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/view_information.py:175 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
 msgstr "Vous utilisez un thème de curseur cassé !"
@@ -1353,15 +1354,15 @@ msgstr "Disques USB"
 msgid "Unplayed"
 msgstr "Jamais joué"
 
-#: ../lollypop/toolbar_end.py:268
+#: ../lollypop/toolbar_end.py:269
 msgid "All genres"
 msgstr "Tous les genres"
 
-#: ../lollypop/toolbar_end.py:429
+#: ../lollypop/toolbar_end.py:430
 msgid "Playing playlists"
 msgstr "Listes de lecture en cours"
 
-#: ../lollypop/toolbar_end.py:431 ../lollypop/view_current_albums.py:52
+#: ../lollypop/toolbar_end.py:432 ../lollypop/view_current_albums.py:57
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
@@ -1412,14 +1413,14 @@ msgstr ""
 "Erreur inconnue lors de la synchronisation, essayez de redémarrer votre "
 "appareil"
 
-#: ../lollypop/view_information.py:167 ../lollypop/view_information.py:236
+#: ../lollypop/view_information.py:187 ../lollypop/view_information.py:300
+msgid "Loading information"
+msgstr "Chargement des informations"
+
+#: ../lollypop/view_information.py:224 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "Pas d'informations pour %s"
-
-#: ../lollypop/view_information.py:172 ../lollypop/view_information.py:200
-msgid "Loading information"
-msgstr "Chargement des informations"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1446,21 +1447,25 @@ msgstr "Nouvelle liste de lecture"
 msgid "New playlist "
 msgstr "Nouvelle liste de lecture "
 
-#: ../lollypop/view_playlists.py:178
+#: ../lollypop/view_playlist_smart.py:209
+msgid "Match music for "
+msgstr "Choisir de la musique pour "
+
+#: ../lollypop/view_playlists.py:180
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../lollypop/view_playlists.py:247 ../lollypop/widgets_album_detailed.py:316
+#: ../lollypop/view_playlists.py:249 ../lollypop/widgets_album_detailed.py:316
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/view_playlists.py:250 ../lollypop/widgets_album_detailed.py:318
+#: ../lollypop/view_playlists.py:252 ../lollypop/widgets_album_detailed.py:318
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:253 ../lollypop/widgets_album_detailed.py:320
+#: ../lollypop/view_playlists.py:255 ../lollypop/widgets_album_detailed.py:320
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1519,6 +1524,10 @@ msgstr "Aimer"
 msgid "Disallow playback"
 msgstr "Ne pas autoriser la lecture"
 
+#: ../lollypop/widgets_playlist_edit.py:115
+msgid "Remove?"
+msgstr ""
+
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
 msgstr "Enlever"
@@ -1560,6 +1569,9 @@ msgstr "Modifier la radio"
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
 
+#~ msgid "Configure smart playlist"
+#~ msgstr "Configurer les listes de lecture intelligentes"
+
 #~ msgid "No information on this artist"
 #~ msgstr "Pas d'informations sur cet artiste"
 
@@ -1573,9 +1585,6 @@ msgstr "Morceau joué %s fois"
 
 #~ msgid "Restart current track on previous"
 #~ msgstr "Redémarrer le morceau courant pour précédent"
-
-#~ msgid "Liberapay"
-#~ msgstr "Liberapay"
 
 #~ msgid "year"
 #~ msgstr "année"
