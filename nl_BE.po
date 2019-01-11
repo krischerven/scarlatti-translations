@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-26 23:31+0100\n"
-"PO-Revision-Date: 2018-10-12 10:27+0000\n"
+"PO-Revision-Date: 2019-01-12 21:06+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "nl_BE/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.1\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -193,7 +193,7 @@ msgstr "Vensterdecoraties aan cliëntzijde (headerbar) uitschakelen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable scrobbling usage"
-msgstr ""
+msgstr "Gebruik van scrobblen uitschakelen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Handle compilations"
@@ -215,14 +215,18 @@ msgstr "Artiesten slim sorteren"
 #: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
+"Bv.: The Beatles worden gesorteerd als Beatles. Opnieuw instellen van "
+"databank vereist"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
+"Sorteertag weergeven als artiest. Mogelijk opnieuw instellen van databank "
+"vereist"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "Bv.: Beatles, The"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -242,7 +246,7 @@ msgstr "Meldingen bij nummerwijzigingen uitschakelen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Fullscreen album rotates"
-msgstr ""
+msgstr "Volledigschermalbum draait mee"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Show track number from tags"
@@ -270,7 +274,7 @@ msgstr "Overgangsduur"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:300
 msgid "Last.fm loved track status"
-msgstr ""
+msgstr "Last.fm-‘loved’-nummerstatus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:305
 msgid "Shuffle mode"
@@ -320,7 +324,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:83 ../lollypop/container_donation.py:47
 msgid "PayPal"
@@ -416,31 +420,32 @@ msgstr "TuneIn-ondersteuning"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:32
 msgid "New navigation mode when sidebar is off"
-msgstr ""
+msgstr "Nieuwe navigatiemodus wanneer dat de zijbalk uitgeschakeld is"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
 msgid "New smart playlists"
-msgstr ""
+msgstr "Nieuwe slimme afspeellijsten"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:34
 msgid "Faster album loading"
-msgstr ""
+msgstr "Albums laden rapper"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:35
 msgid "Faster track loading"
-msgstr ""
+msgstr "Nummers laden rapper"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:36
 msgid "Better sync to device"
-msgstr ""
+msgstr "Verbeterde synchronisatie met apparaten"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:37
 msgid "Restore playback position on start"
-msgstr ""
+msgstr "Afspeelpositie herstellen bij opstarten"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:38
 msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
 msgstr ""
+"Verbeterde adaptieve modus: radio-ondersteuning, werkbalkknoppen, zoeken, …"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -587,7 +592,7 @@ msgstr "FLAC"
 
 #: ../data/LastfmPopover.ui:46
 msgid "No results"
-msgstr ""
+msgstr "Geen resultaten"
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
@@ -625,11 +630,11 @@ msgstr "Afspelen"
 
 #: ../data/PlaylistView.ui:175
 msgid "Play playlist randomized"
-msgstr ""
+msgstr "Afspeellijst willekeurig afspelen"
 
 #: ../data/PlaylistView.ui:197 ../data/ToolbarEnd.ui:13
 msgid "Configure"
-msgstr ""
+msgstr "Instellen"
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -955,71 +960,71 @@ msgstr "Doorspoelen in nummer"
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
-msgstr ""
+msgstr "Scrobblen in-/uitschakelen"
 
 #: ../data/SmartPlaylistView.ui:88
 msgid "Limit to"
-msgstr ""
+msgstr "Beperken tot"
 
 #: ../data/SmartPlaylistView.ui:115
 msgid "tracks selected by"
-msgstr ""
+msgstr "nummers geselecteerd op"
 
 #: ../data/SmartPlaylistView.ui:130
 msgid "random"
-msgstr ""
+msgstr "willekeurig"
 
 #: ../data/SmartPlaylistView.ui:131
 msgid "album"
-msgstr ""
+msgstr "album"
 
 #: ../data/SmartPlaylistView.ui:132
 msgid "artist"
-msgstr ""
+msgstr "artiest"
 
 #: ../data/SmartPlaylistView.ui:133
 msgid "year DESC"
-msgstr ""
+msgstr "jaar ↓"
 
 #: ../data/SmartPlaylistView.ui:134
 msgid "year ASC"
-msgstr ""
+msgstr "jaar ↑"
 
 #: ../data/SmartPlaylistView.ui:135
 msgid "duration DESC"
-msgstr ""
+msgstr "duur ↓"
 
 #: ../data/SmartPlaylistView.ui:136
 msgid "duration ASC"
-msgstr ""
+msgstr "duur ↑"
 
 #: ../data/SmartPlaylistView.ui:179 ../lollypop/view_playlist_smart.py:216
 msgid "Smart playlist"
-msgstr ""
+msgstr "Slimmen afspeellijst"
 
 #: ../data/SmartPlaylistView.ui:202
 msgid "all"
-msgstr ""
+msgstr "al"
 
 #: ../data/SmartPlaylistView.ui:203
 msgid "one"
-msgstr ""
+msgstr "één van"
 
 #: ../data/SmartPlaylistView.ui:218
 msgid "of the following rules :"
-msgstr ""
+msgstr "volgende regels:"
 
 #: ../data/SmartPlaylistWidget.ui:28
 msgid "Genre"
-msgstr ""
+msgstr "Genre"
 
 #: ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
-msgstr ""
+msgstr "Album"
 
 #: ../data/SmartPlaylistWidget.ui:31
 msgid "Rating"
-msgstr ""
+msgstr "Waardering"
 
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
@@ -1063,11 +1068,11 @@ msgstr "Niet herhalen"
 
 #: ../data/ToolbarEnd.ui:53
 msgid "Scrobbling"
-msgstr ""
+msgstr "Scrobblen"
 
 #: ../data/ToolbarEnd.ui:55
 msgid "Enable scrobbling"
-msgstr ""
+msgstr "Scrobblen inschakelen"
 
 #: ../data/ToolbarEnd.ui:100
 msgid "Playback type"
@@ -1136,7 +1141,7 @@ msgstr "Meerdere artiesten"
 #: ../lollypop/view_information.py:175 ../lollypop/widgets_albums_decade.py:159
 #: ../lollypop/widgets_artist_rounded.py:119
 msgid "You are using a broken cursor theme!"
-msgstr ""
+msgstr "Ge gebruikt een kapot cursorthema!"
 
 #: ../lollypop/helper_overlay.py:180
 msgid "Change artwork"
@@ -1237,7 +1242,7 @@ msgstr "Bewerken"
 
 #: ../lollypop/pop_menu.py:400
 msgid "%Y-%m-%d"
-msgstr ""
+msgstr "%d-%m-%Y"
 
 #: ../lollypop/pop_menu_views.py:60
 msgid "Default on startup"
@@ -1266,7 +1271,7 @@ msgstr "Geen resultaten…"
 #: ../lollypop/selectionlist.py:246 ../lollypop/window.py:554
 #: ../lollypop/window.py:555
 msgid "Current playlist"
-msgstr ""
+msgstr "Huidigen afspeellijst"
 
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
@@ -1371,7 +1376,7 @@ msgstr "Compilatie"
 
 #: ../lollypop/view_albums_list.py:151
 msgid "Go to artist view"
-msgstr ""
+msgstr "Ga naar artiestweergave"
 
 #: ../lollypop/view_artist.py:55
 msgid "Network access disabled"
@@ -1413,7 +1418,7 @@ msgstr "Bezig met laden van informatie"
 #: ../lollypop/view_information.py:224 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
-msgstr ""
+msgstr "Geen informatie over %s"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1421,11 +1426,11 @@ msgstr "Bezig met laden…"
 
 #: ../lollypop/view_lyrics.py:130
 msgid "You need to install python3-textblob module"
-msgstr ""
+msgstr "Ge moet python3-textblob-module installeren"
 
 #: ../lollypop/view_lyrics.py:135
 msgid "Can't translate this lyrics"
-msgstr ""
+msgstr "Kan deze songtekst niet vertalen"
 
 #: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
@@ -1442,7 +1447,7 @@ msgstr "Nieuwen afspeellijst "
 
 #: ../lollypop/view_playlist_smart.py:209
 msgid "Match music for "
-msgstr ""
+msgstr "Muziek laten overeenkomen voor "
 
 #: ../lollypop/view_playlists.py:180
 msgid "Cancel"
@@ -1469,11 +1474,11 @@ msgstr "Geen favoriete radiozenders"
 
 #: ../lollypop/view_search.py:117
 msgid "<big>No results for this search</big>"
-msgstr ""
+msgstr "<big>Geen zoekresultaten</big>"
 
 #: ../lollypop/view_search.py:124
 msgid "<big>Search for artists, albums and tracks</big>"
-msgstr ""
+msgstr "<big>Zoekt achter artiesten, albums en nummers</big>"
 
 #: ../lollypop/view_tracks.py:601
 #, python-format
@@ -1503,23 +1508,23 @@ msgstr "Albums"
 
 #: ../lollypop/widgets_indicator.py:51
 msgid "Remove from playlist"
-msgstr ""
+msgstr "Verwijderen uit afspeellijst"
 
 #: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
-msgstr ""
+msgstr "Afspelen toelaten"
 
 #: ../lollypop/widgets_loved.py:117
 msgid "Like"
-msgstr ""
+msgstr "Duim"
 
 #: ../lollypop/widgets_loved.py:122
 msgid "Disallow playback"
-msgstr ""
+msgstr "Afspelen niet toelaten"
 
 #: ../lollypop/widgets_playlist_edit.py:115
 msgid "Remove ?"
-msgstr ""
+msgstr "Verwijderen?"
 
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
@@ -1531,27 +1536,27 @@ msgstr "Afspeellijst bewerken"
 
 #: ../lollypop/widgets_playlist_smart.py:161
 msgid "is equal to"
-msgstr ""
+msgstr "is gelijk aan"
 
 #: ../lollypop/widgets_playlist_smart.py:162
 msgid "is not equal to"
-msgstr ""
+msgstr "is niet gelijk aan"
 
 #: ../lollypop/widgets_playlist_smart.py:164
 msgid "contains "
-msgstr ""
+msgstr "bevat "
 
 #: ../lollypop/widgets_playlist_smart.py:165
 msgid "does not contain"
-msgstr ""
+msgstr "bevat niet"
 
 #: ../lollypop/widgets_playlist_smart.py:167
 msgid "is greater than"
-msgstr ""
+msgstr "is groter dan"
 
 #: ../lollypop/widgets_playlist_smart.py:168
 msgid "is less than"
-msgstr ""
+msgstr "is kleiner dan"
 
 #: ../lollypop/widgets_radio.py:204
 msgid "Modify radio"
