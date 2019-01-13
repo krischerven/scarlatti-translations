@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-26 23:31+0100\n"
-"PO-Revision-Date: 2018-12-01 17:22+0000\n"
+"PO-Revision-Date: 2019-01-14 21:20+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "da/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -53,7 +53,7 @@ msgstr "INTERN"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:53
 msgid "Allow using a cover per track"
-msgstr ""
+msgstr "Tillad brug af et cover pr. spor"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:58
 msgid "Access network"
@@ -65,7 +65,7 @@ msgstr "Gem billede/popularitet i tags"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:68
 msgid "Preserve the cover’s aspect ratio"
-msgstr ""
+msgstr "Bevar coverets højde-/breddeforhold"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Window maximized"
@@ -105,7 +105,7 @@ msgstr "Last.fm-login"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:108
 msgid "ListenBrainz user token"
-msgstr ""
+msgstr "ListenBrainz bruger-token"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "Google Custom Search API key"
@@ -195,7 +195,7 @@ msgstr "Deaktivér brug af klientside-vinduesdekorationer (hovedbjælke)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable scrobbling usage"
-msgstr ""
+msgstr "Deaktivér anvendelse af scrobbling"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Handle compilations"
@@ -217,6 +217,7 @@ msgstr "Smart sortering af kunstner"
 #: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
+"Eksempel: The Beatles sorteret som Beatles. Kræver nulstilling af database"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Show sort tag as artist. Reset of database may be required"
@@ -224,7 +225,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "Eksempel: Beatles, The"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -244,7 +245,7 @@ msgstr "Deaktivér notifikationer når sangen ændres"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Fullscreen album rotates"
-msgstr ""
+msgstr "Fuldskærmsalbum roteres"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Show track number from tags"
@@ -260,7 +261,7 @@ msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:285
 msgid "Smooth track transitions"
-msgstr ""
+msgstr "Blød overgang mellem spor"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:290
 msgid "Only mix songs in party mode"
@@ -268,7 +269,7 @@ msgstr "Bland kun sange i festtilstand"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:295
 msgid "Smoothing duration"
-msgstr ""
+msgstr "Varighed af blød overgang"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:300
 msgid "Last.fm loved track status"
@@ -317,11 +318,11 @@ msgstr "Donationer:"
 
 #: ../data/AboutDialog.ui.in:63
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:83 ../lollypop/container_donation.py:47
 msgid "PayPal"
@@ -369,17 +370,20 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:18
 msgid "ReplayGain (RG): Automatically select the best audio level"
-msgstr ""
+msgstr "ReplayGain (RG): Vælg automatisk det bedste lydniveau"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:19
 msgid ""
 "Cover art downloader: Automatic artwork downloader from Last.fm, Itunes and "
 "Spotify"
 msgstr ""
+"Coverbillede-downloader: Automatisk download af billede fra Last.fm, Itunes "
+"og Spotify"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:20
 msgid "MTP devices: Sync your music with Android phones and any MTP devices"
 msgstr ""
+"MTP-enheder: Synkroniser din musik med Android-telefoner og andre MTP-enheder"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:21
 msgid "Fullscreen view: Visual access from your couch"
@@ -387,11 +391,11 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:22
 msgid "Radios support"
-msgstr ""
+msgstr "Understøttelse af radioer"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:23
 msgid "Last.fm, Libre.fm and ListenBrainz support"
-msgstr ""
+msgstr "Understøttelse af Last.fm, Libre.fm og ListenBrainz"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:24
 msgid "Auto install codecs"
@@ -415,15 +419,15 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:34
 msgid "Faster album loading"
-msgstr ""
+msgstr "Hurtigere indlæsning af album"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:35
 msgid "Faster track loading"
-msgstr ""
+msgstr "Hurtigere indlæsning af spor"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:36
 msgid "Better sync to device"
-msgstr ""
+msgstr "Bedre synkronisering til enhed"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:37
 msgid "Restore playback position on start"
@@ -578,7 +582,7 @@ msgstr "FLAC"
 
 #: ../data/LastfmPopover.ui:46
 msgid "No results"
-msgstr ""
+msgstr "Ingen resultater"
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
