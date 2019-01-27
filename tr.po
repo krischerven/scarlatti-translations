@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-26 23:31+0100\n"
-"PO-Revision-Date: 2018-12-24 12:08+0000\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"PO-Revision-Date: 2019-01-29 02:09+0000\n"
+"Last-Translator: Muha Aliss <muhaaliss@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "tr/>\n"
 "Language: tr\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
@@ -71,7 +71,7 @@ msgstr "Kapağın en-boy oranını koru"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Window maximized"
-msgstr "Ekranı kapla"
+msgstr "Pencere büyütülmüş"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:74
 msgid "Window maximized state."
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "Örn: Saz, İnce"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
@@ -313,11 +313,11 @@ msgstr "Lollypop internet adresini ziyaret et"
 #: ../data/AboutDialog.ui.in:26
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Emin Tufan Çetin <etcetin@gmail.com>"
+msgstr "Muha Aliss <muhaaliss@pm.me>"
 
 #: ../data/AboutDialog.ui.in:56
 msgid "Donations:"
-msgstr "Bağışlar:"
+msgstr "Bağış:"
 
 #: ../data/AboutDialog.ui.in:63
 msgid "Liberapay"
@@ -476,10 +476,12 @@ msgid "_Fullscreen"
 msgstr "_Tam ekran"
 
 #: ../data/Appmenu.ui:15
+#, fuzzy
 msgid "_Sidebar"
-msgstr "_Kenar Çubuğu"
+msgstr "_Kenar çubuğu"
 
 #: ../data/Appmenu.ui:21
+#, fuzzy
 msgid "_Preferences"
 msgstr "_Tercihler"
 
@@ -488,10 +490,12 @@ msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
 #: ../data/Appmenu.ui:31
+#, fuzzy
 msgid "_About"
 msgstr "_Hakkında"
 
 #: ../data/Appmenu.ui:35
+#, fuzzy
 msgid "_Quit"
 msgstr "_Çıkış"
 
@@ -602,12 +606,12 @@ msgstr "Sonraki parça"
 
 #: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:200
 msgid "Name:"
-msgstr "Ad:"
+msgstr "İsim:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
 #: ../data/SmartPlaylistView.ui:147 ../lollypop/view_playlists.py:179
 msgid "Save"
-msgstr "Kaydet"
+msgstr "Kayıt"
 
 #: ../data/PlaylistView.ui:103
 msgid "Unsplit view"
@@ -696,7 +700,7 @@ msgstr "Sanatçı"
 
 #: ../data/SettingsDialog.ui:204
 msgid "Name"
-msgstr "Ad"
+msgstr "İsim"
 
 #: ../data/SettingsDialog.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
@@ -900,7 +904,7 @@ msgstr "Sanatçıdan albümleri göster"
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "Tam ekran görünümü"
+msgstr "Tam ekran"
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
@@ -964,51 +968,51 @@ msgstr "Skroplamayı etkinleştir/devre dışı bırak"
 
 #: ../data/SmartPlaylistView.ui:88
 msgid "Limit to"
-msgstr ""
+msgstr "İle sınırlandır"
 
 #: ../data/SmartPlaylistView.ui:115
 msgid "tracks selected by"
-msgstr ""
+msgstr "tarafından seçilen parçalar"
 
 #: ../data/SmartPlaylistView.ui:130
 msgid "random"
-msgstr ""
+msgstr "rasgele"
 
 #: ../data/SmartPlaylistView.ui:131
 msgid "album"
-msgstr ""
+msgstr "albüm"
 
 #: ../data/SmartPlaylistView.ui:132
 msgid "artist"
-msgstr ""
+msgstr "sanatçı"
 
 #: ../data/SmartPlaylistView.ui:133
 msgid "year DESC"
-msgstr ""
+msgstr "yıl AZALAN"
 
 #: ../data/SmartPlaylistView.ui:134
 msgid "year ASC"
-msgstr ""
+msgstr "yıl ARTAN"
 
 #: ../data/SmartPlaylistView.ui:135
 msgid "duration DESC"
-msgstr ""
+msgstr "süre AZALAN"
 
 #: ../data/SmartPlaylistView.ui:136
 msgid "duration ASC"
-msgstr ""
+msgstr "süre ARTAN"
 
 #: ../data/SmartPlaylistView.ui:179 ../lollypop/view_playlist_smart.py:216
 msgid "Smart playlist"
-msgstr ""
+msgstr "Akıllı çalma listesi"
 
 #: ../data/SmartPlaylistView.ui:202
 msgid "all"
-msgstr ""
+msgstr "tümü"
 
 #: ../data/SmartPlaylistView.ui:203
 msgid "one"
-msgstr ""
+msgstr "bir"
 
 #: ../data/SmartPlaylistView.ui:218
 msgid "of the following rules :"
@@ -1016,15 +1020,15 @@ msgstr ""
 
 #: ../data/SmartPlaylistWidget.ui:28
 msgid "Genre"
-msgstr ""
+msgstr "Tarz"
 
 #: ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
-msgstr ""
+msgstr "Albüm"
 
 #: ../data/SmartPlaylistWidget.ui:31
 msgid "Rating"
-msgstr ""
+msgstr "Değerlendirme"
 
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
@@ -1242,7 +1246,7 @@ msgstr "Düzenle"
 
 #: ../lollypop/pop_menu.py:400
 msgid "%Y-%m-%d"
-msgstr ""
+msgstr "%Y-%m-%d"
 
 #: ../lollypop/pop_menu_views.py:60
 msgid "Default on startup"
@@ -1271,7 +1275,7 @@ msgstr "Sonuç yok…"
 #: ../lollypop/selectionlist.py:246 ../lollypop/window.py:554
 #: ../lollypop/window.py:555
 msgid "Current playlist"
-msgstr ""
+msgstr "Mevcut çalma listesi"
 
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
@@ -1418,7 +1422,7 @@ msgstr "Bilgi yükleniyor"
 #: ../lollypop/view_information.py:224 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
-msgstr ""
+msgstr "%s için bilgi yok"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1426,11 +1430,11 @@ msgstr "Yükleniyor…"
 
 #: ../lollypop/view_lyrics.py:130
 msgid "You need to install python3-textblob module"
-msgstr ""
+msgstr "python3-textblob modülünü kurmanız gerekiyor"
 
 #: ../lollypop/view_lyrics.py:135
 msgid "Can't translate this lyrics"
-msgstr ""
+msgstr "Bu şarkı sözleri tercüme edilemiyor"
 
 #: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
@@ -1524,7 +1528,7 @@ msgstr "Kayıttan çalmaya izin verme"
 
 #: ../lollypop/widgets_playlist_edit.py:115
 msgid "Remove ?"
-msgstr ""
+msgstr "Kaldır ?"
 
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
@@ -1548,15 +1552,15 @@ msgstr ""
 
 #: ../lollypop/widgets_playlist_smart.py:165
 msgid "does not contain"
-msgstr ""
+msgstr "içermiyor"
 
 #: ../lollypop/widgets_playlist_smart.py:167
 msgid "is greater than"
-msgstr ""
+msgstr "daha büyük"
 
 #: ../lollypop/widgets_playlist_smart.py:168
 msgid "is less than"
-msgstr ""
+msgstr "daha az"
 
 #: ../lollypop/widgets_radio.py:204
 msgid "Modify radio"
