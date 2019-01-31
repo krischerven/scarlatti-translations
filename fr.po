@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-26 23:31+0100\n"
+"POT-Creation-Date: 2019-01-31 11:48+0100\n"
 "PO-Revision-Date: 2018-12-29 09:09+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -147,7 +147,7 @@ msgstr ""
 "Remettre cette valeur à zéro réinitialisera votre base de données, les "
 "albums populaires seront restaurés"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsAppearance.ui:266
 msgid "Albums cover size"
 msgstr "Taille des pochettes d'albums"
 
@@ -163,8 +163,8 @@ msgstr "Entre -15 et 15"
 msgid "Encoding quality"
 msgstr "Qualité d'encodage"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:153 ../data/SettingsDialog.ui:275
-#: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
+#: ../data/org.gnome.Lollypop.gschema.xml:153 ../data/SettingsBehaviour.ui:28
+#: ../data/SettingsBehaviour.ui:31 ../data/SettingsBehaviour.ui:45
 msgid "Auto update music"
 msgstr "Mise à jour automatique de la musique"
 
@@ -180,8 +180,8 @@ msgstr "Afficher la liste des genres"
 msgid "Show sidebar"
 msgstr "Afficher la barre latérale"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173 ../data/SettingsDialog.ui:165
-#: ../data/SettingsDialog.ui:176
+#: ../data/org.gnome.Lollypop.gschema.xml:173 ../data/SettingsAppearance.ui:176
+#: ../data/SettingsAppearance.ui:190
 msgid "Show artist artwork"
 msgstr "Afficher la photo de l'artiste"
 
@@ -201,12 +201,12 @@ msgstr "Désactiver l'usage du scrobbler"
 msgid "Handle compilations"
 msgstr "Gère les compilations"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsAppearance.ui:321
 msgid "Show compilations in albums view"
 msgstr "Afficher les compilations dans la vue des albums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
-#: ../data/SettingsDialog.ui:329
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsBehaviour.ui:75
+#: ../data/SettingsBehaviour.ui:89
 msgid "Continue playback when closed"
 msgstr "Continuer à lire à la fermeture"
 
@@ -296,7 +296,7 @@ msgstr ""
 msgid "Playback behaviour"
 msgstr "Comportement de la lecture"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:320 ../data/SettingsDialog.ui:190
+#: ../data/org.gnome.Lollypop.gschema.xml:320 ../data/SettingsAppearance.ui:219
 msgid "Order albums by"
 msgstr "Trier les albums par"
 
@@ -309,24 +309,24 @@ msgid "Visit Lollypop website"
 msgstr "Visitez le site web de Lollypop"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:26
+#: ../data/AboutDialog.ui.in:27
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 
-#: ../data/AboutDialog.ui.in:56
+#: ../data/AboutDialog.ui.in:57
 msgid "Donations:"
 msgstr "Donations :"
 
-#: ../data/AboutDialog.ui.in:63
+#: ../data/AboutDialog.ui.in:64
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:74 ../lollypop/container_donation.py:47
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_donation.py:47
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -418,34 +418,6 @@ msgstr "Support de HiDPI"
 msgid "TuneIn support"
 msgstr "Support de TuneIn"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:32
-msgid "New navigation mode when sidebar is off"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "New smart playlists"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:34
-msgid "Faster album loading"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:35
-msgid "Faster track loading"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:36
-msgid "Better sync to device"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:37
-msgid "Restore playback position on start"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:38
-msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
-msgstr ""
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Lecteur de musique"
@@ -459,7 +431,7 @@ msgid "Play/Pause"
 msgstr "Lecture/Pause"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:273
+#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:272
 msgid "Next"
 msgstr "Suivant"
 
@@ -497,7 +469,7 @@ msgid "_Quit"
 msgstr "_Quitter"
 
 #: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
-#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
+#: ../data/SettingsBehaviour.ui:265 ../data/SettingsBehaviour.ui:279
 msgid "Turn on background data"
 msgstr "Autoriser la connexion des données en arrière plan"
 
@@ -532,8 +504,7 @@ msgstr "Aller au morceau courant"
 msgid "Select a local file"
 msgstr "Utiliser un fichier local"
 
-#: ../data/ArtworkSearch.ui:136 ../data/PlaylistEditWidget.ui:46
-#: ../data/SettingsDialog.ui:542
+#: ../data/ArtworkSearch.ui:136 ../data/SettingsCollections.ui:44
 msgid "Confirm"
 msgstr "Confirmer"
 
@@ -549,7 +520,7 @@ msgstr ""
 "<small>Cette API est limitée donc cela pourrait ne pas fonctionner avec la "
 "clé d'API par défaut.</small>"
 
-#: ../data/ArtworkSearch.ui:265 ../data/SettingsDialog.ui:1107
+#: ../data/ArtworkSearch.ui:265 ../data/SettingsWeb.ui:358
 msgid "API key"
 msgstr "Clé d'API"
 
@@ -606,7 +577,7 @@ msgid "Name:"
 msgstr "Nom:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:147 ../lollypop/view_playlists.py:179
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/view_playlists.py:179
 msgid "Save"
 msgstr "Enregistrer"
 
@@ -621,9 +592,9 @@ msgstr "Enregistrer la liste de lecture"
 #: ../data/PlaylistView.ui:155 ../data/SearchView.ui:115
 #: ../data/ToolbarPlayback.ui:84 ../lollypop/controller_playback.py:92
 #: ../lollypop/controller_playback.py:111 ../lollypop/helper_overlay.py:166
-#: ../lollypop/pop_tunein.py:200 ../lollypop/view_albums_list.py:126
+#: ../lollypop/pop_tunein.py:200 ../lollypop/view_albums_list.py:127
 #: ../lollypop/widgets_albums_decade.py:81 ../lollypop/widgets_context.py:50
-#: ../lollypop/widgets_playlist_rounded.py:162 ../lollypop/widgets_radio.py:188
+#: ../lollypop/widgets_playlist_rounded.py:162 ../lollypop/widgets_radio.py:189
 msgid "Play"
 msgstr "Lire"
 
@@ -640,7 +611,7 @@ msgid "Clear queue"
 msgstr "Vider la file d'attente"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:373
-#: ../lollypop/toolbar_end.py:428
+#: ../lollypop/toolbar_end.py:419
 msgid "Queue"
 msgstr "File d'attente"
 
@@ -672,110 +643,106 @@ msgstr "Rechercher dans TuneIn"
 msgid "Create a new playlist"
 msgstr "Créer une nouvelle liste de lecture"
 
-#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
-msgid "Preferences"
-msgstr "Préférences"
-
-#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
+#: ../data/SettingsAppearance.ui:31 ../data/SettingsAppearance.ui:45
 msgid "Use dark theme variant"
 msgstr "Utiliser une variante de thème foncée"
 
-#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
+#: ../data/SettingsAppearance.ui:74 ../data/SettingsAppearance.ui:88
 msgid "Show genres"
 msgstr "Afficher les genres"
 
-#: ../data/SettingsDialog.ui:112 ../data/SettingsDialog.ui:123
+#: ../data/SettingsAppearance.ui:118 ../data/SettingsAppearance.ui:147
 msgid "Show compilations"
 msgstr "Afficher les compilations"
 
-#: ../data/SettingsDialog.ui:203 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:236 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/pop_menu.py:268 ../lollypop/pop_menu.py:350
 #: ../lollypop/pop_menu.py:371
 msgid "Artist"
 msgstr "Artiste"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsAppearance.ui:237
 msgid "Name"
 msgstr "Nom"
 
-#: ../data/SettingsDialog.ui:205 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "Année"
 
-#: ../data/SettingsDialog.ui:206
+#: ../data/SettingsAppearance.ui:239
 msgid "Popularity"
 msgstr "Popularité"
 
-#: ../data/SettingsDialog.ui:250
-msgid "Configure Lollypop appearance"
-msgstr "Configurer l'apparence de Lollypop"
+#: ../data/SettingsAppearance.ui:356
+msgid ""
+"A compilation is an album without any \"Album artist tag\"\n"
+"and with different artists."
+msgstr ""
+"Une compilation est un album sans aucun «tag artistes de l'album»\n"
+"et avec des artistes différents."
 
-#: ../data/SettingsDialog.ui:251
-msgid "Appearance"
-msgstr "Apparence"
+#: ../data/SettingsAppearance.ui:370
+msgid "You need to reset database [Music]"
+msgstr "Vous devez réinitialiser votre base de donnée [Musique]"
 
-#: ../data/SettingsDialog.ui:317 ../data/SettingsDialog.ui:340
+#: ../data/SettingsBehaviour.ui:119 ../data/SettingsBehaviour.ui:133
 msgid "Restore state on startup"
 msgstr "Restaurer l'état au démarrage"
 
-#: ../data/SettingsDialog.ui:355 ../data/SettingsDialog.ui:366
-msgid "Smooth transitions"
-msgstr "Transitions douces"
-
-#: ../data/SettingsDialog.ui:381 ../data/SettingsDialog.ui:392
+#: ../data/SettingsBehaviour.ui:163 ../data/SettingsBehaviour.ui:177
 msgid "Save changes to files"
 msgstr "Sauvegarder les modifications dans les fichiers"
 
-#: ../data/SettingsDialog.ui:406
+#: ../data/SettingsBehaviour.ui:206 ../data/SettingsBehaviour.ui:236
+msgid "Smooth transitions"
+msgstr "Transitions douces"
+
+#: ../data/SettingsBehaviour.ui:308
 msgid "Preview tracks on"
 msgstr "Prévisualiser les morceaux sur"
 
-#: ../data/SettingsDialog.ui:420
+#: ../data/SettingsBehaviour.ui:326
 msgid "No audio device"
 msgstr "Aucun périphérique audio"
 
-#: ../data/SettingsDialog.ui:496
-msgid "Configure Lollypop behaviour"
-msgstr "Configurer le comportement de Lollypop"
+#: ../data/SettingsBehaviour.ui:367
+msgid "Only in party mode"
+msgstr "Seulement en mode soirée"
 
-#: ../data/SettingsDialog.ui:497
-msgid "Behaviour"
-msgstr "Comportement"
+#: ../data/SettingsBehaviour.ui:417
+msgid "Transition duration in seconds"
+msgstr "Durée de la transition en secondes"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsCollections.ui:133
 msgid "Reset database"
 msgstr "Remise à zéro de la base de données"
 
-#: ../data/SettingsDialog.ui:745
-msgid "Select music folders"
-msgstr "Selectionnez vos dossiers de musique"
+#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:70
+#: ../lollypop/dialog_settings.py:73
+msgid "Preferences"
+msgstr "Préférences"
 
-#: ../data/SettingsDialog.ui:746
-msgid "Music"
-msgstr "Musique"
-
-#: ../data/SettingsDialog.ui:776 ../data/SettingsDialog.ui:891
+#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui:789 ../data/SettingsDialog.ui:904
+#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui:825 ../data/SettingsDialog.ui:940
+#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
 msgid "Connect"
 msgstr "Connexion"
 
-#: ../data/SettingsDialog.ui:852 ../data/SettingsDialog.ui:967
+#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
 msgid "You need to install pylast and gi secret"
 msgstr "Vous devez installer pylast et gi secret"
 
-#: ../data/SettingsDialog.ui:987
+#: ../data/SettingsWeb.ui:237
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:1011
+#: ../data/SettingsWeb.ui:261
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -788,15 +755,15 @@ msgstr ""
 "utilisateur dans <a href=\"https://listenbrainz.org/profile/\">votre profil</"
 "a></small>"
 
-#: ../data/SettingsDialog.ui:1041
+#: ../data/SettingsWeb.ui:291
 msgid "User token"
 msgstr "Jeton utilisateur"
 
-#: ../data/SettingsDialog.ui:1057
+#: ../data/SettingsWeb.ui:307
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1081
+#: ../data/SettingsWeb.ui:331
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -807,40 +774,16 @@ msgstr ""
 "rapidement…\n"
 "Lollypop a besoin de cela pour rechercher des pochettes.</small>"
 
-#: ../data/SettingsDialog.ui:1125
+#: ../data/SettingsWeb.ui:376
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr "<small>Vous devez activer \"Custom Search API\".</small>"
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:126
+#: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:126
 #: ../lollypop/playlists.py:440 ../lollypop/selectionlist.py:244
 #: ../lollypop/window.py:551 ../lollypop/window.py:552
 msgid "Search"
 msgstr "Rechercher"
-
-#: ../data/SettingsDialog.ui:1168 ../data/SettingsDialog.ui:1169
-msgid "Web"
-msgstr "Web"
-
-#: ../data/SettingsDialog.ui:1237
-msgid ""
-"A compilation is an album without any \"Album artist tag\"\n"
-"and with different artists."
-msgstr ""
-"Une compilation est un album sans aucun «tag artistes de l'album»\n"
-"et avec des artistes différents."
-
-#: ../data/SettingsDialog.ui:1251
-msgid "You need to reset database [Music]"
-msgstr "Vous devez réinitialiser votre base de donnée [Musique]"
-
-#: ../data/SettingsDialog.ui:1287
-msgid "Only in party mode"
-msgstr "Seulement en mode soirée"
-
-#: ../data/SettingsDialog.ui:1338
-msgid "Transition duration in seconds"
-msgstr "Durée de la transition en secondes"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -962,55 +905,55 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Activer/Désactiver le scrobbler"
 
-#: ../data/SmartPlaylistView.ui:88
+#: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
 msgstr "Limité à"
 
-#: ../data/SmartPlaylistView.ui:115
+#: ../data/SmartPlaylistView.ui:121
 msgid "tracks selected by"
 msgstr "avec sélection par"
 
-#: ../data/SmartPlaylistView.ui:130
+#: ../data/SmartPlaylistView.ui:136
 msgid "random"
 msgstr "aléatoire"
 
-#: ../data/SmartPlaylistView.ui:131
+#: ../data/SmartPlaylistView.ui:137
 msgid "album"
 msgstr "album"
 
-#: ../data/SmartPlaylistView.ui:132
+#: ../data/SmartPlaylistView.ui:138
 msgid "artist"
 msgstr "artiste"
 
-#: ../data/SmartPlaylistView.ui:133
+#: ../data/SmartPlaylistView.ui:139
 msgid "year DESC"
 msgstr "année décroissante"
 
-#: ../data/SmartPlaylistView.ui:134
+#: ../data/SmartPlaylistView.ui:140
 msgid "year ASC"
 msgstr "année croissante"
 
-#: ../data/SmartPlaylistView.ui:135
+#: ../data/SmartPlaylistView.ui:141
 msgid "duration DESC"
 msgstr "durée décroissante"
 
-#: ../data/SmartPlaylistView.ui:136
+#: ../data/SmartPlaylistView.ui:142
 msgid "duration ASC"
 msgstr "durée croissante"
 
-#: ../data/SmartPlaylistView.ui:179 ../lollypop/view_playlist_smart.py:216
-msgid "Smart playlist"
-msgstr "Liste de lecture intelligente"
+#: ../data/SmartPlaylistView.ui:185
+msgid "Match music for "
+msgstr "Choisir de la musique pour "
 
-#: ../data/SmartPlaylistView.ui:202
+#: ../data/SmartPlaylistView.ui:210
 msgid "all"
 msgstr "toutes les"
 
-#: ../data/SmartPlaylistView.ui:203
+#: ../data/SmartPlaylistView.ui:211
 msgid "one"
 msgstr "n'importe laquelle des"
 
-#: ../data/SmartPlaylistView.ui:218
+#: ../data/SmartPlaylistView.ui:226
 msgid "of the following rules :"
 msgstr "règles suivantes :"
 
@@ -1096,10 +1039,10 @@ msgstr ""
 "    - Auto téléchargement des pochettes désactivé\n"
 "    - Information sur les artistes désactivée"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:319
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:362
 #: ../lollypop/container_lists.py:153 ../lollypop/database_albums.py:384
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
-#: ../lollypop/database_tracks.py:361 ../lollypop/selectionlist.py:417
+#: ../lollypop/database_tracks.py:377 ../lollypop/selectionlist.py:417
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:151 ../lollypop/tagreader.py:199
 #: ../lollypop/tagreader.py:215 ../lollypop/tagreader.py:219
@@ -1135,11 +1078,43 @@ msgstr "Volume"
 msgid "Many artists"
 msgstr "Plusieurs artistes"
 
-#: ../lollypop/fullscreen.py:235 ../lollypop/helper_overlay.py:115
+#: ../lollypop/dialog_settings.py:39 ../lollypop/view_settings.py:34
+msgid "Appearance"
+msgstr "Apparence"
+
+#: ../lollypop/dialog_settings.py:40 ../lollypop/view_settings.py:35
+msgid "Configure Lollypop appearance"
+msgstr "Configurer l'apparence de Lollypop"
+
+#: ../lollypop/dialog_settings.py:44 ../lollypop/view_settings.py:37
+msgid "Behaviour"
+msgstr "Comportement"
+
+#: ../lollypop/dialog_settings.py:45 ../lollypop/view_settings.py:38
+msgid "Configure Lollypop behaviour"
+msgstr "Configurer le comportement de Lollypop"
+
+#: ../lollypop/dialog_settings.py:49 ../lollypop/view_settings.py:40
+msgid "Music"
+msgstr "Musique"
+
+#: ../lollypop/dialog_settings.py:50 ../lollypop/view_settings.py:41
+msgid "Select music folders"
+msgstr "Selectionnez vos dossiers de musique"
+
+#: ../lollypop/dialog_settings.py:54 ../lollypop/view_settings.py:43
+msgid "Web"
+msgstr "Web"
+
+#: ../lollypop/dialog_settings.py:55 ../lollypop/view_settings.py:44
+msgid "Configure Web services"
+msgstr ""
+
+#: ../lollypop/fullscreen.py:223 ../lollypop/helper_overlay.py:115
 #: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:110
 #: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
-#: ../lollypop/view_information.py:175 ../lollypop/widgets_albums_decade.py:159
-#: ../lollypop/widgets_artist_rounded.py:119
+#: ../lollypop/view_information.py:177 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/widgets_artist_rounded.py:122
 msgid "You are using a broken cursor theme!"
 msgstr "Vous utilisez un thème de curseur cassé !"
 
@@ -1152,7 +1127,7 @@ msgstr "Modifier la pochette"
 msgid "Add to current playlist"
 msgstr "Ajouter à la liste de lecture courante"
 
-#: ../lollypop/helper_overlay.py:242 ../lollypop/view_albums_list.py:129
+#: ../lollypop/helper_overlay.py:242 ../lollypop/view_albums_list.py:130
 #: ../lollypop/view_artist.py:355 ../lollypop/widgets_context.py:101
 #: ../lollypop/widgets_indicator.py:56
 msgid "Remove from current playlist"
@@ -1240,7 +1215,15 @@ msgstr "Modifier les informations"
 msgid "Edit"
 msgstr "Editer"
 
-#: ../lollypop/pop_menu.py:400
+#: ../lollypop/pop_menu.py:395
+msgid "Remove track"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:397
+msgid "Remove tracks"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:434
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1276,35 +1259,6 @@ msgstr "Liste de lecture courante"
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
 msgstr "Clic droit pour configurer"
-
-#: ../lollypop/settings.py:81
-msgid "Using \"GNOME Online Accounts\" settings"
-msgstr "Utilise les paramètres de «Comptes en ligne»"
-
-#: ../lollypop/settings.py:88
-#, python-format
-msgid "%d artist"
-msgid_plural "%d artists"
-msgstr[0] "%d artiste"
-msgstr[1] "%d artistes"
-
-#: ../lollypop/settings.py:90
-#, python-format
-msgid "%d album"
-msgid_plural "%d albums"
-msgstr[0] "%d album"
-msgstr[1] "%d albums"
-
-#: ../lollypop/settings.py:92
-#, python-format
-msgid "%d track"
-msgid_plural "%d tracks"
-msgstr[0] "%d morceau"
-msgstr[1] "%d morceaux"
-
-#: ../lollypop/settings.py:750
-msgid "You need to install kid3-cli"
-msgstr "Vous devez installer kid3-cli"
 
 #: ../lollypop/shown.py:32
 msgid "Popular albums"
@@ -1354,27 +1308,27 @@ msgstr "Disques USB"
 msgid "Unplayed"
 msgstr "Jamais joué"
 
-#: ../lollypop/toolbar_end.py:269
+#: ../lollypop/toolbar_end.py:268
 msgid "All genres"
 msgstr "Tous les genres"
 
-#: ../lollypop/toolbar_end.py:430
+#: ../lollypop/toolbar_end.py:421
 msgid "Playing playlists"
 msgstr "Listes de lecture en cours"
 
-#: ../lollypop/toolbar_end.py:432 ../lollypop/view_current_albums.py:57
+#: ../lollypop/toolbar_end.py:423 ../lollypop/view_current_albums.py:57
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
-#: ../lollypop/utils.py:204
+#: ../lollypop/utils.py:221
 msgid "The the"
 msgstr "The the La la Le le Les les"
 
-#: ../lollypop/view_albums_list.py:112
+#: ../lollypop/view_albums_list.py:113
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/view_albums_list.py:151
+#: ../lollypop/view_albums_list.py:152
 msgid "Go to artist view"
 msgstr "Aller à la vue de l'artiste"
 
@@ -1413,11 +1367,11 @@ msgstr ""
 "Erreur inconnue lors de la synchronisation, essayez de redémarrer votre "
 "appareil"
 
-#: ../lollypop/view_information.py:187 ../lollypop/view_information.py:300
+#: ../lollypop/view_information.py:189 ../lollypop/view_information.py:302
 msgid "Loading information"
 msgstr "Chargement des informations"
 
-#: ../lollypop/view_information.py:224 ../lollypop/view_information.py:295
+#: ../lollypop/view_information.py:226 ../lollypop/view_information.py:297
 #, python-format
 msgid "No information for %s"
 msgstr "Pas d'informations pour %s"
@@ -1446,10 +1400,6 @@ msgstr "Nouvelle liste de lecture"
 #: ../lollypop/view_playlists_manager.py:160
 msgid "New playlist "
 msgstr "Nouvelle liste de lecture "
-
-#: ../lollypop/view_playlist_smart.py:209
-msgid "Match music for "
-msgstr "Choisir de la musique pour "
 
 #: ../lollypop/view_playlists.py:180
 msgid "Cancel"
@@ -1482,7 +1432,7 @@ msgstr "<big>Pas de résultats pour cette recherche</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Recherchez des artistes, des albums et des morceaux</big>"
 
-#: ../lollypop/view_tracks.py:601
+#: ../lollypop/view_tracks.py:643
 #, python-format
 msgid "Disc %s"
 msgstr "Disque %s"
@@ -1524,10 +1474,6 @@ msgstr "Aimer"
 msgid "Disallow playback"
 msgstr "Ne pas autoriser la lecture"
 
-#: ../lollypop/widgets_playlist_edit.py:115
-msgid "Remove ?"
-msgstr "Supprimer ?"
-
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
 msgstr "Enlever"
@@ -1560,7 +1506,7 @@ msgstr "est plus grand(e) que"
 msgid "is less than"
 msgstr "est plus petit(e) que"
 
-#: ../lollypop/widgets_radio.py:204
+#: ../lollypop/widgets_radio.py:205
 msgid "Modify radio"
 msgstr "Modifier la radio"
 
@@ -1568,6 +1514,41 @@ msgstr "Modifier la radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
+
+#: ../lollypop/widgets_settings_behaviour.py:220
+msgid "You need to install kid3-cli"
+msgstr "Vous devez installer kid3-cli"
+
+#: ../lollypop/widgets_settings_collections.py:129
+#, python-format
+msgid "%d artist"
+msgid_plural "%d artists"
+msgstr[0] "%d artiste"
+msgstr[1] "%d artistes"
+
+#: ../lollypop/widgets_settings_collections.py:131
+#, python-format
+msgid "%d album"
+msgid_plural "%d albums"
+msgstr[0] "%d album"
+msgstr[1] "%d albums"
+
+#: ../lollypop/widgets_settings_collections.py:133
+#, python-format
+msgid "%d track"
+msgid_plural "%d tracks"
+msgstr[0] "%d morceau"
+msgstr[1] "%d morceaux"
+
+#: ../lollypop/widgets_settings_web.py:36
+msgid "Using \"GNOME Online Accounts\" settings"
+msgstr "Utilise les paramètres de «Comptes en ligne»"
+
+#~ msgid "Smart playlist"
+#~ msgstr "Liste de lecture intelligente"
+
+#~ msgid "Remove ?"
+#~ msgstr "Supprimer ?"
 
 #~ msgid "Configure smart playlist"
 #~ msgstr "Configurer les listes de lecture intelligentes"

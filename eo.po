@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-26 23:31+0100\n"
+"POT-Creation-Date: 2019-01-31 11:48+0100\n"
 "PO-Revision-Date: 2019-01-08 13:06+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -148,7 +148,7 @@ msgstr ""
 "Repravalorigi ĉi tiun valoron repravalorigas la datumbazon; la popularaj "
 "albumoj restariĝos"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsDialog.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:138 ../data/SettingsAppearance.ui:266
 msgid "Albums cover size"
 msgstr "Dimensio de albumartaĵoj"
 
@@ -164,8 +164,8 @@ msgstr "Inter -15 kaj 15"
 msgid "Encoding quality"
 msgstr "Kvalito de ĉifrado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:153 ../data/SettingsDialog.ui:275
-#: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
+#: ../data/org.gnome.Lollypop.gschema.xml:153 ../data/SettingsBehaviour.ui:28
+#: ../data/SettingsBehaviour.ui:31 ../data/SettingsBehaviour.ui:45
 msgid "Auto update music"
 msgstr "Aŭtomata ĝisdatigo de muziko"
 
@@ -181,8 +181,8 @@ msgstr "Montri ĝenran liston"
 msgid "Show sidebar"
 msgstr "Montri flankan breton"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173 ../data/SettingsDialog.ui:165
-#: ../data/SettingsDialog.ui:176
+#: ../data/org.gnome.Lollypop.gschema.xml:173 ../data/SettingsAppearance.ui:176
+#: ../data/SettingsAppearance.ui:190
 msgid "Show artist artwork"
 msgstr "Montri artistfoton"
 
@@ -202,12 +202,12 @@ msgstr "Malŝalti la uzado de 'scrobbling'"
 msgid "Handle compilations"
 msgstr "Trakti kompilojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsAppearance.ui:321
 msgid "Show compilations in albums view"
 msgstr "Montri kompilojn en la albuma vido"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
-#: ../data/SettingsDialog.ui:329
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsBehaviour.ui:75
+#: ../data/SettingsBehaviour.ui:89
 msgid "Continue playback when closed"
 msgstr "Daŭrigi ludadon kiam fermita"
 
@@ -294,7 +294,7 @@ msgstr ""
 msgid "Playback behaviour"
 msgstr "Konduto de ludado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:320 ../data/SettingsDialog.ui:190
+#: ../data/org.gnome.Lollypop.gschema.xml:320 ../data/SettingsAppearance.ui:219
 msgid "Order albums by"
 msgstr "Ordigi albumojn laŭ"
 
@@ -307,26 +307,26 @@ msgid "Visit Lollypop website"
 msgstr "Viziti la retejon de Lollypop"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:26
+#: ../data/AboutDialog.ui.in:27
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
 "Sébastien Zurfluh - sezuo <sebastien.zurfluh@gmail.com>, 2016-2018\n"
 "Carmen Bianca BAKKER <carmenbianca@fedoraproject.org>"
 
-#: ../data/AboutDialog.ui.in:56
+#: ../data/AboutDialog.ui.in:57
 msgid "Donations:"
 msgstr "Donacoj:"
 
-#: ../data/AboutDialog.ui.in:63
+#: ../data/AboutDialog.ui.in:64
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:74 ../lollypop/container_donation.py:47
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_donation.py:47
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -416,34 +416,6 @@ msgstr "Subteno de HiDPI"
 msgid "TuneIn support"
 msgstr "Subteno de TuneIn"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:32
-msgid "New navigation mode when sidebar is off"
-msgstr "Nova maniero de umado kiam flankpanelo malaktivas"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "New smart playlists"
-msgstr "Novaj lertaj ludlistoj"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:34
-msgid "Faster album loading"
-msgstr "Plirapida ŝarĝado de albumoj"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:35
-msgid "Faster track loading"
-msgstr "Plirapida ŝarĝado de muzikpecoj"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:36
-msgid "Better sync to device"
-msgstr "Plibona sinkronigado al aparato"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:37
-msgid "Restore playback position on start"
-msgstr "Restarigi la pozicion de la ludado dum startigo"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:38
-msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
-msgstr "Plibona adaptiĝa reĝimo: subteno de radio, bretaj butonoj, serĉo, ..."
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Muzikludilo"
@@ -457,7 +429,7 @@ msgid "Play/Pause"
 msgstr "Ludi/Paŭzigi"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:273
+#: ../lollypop/notification.py:40 ../lollypop/toolbar_end.py:272
 msgid "Next"
 msgstr "Sekva"
 
@@ -495,7 +467,7 @@ msgid "_Quit"
 msgstr "Ĉ_esi"
 
 #: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
-#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
+#: ../data/SettingsBehaviour.ui:265 ../data/SettingsBehaviour.ui:279
 msgid "Turn on background data"
 msgstr "Ŝalti fonajn datumojn"
 
@@ -530,8 +502,7 @@ msgstr "Iri al aktuala trako"
 msgid "Select a local file"
 msgstr "Elekti lokan dosieron"
 
-#: ../data/ArtworkSearch.ui:136 ../data/PlaylistEditWidget.ui:46
-#: ../data/SettingsDialog.ui:542
+#: ../data/ArtworkSearch.ui:136 ../data/SettingsCollections.ui:44
 msgid "Confirm"
 msgstr "Konfirmi"
 
@@ -547,7 +518,7 @@ msgstr ""
 "<small>Tiu ĉi API limhavas, do eble ne funkcias kun la implicita API-ŝlosilo."
 "</small>"
 
-#: ../data/ArtworkSearch.ui:265 ../data/SettingsDialog.ui:1107
+#: ../data/ArtworkSearch.ui:265 ../data/SettingsWeb.ui:358
 msgid "API key"
 msgstr "API-ŝlosilo"
 
@@ -604,7 +575,7 @@ msgid "Name:"
 msgstr "Nomo:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:147 ../lollypop/view_playlists.py:179
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/view_playlists.py:179
 msgid "Save"
 msgstr "Konservi"
 
@@ -619,9 +590,9 @@ msgstr "Konservi ludliston"
 #: ../data/PlaylistView.ui:155 ../data/SearchView.ui:115
 #: ../data/ToolbarPlayback.ui:84 ../lollypop/controller_playback.py:92
 #: ../lollypop/controller_playback.py:111 ../lollypop/helper_overlay.py:166
-#: ../lollypop/pop_tunein.py:200 ../lollypop/view_albums_list.py:126
+#: ../lollypop/pop_tunein.py:200 ../lollypop/view_albums_list.py:127
 #: ../lollypop/widgets_albums_decade.py:81 ../lollypop/widgets_context.py:50
-#: ../lollypop/widgets_playlist_rounded.py:162 ../lollypop/widgets_radio.py:188
+#: ../lollypop/widgets_playlist_rounded.py:162 ../lollypop/widgets_radio.py:189
 msgid "Play"
 msgstr "Ludi"
 
@@ -638,7 +609,7 @@ msgid "Clear queue"
 msgstr "Vakigi atendovicon"
 
 #: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:373
-#: ../lollypop/toolbar_end.py:428
+#: ../lollypop/toolbar_end.py:419
 msgid "Queue"
 msgstr "Atendovico"
 
@@ -670,110 +641,106 @@ msgstr "Serĉi per TuneIn"
 msgid "Create a new playlist"
 msgstr "Krei novan ludliston"
 
-#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:108
-#: ../lollypop/settings.py:111
-msgid "Preferences"
-msgstr "Agordoj"
-
-#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
+#: ../data/SettingsAppearance.ui:31 ../data/SettingsAppearance.ui:45
 msgid "Use dark theme variant"
 msgstr "Uzi malhelan haŭton"
 
-#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
+#: ../data/SettingsAppearance.ui:74 ../data/SettingsAppearance.ui:88
 msgid "Show genres"
 msgstr "Montri ĝenrojn"
 
-#: ../data/SettingsDialog.ui:112 ../data/SettingsDialog.ui:123
+#: ../data/SettingsAppearance.ui:118 ../data/SettingsAppearance.ui:147
 msgid "Show compilations"
 msgstr "Montri kompilojn"
 
-#: ../data/SettingsDialog.ui:203 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:236 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/pop_menu.py:268 ../lollypop/pop_menu.py:350
 #: ../lollypop/pop_menu.py:371
 msgid "Artist"
 msgstr "Artisto"
 
-#: ../data/SettingsDialog.ui:204
+#: ../data/SettingsAppearance.ui:237
 msgid "Name"
 msgstr "Nomo"
 
-#: ../data/SettingsDialog.ui:205 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "Jaro"
 
-#: ../data/SettingsDialog.ui:206
+#: ../data/SettingsAppearance.ui:239
 msgid "Popularity"
 msgstr "Populareco"
 
-#: ../data/SettingsDialog.ui:250
-msgid "Configure Lollypop appearance"
-msgstr "Agordi aspekton de Lollypop"
+#: ../data/SettingsAppearance.ui:356
+msgid ""
+"A compilation is an album without any \"Album artist tag\"\n"
+"and with different artists."
+msgstr ""
+"Kompilo estas albumo sen iu ajn \"marko de albuma artisto\"\n"
+"kaj kun malsamaj artistoj."
 
-#: ../data/SettingsDialog.ui:251
-msgid "Appearance"
-msgstr "Aspekto"
+#: ../data/SettingsAppearance.ui:370
+msgid "You need to reset database [Music]"
+msgstr "Vi bezonas reagordi la datumbazon [Muziko]"
 
-#: ../data/SettingsDialog.ui:317 ../data/SettingsDialog.ui:340
+#: ../data/SettingsBehaviour.ui:119 ../data/SettingsBehaviour.ui:133
 msgid "Restore state on startup"
 msgstr "Restaŭri staton dum startigo"
 
-#: ../data/SettingsDialog.ui:355 ../data/SettingsDialog.ui:366
-msgid "Smooth transitions"
-msgstr "Glataj transiradoj"
-
-#: ../data/SettingsDialog.ui:381 ../data/SettingsDialog.ui:392
+#: ../data/SettingsBehaviour.ui:163 ../data/SettingsBehaviour.ui:177
 msgid "Save changes to files"
 msgstr "Konservi ŝanĝojn al dosieroj"
 
-#: ../data/SettingsDialog.ui:406
+#: ../data/SettingsBehaviour.ui:206 ../data/SettingsBehaviour.ui:236
+msgid "Smooth transitions"
+msgstr "Glataj transiradoj"
+
+#: ../data/SettingsBehaviour.ui:308
 msgid "Preview tracks on"
 msgstr "Antaŭvidi trakojn per"
 
-#: ../data/SettingsDialog.ui:420
+#: ../data/SettingsBehaviour.ui:326
 msgid "No audio device"
 msgstr "Neniu aŭd-aparato"
 
-#: ../data/SettingsDialog.ui:496
-msgid "Configure Lollypop behaviour"
-msgstr "Agordi konduton de Lollypop"
+#: ../data/SettingsBehaviour.ui:367
+msgid "Only in party mode"
+msgstr "Nur en festreĝimo"
 
-#: ../data/SettingsDialog.ui:497
-msgid "Behaviour"
-msgstr "Konduto"
+#: ../data/SettingsBehaviour.ui:417
+msgid "Transition duration in seconds"
+msgstr "Daŭro de transirado en sekundoj"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsCollections.ui:133
 msgid "Reset database"
 msgstr "Reagordi la datumbazon"
 
-#: ../data/SettingsDialog.ui:745
-msgid "Select music folders"
-msgstr "Elektu muzikajn dosierojn"
+#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:70
+#: ../lollypop/dialog_settings.py:73
+msgid "Preferences"
+msgstr "Agordoj"
 
-#: ../data/SettingsDialog.ui:746
-msgid "Music"
-msgstr "Muziko"
-
-#: ../data/SettingsDialog.ui:776 ../data/SettingsDialog.ui:891
+#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
 msgid "Login:"
 msgstr "Uzantonomo:"
 
-#: ../data/SettingsDialog.ui:789 ../data/SettingsDialog.ui:904
+#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
 msgid "Password:"
 msgstr "Pasvorto:"
 
-#: ../data/SettingsDialog.ui:825 ../data/SettingsDialog.ui:940
+#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
 msgid "Connect"
 msgstr "Konekti"
 
-#: ../data/SettingsDialog.ui:852 ../data/SettingsDialog.ui:967
+#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
 msgid "You need to install pylast and gi secret"
 msgstr "Vi bezonas instali pylast kaj gi secret"
 
-#: ../data/SettingsDialog.ui:987
+#: ../data/SettingsWeb.ui:237
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:1011
+#: ../data/SettingsWeb.ui:261
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -785,15 +752,15 @@ msgstr ""
 "ĵetonon ĉe ListenBrainz sube. Vi povas vidi vian ĵetonon de uzanto ĉe via <a "
 "href=\"https://listenbrainz.org/profile/\">profilo de uzanto</a>.</small>"
 
-#: ../data/SettingsDialog.ui:1041
+#: ../data/SettingsWeb.ui:291
 msgid "User token"
 msgstr "Ĵetono de uzanto"
 
-#: ../data/SettingsDialog.ui:1057
+#: ../data/SettingsWeb.ui:307
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1081
+#: ../data/SettingsWeb.ui:331
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -803,41 +770,17 @@ msgstr ""
 "<small>Alie, vi atingos la defaŭlta ŝultlimo baldaŭ...\n"
 "Lollypop bezonas ĉi tiun por serĉi artaĵojn kaj muzikon. </small>"
 
-#: ../data/SettingsDialog.ui:1125
+#: ../data/SettingsWeb.ui:376
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 "<small>Vi bezonas ŝalti \"Custom Search API\" por via projekto.</small>"
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:126
+#: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:126
 #: ../lollypop/playlists.py:440 ../lollypop/selectionlist.py:244
 #: ../lollypop/window.py:551 ../lollypop/window.py:552
 msgid "Search"
 msgstr "Serĉi"
-
-#: ../data/SettingsDialog.ui:1168 ../data/SettingsDialog.ui:1169
-msgid "Web"
-msgstr "Reto"
-
-#: ../data/SettingsDialog.ui:1237
-msgid ""
-"A compilation is an album without any \"Album artist tag\"\n"
-"and with different artists."
-msgstr ""
-"Kompilo estas albumo sen iu ajn \"marko de albuma artisto\"\n"
-"kaj kun malsamaj artistoj."
-
-#: ../data/SettingsDialog.ui:1251
-msgid "You need to reset database [Music]"
-msgstr "Vi bezonas reagordi la datumbazon [Muziko]"
-
-#: ../data/SettingsDialog.ui:1287
-msgid "Only in party mode"
-msgstr "Nur en festreĝimo"
-
-#: ../data/SettingsDialog.ui:1338
-msgid "Transition duration in seconds"
-msgstr "Daŭro de transirado en sekundoj"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -959,55 +902,55 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Ŝalti/malŝalti 'scrobbling'"
 
-#: ../data/SmartPlaylistView.ui:88
+#: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
 msgstr "Limigi je"
 
-#: ../data/SmartPlaylistView.ui:115
+#: ../data/SmartPlaylistView.ui:121
 msgid "tracks selected by"
 msgstr "trakoj elektitaj laŭ"
 
-#: ../data/SmartPlaylistView.ui:130
+#: ../data/SmartPlaylistView.ui:136
 msgid "random"
 msgstr "hazarda elekto"
 
-#: ../data/SmartPlaylistView.ui:131
+#: ../data/SmartPlaylistView.ui:137
 msgid "album"
 msgstr "albumo"
 
-#: ../data/SmartPlaylistView.ui:132
+#: ../data/SmartPlaylistView.ui:138
 msgid "artist"
 msgstr "artisto"
 
-#: ../data/SmartPlaylistView.ui:133
+#: ../data/SmartPlaylistView.ui:139
 msgid "year DESC"
 msgstr "jaro malkreskanta"
 
-#: ../data/SmartPlaylistView.ui:134
+#: ../data/SmartPlaylistView.ui:140
 msgid "year ASC"
 msgstr "jaro kreskanta"
 
-#: ../data/SmartPlaylistView.ui:135
+#: ../data/SmartPlaylistView.ui:141
 msgid "duration DESC"
 msgstr "daŭro malkreskanta"
 
-#: ../data/SmartPlaylistView.ui:136
+#: ../data/SmartPlaylistView.ui:142
 msgid "duration ASC"
 msgstr "daŭro kreskanta"
 
-#: ../data/SmartPlaylistView.ui:179 ../lollypop/view_playlist_smart.py:216
-msgid "Smart playlist"
-msgstr ""
+#: ../data/SmartPlaylistView.ui:185
+msgid "Match music for "
+msgstr "Kongrui muzikon por "
 
-#: ../data/SmartPlaylistView.ui:202
+#: ../data/SmartPlaylistView.ui:210
 msgid "all"
 msgstr "ĉiuj"
 
-#: ../data/SmartPlaylistView.ui:203
+#: ../data/SmartPlaylistView.ui:211
 msgid "one"
 msgstr "unu"
 
-#: ../data/SmartPlaylistView.ui:218
+#: ../data/SmartPlaylistView.ui:226
 msgid "of the following rules :"
 msgstr "de la sekvantaj reguloj:"
 
@@ -1093,10 +1036,10 @@ msgstr ""
 "    - Aŭtomata elŝuto de albumkovriloj malŝaltita\n"
 "    - Artistaj detaloj malŝaltita"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:319
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:362
 #: ../lollypop/container_lists.py:153 ../lollypop/database_albums.py:384
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
-#: ../lollypop/database_tracks.py:361 ../lollypop/selectionlist.py:417
+#: ../lollypop/database_tracks.py:377 ../lollypop/selectionlist.py:417
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:151 ../lollypop/tagreader.py:199
 #: ../lollypop/tagreader.py:215 ../lollypop/tagreader.py:219
@@ -1132,11 +1075,43 @@ msgstr "Laŭteco"
 msgid "Many artists"
 msgstr "Diversaj artistoj"
 
-#: ../lollypop/fullscreen.py:235 ../lollypop/helper_overlay.py:115
+#: ../lollypop/dialog_settings.py:39 ../lollypop/view_settings.py:34
+msgid "Appearance"
+msgstr "Aspekto"
+
+#: ../lollypop/dialog_settings.py:40 ../lollypop/view_settings.py:35
+msgid "Configure Lollypop appearance"
+msgstr "Agordi aspekton de Lollypop"
+
+#: ../lollypop/dialog_settings.py:44 ../lollypop/view_settings.py:37
+msgid "Behaviour"
+msgstr "Konduto"
+
+#: ../lollypop/dialog_settings.py:45 ../lollypop/view_settings.py:38
+msgid "Configure Lollypop behaviour"
+msgstr "Agordi konduton de Lollypop"
+
+#: ../lollypop/dialog_settings.py:49 ../lollypop/view_settings.py:40
+msgid "Music"
+msgstr "Muziko"
+
+#: ../lollypop/dialog_settings.py:50 ../lollypop/view_settings.py:41
+msgid "Select music folders"
+msgstr "Elektu muzikajn dosierojn"
+
+#: ../lollypop/dialog_settings.py:54 ../lollypop/view_settings.py:43
+msgid "Web"
+msgstr "Reto"
+
+#: ../lollypop/dialog_settings.py:55 ../lollypop/view_settings.py:44
+msgid "Configure Web services"
+msgstr ""
+
+#: ../lollypop/fullscreen.py:223 ../lollypop/helper_overlay.py:115
 #: ../lollypop/miniplayer.py:128 ../lollypop/toolbar_info.py:110
 #: ../lollypop/view_artist.py:127 ../lollypop/view_artist.py:137
-#: ../lollypop/view_information.py:175 ../lollypop/widgets_albums_decade.py:159
-#: ../lollypop/widgets_artist_rounded.py:119
+#: ../lollypop/view_information.py:177 ../lollypop/widgets_albums_decade.py:159
+#: ../lollypop/widgets_artist_rounded.py:122
 msgid "You are using a broken cursor theme!"
 msgstr "Vi uzas malfunkciantan haŭton de kursoro!"
 
@@ -1149,7 +1124,7 @@ msgstr "Ŝanĝi la albumkovrilon"
 msgid "Add to current playlist"
 msgstr "Aldoni al aktuala ludlisto"
 
-#: ../lollypop/helper_overlay.py:242 ../lollypop/view_albums_list.py:129
+#: ../lollypop/helper_overlay.py:242 ../lollypop/view_albums_list.py:130
 #: ../lollypop/view_artist.py:355 ../lollypop/widgets_context.py:101
 #: ../lollypop/widgets_indicator.py:56
 msgid "Remove from current playlist"
@@ -1237,7 +1212,15 @@ msgstr "Aliigi la informojn"
 msgid "Edit"
 msgstr "Redakti"
 
-#: ../lollypop/pop_menu.py:400
+#: ../lollypop/pop_menu.py:395
+msgid "Remove track"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:397
+msgid "Remove tracks"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:434
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
@@ -1273,35 +1256,6 @@ msgstr "Aktuala ludlisto"
 #: ../lollypop/selectionlist.py:401
 msgid "Right click to configure"
 msgstr "Dekstra klako por agordi"
-
-#: ../lollypop/settings.py:81
-msgid "Using \"GNOME Online Accounts\" settings"
-msgstr "Uzante \"GNOME Retaj Kontoj\" agordojn"
-
-#: ../lollypop/settings.py:88
-#, python-format
-msgid "%d artist"
-msgid_plural "%d artists"
-msgstr[0] "%d artisto"
-msgstr[1] "%d artistoj"
-
-#: ../lollypop/settings.py:90
-#, python-format
-msgid "%d album"
-msgid_plural "%d albums"
-msgstr[0] "%d albumo"
-msgstr[1] "%d albumoj"
-
-#: ../lollypop/settings.py:92
-#, python-format
-msgid "%d track"
-msgid_plural "%d tracks"
-msgstr[0] "%d peco"
-msgstr[1] "%d pecoj"
-
-#: ../lollypop/settings.py:750
-msgid "You need to install kid3-cli"
-msgstr "Vi bezonas instali kid3-cli"
 
 #: ../lollypop/shown.py:32
 msgid "Popular albums"
@@ -1351,27 +1305,27 @@ msgstr "USB-diskoj"
 msgid "Unplayed"
 msgstr "Neludita"
 
-#: ../lollypop/toolbar_end.py:269
+#: ../lollypop/toolbar_end.py:268
 msgid "All genres"
 msgstr "Ĉiuj ĝenroj"
 
-#: ../lollypop/toolbar_end.py:430
+#: ../lollypop/toolbar_end.py:421
 msgid "Playing playlists"
 msgstr "Ludantaj ludlistoj"
 
-#: ../lollypop/toolbar_end.py:432 ../lollypop/view_current_albums.py:57
+#: ../lollypop/toolbar_end.py:423 ../lollypop/view_current_albums.py:57
 msgid "Playing albums"
 msgstr "Ludantaj albumoj"
 
-#: ../lollypop/utils.py:204
+#: ../lollypop/utils.py:221
 msgid "The the"
 msgstr "La la The the"
 
-#: ../lollypop/view_albums_list.py:112
+#: ../lollypop/view_albums_list.py:113
 msgid "Compilation"
 msgstr "Kompilo"
 
-#: ../lollypop/view_albums_list.py:151
+#: ../lollypop/view_albums_list.py:152
 msgid "Go to artist view"
 msgstr "Iri al vido de artisto"
 
@@ -1408,11 +1362,11 @@ msgstr "Sinkronigitaj albumoj"
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Nekonata eraro dum sinkronigo, provu restartigi vian aparaton"
 
-#: ../lollypop/view_information.py:187 ../lollypop/view_information.py:300
+#: ../lollypop/view_information.py:189 ../lollypop/view_information.py:302
 msgid "Loading information"
 msgstr "Ŝargante informojn"
 
-#: ../lollypop/view_information.py:224 ../lollypop/view_information.py:295
+#: ../lollypop/view_information.py:226 ../lollypop/view_information.py:297
 #, python-format
 msgid "No information for %s"
 msgstr "Neniu informo por %s"
@@ -1441,10 +1395,6 @@ msgstr "Nova ludlisto"
 #: ../lollypop/view_playlists_manager.py:160
 msgid "New playlist "
 msgstr "Nova ludlisto "
-
-#: ../lollypop/view_playlist_smart.py:209
-msgid "Match music for "
-msgstr "Kongrui muzikon por "
 
 #: ../lollypop/view_playlists.py:180
 msgid "Cancel"
@@ -1477,7 +1427,7 @@ msgstr "<big>Neniuj serĉrezultoj</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Serĉi artistojn, albumojn kaj trakojn</big>"
 
-#: ../lollypop/view_tracks.py:601
+#: ../lollypop/view_tracks.py:643
 #, python-format
 msgid "Disc %s"
 msgstr "Disko %s"
@@ -1519,10 +1469,6 @@ msgstr "Ŝati"
 msgid "Disallow playback"
 msgstr "Malpermesi ludadon"
 
-#: ../lollypop/widgets_playlist_edit.py:115
-msgid "Remove ?"
-msgstr ""
-
 #: ../lollypop/widgets_playlist_rounded.py:174
 msgid "Remove"
 msgstr "Forigi"
@@ -1555,7 +1501,7 @@ msgstr "estas pli ol"
 msgid "is less than"
 msgstr "estas malpli ol"
 
-#: ../lollypop/widgets_radio.py:204
+#: ../lollypop/widgets_radio.py:205
 msgid "Modify radio"
 msgstr "Aliigi radion"
 
@@ -1563,6 +1509,57 @@ msgstr "Aliigi radion"
 #, python-format
 msgid "Song played %s times"
 msgstr "Kanto ludita %s fojoj"
+
+#: ../lollypop/widgets_settings_behaviour.py:220
+msgid "You need to install kid3-cli"
+msgstr "Vi bezonas instali kid3-cli"
+
+#: ../lollypop/widgets_settings_collections.py:129
+#, python-format
+msgid "%d artist"
+msgid_plural "%d artists"
+msgstr[0] "%d artisto"
+msgstr[1] "%d artistoj"
+
+#: ../lollypop/widgets_settings_collections.py:131
+#, python-format
+msgid "%d album"
+msgid_plural "%d albums"
+msgstr[0] "%d albumo"
+msgstr[1] "%d albumoj"
+
+#: ../lollypop/widgets_settings_collections.py:133
+#, python-format
+msgid "%d track"
+msgid_plural "%d tracks"
+msgstr[0] "%d peco"
+msgstr[1] "%d pecoj"
+
+#: ../lollypop/widgets_settings_web.py:36
+msgid "Using \"GNOME Online Accounts\" settings"
+msgstr "Uzante \"GNOME Retaj Kontoj\" agordojn"
+
+#~ msgid "New navigation mode when sidebar is off"
+#~ msgstr "Nova maniero de umado kiam flankpanelo malaktivas"
+
+#~ msgid "New smart playlists"
+#~ msgstr "Novaj lertaj ludlistoj"
+
+#~ msgid "Faster album loading"
+#~ msgstr "Plirapida ŝarĝado de albumoj"
+
+#~ msgid "Faster track loading"
+#~ msgstr "Plirapida ŝarĝado de muzikpecoj"
+
+#~ msgid "Better sync to device"
+#~ msgstr "Plibona sinkronigado al aparato"
+
+#~ msgid "Restore playback position on start"
+#~ msgstr "Restarigi la pozicion de la ludado dum startigo"
+
+#~ msgid "Better adaptive mode: radio support, toolbar buttons, search, ..."
+#~ msgstr ""
+#~ "Plibona adaptiĝa reĝimo: subteno de radio, bretaj butonoj, serĉo, ..."
 
 #~ msgid "Configure smart playlist"
 #~ msgstr "Agordi inteligentan ludliston"
