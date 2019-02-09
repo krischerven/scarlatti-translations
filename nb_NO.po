@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-07 09:40+0100\n"
-"PO-Revision-Date: 2019-01-01 11:09+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2019-02-10 12:10+0000\n"
+"Last-Translator: Harald H. <haarektrans@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:33
 msgid "Window size"
@@ -112,6 +112,7 @@ msgid "Google Custom Search API key"
 msgstr "Google API-nøkkel for egendefinert søk"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:123
+#, fuzzy
 msgid "Favorite tag editor"
 msgstr "Favoritt-merkelappredigerer"
 
@@ -220,11 +221,10 @@ msgstr ""
 "F.eks: The Beatles sortert som Beatles. Tilbakestilling av database kreves"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:218
-#, fuzzy
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
-"Vis sorteringsetikett som artist. Det kan hende tilbakestilling av database "
-"kreves"
+"Vis sorteringsetikett som artist. Tilbakestilling av databasen kan være "
+"nødvendig"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Ex: Beatles, The"
@@ -284,7 +284,7 @@ msgstr "Vekslingsmodus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:320
 msgid "Sidebar content"
-msgstr ""
+msgstr "Sidefeltets innhold"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:325
 msgid "Possibilities for powermanagement options"
@@ -450,7 +450,7 @@ msgstr "_Innstillinger"
 
 #: ../data/Appmenu_librem.ui:20 ../data/Appmenu.ui:36
 msgid "_About Lollypop"
-msgstr ""
+msgstr "_Om Lollypop"
 
 #: ../data/Appmenu.ui:11
 msgid "_Fullscreen"
@@ -458,7 +458,7 @@ msgstr "_Fullskjerm"
 
 #: ../data/Appmenu.ui:15
 msgid "_Equalizer"
-msgstr ""
+msgstr "_Equalizer"
 
 #: ../data/Appmenu.ui:19
 msgid "_Sidebar"
@@ -601,9 +601,8 @@ msgid "Save"
 msgstr "Lagre"
 
 #: ../data/PlaylistView.ui:106
-#, fuzzy
 msgid "Play playlist randomized"
-msgstr "Tilfedlig avspilling i spilleliste"
+msgstr "Tilfeldig avspilling i spilleliste"
 
 #: ../data/QueuePopover.ui:37
 msgid "Clear queue"
@@ -648,19 +647,19 @@ msgstr "Bruk mørk draktvariant"
 
 #: ../data/SettingsAppearance.ui:74
 msgid "Items in sidebar"
-msgstr ""
+msgstr "Elementer i sidefeltet"
 
 #: ../data/SettingsAppearance.ui:89
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: ../data/SettingsAppearance.ui:90 ../lollypop/shown.py:48
 msgid "Genres"
-msgstr ""
+msgstr "Sjangere"
 
 #: ../data/SettingsAppearance.ui:91
 msgid "Artists"
-msgstr ""
+msgstr "Artister"
 
 #: ../data/SettingsAppearance.ui:120 ../data/SettingsAppearance.ui:149
 msgid "Show compilations"
@@ -689,7 +688,7 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
-"En samling er et album uten noe \"Albumartistetikett\"\n"
+"En samling er et album uten noen «Albumartistetikett»\n"
 "og med forskjellige artister."
 
 #: ../data/SettingsAppearance.ui:372
@@ -840,7 +839,7 @@ msgstr "Vis/skjul navigasjonsliste"
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Show equalizer"
-msgstr ""
+msgstr "Vis equalizer"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
@@ -1122,7 +1121,7 @@ msgstr "Nett"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/view_settings.py:48
 msgid "Configure Web services"
-msgstr ""
+msgstr "Konfigurer webtjenester"
 
 #: ../lollypop/fullscreen.py:216 ../lollypop/helper_overlay.py:114
 #: ../lollypop/toolbar_info.py:100 ../lollypop/toolbar_info.py:123
@@ -1160,19 +1159,19 @@ msgstr "Lagre spilleliste"
 
 #: ../lollypop/menu_playlist.py:40
 msgid "Manage smart playlist"
-msgstr ""
+msgstr "Administrer smart spilleliste"
 
 #: ../lollypop/menu_playlist.py:49
 msgid "Split view"
-msgstr ""
+msgstr "Oppdelt visning"
 
 #: ../lollypop/menu_playlist.py:53
 msgid "Remove playlist"
-msgstr ""
+msgstr "Fjern spilleliste"
 
 #: ../lollypop/menu_playlist.py:75 ../lollypop/pop_playlist_edit.py:62
 msgid "Remove this playlist?"
-msgstr ""
+msgstr "Fjern denne spillelisten?"
 
 #: ../lollypop/menu_playlist.py:92
 msgid "Cancel"
@@ -1254,11 +1253,11 @@ msgstr "Rediger"
 
 #: ../lollypop/pop_menu.py:395
 msgid "Remove track"
-msgstr ""
+msgstr "Fjern spor"
 
 #: ../lollypop/pop_menu.py:397
 msgid "Remove tracks"
-msgstr ""
+msgstr "Fjern spor"
 
 #: ../lollypop/pop_menu.py:434
 msgid "%Y-%m-%d"
@@ -1274,7 +1273,7 @@ msgstr "Programstart"
 
 #: ../lollypop/pop_menu_views.py:85
 msgid "Sections"
-msgstr ""
+msgstr "Seksjoner"
 
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:406
 msgid "Can't connect to TuneIn…"
@@ -1378,7 +1377,7 @@ msgstr "The the De de"
 
 #: ../lollypop/view_album.py:63
 msgid "Others albums from"
-msgstr ""
+msgstr "Andre albumer fra"
 
 #: ../lollypop/view_albums_list.py:113
 msgid "Compilation"
@@ -1426,9 +1425,9 @@ msgid "Loading information"
 msgstr "Laster informasjon"
 
 #: ../lollypop/view_information.py:227 ../lollypop/view_information.py:298
-#, fuzzy, python-format
+#, python-format
 msgid "No information for %s"
-msgstr "Ingen info for %s"
+msgstr "Ingen informasjon for %s"
 
 #: ../lollypop/view_lyrics.py:65
 msgid "Loading…"
@@ -1439,9 +1438,8 @@ msgid "You need to install python3-textblob module"
 msgstr "Du må installere python3-textblob-modulen"
 
 #: ../lollypop/view_lyrics.py:135
-#, fuzzy
 msgid "Can't translate this lyrics"
-msgstr "Kan ikke oversette disse sangtekstene"
+msgstr "Kan ikke oversette denne teksten"
 
 #: ../lollypop/view_lyrics.py:260
 msgid "No lyrics found "
@@ -1493,91 +1491,91 @@ msgstr "Album"
 
 #: ../lollypop/widgets_equalizer.py:22
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktivert"
 
 #: ../lollypop/widgets_equalizer.py:23
 msgid "Classical"
-msgstr ""
+msgstr "Klassisk"
 
 #: ../lollypop/widgets_equalizer.py:24
 msgid "Club"
-msgstr ""
+msgstr "Klubb"
 
 #: ../lollypop/widgets_equalizer.py:25
 msgid "Dance"
-msgstr ""
+msgstr "Dance"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Dubstep"
-msgstr ""
+msgstr "Dubstep"
 
 #: ../lollypop/widgets_equalizer.py:27
 msgid "Full Bass"
-msgstr ""
+msgstr "Full bass"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Full Treble"
-msgstr ""
+msgstr "Full diskant"
 
 #: ../lollypop/widgets_equalizer.py:29
 msgid "Full Bass + Treble"
-msgstr ""
+msgstr "Full bass + diskant"
 
 #: ../lollypop/widgets_equalizer.py:30
 msgid "Hip Hop"
-msgstr ""
+msgstr "Hiphop"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Kuduro"
-msgstr ""
+msgstr "Kuduro"
 
 #: ../lollypop/widgets_equalizer.py:32
 msgid "Laptop/Headphones"
-msgstr ""
+msgstr "Bærbar/Hodetelefoner"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Large Hall"
-msgstr ""
+msgstr "Stor hall"
 
 #: ../lollypop/widgets_equalizer.py:34
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
 #: ../lollypop/widgets_equalizer.py:35
 msgid "Party"
-msgstr ""
+msgstr "Fest"
 
 #: ../lollypop/widgets_equalizer.py:36
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #: ../lollypop/widgets_equalizer.py:37
 msgid "Psychedelic"
-msgstr ""
+msgstr "Psykedelisk"
 
 #: ../lollypop/widgets_equalizer.py:38
 msgid "Reggae"
-msgstr ""
+msgstr "Reggae"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Rock"
-msgstr ""
+msgstr "Rock"
 
 #: ../lollypop/widgets_equalizer.py:40
 msgid "Soft"
-msgstr ""
+msgstr "Myk"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Ska"
-msgstr ""
+msgstr "Ska"
 
 #: ../lollypop/widgets_equalizer.py:42
 msgid "Soft Rock"
-msgstr ""
+msgstr "Softrock"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Techno"
-msgstr ""
+msgstr "Techno"
 
 #: ../lollypop/widgets_indicator.py:55
 msgid "Remove from playlist"
@@ -1585,20 +1583,19 @@ msgstr "Fjern fra spilleliste"
 
 #: ../lollypop/widgets_indicator.py:60
 msgid "Remove from playback"
-msgstr ""
+msgstr "Fjern fra avspilling"
 
 #: ../lollypop/widgets_indicator.py:64
 msgid "Add to playback"
-msgstr ""
+msgstr "Legg til i avspilling"
 
 #: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
 msgstr "Tillat avspilling"
 
 #: ../lollypop/widgets_loved.py:117
-#, fuzzy
 msgid "Like"
-msgstr "Lik"
+msgstr "Liker"
 
 #: ../lollypop/widgets_loved.py:122
 msgid "Disallow playback"
@@ -1621,7 +1618,6 @@ msgid "is not equal to"
 msgstr "er ikke lik"
 
 #: ../lollypop/widgets_playlist_smart.py:164
-#, fuzzy
 msgid "contains "
 msgstr "inneholder "
 
