@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-11 13:42+0100\n"
-"PO-Revision-Date: 2019-02-02 14:09+0000\n"
-"Last-Translator: Philipp Wolfer <ph.wolfer@gmail.com>\n"
+"PO-Revision-Date: 2019-02-22 21:17+0000\n"
+"Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "de/>\n"
 "Language: de\n"
@@ -97,7 +97,7 @@ msgstr "ID für Genres."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:93
 msgid "Import playlists from collections"
-msgstr ""
+msgstr "Wiedergabelisten aus Sammlungen importieren"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Music URI"
@@ -284,7 +284,7 @@ msgstr "Zufallsmodus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:320
 msgid "Sidebar content"
-msgstr ""
+msgstr "Inhalt der Seitenleiste"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:325
 msgid "Possibilities for powermanagement options"
@@ -453,7 +453,7 @@ msgstr "_Vollbild"
 
 #: ../data/Appmenu.ui:15
 msgid "_Equalizer"
-msgstr ""
+msgstr "_Klangregler"
 
 #: ../data/Appmenu.ui:19
 msgid "_Sidebar"
@@ -469,7 +469,7 @@ msgstr "_Tastenkürzel"
 
 #: ../data/Appmenu.ui:36
 msgid "_About Lollypop"
-msgstr ""
+msgstr "_Über Lollypop"
 
 #: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
 #: ../data/SettingsBehaviour.ui:304 ../data/SettingsBehaviour.ui:318
@@ -570,7 +570,7 @@ msgstr "Lautstärke"
 
 #: ../data/EqualizerWidget.ui:317
 msgid "Equalizer preset:"
-msgstr ""
+msgstr "Klangregler-Voreinstellungen:"
 
 #: ../data/LastfmPopover.ui:46
 msgid "No results"
@@ -649,19 +649,19 @@ msgstr "Dunkles Theme verwenden"
 
 #: ../data/SettingsAppearance.ui:74
 msgid "Items in sidebar"
-msgstr ""
+msgstr "Elemente in der Seitenliste"
 
 #: ../data/SettingsAppearance.ui:89 ../lollypop/widgets_equalizer.py:22
 msgid "Default"
-msgstr ""
+msgstr "Voreinstellung"
 
 #: ../data/SettingsAppearance.ui:90 ../lollypop/shown.py:48
 msgid "Genres"
-msgstr ""
+msgstr "Genres"
 
 #: ../data/SettingsAppearance.ui:91
 msgid "Artists"
-msgstr ""
+msgstr "Künstler"
 
 #: ../data/SettingsAppearance.ui:120 ../data/SettingsAppearance.ui:149
 msgid "Show compilations"
@@ -703,11 +703,11 @@ msgstr "Zustand beim Start wiederherstellen"
 
 #: ../data/SettingsBehaviour.ui:160
 msgid "Import playlists"
-msgstr ""
+msgstr "Wiedergabelisten importieren"
 
 #: ../data/SettingsBehaviour.ui:172
 msgid "Import playlists files present in collections"
-msgstr ""
+msgstr "Wiedergabelisten aus Dateien in Sammlungen importieren"
 
 #: ../data/SettingsBehaviour.ui:202 ../data/SettingsBehaviour.ui:216
 msgid "Save changes to files"
@@ -834,7 +834,7 @@ msgstr "Navigationsleiste zeigen/verbergen"
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Show equalizer"
-msgstr ""
+msgstr "Klangregler anzeigen"
 
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
@@ -1147,19 +1147,19 @@ msgstr "Wiedergabeliste speichern"
 
 #: ../lollypop/menu_playlist.py:40
 msgid "Manage smart playlist"
-msgstr ""
+msgstr "Smarte Wiedergabeliste verwalten"
 
 #: ../lollypop/menu_playlist.py:49
 msgid "Split view"
-msgstr ""
+msgstr "Ansicht aufteilen"
 
 #: ../lollypop/menu_playlist.py:53
 msgid "Remove playlist"
-msgstr ""
+msgstr "Wiedergabeliste entfernen"
 
 #: ../lollypop/menu_playlist.py:75 ../lollypop/pop_playlist_edit.py:62
 msgid "Remove this playlist?"
-msgstr ""
+msgstr "Diese Wiedergabeliste entfernen?"
 
 #: ../lollypop/menu_playlist.py:92
 msgid "Cancel"
@@ -1201,11 +1201,11 @@ msgstr "Zeige Alben dieses Künstlers"
 
 #: ../lollypop/pop_menu.py:120
 msgid "Add to playback"
-msgstr ""
+msgstr "Zur Warteschlange hinzufügen"
 
 #: ../lollypop/pop_menu.py:126
 msgid "Remove from playback"
-msgstr ""
+msgstr "Aus der Warteschlange entfernen"
 
 #: ../lollypop/pop_menu.py:137
 msgid "Add to queue"
@@ -1273,7 +1273,7 @@ msgstr "Programmstart"
 
 #: ../lollypop/pop_menu_views.py:85
 msgid "Sections"
-msgstr ""
+msgstr "Sektionen"
 
 #: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:406
 msgid "Can't connect to TuneIn…"
@@ -1377,7 +1377,7 @@ msgstr "Der der"
 
 #: ../lollypop/view_album.py:129
 msgid "Others albums from"
-msgstr ""
+msgstr "Andere Alben von"
 
 #: ../lollypop/view_albums_list.py:113
 msgid "Compilation"
@@ -1488,91 +1488,91 @@ msgstr "Alben"
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:94
 #: ../lollypop/widgets_equalizer.py:132
 msgid "Custom"
-msgstr ""
+msgstr "Benutzerdefiniert"
 
 #: ../lollypop/widgets_equalizer.py:24
 msgid "Classical"
-msgstr ""
+msgstr "Klassisch"
 
 #: ../lollypop/widgets_equalizer.py:25
 msgid "Club"
-msgstr ""
+msgstr "Club"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Dance"
-msgstr ""
+msgstr "Dance"
 
 #: ../lollypop/widgets_equalizer.py:27
 msgid "Dubstep"
-msgstr ""
+msgstr "Dubstep"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Full Bass"
-msgstr ""
+msgstr "Bassbetont"
 
 #: ../lollypop/widgets_equalizer.py:29
 msgid "Full Treble"
-msgstr ""
+msgstr "Höhenbetont"
 
 #: ../lollypop/widgets_equalizer.py:30
 msgid "Full Bass + Treble"
-msgstr ""
+msgstr "Bass- und höhenbetont"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Hip Hop"
-msgstr ""
+msgstr "Hip Hop"
 
 #: ../lollypop/widgets_equalizer.py:32
 msgid "Kuduro"
-msgstr ""
+msgstr "Kuduro"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Laptop/Headphones"
-msgstr ""
+msgstr "Laptop/Kopfhörer"
 
 #: ../lollypop/widgets_equalizer.py:34
 msgid "Large Hall"
-msgstr ""
+msgstr "Großer Saal"
 
 #: ../lollypop/widgets_equalizer.py:35
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
 #: ../lollypop/widgets_equalizer.py:36
 msgid "Party"
-msgstr ""
+msgstr "Party"
 
 #: ../lollypop/widgets_equalizer.py:37
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #: ../lollypop/widgets_equalizer.py:38
 msgid "Psychedelic"
-msgstr ""
+msgstr "Psychedelisch"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Reggae"
-msgstr ""
+msgstr "Reggae"
 
 #: ../lollypop/widgets_equalizer.py:40
 msgid "Rock"
-msgstr ""
+msgstr "Rock"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Soft"
-msgstr ""
+msgstr "Weich"
 
 #: ../lollypop/widgets_equalizer.py:42
 msgid "Ska"
-msgstr ""
+msgstr "Ska"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Soft Rock"
-msgstr ""
+msgstr "Soft Rock"
 
 #: ../lollypop/widgets_equalizer.py:44
 msgid "Techno"
-msgstr ""
+msgstr "Techno"
 
 #: ../lollypop/widgets_loved.py:112
 msgid "Allow playback"
