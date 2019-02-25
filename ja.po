@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-11 13:42+0100\n"
+"POT-Creation-Date: 2019-02-25 11:20+0100\n"
 "PO-Revision-Date: 2019-02-13 10:10+0000\n"
-"Last-Translator: YAMADA Shinichirou "
-"<yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
+"co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -162,8 +162,8 @@ msgid "Split playlists view"
 msgstr "プレイリストビューを分割"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:163
-msgid "Show list of genres"
-msgstr "ジャンル一覧を表示"
+msgid "Show performers"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Show sidebar"
@@ -419,13 +419,13 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "再生/一時停止"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:129
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:229
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:272
+#: ../lollypop/toolbar_end.py:281
 msgid "Next"
 msgstr "次へ"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:83
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:185
 #: ../data/ToolbarPlayback.ui:65 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "前へ"
@@ -467,25 +467,21 @@ msgstr "バックグラウンドデータを有効化"
 msgid "Show lyrics"
 msgstr "歌詞を表示"
 
-#: ../data/ArtistView.ui:71
-msgid "Photo"
-msgstr "写真"
-
-#: ../data/ArtistView.ui:116 ../lollypop/widgets_album_simple.py:155
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:157
 msgid "Play albums"
 msgstr "アルバムを再生"
 
-#: ../data/ArtistView.ui:134
+#: ../data/ArtistView.ui:124
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "現在のプレイリストに追加"
 
-#: ../data/ArtistView.ui:152 ../data/LastfmPopover.ui:77
+#: ../data/ArtistView.ui:143 ../data/SimilarsPopover.ui:77
 msgid "Similar artists"
 msgstr "類似のアーティスト"
 
-#: ../data/ArtistView.ui:171 ../data/PlaylistView.ui:128
-#: ../lollypop/view_artist.py:54 ../lollypop/view_current_albums.py:57
+#: ../data/ArtistView.ui:163 ../data/PlaylistView.ui:86
+#: ../lollypop/view_current_albums.py:57
 msgid "Go to current track"
 msgstr "現在のトラックへ移動"
 
@@ -559,21 +555,19 @@ msgstr "ボリューム"
 msgid "Equalizer preset:"
 msgstr "イコライザーのプリセット:"
 
-#: ../data/LastfmPopover.ui:46
-msgid "No results"
-msgstr "結果はありません"
-
 #: ../data/LyricsView.ui:75
 msgid "Translate"
 msgstr "翻訳"
 
-#: ../data/MiniPlayer.ui:106 ../data/PlaylistView.ui:85
+#: ../data/MiniPlayer.ui:207 ../data/PlaylistView.ui:45
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:92 ../lollypop/controller_playback.py:111
-#: ../lollypop/helper_overlay_album.py:54 ../lollypop/pop_tunein.py:200
-#: ../lollypop/widgets_albums_decade.py:69
-#: ../lollypop/widgets_albums_genre.py:68
-#: ../lollypop/widgets_playlist_rounded.py:91 ../lollypop/widgets_radio.py:190
+#: ../lollypop/helper_overlay_album.py:54
+#: ../lollypop/helper_overlay_decade.py:51
+#: ../lollypop/helper_overlay_genre.py:51
+#: ../lollypop/helper_overlay_playlist.py:54
+#: ../lollypop/helper_overlay_radio.py:55 ../lollypop/pop_tunein.py:200
+#: ../lollypop/view_tracks.py:429
 msgid "Play"
 msgstr "再生"
 
@@ -590,15 +584,15 @@ msgstr "名前:"
 msgid "Save"
 msgstr "保存"
 
-#: ../data/PlaylistView.ui:106
+#: ../data/PlaylistView.ui:65
 msgid "Play playlist randomized"
 msgstr "プレイリストをランダム再生"
 
-#: ../data/QueuePopover.ui:37
+#: ../data/QueuePopover.ui:22
 msgid "Clear queue"
 msgstr "キューをクリア"
 
-#: ../data/QueuePopover.ui:55 ../lollypop/toolbar_end.py:420
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:429
 msgid "Queue"
 msgstr "キュー"
 
@@ -778,9 +772,9 @@ msgstr ""
 "<small>プロジェクトの \"カスタム検索 API\" を有効にする必要があります。</"
 "small>"
 
-#: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:126
-#: ../lollypop/playlists.py:440 ../lollypop/selectionlist.py:244
-#: ../lollypop/window.py:544 ../lollypop/window.py:545
+#: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:123
+#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:244
+#: ../lollypop/window.py:541 ../lollypop/window.py:542
 msgid "Search"
 msgstr "検索"
 
@@ -899,6 +893,10 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Scrobbling の有効/無効"
 
+#: ../data/SimilarsPopover.ui:46
+msgid "No results"
+msgstr "結果はありません"
+
 #: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
 msgstr "上限:"
@@ -1015,7 +1013,7 @@ msgstr "Scrobbling"
 msgid "Enable scrobbling"
 msgstr "Scrobbling を有効化"
 
-#: ../data/ToolbarEnd.ui:100
+#: ../data/ToolbarEnd.ui:97
 msgid "Playback type"
 msgstr "再生形式"
 
@@ -1027,30 +1025,16 @@ msgstr "前に戻る"
 msgid "Go home"
 msgstr "ホームに移動"
 
-#: ../lollypop/application.py:32
-msgid ""
-"    - Scrobbler disabled\n"
-"    - Auto cover download disabled\n"
-"    - Artist information disabled"
-msgstr ""
-"    - Scrobbler 無効\n"
-"    - 自動カバーダウンロード無効\n"
-"    - アーティスト情報無効"
-
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:362
-#: ../lollypop/container_lists.py:171 ../lollypop/database_albums.py:384
+#: ../lollypop/container_lists.py:171 ../lollypop/database_albums.py:382
 #: ../lollypop/database_artists.py:110 ../lollypop/database_genres.py:70
-#: ../lollypop/database_tracks.py:377 ../lollypop/selectionlist.py:425
+#: ../lollypop/database_tracks.py:377 ../lollypop/selectionlist.py:427
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:151 ../lollypop/tagreader.py:199
 #: ../lollypop/tagreader.py:215 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:229 ../lollypop/tagreader.py:237
 msgid "Unknown"
 msgstr "不明"
-
-#: ../lollypop/container_device.py:103
-msgid "Please unlock your device"
-msgstr "デバイスのロックを解除してください"
 
 #: ../lollypop/container_donation.py:46
 msgid "Please consider a donation to the project"
@@ -1104,22 +1088,36 @@ msgstr "ウェブ"
 msgid "Configure Web services"
 msgstr "ウェブサービスを設定"
 
-#: ../lollypop/fullscreen.py:216 ../lollypop/toolbar_info.py:101
-#: ../lollypop/toolbar_info.py:124 ../lollypop/utils.py:87
-#: ../lollypop/view_artist.py:116 ../lollypop/view_artist.py:126
-#: ../lollypop/view_information.py:177 ../lollypop/widgets_albums_decade.py:123
-#: ../lollypop/widgets_albums_genre.py:119
+#: ../lollypop/fullscreen.py:217 ../lollypop/toolbar_info.py:116
+#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:101
+#: ../lollypop/view_artist.py:111 ../lollypop/view_information.py:181
 msgid "You are using a broken cursor theme!"
 msgstr "壊れたカーソルテーマを使用しています!"
 
-#: ../lollypop/helper_overlay_album.py:89 ../lollypop/view_artist.py:318
+#: ../lollypop/helper_overlay_album.py:87 ../lollypop/view_artist_common.py:66
 msgid "Add to current playlist"
 msgstr "現在のプレイリストに追加"
 
-#: ../lollypop/helper_overlay_album.py:95 ../lollypop/view_albums_list.py:130
-#: ../lollypop/view_artist.py:325
+#: ../lollypop/helper_overlay_album.py:93 ../lollypop/view_albums_list.py:131
+#: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "現在のプレイリストから削除"
+
+#: ../lollypop/helper_overlay_playlist.py:65 ../lollypop/pop_tunein.py:207
+msgid "Add"
+msgstr "追加"
+
+#: ../lollypop/helper_overlay_playlist.py:71
+msgid "Remove"
+msgstr "削除"
+
+#: ../lollypop/helper_overlay_playlist.py:84
+msgid "Modify playlist"
+msgstr "プレイリストを修正"
+
+#: ../lollypop/helper_overlay_radio.py:68
+msgid "Modify radio"
+msgstr "ラジオを変更"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1153,33 +1151,35 @@ msgstr "このプレイリストを削除しますか?"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../lollypop/notification.py:126
+#: ../lollypop/notification.py:127
 #, python-format
 msgid "by %s"
 msgstr "アーティスト: %s"
 
-#: ../lollypop/notification.py:132
+#: ../lollypop/notification.py:133
 #, python-format
 msgid "by %s, from %s"
 msgstr "アーティスト: %s, アルバム: %s"
 
-#: ../lollypop/playlists.py:64
+#: ../lollypop/playlists.py:85 ../lollypop/playlists.py:388
+#: ../lollypop/playlists.py:407 ../lollypop/shown.py:85
+#: ../lollypop/widgets_device.py:91
 msgid "Loved tracks"
 msgstr "評価したトラック"
 
-#: ../lollypop/playlists.py:432 ../lollypop/shown.py:75
+#: ../lollypop/playlists.py:431 ../lollypop/shown.py:83
 msgid "Popular tracks"
 msgstr "人気のあるトラック"
 
-#: ../lollypop/playlists.py:434 ../lollypop/shown.py:79
+#: ../lollypop/playlists.py:433 ../lollypop/shown.py:86
 msgid "Recently played"
 msgstr "最近再生したもの"
 
-#: ../lollypop/playlists.py:436
+#: ../lollypop/playlists.py:435
 msgid "Never played"
 msgstr "未再生"
 
-#: ../lollypop/playlists.py:438 ../lollypop/shown.py:83
+#: ../lollypop/playlists.py:437 ../lollypop/shown.py:84
 msgid "Random tracks"
 msgstr "ランダムなトラック"
 
@@ -1191,7 +1191,7 @@ msgstr "アーティストからアルバムを表示"
 msgid "Add to playback"
 msgstr "プレイバックに追加"
 
-#: ../lollypop/pop_menu.py:126
+#: ../lollypop/pop_menu.py:126 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "プレイバックから削除"
 
@@ -1222,8 +1222,9 @@ msgid "Lyrics"
 msgstr "歌詞"
 
 #: ../lollypop/pop_menu.py:337 ../lollypop/pop_menu.py:422
-#: ../lollypop/pop_menu.py:445 ../lollypop/shown.py:42
-#: ../lollypop/view_device.py:238 ../lollypop/widgets_device.py:94
+#: ../lollypop/pop_menu.py:445 ../lollypop/shown.py:39
+#: ../lollypop/view_device.py:232 ../lollypop/view_playlists_manager.py:36
+#: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "プレイリスト"
 
@@ -1259,160 +1260,151 @@ msgstr "起動時のデフォルト"
 msgid "Startup"
 msgstr "スタートアップ"
 
-#: ../lollypop/pop_menu_views.py:85
+#: ../lollypop/pop_menu_views.py:88
 msgid "Sections"
 msgstr "セクション"
 
-#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:406
+#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:405
 msgid "Can't connect to TuneIn…"
 msgstr "TuneIn に接続できません…"
 
-#: ../lollypop/pop_tunein.py:207 ../lollypop/widgets_playlist_rounded.py:102
-msgid "Add"
-msgstr "追加"
-
-#: ../lollypop/pop_tunein.py:401 ../lollypop/pop_tunein.py:403
+#: ../lollypop/pop_tunein.py:400 ../lollypop/pop_tunein.py:402
 msgid "No result…"
 msgstr "結果はありません…"
 
-#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:547
-#: ../lollypop/window.py:548
+#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:544
+#: ../lollypop/window.py:545
 msgid "Current playlist"
 msgstr "現在のプレイリスト"
 
-#: ../lollypop/selectionlist.py:409
+#: ../lollypop/selectionlist.py:411
 msgid "Right click to configure"
 msgstr "右クリックで設定できます"
 
-#: ../lollypop/shown.py:32
+#: ../lollypop/shown.py:24
 msgid "Popular albums"
 msgstr "人気のアルバム"
 
-#: ../lollypop/shown.py:34
+#: ../lollypop/shown.py:27
 msgid "Random albums"
 msgstr "ランダムなアルバム"
 
-#: ../lollypop/shown.py:36
+#: ../lollypop/shown.py:30
 msgid "Loved albums"
 msgstr "評価したアルバム"
 
-#: ../lollypop/shown.py:38
+#: ../lollypop/shown.py:33
 msgid "Recently added albums"
 msgstr "最近追加されたアルバム"
 
-#: ../lollypop/shown.py:40
+#: ../lollypop/shown.py:36
 msgid "Unplayed albums"
 msgstr "未再生のアルバム"
 
-#: ../lollypop/shown.py:44
+#: ../lollypop/shown.py:42
 msgid "Radios"
 msgstr "ラジオ"
 
-#: ../lollypop/shown.py:46
+#: ../lollypop/shown.py:45
 msgid "Years"
 msgstr "年"
 
-#: ../lollypop/shown.py:50
+#: ../lollypop/shown.py:51
 msgid "All albums"
 msgstr "すべてのアルバム"
 
-#: ../lollypop/shown.py:53
+#: ../lollypop/shown.py:54
 msgid "All artists"
 msgstr "すべてのアーティスト"
 
-#: ../lollypop/shown.py:56 ../lollypop/view_device.py:240
+#: ../lollypop/shown.py:55 ../lollypop/view_device.py:234
 msgid "Compilations"
 msgstr "コンピレーション"
 
-#: ../lollypop/shown.py:59
+#: ../lollypop/shown.py:56
 msgid "USB disks"
 msgstr "USB ディスク"
 
-#: ../lollypop/shown.py:81
+#: ../lollypop/shown.py:87
 msgid "Unplayed"
 msgstr "未再生"
 
-#: ../lollypop/toolbar_end.py:268
+#: ../lollypop/toolbar_end.py:277
 msgid "All genres"
 msgstr "すべてのジャンル"
 
-#: ../lollypop/toolbar_end.py:422
+#: ../lollypop/toolbar_end.py:431
 msgid "Playing playlists"
 msgstr "再生中のプレイリスト"
 
-#: ../lollypop/toolbar_end.py:424 ../lollypop/view_current_albums.py:59
+#: ../lollypop/toolbar_end.py:433 ../lollypop/view_current_albums.py:59
 msgid "Playing albums"
 msgstr "再生中のアルバム"
 
-#: ../lollypop/utils.py:37 ../lollypop/view_playlists.py:220
+#: ../lollypop/utils.py:55
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s 時間  %s 分"
 
-#: ../lollypop/utils.py:39 ../lollypop/view_playlists.py:223
+#: ../lollypop/utils.py:57
 #, python-format
 msgid "%s h"
 msgstr "%s 時間"
 
-#: ../lollypop/utils.py:41 ../lollypop/view_playlists.py:226
+#: ../lollypop/utils.py:59
 #, python-format
 msgid "%s m"
 msgstr "%s 分"
 
-#: ../lollypop/utils.py:268
+#: ../lollypop/utils.py:287
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_album.py:129
+#: ../lollypop/view_album.py:131
 msgid "Others albums from"
 msgstr "他のアルバム:"
 
-#: ../lollypop/view_albums_list.py:113
+#: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "コンピレーション"
 
-#: ../lollypop/view_albums_list.py:135
+#: ../lollypop/view_albums_list.py:136
 msgid "Go to artist view"
 msgstr "アーティストビューへ移動"
-
-#: ../lollypop/view_artist.py:66
-msgid "Network access disabled"
-msgstr "ネットワークアクセスが無効です"
 
 #: ../lollypop/view_current_albums.py:37
 msgid "Clear albums"
 msgstr "アルバムをクリア"
 
-#: ../lollypop/view_device.py:85
+#: ../lollypop/view_device.py:77
+msgid "Please unlock your device"
+msgstr "デバイスのロックを解除してください"
+
+#: ../lollypop/view_device.py:85 ../lollypop/view_device.py:280
 msgid "Synchronize"
 msgstr "同期する"
 
-#: ../lollypop/view_device.py:86 ../lollypop/view_device.py:286
-#, python-format
-msgid "Synchronize %s"
-msgstr "%s と同期"
-
-#: ../lollypop/view_device.py:125
+#: ../lollypop/view_device.py:119
 msgid "This will remove some files on your device!"
 msgstr "これはデバイスにある複数のファイルを削除します!"
 
-#: ../lollypop/view_device.py:190
+#: ../lollypop/view_device.py:186
 msgid "Cancel synchronization"
 msgstr "同期をキャンセル"
 
-#: ../lollypop/view_device.py:237
+#: ../lollypop/view_device.py:231
 msgid "Synced albums"
 msgstr "同期済みアルバム"
 
-#: ../lollypop/view_device.py:274
+#: ../lollypop/view_device.py:268
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "同期中の不明なエラー: デバイスを再起動してください"
 
-#: ../lollypop/view_information.py:189 ../lollypop/view_information.py:302
+#: ../lollypop/view_information.py:193 ../lollypop/view_information.py:306
 msgid "Loading information"
 msgstr "情報を読み込んでいます"
 
-#: ../lollypop/view_information.py:226 ../lollypop/view_information.py:297
+#: ../lollypop/view_information.py:230 ../lollypop/view_information.py:301
 #, python-format
 msgid "No information for %s"
 msgstr "%s の情報はありません"
@@ -1433,28 +1425,28 @@ msgstr "この歌詞を翻訳できません"
 msgid "No lyrics found "
 msgstr "このトラックの歌詞は見つかりませんでした "
 
-#: ../lollypop/view_playlists_manager.py:38
+#: ../lollypop/view_playlists_manager.py:40
 msgid "New playlist"
 msgstr "新しいプレイリスト"
 
-#: ../lollypop/view_playlists_manager.py:180
 #: ../lollypop/view_playlists_manager.py:183
+#: ../lollypop/view_playlists_manager.py:186
 msgid "New playlist "
 msgstr "新しいプレイリスト "
 
-#: ../lollypop/view_radios.py:56
-msgid "No favorite radios"
-msgstr "お気に入りのラジオなし"
+#: ../lollypop/view.py:58
+msgid "Empty"
+msgstr ""
 
-#: ../lollypop/view_search.py:116
+#: ../lollypop/view_search.py:117
 msgid "<big>No results for this search</big>"
 msgstr "<big>検索結果はありません</big>"
 
-#: ../lollypop/view_search.py:123
+#: ../lollypop/view_search.py:124
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>アーティスト、アルバム、トラックを検索</big>"
 
-#: ../lollypop/view_tracks.py:421
+#: ../lollypop/view_tracks.py:420
 #, python-format
 msgid "Disc %s"
 msgstr "ディスク %s"
@@ -1467,12 +1459,12 @@ msgstr "アートワークを選択"
 msgid "Reset artwork?"
 msgstr "アートワークをリセットしますか?"
 
-#: ../lollypop/widgets_device.py:105
+#: ../lollypop/widgets_device.py:107
 msgid "Albums"
 msgstr "アルバム"
 
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:94
-#: ../lollypop/widgets_equalizer.py:132
+#: ../lollypop/widgets_equalizer.py:134
 msgid "Custom"
 msgstr "カスタム"
 
@@ -1560,25 +1552,17 @@ msgstr "ソフトロック"
 msgid "Techno"
 msgstr "テクノ"
 
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:114
 msgid "Allow playback"
 msgstr "再生を許可"
 
-#: ../lollypop/widgets_loved.py:117
+#: ../lollypop/widgets_loved.py:119
 msgid "Like"
 msgstr "スキ"
 
-#: ../lollypop/widgets_loved.py:122
+#: ../lollypop/widgets_loved.py:124
 msgid "Disallow playback"
 msgstr "再生を禁止"
-
-#: ../lollypop/widgets_playlist_rounded.py:108
-msgid "Remove"
-msgstr "削除"
-
-#: ../lollypop/widgets_playlist_rounded.py:120
-msgid "Modify playlist"
-msgstr "プレイリストを修正"
 
 #: ../lollypop/widgets_playlist_smart.py:161
 msgid "is equal to"
@@ -1604,11 +1588,7 @@ msgstr "次より上"
 msgid "is less than"
 msgstr "次より下"
 
-#: ../lollypop/widgets_radio.py:205
-msgid "Modify radio"
-msgstr "ラジオを変更"
-
-#: ../lollypop/widgets_rating.py:50
+#: ../lollypop/widgets_rating.py:52
 #, python-format
 msgid "Song played %s times"
 msgstr "再生数 %s 回"
@@ -1638,6 +1618,30 @@ msgstr[0] "%d トラック"
 #: ../lollypop/widgets_settings_web.py:36
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "\"GNOME オンラインアカウント\" の設定を使用しています"
+
+#~ msgid "Show list of genres"
+#~ msgstr "ジャンル一覧を表示"
+
+#~ msgid "Photo"
+#~ msgstr "写真"
+
+#~ msgid ""
+#~ "    - Scrobbler disabled\n"
+#~ "    - Auto cover download disabled\n"
+#~ "    - Artist information disabled"
+#~ msgstr ""
+#~ "    - Scrobbler 無効\n"
+#~ "    - 自動カバーダウンロード無効\n"
+#~ "    - アーティスト情報無効"
+
+#~ msgid "Network access disabled"
+#~ msgstr "ネットワークアクセスが無効です"
+
+#~ msgid "Synchronize %s"
+#~ msgstr "%s と同期"
+
+#~ msgid "No favorite radios"
+#~ msgstr "お気に入りのラジオなし"
 
 #~ msgid "REMOVE ME LATER"
 #~ msgstr "後から私を削除"
