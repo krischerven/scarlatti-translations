@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-05 22:31+0100\n"
+"POT-Creation-Date: 2019-03-09 01:31+0100\n"
 "PO-Revision-Date: 2019-03-09 00:31+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -43,16 +43,16 @@ msgstr "Vensterpositie (x en y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:43
 #: ../data/org.gnome.Lollypop.gschema.xml:48
 #: ../data/org.gnome.Lollypop.gschema.xml:53
-#: ../data/org.gnome.Lollypop.gschema.xml:88
+#: ../data/org.gnome.Lollypop.gschema.xml:83
+#: ../data/org.gnome.Lollypop.gschema.xml:235
 #: ../data/org.gnome.Lollypop.gschema.xml:240
 #: ../data/org.gnome.Lollypop.gschema.xml:245
-#: ../data/org.gnome.Lollypop.gschema.xml:250
+#: ../data/org.gnome.Lollypop.gschema.xml:255
 #: ../data/org.gnome.Lollypop.gschema.xml:260
 #: ../data/org.gnome.Lollypop.gschema.xml:265
 #: ../data/org.gnome.Lollypop.gschema.xml:270
 #: ../data/org.gnome.Lollypop.gschema.xml:275
 #: ../data/org.gnome.Lollypop.gschema.xml:280
-#: ../data/org.gnome.Lollypop.gschema.xml:285
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -69,226 +69,222 @@ msgid "Save artwork/popularity in tags"
 msgstr "Albumhoezen/populariteit opslaan in tags"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
-msgid "Preserve the cover’s aspect ratio"
-msgstr "Breedteverhouding van albumhoes behouden"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Window maximized"
 msgstr "Venster gemaximaliseerd"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:79
+#: ../data/org.gnome.Lollypop.gschema.xml:74
 msgid "Window maximized state."
 msgstr "Venster is gemaximaliseerd."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:83
+#: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Enabled genres in party mode"
 msgstr "Genres in feestmodus ingeschakeld"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:84
+#: ../data/org.gnome.Lollypop.gschema.xml:79
 msgid "ID for genres."
 msgstr "ID voor genres."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:93
+#: ../data/org.gnome.Lollypop.gschema.xml:88
 msgid "Import playlists from collections"
 msgstr "Afspeellijsten importeren uit verzamelingen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:98
+#: ../data/org.gnome.Lollypop.gschema.xml:93
 msgid "Music URI"
 msgstr "Muziek-URI"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:99
+#: ../data/org.gnome.Lollypop.gschema.xml:94
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Gebruik XDG_MUSIC_DIR wanneer leeg"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:103
+#: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Libre.fm i.p.v. Last.fm gebruiken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:108
+#: ../data/org.gnome.Lollypop.gschema.xml:103
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz-gebruikerstoken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:113
+#: ../data/org.gnome.Lollypop.gschema.xml:108
 msgid "Google Custom Search API key"
 msgstr "Google Custom Search API-sleutel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:118
+#: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "Favorite tag editor"
 msgstr "Favoriete tagbewerker"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:123
+#: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "Favorite cover file"
 msgstr "Favoriete albumhoes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Restart needed"
 msgstr "Herstart vereist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:128
+#: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Database version"
 msgstr "Databankversie"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Door deze waarde opnieuw in te stellen, wordt de databank opnieuw ingesteld; "
 "populaire albums worden hersteld"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsAppearance.ui:268
+#: ../data/org.gnome.Lollypop.gschema.xml:128 ../data/SettingsAppearance.ui:268
 msgid "Albums cover size"
 msgstr "Afmetingen van albumhoes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138
+#: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Replay gain value in dB"
 msgstr "ReplayGain-waarde in dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Between -15 and 15"
 msgstr "Tussen -15 en 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:143
+#: ../data/org.gnome.Lollypop.gschema.xml:138
 msgid "Encoding quality"
 msgstr "Codeerkwaliteit"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:148 ../data/SettingsBehaviour.ui:28
+#: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsBehaviour.ui:28
 #: ../data/SettingsBehaviour.ui:31 ../data/SettingsBehaviour.ui:45
 msgid "Auto update music"
 msgstr "Muziek automatisch bijwerken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:153
+#: ../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Split playlists view"
 msgstr "Afspeellijstoverzicht splitsen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:158
+#: ../data/org.gnome.Lollypop.gschema.xml:153
 msgid "Show performers"
 msgstr "Uitvoerende artiesten tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:163
+#: ../data/org.gnome.Lollypop.gschema.xml:158
 msgid "Show sidebar"
 msgstr "Zijbalk tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsAppearance.ui:178
+#: ../data/org.gnome.Lollypop.gschema.xml:163 ../data/SettingsAppearance.ui:178
 #: ../data/SettingsAppearance.ui:192
 msgid "Show artist artwork"
 msgstr "Artiestfoto tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173
+#: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Use dark GTK theme"
 msgstr "Donker GTK-thema gebruiken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:178
+#: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Vensterdecoraties aan cliëntzijde (headerbar) uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:183
+#: ../data/org.gnome.Lollypop.gschema.xml:178
 msgid "Disable scrobbling usage"
 msgstr "Gebruik van scrobblen uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188
+#: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Handle compilations"
 msgstr "Compilaties verwerken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Compilaties tonen in albumoverzicht"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsBehaviour.ui:75
+#: ../data/org.gnome.Lollypop.gschema.xml:193 ../data/SettingsBehaviour.ui:75
 #: ../data/SettingsBehaviour.ui:89
 msgid "Continue playback when closed"
 msgstr "Doorgaan met afspelen wanneer gesloten"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203
+#: ../data/org.gnome.Lollypop.gschema.xml:198
 msgid "Smart sort for artist"
 msgstr "Artiesten slim sorteren"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:199
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Voorbeeld: The Beatles worden getoond als Beatles. Opnieuw instellen van "
 "databank vereist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208
+#: ../data/org.gnome.Lollypop.gschema.xml:203
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Sorteertag tonen als artiest. Mogelijk opnieuw instellen van databank vereist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:204
 msgid "Ex: Beatles, The"
 msgstr "Bijv.: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Restore previous state"
 msgstr "Vorige toestand herstellen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Disable MPRIS"
 msgstr "MPRIS uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable all notifications"
 msgstr "Alle meldingen uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:227
+#: ../data/org.gnome.Lollypop.gschema.xml:222
 msgid "Disable notifications upon change of song"
 msgstr "Meldingen bij nummerwijzigingen uitschakelen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231
+#: ../data/org.gnome.Lollypop.gschema.xml:226
 msgid "Fullscreen album rotates"
 msgstr "Volledig scherm-album draait mee"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:235
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Show track number from tags"
 msgstr "Liednummer uit tags tonen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:255
+#: ../data/org.gnome.Lollypop.gschema.xml:250
 msgid "JPG cover quality"
 msgstr "JPG-albumhoeskwaliteit"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:290
+#: ../data/org.gnome.Lollypop.gschema.xml:285
 msgid "Smooth track transitions"
 msgstr "Vloeiende overgang tussen nummers"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:295
+#: ../data/org.gnome.Lollypop.gschema.xml:290
 msgid "Only mix songs in party mode"
 msgstr "Nummers enkel mengen in feestmodus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:300
+#: ../data/org.gnome.Lollypop.gschema.xml:295
 msgid "Smoothing duration"
 msgstr "Overgangsduur"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:305
+#: ../data/org.gnome.Lollypop.gschema.xml:300
 msgid "Spotify charts locale"
 msgstr "Taal voor Spotify-ranglijsten"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:310
+#: ../data/org.gnome.Lollypop.gschema.xml:305
 msgid "Shuffle mode"
 msgstr "Willekeurige modus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:315
+#: ../data/org.gnome.Lollypop.gschema.xml:310
 msgid "Sidebar content"
 msgstr "Inhoud van zijbalk"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:320
+#: ../data/org.gnome.Lollypop.gschema.xml:315
 msgid "Possibilities for powermanagement options"
 msgstr "Mogelijkheden tot energiebesparing"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:321
+#: ../data/org.gnome.Lollypop.gschema.xml:316
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Deze optie schakelt de schermbeveiliging of pauzestand uit zolang Lollypop "
 "bezig is met afspelen."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:325
+#: ../data/org.gnome.Lollypop.gschema.xml:320
 msgid "Playback behaviour"
 msgstr "Afspeelgedrag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:330 ../data/SettingsAppearance.ui:221
+#: ../data/org.gnome.Lollypop.gschema.xml:325 ../data/SettingsAppearance.ui:221
 msgid "Order albums by"
 msgstr "Albums rangschikken op"
 
@@ -434,44 +430,48 @@ msgstr "Volgende"
 msgid "Previous"
 msgstr "Vorige"
 
-#: ../data/Appmenu.ui:7
-msgid "_Update music"
-msgstr "Muziek _bijwerken"
+#: ../data/Appmenu.ui:45
+msgid "Update music"
+msgstr ""
 
-#: ../data/Appmenu.ui:11
-msgid "_Fullscreen"
-msgstr "Volledig _scherm"
+#: ../data/Appmenu.ui:63
+msgid "Equalizer"
+msgstr ""
 
-#: ../data/Appmenu.ui:15
-msgid "_Equalizer"
-msgstr "_Equalizer"
+#: ../data/Appmenu.ui:81
+msgid "Fullscreen"
+msgstr ""
 
-#: ../data/Appmenu.ui:19
-msgid "_Sidebar"
-msgstr "_Zijbalk"
-
-#: ../data/Appmenu.ui:26
+#: ../data/Appmenu.ui:109
 msgid "_Preferences"
 msgstr "_Voorkeuren"
 
-#: ../data/Appmenu.ui:32
+#: ../data/Appmenu.ui:122
+msgid "_Sidebar"
+msgstr "_Zijbalk"
+
+#: ../data/Appmenu.ui:135
 msgid "_Keyboard Shortcuts"
 msgstr "_Sneltoetsen"
 
-#: ../data/Appmenu.ui:36
-msgid "_About Lollypop"
-msgstr "_Over Lollypop"
+#: ../data/Appmenu.ui:148
+msgid "_About"
+msgstr "_Over"
 
 #: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
 #: ../data/SettingsBehaviour.ui:304 ../data/SettingsBehaviour.ui:318
 msgid "Turn on background data"
 msgstr "Achtergrondgegevens inschakelen"
 
-#: ../data/ArtistInformation.ui:156 ../lollypop/pop_menu.py:333
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:329
 msgid "Show lyrics"
 msgstr "Songtekst tonen"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:158
+#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:141
+msgid "Go to artist view"
+msgstr "Ga naar artiestweergave"
+
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:174
 msgid "Play albums"
 msgstr "Albums afspelen"
 
@@ -552,10 +552,6 @@ msgid "FLAC"
 msgstr "FLAC"
 
 #: ../data/EqualizerWidget.ui:283
-msgid "Volume"
-msgstr "Volume"
-
-#: ../data/EqualizerWidget.ui:317
 msgid "Equalizer preset:"
 msgstr "Equalizer-voorinstelling:"
 
@@ -565,13 +561,12 @@ msgstr "Vertalen"
 
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:45
 #: ../data/SearchView.ui:114 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controller_playback.py:92 ../lollypop/controller_playback.py:111
-#: ../lollypop/helper_overlay_album.py:54
-#: ../lollypop/helper_overlay_decade.py:51
-#: ../lollypop/helper_overlay_genre.py:51
-#: ../lollypop/helper_overlay_playlist.py:54
-#: ../lollypop/helper_overlay_radio.py:55 ../lollypop/pop_tunein.py:200
-#: ../lollypop/view_tracks.py:442
+#: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:109
+#: ../lollypop/helper_overlay_decade.py:49
+#: ../lollypop/helper_overlay_genre.py:49
+#: ../lollypop/helper_overlay_playlist.py:52
+#: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:200
+#: ../lollypop/view_tracks.py:442 ../lollypop/widgets_album_simple.py:164
 msgid "Play"
 msgstr "Afspelen"
 
@@ -925,8 +920,8 @@ msgid "Show compilations"
 msgstr "Compilaties tonen"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:338 ../lollypop/pop_menu.py:446
-#: ../lollypop/pop_menu.py:468
+#: ../lollypop/pop_menu.py:334 ../lollypop/pop_menu.py:442
+#: ../lollypop/pop_menu.py:464
 msgid "Artist"
 msgstr "Artiest"
 
@@ -1052,7 +1047,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:123
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:244
-#: ../lollypop/window.py:541 ../lollypop/window.py:542
+#: ../lollypop/window.py:538 ../lollypop/window.py:539
 msgid "Search"
 msgstr "Zoeken"
 
@@ -1091,82 +1086,87 @@ msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
 msgstr "Navigatielijst tonen/verbergen"
 
-#: ../data/Shortcuts.ui:59
+#: ../data/Shortcuts.ui:59 ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Show equalizer"
 msgstr "Equalizer tonen"
 
-#: ../data/Shortcuts.ui:66
-msgctxt "shortcut window"
-msgid "Show lyrics"
-msgstr "Songtekst tonen"
-
 #: ../data/Shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Volume up"
+msgstr ""
+
+#: ../data/Shortcuts.ui:80
+msgctxt "shortcut window"
+msgid "Volume down"
+msgstr ""
+
+#: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Show albums from artist"
 msgstr "Albums van artiest tonen"
 
-#: ../data/Shortcuts.ui:80
+#: ../data/Shortcuts.ui:94
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Volledig scherm"
 
-#: ../data/Shortcuts.ui:89
+#: ../data/Shortcuts.ui:103
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Afspelen"
 
-#: ../data/Shortcuts.ui:93
+#: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "Afspelen"
 
-#: ../data/Shortcuts.ui:100
+#: ../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "Pauzeren"
 
-#: ../data/Shortcuts.ui:107
+#: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "Stoppen"
 
-#: ../data/Shortcuts.ui:114
+#: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "Volgend nummer"
 
-#: ../data/Shortcuts.ui:121
+#: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "Vorig nummer"
 
-#: ../data/Shortcuts.ui:128
+#: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "Huidig album overslaan"
 
-#: ../data/Shortcuts.ui:135
+#: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "Huidig nummer toevoegen aan lievelingsnummers"
 
-#: ../data/Shortcuts.ui:142
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Nummer herhalen"
 
-#: ../data/Shortcuts.ui:149
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Terugspoelen in nummer"
 
-#: ../data/Shortcuts.ui:156
+#: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Doorspoelen in nummer"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:177
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Scrobblen in-/uitschakelen"
@@ -1303,8 +1303,8 @@ msgstr "Terug"
 msgid "Go home"
 msgstr "Terug naar beginscherm"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:454
-#: ../lollypop/container_lists.py:171 ../lollypop/database_tracks.py:375
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:452
+#: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:375
 #: ../lollypop/selectionlist.py:427 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
 #: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
@@ -1325,7 +1325,7 @@ msgstr "Nieuwe nummers beschikbaar"
 msgid "Refresh"
 msgstr "Vernieuwen"
 
-#: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:114
+#: ../lollypop/controller_playback.py:88 ../lollypop/controller_playback.py:112
 msgid "Pause"
 msgstr "Pauzeren"
 
@@ -1366,34 +1366,34 @@ msgstr "Internet"
 msgid "Configure Web services"
 msgstr "Internetdiensten instellen"
 
-#: ../lollypop/fullscreen.py:216 ../lollypop/toolbar_info.py:116
-#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:101
-#: ../lollypop/view_artist.py:111 ../lollypop/view_information.py:181
+#: ../lollypop/fullscreen.py:215 ../lollypop/toolbar_info.py:115
+#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
+#: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
 msgid "You are using a broken cursor theme!"
 msgstr "Je gebruikt een niet-werkend cursorthema!"
 
-#: ../lollypop/helper_overlay_album.py:87 ../lollypop/view_artist_common.py:67
+#: ../lollypop/helper_overlay_album.py:69 ../lollypop/view_artist_common.py:66
 msgid "Add to current playlist"
 msgstr "Toevoegen aan huidige afspeellijst"
 
-#: ../lollypop/helper_overlay_album.py:93 ../lollypop/view_albums_list.py:131
-#: ../lollypop/view_artist_common.py:74
+#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:131
+#: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "Verwijderen uit huidige afspeellijst"
 
-#: ../lollypop/helper_overlay_playlist.py:65 ../lollypop/pop_tunein.py:207
+#: ../lollypop/helper_overlay_playlist.py:63 ../lollypop/pop_tunein.py:207
 msgid "Add"
 msgstr "Toevoegen"
 
-#: ../lollypop/helper_overlay_playlist.py:71
+#: ../lollypop/helper_overlay_playlist.py:69
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: ../lollypop/helper_overlay_playlist.py:84
+#: ../lollypop/helper_overlay_playlist.py:82
 msgid "Modify playlist"
 msgstr "Afspeellijst bewerken"
 
-#: ../lollypop/helper_overlay_radio.py:68
+#: ../lollypop/helper_overlay_radio.py:66
 msgid "Modify radio"
 msgstr "Radiozender bewerken"
 
@@ -1465,76 +1465,76 @@ msgstr "Willekeurige nummers"
 msgid "Show albums from artist"
 msgstr "Albums van artiest tonen"
 
-#: ../lollypop/pop_menu.py:120
+#: ../lollypop/pop_menu.py:116
 msgid "Add to playback"
 msgstr "Toevoegen aan afspeelwachtrij"
 
-#: ../lollypop/pop_menu.py:126 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:122 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Verwijderen uit afspeelwachtrij"
 
-#: ../lollypop/pop_menu.py:137
+#: ../lollypop/pop_menu.py:133
 msgid "Add to queue"
 msgstr "Toevoegen aan wachtrij"
 
-#: ../lollypop/pop_menu.py:143
+#: ../lollypop/pop_menu.py:139
 msgid "Remove from queue"
 msgstr "Verwijderen uit wachtrij"
 
-#: ../lollypop/pop_menu.py:224
+#: ../lollypop/pop_menu.py:220
 msgid "Add to others"
 msgstr "Toevoegen aan andere"
 
-#: ../lollypop/pop_menu.py:239
+#: ../lollypop/pop_menu.py:235
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Verwijderen uit ‘%s’"
 
-#: ../lollypop/pop_menu.py:245
+#: ../lollypop/pop_menu.py:241
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Toevoegen aan ‘%s’"
 
-#: ../lollypop/pop_menu.py:334
+#: ../lollypop/pop_menu.py:330
 msgid "Lyrics"
 msgstr "Songtekst"
 
-#: ../lollypop/pop_menu.py:337 ../lollypop/pop_menu.py:449
-#: ../lollypop/pop_menu.py:473 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:333 ../lollypop/pop_menu.py:445
+#: ../lollypop/pop_menu.py:469 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Afspeellijsten"
 
-#: ../lollypop/pop_menu.py:385 ../lollypop/view_albums_list.py:136
+#: ../lollypop/pop_menu.py:381 ../lollypop/view_albums_list.py:136
 msgid "Save in collection"
 msgstr "Opslaan in verzameling"
 
-#: ../lollypop/pop_menu.py:390
+#: ../lollypop/pop_menu.py:386
 msgid "Remove from collection"
 msgstr "Verwijderen uit verzameling"
 
-#: ../lollypop/pop_menu.py:399
+#: ../lollypop/pop_menu.py:395
 msgid "Modify information"
 msgstr "Informatie bewerken"
 
-#: ../lollypop/pop_menu.py:451 ../lollypop/pop_menu.py:475
+#: ../lollypop/pop_menu.py:447 ../lollypop/pop_menu.py:471
 msgid "Edit"
 msgstr "Bewerken"
 
-#: ../lollypop/pop_menu.py:470
+#: ../lollypop/pop_menu.py:466
 msgid "Playback"
 msgstr "Afspelen"
 
-#: ../lollypop/pop_menu.py:493
+#: ../lollypop/pop_menu.py:489
 msgid "Remove track"
 msgstr "Nummer verwijderen"
 
-#: ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:491
 msgid "Remove tracks"
 msgstr "Nummers verwijderen"
 
-#: ../lollypop/pop_menu.py:535
+#: ../lollypop/pop_menu.py:531
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1558,8 +1558,8 @@ msgstr "Kan geen verbinding maken met TuneIn…"
 msgid "No result…"
 msgstr "Geen resultaten…"
 
-#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:544
-#: ../lollypop/window.py:545
+#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:541
+#: ../lollypop/window.py:542
 msgid "Current playlist"
 msgstr "Huidige afspeellijst"
 
@@ -1642,7 +1642,7 @@ msgstr "%su"
 msgid "%s m"
 msgstr "%sm"
 
-#: ../lollypop/utils.py:287
+#: ../lollypop/utils.py:288
 msgid "The the"
 msgstr "The the"
 
@@ -1653,10 +1653,6 @@ msgstr "Andere albums van"
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "Compilatie"
-
-#: ../lollypop/view_albums_list.py:141
-msgid "Go to artist view"
-msgstr "Ga naar artiestweergave"
 
 #: ../lollypop/view_current_albums.py:36
 msgid "Clear albums"
@@ -1686,11 +1682,11 @@ msgstr "Gesynchroniseerde albums"
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Onbekende fout bij synchroniseren; probeer je apparaat te herstarten"
 
-#: ../lollypop/view_information.py:193 ../lollypop/view_information.py:306
+#: ../lollypop/view_information.py:196 ../lollypop/view_information.py:323
 msgid "Loading information"
 msgstr "Bezig met laden van informatie"
 
-#: ../lollypop/view_information.py:230 ../lollypop/view_information.py:301
+#: ../lollypop/view_information.py:233 ../lollypop/view_information.py:318
 #, python-format
 msgid "No information for %s"
 msgstr "Geen informatie over %s"
@@ -1745,12 +1741,16 @@ msgstr "Albumhoes kiezen"
 msgid "Reset artwork?"
 msgstr "Albumhoes opnieuw instellen?"
 
+#: ../lollypop/widgets_cover.py:92
+msgid "Change artwork"
+msgstr "Albumhoes wijzigen"
+
 #: ../lollypop/widgets_device.py:107
 msgid "Albums"
 msgstr "Albums"
 
-#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:94
-#: ../lollypop/widgets_equalizer.py:134
+#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:91
+#: ../lollypop/widgets_equalizer.py:125
 msgid "Custom"
 msgstr "Aangepast"
 
@@ -1908,6 +1908,28 @@ msgstr[1] "%d nummers"
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Gebruikmakend van de instellingen van \"GNOME Online Accounts\""
 
+#~ msgid "Preserve the cover’s aspect ratio"
+#~ msgstr "Breedteverhouding van albumhoes behouden"
+
+#~ msgid "_Update music"
+#~ msgstr "Muziek _bijwerken"
+
+#~ msgid "_Fullscreen"
+#~ msgstr "Volledig _scherm"
+
+#~ msgid "_Equalizer"
+#~ msgstr "_Equalizer"
+
+#~ msgid "_About Lollypop"
+#~ msgstr "_Over Lollypop"
+
+#~ msgid "Volume"
+#~ msgstr "Volume"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show lyrics"
+#~ msgstr "Songtekst tonen"
+
 #~ msgid "Last.fm login"
 #~ msgstr "Last.fm-account"
 
@@ -1970,9 +1992,6 @@ msgstr "Gebruikmakend van de instellingen van \"GNOME Online Accounts\""
 #~ msgid "Show genres"
 #~ msgstr "Genres tonen"
 
-#~ msgid "Change artwork"
-#~ msgstr "Albumhoes wijzigen"
-
 #~ msgid "Open"
 #~ msgstr "Openen"
 
@@ -1981,9 +2000,6 @@ msgstr "Gebruikmakend van de instellingen van \"GNOME Online Accounts\""
 
 #~ msgid "Remove from playlist"
 #~ msgstr "Verwijderen uit afspeellijst"
-
-#~ msgid "_About"
-#~ msgstr "_Over"
 
 #~ msgid "_Quit"
 #~ msgstr "_Afsluiten"

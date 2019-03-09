@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-05 22:31+0100\n"
+"POT-Creation-Date: 2019-03-09 01:31+0100\n"
 "PO-Revision-Date: 2019-02-28 14:18+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -43,16 +43,16 @@ msgstr "Posició de la finestra (x i y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:43
 #: ../data/org.gnome.Lollypop.gschema.xml:48
 #: ../data/org.gnome.Lollypop.gschema.xml:53
-#: ../data/org.gnome.Lollypop.gschema.xml:88
+#: ../data/org.gnome.Lollypop.gschema.xml:83
+#: ../data/org.gnome.Lollypop.gschema.xml:235
 #: ../data/org.gnome.Lollypop.gschema.xml:240
 #: ../data/org.gnome.Lollypop.gschema.xml:245
-#: ../data/org.gnome.Lollypop.gschema.xml:250
+#: ../data/org.gnome.Lollypop.gschema.xml:255
 #: ../data/org.gnome.Lollypop.gschema.xml:260
 #: ../data/org.gnome.Lollypop.gschema.xml:265
 #: ../data/org.gnome.Lollypop.gschema.xml:270
 #: ../data/org.gnome.Lollypop.gschema.xml:275
 #: ../data/org.gnome.Lollypop.gschema.xml:280
-#: ../data/org.gnome.Lollypop.gschema.xml:285
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -69,227 +69,223 @@ msgid "Save artwork/popularity in tags"
 msgstr "Desa il·lustracions/popularitat en les etiquetes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:73
-msgid "Preserve the cover’s aspect ratio"
-msgstr "Conserva la proporció de les caràtules"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Window maximized"
 msgstr "Finestra maximitzada"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:79
+#: ../data/org.gnome.Lollypop.gschema.xml:74
 msgid "Window maximized state."
 msgstr "Estat maximitzat de la finestra."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:83
+#: ../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Enabled genres in party mode"
 msgstr "Activa gèneres en mode festa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:84
+#: ../data/org.gnome.Lollypop.gschema.xml:79
 msgid "ID for genres."
 msgstr "ID per gèneres."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:93
+#: ../data/org.gnome.Lollypop.gschema.xml:88
 msgid "Import playlists from collections"
 msgstr "Importa la llista de reproducció de les col·leccions"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:98
+#: ../data/org.gnome.Lollypop.gschema.xml:93
 msgid "Music URI"
 msgstr "URI de la música"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:99
+#: ../data/org.gnome.Lollypop.gschema.xml:94
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Quan estigui buit, utilitza XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:103
+#: ../data/org.gnome.Lollypop.gschema.xml:98
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Utilitza Libre.fm en lloc de Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:108
+#: ../data/org.gnome.Lollypop.gschema.xml:103
 msgid "ListenBrainz user token"
 msgstr "Identificador d'usuari ListenBrainz"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:113
+#: ../data/org.gnome.Lollypop.gschema.xml:108
 msgid "Google Custom Search API key"
 msgstr "Clau Google Custom Search API"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:118
+#: ../data/org.gnome.Lollypop.gschema.xml:113
 msgid "Favorite tag editor"
 msgstr "Editor d'etiquetes preferit"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:123
+#: ../data/org.gnome.Lollypop.gschema.xml:118
 msgid "Favorite cover file"
 msgstr "Fitxer de caràtula preferit"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Restart needed"
 msgstr "Cal reiniciar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:128
+#: ../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Database version"
 msgstr "Versió de la base de dades"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Reinicialitzar aquest valor reinicialitzarà la base de dades, els àlbums "
 "populars seran restaurats"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:133 ../data/SettingsAppearance.ui:268
+#: ../data/org.gnome.Lollypop.gschema.xml:128 ../data/SettingsAppearance.ui:268
 msgid "Albums cover size"
 msgstr "Mida de la caràtula"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:138
+#: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Replay gain value in dB"
 msgstr "Valor del guany en dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Between -15 and 15"
 msgstr "Entre -15 i 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:143
+#: ../data/org.gnome.Lollypop.gschema.xml:138
 msgid "Encoding quality"
 msgstr "Qualitat de codificació"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:148 ../data/SettingsBehaviour.ui:28
+#: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsBehaviour.ui:28
 #: ../data/SettingsBehaviour.ui:31 ../data/SettingsBehaviour.ui:45
 msgid "Auto update music"
 msgstr "Actualització automàtica de la música"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:153
+#: ../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Split playlists view"
 msgstr "Divideix vista de la llista"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:158
+#: ../data/org.gnome.Lollypop.gschema.xml:153
 msgid "Show performers"
 msgstr "Mostra intèrprets"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:163
+#: ../data/org.gnome.Lollypop.gschema.xml:158
 msgid "Show sidebar"
 msgstr "Mostra barra lateral"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:168 ../data/SettingsAppearance.ui:178
+#: ../data/org.gnome.Lollypop.gschema.xml:163 ../data/SettingsAppearance.ui:178
 #: ../data/SettingsAppearance.ui:192
 msgid "Show artist artwork"
 msgstr "Mostra fotografia dels artistes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:173
+#: ../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Use dark GTK theme"
 msgstr "Tema GTK fosc"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:178
+#: ../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 "Desactiva les decoracions de la finestra del costat del client (barra "
 "d'encapçalament)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:183
+#: ../data/org.gnome.Lollypop.gschema.xml:178
 msgid "Disable scrobbling usage"
 msgstr "Desactivar l'ús de scrobbling"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:188
+#: ../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Handle compilations"
 msgstr "Gestiona compilacions"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:193 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:188 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Mostra compilacions en la finestra d'àlbums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsBehaviour.ui:75
+#: ../data/org.gnome.Lollypop.gschema.xml:193 ../data/SettingsBehaviour.ui:75
 #: ../data/SettingsBehaviour.ui:89
 msgid "Continue playback when closed"
 msgstr "Continua sonant quan tanqui"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:203
+#: ../data/org.gnome.Lollypop.gschema.xml:198
 msgid "Smart sort for artist"
 msgstr "Ordre intel·ligent pels artistes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:199
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Ex: The Beattles s'ordena com a Beatles. Cal reiniciar la base de dades"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:208
+#: ../data/org.gnome.Lollypop.gschema.xml:203
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Mostra l'etiqueta classificació com a artista. Potser calgui reiniciar la "
 "base de dades"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:204
 msgid "Ex: Beatles, The"
 msgstr "Ex: Pets, Els"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:213
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Restore previous state"
 msgstr "Restaura estat anterior"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:218
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Disable MPRIS"
 msgstr "Desactiva MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:223
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable all notifications"
 msgstr "Desactiva totes les notoficacions"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:227
+#: ../data/org.gnome.Lollypop.gschema.xml:222
 msgid "Disable notifications upon change of song"
 msgstr "Desactiva les notificacions quan canvii de cançó"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231
+#: ../data/org.gnome.Lollypop.gschema.xml:226
 msgid "Fullscreen album rotates"
 msgstr "Gira la caràtula de l'àlbum a pantalla completa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:235
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Show track number from tags"
 msgstr "Mostra número de pista de l'etiqueta"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:255
+#: ../data/org.gnome.Lollypop.gschema.xml:250
 msgid "JPG cover quality"
 msgstr "Qualitat de la caràtula JPG"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:290
+#: ../data/org.gnome.Lollypop.gschema.xml:285
 msgid "Smooth track transitions"
 msgstr "Transició suau entre pistes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:295
+#: ../data/org.gnome.Lollypop.gschema.xml:290
 msgid "Only mix songs in party mode"
 msgstr "Només mescla cançons en mode festa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:300
+#: ../data/org.gnome.Lollypop.gschema.xml:295
 msgid "Smoothing duration"
 msgstr "Durada de la transició"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:305
+#: ../data/org.gnome.Lollypop.gschema.xml:300
 msgid "Spotify charts locale"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:310
+#: ../data/org.gnome.Lollypop.gschema.xml:305
 msgid "Shuffle mode"
 msgstr "Mode aleatori"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:315
+#: ../data/org.gnome.Lollypop.gschema.xml:310
 msgid "Sidebar content"
 msgstr "Contingut de la barra lateral"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:320
+#: ../data/org.gnome.Lollypop.gschema.xml:315
 msgid "Possibilities for powermanagement options"
 msgstr "Possibilitats per a les opcions d'administració d'energia"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:321
+#: ../data/org.gnome.Lollypop.gschema.xml:316
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Aquesta opció desactiva el salvapantalles  i el suspèn mentre està sonant."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:325
+#: ../data/org.gnome.Lollypop.gschema.xml:320
 msgid "Playback behaviour"
 msgstr "Comportament de la reproducció"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:330 ../data/SettingsAppearance.ui:221
+#: ../data/org.gnome.Lollypop.gschema.xml:325 ../data/SettingsAppearance.ui:221
 msgid "Order albums by"
 msgstr "Ordena els àlbums per"
 
@@ -435,44 +431,48 @@ msgstr "Següent"
 msgid "Previous"
 msgstr "Anterior"
 
-#: ../data/Appmenu.ui:7
-msgid "_Update music"
-msgstr "Actualitza la _Música"
+#: ../data/Appmenu.ui:45
+msgid "Update music"
+msgstr ""
 
-#: ../data/Appmenu.ui:11
-msgid "_Fullscreen"
-msgstr "Pantalla _completa"
+#: ../data/Appmenu.ui:63
+msgid "Equalizer"
+msgstr ""
 
-#: ../data/Appmenu.ui:15
-msgid "_Equalizer"
-msgstr "_Equalitzador"
+#: ../data/Appmenu.ui:81
+msgid "Fullscreen"
+msgstr ""
 
-#: ../data/Appmenu.ui:19
-msgid "_Sidebar"
-msgstr "Barra _Lateral"
-
-#: ../data/Appmenu.ui:26
+#: ../data/Appmenu.ui:109
 msgid "_Preferences"
 msgstr "_Preferències"
 
-#: ../data/Appmenu.ui:32
+#: ../data/Appmenu.ui:122
+msgid "_Sidebar"
+msgstr "Barra _Lateral"
+
+#: ../data/Appmenu.ui:135
 msgid "_Keyboard Shortcuts"
 msgstr "_Dreceres de teclat"
 
-#: ../data/Appmenu.ui:36
-msgid "_About Lollypop"
-msgstr "_Quant al Lollypop"
+#: ../data/Appmenu.ui:148
+msgid "_About"
+msgstr "_Quant a"
 
 #: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
 #: ../data/SettingsBehaviour.ui:304 ../data/SettingsBehaviour.ui:318
 msgid "Turn on background data"
 msgstr "Permet la connexió de dades en segon pla"
 
-#: ../data/ArtistInformation.ui:156 ../lollypop/pop_menu.py:333
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:329
 msgid "Show lyrics"
 msgstr "Mostra la lletra"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:158
+#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:141
+msgid "Go to artist view"
+msgstr "Ves a la vista de l'artista"
+
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:174
 msgid "Play albums"
 msgstr "Reprodueix àlbums"
 
@@ -553,10 +553,6 @@ msgid "FLAC"
 msgstr "FLAC"
 
 #: ../data/EqualizerWidget.ui:283
-msgid "Volume"
-msgstr "Volum"
-
-#: ../data/EqualizerWidget.ui:317
 msgid "Equalizer preset:"
 msgstr "Ajustos de l'equalitzador preestablerts:"
 
@@ -566,13 +562,12 @@ msgstr "Tradueix"
 
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:45
 #: ../data/SearchView.ui:114 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controller_playback.py:92 ../lollypop/controller_playback.py:111
-#: ../lollypop/helper_overlay_album.py:54
-#: ../lollypop/helper_overlay_decade.py:51
-#: ../lollypop/helper_overlay_genre.py:51
-#: ../lollypop/helper_overlay_playlist.py:54
-#: ../lollypop/helper_overlay_radio.py:55 ../lollypop/pop_tunein.py:200
-#: ../lollypop/view_tracks.py:442
+#: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:109
+#: ../lollypop/helper_overlay_decade.py:49
+#: ../lollypop/helper_overlay_genre.py:49
+#: ../lollypop/helper_overlay_playlist.py:52
+#: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:200
+#: ../lollypop/view_tracks.py:442 ../lollypop/widgets_album_simple.py:164
 msgid "Play"
 msgstr "Reprodueix"
 
@@ -926,8 +921,8 @@ msgid "Show compilations"
 msgstr "Mostra compilacions"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:338 ../lollypop/pop_menu.py:446
-#: ../lollypop/pop_menu.py:468
+#: ../lollypop/pop_menu.py:334 ../lollypop/pop_menu.py:442
+#: ../lollypop/pop_menu.py:464
 msgid "Artist"
 msgstr "Artista"
 
@@ -1051,7 +1046,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:123
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:244
-#: ../lollypop/window.py:541 ../lollypop/window.py:542
+#: ../lollypop/window.py:538 ../lollypop/window.py:539
 msgid "Search"
 msgstr "Cerca"
 
@@ -1090,82 +1085,87 @@ msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
 msgstr "Mostra/amaga la llista de navegació"
 
-#: ../data/Shortcuts.ui:59
+#: ../data/Shortcuts.ui:59 ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Show equalizer"
 msgstr "Mostra equalitzador"
 
-#: ../data/Shortcuts.ui:66
-msgctxt "shortcut window"
-msgid "Show lyrics"
-msgstr "Lletra de la cançó"
-
 #: ../data/Shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Volume up"
+msgstr ""
+
+#: ../data/Shortcuts.ui:80
+msgctxt "shortcut window"
+msgid "Volume down"
+msgstr ""
+
+#: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Show albums from artist"
 msgstr "Mostra àlbums de l'artista"
 
-#: ../data/Shortcuts.ui:80
+#: ../data/Shortcuts.ui:94
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
-#: ../data/Shortcuts.ui:89
+#: ../data/Shortcuts.ui:103
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../data/Shortcuts.ui:93
+#: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "Reprodueix"
 
-#: ../data/Shortcuts.ui:100
+#: ../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "Pausa"
 
-#: ../data/Shortcuts.ui:107
+#: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "Atura"
 
-#: ../data/Shortcuts.ui:114
+#: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "Pista següent"
 
-#: ../data/Shortcuts.ui:121
+#: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "Pista anterior"
 
-#: ../data/Shortcuts.ui:128
+#: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "Salta l'àlbum actual"
 
-#: ../data/Shortcuts.ui:135
+#: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "M'agrada la pista actual"
 
-#: ../data/Shortcuts.ui:142
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Repeteix pista"
 
-#: ../data/Shortcuts.ui:149
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Rebobina la pista"
 
-#: ../data/Shortcuts.ui:156
+#: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Avança la pista"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:177
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Activa/desactiva el scrobbling"
@@ -1302,8 +1302,8 @@ msgstr "Vés enrere"
 msgid "Go home"
 msgstr "Vés a l’inici"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:454
-#: ../lollypop/container_lists.py:171 ../lollypop/database_tracks.py:375
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:452
+#: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:375
 #: ../lollypop/selectionlist.py:427 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
 #: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
@@ -1324,7 +1324,7 @@ msgstr "Noves pistes disponibles"
 msgid "Refresh"
 msgstr "Actualitza"
 
-#: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:114
+#: ../lollypop/controller_playback.py:88 ../lollypop/controller_playback.py:112
 msgid "Pause"
 msgstr "Pausa"
 
@@ -1365,34 +1365,34 @@ msgstr "Web"
 msgid "Configure Web services"
 msgstr "Configura serveis web"
 
-#: ../lollypop/fullscreen.py:216 ../lollypop/toolbar_info.py:116
-#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:101
-#: ../lollypop/view_artist.py:111 ../lollypop/view_information.py:181
+#: ../lollypop/fullscreen.py:215 ../lollypop/toolbar_info.py:115
+#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
+#: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
 msgid "You are using a broken cursor theme!"
 msgstr "Esteu utilitzant un tema de cursor incompatible!"
 
-#: ../lollypop/helper_overlay_album.py:87 ../lollypop/view_artist_common.py:67
+#: ../lollypop/helper_overlay_album.py:69 ../lollypop/view_artist_common.py:66
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
 
-#: ../lollypop/helper_overlay_album.py:93 ../lollypop/view_albums_list.py:131
-#: ../lollypop/view_artist_common.py:74
+#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:131
+#: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "Elimina de la llista actual"
 
-#: ../lollypop/helper_overlay_playlist.py:65 ../lollypop/pop_tunein.py:207
+#: ../lollypop/helper_overlay_playlist.py:63 ../lollypop/pop_tunein.py:207
 msgid "Add"
 msgstr "Afegeix"
 
-#: ../lollypop/helper_overlay_playlist.py:71
+#: ../lollypop/helper_overlay_playlist.py:69
 msgid "Remove"
 msgstr "Elimina"
 
-#: ../lollypop/helper_overlay_playlist.py:84
+#: ../lollypop/helper_overlay_playlist.py:82
 msgid "Modify playlist"
 msgstr "Modifica la llista"
 
-#: ../lollypop/helper_overlay_radio.py:68
+#: ../lollypop/helper_overlay_radio.py:66
 msgid "Modify radio"
 msgstr "Modifica ràdio"
 
@@ -1464,76 +1464,76 @@ msgstr "Pistes a l'atzar"
 msgid "Show albums from artist"
 msgstr "Mostrar àlbums de l'artista"
 
-#: ../lollypop/pop_menu.py:120
+#: ../lollypop/pop_menu.py:116
 msgid "Add to playback"
 msgstr "Afegeix a la lectura"
 
-#: ../lollypop/pop_menu.py:126 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:122 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Elimina de la lectura"
 
-#: ../lollypop/pop_menu.py:137
+#: ../lollypop/pop_menu.py:133
 msgid "Add to queue"
 msgstr "Afegeix a la cua"
 
-#: ../lollypop/pop_menu.py:143
+#: ../lollypop/pop_menu.py:139
 msgid "Remove from queue"
 msgstr "Treu de la cua"
 
-#: ../lollypop/pop_menu.py:224
+#: ../lollypop/pop_menu.py:220
 msgid "Add to others"
 msgstr "Afegeix a altres"
 
-#: ../lollypop/pop_menu.py:239
+#: ../lollypop/pop_menu.py:235
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Treu de «%s»"
 
-#: ../lollypop/pop_menu.py:245
+#: ../lollypop/pop_menu.py:241
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Afegeix a «%s»"
 
-#: ../lollypop/pop_menu.py:334
+#: ../lollypop/pop_menu.py:330
 msgid "Lyrics"
 msgstr "Lletra"
 
-#: ../lollypop/pop_menu.py:337 ../lollypop/pop_menu.py:449
-#: ../lollypop/pop_menu.py:473 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:333 ../lollypop/pop_menu.py:445
+#: ../lollypop/pop_menu.py:469 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Llistes"
 
-#: ../lollypop/pop_menu.py:385 ../lollypop/view_albums_list.py:136
+#: ../lollypop/pop_menu.py:381 ../lollypop/view_albums_list.py:136
 msgid "Save in collection"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:390
+#: ../lollypop/pop_menu.py:386
 msgid "Remove from collection"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:399
+#: ../lollypop/pop_menu.py:395
 msgid "Modify information"
 msgstr "Modifica etiquetes"
 
-#: ../lollypop/pop_menu.py:451 ../lollypop/pop_menu.py:475
+#: ../lollypop/pop_menu.py:447 ../lollypop/pop_menu.py:471
 msgid "Edit"
 msgstr "Edita"
 
-#: ../lollypop/pop_menu.py:470
+#: ../lollypop/pop_menu.py:466
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../lollypop/pop_menu.py:493
+#: ../lollypop/pop_menu.py:489
 msgid "Remove track"
 msgstr "Elimina pista"
 
-#: ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:491
 msgid "Remove tracks"
 msgstr "Elimina pistes"
 
-#: ../lollypop/pop_menu.py:535
+#: ../lollypop/pop_menu.py:531
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1557,8 +1557,8 @@ msgstr "No es pot connectar al TuneIn…"
 msgid "No result…"
 msgstr "Cap resultat…"
 
-#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:544
-#: ../lollypop/window.py:545
+#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:541
+#: ../lollypop/window.py:542
 msgid "Current playlist"
 msgstr "Llista actual"
 
@@ -1641,7 +1641,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:287
+#: ../lollypop/utils.py:288
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
@@ -1652,10 +1652,6 @@ msgstr "Altres àlbums de"
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "Compilació"
-
-#: ../lollypop/view_albums_list.py:141
-msgid "Go to artist view"
-msgstr "Ves a la vista de l'artista"
 
 #: ../lollypop/view_current_albums.py:36
 msgid "Clear albums"
@@ -1685,11 +1681,11 @@ msgstr "Àlbums sincronitzats"
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Error desconegut en sincronitzar. Proveu de reiniciar el dispositiu"
 
-#: ../lollypop/view_information.py:193 ../lollypop/view_information.py:306
+#: ../lollypop/view_information.py:196 ../lollypop/view_information.py:323
 msgid "Loading information"
 msgstr "Carregant informació"
 
-#: ../lollypop/view_information.py:230 ../lollypop/view_information.py:301
+#: ../lollypop/view_information.py:233 ../lollypop/view_information.py:318
 #, python-format
 msgid "No information for %s"
 msgstr "Cap informació de %s"
@@ -1744,12 +1740,16 @@ msgstr "Trieu caràtula"
 msgid "Reset artwork?"
 msgstr "Reiniciar il·lustracions?"
 
+#: ../lollypop/widgets_cover.py:92
+msgid "Change artwork"
+msgstr "Canvia il·lustracions"
+
 #: ../lollypop/widgets_device.py:107
 msgid "Albums"
 msgstr "Àlbums"
 
-#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:94
-#: ../lollypop/widgets_equalizer.py:134
+#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:91
+#: ../lollypop/widgets_equalizer.py:125
 msgid "Custom"
 msgstr "Personalitzat"
 
@@ -1907,6 +1907,28 @@ msgstr[1] "%d pistes"
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Utilitzant configuració de \"GNOME comptes en línia\""
 
+#~ msgid "Preserve the cover’s aspect ratio"
+#~ msgstr "Conserva la proporció de les caràtules"
+
+#~ msgid "_Update music"
+#~ msgstr "Actualitza la _Música"
+
+#~ msgid "_Fullscreen"
+#~ msgstr "Pantalla _completa"
+
+#~ msgid "_Equalizer"
+#~ msgstr "_Equalitzador"
+
+#~ msgid "_About Lollypop"
+#~ msgstr "_Quant al Lollypop"
+
+#~ msgid "Volume"
+#~ msgstr "Volum"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show lyrics"
+#~ msgstr "Lletra de la cançó"
+
 #~ msgid "Last.fm login"
 #~ msgstr "Inici de sessió de Last.fm"
 
@@ -1965,14 +1987,8 @@ msgstr "Utilitzant configuració de \"GNOME comptes en línia\""
 #~ msgid "Show genres"
 #~ msgstr "Mostra els gèneres"
 
-#~ msgid "Change artwork"
-#~ msgstr "Canvia il·lustracions"
-
 #~ msgid "Open"
 #~ msgstr "Obre"
-
-#~ msgid "_About"
-#~ msgstr "_Quant a"
 
 #~ msgid "_Quit"
 #~ msgstr "_Surt"
