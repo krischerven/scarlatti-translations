@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 01:31+0100\n"
+"POT-Creation-Date: 2019-03-14 22:14+0100\n"
 "PO-Revision-Date: 2019-03-14 21:13+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -277,8 +277,8 @@ msgstr ""
 "Lollypop bezig is met afspelen."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:320
-msgid "Playback behaviour"
-msgstr "Afspeelgedrag"
+msgid "Repeat"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:325 ../data/SettingsAppearance.ui:221
 msgid "Order albums by"
@@ -416,13 +416,13 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "Afspelen/pauzeren"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:227
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:224
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:274
+#: ../lollypop/toolbar_end.py:283
 msgid "Next"
 msgstr "Volgende"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:185
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:182
 #: ../data/ToolbarPlayback.ui:65 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "Vorige"
@@ -460,7 +460,7 @@ msgstr "_Info"
 msgid "Turn on background data"
 msgstr "Achtergrondgegevens inschakelen"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:329
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:346
 msgid "Show lyrics"
 msgstr "Songtekst tonen"
 
@@ -468,7 +468,7 @@ msgstr "Songtekst tonen"
 msgid "Go to artist view"
 msgstr "Ga naar artiestweergave"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:174
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:180
 msgid "Play albums"
 msgstr "Albums afspelen"
 
@@ -556,14 +556,14 @@ msgstr "Equalizer-voorinstelling:"
 msgid "Translate"
 msgstr "Vertalen"
 
-#: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:45
+#: ../data/MiniPlayer.ui:203 ../data/PlaylistView.ui:45
 #: ../data/SearchView.ui:114 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:109
 #: ../lollypop/helper_overlay_decade.py:49
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:200
-#: ../lollypop/view_tracks.py:442 ../lollypop/widgets_album_simple.py:164
+#: ../lollypop/view_tracks.py:442 ../lollypop/widgets_album_simple.py:170
 msgid "Play"
 msgstr "Afspelen"
 
@@ -588,7 +588,7 @@ msgstr "Afspeellijst willekeurig afspelen"
 msgid "Clear queue"
 msgstr "Wachtrij wissen"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:422
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:433
 msgid "Queue"
 msgstr "Wachtrij"
 
@@ -917,8 +917,8 @@ msgid "Show compilations"
 msgstr "Compilaties weergeven"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:334 ../lollypop/pop_menu.py:442
-#: ../lollypop/pop_menu.py:464
+#: ../lollypop/pop_menu.py:351 ../lollypop/pop_menu.py:459
+#: ../lollypop/pop_menu.py:481
 msgid "Artist"
 msgstr "Artiest"
 
@@ -1044,7 +1044,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:123
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:244
-#: ../lollypop/window.py:538 ../lollypop/window.py:539
+#: ../lollypop/window.py:541 ../lollypop/window.py:542
 msgid "Search"
 msgstr "Zoeken"
 
@@ -1300,7 +1300,7 @@ msgstr "Terug"
 msgid "Go home"
 msgstr "Terug naar beginscherm"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:452
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:451
 #: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:375
 #: ../lollypop/selectionlist.py:427 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
@@ -1354,7 +1354,7 @@ msgstr "Muziek"
 msgid "Select music folders"
 msgstr "Kiest muziekmappen"
 
-#: ../lollypop/dialog_settings.py:55 ../lollypop/helper_spotify.py:337
+#: ../lollypop/dialog_settings.py:55 ../lollypop/shown.py:51
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Internet"
@@ -1437,16 +1437,16 @@ msgid "by %s, from %s"
 msgstr "door %s, van %s"
 
 #: ../lollypop/playlists.py:85 ../lollypop/playlists.py:388
-#: ../lollypop/playlists.py:407 ../lollypop/shown.py:85
+#: ../lollypop/playlists.py:407 ../lollypop/shown.py:88
 #: ../lollypop/widgets_device.py:91
 msgid "Loved tracks"
 msgstr "Lievelingsnummers"
 
-#: ../lollypop/playlists.py:431 ../lollypop/shown.py:83
+#: ../lollypop/playlists.py:431 ../lollypop/shown.py:86
 msgid "Popular tracks"
 msgstr "Populaire nummers"
 
-#: ../lollypop/playlists.py:433 ../lollypop/shown.py:86
+#: ../lollypop/playlists.py:433 ../lollypop/shown.py:89
 msgid "Recently played"
 msgstr "Recent afgespeeld"
 
@@ -1454,84 +1454,88 @@ msgstr "Recent afgespeeld"
 msgid "Never played"
 msgstr "Nooit afgespeeld"
 
-#: ../lollypop/playlists.py:437 ../lollypop/shown.py:84
+#: ../lollypop/playlists.py:437 ../lollypop/shown.py:87
 msgid "Random tracks"
 msgstr "Willekeurige nummers"
 
 #: ../lollypop/pop_menu.py:63
-msgid "Show albums from artist"
-msgstr "Albums van artiest tonen"
+msgid "Available albums"
+msgstr ""
 
-#: ../lollypop/pop_menu.py:116
+#: ../lollypop/pop_menu.py:68
+msgid "Others albums"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:131
 msgid "Add to playback"
 msgstr "Toevoegen aan afspelen"
 
-#: ../lollypop/pop_menu.py:122 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:137 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Verwijderen uit afspelen"
 
-#: ../lollypop/pop_menu.py:133
+#: ../lollypop/pop_menu.py:148
 msgid "Add to queue"
 msgstr "Toevoegen aan wachtrij"
 
-#: ../lollypop/pop_menu.py:139
+#: ../lollypop/pop_menu.py:154
 msgid "Remove from queue"
 msgstr "Verwijderen uit wachtrij"
 
-#: ../lollypop/pop_menu.py:220
+#: ../lollypop/pop_menu.py:237
 msgid "Add to others"
 msgstr "Toevoegen aan andere"
 
-#: ../lollypop/pop_menu.py:235
+#: ../lollypop/pop_menu.py:252
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Verwijderen uit ‘%s’"
 
-#: ../lollypop/pop_menu.py:241
+#: ../lollypop/pop_menu.py:258
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Toevoegen aan ‘%s’"
 
-#: ../lollypop/pop_menu.py:330
+#: ../lollypop/pop_menu.py:347
 msgid "Lyrics"
 msgstr "Songtekst"
 
-#: ../lollypop/pop_menu.py:333 ../lollypop/pop_menu.py:445
-#: ../lollypop/pop_menu.py:469 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:350 ../lollypop/pop_menu.py:462
+#: ../lollypop/pop_menu.py:486 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Afspeellijsten"
 
-#: ../lollypop/pop_menu.py:381 ../lollypop/view_albums_list.py:136
+#: ../lollypop/pop_menu.py:398 ../lollypop/view_albums_list.py:136
 msgid "Save in collection"
 msgstr "Opslaan in verzameling"
 
-#: ../lollypop/pop_menu.py:386
+#: ../lollypop/pop_menu.py:403
 msgid "Remove from collection"
 msgstr "Verwijderen uit verzameling"
 
-#: ../lollypop/pop_menu.py:395
+#: ../lollypop/pop_menu.py:412
 msgid "Modify information"
 msgstr "Informatie bewerken"
 
-#: ../lollypop/pop_menu.py:447 ../lollypop/pop_menu.py:471
+#: ../lollypop/pop_menu.py:464 ../lollypop/pop_menu.py:488
 msgid "Edit"
 msgstr "Bewerken"
 
-#: ../lollypop/pop_menu.py:466
+#: ../lollypop/pop_menu.py:483
 msgid "Playback"
 msgstr "Afspelen"
 
-#: ../lollypop/pop_menu.py:489
+#: ../lollypop/pop_menu.py:506
 msgid "Remove track"
 msgstr "Nummer verwijderen"
 
-#: ../lollypop/pop_menu.py:491
+#: ../lollypop/pop_menu.py:508
 msgid "Remove tracks"
 msgstr "Nummers verwijderen"
 
-#: ../lollypop/pop_menu.py:531
+#: ../lollypop/pop_menu.py:548
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1555,8 +1559,8 @@ msgstr "Kan geen verbinding maken met TuneIn…"
 msgid "No result…"
 msgstr "Geen resultaten…"
 
-#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:541
-#: ../lollypop/window.py:542
+#: ../lollypop/selectionlist.py:246 ../lollypop/window.py:544
+#: ../lollypop/window.py:545
 msgid "Current playlist"
 msgstr "Huidigen afspeellijst"
 
@@ -1592,35 +1596,35 @@ msgstr "Radiozenders"
 msgid "Years"
 msgstr "Jaren"
 
-#: ../lollypop/shown.py:51
+#: ../lollypop/shown.py:54
 msgid "All albums"
 msgstr "Alle albums"
 
-#: ../lollypop/shown.py:54
+#: ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "Alle artiesten"
 
-#: ../lollypop/shown.py:55 ../lollypop/view_device.py:236
+#: ../lollypop/shown.py:58 ../lollypop/view_device.py:236
 msgid "Compilations"
 msgstr "Compilaties"
 
-#: ../lollypop/shown.py:56
+#: ../lollypop/shown.py:59
 msgid "USB disks"
 msgstr "USB-schijven"
 
-#: ../lollypop/shown.py:87
+#: ../lollypop/shown.py:90
 msgid "Unplayed"
 msgstr "Onafgespeeld"
 
-#: ../lollypop/toolbar_end.py:270
+#: ../lollypop/toolbar_end.py:279
 msgid "All genres"
 msgstr "Alle genres"
 
-#: ../lollypop/toolbar_end.py:424
+#: ../lollypop/toolbar_end.py:435
 msgid "Playing playlists"
 msgstr "Afspelende afspeellijsten"
 
-#: ../lollypop/toolbar_end.py:426 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:437 ../lollypop/view_current_albums.py:58
 msgid "Playing albums"
 msgstr "Afspelende albums"
 
@@ -1639,15 +1643,15 @@ msgstr "%su"
 msgid "%s m"
 msgstr "%sm"
 
-#: ../lollypop/utils.py:288
+#: ../lollypop/utils.py:300
 msgid "The the"
 msgstr "The the De de Het het 'T 't ’T ’t ‘T ‘t Le le La la Les les"
 
-#: ../lollypop/view_album.py:139
+#: ../lollypop/view_album.py:137
 msgid "Others albums from"
 msgstr "Andere albums van"
 
-#: ../lollypop/view_albums_list.py:114
+#: ../lollypop/view_albums_list.py:115
 msgid "Compilation"
 msgstr "Compilatie"
 
@@ -1688,19 +1692,19 @@ msgstr "Bezig met laden van informatie"
 msgid "No information for %s"
 msgstr "Geen informatie over %s"
 
-#: ../lollypop/view_lyrics.py:64
+#: ../lollypop/view_lyrics.py:63
 msgid "Loading…"
 msgstr "Bezig met laden…"
 
-#: ../lollypop/view_lyrics.py:129
+#: ../lollypop/view_lyrics.py:127
 msgid "You need to install python3-textblob module"
 msgstr "Ge moet python3-textblob-module installeren"
 
-#: ../lollypop/view_lyrics.py:134
+#: ../lollypop/view_lyrics.py:132
 msgid "Can't translate this lyrics"
 msgstr "Kan deze songtekst niet vertalen"
 
-#: ../lollypop/view_lyrics.py:256
+#: ../lollypop/view_lyrics.py:255
 msgid "No lyrics found "
 msgstr "Gene songtekst gevonden "
 
@@ -1717,11 +1721,11 @@ msgstr "Nieuwen afspeellijst "
 msgid "Empty"
 msgstr "Leeg"
 
-#: ../lollypop/view_search.py:154
+#: ../lollypop/view_search.py:165
 msgid "<big>No results for this search</big>"
 msgstr "<big>Geen zoekresultaten</big>"
 
-#: ../lollypop/view_search.py:161
+#: ../lollypop/view_search.py:172
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Zoekt achter artiesten, albums en nummers</big>"
 
@@ -1738,7 +1742,7 @@ msgstr "Albumhoes kiezen"
 msgid "Reset artwork?"
 msgstr "Albumhoes opnieuw instellen?"
 
-#: ../lollypop/widgets_cover.py:92
+#: ../lollypop/widgets_cover.py:82
 msgid "Change artwork"
 msgstr "Albumhoes wijzigen"
 
@@ -1904,6 +1908,12 @@ msgstr[1] "%d nummers"
 #: ../lollypop/widgets_settings_web.py:36
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Gebruikt de instellingen van ‘Online accounts’ in GNOME"
+
+#~ msgid "Playback behaviour"
+#~ msgstr "Afspeelgedrag"
+
+#~ msgid "Show albums from artist"
+#~ msgstr "Albums van artiest tonen"
 
 #~ msgid "Preserve the cover’s aspect ratio"
 #~ msgstr "Breedteverhouding van albumhoes behouden"
