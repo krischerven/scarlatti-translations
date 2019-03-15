@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 22:14+0100\n"
+"POT-Creation-Date: 2019-03-15 13:35+0100\n"
 "PO-Revision-Date: 2019-03-14 21:13+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -464,7 +464,7 @@ msgstr "_Quant a"
 msgid "Turn on background data"
 msgstr "Permet la connexió de dades en segon pla"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:346
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:349
 msgid "Show lyrics"
 msgstr "Mostra la lletra"
 
@@ -567,7 +567,7 @@ msgstr "Tradueix"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:200
-#: ../lollypop/view_tracks.py:442 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:441 ../lollypop/widgets_album_simple.py:170
 msgid "Play"
 msgstr "Reprodueix"
 
@@ -921,8 +921,8 @@ msgid "Show compilations"
 msgstr "Mostra compilacions"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:351 ../lollypop/pop_menu.py:459
-#: ../lollypop/pop_menu.py:481
+#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:461
+#: ../lollypop/pop_menu.py:483
 msgid "Artist"
 msgstr "Artista"
 
@@ -1040,11 +1040,9 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:376
 msgid ""
-"<small>You need to enable \"Custom Search API\" and \"Youtube API v3\" for "
+"<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
-"<small>Heu d'activar \"l'API de cerca personalitzada\"  i  \"Youtube API "
-"v3\" pel vostre projecte.</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:123
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:244
@@ -1305,7 +1303,7 @@ msgid "Go home"
 msgstr "Vés a l’inici"
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:451
-#: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:375
+#: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:381
 #: ../lollypop/selectionlist.py:427 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
 #: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
@@ -1462,84 +1460,84 @@ msgstr "Mai reproduït"
 msgid "Random tracks"
 msgstr "Pistes a l'atzar"
 
-#: ../lollypop/pop_menu.py:63
+#: ../lollypop/pop_menu.py:66
 msgid "Available albums"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:68
-msgid "Others albums"
+#: ../lollypop/pop_menu.py:71
+msgid "Other albums"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:131
+#: ../lollypop/pop_menu.py:134
 msgid "Add to playback"
 msgstr "Afegeix a la lectura"
 
-#: ../lollypop/pop_menu.py:137 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Elimina de la lectura"
 
-#: ../lollypop/pop_menu.py:148
+#: ../lollypop/pop_menu.py:151
 msgid "Add to queue"
 msgstr "Afegeix a la cua"
 
-#: ../lollypop/pop_menu.py:154
+#: ../lollypop/pop_menu.py:157
 msgid "Remove from queue"
 msgstr "Treu de la cua"
 
-#: ../lollypop/pop_menu.py:237
+#: ../lollypop/pop_menu.py:240
 msgid "Add to others"
 msgstr "Afegeix a altres"
 
-#: ../lollypop/pop_menu.py:252
+#: ../lollypop/pop_menu.py:255
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Treu de «%s»"
 
-#: ../lollypop/pop_menu.py:258
+#: ../lollypop/pop_menu.py:261
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Afegeix a «%s»"
 
-#: ../lollypop/pop_menu.py:347
+#: ../lollypop/pop_menu.py:350
 msgid "Lyrics"
 msgstr "Lletra"
 
-#: ../lollypop/pop_menu.py:350 ../lollypop/pop_menu.py:462
-#: ../lollypop/pop_menu.py:486 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:464
+#: ../lollypop/pop_menu.py:488 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Llistes"
 
-#: ../lollypop/pop_menu.py:398 ../lollypop/view_albums_list.py:136
+#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:136
 msgid "Save in collection"
 msgstr "Desa a la col·lecció"
 
-#: ../lollypop/pop_menu.py:403
+#: ../lollypop/pop_menu.py:406
 msgid "Remove from collection"
 msgstr "Eliminar de la col·lecció"
 
-#: ../lollypop/pop_menu.py:412
+#: ../lollypop/pop_menu.py:415
 msgid "Modify information"
 msgstr "Modifica etiquetes"
 
-#: ../lollypop/pop_menu.py:464 ../lollypop/pop_menu.py:488
+#: ../lollypop/pop_menu.py:466 ../lollypop/pop_menu.py:490
 msgid "Edit"
 msgstr "Edita"
 
-#: ../lollypop/pop_menu.py:483
+#: ../lollypop/pop_menu.py:485
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../lollypop/pop_menu.py:506
+#: ../lollypop/pop_menu.py:508
 msgid "Remove track"
 msgstr "Elimina pista"
 
-#: ../lollypop/pop_menu.py:508
+#: ../lollypop/pop_menu.py:510
 msgid "Remove tracks"
 msgstr "Elimina pistes"
 
-#: ../lollypop/pop_menu.py:548
+#: ../lollypop/pop_menu.py:550
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1651,7 +1649,7 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
-#: ../lollypop/view_album.py:137
+#: ../lollypop/view_album.py:150
 msgid "Others albums from"
 msgstr "Altres àlbums de"
 
@@ -1721,7 +1719,7 @@ msgstr "Llista nova"
 msgid "New playlist "
 msgstr "Llista nova "
 
-#: ../lollypop/view.py:58
+#: ../lollypop/view.py:59
 msgid "Empty"
 msgstr "Buit"
 
@@ -1733,7 +1731,7 @@ msgstr "<big>La cerca no ha donar cap resultat</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Cerca artistes, àlbums i pistes</big>"
 
-#: ../lollypop/view_tracks.py:433
+#: ../lollypop/view_tracks.py:432
 #, python-format
 msgid "Disc %s"
 msgstr "Disc %s"
@@ -1912,6 +1910,13 @@ msgstr[1] "%d pistes"
 #: ../lollypop/widgets_settings_web.py:36
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Utilitzant configuració de \"GNOME comptes en línia\""
+
+#~ msgid ""
+#~ "<small>You need to enable \"Custom Search API\" and \"Youtube API v3\" "
+#~ "for your project.</small>"
+#~ msgstr ""
+#~ "<small>Heu d'activar \"l'API de cerca personalitzada\"  i  \"Youtube API "
+#~ "v3\" pel vostre projecte.</small>"
 
 #~ msgid "Playback behaviour"
 #~ msgstr "Comportament de la reproducció"

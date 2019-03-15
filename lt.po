@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 22:14+0100\n"
+"POT-Creation-Date: 2019-03-15 13:35+0100\n"
 "PO-Revision-Date: 2019-03-15 12:35+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -460,7 +460,7 @@ msgstr "_Apie"
 msgid "Turn on background data"
 msgstr "Įjungti foninius duomenis"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:346
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:349
 msgid "Show lyrics"
 msgstr "Rodyti dainos žodžius"
 
@@ -563,7 +563,7 @@ msgstr "Versti"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:200
-#: ../lollypop/view_tracks.py:442 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:441 ../lollypop/widgets_album_simple.py:170
 msgid "Play"
 msgstr "Groti"
 
@@ -917,8 +917,8 @@ msgid "Show compilations"
 msgstr "Rodyti rinkinius"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:351 ../lollypop/pop_menu.py:459
-#: ../lollypop/pop_menu.py:481
+#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:461
+#: ../lollypop/pop_menu.py:483
 msgid "Artist"
 msgstr "Atlikėjas"
 
@@ -1037,11 +1037,9 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:376
 msgid ""
-"<small>You need to enable \"Custom Search API\" and \"Youtube API v3\" for "
+"<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
-"<small>Turite savo projektui įjungti \"Tinkintą paieškos API\" ir \"Youtube "
-"API v3\".</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:123
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:244
@@ -1302,7 +1300,7 @@ msgid "Go home"
 msgstr "Grįžti į pradžią"
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:451
-#: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:375
+#: ../lollypop/container_lists.py:148 ../lollypop/database_tracks.py:381
 #: ../lollypop/selectionlist.py:427 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
 #: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
@@ -1459,84 +1457,84 @@ msgstr "Niekada negroti"
 msgid "Random tracks"
 msgstr "Atsitiktiniai takeliai"
 
-#: ../lollypop/pop_menu.py:63
+#: ../lollypop/pop_menu.py:66
 msgid "Available albums"
 msgstr "Prieinami albumai"
 
-#: ../lollypop/pop_menu.py:68
-msgid "Others albums"
-msgstr "Kiti albumai"
+#: ../lollypop/pop_menu.py:71
+msgid "Other albums"
+msgstr ""
 
-#: ../lollypop/pop_menu.py:131
+#: ../lollypop/pop_menu.py:134
 msgid "Add to playback"
 msgstr "Pridėti į grojimą"
 
-#: ../lollypop/pop_menu.py:137 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Šalinti iš grojimo"
 
-#: ../lollypop/pop_menu.py:148
+#: ../lollypop/pop_menu.py:151
 msgid "Add to queue"
 msgstr "Pridėti į eilę"
 
-#: ../lollypop/pop_menu.py:154
+#: ../lollypop/pop_menu.py:157
 msgid "Remove from queue"
 msgstr "Šalinti iš eilės"
 
-#: ../lollypop/pop_menu.py:237
+#: ../lollypop/pop_menu.py:240
 msgid "Add to others"
 msgstr "Pridėti į kitus"
 
-#: ../lollypop/pop_menu.py:252
+#: ../lollypop/pop_menu.py:255
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Šalinti iš \"%s\""
 
-#: ../lollypop/pop_menu.py:258
+#: ../lollypop/pop_menu.py:261
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Pridėti į \"%s\""
 
-#: ../lollypop/pop_menu.py:347
+#: ../lollypop/pop_menu.py:350
 msgid "Lyrics"
 msgstr "Dainos žodžiai"
 
-#: ../lollypop/pop_menu.py:350 ../lollypop/pop_menu.py:462
-#: ../lollypop/pop_menu.py:486 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:464
+#: ../lollypop/pop_menu.py:488 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Grojaraščiai"
 
-#: ../lollypop/pop_menu.py:398 ../lollypop/view_albums_list.py:136
+#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:136
 msgid "Save in collection"
 msgstr "Įrašyti į kolekciją"
 
-#: ../lollypop/pop_menu.py:403
+#: ../lollypop/pop_menu.py:406
 msgid "Remove from collection"
 msgstr "Šalinti iš kolekcijos"
 
-#: ../lollypop/pop_menu.py:412
+#: ../lollypop/pop_menu.py:415
 msgid "Modify information"
 msgstr "Modifikuoti informaciją"
 
-#: ../lollypop/pop_menu.py:464 ../lollypop/pop_menu.py:488
+#: ../lollypop/pop_menu.py:466 ../lollypop/pop_menu.py:490
 msgid "Edit"
 msgstr "Redaguoti"
 
-#: ../lollypop/pop_menu.py:483
+#: ../lollypop/pop_menu.py:485
 msgid "Playback"
 msgstr "Grojimas"
 
-#: ../lollypop/pop_menu.py:506
+#: ../lollypop/pop_menu.py:508
 msgid "Remove track"
 msgstr "Šalinti takelį"
 
-#: ../lollypop/pop_menu.py:508
+#: ../lollypop/pop_menu.py:510
 msgid "Remove tracks"
 msgstr "Šalinti takelius"
 
-#: ../lollypop/pop_menu.py:548
+#: ../lollypop/pop_menu.py:550
 msgid "%Y-%m-%d"
 msgstr "%Y %m %d"
 
@@ -1648,7 +1646,7 @@ msgstr "%s min."
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_album.py:137
+#: ../lollypop/view_album.py:150
 msgid "Others albums from"
 msgstr "Kiti albumai iš"
 
@@ -1720,7 +1718,7 @@ msgstr "Naujas grojaraštis"
 msgid "New playlist "
 msgstr "Naujas grojaraštis "
 
-#: ../lollypop/view.py:58
+#: ../lollypop/view.py:59
 msgid "Empty"
 msgstr "Tuščia"
 
@@ -1732,7 +1730,7 @@ msgstr "<big>Paieška negrąžino jokių rezultatų</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Ieškokite atlikėjų, albumų ir takelių</big>"
 
-#: ../lollypop/view_tracks.py:433
+#: ../lollypop/view_tracks.py:432
 #, python-format
 msgid "Disc %s"
 msgstr "Diskas %s"
@@ -1914,6 +1912,16 @@ msgstr[2] "%d takelių"
 #: ../lollypop/widgets_settings_web.py:36
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Naudojami \"GNOME internetinių paskyrų\" nustatymai"
+
+#~ msgid ""
+#~ "<small>You need to enable \"Custom Search API\" and \"Youtube API v3\" "
+#~ "for your project.</small>"
+#~ msgstr ""
+#~ "<small>Turite savo projektui įjungti \"Tinkintą paieškos API\" ir "
+#~ "\"Youtube API v3\".</small>"
+
+#~ msgid "Others albums"
+#~ msgstr "Kiti albumai"
 
 #~ msgid "Playback behaviour"
 #~ msgstr "Grojimo elgsena"
