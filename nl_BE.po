@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 13:35+0100\n"
+"POT-Creation-Date: 2019-03-15 23:13+0100\n"
 "PO-Revision-Date: 2019-03-14 21:13+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -416,13 +416,13 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "Afspelen/pauzeren"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:224
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:223
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
 #: ../lollypop/toolbar_end.py:283
 msgid "Next"
 msgstr "Volgende"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:182
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:181
 #: ../data/ToolbarPlayback.ui:65 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "Vorige"
@@ -556,7 +556,7 @@ msgstr "Equalizer-voorinstelling:"
 msgid "Translate"
 msgstr "Vertalen"
 
-#: ../data/MiniPlayer.ui:203 ../data/PlaylistView.ui:45
+#: ../data/MiniPlayer.ui:202 ../data/PlaylistView.ui:45
 #: ../data/SearchView.ui:114 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:109
 #: ../lollypop/helper_overlay_decade.py:49
@@ -1290,11 +1290,11 @@ msgstr "Scrobblen inschakelen"
 msgid "Playback type"
 msgstr "Afspeeltype"
 
-#: ../data/TuneinPopover.ui:38
+#: ../data/TuneinPopover.ui:26
 msgid "Go back"
 msgstr "Terug"
 
-#: ../data/TuneinPopover.ui:70
+#: ../data/TuneinPopover.ui:58
 msgid "Go home"
 msgstr "Terug naar beginscherm"
 
@@ -1361,7 +1361,7 @@ msgstr "Internet"
 msgid "Configure Web services"
 msgstr "Internetdiensten instellen"
 
-#: ../lollypop/fullscreen.py:215 ../lollypop/toolbar_info.py:115
+#: ../lollypop/fullscreen.py:228 ../lollypop/toolbar_info.py:117
 #: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
 #: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
 msgid "You are using a broken cursor theme!"
@@ -1645,9 +1645,13 @@ msgstr "%sm"
 msgid "The the"
 msgstr "The the De de Het het 'T 't ’T ’t ‘T ‘t Le le La la Les les"
 
-#: ../lollypop/view_album.py:150
+#: ../lollypop/view_album.py:149
 msgid "Others albums from"
 msgstr "Andere albums van"
+
+#: ../lollypop/view_albums_box.py:46 ../lollypop/view_albums_list.py:491
+msgid "Missing youtube-dl command"
+msgstr ""
 
 #: ../lollypop/view_albums_list.py:115
 msgid "Compilation"
@@ -1702,7 +1706,7 @@ msgstr "Ge moet python3-textblob-module installeren"
 msgid "Can't translate this lyrics"
 msgstr "Kan deze songtekst niet vertalen"
 
-#: ../lollypop/view_lyrics.py:255
+#: ../lollypop/view_lyrics.py:265
 msgid "No lyrics found "
 msgstr "Gene songtekst gevonden "
 
@@ -1715,7 +1719,7 @@ msgstr "Nieuwen afspeellijst"
 msgid "New playlist "
 msgstr "Nieuwen afspeellijst "
 
-#: ../lollypop/view.py:59
+#: ../lollypop/view.py:60
 msgid "Empty"
 msgstr "Leeg"
 
