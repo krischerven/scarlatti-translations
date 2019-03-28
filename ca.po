@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-25 14:17+0100\n"
+"POT-Creation-Date: 2019-03-28 21:16+0100\n"
 "PO-Revision-Date: 2019-03-28 11:04+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -409,16 +409,16 @@ msgid "TuneIn support"
 msgstr "Compatible amb TuneIn"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:32
-msgid "Spotify/YouTube playback back from hell"
-msgstr "Reproducció de fons de Spotify/YouTube"
+msgid "Fix a crash in Smart Playlists"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "New application menu"
-msgstr "Nou menú d'aplicació"
+msgid "Add BPM support to Smart Playlists"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:34
-msgid "Many bug fixes"
-msgstr "Moltes correccions d’errors"
+msgid "Add auto playback"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -480,7 +480,7 @@ msgstr "Permet la connexió de dades en segon pla"
 msgid "Show lyrics"
 msgstr "Mostra la lletra"
 
-#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:141
+#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:140
 msgid "Go to artist view"
 msgstr "Ves a la vista de l'artista"
 
@@ -1313,8 +1313,8 @@ msgid "Enable scrobbling"
 msgstr "Activa l'scrobbling"
 
 #: ../data/ToolbarEnd.ui:102
-msgid "Playback type"
-msgstr "Tipus de reproducció"
+msgid "Playback options"
+msgstr ""
 
 #: ../data/TuneinPopover.ui:26
 msgid "Go back"
@@ -1405,7 +1405,7 @@ msgstr "Esteu utilitzant un tema de cursor incompatible!"
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
 
-#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:131
+#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:130
 #: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "Elimina de la llista actual"
@@ -1539,7 +1539,7 @@ msgstr "Lletra"
 msgid "Playlists"
 msgstr "Llistes"
 
-#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:136
+#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr "Desa a la col·lecció"
 
@@ -1679,11 +1679,11 @@ msgstr "The the El el La la Els els Les les L' l' L’ l’"
 msgid "Others albums from"
 msgstr "Altres àlbums de"
 
-#: ../lollypop/view_albums_box.py:46 ../lollypop/view_albums_list.py:491
+#: ../lollypop/view_albums_box.py:46 ../lollypop/view_albums_list.py:488
 msgid "Missing youtube-dl command"
 msgstr "Manca l'ordre youtube-dl"
 
-#: ../lollypop/view_albums_list.py:115
+#: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "Compilació"
 
@@ -1940,6 +1940,18 @@ msgstr[1] "%d pistes"
 #: ../lollypop/widgets_settings_web.py:36
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Utilitzant configuració de \"GNOME comptes en línia\""
+
+#~ msgid "Spotify/YouTube playback back from hell"
+#~ msgstr "Reproducció de fons de Spotify/YouTube"
+
+#~ msgid "New application menu"
+#~ msgstr "Nou menú d'aplicació"
+
+#~ msgid "Many bug fixes"
+#~ msgstr "Moltes correccions d’errors"
+
+#~ msgid "Playback type"
+#~ msgstr "Tipus de reproducció"
 
 #~ msgid ""
 #~ "<small>You need to enable \"Custom Search API\" and \"Youtube API v3\" "
