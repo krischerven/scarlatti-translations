@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 18:06+0100\n"
+"POT-Creation-Date: 2019-04-02 21:26+0200\n"
 "PO-Revision-Date: 2019-04-01 16:04+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -315,11 +315,11 @@ msgstr "Bağış:"
 msgid "Liberapay"
 msgstr "Liberapay ✓"
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon ✓"
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal ✓"
 
@@ -1041,7 +1041,8 @@ msgstr "Parçaları ara , kapak resmi, …"
 msgid "Songs playback"
 msgstr "Parçaları oynat"
 
-#: ../data/SettingsBehaviour.ui:562
+#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:785
 msgid "Artwork search"
 msgstr "Kapak resmi ara"
 
@@ -1085,11 +1086,19 @@ msgstr "Genius servisi"
 msgid "Control your privacy by selecting allowed services"
 msgstr "İzin verilen hizmetleri seçerek gizliliğinizi kontrol edin"
 
-#: ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:746
+msgid "Itunes"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:758
+msgid "Deezer"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:824
 msgid "Only in party mode"
 msgstr "Yalnızca parti kipinde"
 
-#: ../data/SettingsBehaviour.ui:820
+#: ../data/SettingsBehaviour.ui:874
 msgid "Transition duration in seconds"
 msgstr "Saniye türünde geçiş süresi"
 
@@ -1441,13 +1450,21 @@ msgstr "Bilinmeyen"
 msgid "Scan disabled, missing collection"
 msgstr "Tarama devre dışı, koleksiyon eksik"
 
-#: ../lollypop/container_donation.py:46
-msgid "Please consider a donation to the project"
-msgstr "Lütfen projeye bağış yapmayı düşünün"
-
 #: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "Tüm sanatçılar"
+
+#: ../lollypop/container_notification.py:71
+msgid "Automatically download albums and artists artwork?"
+msgstr ""
+
+#: ../lollypop/container_notification.py:72
+msgid "Yes"
+msgstr ""
+
+#: ../lollypop/container_notification.py:85
+msgid "Please consider a donation to the project"
+msgstr "Lütfen projeye bağış yapmayı düşünün"
 
 #: ../lollypop/container_scanner.py:46
 msgid "New tracks available"
@@ -2019,7 +2036,7 @@ msgstr "daha az"
 msgid "Song played %s times"
 msgstr "Şarkı %s kez çalındı"
 
-#: ../lollypop/widgets_settings_behaviour.py:213
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli'i indirmen gerekmektedir"
 

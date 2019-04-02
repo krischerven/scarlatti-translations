@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 18:06+0100\n"
+"POT-Creation-Date: 2019-04-02 21:26+0200\n"
 "PO-Revision-Date: 2018-05-16 01:38+0000\n"
 "Last-Translator: Fiki Maulana <fikimaul@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/gnumdk/"
@@ -301,11 +301,11 @@ msgstr ""
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr ""
 
@@ -1014,7 +1014,8 @@ msgstr ""
 msgid "Songs playback"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:562
+#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:785
 msgid "Artwork search"
 msgstr ""
 
@@ -1058,11 +1059,19 @@ msgstr ""
 msgid "Control your privacy by selecting allowed services"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:746
+msgid "Itunes"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:758
+msgid "Deezer"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:824
 msgid "Only in party mode"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:820
+#: ../data/SettingsBehaviour.ui:874
 msgid "Transition duration in seconds"
 msgstr ""
 
@@ -1404,12 +1413,20 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/container_donation.py:46
-msgid "Please consider a donation to the project"
-msgstr ""
-
 #: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
 msgid "All artists"
+msgstr ""
+
+#: ../lollypop/container_notification.py:71
+msgid "Automatically download albums and artists artwork?"
+msgstr ""
+
+#: ../lollypop/container_notification.py:72
+msgid "Yes"
+msgstr ""
+
+#: ../lollypop/container_notification.py:85
+msgid "Please consider a donation to the project"
 msgstr ""
 
 #: ../lollypop/container_scanner.py:46
@@ -1984,7 +2001,7 @@ msgstr ""
 msgid "Song played %s times"
 msgstr ""
 
-#: ../lollypop/widgets_settings_behaviour.py:213
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr ""
 

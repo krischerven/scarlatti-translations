@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 18:06+0100\n"
+"POT-Creation-Date: 2019-04-02 21:26+0200\n"
 "PO-Revision-Date: 2019-04-01 16:04+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -309,11 +309,11 @@ msgstr "Donasjoner:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1038,7 +1038,8 @@ msgstr "Søk etter spor, omslag, …"
 msgid "Songs playback"
 msgstr "Sporavspilling"
 
-#: ../data/SettingsBehaviour.ui:562
+#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:785
 msgid "Artwork search"
 msgstr "Omslagssøk"
 
@@ -1087,11 +1088,19 @@ msgstr "Genius"
 msgid "Control your privacy by selecting allowed services"
 msgstr "Kontroller ditt personvern ved å velge tillatte tjenester"
 
-#: ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:746
+msgid "Itunes"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:758
+msgid "Deezer"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:824
 msgid "Only in party mode"
 msgstr "Bare i festmodus"
 
-#: ../data/SettingsBehaviour.ui:820
+#: ../data/SettingsBehaviour.ui:874
 msgid "Transition duration in seconds"
 msgstr "Overgangsvarighet i sekunder"
 
@@ -1447,13 +1456,21 @@ msgstr "Ukjent"
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
 
-#: ../lollypop/container_donation.py:46
-msgid "Please consider a donation to the project"
-msgstr "Overvei å donere til prosjektet"
-
 #: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "Alle artister"
+
+#: ../lollypop/container_notification.py:71
+msgid "Automatically download albums and artists artwork?"
+msgstr ""
+
+#: ../lollypop/container_notification.py:72
+msgid "Yes"
+msgstr ""
+
+#: ../lollypop/container_notification.py:85
+msgid "Please consider a donation to the project"
+msgstr "Overvei å donere til prosjektet"
 
 #: ../lollypop/container_scanner.py:46
 msgid "New tracks available"
@@ -2025,7 +2042,7 @@ msgstr "er mindre enn"
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
 
-#: ../lollypop/widgets_settings_behaviour.py:213
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr "Du må installere kid3-cli"
 

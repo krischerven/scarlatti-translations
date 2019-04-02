@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 18:06+0100\n"
+"POT-Creation-Date: 2019-04-02 21:26+0200\n"
 "PO-Revision-Date: 2018-11-22 16:07+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -302,11 +302,11 @@ msgstr "Lahjoitukset:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1028,7 +1028,8 @@ msgstr ""
 msgid "Songs playback"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:562
+#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:785
 msgid "Artwork search"
 msgstr ""
 
@@ -1072,11 +1073,19 @@ msgstr ""
 msgid "Control your privacy by selecting allowed services"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:746
+msgid "Itunes"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:758
+msgid "Deezer"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:824
 msgid "Only in party mode"
 msgstr "Vain biletilassa"
 
-#: ../data/SettingsBehaviour.ui:820
+#: ../data/SettingsBehaviour.ui:874
 msgid "Transition duration in seconds"
 msgstr "Siirtymän kesto sekunneissa"
 
@@ -1421,13 +1430,21 @@ msgstr "Tuntematon"
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/container_donation.py:46
-msgid "Please consider a donation to the project"
-msgstr "Harkitse lahjoitusta projektille"
-
 #: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "Kaikki esittäjät"
+
+#: ../lollypop/container_notification.py:71
+msgid "Automatically download albums and artists artwork?"
+msgstr ""
+
+#: ../lollypop/container_notification.py:72
+msgid "Yes"
+msgstr ""
+
+#: ../lollypop/container_notification.py:85
+msgid "Please consider a donation to the project"
+msgstr "Harkitse lahjoitusta projektille"
 
 #: ../lollypop/container_scanner.py:46
 msgid "New tracks available"
@@ -1999,7 +2016,7 @@ msgstr "on pienempi kuin"
 msgid "Song played %s times"
 msgstr "Kappale toistettu %s kertaa"
 
-#: ../lollypop/widgets_settings_behaviour.py:213
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr "Asenna kid3-cli"
 

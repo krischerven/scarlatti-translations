@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 18:06+0100\n"
+"POT-Creation-Date: 2019-04-02 21:26+0200\n"
 "PO-Revision-Date: 2019-03-30 17:09+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -309,11 +309,11 @@ msgstr "Donations :"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1038,7 +1038,8 @@ msgstr "Recherche de chansons, d’images, …"
 msgid "Songs playback"
 msgstr "Lecture de chansons"
 
-#: ../data/SettingsBehaviour.ui:562
+#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:785
 msgid "Artwork search"
 msgstr "Recherche d'images"
 
@@ -1082,11 +1083,19 @@ msgstr "Genius"
 msgid "Control your privacy by selecting allowed services"
 msgstr "Contrôlez votre vie privée en sélectionnant les services autorisés"
 
-#: ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:746
+msgid "Itunes"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:758
+msgid "Deezer"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:824
 msgid "Only in party mode"
 msgstr "Seulement en mode soirée"
 
-#: ../data/SettingsBehaviour.ui:820
+#: ../data/SettingsBehaviour.ui:874
 msgid "Transition duration in seconds"
 msgstr "Durée de la transition en secondes"
 
@@ -1439,13 +1448,21 @@ msgstr "Inconnu"
 msgid "Scan disabled, missing collection"
 msgstr "Scan désactivé, collection manquante"
 
-#: ../lollypop/container_donation.py:46
-msgid "Please consider a donation to the project"
-msgstr "Merci de considérer un don au projet"
-
 #: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "Tous les artistes"
+
+#: ../lollypop/container_notification.py:71
+msgid "Automatically download albums and artists artwork?"
+msgstr ""
+
+#: ../lollypop/container_notification.py:72
+msgid "Yes"
+msgstr ""
+
+#: ../lollypop/container_notification.py:85
+msgid "Please consider a donation to the project"
+msgstr "Merci de considérer un don au projet"
 
 #: ../lollypop/container_scanner.py:46
 msgid "New tracks available"
@@ -2020,7 +2037,7 @@ msgstr "est plus petit(e) que"
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
 
-#: ../lollypop/widgets_settings_behaviour.py:213
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr "Vous devez installer kid3-cli"
 

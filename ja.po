@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 18:06+0100\n"
+"POT-Creation-Date: 2019-04-02 21:26+0200\n"
 "PO-Revision-Date: 2019-02-13 10:10+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -310,11 +310,11 @@ msgstr "寄付:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_donation.py:47
+#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1033,7 +1033,8 @@ msgstr ""
 msgid "Songs playback"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:562
+#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:785
 msgid "Artwork search"
 msgstr ""
 
@@ -1077,11 +1078,19 @@ msgstr ""
 msgid "Control your privacy by selecting allowed services"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:770
+#: ../data/SettingsBehaviour.ui:746
+msgid "Itunes"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:758
+msgid "Deezer"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:824
 msgid "Only in party mode"
 msgstr "パーティーモードのみ"
 
-#: ../data/SettingsBehaviour.ui:820
+#: ../data/SettingsBehaviour.ui:874
 msgid "Transition duration in seconds"
 msgstr "遷移時間 (秒単位)"
 
@@ -1430,13 +1439,21 @@ msgstr "不明"
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/container_donation.py:46
-msgid "Please consider a donation to the project"
-msgstr "プロジェクトへの寄付をご検討ください"
-
 #: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "すべてのアーティスト"
+
+#: ../lollypop/container_notification.py:71
+msgid "Automatically download albums and artists artwork?"
+msgstr ""
+
+#: ../lollypop/container_notification.py:72
+msgid "Yes"
+msgstr ""
+
+#: ../lollypop/container_notification.py:85
+msgid "Please consider a donation to the project"
+msgstr "プロジェクトへの寄付をご検討ください"
 
 #: ../lollypop/container_scanner.py:46
 msgid "New tracks available"
@@ -2008,7 +2025,7 @@ msgstr "次より下"
 msgid "Song played %s times"
 msgstr "再生数 %s 回"
 
-#: ../lollypop/widgets_settings_behaviour.py:213
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli をインストールする必要があります"
 
