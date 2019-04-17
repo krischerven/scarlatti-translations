@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-02 21:31+0200\n"
+"POT-Creation-Date: 2019-04-17 09:02+0200\n"
 "PO-Revision-Date: 2019-04-07 15:04+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -563,7 +563,7 @@ msgstr "Vertalen"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:441 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:170
 msgid "Play"
 msgstr "Afspelen"
 
@@ -917,8 +917,8 @@ msgid "Show compilations"
 msgstr "Compilaties weergeven"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:461
-#: ../lollypop/pop_menu.py:483
+#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:466
+#: ../lollypop/pop_menu.py:488
 msgid "Artist"
 msgstr "Artiest"
 
@@ -974,128 +974,94 @@ msgstr "Netwerktoegang verlenen"
 msgid "Search artwork in background"
 msgstr "Albumhoezen zoeken in de achtergrond"
 
-#: ../data/SettingsBehaviour.ui:423
-msgid "Download artwork in the background"
-msgstr "Albumhoezen downloaden in de achtergrond"
-
-#: ../data/SettingsBehaviour.ui:426
-msgid "Background data"
-msgstr "Achtergrondgegevens"
-
-#: ../data/SettingsBehaviour.ui:439
-msgid "Get similar artists from Last.fm"
-msgstr "Gelijkaardige artiesten ophalen van Last.fm"
+#: ../data/SettingsBehaviour.ui:425
+msgid ""
+"Background data\n"
+"<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
+msgstr ""
 
 #: ../data/SettingsBehaviour.ui:441
-msgid "Last.fm"
-msgstr "Last.fm"
+msgid ""
+"Last.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:452
-msgid "Spotify search"
-msgstr "Zoeken op Spotify"
+#: ../data/SettingsBehaviour.ui:455
+msgid ""
+"Spotify\n"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:454
-msgid "Spotify"
-msgstr "Spotify"
+#: ../data/SettingsBehaviour.ui:469
+msgid ""
+"YouTube\n"
+"<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:465
-msgid "YouTube playback"
-msgstr "Afspelen van YouTube"
+#: ../data/SettingsBehaviour.ui:483
+msgid ""
+"Google\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:467
-msgid "YouTube"
-msgstr "YouTube"
+#: ../data/SettingsBehaviour.ui:497
+msgid ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
+"span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:478
-msgid "Google artwork search"
-msgstr "Albumhoezen zoeken op Google"
+#: ../data/SettingsBehaviour.ui:511
+msgid ""
+"Wikia\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:480
-msgid "Google"
-msgstr "Google"
+#: ../data/SettingsBehaviour.ui:609
+msgid ""
+"Wikipedia\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:491
-msgid "DuckDuckGo artwork search and Wikipedia search"
-msgstr "Albumhoezen zoeken op DuckDuckGo en zoeken op Wikipedia"
+#: ../data/SettingsBehaviour.ui:637
+msgid ""
+"Tunein\n"
+"<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:493
-msgid "DuckDuckGo"
-msgstr "DuckDuckGo"
+#: ../data/SettingsBehaviour.ui:665
+msgid ""
+"MusicBrainz\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:505
-msgid "Wikia"
-msgstr "Wikia"
+#: ../data/SettingsBehaviour.ui:693
+msgid ""
+"Genius\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:517
-msgid "Scrobbler, artwork, …"
-msgstr "Scrobbler, albumhoezen, …"
-
-#: ../data/SettingsBehaviour.ui:532
-msgid "Search songs , artwork, …"
-msgstr "Zoeken achter liedjes, albumhoezen, …"
-
-#: ../data/SettingsBehaviour.ui:547
-msgid "Songs playback"
-msgstr "Afspelen van liedjes"
-
-#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
-#: ../data/SettingsBehaviour.ui:785
-msgid "Artwork search"
-msgstr "Albumhoezen zoeken"
-
-#: ../data/SettingsBehaviour.ui:577
-msgid "Artist biography, artwork search, …"
-msgstr "Artiestbiografieën, albumhoezen zoeken, …"
-
-#: ../data/SettingsBehaviour.ui:592 ../data/SettingsBehaviour.ui:700
-msgid "Search lyrics"
-msgstr "Songteksten zoeken"
-
-#: ../data/SettingsBehaviour.ui:607
-msgid "Wikipedia"
-msgstr "Wikipedia"
-
-#: ../data/SettingsBehaviour.ui:619
-msgid "Artist biography"
-msgstr "Artiestbiografie"
-
-#: ../data/SettingsBehaviour.ui:634
-msgid "Tunein"
-msgstr "TuneIn"
-
-#: ../data/SettingsBehaviour.ui:646
-msgid "Radios search"
-msgstr "Radioposten zoeken"
-
-#: ../data/SettingsBehaviour.ui:661
-msgid "MusicBrainz"
-msgstr "MusicBrainz"
-
-#: ../data/SettingsBehaviour.ui:673
-msgid "Scrobbler, information, …"
-msgstr "Scrobbler, informatie, …"
-
-#: ../data/SettingsBehaviour.ui:688
-msgid "Genius"
-msgstr "Genius"
-
-#: ../data/SettingsBehaviour.ui:725
+#: ../data/SettingsBehaviour.ui:731
 msgid "Control your privacy by selecting allowed services"
 msgstr "Beheert uw privacy door de toegelaten diensten te selecteren"
 
-#: ../data/SettingsBehaviour.ui:746
-msgid "ITunes"
-msgstr "iTunes"
+#: ../data/SettingsBehaviour.ui:752
+msgid ""
+"ITunes\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:758
-msgid "Deezer"
-msgstr "Deezer"
+#: ../data/SettingsBehaviour.ui:766
+msgid ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:824
+#: ../data/SettingsBehaviour.ui:832
 msgid "Only in party mode"
 msgstr "Enkel in feestmodus"
 
-#: ../data/SettingsBehaviour.ui:874
+#: ../data/SettingsBehaviour.ui:882
 msgid "Transition duration in seconds"
 msgstr "Overgangsduur, in seconden"
 
@@ -1169,7 +1135,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:245
-#: ../lollypop/window.py:541 ../lollypop/window.py:542
+#: ../lollypop/window.py:544 ../lollypop/window.py:545
 msgid "Search"
 msgstr "Zoeken"
 
@@ -1433,13 +1399,13 @@ msgstr "Terug"
 msgid "Go home"
 msgstr "Terug naar beginscherm"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:465
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:467
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
 #: ../lollypop/selectionlist.py:431 ../lollypop/tagreader.py:85
-#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
-#: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:229
-#: ../lollypop/tagreader.py:237
+#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:235
+#: ../lollypop/tagreader.py:239 ../lollypop/tagreader.py:249
+#: ../lollypop/tagreader.py:257
 msgid "Unknown"
 msgstr "Onbekend"
 
@@ -1475,7 +1441,7 @@ msgstr "Vernieuwen"
 msgid "Pause"
 msgstr "Pauzeren"
 
-#: ../lollypop/database_artists.py:103
+#: ../lollypop/database_artists.py:108
 msgid "Many artists"
 msgstr "Meerdere artiesten"
 
@@ -1575,12 +1541,12 @@ msgstr "Dezen afspeellijst verwijderen?"
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../lollypop/notification.py:127
+#: ../lollypop/notification.py:111
 #, python-format
 msgid "by %s"
 msgstr "door %s"
 
-#: ../lollypop/notification.py:133
+#: ../lollypop/notification.py:117
 #, python-format
 msgid "by %s, from %s"
 msgstr "door %s, van %s"
@@ -1649,8 +1615,8 @@ msgstr "Toevoegen aan ‘%s’"
 msgid "Lyrics"
 msgstr "Songtekst"
 
-#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:464
-#: ../lollypop/pop_menu.py:488 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:469
+#: ../lollypop/pop_menu.py:493 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
@@ -1668,23 +1634,23 @@ msgstr "Verwijderen uit verzameling"
 msgid "Modify information"
 msgstr "Informatie bewerken"
 
-#: ../lollypop/pop_menu.py:466 ../lollypop/pop_menu.py:490
+#: ../lollypop/pop_menu.py:471 ../lollypop/pop_menu.py:495
 msgid "Edit"
 msgstr "Bewerken"
 
-#: ../lollypop/pop_menu.py:485
+#: ../lollypop/pop_menu.py:490
 msgid "Playback"
 msgstr "Afspelen"
 
-#: ../lollypop/pop_menu.py:508
+#: ../lollypop/pop_menu.py:513
 msgid "Remove track"
 msgstr "Nummer verwijderen"
 
-#: ../lollypop/pop_menu.py:510
+#: ../lollypop/pop_menu.py:515
 msgid "Remove tracks"
 msgstr "Nummers verwijderen"
 
-#: ../lollypop/pop_menu.py:550
+#: ../lollypop/pop_menu.py:555
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1708,8 +1674,8 @@ msgstr "Kan geen verbinding maken met TuneIn…"
 msgid "No result…"
 msgstr "Geen resultaten…"
 
-#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:544
-#: ../lollypop/window.py:545
+#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:547
+#: ../lollypop/window.py:548
 msgid "Current playlist"
 msgstr "Huidigen afspeellijst"
 
@@ -1870,7 +1836,7 @@ msgstr "Nieuwen afspeellijst"
 msgid "New playlist "
 msgstr "Nieuwen afspeellijst "
 
-#: ../lollypop/view.py:60
+#: ../lollypop/view.py:61
 msgid "Empty"
 msgstr "Leeg"
 
@@ -1882,7 +1848,7 @@ msgstr "<big>Geen zoekresultaten</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Zoekt achter artiesten, albums en nummers</big>"
 
-#: ../lollypop/view_tracks.py:432
+#: ../lollypop/view_tracks.py:435
 #, python-format
 msgid "Disc %s"
 msgstr "Schijf %s"
@@ -1891,7 +1857,7 @@ msgstr "Schijf %s"
 msgid "Select artwork"
 msgstr "Albumhoes kiezen"
 
-#: ../lollypop/widgets_artwork.py:424
+#: ../lollypop/widgets_artwork.py:450
 msgid "Reset artwork?"
 msgstr "Albumhoes opnieuw instellen?"
 
@@ -2061,6 +2027,90 @@ msgstr[1] "%d nummers"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Gebruikt de instellingen van ‘Online accounts’ in GNOME"
+
+#~ msgid "Download artwork in the background"
+#~ msgstr "Albumhoezen downloaden in de achtergrond"
+
+#~ msgid "Background data"
+#~ msgstr "Achtergrondgegevens"
+
+#~ msgid "Get similar artists from Last.fm"
+#~ msgstr "Gelijkaardige artiesten ophalen van Last.fm"
+
+#~ msgid "Last.fm"
+#~ msgstr "Last.fm"
+
+#~ msgid "Spotify search"
+#~ msgstr "Zoeken op Spotify"
+
+#~ msgid "Spotify"
+#~ msgstr "Spotify"
+
+#~ msgid "YouTube playback"
+#~ msgstr "Afspelen van YouTube"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid "Google artwork search"
+#~ msgstr "Albumhoezen zoeken op Google"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "DuckDuckGo artwork search and Wikipedia search"
+#~ msgstr "Albumhoezen zoeken op DuckDuckGo en zoeken op Wikipedia"
+
+#~ msgid "DuckDuckGo"
+#~ msgstr "DuckDuckGo"
+
+#~ msgid "Wikia"
+#~ msgstr "Wikia"
+
+#~ msgid "Scrobbler, artwork, …"
+#~ msgstr "Scrobbler, albumhoezen, …"
+
+#~ msgid "Search songs , artwork, …"
+#~ msgstr "Zoeken achter liedjes, albumhoezen, …"
+
+#~ msgid "Songs playback"
+#~ msgstr "Afspelen van liedjes"
+
+#~ msgid "Artwork search"
+#~ msgstr "Albumhoezen zoeken"
+
+#~ msgid "Artist biography, artwork search, …"
+#~ msgstr "Artiestbiografieën, albumhoezen zoeken, …"
+
+#~ msgid "Search lyrics"
+#~ msgstr "Songteksten zoeken"
+
+#~ msgid "Wikipedia"
+#~ msgstr "Wikipedia"
+
+#~ msgid "Artist biography"
+#~ msgstr "Artiestbiografie"
+
+#~ msgid "Tunein"
+#~ msgstr "TuneIn"
+
+#~ msgid "Radios search"
+#~ msgstr "Radioposten zoeken"
+
+#~ msgid "MusicBrainz"
+#~ msgstr "MusicBrainz"
+
+#~ msgid "Scrobbler, information, …"
+#~ msgstr "Scrobbler, informatie, …"
+
+#~ msgid "Genius"
+#~ msgstr "Genius"
+
+#~ msgid "ITunes"
+#~ msgstr "iTunes"
+
+#~ msgid "Deezer"
+#~ msgstr "Deezer"
 
 #~ msgid "Playback type"
 #~ msgstr "Afspeeltype"

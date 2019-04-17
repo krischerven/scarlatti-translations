@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-02 21:31+0200\n"
+"POT-Creation-Date: 2019-04-17 09:02+0200\n"
 "PO-Revision-Date: 2019-04-07 15:04+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -566,7 +566,7 @@ msgstr "Çevir"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:441 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:170
 msgid "Play"
 msgstr "Çal"
 
@@ -920,8 +920,8 @@ msgid "Show compilations"
 msgstr "Derlemeleri göster"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:461
-#: ../lollypop/pop_menu.py:483
+#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:466
+#: ../lollypop/pop_menu.py:488
 msgid "Artist"
 msgstr "Sanatçı"
 
@@ -977,128 +977,94 @@ msgstr "Ağ erişimine izin ver"
 msgid "Search artwork in background"
 msgstr "Arka planda kapak resmi ara"
 
-#: ../data/SettingsBehaviour.ui:423
-msgid "Download artwork in the background"
-msgstr "Kapak resmini arka planda indir"
-
-#: ../data/SettingsBehaviour.ui:426
-msgid "Background data"
-msgstr "Arka plan verisi"
-
-#: ../data/SettingsBehaviour.ui:439
-msgid "Get similar artists from Last.fm"
-msgstr "Last.fm'den benzer sanatçılar al"
+#: ../data/SettingsBehaviour.ui:425
+msgid ""
+"Background data\n"
+"<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
+msgstr ""
 
 #: ../data/SettingsBehaviour.ui:441
-msgid "Last.fm"
-msgstr "Last.fm"
+msgid ""
+"Last.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:452
-msgid "Spotify search"
-msgstr "Spotify araması"
+#: ../data/SettingsBehaviour.ui:455
+msgid ""
+"Spotify\n"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:454
-msgid "Spotify"
-msgstr "Spotify müzik"
+#: ../data/SettingsBehaviour.ui:469
+msgid ""
+"YouTube\n"
+"<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:465
-msgid "YouTube playback"
-msgstr "YouTube oynatıcısı"
+#: ../data/SettingsBehaviour.ui:483
+msgid ""
+"Google\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:467
-msgid "YouTube"
-msgstr "YouTube müzik"
+#: ../data/SettingsBehaviour.ui:497
+msgid ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
+"span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:478
-msgid "Google artwork search"
-msgstr "Google kapak resmi araması"
+#: ../data/SettingsBehaviour.ui:511
+msgid ""
+"Wikia\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:480
-msgid "Google"
-msgstr "Google"
+#: ../data/SettingsBehaviour.ui:609
+msgid ""
+"Wikipedia\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:491
-msgid "DuckDuckGo artwork search and Wikipedia search"
-msgstr "DuckDuckGo kapak resmi ve Vikipedi araması"
+#: ../data/SettingsBehaviour.ui:637
+msgid ""
+"Tunein\n"
+"<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:493
-msgid "DuckDuckGo"
-msgstr "DuckDuckGo arama servisi"
+#: ../data/SettingsBehaviour.ui:665
+msgid ""
+"MusicBrainz\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:505
-msgid "Wikia"
-msgstr "Vikia"
+#: ../data/SettingsBehaviour.ui:693
+msgid ""
+"Genius\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:517
-msgid "Scrobbler, artwork, …"
-msgstr "Scrobbler, kapak resmi, …"
-
-#: ../data/SettingsBehaviour.ui:532
-msgid "Search songs , artwork, …"
-msgstr "Parçaları ara , kapak resmi, …"
-
-#: ../data/SettingsBehaviour.ui:547
-msgid "Songs playback"
-msgstr "Parçaları oynat"
-
-#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
-#: ../data/SettingsBehaviour.ui:785
-msgid "Artwork search"
-msgstr "Kapak resmi ara"
-
-#: ../data/SettingsBehaviour.ui:577
-msgid "Artist biography, artwork search, …"
-msgstr "Sanatçı biyografisi, kapak resmi ara, …"
-
-#: ../data/SettingsBehaviour.ui:592 ../data/SettingsBehaviour.ui:700
-msgid "Search lyrics"
-msgstr "Şarkı sözlerini ara"
-
-#: ../data/SettingsBehaviour.ui:607
-msgid "Wikipedia"
-msgstr "Wikipedia Bilgi"
-
-#: ../data/SettingsBehaviour.ui:619
-msgid "Artist biography"
-msgstr "Sanatçı biyografisi"
-
-#: ../data/SettingsBehaviour.ui:634
-msgid "Tunein"
-msgstr "Tunein Radyo"
-
-#: ../data/SettingsBehaviour.ui:646
-msgid "Radios search"
-msgstr "Radyoları ara"
-
-#: ../data/SettingsBehaviour.ui:661
-msgid "MusicBrainz"
-msgstr "MusicBrainz servisi"
-
-#: ../data/SettingsBehaviour.ui:673
-msgid "Scrobbler, information, …"
-msgstr "Scrobbler, bilgi, …"
-
-#: ../data/SettingsBehaviour.ui:688
-msgid "Genius"
-msgstr "Genius servisi"
-
-#: ../data/SettingsBehaviour.ui:725
+#: ../data/SettingsBehaviour.ui:731
 msgid "Control your privacy by selecting allowed services"
 msgstr "İzin verilen hizmetleri seçerek gizliliğinizi kontrol edin"
 
-#: ../data/SettingsBehaviour.ui:746
-msgid "ITunes"
-msgstr "ITunes müzik"
+#: ../data/SettingsBehaviour.ui:752
+msgid ""
+"ITunes\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:758
-msgid "Deezer"
-msgstr "Deezer müzik"
+#: ../data/SettingsBehaviour.ui:766
+msgid ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:824
+#: ../data/SettingsBehaviour.ui:832
 msgid "Only in party mode"
 msgstr "Yalnızca parti kipinde"
 
-#: ../data/SettingsBehaviour.ui:874
+#: ../data/SettingsBehaviour.ui:882
 msgid "Transition duration in seconds"
 msgstr "Saniye türünde geçiş süresi"
 
@@ -1172,7 +1138,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:245
-#: ../lollypop/window.py:541 ../lollypop/window.py:542
+#: ../lollypop/window.py:544 ../lollypop/window.py:545
 msgid "Search"
 msgstr "Ara"
 
@@ -1436,13 +1402,13 @@ msgstr "Geri dön"
 msgid "Go home"
 msgstr "Anasayfaya git"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:465
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:467
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
 #: ../lollypop/selectionlist.py:431 ../lollypop/tagreader.py:85
-#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
-#: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:229
-#: ../lollypop/tagreader.py:237
+#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:235
+#: ../lollypop/tagreader.py:239 ../lollypop/tagreader.py:249
+#: ../lollypop/tagreader.py:257
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
@@ -1478,7 +1444,7 @@ msgstr "Tazele"
 msgid "Pause"
 msgstr "Duraklat"
 
-#: ../lollypop/database_artists.py:103
+#: ../lollypop/database_artists.py:108
 msgid "Many artists"
 msgstr "Birçok sanatçı"
 
@@ -1578,12 +1544,12 @@ msgstr "Bu çalma listesi kaldırılsın mı?"
 msgid "Cancel"
 msgstr "İptal"
 
-#: ../lollypop/notification.py:127
+#: ../lollypop/notification.py:111
 #, python-format
 msgid "by %s"
 msgstr "%s dan"
 
-#: ../lollypop/notification.py:133
+#: ../lollypop/notification.py:117
 #, python-format
 msgid "by %s, from %s"
 msgstr "%s tarafından, %s albümünden"
@@ -1652,8 +1618,8 @@ msgstr "\"%s\"e ekle"
 msgid "Lyrics"
 msgstr "Şarkı sözleri"
 
-#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:464
-#: ../lollypop/pop_menu.py:488 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:469
+#: ../lollypop/pop_menu.py:493 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
@@ -1671,23 +1637,23 @@ msgstr "Koleksiyondan kaldır"
 msgid "Modify information"
 msgstr "Bilgileri değiştir"
 
-#: ../lollypop/pop_menu.py:466 ../lollypop/pop_menu.py:490
+#: ../lollypop/pop_menu.py:471 ../lollypop/pop_menu.py:495
 msgid "Edit"
 msgstr "Düzenle"
 
-#: ../lollypop/pop_menu.py:485
+#: ../lollypop/pop_menu.py:490
 msgid "Playback"
 msgstr "Kayıttan çal"
 
-#: ../lollypop/pop_menu.py:508
+#: ../lollypop/pop_menu.py:513
 msgid "Remove track"
 msgstr "Parçayı kaldır"
 
-#: ../lollypop/pop_menu.py:510
+#: ../lollypop/pop_menu.py:515
 msgid "Remove tracks"
 msgstr "Parçaları kaldır"
 
-#: ../lollypop/pop_menu.py:550
+#: ../lollypop/pop_menu.py:555
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
@@ -1711,8 +1677,8 @@ msgstr "TuneInʼe bağlanamıyor…"
 msgid "No result…"
 msgstr "Sonuç yok…"
 
-#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:544
-#: ../lollypop/window.py:545
+#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:547
+#: ../lollypop/window.py:548
 msgid "Current playlist"
 msgstr "Mevcut çalma listesi"
 
@@ -1873,7 +1839,7 @@ msgstr "Yeni çalma listesi"
 msgid "New playlist "
 msgstr "Yeni çalma listesi "
 
-#: ../lollypop/view.py:60
+#: ../lollypop/view.py:61
 msgid "Empty"
 msgstr "Boş"
 
@@ -1885,7 +1851,7 @@ msgstr "<big>Bu arama için sonuç yok</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Sanatçılar, albümler ve parçalar için ara</big>"
 
-#: ../lollypop/view_tracks.py:432
+#: ../lollypop/view_tracks.py:435
 #, python-format
 msgid "Disc %s"
 msgstr "%s diski"
@@ -1894,7 +1860,7 @@ msgstr "%s diski"
 msgid "Select artwork"
 msgstr "Çizim seç"
 
-#: ../lollypop/widgets_artwork.py:424
+#: ../lollypop/widgets_artwork.py:450
 msgid "Reset artwork?"
 msgstr "Çizimi sıfırla?"
 
@@ -2064,6 +2030,90 @@ msgstr[1] "%d parça"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "\"GNOME Çevrim İçi Hesaplar\" ayarlarını kullan"
+
+#~ msgid "Download artwork in the background"
+#~ msgstr "Kapak resmini arka planda indir"
+
+#~ msgid "Background data"
+#~ msgstr "Arka plan verisi"
+
+#~ msgid "Get similar artists from Last.fm"
+#~ msgstr "Last.fm'den benzer sanatçılar al"
+
+#~ msgid "Last.fm"
+#~ msgstr "Last.fm"
+
+#~ msgid "Spotify search"
+#~ msgstr "Spotify araması"
+
+#~ msgid "Spotify"
+#~ msgstr "Spotify müzik"
+
+#~ msgid "YouTube playback"
+#~ msgstr "YouTube oynatıcısı"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube müzik"
+
+#~ msgid "Google artwork search"
+#~ msgstr "Google kapak resmi araması"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "DuckDuckGo artwork search and Wikipedia search"
+#~ msgstr "DuckDuckGo kapak resmi ve Vikipedi araması"
+
+#~ msgid "DuckDuckGo"
+#~ msgstr "DuckDuckGo arama servisi"
+
+#~ msgid "Wikia"
+#~ msgstr "Vikia"
+
+#~ msgid "Scrobbler, artwork, …"
+#~ msgstr "Scrobbler, kapak resmi, …"
+
+#~ msgid "Search songs , artwork, …"
+#~ msgstr "Parçaları ara , kapak resmi, …"
+
+#~ msgid "Songs playback"
+#~ msgstr "Parçaları oynat"
+
+#~ msgid "Artwork search"
+#~ msgstr "Kapak resmi ara"
+
+#~ msgid "Artist biography, artwork search, …"
+#~ msgstr "Sanatçı biyografisi, kapak resmi ara, …"
+
+#~ msgid "Search lyrics"
+#~ msgstr "Şarkı sözlerini ara"
+
+#~ msgid "Wikipedia"
+#~ msgstr "Wikipedia Bilgi"
+
+#~ msgid "Artist biography"
+#~ msgstr "Sanatçı biyografisi"
+
+#~ msgid "Tunein"
+#~ msgstr "Tunein Radyo"
+
+#~ msgid "Radios search"
+#~ msgstr "Radyoları ara"
+
+#~ msgid "MusicBrainz"
+#~ msgstr "MusicBrainz servisi"
+
+#~ msgid "Scrobbler, information, …"
+#~ msgstr "Scrobbler, bilgi, …"
+
+#~ msgid "Genius"
+#~ msgstr "Genius servisi"
+
+#~ msgid "ITunes"
+#~ msgstr "ITunes müzik"
+
+#~ msgid "Deezer"
+#~ msgstr "Deezer müzik"
 
 #~ msgid "Network access"
 #~ msgstr "Ağ erişimi"

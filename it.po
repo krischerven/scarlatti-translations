@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-02 21:31+0200\n"
+"POT-Creation-Date: 2019-04-17 09:02+0200\n"
 "PO-Revision-Date: 2019-04-07 15:04+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -567,7 +567,7 @@ msgstr "Traduci"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:441 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:170
 msgid "Play"
 msgstr "Riproduci"
 
@@ -921,8 +921,8 @@ msgid "Show compilations"
 msgstr "Mostra compilation"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:461
-#: ../lollypop/pop_menu.py:483
+#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:466
+#: ../lollypop/pop_menu.py:488
 msgid "Artist"
 msgstr "Artista"
 
@@ -978,128 +978,94 @@ msgstr "Permetti accesso ad Internet"
 msgid "Search artwork in background"
 msgstr "Cerca immagini in background"
 
-#: ../data/SettingsBehaviour.ui:423
-msgid "Download artwork in the background"
-msgstr "Scarica immagini in background"
-
-#: ../data/SettingsBehaviour.ui:426
-msgid "Background data"
-msgstr "Dati in background"
-
-#: ../data/SettingsBehaviour.ui:439
-msgid "Get similar artists from Last.fm"
-msgstr "Scopri artisti simili su Last.fm"
+#: ../data/SettingsBehaviour.ui:425
+msgid ""
+"Background data\n"
+"<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
+msgstr ""
 
 #: ../data/SettingsBehaviour.ui:441
-msgid "Last.fm"
-msgstr "Last.fm"
+msgid ""
+"Last.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:452
-msgid "Spotify search"
-msgstr "Ricerca Spotify"
+#: ../data/SettingsBehaviour.ui:455
+msgid ""
+"Spotify\n"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:454
-msgid "Spotify"
-msgstr "Spotify"
+#: ../data/SettingsBehaviour.ui:469
+msgid ""
+"YouTube\n"
+"<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:465
-msgid "YouTube playback"
-msgstr "Riproduzione YouTube"
+#: ../data/SettingsBehaviour.ui:483
+msgid ""
+"Google\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:467
-msgid "YouTube"
-msgstr "YouTube"
+#: ../data/SettingsBehaviour.ui:497
+msgid ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
+"span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:478
-msgid "Google artwork search"
-msgstr "Ricerca immagini su Google"
+#: ../data/SettingsBehaviour.ui:511
+msgid ""
+"Wikia\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:480
-msgid "Google"
-msgstr "Google"
+#: ../data/SettingsBehaviour.ui:609
+msgid ""
+"Wikipedia\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:491
-msgid "DuckDuckGo artwork search and Wikipedia search"
-msgstr "Ricerca immagini su DuckDuckGo e ricerca Wikipedia"
+#: ../data/SettingsBehaviour.ui:637
+msgid ""
+"Tunein\n"
+"<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:493
-msgid "DuckDuckGo"
-msgstr "DuckDuckGo"
+#: ../data/SettingsBehaviour.ui:665
+msgid ""
+"MusicBrainz\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:505
-msgid "Wikia"
-msgstr "Wikia"
+#: ../data/SettingsBehaviour.ui:693
+msgid ""
+"Genius\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:517
-msgid "Scrobbler, artwork, …"
-msgstr "Scrobbler, immagini, …"
-
-#: ../data/SettingsBehaviour.ui:532
-msgid "Search songs , artwork, …"
-msgstr "Cerca brani, immagini, …"
-
-#: ../data/SettingsBehaviour.ui:547
-msgid "Songs playback"
-msgstr "Riproduzione brani"
-
-#: ../data/SettingsBehaviour.ui:562 ../data/SettingsBehaviour.ui:770
-#: ../data/SettingsBehaviour.ui:785
-msgid "Artwork search"
-msgstr "Ricerca immagini"
-
-#: ../data/SettingsBehaviour.ui:577
-msgid "Artist biography, artwork search, …"
-msgstr "Biografia dell'artista, ricerca immagini, …"
-
-#: ../data/SettingsBehaviour.ui:592 ../data/SettingsBehaviour.ui:700
-msgid "Search lyrics"
-msgstr "Ricerca testi"
-
-#: ../data/SettingsBehaviour.ui:607
-msgid "Wikipedia"
-msgstr "Wikipedia"
-
-#: ../data/SettingsBehaviour.ui:619
-msgid "Artist biography"
-msgstr "Biografia artista"
-
-#: ../data/SettingsBehaviour.ui:634
-msgid "Tunein"
-msgstr "Tunein"
-
-#: ../data/SettingsBehaviour.ui:646
-msgid "Radios search"
-msgstr "Ricerca radio"
-
-#: ../data/SettingsBehaviour.ui:661
-msgid "MusicBrainz"
-msgstr "MusicBrainz"
-
-#: ../data/SettingsBehaviour.ui:673
-msgid "Scrobbler, information, …"
-msgstr "Scrobbler, informazioni, …"
-
-#: ../data/SettingsBehaviour.ui:688
-msgid "Genius"
-msgstr "Genius"
-
-#: ../data/SettingsBehaviour.ui:725
+#: ../data/SettingsBehaviour.ui:731
 msgid "Control your privacy by selecting allowed services"
 msgstr "Controlla la tua privacy selezionando i servizi consentiti"
 
-#: ../data/SettingsBehaviour.ui:746
-msgid "ITunes"
-msgstr "ITunes"
+#: ../data/SettingsBehaviour.ui:752
+msgid ""
+"ITunes\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:758
-msgid "Deezer"
-msgstr "Deezer"
+#: ../data/SettingsBehaviour.ui:766
+msgid ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:824
+#: ../data/SettingsBehaviour.ui:832
 msgid "Only in party mode"
 msgstr "Solo in modalità party"
 
-#: ../data/SettingsBehaviour.ui:874
+#: ../data/SettingsBehaviour.ui:882
 msgid "Transition duration in seconds"
 msgstr "Durata dissolvenza in secondi"
 
@@ -1172,7 +1138,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:245
-#: ../lollypop/window.py:541 ../lollypop/window.py:542
+#: ../lollypop/window.py:544 ../lollypop/window.py:545
 msgid "Search"
 msgstr "Cerca"
 
@@ -1436,13 +1402,13 @@ msgstr "Torna indietro"
 msgid "Go home"
 msgstr "Vista principale"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:465
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:467
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
 #: ../lollypop/selectionlist.py:431 ../lollypop/tagreader.py:85
-#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:151
-#: ../lollypop/tagreader.py:199 ../lollypop/tagreader.py:215
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:229
-#: ../lollypop/tagreader.py:237
+#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:235
+#: ../lollypop/tagreader.py:239 ../lollypop/tagreader.py:249
+#: ../lollypop/tagreader.py:257
 msgid "Unknown"
 msgstr "Sconosciuto"
 
@@ -1478,7 +1444,7 @@ msgstr "Aggiorna"
 msgid "Pause"
 msgstr "Pausa"
 
-#: ../lollypop/database_artists.py:103
+#: ../lollypop/database_artists.py:108
 msgid "Many artists"
 msgstr "Molti artisti"
 
@@ -1578,12 +1544,12 @@ msgstr "Rimuovere questa playlist?"
 msgid "Cancel"
 msgstr "Cancella"
 
-#: ../lollypop/notification.py:127
+#: ../lollypop/notification.py:111
 #, python-format
 msgid "by %s"
 msgstr "di %s"
 
-#: ../lollypop/notification.py:133
+#: ../lollypop/notification.py:117
 #, python-format
 msgid "by %s, from %s"
 msgstr "di %s, da %s"
@@ -1652,8 +1618,8 @@ msgstr "Aggiungi a «%s»"
 msgid "Lyrics"
 msgstr "Testi"
 
-#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:464
-#: ../lollypop/pop_menu.py:488 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:469
+#: ../lollypop/pop_menu.py:493 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
@@ -1671,23 +1637,23 @@ msgstr "Rimuovi dalla collezione"
 msgid "Modify information"
 msgstr "Modifica informazioni"
 
-#: ../lollypop/pop_menu.py:466 ../lollypop/pop_menu.py:490
+#: ../lollypop/pop_menu.py:471 ../lollypop/pop_menu.py:495
 msgid "Edit"
 msgstr "Modifica"
 
-#: ../lollypop/pop_menu.py:485
+#: ../lollypop/pop_menu.py:490
 msgid "Playback"
 msgstr "Riproduce"
 
-#: ../lollypop/pop_menu.py:508
+#: ../lollypop/pop_menu.py:513
 msgid "Remove track"
 msgstr "Rimuovi traccia"
 
-#: ../lollypop/pop_menu.py:510
+#: ../lollypop/pop_menu.py:515
 msgid "Remove tracks"
 msgstr "Rimuovi tracce"
 
-#: ../lollypop/pop_menu.py:550
+#: ../lollypop/pop_menu.py:555
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
@@ -1711,8 +1677,8 @@ msgstr "Impossibile connettersi a TuneIn…"
 msgid "No result…"
 msgstr "Nessun risultato…"
 
-#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:544
-#: ../lollypop/window.py:545
+#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:547
+#: ../lollypop/window.py:548
 msgid "Current playlist"
 msgstr "Scaletta attuale"
 
@@ -1875,7 +1841,7 @@ msgstr "Nuova scaletta"
 msgid "New playlist "
 msgstr "Nuova scaletta "
 
-#: ../lollypop/view.py:60
+#: ../lollypop/view.py:61
 msgid "Empty"
 msgstr "Vuoto"
 
@@ -1887,7 +1853,7 @@ msgstr "<big>Nessun risultato per questa ricerca</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Ricerca artisti, album e tracce</big>"
 
-#: ../lollypop/view_tracks.py:432
+#: ../lollypop/view_tracks.py:435
 #, python-format
 msgid "Disc %s"
 msgstr "Disco %s"
@@ -1896,7 +1862,7 @@ msgstr "Disco %s"
 msgid "Select artwork"
 msgstr "Seleziona immagine"
 
-#: ../lollypop/widgets_artwork.py:424
+#: ../lollypop/widgets_artwork.py:450
 msgid "Reset artwork?"
 msgstr "Azzerare immagine?"
 
@@ -2066,6 +2032,90 @@ msgstr[1] "%d tracce"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Utilizza impostazioni \"Account online\" di GNOME"
+
+#~ msgid "Download artwork in the background"
+#~ msgstr "Scarica immagini in background"
+
+#~ msgid "Background data"
+#~ msgstr "Dati in background"
+
+#~ msgid "Get similar artists from Last.fm"
+#~ msgstr "Scopri artisti simili su Last.fm"
+
+#~ msgid "Last.fm"
+#~ msgstr "Last.fm"
+
+#~ msgid "Spotify search"
+#~ msgstr "Ricerca Spotify"
+
+#~ msgid "Spotify"
+#~ msgstr "Spotify"
+
+#~ msgid "YouTube playback"
+#~ msgstr "Riproduzione YouTube"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid "Google artwork search"
+#~ msgstr "Ricerca immagini su Google"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "DuckDuckGo artwork search and Wikipedia search"
+#~ msgstr "Ricerca immagini su DuckDuckGo e ricerca Wikipedia"
+
+#~ msgid "DuckDuckGo"
+#~ msgstr "DuckDuckGo"
+
+#~ msgid "Wikia"
+#~ msgstr "Wikia"
+
+#~ msgid "Scrobbler, artwork, …"
+#~ msgstr "Scrobbler, immagini, …"
+
+#~ msgid "Search songs , artwork, …"
+#~ msgstr "Cerca brani, immagini, …"
+
+#~ msgid "Songs playback"
+#~ msgstr "Riproduzione brani"
+
+#~ msgid "Artwork search"
+#~ msgstr "Ricerca immagini"
+
+#~ msgid "Artist biography, artwork search, …"
+#~ msgstr "Biografia dell'artista, ricerca immagini, …"
+
+#~ msgid "Search lyrics"
+#~ msgstr "Ricerca testi"
+
+#~ msgid "Wikipedia"
+#~ msgstr "Wikipedia"
+
+#~ msgid "Artist biography"
+#~ msgstr "Biografia artista"
+
+#~ msgid "Tunein"
+#~ msgstr "Tunein"
+
+#~ msgid "Radios search"
+#~ msgstr "Ricerca radio"
+
+#~ msgid "MusicBrainz"
+#~ msgstr "MusicBrainz"
+
+#~ msgid "Scrobbler, information, …"
+#~ msgstr "Scrobbler, informazioni, …"
+
+#~ msgid "Genius"
+#~ msgstr "Genius"
+
+#~ msgid "ITunes"
+#~ msgstr "ITunes"
+
+#~ msgid "Deezer"
+#~ msgstr "Deezer"
 
 #~ msgid "Spotify/YouTube playback back from hell"
 #~ msgstr "Riproduzione Spotify/YouTube tornata dall'inferno"
