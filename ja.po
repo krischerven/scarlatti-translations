@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 17:44+0200\n"
+"POT-Creation-Date: 2019-05-06 07:36+0200\n"
 "PO-Revision-Date: 2019-02-13 10:10+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -400,6 +400,10 @@ msgstr "HiDPI サポート"
 msgid "TuneIn support"
 msgstr "TuneIn サポート"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:32
+msgid "Bug fixes"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "音楽プレーヤー"
@@ -455,7 +459,7 @@ msgstr "このアプリケーションについて(_A)"
 msgid "Turn on background data"
 msgstr "バックグラウンドデータを有効化"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:349
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:375
 msgid "Show lyrics"
 msgstr "歌詞を表示"
 
@@ -463,7 +467,7 @@ msgstr "歌詞を表示"
 msgid "Go to artist view"
 msgstr "アーティストビューへ移動"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:180
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:182
 msgid "Play albums"
 msgstr "アルバムを再生"
 
@@ -558,7 +562,7 @@ msgstr "翻訳"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:172
 msgid "Play"
 msgstr "再生"
 
@@ -696,7 +700,7 @@ msgid "Cyprus"
 msgstr ""
 
 #: ../data/SearchView.ui:239
-msgid "Czech Republic"
+msgid "Czechia"
 msgstr ""
 
 #: ../data/SearchView.ui:240
@@ -912,8 +916,8 @@ msgid "Show compilations"
 msgstr "コンピレーションを表示"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:466
-#: ../lollypop/pop_menu.py:488
+#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:492
+#: ../lollypop/pop_menu.py:514
 msgid "Artist"
 msgstr "アーティスト"
 
@@ -1126,7 +1130,7 @@ msgid ""
 msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:245
+#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
 #: ../lollypop/window.py:544 ../lollypop/window.py:545
 msgid "Search"
 msgstr "検索"
@@ -1391,13 +1395,13 @@ msgstr "前に戻る"
 msgid "Go home"
 msgstr "ホームに移動"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:467
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:470
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
-#: ../lollypop/selectionlist.py:431 ../lollypop/tagreader.py:85
+#: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:235
-#: ../lollypop/tagreader.py:239 ../lollypop/tagreader.py:249
-#: ../lollypop/tagreader.py:257
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
+#: ../lollypop/tagreader.py:257 ../lollypop/tagreader.py:261
+#: ../lollypop/tagreader.py:271 ../lollypop/tagreader.py:279
 msgid "Unknown"
 msgstr "不明"
 
@@ -1573,76 +1577,84 @@ msgstr ""
 msgid "Other albums"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:134
+#: ../lollypop/pop_menu.py:135
 msgid "Add to playback"
 msgstr "プレイバックに追加"
 
-#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:141 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "プレイバックから削除"
 
-#: ../lollypop/pop_menu.py:151
+#: ../lollypop/pop_menu.py:152
 msgid "Add to queue"
 msgstr "キューに追加"
 
-#: ../lollypop/pop_menu.py:157
+#: ../lollypop/pop_menu.py:158
 msgid "Remove from queue"
 msgstr "キューから削除"
 
-#: ../lollypop/pop_menu.py:240
+#: ../lollypop/pop_menu.py:169
+msgid "Do not stop after"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:174
+msgid "Stop after"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:266
 msgid "Add to others"
 msgstr "他に追加"
 
-#: ../lollypop/pop_menu.py:255
+#: ../lollypop/pop_menu.py:281
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "\"%s\" から削除"
 
-#: ../lollypop/pop_menu.py:261
+#: ../lollypop/pop_menu.py:287
 #, python-format
 msgid "Add to \"%s\""
 msgstr "\"%s\" に追加"
 
-#: ../lollypop/pop_menu.py:350
+#: ../lollypop/pop_menu.py:376
 msgid "Lyrics"
 msgstr "歌詞"
 
-#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:469
-#: ../lollypop/pop_menu.py:493 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:379 ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:519 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "プレイリスト"
 
-#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:135
+#: ../lollypop/pop_menu.py:427 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:406
+#: ../lollypop/pop_menu.py:432
 msgid "Remove from collection"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:415
+#: ../lollypop/pop_menu.py:441
 msgid "Modify information"
 msgstr "情報を変更"
 
-#: ../lollypop/pop_menu.py:471 ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:497 ../lollypop/pop_menu.py:521
 msgid "Edit"
 msgstr "編集"
 
-#: ../lollypop/pop_menu.py:490
+#: ../lollypop/pop_menu.py:516
 msgid "Playback"
 msgstr "プレイバック"
 
-#: ../lollypop/pop_menu.py:513
+#: ../lollypop/pop_menu.py:539
 msgid "Remove track"
 msgstr "トラックを削除"
 
-#: ../lollypop/pop_menu.py:515
+#: ../lollypop/pop_menu.py:541
 msgid "Remove tracks"
 msgstr "トラックを削除"
 
-#: ../lollypop/pop_menu.py:555
+#: ../lollypop/pop_menu.py:581
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
@@ -1666,12 +1678,12 @@ msgstr "TuneIn に接続できません…"
 msgid "No result…"
 msgstr "結果はありません…"
 
-#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:547
+#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:547
 #: ../lollypop/window.py:548
 msgid "Current playlist"
 msgstr "現在のプレイリスト"
 
-#: ../lollypop/selectionlist.py:415
+#: ../lollypop/selectionlist.py:416
 msgid "Right click to configure"
 msgstr "右クリックで設定できます"
 
@@ -1758,6 +1770,14 @@ msgstr "他のアルバム:"
 msgid "Missing youtube-dl command"
 msgstr ""
 
+#: ../lollypop/view_albums_box.py:50
+msgid "You need to enable Spotify "
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:51
+msgid "and YouTube in network settings"
+msgstr ""
+
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "コンピレーション"
@@ -1832,11 +1852,11 @@ msgstr "新しいプレイリスト "
 msgid "Empty"
 msgstr ""
 
-#: ../lollypop/view_search.py:176
+#: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
 msgstr "<big>検索結果はありません</big>"
 
-#: ../lollypop/view_search.py:183
+#: ../lollypop/view_search.py:180
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>アーティスト、アルバム、トラックを検索</big>"
 

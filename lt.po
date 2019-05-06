@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 17:44+0200\n"
+"POT-Creation-Date: 2019-05-06 07:36+0200\n"
 "PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -405,6 +405,10 @@ msgstr "HiDPI palaikymas"
 msgid "TuneIn support"
 msgstr "TuneIn palaikymas"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:32
+msgid "Bug fixes"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Muzikos grotuvas"
@@ -460,7 +464,7 @@ msgstr "_Apie"
 msgid "Turn on background data"
 msgstr "Įjungti foninius duomenis"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:349
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:375
 msgid "Show lyrics"
 msgstr "Rodyti dainos žodžius"
 
@@ -468,7 +472,7 @@ msgstr "Rodyti dainos žodžius"
 msgid "Go to artist view"
 msgstr "Pereiti į atlikėjo rodinį"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:180
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:182
 msgid "Play albums"
 msgstr "Groti albumus"
 
@@ -563,7 +567,7 @@ msgstr "Versti"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:172
 msgid "Play"
 msgstr "Groti"
 
@@ -701,8 +705,8 @@ msgid "Cyprus"
 msgstr "Kipras"
 
 #: ../data/SearchView.ui:239
-msgid "Czech Republic"
-msgstr "Čekijos Respublika"
+msgid "Czechia"
+msgstr ""
 
 #: ../data/SearchView.ui:240
 msgid "Germany"
@@ -917,8 +921,8 @@ msgid "Show compilations"
 msgstr "Rodyti rinkinius"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:466
-#: ../lollypop/pop_menu.py:488
+#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:492
+#: ../lollypop/pop_menu.py:514
 msgid "Artist"
 msgstr "Atlikėjas"
 
@@ -988,8 +992,8 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
 "Last.fm ir Libre.fm\n"
-"<span size=\"x-small\" alpha=\"70%\">\"Scrobbler\" paslauga, iliustracijos, "
-"…</span>"
+"<span size=\"x-small\" alpha=\"70%\">\"Scrobbler\" paslauga, iliustracijos, …"
+"</span>"
 
 #: ../data/SettingsBehaviour.ui:455
 msgid ""
@@ -1164,7 +1168,7 @@ msgstr ""
 "API v3\".</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:245
+#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
 #: ../lollypop/window.py:544 ../lollypop/window.py:545
 msgid "Search"
 msgstr "Paieška"
@@ -1429,13 +1433,13 @@ msgstr "Grįžti atgal"
 msgid "Go home"
 msgstr "Grįžti į pradžią"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:467
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:470
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
-#: ../lollypop/selectionlist.py:431 ../lollypop/tagreader.py:85
+#: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:235
-#: ../lollypop/tagreader.py:239 ../lollypop/tagreader.py:249
-#: ../lollypop/tagreader.py:257
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
+#: ../lollypop/tagreader.py:257 ../lollypop/tagreader.py:261
+#: ../lollypop/tagreader.py:271 ../lollypop/tagreader.py:279
 msgid "Unknown"
 msgstr "Nežinoma"
 
@@ -1611,76 +1615,84 @@ msgstr "Prieinami albumai"
 msgid "Other albums"
 msgstr "Kiti albumai"
 
-#: ../lollypop/pop_menu.py:134
+#: ../lollypop/pop_menu.py:135
 msgid "Add to playback"
 msgstr "Pridėti į grojimą"
 
-#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:141 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Šalinti iš grojimo"
 
-#: ../lollypop/pop_menu.py:151
+#: ../lollypop/pop_menu.py:152
 msgid "Add to queue"
 msgstr "Pridėti į eilę"
 
-#: ../lollypop/pop_menu.py:157
+#: ../lollypop/pop_menu.py:158
 msgid "Remove from queue"
 msgstr "Šalinti iš eilės"
 
-#: ../lollypop/pop_menu.py:240
+#: ../lollypop/pop_menu.py:169
+msgid "Do not stop after"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:174
+msgid "Stop after"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:266
 msgid "Add to others"
 msgstr "Pridėti į kitus"
 
-#: ../lollypop/pop_menu.py:255
+#: ../lollypop/pop_menu.py:281
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Šalinti iš \"%s\""
 
-#: ../lollypop/pop_menu.py:261
+#: ../lollypop/pop_menu.py:287
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Pridėti į \"%s\""
 
-#: ../lollypop/pop_menu.py:350
+#: ../lollypop/pop_menu.py:376
 msgid "Lyrics"
 msgstr "Dainos žodžiai"
 
-#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:469
-#: ../lollypop/pop_menu.py:493 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:379 ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:519 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Grojaraščiai"
 
-#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:135
+#: ../lollypop/pop_menu.py:427 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr "Įrašyti į kolekciją"
 
-#: ../lollypop/pop_menu.py:406
+#: ../lollypop/pop_menu.py:432
 msgid "Remove from collection"
 msgstr "Šalinti iš kolekcijos"
 
-#: ../lollypop/pop_menu.py:415
+#: ../lollypop/pop_menu.py:441
 msgid "Modify information"
 msgstr "Modifikuoti informaciją"
 
-#: ../lollypop/pop_menu.py:471 ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:497 ../lollypop/pop_menu.py:521
 msgid "Edit"
 msgstr "Redaguoti"
 
-#: ../lollypop/pop_menu.py:490
+#: ../lollypop/pop_menu.py:516
 msgid "Playback"
 msgstr "Grojimas"
 
-#: ../lollypop/pop_menu.py:513
+#: ../lollypop/pop_menu.py:539
 msgid "Remove track"
 msgstr "Šalinti takelį"
 
-#: ../lollypop/pop_menu.py:515
+#: ../lollypop/pop_menu.py:541
 msgid "Remove tracks"
 msgstr "Šalinti takelius"
 
-#: ../lollypop/pop_menu.py:555
+#: ../lollypop/pop_menu.py:581
 msgid "%Y-%m-%d"
 msgstr "%Y %m %d"
 
@@ -1704,12 +1716,12 @@ msgstr "Nepavyksta prisijungti prie TuneIn…"
 msgid "No result…"
 msgstr "Nėra rezultatų…"
 
-#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:547
+#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:547
 #: ../lollypop/window.py:548
 msgid "Current playlist"
 msgstr "Dabartinis grojaraštis"
 
-#: ../lollypop/selectionlist.py:415
+#: ../lollypop/selectionlist.py:416
 msgid "Right click to configure"
 msgstr "Spustelėkite dešiniuoju mygtuku, norėdami konfigūruoti"
 
@@ -1796,6 +1808,14 @@ msgstr "Kiti albumai iš"
 msgid "Missing youtube-dl command"
 msgstr "Trūksta youtube-dl komandos"
 
+#: ../lollypop/view_albums_box.py:50
+msgid "You need to enable Spotify "
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:51
+msgid "and YouTube in network settings"
+msgstr ""
+
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "Rinkinys"
@@ -1872,11 +1892,11 @@ msgstr "Naujas grojaraštis "
 msgid "Empty"
 msgstr "Tuščia"
 
-#: ../lollypop/view_search.py:176
+#: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
 msgstr "<big>Paieška negrąžino jokių rezultatų</big>"
 
-#: ../lollypop/view_search.py:183
+#: ../lollypop/view_search.py:180
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Ieškokite atlikėjų, albumų ir takelių</big>"
 
@@ -2062,6 +2082,9 @@ msgstr[2] "%d takelių"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Naudojami \"GNOME internetinių paskyrų\" nustatymai"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Čekijos Respublika"
 
 #~ msgid ""
 #~ "Last.fm\n"

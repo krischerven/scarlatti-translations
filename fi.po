@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 17:44+0200\n"
+"POT-Creation-Date: 2019-05-06 07:36+0200\n"
 "PO-Revision-Date: 2019-04-29 11:45+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -397,6 +397,10 @@ msgstr "HiDPI-tuki"
 msgid "TuneIn support"
 msgstr "TuneIn-tuki"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:32
+msgid "Bug fixes"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Musiikkisoitin"
@@ -452,7 +456,7 @@ msgstr "_Tietoja"
 msgid "Turn on background data"
 msgstr "Käytä taustadataa"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:349
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:375
 msgid "Show lyrics"
 msgstr "Näytä sanoitukset"
 
@@ -460,7 +464,7 @@ msgstr "Näytä sanoitukset"
 msgid "Go to artist view"
 msgstr "Siirry esittäjänäkymään"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:180
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:182
 msgid "Play albums"
 msgstr "Toista albumit"
 
@@ -555,7 +559,7 @@ msgstr "Käännä"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:170
+#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:172
 msgid "Play"
 msgstr "Toista"
 
@@ -693,8 +697,8 @@ msgid "Cyprus"
 msgstr "Kypros"
 
 #: ../data/SearchView.ui:239
-msgid "Czech Republic"
-msgstr "Tšekin tasavalta"
+msgid "Czechia"
+msgstr ""
 
 #: ../data/SearchView.ui:240
 msgid "Germany"
@@ -909,8 +913,8 @@ msgid "Show compilations"
 msgstr "Näytä kokoelmalevyt"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:354 ../lollypop/pop_menu.py:466
-#: ../lollypop/pop_menu.py:488
+#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:492
+#: ../lollypop/pop_menu.py:514
 msgid "Artist"
 msgstr "Esittäjä"
 
@@ -1007,8 +1011,8 @@ msgid ""
 "span>"
 msgstr ""
 "DuckDuckGo\n"
-"<span size=\"x-small\" alpha=\"70%\">Esiintyjien biografia, kuvituksen "
-"haku…</span>"
+"<span size=\"x-small\" alpha=\"70%\">Esiintyjien biografia, kuvituksen haku…"
+"</span>"
 
 #: ../data/SettingsBehaviour.ui:511
 msgid ""
@@ -1140,7 +1144,7 @@ msgid ""
 msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:245
+#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
 #: ../lollypop/window.py:544 ../lollypop/window.py:545
 msgid "Search"
 msgstr "Etsi"
@@ -1405,13 +1409,13 @@ msgstr "Takaisin"
 msgid "Go home"
 msgstr "Kotiin"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:467
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:470
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
-#: ../lollypop/selectionlist.py:431 ../lollypop/tagreader.py:85
+#: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:235
-#: ../lollypop/tagreader.py:239 ../lollypop/tagreader.py:249
-#: ../lollypop/tagreader.py:257
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
+#: ../lollypop/tagreader.py:257 ../lollypop/tagreader.py:261
+#: ../lollypop/tagreader.py:271 ../lollypop/tagreader.py:279
 msgid "Unknown"
 msgstr "Tuntematon"
 
@@ -1587,76 +1591,84 @@ msgstr "Saatavilla olevat albumit"
 msgid "Other albums"
 msgstr "Muut albumit"
 
-#: ../lollypop/pop_menu.py:134
+#: ../lollypop/pop_menu.py:135
 msgid "Add to playback"
 msgstr "Lisää toistoon"
 
-#: ../lollypop/pop_menu.py:140 ../lollypop/widgets_row.py:97
+#: ../lollypop/pop_menu.py:141 ../lollypop/widgets_row.py:97
 msgid "Remove from playback"
 msgstr "Poista toistosta"
 
-#: ../lollypop/pop_menu.py:151
+#: ../lollypop/pop_menu.py:152
 msgid "Add to queue"
 msgstr "Lisää jonoon"
 
-#: ../lollypop/pop_menu.py:157
+#: ../lollypop/pop_menu.py:158
 msgid "Remove from queue"
 msgstr "Poista jonosta"
 
-#: ../lollypop/pop_menu.py:240
+#: ../lollypop/pop_menu.py:169
+msgid "Do not stop after"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:174
+msgid "Stop after"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:266
 msgid "Add to others"
 msgstr "Lisää muihin"
 
-#: ../lollypop/pop_menu.py:255
+#: ../lollypop/pop_menu.py:281
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Poista kohteesta \"%s\""
 
-#: ../lollypop/pop_menu.py:261
+#: ../lollypop/pop_menu.py:287
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Lisää kohteeseen \"%s\""
 
-#: ../lollypop/pop_menu.py:350
+#: ../lollypop/pop_menu.py:376
 msgid "Lyrics"
 msgstr "Sanoitukset"
 
-#: ../lollypop/pop_menu.py:353 ../lollypop/pop_menu.py:469
-#: ../lollypop/pop_menu.py:493 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:379 ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:519 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Soittolistat"
 
-#: ../lollypop/pop_menu.py:401 ../lollypop/view_albums_list.py:135
+#: ../lollypop/pop_menu.py:427 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr "Tallenna kokoelmaan"
 
-#: ../lollypop/pop_menu.py:406
+#: ../lollypop/pop_menu.py:432
 msgid "Remove from collection"
 msgstr "Poista kokoelmasta"
 
-#: ../lollypop/pop_menu.py:415
+#: ../lollypop/pop_menu.py:441
 msgid "Modify information"
 msgstr "Muokkaa tietoja"
 
-#: ../lollypop/pop_menu.py:471 ../lollypop/pop_menu.py:495
+#: ../lollypop/pop_menu.py:497 ../lollypop/pop_menu.py:521
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: ../lollypop/pop_menu.py:490
+#: ../lollypop/pop_menu.py:516
 msgid "Playback"
 msgstr "Toisto"
 
-#: ../lollypop/pop_menu.py:513
+#: ../lollypop/pop_menu.py:539
 msgid "Remove track"
 msgstr "Poista kappale"
 
-#: ../lollypop/pop_menu.py:515
+#: ../lollypop/pop_menu.py:541
 msgid "Remove tracks"
 msgstr "Poista kappaleet"
 
-#: ../lollypop/pop_menu.py:555
+#: ../lollypop/pop_menu.py:581
 msgid "%Y-%m-%d"
 msgstr ""
 
@@ -1680,12 +1692,12 @@ msgstr "Yhteys TuneIniin ei onnistu…"
 msgid "No result…"
 msgstr "Ei tulosta…"
 
-#: ../lollypop/selectionlist.py:247 ../lollypop/window.py:547
+#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:547
 #: ../lollypop/window.py:548
 msgid "Current playlist"
 msgstr "Nykyinen soittolista"
 
-#: ../lollypop/selectionlist.py:415
+#: ../lollypop/selectionlist.py:416
 msgid "Right click to configure"
 msgstr "Napsauta oikealla määrittääksesi"
 
@@ -1772,6 +1784,14 @@ msgstr ""
 msgid "Missing youtube-dl command"
 msgstr ""
 
+#: ../lollypop/view_albums_box.py:50
+msgid "You need to enable Spotify "
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:51
+msgid "and YouTube in network settings"
+msgstr ""
+
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "Kokoelma"
@@ -1846,11 +1866,11 @@ msgstr "Uusi soittolista"
 msgid "Empty"
 msgstr "Tyhjä"
 
-#: ../lollypop/view_search.py:176
+#: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
 msgstr "<big>Ei tuloksia tälle haulle</big>"
 
-#: ../lollypop/view_search.py:183
+#: ../lollypop/view_search.py:180
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Etsi esittäjiä, albumeita ja kappaleita</big>"
 
@@ -2033,6 +2053,9 @@ msgstr[1] "%d kappaletta"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Käytetään Gnomen verkkotilien asetuksia"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Tšekin tasavalta"
 
 #~ msgid "Last.fm"
 #~ msgstr "Last.fm"
