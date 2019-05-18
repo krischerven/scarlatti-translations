@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 07:36+0200\n"
+"POT-Creation-Date: 2019-05-18 15:53+0200\n"
 "PO-Revision-Date: 2019-04-29 11:45+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -46,12 +46,12 @@ msgstr "Pozicio de fenestro (x kaj y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:246
 #: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:261
 #: ../data/org.gnome.Lollypop.gschema.xml:266
 #: ../data/org.gnome.Lollypop.gschema.xml:271
 #: ../data/org.gnome.Lollypop.gschema.xml:276
 #: ../data/org.gnome.Lollypop.gschema.xml:281
 #: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "INTERNAL"
 msgstr "INTERNA"
 
@@ -244,44 +244,48 @@ msgstr "Kvalito de JPG-albumkovrilo"
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+msgid "Equalizer enabled"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Smooth track transitions"
 msgstr "Glata transiro inter trakoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Only mix songs in party mode"
 msgstr "Miksi muzikaĵojn nur en festreĝimo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301
+#: ../data/org.gnome.Lollypop.gschema.xml:306
 msgid "Smoothing duration"
 msgstr "Daŭro de glatigado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306
+#: ../data/org.gnome.Lollypop.gschema.xml:311
 msgid "Spotify charts locale"
 msgstr "Lokaĵaro por diagramoj de Spotify"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:311
+#: ../data/org.gnome.Lollypop.gschema.xml:316
 msgid "Shuffle mode"
 msgstr "Hazarda reĝimo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:316
+#: ../data/org.gnome.Lollypop.gschema.xml:321
 msgid "Sidebar content"
 msgstr "Flankabreta enteno"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:321
+#: ../data/org.gnome.Lollypop.gschema.xml:326
 msgid "Possibilities for powermanagement options"
 msgstr "Opcioj por energiŝparado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:322
+#: ../data/org.gnome.Lollypop.gschema.xml:327
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Tiu ĉi opcio malebligas ekrankurtenon kaj dormetadon kiam Lollypop ludas."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:326
+#: ../data/org.gnome.Lollypop.gschema.xml:331
 msgid "Repeat"
 msgstr "Ripeti"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:331 ../data/SettingsAppearance.ui:221
+#: ../data/org.gnome.Lollypop.gschema.xml:336 ../data/SettingsAppearance.ui:221
 msgid "Order albums by"
 msgstr "Ordigi albumojn laŭ"
 
@@ -407,6 +411,10 @@ msgstr "Subteno de TuneIn"
 msgid "Bug fixes"
 msgstr ""
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "Better search"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Muzikludilo"
@@ -421,7 +429,7 @@ msgstr "Ludi/Paŭzigi"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:223
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:283
+#: ../lollypop/toolbar_end.py:281
 msgid "Next"
 msgstr "Sekva"
 
@@ -462,7 +470,7 @@ msgstr "_Pri"
 msgid "Turn on background data"
 msgstr "Ŝalti fonajn datumojn"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:375
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:376
 msgid "Show lyrics"
 msgstr "Montri kantotekston"
 
@@ -550,22 +558,19 @@ msgstr "AAC"
 msgid "FLAC"
 msgstr "FLAC"
 
-#: ../data/EqualizerWidget.ui:283
-msgid "Equalizer preset:"
-msgstr "Egaligilo antaŭagordo:"
-
 #: ../data/LyricsView.ui:75
 msgid "Translate"
 msgstr "Traduki"
 
 #: ../data/MiniPlayer.ui:202 ../data/PlaylistView.ui:45
-#: ../data/SearchView.ui:113 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:109
+#: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:84
+#: ../lollypop/controller_playback.py:102
+#: ../lollypop/controller_playback.py:129
 #: ../lollypop/helper_overlay_decade.py:49
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:172
+#: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:172
 msgid "Play"
 msgstr "Ludi"
 
@@ -590,7 +595,7 @@ msgstr "Hazarde ludi ludliston"
 msgid "Clear queue"
 msgstr "Vakigi atendovicon"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:433
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:429
 msgid "Queue"
 msgstr "Atendovico"
 
@@ -622,275 +627,275 @@ msgstr "Serĉi per TuneIn"
 msgid "Create a new playlist"
 msgstr "Krei novan ludliston"
 
-#: ../data/SearchView.ui:139
+#: ../data/SearchView.ui:141
 msgid "Search in your collection"
 msgstr "Serĉi en via kolekto"
 
-#: ../data/SearchView.ui:158
+#: ../data/SearchView.ui:160
 msgid "Search on the Web"
 msgstr "Serĉi la retumon"
 
-#: ../data/SearchView.ui:175
+#: ../data/SearchView.ui:177
 msgid "Spotify charts"
 msgstr "Diagramoj de Spotify"
 
-#: ../data/SearchView.ui:222
+#: ../data/SearchView.ui:224
 msgid "Global"
 msgstr "Ĝenerala"
 
-#: ../data/SearchView.ui:223
+#: ../data/SearchView.ui:225
 msgid "United States"
 msgstr "Usono"
 
-#: ../data/SearchView.ui:224
+#: ../data/SearchView.ui:226
 msgid "United Kingdom"
 msgstr "Britio"
 
-#: ../data/SearchView.ui:225
+#: ../data/SearchView.ui:227
 msgid "Andorra"
 msgstr "Andoro"
 
-#: ../data/SearchView.ui:226
+#: ../data/SearchView.ui:228
 msgid "Argentina"
 msgstr "Argentino"
 
-#: ../data/SearchView.ui:227
+#: ../data/SearchView.ui:229
 msgid "Austria"
 msgstr "Aŭstrio"
 
-#: ../data/SearchView.ui:228
+#: ../data/SearchView.ui:230
 msgid "Australia"
 msgstr "Aŭstralio"
 
-#: ../data/SearchView.ui:229
+#: ../data/SearchView.ui:231
 msgid "Belgium"
 msgstr "Belgio"
 
-#: ../data/SearchView.ui:230
+#: ../data/SearchView.ui:232
 msgid "Bulgaria"
 msgstr "Bulgario"
 
-#: ../data/SearchView.ui:231
+#: ../data/SearchView.ui:233
 msgid "Bolivia"
 msgstr "Bolivio"
 
-#: ../data/SearchView.ui:232
+#: ../data/SearchView.ui:234
 msgid "Brazil"
 msgstr "Brazilo"
 
-#: ../data/SearchView.ui:233
+#: ../data/SearchView.ui:235
 msgid "Canada"
 msgstr "Kanado"
 
-#: ../data/SearchView.ui:234
+#: ../data/SearchView.ui:236
 msgid "Switzerland"
 msgstr "Svislando"
 
-#: ../data/SearchView.ui:235
+#: ../data/SearchView.ui:237
 msgid "Chile"
 msgstr "Ĉilio"
 
-#: ../data/SearchView.ui:236
+#: ../data/SearchView.ui:238
 msgid "Colombia"
 msgstr "Kolombio"
 
-#: ../data/SearchView.ui:237
+#: ../data/SearchView.ui:239
 msgid "Costa Rica"
 msgstr "Kostariko"
 
-#: ../data/SearchView.ui:238
+#: ../data/SearchView.ui:240
 msgid "Cyprus"
 msgstr "Kipro"
 
-#: ../data/SearchView.ui:239
+#: ../data/SearchView.ui:241
 msgid "Czechia"
 msgstr ""
 
-#: ../data/SearchView.ui:240
+#: ../data/SearchView.ui:242
 msgid "Germany"
 msgstr "Germanio"
 
-#: ../data/SearchView.ui:241
+#: ../data/SearchView.ui:243
 msgid "Denmark"
 msgstr "Danio"
 
-#: ../data/SearchView.ui:242
+#: ../data/SearchView.ui:244
 msgid "Dominican Republic"
 msgstr "Domingo"
 
-#: ../data/SearchView.ui:243
+#: ../data/SearchView.ui:245
 msgid "Ecuador"
 msgstr "Ekvadoro"
 
-#: ../data/SearchView.ui:244
+#: ../data/SearchView.ui:246
 msgid "Estonia"
 msgstr "Estonio"
 
-#: ../data/SearchView.ui:245
+#: ../data/SearchView.ui:247
 msgid "Spain"
 msgstr "Hispanio"
 
-#: ../data/SearchView.ui:246
+#: ../data/SearchView.ui:248
 msgid "Finland"
 msgstr "Finnlando"
 
-#: ../data/SearchView.ui:247
+#: ../data/SearchView.ui:249
 msgid "France"
 msgstr "Francio"
 
-#: ../data/SearchView.ui:248
+#: ../data/SearchView.ui:250
 msgid "Greece"
 msgstr "Grekio"
 
-#: ../data/SearchView.ui:249
+#: ../data/SearchView.ui:251
 msgid "Guatemala"
 msgstr "Gvatemalo"
 
-#: ../data/SearchView.ui:250
+#: ../data/SearchView.ui:252
 msgid "Hong Kong"
 msgstr "Honkongo"
 
-#: ../data/SearchView.ui:251
+#: ../data/SearchView.ui:253
 msgid "Honduras"
 msgstr "Honduro"
 
-#: ../data/SearchView.ui:252
+#: ../data/SearchView.ui:254
 msgid "Hungary"
 msgstr "Hungario"
 
-#: ../data/SearchView.ui:253
+#: ../data/SearchView.ui:255
 msgid "Indonesia"
 msgstr "Indonezio"
 
-#: ../data/SearchView.ui:254
+#: ../data/SearchView.ui:256
 msgid "Ireland"
 msgstr "Irlando"
 
-#: ../data/SearchView.ui:255
+#: ../data/SearchView.ui:257
 msgid "Israel"
 msgstr "Israelo"
 
-#: ../data/SearchView.ui:256
+#: ../data/SearchView.ui:258
 msgid "Iceland"
 msgstr "Islando"
 
-#: ../data/SearchView.ui:257
+#: ../data/SearchView.ui:259
 msgid "Italy"
 msgstr "Italio"
 
-#: ../data/SearchView.ui:258
+#: ../data/SearchView.ui:260
 msgid "Japan"
 msgstr "Japanio"
 
-#: ../data/SearchView.ui:259
+#: ../data/SearchView.ui:261
 msgid "Lithuania"
 msgstr "Litovio"
 
-#: ../data/SearchView.ui:260
+#: ../data/SearchView.ui:262
 msgid "Luxembourg"
 msgstr "Luksemburgio"
 
-#: ../data/SearchView.ui:261
+#: ../data/SearchView.ui:263
 msgid "Latvia"
 msgstr "Latvio"
 
-#: ../data/SearchView.ui:262
+#: ../data/SearchView.ui:264
 msgid "Monaco"
 msgstr "Monako"
 
-#: ../data/SearchView.ui:263
+#: ../data/SearchView.ui:265
 msgid "Malta"
 msgstr "Malto"
 
-#: ../data/SearchView.ui:264
+#: ../data/SearchView.ui:266
 msgid "Mexico"
 msgstr "Meksiko"
 
-#: ../data/SearchView.ui:265
+#: ../data/SearchView.ui:267
 msgid "Malaysia"
 msgstr "Malajzio"
 
-#: ../data/SearchView.ui:266
+#: ../data/SearchView.ui:268
 msgid "Nicaragua"
 msgstr "Nikaragvo"
 
-#: ../data/SearchView.ui:267
+#: ../data/SearchView.ui:269
 msgid "Netherlands"
 msgstr "Nederlando"
 
-#: ../data/SearchView.ui:268
+#: ../data/SearchView.ui:270
 msgid "Norway"
 msgstr "Norvegio"
 
-#: ../data/SearchView.ui:269
+#: ../data/SearchView.ui:271
 msgid "New Zealand"
 msgstr "Nov-Zelando"
 
-#: ../data/SearchView.ui:270
+#: ../data/SearchView.ui:272
 msgid "Panama"
 msgstr "Panamo"
 
-#: ../data/SearchView.ui:271
+#: ../data/SearchView.ui:273
 msgid "Peru"
 msgstr "Peruo"
 
-#: ../data/SearchView.ui:272
+#: ../data/SearchView.ui:274
 msgid "Philippines"
 msgstr "Filipinoj"
 
-#: ../data/SearchView.ui:273
+#: ../data/SearchView.ui:275
 msgid "Poland"
 msgstr "Pollando"
 
-#: ../data/SearchView.ui:274
+#: ../data/SearchView.ui:276
 msgid "Portugal"
 msgstr "Portugalio"
 
-#: ../data/SearchView.ui:275
+#: ../data/SearchView.ui:277
 msgid "Paraguay"
 msgstr "Paragvajo"
 
-#: ../data/SearchView.ui:276
+#: ../data/SearchView.ui:278
 msgid "Romania"
 msgstr "Rumanio"
 
-#: ../data/SearchView.ui:277
+#: ../data/SearchView.ui:279
 msgid "Sweden"
 msgstr "Svedio"
 
-#: ../data/SearchView.ui:278
+#: ../data/SearchView.ui:280
 msgid "Singapore"
 msgstr "Singapuro"
 
-#: ../data/SearchView.ui:279
+#: ../data/SearchView.ui:281
 msgid "Slovakia"
 msgstr "Slovakio"
 
-#: ../data/SearchView.ui:280
+#: ../data/SearchView.ui:282
 msgid "El Salvador"
 msgstr "Salvadoro"
 
-#: ../data/SearchView.ui:281
+#: ../data/SearchView.ui:283
 msgid "Thailand"
 msgstr "Tajlando"
 
-#: ../data/SearchView.ui:282
+#: ../data/SearchView.ui:284
 msgid "Turkey"
 msgstr "Turkio"
 
-#: ../data/SearchView.ui:283
+#: ../data/SearchView.ui:285
 msgid "Taiwan"
 msgstr "Tajvano"
 
-#: ../data/SearchView.ui:284
+#: ../data/SearchView.ui:286
 msgid "Uruguay"
 msgstr "Urugvajo"
 
-#: ../data/SearchView.ui:285
+#: ../data/SearchView.ui:287
 msgid "Viet Nam"
 msgstr "Vjetnamio"
 
-#: ../data/SearchView.ui:286
+#: ../data/SearchView.ui:288
 msgid "South Africa"
 msgstr "Sud-Afriko"
 
@@ -919,8 +924,8 @@ msgid "Show compilations"
 msgstr "Montri kompilojn"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:492
-#: ../lollypop/pop_menu.py:514
+#: ../lollypop/pop_menu.py:381 ../lollypop/pop_menu.py:493
+#: ../lollypop/pop_menu.py:515
 msgid "Artist"
 msgstr "Artisto"
 
@@ -1163,7 +1168,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
-#: ../lollypop/window.py:544 ../lollypop/window.py:545
+#: ../lollypop/window.py:405 ../lollypop/window.py:406
 msgid "Search"
 msgstr "Serĉi"
 
@@ -1427,8 +1432,8 @@ msgstr "Reen iri"
 msgid "Go home"
 msgstr "Iri hejmen"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:470
-#: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:600
+#: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:402
 #: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
 #: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
@@ -1437,7 +1442,7 @@ msgstr "Iri hejmen"
 msgid "Unknown"
 msgstr "Nekonata"
 
-#: ../lollypop/collectionscanner.py:311
+#: ../lollypop/collectionscanner.py:441
 msgid "Scan disabled, missing collection"
 msgstr "Skanado malebligita, mankas kolekto"
 
@@ -1465,7 +1470,8 @@ msgstr "Novaj trakoj disponeblas"
 msgid "Refresh"
 msgstr "Aktualigi"
 
-#: ../lollypop/controller_playback.py:88 ../lollypop/controller_playback.py:112
+#: ../lollypop/controller_playback.py:100
+#: ../lollypop/controller_playback.py:132
 msgid "Pause"
 msgstr "Paŭzigi"
 
@@ -1506,7 +1512,7 @@ msgstr "Reto"
 msgid "Configure Web services"
 msgstr "Agordi retservojn"
 
-#: ../lollypop/fullscreen.py:232 ../lollypop/toolbar_info.py:125
+#: ../lollypop/fullscreen.py:269 ../lollypop/toolbar_info.py:125
 #: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
 #: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
 msgid "You are using a broken cursor theme!"
@@ -1625,68 +1631,68 @@ msgstr "Aldoni al atendovico"
 msgid "Remove from queue"
 msgstr "Forigi el atendovico"
 
-#: ../lollypop/pop_menu.py:169
+#: ../lollypop/pop_menu.py:170
 msgid "Do not stop after"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:174
+#: ../lollypop/pop_menu.py:175
 msgid "Stop after"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:266
+#: ../lollypop/pop_menu.py:267
 msgid "Add to others"
 msgstr "Aldoni al aliaj"
 
-#: ../lollypop/pop_menu.py:281
+#: ../lollypop/pop_menu.py:282
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Forigi el \"%s\""
 
-#: ../lollypop/pop_menu.py:287
+#: ../lollypop/pop_menu.py:288
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Aldoni al \"%s\""
 
-#: ../lollypop/pop_menu.py:376
+#: ../lollypop/pop_menu.py:377
 msgid "Lyrics"
 msgstr "Kantoteksto"
 
-#: ../lollypop/pop_menu.py:379 ../lollypop/pop_menu.py:495
-#: ../lollypop/pop_menu.py:519 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:496
+#: ../lollypop/pop_menu.py:520 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Ludlistoj"
 
-#: ../lollypop/pop_menu.py:427 ../lollypop/view_albums_list.py:135
+#: ../lollypop/pop_menu.py:428 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr "Enkolekti"
 
-#: ../lollypop/pop_menu.py:432
+#: ../lollypop/pop_menu.py:433
 msgid "Remove from collection"
 msgstr "Forigi de kolekto"
 
-#: ../lollypop/pop_menu.py:441
+#: ../lollypop/pop_menu.py:442
 msgid "Modify information"
 msgstr "Aliigi la informojn"
 
-#: ../lollypop/pop_menu.py:497 ../lollypop/pop_menu.py:521
+#: ../lollypop/pop_menu.py:498 ../lollypop/pop_menu.py:522
 msgid "Edit"
 msgstr "Redakti"
 
-#: ../lollypop/pop_menu.py:516
+#: ../lollypop/pop_menu.py:517
 msgid "Playback"
 msgstr "Ludo"
 
-#: ../lollypop/pop_menu.py:539
+#: ../lollypop/pop_menu.py:540
 msgid "Remove track"
 msgstr "Forigi pecon"
 
-#: ../lollypop/pop_menu.py:541
+#: ../lollypop/pop_menu.py:542
 msgid "Remove tracks"
 msgstr "Forigi pecojn"
 
-#: ../lollypop/pop_menu.py:581
+#: ../lollypop/pop_menu.py:582
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
@@ -1710,8 +1716,8 @@ msgstr "Maleblas konekti al TuneIn…"
 msgid "No result…"
 msgstr "Neniu rezulto…"
 
-#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:547
-#: ../lollypop/window.py:548
+#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:408
+#: ../lollypop/window.py:409
 msgid "Current playlist"
 msgstr "Nunludanta ludlisto"
 
@@ -1763,15 +1769,15 @@ msgstr "USB-diskoj"
 msgid "Unplayed"
 msgstr "Neludita"
 
-#: ../lollypop/toolbar_end.py:279
+#: ../lollypop/toolbar_end.py:277
 msgid "All genres"
 msgstr "Ĉiuj ĝenroj"
 
-#: ../lollypop/toolbar_end.py:435
+#: ../lollypop/toolbar_end.py:431
 msgid "Playing playlists"
 msgstr "Ludantaj ludlistoj"
 
-#: ../lollypop/toolbar_end.py:437 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:433 ../lollypop/view_current_albums.py:58
 msgid "Playing albums"
 msgstr "Ludantaj albumoj"
 
@@ -1798,15 +1804,19 @@ msgstr "La la The the"
 msgid "Others albums from"
 msgstr "Aliaj albumoj de"
 
-#: ../lollypop/view_albums_box.py:46 ../lollypop/view_albums_list.py:488
+#: ../lollypop/view_albums_box.py:47
+msgid "Network not available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:488
 msgid "Missing youtube-dl command"
 msgstr "Mankas komando de youtube-dl"
 
-#: ../lollypop/view_albums_box.py:50
+#: ../lollypop/view_albums_box.py:54
 msgid "You need to enable Spotify "
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:51
+#: ../lollypop/view_albums_box.py:55
 msgid "and YouTube in network settings"
 msgstr ""
 
@@ -1892,7 +1902,7 @@ msgstr "<big>Neniuj serĉrezultoj</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Serĉi artistojn, albumojn kaj trakojn</big>"
 
-#: ../lollypop/view_tracks.py:435
+#: ../lollypop/view_tracks.py:437
 #, python-format
 msgid "Disc %s"
 msgstr "Disko %s"
@@ -1913,8 +1923,8 @@ msgstr "Ŝanĝi la albumkovrilon"
 msgid "Albums"
 msgstr "Albumoj"
 
-#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:91
-#: ../lollypop/widgets_equalizer.py:125
+#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
+#: ../lollypop/widgets_equalizer.py:147
 msgid "Custom"
 msgstr "Propra"
 
@@ -2071,6 +2081,9 @@ msgstr[1] "%d pecoj"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Uzante \"GNOME Retaj Kontoj\" agordojn"
+
+#~ msgid "Equalizer preset:"
+#~ msgstr "Egaligilo antaŭagordo:"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Ĉeĥio"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 07:36+0200\n"
+"POT-Creation-Date: 2019-05-18 15:53+0200\n"
 "PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -48,12 +48,12 @@ msgstr "Vensterpositie (x en y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:241
 #: ../data/org.gnome.Lollypop.gschema.xml:246
 #: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:261
 #: ../data/org.gnome.Lollypop.gschema.xml:266
 #: ../data/org.gnome.Lollypop.gschema.xml:271
 #: ../data/org.gnome.Lollypop.gschema.xml:276
 #: ../data/org.gnome.Lollypop.gschema.xml:281
 #: ../data/org.gnome.Lollypop.gschema.xml:286
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -247,45 +247,49 @@ msgstr "JPG-albumhoeskwaliteit"
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+msgid "Equalizer enabled"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Smooth track transitions"
 msgstr "Vloeiende overgang tussen nummers"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Only mix songs in party mode"
 msgstr "Nummers enkel mengen in feestmodus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301
+#: ../data/org.gnome.Lollypop.gschema.xml:306
 msgid "Smoothing duration"
 msgstr "Overgangsduur"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306
+#: ../data/org.gnome.Lollypop.gschema.xml:311
 msgid "Spotify charts locale"
 msgstr "Taal voor Spotify-ranglijsten"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:311
+#: ../data/org.gnome.Lollypop.gschema.xml:316
 msgid "Shuffle mode"
 msgstr "Willekeurige modus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:316
+#: ../data/org.gnome.Lollypop.gschema.xml:321
 msgid "Sidebar content"
 msgstr "Inhoud van zijbalk"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:321
+#: ../data/org.gnome.Lollypop.gschema.xml:326
 msgid "Possibilities for powermanagement options"
 msgstr "Mogelijkheden tot energiebesparing"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:322
+#: ../data/org.gnome.Lollypop.gschema.xml:327
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Deze optie schakelt de schermbeveiliging of pauzestand uit zolang Lollypop "
 "bezig is met afspelen."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:326
+#: ../data/org.gnome.Lollypop.gschema.xml:331
 msgid "Repeat"
 msgstr "Herhalen"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:331 ../data/SettingsAppearance.ui:221
+#: ../data/org.gnome.Lollypop.gschema.xml:336 ../data/SettingsAppearance.ui:221
 msgid "Order albums by"
 msgstr "Albums rangschikken op"
 
@@ -412,6 +416,10 @@ msgstr "TuneIn-ondersteuning"
 msgid "Bug fixes"
 msgstr ""
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "Better search"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Muziekspeler"
@@ -426,7 +434,7 @@ msgstr "Afspelen/Pauzeren"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:223
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:283
+#: ../lollypop/toolbar_end.py:281
 msgid "Next"
 msgstr "Volgende"
 
@@ -467,7 +475,7 @@ msgstr "_Over"
 msgid "Turn on background data"
 msgstr "Achtergrondgegevens inschakelen"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:375
+#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:376
 msgid "Show lyrics"
 msgstr "Songtekst tonen"
 
@@ -555,22 +563,19 @@ msgstr "AAC"
 msgid "FLAC"
 msgstr "FLAC"
 
-#: ../data/EqualizerWidget.ui:283
-msgid "Equalizer preset:"
-msgstr "Equalizer-voorinstelling:"
-
 #: ../data/LyricsView.ui:75
 msgid "Translate"
 msgstr "Vertalen"
 
 #: ../data/MiniPlayer.ui:202 ../data/PlaylistView.ui:45
-#: ../data/SearchView.ui:113 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controller_playback.py:90 ../lollypop/controller_playback.py:109
+#: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:84
+#: ../lollypop/controller_playback.py:102
+#: ../lollypop/controller_playback.py:129
 #: ../lollypop/helper_overlay_decade.py:49
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:444 ../lollypop/widgets_album_simple.py:172
+#: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:172
 msgid "Play"
 msgstr "Afspelen"
 
@@ -595,7 +600,7 @@ msgstr "Afspeellijst willekeurig afspelen"
 msgid "Clear queue"
 msgstr "Wachtrij wissen"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:433
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:429
 msgid "Queue"
 msgstr "Wachtrij"
 
@@ -627,275 +632,275 @@ msgstr "Zoeken op TuneIn"
 msgid "Create a new playlist"
 msgstr "Nieuwe afspeellijst creëren"
 
-#: ../data/SearchView.ui:139
+#: ../data/SearchView.ui:141
 msgid "Search in your collection"
 msgstr "Zoeken in je verzameling"
 
-#: ../data/SearchView.ui:158
+#: ../data/SearchView.ui:160
 msgid "Search on the Web"
 msgstr "Zoeken op het web"
 
-#: ../data/SearchView.ui:175
+#: ../data/SearchView.ui:177
 msgid "Spotify charts"
 msgstr "Spotify-ranglijsten"
 
-#: ../data/SearchView.ui:222
+#: ../data/SearchView.ui:224
 msgid "Global"
 msgstr "Wereldwijd"
 
-#: ../data/SearchView.ui:223
+#: ../data/SearchView.ui:225
 msgid "United States"
 msgstr "Verenigde Staten"
 
-#: ../data/SearchView.ui:224
+#: ../data/SearchView.ui:226
 msgid "United Kingdom"
 msgstr "Verenigd Koninkrijk"
 
-#: ../data/SearchView.ui:225
+#: ../data/SearchView.ui:227
 msgid "Andorra"
 msgstr "Andorra"
 
-#: ../data/SearchView.ui:226
+#: ../data/SearchView.ui:228
 msgid "Argentina"
 msgstr "Argentinië"
 
-#: ../data/SearchView.ui:227
+#: ../data/SearchView.ui:229
 msgid "Austria"
 msgstr "Oostenrijk"
 
-#: ../data/SearchView.ui:228
+#: ../data/SearchView.ui:230
 msgid "Australia"
 msgstr "Australië"
 
-#: ../data/SearchView.ui:229
+#: ../data/SearchView.ui:231
 msgid "Belgium"
 msgstr "België"
 
-#: ../data/SearchView.ui:230
+#: ../data/SearchView.ui:232
 msgid "Bulgaria"
 msgstr "Bulgarije"
 
-#: ../data/SearchView.ui:231
+#: ../data/SearchView.ui:233
 msgid "Bolivia"
 msgstr "Bolivië"
 
-#: ../data/SearchView.ui:232
+#: ../data/SearchView.ui:234
 msgid "Brazil"
 msgstr "Brazilië"
 
-#: ../data/SearchView.ui:233
+#: ../data/SearchView.ui:235
 msgid "Canada"
 msgstr "Canada"
 
-#: ../data/SearchView.ui:234
+#: ../data/SearchView.ui:236
 msgid "Switzerland"
 msgstr "Zwitserland"
 
-#: ../data/SearchView.ui:235
+#: ../data/SearchView.ui:237
 msgid "Chile"
 msgstr "Chili"
 
-#: ../data/SearchView.ui:236
+#: ../data/SearchView.ui:238
 msgid "Colombia"
 msgstr "Colombia"
 
-#: ../data/SearchView.ui:237
+#: ../data/SearchView.ui:239
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: ../data/SearchView.ui:238
+#: ../data/SearchView.ui:240
 msgid "Cyprus"
 msgstr "Cyprus"
 
-#: ../data/SearchView.ui:239
+#: ../data/SearchView.ui:241
 msgid "Czechia"
 msgstr ""
 
-#: ../data/SearchView.ui:240
+#: ../data/SearchView.ui:242
 msgid "Germany"
 msgstr "Duitsland"
 
-#: ../data/SearchView.ui:241
+#: ../data/SearchView.ui:243
 msgid "Denmark"
 msgstr "Denemarken"
 
-#: ../data/SearchView.ui:242
+#: ../data/SearchView.ui:244
 msgid "Dominican Republic"
 msgstr "Dominicaanse Republiek"
 
-#: ../data/SearchView.ui:243
+#: ../data/SearchView.ui:245
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: ../data/SearchView.ui:244
+#: ../data/SearchView.ui:246
 msgid "Estonia"
 msgstr "Estland"
 
-#: ../data/SearchView.ui:245
+#: ../data/SearchView.ui:247
 msgid "Spain"
 msgstr "Spanje"
 
-#: ../data/SearchView.ui:246
+#: ../data/SearchView.ui:248
 msgid "Finland"
 msgstr "Finland"
 
-#: ../data/SearchView.ui:247
+#: ../data/SearchView.ui:249
 msgid "France"
 msgstr "Frankrijk"
 
-#: ../data/SearchView.ui:248
+#: ../data/SearchView.ui:250
 msgid "Greece"
 msgstr "Griekenland"
 
-#: ../data/SearchView.ui:249
+#: ../data/SearchView.ui:251
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: ../data/SearchView.ui:250
+#: ../data/SearchView.ui:252
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: ../data/SearchView.ui:251
+#: ../data/SearchView.ui:253
 msgid "Honduras"
 msgstr "Honduras"
 
-#: ../data/SearchView.ui:252
+#: ../data/SearchView.ui:254
 msgid "Hungary"
 msgstr "Hongarije"
 
-#: ../data/SearchView.ui:253
+#: ../data/SearchView.ui:255
 msgid "Indonesia"
 msgstr "Indonesië"
 
-#: ../data/SearchView.ui:254
+#: ../data/SearchView.ui:256
 msgid "Ireland"
 msgstr "Ierland"
 
-#: ../data/SearchView.ui:255
+#: ../data/SearchView.ui:257
 msgid "Israel"
 msgstr "Israël"
 
-#: ../data/SearchView.ui:256
+#: ../data/SearchView.ui:258
 msgid "Iceland"
 msgstr "IJsland"
 
-#: ../data/SearchView.ui:257
+#: ../data/SearchView.ui:259
 msgid "Italy"
 msgstr "Italië"
 
-#: ../data/SearchView.ui:258
+#: ../data/SearchView.ui:260
 msgid "Japan"
 msgstr "Japan"
 
-#: ../data/SearchView.ui:259
+#: ../data/SearchView.ui:261
 msgid "Lithuania"
 msgstr "Litouwen"
 
-#: ../data/SearchView.ui:260
+#: ../data/SearchView.ui:262
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#: ../data/SearchView.ui:261
+#: ../data/SearchView.ui:263
 msgid "Latvia"
 msgstr "Letland"
 
-#: ../data/SearchView.ui:262
+#: ../data/SearchView.ui:264
 msgid "Monaco"
 msgstr "Monaco"
 
-#: ../data/SearchView.ui:263
+#: ../data/SearchView.ui:265
 msgid "Malta"
 msgstr "Malta"
 
-#: ../data/SearchView.ui:264
+#: ../data/SearchView.ui:266
 msgid "Mexico"
 msgstr "Mexico"
 
-#: ../data/SearchView.ui:265
+#: ../data/SearchView.ui:267
 msgid "Malaysia"
 msgstr "Maleisië"
 
-#: ../data/SearchView.ui:266
+#: ../data/SearchView.ui:268
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: ../data/SearchView.ui:267
+#: ../data/SearchView.ui:269
 msgid "Netherlands"
 msgstr "Nederland"
 
-#: ../data/SearchView.ui:268
+#: ../data/SearchView.ui:270
 msgid "Norway"
 msgstr "Noorwegen"
 
-#: ../data/SearchView.ui:269
+#: ../data/SearchView.ui:271
 msgid "New Zealand"
 msgstr "Nieuw-Zeeland"
 
-#: ../data/SearchView.ui:270
+#: ../data/SearchView.ui:272
 msgid "Panama"
 msgstr "Panama"
 
-#: ../data/SearchView.ui:271
+#: ../data/SearchView.ui:273
 msgid "Peru"
 msgstr "Peru"
 
-#: ../data/SearchView.ui:272
+#: ../data/SearchView.ui:274
 msgid "Philippines"
 msgstr "Filipijnen"
 
-#: ../data/SearchView.ui:273
+#: ../data/SearchView.ui:275
 msgid "Poland"
 msgstr "Polen"
 
-#: ../data/SearchView.ui:274
+#: ../data/SearchView.ui:276
 msgid "Portugal"
 msgstr "Portugal"
 
-#: ../data/SearchView.ui:275
+#: ../data/SearchView.ui:277
 msgid "Paraguay"
 msgstr "Paraguay"
 
-#: ../data/SearchView.ui:276
+#: ../data/SearchView.ui:278
 msgid "Romania"
 msgstr "Roemenië"
 
-#: ../data/SearchView.ui:277
+#: ../data/SearchView.ui:279
 msgid "Sweden"
 msgstr "Zweden"
 
-#: ../data/SearchView.ui:278
+#: ../data/SearchView.ui:280
 msgid "Singapore"
 msgstr "Singapore"
 
-#: ../data/SearchView.ui:279
+#: ../data/SearchView.ui:281
 msgid "Slovakia"
 msgstr "Slovakije"
 
-#: ../data/SearchView.ui:280
+#: ../data/SearchView.ui:282
 msgid "El Salvador"
 msgstr "El Salvador"
 
-#: ../data/SearchView.ui:281
+#: ../data/SearchView.ui:283
 msgid "Thailand"
 msgstr "Thailand"
 
-#: ../data/SearchView.ui:282
+#: ../data/SearchView.ui:284
 msgid "Turkey"
 msgstr "Turkije"
 
-#: ../data/SearchView.ui:283
+#: ../data/SearchView.ui:285
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: ../data/SearchView.ui:284
+#: ../data/SearchView.ui:286
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: ../data/SearchView.ui:285
+#: ../data/SearchView.ui:287
 msgid "Viet Nam"
 msgstr "Vietnam"
 
-#: ../data/SearchView.ui:286
+#: ../data/SearchView.ui:288
 msgid "South Africa"
 msgstr "Zuid-Afrika"
 
@@ -924,8 +929,8 @@ msgid "Show compilations"
 msgstr "Compilaties tonen"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:492
-#: ../lollypop/pop_menu.py:514
+#: ../lollypop/pop_menu.py:381 ../lollypop/pop_menu.py:493
+#: ../lollypop/pop_menu.py:515
 msgid "Artist"
 msgstr "Artiest"
 
@@ -1170,7 +1175,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
 #: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
-#: ../lollypop/window.py:544 ../lollypop/window.py:545
+#: ../lollypop/window.py:405 ../lollypop/window.py:406
 msgid "Search"
 msgstr "Zoeken"
 
@@ -1434,8 +1439,8 @@ msgstr "Terug"
 msgid "Go home"
 msgstr "Terug naar beginscherm"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:470
-#: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:383
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:600
+#: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:402
 #: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
 #: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
@@ -1444,7 +1449,7 @@ msgstr "Terug naar beginscherm"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: ../lollypop/collectionscanner.py:311
+#: ../lollypop/collectionscanner.py:441
 msgid "Scan disabled, missing collection"
 msgstr "Scannen uitgeschakeld, verzameling ontbreekt"
 
@@ -1472,7 +1477,8 @@ msgstr "Nieuwe nummers beschikbaar"
 msgid "Refresh"
 msgstr "Vernieuwen"
 
-#: ../lollypop/controller_playback.py:88 ../lollypop/controller_playback.py:112
+#: ../lollypop/controller_playback.py:100
+#: ../lollypop/controller_playback.py:132
 msgid "Pause"
 msgstr "Pauzeren"
 
@@ -1513,7 +1519,7 @@ msgstr "Internet"
 msgid "Configure Web services"
 msgstr "Internetdiensten instellen"
 
-#: ../lollypop/fullscreen.py:232 ../lollypop/toolbar_info.py:125
+#: ../lollypop/fullscreen.py:269 ../lollypop/toolbar_info.py:125
 #: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
 #: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
 msgid "You are using a broken cursor theme!"
@@ -1632,68 +1638,68 @@ msgstr "Toevoegen aan wachtrij"
 msgid "Remove from queue"
 msgstr "Verwijderen uit wachtrij"
 
-#: ../lollypop/pop_menu.py:169
+#: ../lollypop/pop_menu.py:170
 msgid "Do not stop after"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:174
+#: ../lollypop/pop_menu.py:175
 msgid "Stop after"
 msgstr ""
 
-#: ../lollypop/pop_menu.py:266
+#: ../lollypop/pop_menu.py:267
 msgid "Add to others"
 msgstr "Toevoegen aan andere"
 
-#: ../lollypop/pop_menu.py:281
+#: ../lollypop/pop_menu.py:282
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Verwijderen uit ‘%s’"
 
-#: ../lollypop/pop_menu.py:287
+#: ../lollypop/pop_menu.py:288
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Toevoegen aan ‘%s’"
 
-#: ../lollypop/pop_menu.py:376
+#: ../lollypop/pop_menu.py:377
 msgid "Lyrics"
 msgstr "Songtekst"
 
-#: ../lollypop/pop_menu.py:379 ../lollypop/pop_menu.py:495
-#: ../lollypop/pop_menu.py:519 ../lollypop/shown.py:39
+#: ../lollypop/pop_menu.py:380 ../lollypop/pop_menu.py:496
+#: ../lollypop/pop_menu.py:520 ../lollypop/shown.py:39
 #: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
 #: ../lollypop/widgets_device.py:96
 msgid "Playlists"
 msgstr "Afspeellijsten"
 
-#: ../lollypop/pop_menu.py:427 ../lollypop/view_albums_list.py:135
+#: ../lollypop/pop_menu.py:428 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr "Opslaan in verzameling"
 
-#: ../lollypop/pop_menu.py:432
+#: ../lollypop/pop_menu.py:433
 msgid "Remove from collection"
 msgstr "Verwijderen uit verzameling"
 
-#: ../lollypop/pop_menu.py:441
+#: ../lollypop/pop_menu.py:442
 msgid "Modify information"
 msgstr "Informatie bewerken"
 
-#: ../lollypop/pop_menu.py:497 ../lollypop/pop_menu.py:521
+#: ../lollypop/pop_menu.py:498 ../lollypop/pop_menu.py:522
 msgid "Edit"
 msgstr "Bewerken"
 
-#: ../lollypop/pop_menu.py:516
+#: ../lollypop/pop_menu.py:517
 msgid "Playback"
 msgstr "Afspelen"
 
-#: ../lollypop/pop_menu.py:539
+#: ../lollypop/pop_menu.py:540
 msgid "Remove track"
 msgstr "Nummer verwijderen"
 
-#: ../lollypop/pop_menu.py:541
+#: ../lollypop/pop_menu.py:542
 msgid "Remove tracks"
 msgstr "Nummers verwijderen"
 
-#: ../lollypop/pop_menu.py:581
+#: ../lollypop/pop_menu.py:582
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
@@ -1717,8 +1723,8 @@ msgstr "Kan geen verbinding maken met TuneIn…"
 msgid "No result…"
 msgstr "Geen resultaten…"
 
-#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:547
-#: ../lollypop/window.py:548
+#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:408
+#: ../lollypop/window.py:409
 msgid "Current playlist"
 msgstr "Huidige afspeellijst"
 
@@ -1770,15 +1776,15 @@ msgstr "USB-schijven"
 msgid "Unplayed"
 msgstr "Niet afgespeeld"
 
-#: ../lollypop/toolbar_end.py:279
+#: ../lollypop/toolbar_end.py:277
 msgid "All genres"
 msgstr "Alle genres"
 
-#: ../lollypop/toolbar_end.py:435
+#: ../lollypop/toolbar_end.py:431
 msgid "Playing playlists"
 msgstr "Afspelende afspeellijsten"
 
-#: ../lollypop/toolbar_end.py:437 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:433 ../lollypop/view_current_albums.py:58
 msgid "Playing albums"
 msgstr "Afspelende albums"
 
@@ -1805,15 +1811,19 @@ msgstr "The the De de Het het"
 msgid "Others albums from"
 msgstr "Andere albums van"
 
-#: ../lollypop/view_albums_box.py:46 ../lollypop/view_albums_list.py:488
+#: ../lollypop/view_albums_box.py:47
+msgid "Network not available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:488
 msgid "Missing youtube-dl command"
 msgstr "Opdracht youtube-dl ontbreekt"
 
-#: ../lollypop/view_albums_box.py:50
+#: ../lollypop/view_albums_box.py:54
 msgid "You need to enable Spotify "
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:51
+#: ../lollypop/view_albums_box.py:55
 msgid "and YouTube in network settings"
 msgstr ""
 
@@ -1899,7 +1909,7 @@ msgstr "<big>Geen zoekresultaten</big>"
 msgid "<big>Search for artists, albums and tracks</big>"
 msgstr "<big>Zoek naar artiesten, albums en nummers</big>"
 
-#: ../lollypop/view_tracks.py:435
+#: ../lollypop/view_tracks.py:437
 #, python-format
 msgid "Disc %s"
 msgstr "Schijf %s"
@@ -1920,8 +1930,8 @@ msgstr "Albumhoes wijzigen"
 msgid "Albums"
 msgstr "Albums"
 
-#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:91
-#: ../lollypop/widgets_equalizer.py:125
+#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
+#: ../lollypop/widgets_equalizer.py:147
 msgid "Custom"
 msgstr "Aangepast"
 
@@ -2078,6 +2088,9 @@ msgstr[1] "%d nummers"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Gebruikmakend van de instellingen van \"GNOME Online Accounts\""
+
+#~ msgid "Equalizer preset:"
+#~ msgstr "Equalizer-voorinstelling:"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Tsjechië"
