@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 07:36+0200\n"
-"PO-Revision-Date: 2019-04-23 19:48+0000\n"
+"PO-Revision-Date: 2019-05-18 13:52+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "it/>\n"
@@ -358,8 +358,7 @@ msgstr "Cerca nella collezione per artista, album e titolo"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Artist bio, lyrics: Get artist and track information from the web"
 msgstr ""
-"Biografia artista, testo delle canzoni: Ottieni informazioni su artista e "
-"traccia dal web"
+"Biografia artista, testo: Ottieni informazioni su artista e traccia dal web"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:17
 msgid "Party mode: No awkward silences, let Lollypop choose music for you"
@@ -411,7 +410,7 @@ msgstr "Supporto TuneIn"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:32
 msgid "Bug fixes"
-msgstr ""
+msgstr "Correzioni"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -710,7 +709,7 @@ msgstr "Cipro"
 
 #: ../data/SearchView.ui:239
 msgid "Czechia"
-msgstr ""
+msgstr "Repubblica Ceca"
 
 #: ../data/SearchView.ui:240
 msgid "Germany"
@@ -1004,19 +1003,23 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "Spotify\n"
-"<span size=\"x-small\" alpha=\"70%\">Cerca brani, immagini, …</span>"
+"<span size=\"x-small\" alpha=\"70%\">Cerca tracce, immagini, …</span>"
 
 #: ../data/SettingsBehaviour.ui:469
 msgid ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
 msgstr ""
+"YouTube\n"
+"<span size=\"x-small\" alpha=\"70%\">Riproduzione tracce</span>"
 
 #: ../data/SettingsBehaviour.ui:483
 msgid ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"Google\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
 
 #: ../data/SettingsBehaviour.ui:497
 msgid ""
@@ -1024,36 +1027,49 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
 "span>"
 msgstr ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Biografia artista, ricerca immagini, "
+"…</span>"
 
 #: ../data/SettingsBehaviour.ui:511
 msgid ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
 msgstr ""
+"Wikia\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca testi</span>"
 
 #: ../data/SettingsBehaviour.ui:609
 msgid ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
 msgstr ""
+"Wikipedia\n"
+"<span size=\"x-small\" alpha=\"70%\">Biografia artista</span>"
 
 #: ../data/SettingsBehaviour.ui:637
 msgid ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
 msgstr ""
+"Tunein\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca radio</span>"
 
 #: ../data/SettingsBehaviour.ui:665
 msgid ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
 msgstr ""
+"MusicBrainz\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, informazioni, …</span>"
 
 #: ../data/SettingsBehaviour.ui:693
 msgid ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
 msgstr ""
+"Genius\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca testi</span>"
 
 #: ../data/SettingsBehaviour.ui:731
 msgid "Control your privacy by selecting allowed services"
@@ -1064,12 +1080,16 @@ msgid ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"ITunes\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
 
 #: ../data/SettingsBehaviour.ui:766
 msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
 
 #: ../data/SettingsBehaviour.ui:832
 msgid "Only in party mode"
@@ -1612,11 +1632,11 @@ msgstr "Rimuovi dalla coda"
 
 #: ../lollypop/pop_menu.py:169
 msgid "Do not stop after"
-msgstr ""
+msgstr "Non fermare dopo"
 
 #: ../lollypop/pop_menu.py:174
 msgid "Stop after"
-msgstr ""
+msgstr "Ferma dopo"
 
 #: ../lollypop/pop_menu.py:266
 msgid "Add to others"
@@ -1789,11 +1809,11 @@ msgstr "Comando youtube-dl non presente"
 
 #: ../lollypop/view_albums_box.py:50
 msgid "You need to enable Spotify "
-msgstr ""
+msgstr "Devi abilitare Spotify "
 
 #: ../lollypop/view_albums_box.py:51
 msgid "and YouTube in network settings"
-msgstr ""
+msgstr "e YouTube nelle impostazioni di rete"
 
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
@@ -1877,7 +1897,7 @@ msgstr "<big>Nessun risultato per questa ricerca</big>"
 
 #: ../lollypop/view_search.py:180
 msgid "<big>Search for artists, albums and tracks</big>"
-msgstr "<big>Ricerca artisti, album e tracce</big>"
+msgstr "<big>Cerca artisti, album e tracce</big>"
 
 #: ../lollypop/view_tracks.py:435
 #, python-format
