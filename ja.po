@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-19 21:31+0200\n"
+"POT-Creation-Date: 2019-06-03 11:03+0200\n"
 "PO-Revision-Date: 2019-02-13 10:10+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -183,7 +183,7 @@ msgstr "Scrobbling の使用を無効化"
 msgid "Handle compilations"
 msgstr "コンピレーションを処理"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:338
 msgid "Show compilations in albums view"
 msgstr "アルバムビューでコンピレーションを表示"
 
@@ -408,10 +408,6 @@ msgstr "TuneIn サポート"
 msgid "Bug fixes"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Better search"
-msgstr ""
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "音楽プレーヤー"
@@ -426,7 +422,7 @@ msgstr "再生/一時停止"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:223
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:281
+#: ../lollypop/toolbar_end.py:315
 msgid "Next"
 msgstr "次へ"
 
@@ -467,15 +463,15 @@ msgstr "このアプリケーションについて(_A)"
 msgid "Turn on background data"
 msgstr "バックグラウンドデータを有効化"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:378
+#: ../data/ArtistInformation.ui:142 ../lollypop/menu_toolbar.py:37
 msgid "Show lyrics"
 msgstr "歌詞を表示"
 
-#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:140
+#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:141
 msgid "Go to artist view"
 msgstr "アーティストビューへ移動"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:182
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:184
 msgid "Play albums"
 msgstr "アルバムを再生"
 
@@ -499,7 +495,7 @@ msgid "Select a local file"
 msgstr "ローカルファイルを選択"
 
 #: ../data/ArtworkSearch.ui:131 ../data/SettingsCollections.ui:44
-#: ../lollypop/menu_playlist.py:76 ../lollypop/pop_playlist_edit.py:63
+#: ../lollypop/menu_playlist.py:79 ../lollypop/pop_playlist_edit.py:63
 msgid "Confirm"
 msgstr "確認"
 
@@ -523,37 +519,56 @@ msgstr "API キー"
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr "<b>ここで \"カスタム検索エンジン\" を作成してください</b>:"
 
-#: ../data/DeviceManagerView.ui:25
-msgid "Synchronize to your device"
-msgstr "デバイスと同期"
+#: ../data/DeviceWidget.ui:52
+msgid "name"
+msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:94
+#: ../data/DeviceWidget.ui:102
 msgid "Convert to:"
 msgstr "変換:"
 
-#: ../data/DeviceManagerWidget.ui:106
+#: ../data/DeviceWidget.ui:114
 msgid "Normalize"
 msgstr "ノーマライズ"
 
-#: ../data/DeviceManagerWidget.ui:127
+#: ../data/DeviceWidget.ui:135
 msgid "Do not convert"
 msgstr "変換しない"
 
-#: ../data/DeviceManagerWidget.ui:145
+#: ../data/DeviceWidget.ui:152
 msgid "MP3"
 msgstr "MP3"
 
-#: ../data/DeviceManagerWidget.ui:164
+#: ../data/DeviceWidget.ui:169
 msgid "Ogg Vorbis"
 msgstr "Ogg Vorbis"
 
-#: ../data/DeviceManagerWidget.ui:183
+#: ../data/DeviceWidget.ui:186
 msgid "AAC"
 msgstr "AAC"
 
-#: ../data/DeviceManagerWidget.ui:202
+#: ../data/DeviceWidget.ui:203
 msgid "FLAC"
 msgstr "FLAC"
+
+#: ../data/DeviceWidget.ui:239
+msgid "Content:"
+msgstr ""
+
+#: ../data/DeviceWidget.ui:252
+msgid "Albums"
+msgstr "アルバム"
+
+#: ../data/DeviceWidget.ui:268 ../lollypop/menu_objects.py:40
+#: ../lollypop/menu_objects.py:63 ../lollypop/menu_toolbar.py:41
+#: ../lollypop/shown.py:39 ../lollypop/view_playlists_manager.py:36
+msgid "Playlists"
+msgstr "プレイリスト"
+
+#: ../data/DeviceWidget.ui:320 ../lollypop/widgets_device.py:131
+#: ../lollypop/widgets_device.py:323
+msgid "Synchronize"
+msgstr "同期する"
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
@@ -567,7 +582,7 @@ msgstr "翻訳"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:172
+#: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:174
 msgid "Play"
 msgstr "再生"
 
@@ -580,7 +595,7 @@ msgid "Name:"
 msgstr "名前:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:91
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:94
 msgid "Save"
 msgstr "保存"
 
@@ -592,7 +607,7 @@ msgstr "プレイリストをランダム再生"
 msgid "Clear queue"
 msgstr "キューをクリア"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:429
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:466
 msgid "Queue"
 msgstr "キュー"
 
@@ -921,8 +936,8 @@ msgid "Show compilations"
 msgstr "コンピレーションを表示"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:383 ../lollypop/pop_menu.py:495
-#: ../lollypop/pop_menu.py:517
+#: ../lollypop/menu_objects.py:37 ../lollypop/menu_objects.py:58
+#: ../lollypop/menu_toolbar.py:42
 msgid "Artist"
 msgstr "アーティスト"
 
@@ -938,7 +953,11 @@ msgstr "年"
 msgid "Popularity"
 msgstr "人気度"
 
-#: ../data/SettingsAppearance.ui:358
+#: ../data/SettingsAppearance.ui:294
+msgid "Clean cache"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:373
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -946,7 +965,7 @@ msgstr ""
 "コンピレーションは \"アルバムアーティストタグ\" がなく、\n"
 "複数のアーティストが混在するアルバムです。"
 
-#: ../data/SettingsAppearance.ui:372
+#: ../data/SettingsAppearance.ui:387
 msgid "You need to reset database [Music]"
 msgstr "[音楽] データベースをリセットする必要があります"
 
@@ -1135,8 +1154,8 @@ msgid ""
 msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
-#: ../lollypop/window.py:405 ../lollypop/window.py:406
+#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:350
+#: ../lollypop/window.py:404 ../lollypop/window.py:405
 msgid "Search"
 msgstr "検索"
 
@@ -1392,6 +1411,10 @@ msgstr "Scrobbling を有効化"
 msgid "Playback options"
 msgstr ""
 
+#: ../data/ToolbarEnd.ui:182
+msgid "Downloads"
+msgstr ""
+
 #: ../data/TuneinPopover.ui:26
 msgid "Go back"
 msgstr "前に戻る"
@@ -1400,17 +1423,17 @@ msgstr "前に戻る"
 msgid "Go home"
 msgstr "ホームに移動"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:600
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:402
-#: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
-#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
-#: ../lollypop/tagreader.py:257 ../lollypop/tagreader.py:261
-#: ../lollypop/tagreader.py:271 ../lollypop/tagreader.py:279
+#: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
+#: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
+#: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
+#: ../lollypop/tagreader.py:262 ../lollypop/tagreader.py:272
+#: ../lollypop/tagreader.py:280
 msgid "Unknown"
 msgstr "不明"
 
-#: ../lollypop/collectionscanner.py:441
+#: ../lollypop/collectionscanner.py:453
 msgid "Scan disabled, missing collection"
 msgstr ""
 
@@ -1443,7 +1466,7 @@ msgstr "更新"
 msgid "Pause"
 msgstr "一時停止"
 
-#: ../lollypop/database_artists.py:108
+#: ../lollypop/database_artists.py:109
 msgid "Many artists"
 msgstr "多くのアーティスト"
 
@@ -1480,9 +1503,9 @@ msgstr "ウェブ"
 msgid "Configure Web services"
 msgstr "ウェブサービスを設定"
 
-#: ../lollypop/fullscreen.py:269 ../lollypop/toolbar_info.py:125
-#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
-#: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
+#: ../lollypop/fullscreen.py:275 ../lollypop/toolbar_info.py:127
+#: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102
+#: ../lollypop/view_artist.py:112 ../lollypop/view_information.py:187
 msgid "You are using a broken cursor theme!"
 msgstr "壊れたカーソルテーマを使用しています!"
 
@@ -1490,7 +1513,7 @@ msgstr "壊れたカーソルテーマを使用しています!"
 msgid "Add to current playlist"
 msgstr "現在のプレイリストに追加"
 
-#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:130
+#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:131
 #: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "現在のプレイリストから削除"
@@ -1519,29 +1542,108 @@ msgstr "楽曲を再生中"
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm 認証は無効です"
 
-#: ../lollypop/menu_playlist.py:36 ../lollypop/menu_playlist.py:88
+#: ../lollypop/menu_artist.py:48
+msgid "Available albums"
+msgstr ""
+
+#: ../lollypop/menu_artist.py:53
+msgid "Other albums"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:56 ../lollypop/view_albums_list.py:136
+msgid "Save in collection"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:63
+msgid "Remove from collection"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:77
+msgid "Sync with devices"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:86
+msgid "Modify information"
+msgstr "情報を変更"
+
+#: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
+#: ../lollypop/pop_menu_views.py:46
+msgid "Synchronization"
+msgstr ""
+
+#: ../lollypop/menu_objects.py:42 ../lollypop/menu_objects.py:65
+msgid "Edit"
+msgstr "編集"
+
+#: ../lollypop/menu_objects.py:60
+msgid "Playback"
+msgstr "プレイバック"
+
+#: ../lollypop/menu_playback.py:65
+msgid "Add to playback"
+msgstr "プレイバックに追加"
+
+#: ../lollypop/menu_playback.py:71 ../lollypop/widgets_row.py:97
+msgid "Remove from playback"
+msgstr "プレイバックから削除"
+
+#: ../lollypop/menu_playback.py:82
+msgid "Add to queue"
+msgstr "キューに追加"
+
+#: ../lollypop/menu_playback.py:88
+msgid "Remove from queue"
+msgstr "キューから削除"
+
+#: ../lollypop/menu_playback.py:100
+msgid "Do not stop after"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:105
+msgid "Stop after"
+msgstr ""
+
+#: ../lollypop/menu_playlist.py:37 ../lollypop/menu_playlist.py:91
 msgid "Save playlist"
 msgstr "プレイリストを保存"
 
-#: ../lollypop/menu_playlist.py:40
+#: ../lollypop/menu_playlist.py:41
 msgid "Manage smart playlist"
 msgstr "スマートプレイリストを管理"
 
-#: ../lollypop/menu_playlist.py:49
+#: ../lollypop/menu_playlist.py:50
 msgid "Split view"
 msgstr "表示を分割"
 
-#: ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_playlist.py:54
 msgid "Remove playlist"
 msgstr "プレイリストを削除"
 
-#: ../lollypop/menu_playlist.py:75 ../lollypop/pop_playlist_edit.py:62
+#: ../lollypop/menu_playlist.py:78 ../lollypop/pop_playlist_edit.py:62
 msgid "Remove this playlist?"
 msgstr "このプレイリストを削除しますか?"
 
-#: ../lollypop/menu_playlist.py:92
+#: ../lollypop/menu_playlist.py:95 ../lollypop/widgets_device.py:138
 msgid "Cancel"
 msgstr "キャンセル"
+
+#: ../lollypop/menu_playlists.py:46
+msgid "Add to others"
+msgstr "他に追加"
+
+#: ../lollypop/menu_playlists.py:61
+#, python-format
+msgid "Remove from \"%s\""
+msgstr "\"%s\" から削除"
+
+#: ../lollypop/menu_playlists.py:67
+#, python-format
+msgid "Add to \"%s\""
+msgstr "\"%s\" に追加"
+
+#: ../lollypop/menu_toolbar.py:38
+msgid "Lyrics"
+msgstr "歌詞"
 
 #: ../lollypop/notification.py:111
 #, python-format
@@ -1553,126 +1655,48 @@ msgstr "アーティスト: %s"
 msgid "by %s, from %s"
 msgstr "アーティスト: %s, アルバム: %s"
 
-#: ../lollypop/playlists.py:85 ../lollypop/playlists.py:388
-#: ../lollypop/playlists.py:407 ../lollypop/shown.py:88
-#: ../lollypop/widgets_device.py:91
+#: ../lollypop/playlists.py:86 ../lollypop/playlists.py:389
+#: ../lollypop/shown.py:84
 msgid "Loved tracks"
 msgstr "評価したトラック"
 
-#: ../lollypop/playlists.py:431 ../lollypop/shown.py:86
+#: ../lollypop/playlists.py:430 ../lollypop/shown.py:82
 msgid "Popular tracks"
 msgstr "人気のあるトラック"
 
-#: ../lollypop/playlists.py:433 ../lollypop/shown.py:89
+#: ../lollypop/playlists.py:432 ../lollypop/shown.py:85
 msgid "Recently played"
 msgstr "最近再生したもの"
 
-#: ../lollypop/playlists.py:435
+#: ../lollypop/playlists.py:434
 msgid "Never played"
 msgstr "未再生"
 
-#: ../lollypop/playlists.py:437 ../lollypop/shown.py:87
+#: ../lollypop/playlists.py:436 ../lollypop/shown.py:83
 msgid "Random tracks"
 msgstr "ランダムなトラック"
 
-#: ../lollypop/pop_menu.py:66
-msgid "Available albums"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:71
-msgid "Other albums"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:135
-msgid "Add to playback"
-msgstr "プレイバックに追加"
-
-#: ../lollypop/pop_menu.py:141 ../lollypop/widgets_row.py:97
-msgid "Remove from playback"
-msgstr "プレイバックから削除"
-
-#: ../lollypop/pop_menu.py:152
-msgid "Add to queue"
-msgstr "キューに追加"
-
-#: ../lollypop/pop_menu.py:158
-msgid "Remove from queue"
-msgstr "キューから削除"
-
-#: ../lollypop/pop_menu.py:170
-msgid "Do not stop after"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:175
-msgid "Stop after"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:269
-msgid "Add to others"
-msgstr "他に追加"
-
-#: ../lollypop/pop_menu.py:284
-#, python-format
-msgid "Remove from \"%s\""
-msgstr "\"%s\" から削除"
-
-#: ../lollypop/pop_menu.py:290
-#, python-format
-msgid "Add to \"%s\""
-msgstr "\"%s\" に追加"
-
-#: ../lollypop/pop_menu.py:379
-msgid "Lyrics"
-msgstr "歌詞"
-
-#: ../lollypop/pop_menu.py:382 ../lollypop/pop_menu.py:498
-#: ../lollypop/pop_menu.py:522 ../lollypop/shown.py:39
-#: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
-#: ../lollypop/widgets_device.py:96
-msgid "Playlists"
-msgstr "プレイリスト"
-
-#: ../lollypop/pop_menu.py:430 ../lollypop/view_albums_list.py:135
-msgid "Save in collection"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:435
-msgid "Remove from collection"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:444
-msgid "Modify information"
-msgstr "情報を変更"
-
-#: ../lollypop/pop_menu.py:500 ../lollypop/pop_menu.py:524
-msgid "Edit"
-msgstr "編集"
-
-#: ../lollypop/pop_menu.py:519
-msgid "Playback"
-msgstr "プレイバック"
-
-#: ../lollypop/pop_menu.py:542
+#: ../lollypop/pop_menu.py:37
 msgid "Remove track"
 msgstr "トラックを削除"
 
-#: ../lollypop/pop_menu.py:544
+#: ../lollypop/pop_menu.py:39
 msgid "Remove tracks"
 msgstr "トラックを削除"
 
-#: ../lollypop/pop_menu.py:584
+#: ../lollypop/pop_menu.py:79
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/pop_menu_views.py:60
+#: ../lollypop/pop_menu_views.py:68
 msgid "Default on startup"
 msgstr "起動時のデフォルト"
 
-#: ../lollypop/pop_menu_views.py:63
+#: ../lollypop/pop_menu_views.py:71
 msgid "Startup"
 msgstr "スタートアップ"
 
-#: ../lollypop/pop_menu_views.py:88
+#: ../lollypop/pop_menu_views.py:96
 msgid "Sections"
 msgstr "セクション"
 
@@ -1684,14 +1708,10 @@ msgstr "TuneIn に接続できません…"
 msgid "No result…"
 msgstr "結果はありません…"
 
-#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:408
-#: ../lollypop/window.py:409
+#: ../lollypop/selectionlist.py:352 ../lollypop/window.py:407
+#: ../lollypop/window.py:408
 msgid "Current playlist"
 msgstr "現在のプレイリスト"
-
-#: ../lollypop/selectionlist.py:416
-msgid "Right click to configure"
-msgstr "右クリックで設定できます"
 
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
@@ -1725,50 +1745,46 @@ msgstr "年"
 msgid "All albums"
 msgstr "すべてのアルバム"
 
-#: ../lollypop/shown.py:58 ../lollypop/view_device.py:236
+#: ../lollypop/shown.py:58
 msgid "Compilations"
 msgstr "コンピレーション"
 
-#: ../lollypop/shown.py:59
-msgid "USB disks"
-msgstr "USB ディスク"
-
-#: ../lollypop/shown.py:90
+#: ../lollypop/shown.py:86
 msgid "Unplayed"
 msgstr "未再生"
 
-#: ../lollypop/toolbar_end.py:277
+#: ../lollypop/toolbar_end.py:311
 msgid "All genres"
 msgstr "すべてのジャンル"
 
-#: ../lollypop/toolbar_end.py:431
+#: ../lollypop/toolbar_end.py:468
 msgid "Playing playlists"
 msgstr "再生中のプレイリスト"
 
-#: ../lollypop/toolbar_end.py:433 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:470 ../lollypop/view_current_albums.py:58
 msgid "Playing albums"
 msgstr "再生中のアルバム"
 
-#: ../lollypop/utils.py:55
+#: ../lollypop/utils.py:56
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s 時間  %s 分"
 
-#: ../lollypop/utils.py:57
+#: ../lollypop/utils.py:58
 #, python-format
 msgid "%s h"
 msgstr "%s 時間"
 
-#: ../lollypop/utils.py:59
+#: ../lollypop/utils.py:60
 #, python-format
 msgid "%s m"
 msgstr "%s 分"
 
-#: ../lollypop/utils.py:308
+#: ../lollypop/utils.py:309
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_album.py:149
+#: ../lollypop/view_album.py:151
 msgid "Others albums from"
 msgstr "他のアルバム:"
 
@@ -1776,7 +1792,7 @@ msgstr "他のアルバム:"
 msgid "Network not available"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:488
+#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:490
 msgid "Missing youtube-dl command"
 msgstr ""
 
@@ -1788,7 +1804,7 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_list.py:114
+#: ../lollypop/view_albums_list.py:115
 msgid "Compilation"
 msgstr "コンピレーション"
 
@@ -1796,56 +1812,32 @@ msgstr "コンピレーション"
 msgid "Clear albums"
 msgstr "アルバムをクリア"
 
-#: ../lollypop/view_device.py:77
-msgid "Please unlock your device"
-msgstr "デバイスのロックを解除してください"
-
-#: ../lollypop/view_device.py:85 ../lollypop/view_device.py:282
-msgid "Synchronize"
-msgstr "同期する"
-
-#: ../lollypop/view_device.py:119
-msgid "This will remove some files on your device!"
-msgstr "これはデバイスにある複数のファイルを削除します!"
-
-#: ../lollypop/view_device.py:188
-msgid "Cancel synchronization"
-msgstr "同期をキャンセル"
-
-#: ../lollypop/view_device.py:233
-msgid "Synced albums"
-msgstr "同期済みアルバム"
-
-#: ../lollypop/view_device.py:270
-msgid "Unknown error while syncing, try to reboot your device"
-msgstr "同期中の不明なエラー: デバイスを再起動してください"
-
-#: ../lollypop/view_information.py:196 ../lollypop/view_information.py:323
+#: ../lollypop/view_information.py:199 ../lollypop/view_information.py:327
 msgid "Loading information"
 msgstr "情報を読み込んでいます"
 
-#: ../lollypop/view_information.py:233 ../lollypop/view_information.py:318
+#: ../lollypop/view_information.py:236 ../lollypop/view_information.py:322
 #, python-format
 msgid "No information for %s"
 msgstr "%s の情報はありません"
 
-#: ../lollypop/view_lyrics.py:63
+#: ../lollypop/view_lyrics.py:64
 msgid "Loading…"
 msgstr "読み込み中…"
 
-#: ../lollypop/view_lyrics.py:85
+#: ../lollypop/view_lyrics.py:86
 msgid "You have disabled lyrics search in network settings !"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:132
+#: ../lollypop/view_lyrics.py:133
 msgid "You need to install python3-textblob module"
 msgstr "python3-textblob モジュールをインストールする必要があります"
 
-#: ../lollypop/view_lyrics.py:137
+#: ../lollypop/view_lyrics.py:138
 msgid "Can't translate this lyrics"
 msgstr "この歌詞を翻訳できません"
 
-#: ../lollypop/view_lyrics.py:270
+#: ../lollypop/view_lyrics.py:271
 msgid "No lyrics found "
 msgstr "このトラックの歌詞は見つかりませんでした "
 
@@ -1853,13 +1845,13 @@ msgstr "このトラックの歌詞は見つかりませんでした "
 msgid "New playlist"
 msgstr "新しいプレイリスト"
 
-#: ../lollypop/view_playlists_manager.py:208
-#: ../lollypop/view_playlists_manager.py:211
+#: ../lollypop/view_playlists_manager.py:209
+#: ../lollypop/view_playlists_manager.py:212
 msgid "New playlist "
 msgstr "新しいプレイリスト "
 
 #: ../lollypop/view.py:61
-msgid "Empty"
+msgid "No items to show"
 msgstr ""
 
 #: ../lollypop/view_search.py:173
@@ -1875,15 +1867,15 @@ msgstr "<big>アーティスト、アルバム、トラックを検索</big>"
 msgid "Disc %s"
 msgstr "ディスク %s"
 
-#: ../lollypop/widgets_artwork.py:146
+#: ../lollypop/widgets_artwork.py:144
 msgid "Select artwork"
 msgstr "アートワークを選択"
 
-#: ../lollypop/widgets_artwork.py:323
-msgid "Google and Duckduckgo disabled in settings"
+#: ../lollypop/widgets_artwork.py:326
+msgid "DuckDuckGo and Google turned off in the settings"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:453
+#: ../lollypop/widgets_artwork.py:450
 msgid "Reset artwork?"
 msgstr "アートワークをリセットしますか?"
 
@@ -1891,9 +1883,13 @@ msgstr "アートワークをリセットしますか?"
 msgid "Change artwork"
 msgstr "アートワークを変更"
 
-#: ../lollypop/widgets_device.py:107
-msgid "Albums"
-msgstr "アルバム"
+#: ../lollypop/widgets_device.py:113
+msgid "No synchronized albums"
+msgstr ""
+
+#: ../lollypop/widgets_device.py:124
+msgid "No synchronized playlists"
+msgstr ""
 
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
 #: ../lollypop/widgets_equalizer.py:147
@@ -2020,7 +2016,7 @@ msgstr "次より上"
 msgid "is less than"
 msgstr "次より下"
 
-#: ../lollypop/widgets_rating.py:52
+#: ../lollypop/widgets_rating.py:53
 #, python-format
 msgid "Song played %s times"
 msgstr "再生数 %s 回"
@@ -2050,6 +2046,30 @@ msgstr[0] "%d トラック"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "\"GNOME オンラインアカウント\" の設定を使用しています"
+
+#~ msgid "Synchronize to your device"
+#~ msgstr "デバイスと同期"
+
+#~ msgid "Right click to configure"
+#~ msgstr "右クリックで設定できます"
+
+#~ msgid "USB disks"
+#~ msgstr "USB ディスク"
+
+#~ msgid "Please unlock your device"
+#~ msgstr "デバイスのロックを解除してください"
+
+#~ msgid "This will remove some files on your device!"
+#~ msgstr "これはデバイスにある複数のファイルを削除します!"
+
+#~ msgid "Cancel synchronization"
+#~ msgstr "同期をキャンセル"
+
+#~ msgid "Synced albums"
+#~ msgstr "同期済みアルバム"
+
+#~ msgid "Unknown error while syncing, try to reboot your device"
+#~ msgstr "同期中の不明なエラー: デバイスを再起動してください"
 
 #~ msgid "Equalizer preset:"
 #~ msgstr "イコライザーのプリセット:"

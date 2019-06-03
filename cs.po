@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-19 21:31+0200\n"
+"POT-Creation-Date: 2019-06-03 11:03+0200\n"
 "PO-Revision-Date: 2019-05-10 08:13+0000\n"
 "Last-Translator: Attila Farkas <farkasattila@ymail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -187,7 +187,7 @@ msgid "Handle compilations"
 msgstr ""
 "Zpracovat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:338
 msgid "Show compilations in albums view"
 msgstr ""
 "Ukázat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů v "
@@ -414,10 +414,6 @@ msgstr "Podpora pro TuneIn"
 msgid "Bug fixes"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:33
-msgid "Better search"
-msgstr ""
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Přehrávač hudby"
@@ -432,7 +428,7 @@ msgstr "Přehrát/Pozastavit"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:223
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:281
+#: ../lollypop/toolbar_end.py:315
 msgid "Next"
 msgstr "Další"
 
@@ -473,15 +469,15 @@ msgstr "O _programu"
 msgid "Turn on background data"
 msgstr "Zapnout data na pozadí"
 
-#: ../data/ArtistInformation.ui:142 ../lollypop/pop_menu.py:378
+#: ../data/ArtistInformation.ui:142 ../lollypop/menu_toolbar.py:37
 msgid "Show lyrics"
 msgstr "Ukázat text písně"
 
-#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:140
+#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:141
 msgid "Go to artist view"
 msgstr "Jít na přehled umělců"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:182
+#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:184
 msgid "Play albums"
 msgstr "Přehrát alba"
 
@@ -505,7 +501,7 @@ msgid "Select a local file"
 msgstr "Vybrat místní soubor"
 
 #: ../data/ArtworkSearch.ui:131 ../data/SettingsCollections.ui:44
-#: ../lollypop/menu_playlist.py:76 ../lollypop/pop_playlist_edit.py:63
+#: ../lollypop/menu_playlist.py:79 ../lollypop/pop_playlist_edit.py:63
 msgid "Confirm"
 msgstr "Potvrdit"
 
@@ -529,37 +525,56 @@ msgstr "Klíč API"
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr "<b>Vytvořte, prosím, vyhledávač pro vlastní hledání zde:</b>:"
 
-#: ../data/DeviceManagerView.ui:25
-msgid "Synchronize to your device"
-msgstr "Seřídit s vaším zařízením"
+#: ../data/DeviceWidget.ui:52
+msgid "name"
+msgstr ""
 
-#: ../data/DeviceManagerWidget.ui:94
+#: ../data/DeviceWidget.ui:102
 msgid "Convert to:"
 msgstr "Převést do:"
 
-#: ../data/DeviceManagerWidget.ui:106
+#: ../data/DeviceWidget.ui:114
 msgid "Normalize"
 msgstr "Normalizovat"
 
-#: ../data/DeviceManagerWidget.ui:127
+#: ../data/DeviceWidget.ui:135
 msgid "Do not convert"
 msgstr "Nepřevádět"
 
-#: ../data/DeviceManagerWidget.ui:145
+#: ../data/DeviceWidget.ui:152
 msgid "MP3"
 msgstr "MP3"
 
-#: ../data/DeviceManagerWidget.ui:164
+#: ../data/DeviceWidget.ui:169
 msgid "Ogg Vorbis"
 msgstr "OGG Vorbis"
 
-#: ../data/DeviceManagerWidget.ui:183
+#: ../data/DeviceWidget.ui:186
 msgid "AAC"
 msgstr "AAC"
 
-#: ../data/DeviceManagerWidget.ui:202
+#: ../data/DeviceWidget.ui:203
 msgid "FLAC"
 msgstr "FLAC"
+
+#: ../data/DeviceWidget.ui:239
+msgid "Content:"
+msgstr ""
+
+#: ../data/DeviceWidget.ui:252
+msgid "Albums"
+msgstr "Alba"
+
+#: ../data/DeviceWidget.ui:268 ../lollypop/menu_objects.py:40
+#: ../lollypop/menu_objects.py:63 ../lollypop/menu_toolbar.py:41
+#: ../lollypop/shown.py:39 ../lollypop/view_playlists_manager.py:36
+msgid "Playlists"
+msgstr "Seznamy skladeb"
+
+#: ../data/DeviceWidget.ui:320 ../lollypop/widgets_device.py:131
+#: ../lollypop/widgets_device.py:323
+msgid "Synchronize"
+msgstr "Seřídit"
 
 #: ../data/LyricsView.ui:75
 msgid "Translate"
@@ -573,7 +588,7 @@ msgstr "Přeložit"
 #: ../lollypop/helper_overlay_genre.py:49
 #: ../lollypop/helper_overlay_playlist.py:52
 #: ../lollypop/helper_overlay_radio.py:53 ../lollypop/pop_tunein.py:201
-#: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:172
+#: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:174
 msgid "Play"
 msgstr "Přehrát"
 
@@ -586,7 +601,7 @@ msgid "Name:"
 msgstr "Název:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:91
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:94
 msgid "Save"
 msgstr "Uložit"
 
@@ -598,7 +613,7 @@ msgstr "Přehrávat seznam skladeb v náhodném pořadí"
 msgid "Clear queue"
 msgstr "Vyprázdnit řadu"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:429
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:466
 msgid "Queue"
 msgstr "Řada"
 
@@ -928,8 +943,8 @@ msgstr ""
 "Ukázat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů"
 
 #: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/pop_menu.py:383 ../lollypop/pop_menu.py:495
-#: ../lollypop/pop_menu.py:517
+#: ../lollypop/menu_objects.py:37 ../lollypop/menu_objects.py:58
+#: ../lollypop/menu_toolbar.py:42
 msgid "Artist"
 msgstr "Umělec"
 
@@ -945,13 +960,17 @@ msgstr "Rok"
 msgid "Popularity"
 msgstr "Oblíbenost"
 
-#: ../data/SettingsAppearance.ui:358
+#: ../data/SettingsAppearance.ui:294
+msgid "Clean cache"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:373
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr "Kompilace je album bez značky umělec alba a s různými umělci."
 
-#: ../data/SettingsAppearance.ui:372
+#: ../data/SettingsAppearance.ui:387
 msgid "You need to reset database [Music]"
 msgstr "Je potřeba vynulovat databázi [Music]"
 
@@ -1143,8 +1162,8 @@ msgstr ""
 "projekt.</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:439 ../lollypop/selectionlist.py:246
-#: ../lollypop/window.py:405 ../lollypop/window.py:406
+#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:350
+#: ../lollypop/window.py:404 ../lollypop/window.py:405
 msgid "Search"
 msgstr "Hledat"
 
@@ -1400,6 +1419,10 @@ msgstr "Povolit odesílání informací o přehrávání"
 msgid "Playback options"
 msgstr ""
 
+#: ../data/ToolbarEnd.ui:182
+msgid "Downloads"
+msgstr ""
+
 #: ../data/TuneinPopover.ui:26
 msgid "Go back"
 msgstr "Jít zpět"
@@ -1408,17 +1431,17 @@ msgstr "Jít zpět"
 msgid "Go home"
 msgstr "Jít zpět"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:600
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:402
-#: ../lollypop/selectionlist.py:432 ../lollypop/tagreader.py:85
-#: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:171
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:241
-#: ../lollypop/tagreader.py:257 ../lollypop/tagreader.py:261
-#: ../lollypop/tagreader.py:271 ../lollypop/tagreader.py:279
+#: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
+#: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
+#: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
+#: ../lollypop/tagreader.py:262 ../lollypop/tagreader.py:272
+#: ../lollypop/tagreader.py:280
 msgid "Unknown"
 msgstr "Neznámý"
 
-#: ../lollypop/collectionscanner.py:441
+#: ../lollypop/collectionscanner.py:453
 msgid "Scan disabled, missing collection"
 msgstr ""
 
@@ -1451,7 +1474,7 @@ msgstr "Obnovit"
 msgid "Pause"
 msgstr "Pozastavit"
 
-#: ../lollypop/database_artists.py:108
+#: ../lollypop/database_artists.py:109
 msgid "Many artists"
 msgstr "Mnoho umělců"
 
@@ -1488,9 +1511,9 @@ msgstr "Internet"
 msgid "Configure Web services"
 msgstr "Nastavit internetové služby"
 
-#: ../lollypop/fullscreen.py:269 ../lollypop/toolbar_info.py:125
-#: ../lollypop/utils.py:106 ../lollypop/view_artist.py:100
-#: ../lollypop/view_artist.py:110 ../lollypop/view_information.py:184
+#: ../lollypop/fullscreen.py:275 ../lollypop/toolbar_info.py:127
+#: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102
+#: ../lollypop/view_artist.py:112 ../lollypop/view_information.py:187
 msgid "You are using a broken cursor theme!"
 msgstr "Používáte poškozený vzhled ukazatele!"
 
@@ -1498,7 +1521,7 @@ msgstr "Používáte poškozený vzhled ukazatele!"
 msgid "Add to current playlist"
 msgstr "Přidat do nynějšího seznamu skladeb"
 
-#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:130
+#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:131
 #: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "Odstranit z nynějšího seznamu skladeb"
@@ -1527,29 +1550,108 @@ msgstr "Přehrává se hudba"
 msgid "Last.fm authentication disabled"
 msgstr "Ověření Last.fm zakázáno"
 
-#: ../lollypop/menu_playlist.py:36 ../lollypop/menu_playlist.py:88
+#: ../lollypop/menu_artist.py:48
+msgid "Available albums"
+msgstr "Dostupná alba"
+
+#: ../lollypop/menu_artist.py:53
+msgid "Other albums"
+msgstr "Jiná alba"
+
+#: ../lollypop/menu_edit.py:56 ../lollypop/view_albums_list.py:136
+msgid "Save in collection"
+msgstr "Uložit do kolekce"
+
+#: ../lollypop/menu_edit.py:63
+msgid "Remove from collection"
+msgstr "Odstranit z kolekce"
+
+#: ../lollypop/menu_edit.py:77
+msgid "Sync with devices"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:86
+msgid "Modify information"
+msgstr "Upravit údaje"
+
+#: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
+#: ../lollypop/pop_menu_views.py:46
+msgid "Synchronization"
+msgstr ""
+
+#: ../lollypop/menu_objects.py:42 ../lollypop/menu_objects.py:65
+msgid "Edit"
+msgstr "Upravit"
+
+#: ../lollypop/menu_objects.py:60
+msgid "Playback"
+msgstr "Přehrávání"
+
+#: ../lollypop/menu_playback.py:65
+msgid "Add to playback"
+msgstr "Přidat do řady skladeb k přehrání"
+
+#: ../lollypop/menu_playback.py:71 ../lollypop/widgets_row.py:97
+msgid "Remove from playback"
+msgstr "Odstranit z řady skladeb k přehrání"
+
+#: ../lollypop/menu_playback.py:82
+msgid "Add to queue"
+msgstr "Přidat do řady"
+
+#: ../lollypop/menu_playback.py:88
+msgid "Remove from queue"
+msgstr "Odstranit z řady"
+
+#: ../lollypop/menu_playback.py:100
+msgid "Do not stop after"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:105
+msgid "Stop after"
+msgstr ""
+
+#: ../lollypop/menu_playlist.py:37 ../lollypop/menu_playlist.py:91
 msgid "Save playlist"
 msgstr "Uložit seznam skladeb"
 
-#: ../lollypop/menu_playlist.py:40
+#: ../lollypop/menu_playlist.py:41
 msgid "Manage smart playlist"
 msgstr "Spravovat chytrý seznam skladeb"
 
-#: ../lollypop/menu_playlist.py:49
+#: ../lollypop/menu_playlist.py:50
 msgid "Split view"
 msgstr "Rozdělit pohled"
 
-#: ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_playlist.py:54
 msgid "Remove playlist"
 msgstr "Odstranit seznam skladeb"
 
-#: ../lollypop/menu_playlist.py:75 ../lollypop/pop_playlist_edit.py:62
+#: ../lollypop/menu_playlist.py:78 ../lollypop/pop_playlist_edit.py:62
 msgid "Remove this playlist?"
 msgstr "Odstranit tento seznam skladeb?"
 
-#: ../lollypop/menu_playlist.py:92
+#: ../lollypop/menu_playlist.py:95 ../lollypop/widgets_device.py:138
 msgid "Cancel"
 msgstr "Zrušit"
+
+#: ../lollypop/menu_playlists.py:46
+msgid "Add to others"
+msgstr "Přidat do ostatních"
+
+#: ../lollypop/menu_playlists.py:61
+#, python-format
+msgid "Remove from \"%s\""
+msgstr "Odstranit z \"%s\""
+
+#: ../lollypop/menu_playlists.py:67
+#, python-format
+msgid "Add to \"%s\""
+msgstr "Přidat do \"%s\""
+
+#: ../lollypop/menu_toolbar.py:38
+msgid "Lyrics"
+msgstr "Text písně"
 
 #: ../lollypop/notification.py:111
 #, python-format
@@ -1561,126 +1663,48 @@ msgstr "od %s"
 msgid "by %s, from %s"
 msgstr "od %s, na %s"
 
-#: ../lollypop/playlists.py:85 ../lollypop/playlists.py:388
-#: ../lollypop/playlists.py:407 ../lollypop/shown.py:88
-#: ../lollypop/widgets_device.py:91
+#: ../lollypop/playlists.py:86 ../lollypop/playlists.py:389
+#: ../lollypop/shown.py:84
 msgid "Loved tracks"
 msgstr "Zamilované skladby"
 
-#: ../lollypop/playlists.py:431 ../lollypop/shown.py:86
+#: ../lollypop/playlists.py:430 ../lollypop/shown.py:82
 msgid "Popular tracks"
 msgstr "Oblíbené skladby"
 
-#: ../lollypop/playlists.py:433 ../lollypop/shown.py:89
+#: ../lollypop/playlists.py:432 ../lollypop/shown.py:85
 msgid "Recently played"
 msgstr "Nedávno hráno"
 
-#: ../lollypop/playlists.py:435
+#: ../lollypop/playlists.py:434
 msgid "Never played"
 msgstr "Nikdy nehráno"
 
-#: ../lollypop/playlists.py:437 ../lollypop/shown.py:87
+#: ../lollypop/playlists.py:436 ../lollypop/shown.py:83
 msgid "Random tracks"
 msgstr "Náhodné skladby"
 
-#: ../lollypop/pop_menu.py:66
-msgid "Available albums"
-msgstr "Dostupná alba"
-
-#: ../lollypop/pop_menu.py:71
-msgid "Other albums"
-msgstr "Jiná alba"
-
-#: ../lollypop/pop_menu.py:135
-msgid "Add to playback"
-msgstr "Přidat do řady skladeb k přehrání"
-
-#: ../lollypop/pop_menu.py:141 ../lollypop/widgets_row.py:97
-msgid "Remove from playback"
-msgstr "Odstranit z řady skladeb k přehrání"
-
-#: ../lollypop/pop_menu.py:152
-msgid "Add to queue"
-msgstr "Přidat do řady"
-
-#: ../lollypop/pop_menu.py:158
-msgid "Remove from queue"
-msgstr "Odstranit z řady"
-
-#: ../lollypop/pop_menu.py:170
-msgid "Do not stop after"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:175
-msgid "Stop after"
-msgstr ""
-
-#: ../lollypop/pop_menu.py:269
-msgid "Add to others"
-msgstr "Přidat do ostatních"
-
-#: ../lollypop/pop_menu.py:284
-#, python-format
-msgid "Remove from \"%s\""
-msgstr "Odstranit z \"%s\""
-
-#: ../lollypop/pop_menu.py:290
-#, python-format
-msgid "Add to \"%s\""
-msgstr "Přidat do \"%s\""
-
-#: ../lollypop/pop_menu.py:379
-msgid "Lyrics"
-msgstr "Text písně"
-
-#: ../lollypop/pop_menu.py:382 ../lollypop/pop_menu.py:498
-#: ../lollypop/pop_menu.py:522 ../lollypop/shown.py:39
-#: ../lollypop/view_device.py:234 ../lollypop/view_playlists_manager.py:36
-#: ../lollypop/widgets_device.py:96
-msgid "Playlists"
-msgstr "Seznamy skladeb"
-
-#: ../lollypop/pop_menu.py:430 ../lollypop/view_albums_list.py:135
-msgid "Save in collection"
-msgstr "Uložit do kolekce"
-
-#: ../lollypop/pop_menu.py:435
-msgid "Remove from collection"
-msgstr "Odstranit z kolekce"
-
-#: ../lollypop/pop_menu.py:444
-msgid "Modify information"
-msgstr "Upravit údaje"
-
-#: ../lollypop/pop_menu.py:500 ../lollypop/pop_menu.py:524
-msgid "Edit"
-msgstr "Upravit"
-
-#: ../lollypop/pop_menu.py:519
-msgid "Playback"
-msgstr "Přehrávání"
-
-#: ../lollypop/pop_menu.py:542
+#: ../lollypop/pop_menu.py:37
 msgid "Remove track"
 msgstr "Odstranit skladbu"
 
-#: ../lollypop/pop_menu.py:544
+#: ../lollypop/pop_menu.py:39
 msgid "Remove tracks"
 msgstr "Odstranit skladby"
 
-#: ../lollypop/pop_menu.py:584
+#: ../lollypop/pop_menu.py:79
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/pop_menu_views.py:60
+#: ../lollypop/pop_menu_views.py:68
 msgid "Default on startup"
 msgstr "Výchozí při spuštění"
 
-#: ../lollypop/pop_menu_views.py:63
+#: ../lollypop/pop_menu_views.py:71
 msgid "Startup"
 msgstr "Spuštění programu"
 
-#: ../lollypop/pop_menu_views.py:88
+#: ../lollypop/pop_menu_views.py:96
 msgid "Sections"
 msgstr "Sekce"
 
@@ -1692,14 +1716,10 @@ msgstr "Nelze se připojit k TuneIn…"
 msgid "No result…"
 msgstr "Žádný výsledek…"
 
-#: ../lollypop/selectionlist.py:248 ../lollypop/window.py:408
-#: ../lollypop/window.py:409
+#: ../lollypop/selectionlist.py:352 ../lollypop/window.py:407
+#: ../lollypop/window.py:408
 msgid "Current playlist"
 msgstr "Nynější seznam skladeb"
-
-#: ../lollypop/selectionlist.py:416
-msgid "Right click to configure"
-msgstr "Klepnutí pravým tlačítkem myši pro nastavení"
 
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
@@ -1733,50 +1753,46 @@ msgstr "Roky"
 msgid "All albums"
 msgstr "Všechna alba"
 
-#: ../lollypop/shown.py:58 ../lollypop/view_device.py:236
+#: ../lollypop/shown.py:58
 msgid "Compilations"
 msgstr "Alba s různými umělci"
 
-#: ../lollypop/shown.py:59
-msgid "USB disks"
-msgstr "Disky USB"
-
-#: ../lollypop/shown.py:90
+#: ../lollypop/shown.py:86
 msgid "Unplayed"
 msgstr "Nepřehráváno"
 
-#: ../lollypop/toolbar_end.py:277
+#: ../lollypop/toolbar_end.py:311
 msgid "All genres"
 msgstr "Všechny žánry"
 
-#: ../lollypop/toolbar_end.py:431
+#: ../lollypop/toolbar_end.py:468
 msgid "Playing playlists"
 msgstr "Přehrávání seznamů skladeb"
 
-#: ../lollypop/toolbar_end.py:433 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:470 ../lollypop/view_current_albums.py:58
 msgid "Playing albums"
 msgstr "Přehrávání alb"
 
-#: ../lollypop/utils.py:55
+#: ../lollypop/utils.py:56
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/utils.py:57
+#: ../lollypop/utils.py:58
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/utils.py:59
+#: ../lollypop/utils.py:60
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:308
+#: ../lollypop/utils.py:309
 msgid "The the"
 msgstr "\"The\""
 
-#: ../lollypop/view_album.py:149
+#: ../lollypop/view_album.py:151
 msgid "Others albums from"
 msgstr "Jiná alba od"
 
@@ -1784,7 +1800,7 @@ msgstr "Jiná alba od"
 msgid "Network not available"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:488
+#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:490
 msgid "Missing youtube-dl command"
 msgstr "Chybí příkaz youtube-dl"
 
@@ -1796,7 +1812,7 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_list.py:114
+#: ../lollypop/view_albums_list.py:115
 msgid "Compilation"
 msgstr "Sbírka skladeb"
 
@@ -1804,57 +1820,32 @@ msgstr "Sbírka skladeb"
 msgid "Clear albums"
 msgstr "Vyprázdnit alba"
 
-#: ../lollypop/view_device.py:77
-msgid "Please unlock your device"
-msgstr "Prosím, odemkněte své zařízení"
-
-#: ../lollypop/view_device.py:85 ../lollypop/view_device.py:282
-msgid "Synchronize"
-msgstr "Seřídit"
-
-#: ../lollypop/view_device.py:119
-msgid "This will remove some files on your device!"
-msgstr "Toto odstraní některé soubory z vašeho zařízení!"
-
-#: ../lollypop/view_device.py:188
-msgid "Cancel synchronization"
-msgstr "Zrušit seřizování"
-
-#: ../lollypop/view_device.py:233
-msgid "Synced albums"
-msgstr "Seřízená alba"
-
-#: ../lollypop/view_device.py:270
-msgid "Unknown error while syncing, try to reboot your device"
-msgstr ""
-"Při seřizování nastala neznámá chyba. pokuste se své zařízení zavést znovu"
-
-#: ../lollypop/view_information.py:196 ../lollypop/view_information.py:323
+#: ../lollypop/view_information.py:199 ../lollypop/view_information.py:327
 msgid "Loading information"
 msgstr "Nahrávají se informace"
 
-#: ../lollypop/view_information.py:233 ../lollypop/view_information.py:318
+#: ../lollypop/view_information.py:236 ../lollypop/view_information.py:322
 #, python-format
 msgid "No information for %s"
 msgstr "Žádné informace pro %s"
 
-#: ../lollypop/view_lyrics.py:63
+#: ../lollypop/view_lyrics.py:64
 msgid "Loading…"
 msgstr "Nahrává se…"
 
-#: ../lollypop/view_lyrics.py:85
+#: ../lollypop/view_lyrics.py:86
 msgid "You have disabled lyrics search in network settings !"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:132
+#: ../lollypop/view_lyrics.py:133
 msgid "You need to install python3-textblob module"
 msgstr "Je potřeba nainstalovat modul python3-textblob"
 
-#: ../lollypop/view_lyrics.py:137
+#: ../lollypop/view_lyrics.py:138
 msgid "Can't translate this lyrics"
 msgstr "Tento text písně nelze přeložit"
 
-#: ../lollypop/view_lyrics.py:270
+#: ../lollypop/view_lyrics.py:271
 msgid "No lyrics found "
 msgstr "Nenalezen žádný text písně "
 
@@ -1862,14 +1853,14 @@ msgstr "Nenalezen žádný text písně "
 msgid "New playlist"
 msgstr "Nový seznam skladeb"
 
-#: ../lollypop/view_playlists_manager.py:208
-#: ../lollypop/view_playlists_manager.py:211
+#: ../lollypop/view_playlists_manager.py:209
+#: ../lollypop/view_playlists_manager.py:212
 msgid "New playlist "
 msgstr "Nový seznam skladeb "
 
 #: ../lollypop/view.py:61
-msgid "Empty"
-msgstr "Prázdný"
+msgid "No items to show"
+msgstr ""
 
 #: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
@@ -1884,15 +1875,15 @@ msgstr "<big>Hledat umělce, alba a skladby</big>"
 msgid "Disc %s"
 msgstr "Disk %s"
 
-#: ../lollypop/widgets_artwork.py:146
+#: ../lollypop/widgets_artwork.py:144
 msgid "Select artwork"
 msgstr "Vybrat obal"
 
-#: ../lollypop/widgets_artwork.py:323
-msgid "Google and Duckduckgo disabled in settings"
+#: ../lollypop/widgets_artwork.py:326
+msgid "DuckDuckGo and Google turned off in the settings"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:453
+#: ../lollypop/widgets_artwork.py:450
 msgid "Reset artwork?"
 msgstr "Nastavit obal znovu?"
 
@@ -1900,9 +1891,13 @@ msgstr "Nastavit obal znovu?"
 msgid "Change artwork"
 msgstr "Změnit obal"
 
-#: ../lollypop/widgets_device.py:107
-msgid "Albums"
-msgstr "Alba"
+#: ../lollypop/widgets_device.py:113
+msgid "No synchronized albums"
+msgstr ""
+
+#: ../lollypop/widgets_device.py:124
+msgid "No synchronized playlists"
+msgstr ""
 
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
 #: ../lollypop/widgets_equalizer.py:147
@@ -2029,7 +2024,7 @@ msgstr "je větší než"
 msgid "is less than"
 msgstr "je menší než"
 
-#: ../lollypop/widgets_rating.py:52
+#: ../lollypop/widgets_rating.py:53
 #, python-format
 msgid "Song played %s times"
 msgstr "Píseň hrána %s krát"
@@ -2065,6 +2060,34 @@ msgstr[2] "%d skladeb"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Převzít nastavení GNOME pro internetové účty"
+
+#~ msgid "Synchronize to your device"
+#~ msgstr "Seřídit s vaším zařízením"
+
+#~ msgid "Right click to configure"
+#~ msgstr "Klepnutí pravým tlačítkem myši pro nastavení"
+
+#~ msgid "USB disks"
+#~ msgstr "Disky USB"
+
+#~ msgid "Please unlock your device"
+#~ msgstr "Prosím, odemkněte své zařízení"
+
+#~ msgid "This will remove some files on your device!"
+#~ msgstr "Toto odstraní některé soubory z vašeho zařízení!"
+
+#~ msgid "Cancel synchronization"
+#~ msgstr "Zrušit seřizování"
+
+#~ msgid "Synced albums"
+#~ msgstr "Seřízená alba"
+
+#~ msgid "Unknown error while syncing, try to reboot your device"
+#~ msgstr ""
+#~ "Při seřizování nastala neznámá chyba. pokuste se své zařízení zavést znovu"
+
+#~ msgid "Empty"
+#~ msgstr "Prázdný"
 
 #~ msgid "Equalizer preset:"
 #~ msgstr "Přednastavení pro ekvalizér:"
