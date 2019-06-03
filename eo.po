@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-03 11:12+0200\n"
+"POT-Creation-Date: 2019-06-03 13:41+0200\n"
 "PO-Revision-Date: 2019-04-29 11:45+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -42,16 +42,16 @@ msgstr "Pozicio de fenestro (x kaj y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:54
 #: ../data/org.gnome.Lollypop.gschema.xml:69
-#: ../data/org.gnome.Lollypop.gschema.xml:89
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:94
 #: ../data/org.gnome.Lollypop.gschema.xml:246
 #: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:266
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 #: ../data/org.gnome.Lollypop.gschema.xml:271
 #: ../data/org.gnome.Lollypop.gschema.xml:276
 #: ../data/org.gnome.Lollypop.gschema.xml:281
 #: ../data/org.gnome.Lollypop.gschema.xml:286
 #: ../data/org.gnome.Lollypop.gschema.xml:291
+#: ../data/org.gnome.Lollypop.gschema.xml:296
 msgid "INTERNAL"
 msgstr "INTERNA"
 
@@ -83,209 +83,213 @@ msgstr "Aktivaj ĝenroj en festa reĝimo"
 msgid "ID for genres."
 msgstr "ID-oj por ĝenroj."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:94
+#: ../data/org.gnome.Lollypop.gschema.xml:89 ../data/SettingsBehaviour.ui:368
+msgid "Allow syncing to USB disks"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "Import playlists from collections"
 msgstr "Enporti ludlistojn el kolektoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:99
+#: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "Music URI"
 msgstr "URI-oj de muzikaĵoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:100
+#: ../data/org.gnome.Lollypop.gschema.xml:105
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Se malplena, uzu XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:104
+#: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Uzi Libre.fm anstataŭ Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:109
+#: ../data/org.gnome.Lollypop.gschema.xml:114
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz-uzanto-ĵetono"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:114
+#: ../data/org.gnome.Lollypop.gschema.xml:119
 msgid "Google Custom Search API key"
 msgstr "Google Custom Search API ŝlosilo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "Favorite tag editor"
 msgstr "Favorata redaktilo de etikedoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid "Favorite cover file"
 msgstr "Pliŝatata dosiero de albumartaĵo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:125
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:130
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Restart needed"
 msgstr "Restartigo necesas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Database version"
 msgstr "Versio de datumbazo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:130
+#: ../data/org.gnome.Lollypop.gschema.xml:135
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Repravalorigi ĉi tiun valoron repravalorigas la datumbazon; la popularaj "
 "albumoj restariĝos"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:134 ../data/SettingsAppearance.ui:268
+#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:268
 msgid "Albums cover size"
 msgstr "Dimensio de albumartaĵoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139
+#: ../data/org.gnome.Lollypop.gschema.xml:144
 msgid "Replay gain value in dB"
 msgstr "Gajno de reludo en decibeloj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:140
+#: ../data/org.gnome.Lollypop.gschema.xml:145
 msgid "Between -15 and 15"
 msgstr "Inter -15 kaj 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Encoding quality"
 msgstr "Kvalito de ĉifrado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:149 ../data/SettingsBehaviour.ui:33
+#: ../data/org.gnome.Lollypop.gschema.xml:154 ../data/SettingsBehaviour.ui:33
 #: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
 msgid "Auto update music"
 msgstr "Aŭtomata ĝisdatigo de muziko"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:154
+#: ../data/org.gnome.Lollypop.gschema.xml:159
 msgid "Split playlists view"
 msgstr "Dividi vidon de ludlistoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:159
+#: ../data/org.gnome.Lollypop.gschema.xml:164
 msgid "Show performers"
 msgstr "Montri interpretistojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164
+#: ../data/org.gnome.Lollypop.gschema.xml:169
 msgid "Show sidebar"
 msgstr "Montri flankan breton"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:178
+#: ../data/org.gnome.Lollypop.gschema.xml:174 ../data/SettingsAppearance.ui:178
 #: ../data/SettingsAppearance.ui:192
 msgid "Show artist artwork"
 msgstr "Montri artistofoton"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Use dark GTK theme"
 msgstr "Uzi malhelan GTK-etoson"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179
+#: ../data/org.gnome.Lollypop.gschema.xml:184
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Malŝalti klientajn ornamojn (titola breto)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Disable scrobbling usage"
 msgstr "Malŝalti la luditkolektadon"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189
+#: ../data/org.gnome.Lollypop.gschema.xml:194
 msgid "Handle compilations"
 msgstr "Trakti kompilojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:338
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsAppearance.ui:338
 msgid "Show compilations in albums view"
 msgstr "Montri kompilojn en la albuma vido"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:204 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "Daŭrigi ludadon kiam fermita"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Smart sort for artist"
 msgstr "Inteligenta ordigo por artisto"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:205
+#: ../data/org.gnome.Lollypop.gschema.xml:210
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Ekzemple: The Beatles ordigita kiel Beatles. Necesas reagordon de datumbazo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Montri ordigan markon kiel artisto. Eble necesas reagordon de datumbazo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Ex: Beatles, The"
 msgstr "Ekz: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restore previous state"
 msgstr "Restarigi antaŭan staton"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Disable MPRIS"
 msgstr "Malŝalti MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Disable all notifications"
 msgstr "Malŝalti ĉiujn sciigojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:228
+#: ../data/org.gnome.Lollypop.gschema.xml:233
 msgid "Disable notifications upon change of song"
 msgstr "Malŝalti sciigojn dum ŝanĝo de kanto"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:232
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Fullscreen album rotates"
 msgstr "Tutekrana albumo rotacias"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show track number from tags"
 msgstr "Montri trakan numeron el markoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:261
 msgid "JPG cover quality"
 msgstr "Kvalito de JPG-albumkovrilo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:262
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Equalizer enabled"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:296
+#: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Smooth track transitions"
 msgstr "Glata transiro inter trakoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:301
+#: ../data/org.gnome.Lollypop.gschema.xml:306
 msgid "Only mix songs in party mode"
 msgstr "Miksi muzikaĵojn nur en festreĝimo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:306
+#: ../data/org.gnome.Lollypop.gschema.xml:311
 msgid "Smoothing duration"
 msgstr "Daŭro de glatigado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:311
+#: ../data/org.gnome.Lollypop.gschema.xml:316
 msgid "Spotify charts locale"
 msgstr "Lokaĵaro por diagramoj de Spotify"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:316
+#: ../data/org.gnome.Lollypop.gschema.xml:321
 msgid "Shuffle mode"
 msgstr "Hazarda reĝimo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:321
+#: ../data/org.gnome.Lollypop.gschema.xml:326
 msgid "Sidebar content"
 msgstr "Flankabreta enteno"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:326
+#: ../data/org.gnome.Lollypop.gschema.xml:331
 msgid "Possibilities for powermanagement options"
 msgstr "Opcioj por energiŝparado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:327
+#: ../data/org.gnome.Lollypop.gschema.xml:332
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Tiu ĉi opcio malebligas ekrankurtenon kaj dormetadon kiam Lollypop ludas."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:331
+#: ../data/org.gnome.Lollypop.gschema.xml:336
 msgid "Repeat"
 msgstr "Ripeti"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:336 ../data/SettingsAppearance.ui:221
+#: ../data/org.gnome.Lollypop.gschema.xml:341 ../data/SettingsAppearance.ui:221
 msgid "Order albums by"
 msgstr "Ordigi albumojn laŭ"
 
@@ -989,14 +993,15 @@ msgid "Smooth transitions"
 msgstr "Glataj transiradoj"
 
 #: ../data/SettingsBehaviour.ui:309 ../data/SettingsBehaviour.ui:339
+#: ../data/SettingsBehaviour.ui:380
 msgid "Allow network access"
 msgstr "Permesi retatingon"
 
-#: ../data/SettingsBehaviour.ui:409
+#: ../data/SettingsBehaviour.ui:432
 msgid "Search artwork in background"
 msgstr "Serĉi artaĵojn fone"
 
-#: ../data/SettingsBehaviour.ui:425
+#: ../data/SettingsBehaviour.ui:448
 msgid ""
 "Background data\n"
 "<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
@@ -1004,7 +1009,7 @@ msgstr ""
 "Fona datumo\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi albumkovrilon fone</span>"
 
-#: ../data/SettingsBehaviour.ui:441
+#: ../data/SettingsBehaviour.ui:464
 msgid ""
 "Last.fm and Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
@@ -1012,7 +1017,7 @@ msgstr ""
 "Last.fm kaj Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, albumkovrilo, …</span>"
 
-#: ../data/SettingsBehaviour.ui:455
+#: ../data/SettingsBehaviour.ui:478
 msgid ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
@@ -1020,7 +1025,7 @@ msgstr ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi pecojn, albumkovrilojn, …</span>"
 
-#: ../data/SettingsBehaviour.ui:469
+#: ../data/SettingsBehaviour.ui:492
 msgid ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
@@ -1028,7 +1033,7 @@ msgstr ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Ludado de muzikpecoj</span>"
 
-#: ../data/SettingsBehaviour.ui:483
+#: ../data/SettingsBehaviour.ui:506
 msgid ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -1036,7 +1041,7 @@ msgstr ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi artaĵon</span>"
 
-#: ../data/SettingsBehaviour.ui:497
+#: ../data/SettingsBehaviour.ui:520
 msgid ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
@@ -1046,7 +1051,7 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Biografio de artisto, serĉi artaĵojn, …"
 "</span>"
 
-#: ../data/SettingsBehaviour.ui:511
+#: ../data/SettingsBehaviour.ui:534
 msgid ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -1054,7 +1059,7 @@ msgstr ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi kantparolojn</span>"
 
-#: ../data/SettingsBehaviour.ui:609
+#: ../data/SettingsBehaviour.ui:632
 msgid ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
@@ -1062,7 +1067,7 @@ msgstr ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Biografio de artisto</span>"
 
-#: ../data/SettingsBehaviour.ui:637
+#: ../data/SettingsBehaviour.ui:660
 msgid ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
@@ -1070,7 +1075,7 @@ msgstr ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi radiojn</span>"
 
-#: ../data/SettingsBehaviour.ui:665
+#: ../data/SettingsBehaviour.ui:688
 msgid ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
@@ -1078,7 +1083,7 @@ msgstr ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, informo, …</span>"
 
-#: ../data/SettingsBehaviour.ui:693
+#: ../data/SettingsBehaviour.ui:716
 msgid ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -1086,11 +1091,11 @@ msgstr ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi muziktekston</span>"
 
-#: ../data/SettingsBehaviour.ui:731
+#: ../data/SettingsBehaviour.ui:754
 msgid "Control your privacy by selecting allowed services"
 msgstr "Kontroli vian privatecon per la elekto de permesitaj servoj"
 
-#: ../data/SettingsBehaviour.ui:752
+#: ../data/SettingsBehaviour.ui:775
 msgid ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -1098,7 +1103,7 @@ msgstr ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi albumkovrilojn</span>"
 
-#: ../data/SettingsBehaviour.ui:766
+#: ../data/SettingsBehaviour.ui:789
 msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -1106,11 +1111,11 @@ msgstr ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Serĉi albumkovrilojn</span>"
 
-#: ../data/SettingsBehaviour.ui:832
+#: ../data/SettingsBehaviour.ui:855
 msgid "Only in party mode"
 msgstr "Nur en festreĝimo"
 
-#: ../data/SettingsBehaviour.ui:882
+#: ../data/SettingsBehaviour.ui:905
 msgid "Transition duration in seconds"
 msgstr "Daŭro de transirado en sekundoj"
 
@@ -2041,7 +2046,7 @@ msgstr "estas malpli ol"
 msgid "Song played %s times"
 msgstr "Kanto ludita %s fojoj"
 
-#: ../lollypop/widgets_settings_behaviour.py:215
+#: ../lollypop/widgets_settings_behaviour.py:230
 msgid "You need to install kid3-cli"
 msgstr "Vi bezonas instali kid3-cli"
 
