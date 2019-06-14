@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-03 13:41+0200\n"
+"POT-Creation-Date: 2019-06-14 14:56+0200\n"
 "PO-Revision-Date: 2019-06-13 11:24+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -42,6 +42,7 @@ msgstr "Vinduesposition (x og y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:54
 #: ../data/org.gnome.Lollypop.gschema.xml:69
 #: ../data/org.gnome.Lollypop.gschema.xml:94
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 #: ../data/org.gnome.Lollypop.gschema.xml:246
 #: ../data/org.gnome.Lollypop.gschema.xml:251
 #: ../data/org.gnome.Lollypop.gschema.xml:256
@@ -82,7 +83,7 @@ msgstr "Aktivér genrer i festtilstand"
 msgid "ID for genres."
 msgstr "ID for genrer."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:89 ../data/SettingsBehaviour.ui:368
+#: ../data/org.gnome.Lollypop.gschema.xml:89
 msgid "Allow syncing to USB disks"
 msgstr "Tillad synkronisering til USB-diske"
 
@@ -229,10 +230,6 @@ msgstr "Deaktivér alle underretninger"
 #: ../data/org.gnome.Lollypop.gschema.xml:233
 msgid "Disable notifications upon change of song"
 msgstr "Deaktivér underretninger når sangen ændres"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:237
-msgid "Fullscreen album rotates"
-msgstr "Fuldskærmsalbum roteres"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show track number from tags"
@@ -407,10 +404,6 @@ msgstr "Understøttelse af HiDPI"
 msgid "TuneIn support"
 msgstr "Understøttelse af TuneIn"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:32
-msgid "Bug fixes"
-msgstr "Fejlrettelser"
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Musik afspiller"
@@ -423,13 +416,13 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "Afspil/Sæt på pause"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:223
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:229
 #: ../data/ToolbarPlayback.ui:103 ../lollypop/notification.py:40
-#: ../lollypop/toolbar_end.py:315
+#: ../lollypop/toolbar_end.py:271
 msgid "Next"
 msgstr "Næste"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:181
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:183
 #: ../data/ToolbarPlayback.ui:65 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "Forrige"
@@ -462,32 +455,28 @@ msgstr "_Tastaturgenveje"
 msgid "_About"
 msgstr "_Om"
 
-#: ../data/ArtistInformation.ui:78 ../data/ArtistInformation.ui:90
-msgid "Turn on background data"
-msgstr "Slår baggrundsdata til"
-
-#: ../data/ArtistInformation.ui:142 ../lollypop/menu_toolbar.py:37
+#: ../data/ArtistInformation.ui:91 ../lollypop/menu_toolbar.py:37
 msgid "Show lyrics"
 msgstr "Vis sangtekst"
 
-#: ../data/ArtistInformation.ui:162 ../lollypop/view_albums_list.py:141
+#: ../data/ArtistInformation.ui:111 ../lollypop/view_albums_list.py:140
 msgid "Go to artist view"
 msgstr "Gå til kunstner-visning"
 
-#: ../data/ArtistView.ui:105 ../lollypop/widgets_album_simple.py:184
+#: ../data/ArtistView.ui:98 ../lollypop/widgets_album_simple.py:184
 msgid "Play albums"
 msgstr "Afspil albummer"
 
-#: ../data/ArtistView.ui:124
+#: ../data/ArtistView.ui:118
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Tilføj til nuværende playliste"
 
-#: ../data/ArtistView.ui:143 ../data/SimilarsPopover.ui:77
+#: ../data/ArtistView.ui:138 ../data/SimilarsPopover.ui:77
 msgid "Similar artists"
 msgstr "Ligende kunstnere"
 
-#: ../data/ArtistView.ui:163 ../data/PlaylistView.ui:86
+#: ../data/ArtistView.ui:159 ../data/PlaylistView.ui:86
 #: ../lollypop/view_current_albums.py:56
 msgid "Go to current track"
 msgstr "Gå til aktuelle spor"
@@ -522,50 +511,50 @@ msgstr "API-nøgle"
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr "<b>Opret venligst en \"Custom Search Engine\" her</b>:"
 
-#: ../data/DeviceWidget.ui:101
+#: ../data/DeviceWidget.ui:98
 msgid "Convert to:"
 msgstr "Konvertér til:"
 
-#: ../data/DeviceWidget.ui:113
+#: ../data/DeviceWidget.ui:110
 msgid "Normalize"
 msgstr "Normaliser"
 
-#: ../data/DeviceWidget.ui:134
+#: ../data/DeviceWidget.ui:131
 msgid "Do not convert"
 msgstr "Konvertér ikke"
 
-#: ../data/DeviceWidget.ui:151
+#: ../data/DeviceWidget.ui:148
 msgid "MP3"
 msgstr "MP3"
 
-#: ../data/DeviceWidget.ui:168
+#: ../data/DeviceWidget.ui:165
 msgid "Ogg Vorbis"
 msgstr "Ogg Vorbis"
 
-#: ../data/DeviceWidget.ui:185
+#: ../data/DeviceWidget.ui:182
 msgid "AAC"
 msgstr "AAC"
 
-#: ../data/DeviceWidget.ui:202
+#: ../data/DeviceWidget.ui:199
 msgid "FLAC"
 msgstr "FLAC"
 
-#: ../data/DeviceWidget.ui:238
+#: ../data/DeviceWidget.ui:235
 msgid "Synchronized:"
 msgstr "Synkroniserede:"
 
-#: ../data/DeviceWidget.ui:251
+#: ../data/DeviceWidget.ui:248
 msgid "Albums"
 msgstr "Albummer"
 
-#: ../data/DeviceWidget.ui:267 ../lollypop/menu_objects.py:40
+#: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:40
 #: ../lollypop/menu_objects.py:63 ../lollypop/menu_toolbar.py:41
-#: ../lollypop/shown.py:39 ../lollypop/view_playlists_manager.py:36
+#: ../lollypop/shown.py:39
 msgid "Playlists"
 msgstr "Afspilningslister"
 
-#: ../data/DeviceWidget.ui:319 ../lollypop/widgets_device.py:131
-#: ../lollypop/widgets_device.py:323
+#: ../data/DeviceWidget.ui:316 ../lollypop/widgets_device.py:134
+#: ../lollypop/widgets_device.py:331
 msgid "Synchronize"
 msgstr "Synkroniserede"
 
@@ -573,7 +562,7 @@ msgstr "Synkroniserede"
 msgid "Translate"
 msgstr "Oversæt"
 
-#: ../data/MiniPlayer.ui:202 ../data/PlaylistView.ui:45
+#: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:45
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:102
 #: ../lollypop/controller_playback.py:129
@@ -584,10 +573,6 @@ msgstr "Oversæt"
 #: ../lollypop/view_tracks.py:446 ../lollypop/widgets_album_simple.py:174
 msgid "Play"
 msgstr "Afspil"
-
-#: ../data/NextPopover.ui:87
-msgid "Next track"
-msgstr "Næste spor"
 
 #: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:200
 msgid "Name:"
@@ -606,7 +591,7 @@ msgstr "Afspil afspilningsliste i tilfældig rækkefølge"
 msgid "Clear queue"
 msgstr "Ryd kø"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:466
+#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:417
 msgid "Queue"
 msgstr "Kø"
 
@@ -989,15 +974,14 @@ msgid "Smooth transitions"
 msgstr "Bløde overgange"
 
 #: ../data/SettingsBehaviour.ui:309 ../data/SettingsBehaviour.ui:339
-#: ../data/SettingsBehaviour.ui:380
 msgid "Allow network access"
 msgstr "Tillad netværksadgang"
 
-#: ../data/SettingsBehaviour.ui:432
+#: ../data/SettingsBehaviour.ui:409
 msgid "Search artwork in background"
 msgstr "Søg efter billede i baggrunden"
 
-#: ../data/SettingsBehaviour.ui:448
+#: ../data/SettingsBehaviour.ui:425
 msgid ""
 "Background data\n"
 "<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
@@ -1005,7 +989,7 @@ msgstr ""
 "Baggrundsdata\n"
 "<span size=\"x-small\" alpha=\"70%\">Søg efter billeder i baggrunden</span>"
 
-#: ../data/SettingsBehaviour.ui:464
+#: ../data/SettingsBehaviour.ui:441
 msgid ""
 "Last.fm and Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
@@ -1013,7 +997,7 @@ msgstr ""
 "Last.fm og Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, billede …</span>"
 
-#: ../data/SettingsBehaviour.ui:478
+#: ../data/SettingsBehaviour.ui:455
 msgid ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
@@ -1021,7 +1005,7 @@ msgstr ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Søg efter sange, billede …</span>"
 
-#: ../data/SettingsBehaviour.ui:492
+#: ../data/SettingsBehaviour.ui:469
 msgid ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
@@ -1029,7 +1013,7 @@ msgstr ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Afspilning af sange</span>"
 
-#: ../data/SettingsBehaviour.ui:506
+#: ../data/SettingsBehaviour.ui:483
 msgid ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -1037,16 +1021,13 @@ msgstr ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Billedsøgning</span>"
 
-#: ../data/SettingsBehaviour.ui:520
+#: ../data/SettingsBehaviour.ui:497
 msgid ""
-"DuckDuckGo\n"
-"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
-"span>"
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
-"DuckDuckGo\n"
-"<span size=\"x-small\" alpha=\"70%\">Kunstnerbiograf, billedsøgning …</span>"
 
-#: ../data/SettingsBehaviour.ui:534
+#: ../data/SettingsBehaviour.ui:511
 msgid ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -1054,7 +1035,7 @@ msgstr ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Søg efter sangtekster</span>"
 
-#: ../data/SettingsBehaviour.ui:632
+#: ../data/SettingsBehaviour.ui:609
 msgid ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
@@ -1062,7 +1043,7 @@ msgstr ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Kunstnerbiografi</span>"
 
-#: ../data/SettingsBehaviour.ui:660
+#: ../data/SettingsBehaviour.ui:637
 msgid ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
@@ -1070,7 +1051,7 @@ msgstr ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Søg efter radioer</span>"
 
-#: ../data/SettingsBehaviour.ui:688
+#: ../data/SettingsBehaviour.ui:665
 msgid ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
@@ -1078,7 +1059,7 @@ msgstr ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information …</span>"
 
-#: ../data/SettingsBehaviour.ui:716
+#: ../data/SettingsBehaviour.ui:693
 msgid ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -1086,11 +1067,11 @@ msgstr ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Søg efter sangtekster</span>"
 
-#: ../data/SettingsBehaviour.ui:754
+#: ../data/SettingsBehaviour.ui:731
 msgid "Control your privacy by selecting allowed services"
 msgstr "Styr dit privatliv ved at vælge tilladte tjenester"
 
-#: ../data/SettingsBehaviour.ui:775
+#: ../data/SettingsBehaviour.ui:752
 msgid ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -1098,7 +1079,7 @@ msgstr ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Billedsøgning</span>"
 
-#: ../data/SettingsBehaviour.ui:789
+#: ../data/SettingsBehaviour.ui:766
 msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -1106,11 +1087,18 @@ msgstr ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Billedsøgning</span>"
 
-#: ../data/SettingsBehaviour.ui:855
+#: ../data/SettingsBehaviour.ui:808
+msgid ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
+"span>"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:860
 msgid "Only in party mode"
 msgstr "Kun i festtilstand"
 
-#: ../data/SettingsBehaviour.ui:905
+#: ../data/SettingsBehaviour.ui:910
 msgid "Transition duration in seconds"
 msgstr "Varighed for overgang i sekunder"
 
@@ -1182,7 +1170,7 @@ msgstr ""
 "projekt.</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:350
+#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:355
 #: ../lollypop/window.py:404 ../lollypop/window.py:405
 msgid "Search"
 msgstr "Søgning"
@@ -1447,7 +1435,7 @@ msgstr "Gå tilbage"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:611
 #: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:402
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
@@ -1457,7 +1445,7 @@ msgstr "Gå hjem"
 msgid "Unknown"
 msgstr "Ukendt"
 
-#: ../lollypop/collectionscanner.py:453
+#: ../lollypop/collectionscanner.py:451
 msgid "Scan disabled, missing collection"
 msgstr "Skanning deaktiveret, manglende samling"
 
@@ -1527,9 +1515,9 @@ msgstr "Web"
 msgid "Configure Web services"
 msgstr "Konfigurer webtjenester"
 
-#: ../lollypop/fullscreen.py:275 ../lollypop/toolbar_info.py:127
+#: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
 #: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102
-#: ../lollypop/view_artist.py:112 ../lollypop/view_information.py:187
+#: ../lollypop/view_artist.py:112 ../lollypop/view_information.py:126
 msgid "You are using a broken cursor theme!"
 msgstr "Du bruger et ødelagt markørtema!"
 
@@ -1537,7 +1525,7 @@ msgstr "Du bruger et ødelagt markørtema!"
 msgid "Add to current playlist"
 msgstr "Tilføj til nuværende afspilningsliste"
 
-#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:131
+#: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:130
 #: ../lollypop/view_artist_common.py:73
 msgid "Remove from current playlist"
 msgstr "Fjern fra nuværende afspilningsliste"
@@ -1574,7 +1562,7 @@ msgstr "Tilgængelige albummer"
 msgid "Other albums"
 msgstr "Andre albummer"
 
-#: ../lollypop/menu_edit.py:56 ../lollypop/view_albums_list.py:136
+#: ../lollypop/menu_edit.py:56 ../lollypop/view_albums_list.py:135
 msgid "Save in collection"
 msgstr "Gem i samling"
 
@@ -1587,7 +1575,7 @@ msgid "Modify information"
 msgstr "Rediger information"
 
 #: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
-#: ../lollypop/pop_menu_views.py:46
+#: ../lollypop/menu_selectionlist.py:54
 msgid "Synchronization"
 msgstr "Synkronisering"
 
@@ -1643,7 +1631,7 @@ msgstr "Fjern afspilningsliste"
 msgid "Remove this playlist?"
 msgstr "Fjern afspilningslisten?"
 
-#: ../lollypop/menu_playlist.py:95 ../lollypop/widgets_device.py:138
+#: ../lollypop/menu_playlist.py:95 ../lollypop/widgets_device.py:141
 msgid "Cancel"
 msgstr "Annuller"
 
@@ -1660,6 +1648,22 @@ msgstr "Fjern fra \"%s\""
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Tilføj til \"%s\""
+
+#: ../lollypop/menu_selectionlist.py:76
+msgid "Default on startup"
+msgstr "Standard ved start"
+
+#: ../lollypop/menu_selectionlist.py:79
+msgid "Startup"
+msgstr "Opstart"
+
+#: ../lollypop/menu_selectionlist.py:106
+msgid "Sections"
+msgstr "Sektioner"
+
+#: ../lollypop/menu_sync.py:35
+msgid "No device connected"
+msgstr ""
 
 #: ../lollypop/menu_toolbar.py:38
 msgid "Lyrics"
@@ -1708,18 +1712,6 @@ msgstr "Fjern spor"
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
-#: ../lollypop/pop_menu_views.py:68
-msgid "Default on startup"
-msgstr "Standard ved start"
-
-#: ../lollypop/pop_menu_views.py:71
-msgid "Startup"
-msgstr "Opstart"
-
-#: ../lollypop/pop_menu_views.py:96
-msgid "Sections"
-msgstr "Sektioner"
-
 #: ../lollypop/pop_tunein.py:93 ../lollypop/pop_tunein.py:408
 msgid "Can't connect to TuneIn…"
 msgstr "Kan ikke oprette forbindelse til TuneIn…"
@@ -1728,7 +1720,7 @@ msgstr "Kan ikke oprette forbindelse til TuneIn…"
 msgid "No result…"
 msgstr "Intet resultat…"
 
-#: ../lollypop/selectionlist.py:352 ../lollypop/window.py:407
+#: ../lollypop/selectionlist.py:357 ../lollypop/window.py:407
 #: ../lollypop/window.py:408
 msgid "Current playlist"
 msgstr "Nuværende afspilningsliste"
@@ -1773,15 +1765,15 @@ msgstr "Samlinger"
 msgid "Unplayed"
 msgstr "Uafspillede"
 
-#: ../lollypop/toolbar_end.py:311
+#: ../lollypop/toolbar_end.py:267
 msgid "All genres"
 msgstr "Alle genrer"
 
-#: ../lollypop/toolbar_end.py:468
+#: ../lollypop/toolbar_end.py:419
 msgid "Playing playlists"
 msgstr "Afspiller afspilningslister"
 
-#: ../lollypop/toolbar_end.py:470 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:421 ../lollypop/view_current_albums.py:58
 msgid "Playing albums"
 msgstr "Afspillende albummer"
 
@@ -1808,23 +1800,23 @@ msgstr "The the Den den De de"
 msgid "Others albums from"
 msgstr "Andre albummer fra"
 
-#: ../lollypop/view_albums_box.py:47
+#: ../lollypop/view_albums_box.py:46
 msgid "Network not available"
 msgstr "Netværk ikke tilgængeligt"
 
-#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:490
+#: ../lollypop/view_albums_box.py:49 ../lollypop/view_albums_list.py:489
 msgid "Missing youtube-dl command"
 msgstr "Mangler youtube-dl-kommando"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:53
 msgid "You need to enable Spotify "
 msgstr "Du skal aktivere Spotify "
 
-#: ../lollypop/view_albums_box.py:55
+#: ../lollypop/view_albums_box.py:54
 msgid "and YouTube in network settings"
 msgstr "og YouTube i netværksindstillinger"
 
-#: ../lollypop/view_albums_list.py:115
+#: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
 msgstr "Samling"
 
@@ -1832,42 +1824,42 @@ msgstr "Samling"
 msgid "Clear albums"
 msgstr "Ryd albummer"
 
-#: ../lollypop/view_information.py:199 ../lollypop/view_information.py:327
+#: ../lollypop/view_information.py:141
 msgid "Loading information"
 msgstr "Indlæser information"
 
-#: ../lollypop/view_information.py:236 ../lollypop/view_information.py:322
+#: ../lollypop/view_information.py:145
 #, python-format
 msgid "No information for %s"
 msgstr "Ingen information for %s"
 
-#: ../lollypop/view_lyrics.py:64
+#: ../lollypop/view_lyrics.py:66
 msgid "Loading…"
 msgstr "Indlæser…"
 
-#: ../lollypop/view_lyrics.py:86
+#: ../lollypop/view_lyrics.py:88
 msgid "You have disabled lyrics search in network settings !"
 msgstr ""
 "Du har deaktiveret søgning after sangtekster i netværksindstillingerne!"
 
-#: ../lollypop/view_lyrics.py:133
+#: ../lollypop/view_lyrics.py:137
 msgid "You need to install python3-textblob module"
 msgstr "Du skal installere python3-textblob-modulet"
 
-#: ../lollypop/view_lyrics.py:138
+#: ../lollypop/view_lyrics.py:142
 msgid "Can't translate this lyrics"
 msgstr "Kan ikke oversætte sangteksten"
 
-#: ../lollypop/view_lyrics.py:271
+#: ../lollypop/view_lyrics.py:276
 msgid "No lyrics found "
 msgstr "Der blev ikke fundet nogen sangtekster "
 
-#: ../lollypop/view_playlists_manager.py:40
+#: ../lollypop/view_playlists_manager.py:39
 msgid "New playlist"
 msgstr "Ny afspilningsliste"
 
-#: ../lollypop/view_playlists_manager.py:209
-#: ../lollypop/view_playlists_manager.py:212
+#: ../lollypop/view_playlists_manager.py:208
+#: ../lollypop/view_playlists_manager.py:211
 msgid "New playlist "
 msgstr "Ny afspilningsliste "
 
@@ -1888,15 +1880,15 @@ msgstr "<big>Søg efter kunstnere, albummer og spor</big>"
 msgid "Disc %s"
 msgstr "Disk %s"
 
-#: ../lollypop/widgets_artwork.py:144
+#: ../lollypop/widgets_artwork.py:147
 msgid "Select artwork"
 msgstr "Vælg billede"
 
-#: ../lollypop/widgets_artwork.py:326
-msgid "DuckDuckGo and Google turned off in the settings"
+#: ../lollypop/widgets_artwork.py:189
+msgid "Local"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:450
+#: ../lollypop/widgets_artwork.py:448
 msgid "Reset artwork?"
 msgstr "Nulstil billede?"
 
@@ -1904,11 +1896,11 @@ msgstr "Nulstil billede?"
 msgid "Change artwork"
 msgstr "Skift billede"
 
-#: ../lollypop/widgets_device.py:113
+#: ../lollypop/widgets_device.py:115
 msgid "No synchronized albums"
 msgstr ""
 
-#: ../lollypop/widgets_device.py:124
+#: ../lollypop/widgets_device.py:127
 msgid "No synchronized playlists"
 msgstr "Ingen synkroniserede afspilningslister"
 
@@ -2042,7 +2034,7 @@ msgstr "er mindre end"
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
 
-#: ../lollypop/widgets_settings_behaviour.py:230
+#: ../lollypop/widgets_settings_behaviour.py:215
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli skal være installeret"
 
@@ -2070,6 +2062,27 @@ msgstr[1] "%d spor"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Bruger indstillinger fra \"GNOME Onlinekonti\""
+
+#~ msgid "Fullscreen album rotates"
+#~ msgstr "Fuldskærmsalbum roteres"
+
+#~ msgid "Bug fixes"
+#~ msgstr "Fejlrettelser"
+
+#~ msgid "Turn on background data"
+#~ msgstr "Slår baggrundsdata til"
+
+#~ msgid "Next track"
+#~ msgstr "Næste spor"
+
+#~ msgid ""
+#~ "DuckDuckGo\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
+#~ "span>"
+#~ msgstr ""
+#~ "DuckDuckGo\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Kunstnerbiograf, billedsøgning …</"
+#~ "span>"
 
 #~ msgid "Better search"
 #~ msgstr "Bedre søgning"
