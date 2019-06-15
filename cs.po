@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 09:41+0200\n"
+"POT-Creation-Date: 2019-06-15 13:22+0200\n"
 "PO-Revision-Date: 2019-05-10 08:13+0000\n"
 "Last-Translator: Attila Farkas <farkasattila@ymail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -1088,8 +1088,12 @@ msgstr "Doba trvání přechodu v sekundách"
 msgid "Reset database"
 msgstr "Obnovit výchozí stav databáze"
 
-#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:78
-#: ../lollypop/dialog_settings.py:81
+#: ../data/SettingsDevices.ui:44
+msgid "Remove devices managed by Lollypop:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:85
+#: ../lollypop/dialog_settings.py:88
 msgid "Preferences"
 msgstr "Nastavení"
 
@@ -1465,38 +1469,46 @@ msgstr "Pozastavit"
 msgid "Many artists"
 msgstr "Mnoho umělců"
 
-#: ../lollypop/dialog_settings.py:40 ../lollypop/view_settings.py:38
+#: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:38
 msgid "Appearance"
 msgstr "Vzhled"
 
-#: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:39
+#: ../lollypop/dialog_settings.py:42 ../lollypop/view_settings.py:39
 msgid "Configure Lollypop appearance"
 msgstr "Nastavit vzhled Lollypopu"
 
-#: ../lollypop/dialog_settings.py:45 ../lollypop/view_settings.py:41
+#: ../lollypop/dialog_settings.py:46 ../lollypop/view_settings.py:41
 msgid "Behaviour"
 msgstr "Chování"
 
-#: ../lollypop/dialog_settings.py:46 ../lollypop/view_settings.py:42
+#: ../lollypop/dialog_settings.py:47 ../lollypop/view_settings.py:42
 msgid "Configure Lollypop behaviour"
 msgstr "Nastavit chování Lollypopu"
 
-#: ../lollypop/dialog_settings.py:50 ../lollypop/view_settings.py:44
+#: ../lollypop/dialog_settings.py:51 ../lollypop/view_settings.py:44
 msgid "Music"
 msgstr "Hudba"
 
-#: ../lollypop/dialog_settings.py:51 ../lollypop/view_settings.py:45
+#: ../lollypop/dialog_settings.py:52 ../lollypop/view_settings.py:45
 msgid "Select music folders"
 msgstr "Vybrat složky s hudbou"
 
-#: ../lollypop/dialog_settings.py:55 ../lollypop/shown.py:51
+#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:51
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Internet"
 
-#: ../lollypop/dialog_settings.py:56 ../lollypop/view_settings.py:48
+#: ../lollypop/dialog_settings.py:57 ../lollypop/view_settings.py:48
 msgid "Configure Web services"
 msgstr "Nastavit internetové služby"
+
+#: ../lollypop/dialog_settings.py:61
+msgid "Devices"
+msgstr ""
+
+#: ../lollypop/dialog_settings.py:62
+msgid "Manage devices"
+msgstr ""
 
 #: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
 #: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102

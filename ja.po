@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 09:41+0200\n"
+"POT-Creation-Date: 2019-06-15 13:22+0200\n"
 "PO-Revision-Date: 2019-02-13 10:10+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -1083,8 +1083,12 @@ msgstr "遷移時間 (秒単位)"
 msgid "Reset database"
 msgstr "データベースをリセット"
 
-#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:78
-#: ../lollypop/dialog_settings.py:81
+#: ../data/SettingsDevices.ui:44
+msgid "Remove devices managed by Lollypop:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:85
+#: ../lollypop/dialog_settings.py:88
 msgid "Preferences"
 msgstr "設定"
 
@@ -1457,38 +1461,46 @@ msgstr "一時停止"
 msgid "Many artists"
 msgstr "多くのアーティスト"
 
-#: ../lollypop/dialog_settings.py:40 ../lollypop/view_settings.py:38
+#: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:38
 msgid "Appearance"
 msgstr "外観"
 
-#: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:39
+#: ../lollypop/dialog_settings.py:42 ../lollypop/view_settings.py:39
 msgid "Configure Lollypop appearance"
 msgstr "Lollypop の外観を設定"
 
-#: ../lollypop/dialog_settings.py:45 ../lollypop/view_settings.py:41
+#: ../lollypop/dialog_settings.py:46 ../lollypop/view_settings.py:41
 msgid "Behaviour"
 msgstr "動作"
 
-#: ../lollypop/dialog_settings.py:46 ../lollypop/view_settings.py:42
+#: ../lollypop/dialog_settings.py:47 ../lollypop/view_settings.py:42
 msgid "Configure Lollypop behaviour"
 msgstr "Lollypop の動作を設定"
 
-#: ../lollypop/dialog_settings.py:50 ../lollypop/view_settings.py:44
+#: ../lollypop/dialog_settings.py:51 ../lollypop/view_settings.py:44
 msgid "Music"
 msgstr "音楽"
 
-#: ../lollypop/dialog_settings.py:51 ../lollypop/view_settings.py:45
+#: ../lollypop/dialog_settings.py:52 ../lollypop/view_settings.py:45
 msgid "Select music folders"
 msgstr "音楽フォルダーを選択"
 
-#: ../lollypop/dialog_settings.py:55 ../lollypop/shown.py:51
+#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:51
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "ウェブ"
 
-#: ../lollypop/dialog_settings.py:56 ../lollypop/view_settings.py:48
+#: ../lollypop/dialog_settings.py:57 ../lollypop/view_settings.py:48
 msgid "Configure Web services"
 msgstr "ウェブサービスを設定"
+
+#: ../lollypop/dialog_settings.py:61
+msgid "Devices"
+msgstr ""
+
+#: ../lollypop/dialog_settings.py:62
+msgid "Manage devices"
+msgstr ""
 
 #: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
 #: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102

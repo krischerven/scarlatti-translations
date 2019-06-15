@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 09:41+0200\n"
+"POT-Creation-Date: 2019-06-15 13:22+0200\n"
 "PO-Revision-Date: 2018-09-29 00:33+0000\n"
 "Last-Translator: Slobodan Terzić <githzerai06@gmail.com>\n"
 "Language-Team: Serbian (latin) <https://hosted.weblate.org/projects/gnumdk/"
@@ -1073,8 +1073,12 @@ msgstr "Trajanje prelaaza u seundama"
 msgid "Reset database"
 msgstr "Resetuj bazu podataka"
 
-#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:78
-#: ../lollypop/dialog_settings.py:81
+#: ../data/SettingsDevices.ui:44
+msgid "Remove devices managed by Lollypop:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:85
+#: ../lollypop/dialog_settings.py:88
 msgid "Preferences"
 msgstr "Postavke"
 
@@ -1440,37 +1444,45 @@ msgstr "Pauziraj"
 msgid "Many artists"
 msgstr "Mnogi izvođači"
 
-#: ../lollypop/dialog_settings.py:40 ../lollypop/view_settings.py:38
+#: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:38
 msgid "Appearance"
 msgstr "Izgled"
 
-#: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:39
+#: ../lollypop/dialog_settings.py:42 ../lollypop/view_settings.py:39
 msgid "Configure Lollypop appearance"
 msgstr "Podesi izgled Lolipopa"
 
-#: ../lollypop/dialog_settings.py:45 ../lollypop/view_settings.py:41
+#: ../lollypop/dialog_settings.py:46 ../lollypop/view_settings.py:41
 msgid "Behaviour"
 msgstr "Ponašanje programa"
 
-#: ../lollypop/dialog_settings.py:46 ../lollypop/view_settings.py:42
+#: ../lollypop/dialog_settings.py:47 ../lollypop/view_settings.py:42
 msgid "Configure Lollypop behaviour"
 msgstr "Podesi ponašanje Lolipopa"
 
-#: ../lollypop/dialog_settings.py:50 ../lollypop/view_settings.py:44
+#: ../lollypop/dialog_settings.py:51 ../lollypop/view_settings.py:44
 msgid "Music"
 msgstr "Muzika"
 
-#: ../lollypop/dialog_settings.py:51 ../lollypop/view_settings.py:45
+#: ../lollypop/dialog_settings.py:52 ../lollypop/view_settings.py:45
 msgid "Select music folders"
 msgstr "Izaberi direktorijume sa muzikom"
 
-#: ../lollypop/dialog_settings.py:55 ../lollypop/shown.py:51
+#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:51
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Veb"
 
-#: ../lollypop/dialog_settings.py:56 ../lollypop/view_settings.py:48
+#: ../lollypop/dialog_settings.py:57 ../lollypop/view_settings.py:48
 msgid "Configure Web services"
+msgstr ""
+
+#: ../lollypop/dialog_settings.py:61
+msgid "Devices"
+msgstr ""
+
+#: ../lollypop/dialog_settings.py:62
+msgid "Manage devices"
 msgstr ""
 
 #: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
