@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 13:22+0200\n"
+"POT-Creation-Date: 2019-06-17 12:12+0200\n"
 "PO-Revision-Date: 2019-06-17 09:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -1124,8 +1124,8 @@ msgstr "Tilbakestill database"
 msgid "Remove devices managed by Lollypop:"
 msgstr "Fjern enheter håndtert av Lollypop:"
 
-#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:85
-#: ../lollypop/dialog_settings.py:88
+#: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:88
+#: ../lollypop/dialog_settings.py:91
 msgid "Preferences"
 msgstr "Innstillinger"
 
@@ -1189,7 +1189,7 @@ msgstr ""
 "ditt prosjekt.</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:355
+#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:353
 #: ../lollypop/window.py:404 ../lollypop/window.py:405
 msgid "Search"
 msgstr "Søk"
@@ -1457,8 +1457,8 @@ msgstr "Gå tilbake"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:611
-#: ../lollypop/container_lists.py:156 ../lollypop/database_tracks.py:402
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
+#: ../lollypop/container_lists.py:165 ../lollypop/database_tracks.py:402
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1467,12 +1467,12 @@ msgstr "Gå hjem"
 msgid "Unknown"
 msgstr "Ukjent"
 
-#: ../lollypop/collectionscanner.py:451
+#: ../lollypop/collectionscanner.py:453
 #, fuzzy
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
 
-#: ../lollypop/container_lists.py:134 ../lollypop/shown.py:57
+#: ../lollypop/container_lists.py:141 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "Alle artister"
 
@@ -1539,11 +1539,11 @@ msgstr "Nett"
 msgid "Configure Web services"
 msgstr "Konfigurer webtjenester"
 
-#: ../lollypop/dialog_settings.py:61
+#: ../lollypop/dialog_settings.py:61 ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Enheter"
 
-#: ../lollypop/dialog_settings.py:62
+#: ../lollypop/dialog_settings.py:62 ../lollypop/view_settings.py:51
 msgid "Manage devices"
 msgstr "Håndter enehter"
 
@@ -1752,14 +1752,14 @@ msgstr "Kan ikke koble til TuneIn…"
 msgid "No result…"
 msgstr "Ingen resultat…"
 
-#: ../lollypop/selectionlist.py:357 ../lollypop/window.py:407
+#: ../lollypop/selectionlist.py:355 ../lollypop/window.py:407
 #: ../lollypop/window.py:408
 msgid "Current playlist"
 msgstr "Nåværende spilleliste"
 
-#: ../lollypop/selectionlist.py:535
-msgid "No device connected"
-msgstr "Ingen enheter tilkoblet"
+#: ../lollypop/selectionlist.py:533
+msgid "No connected devices"
+msgstr ""
 
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
@@ -1889,12 +1889,12 @@ msgstr "Kan ikke oversette denne teksten"
 msgid "No lyrics found "
 msgstr "Fant ikke noen sangtekster "
 
-#: ../lollypop/view_playlists_manager.py:39
+#: ../lollypop/view_playlists_manager.py:40
 msgid "New playlist"
 msgstr "Ny spilleliste"
 
-#: ../lollypop/view_playlists_manager.py:208
 #: ../lollypop/view_playlists_manager.py:211
+#: ../lollypop/view_playlists_manager.py:214
 msgid "New playlist "
 msgstr "Ny spilleliste "
 
@@ -2097,6 +2097,9 @@ msgstr[1] "%d spor"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Bruk innstillinger fra \"GNOME nettbaserte kontoer\""
+
+#~ msgid "No device connected"
+#~ msgstr "Ingen enheter tilkoblet"
 
 #~ msgid "Fullscreen album rotates"
 #~ msgstr "Fullskjermsalbum roterer"
