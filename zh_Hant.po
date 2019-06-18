@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-17 12:12+0200\n"
-"PO-Revision-Date: 2019-06-13 11:23+0000\n"
+"PO-Revision-Date: 2019-06-19 13:01+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.7\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:34
 msgid "Window size"
@@ -1010,6 +1010,8 @@ msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
 
 #: ../data/SettingsBehaviour.ui:511
 msgid ""
@@ -1077,6 +1079,8 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
 "span>"
 msgstr ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">演出者介紹、封面圖像搜尋…</span>"
 
 #: ../data/SettingsBehaviour.ui:860
 msgid "Only in party mode"
@@ -1092,7 +1096,7 @@ msgstr "重設資料庫"
 
 #: ../data/SettingsDevices.ui:44
 msgid "Remove devices managed by Lollypop:"
-msgstr ""
+msgstr "移除 Lollypop 管理的裝置："
 
 #: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:88
 #: ../lollypop/dialog_settings.py:91
@@ -1146,7 +1150,7 @@ msgstr ""
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
-msgstr ""
+msgstr "<small>您需要啟用您專案的「Custom Search API」和「YouTube API v3」。</small>"
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
 #: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:353
@@ -1292,11 +1296,11 @@ msgstr "隨機"
 
 #: ../data/SmartPlaylistView.ui:137
 msgid "album"
-msgstr ""
+msgstr "專輯"
 
 #: ../data/SmartPlaylistView.ui:138
 msgid "artist"
-msgstr ""
+msgstr "演出者"
 
 #: ../data/SmartPlaylistView.ui:139
 msgid "year DESC"
@@ -1336,7 +1340,7 @@ msgstr "曲風"
 
 #: ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
-msgstr ""
+msgstr "專輯"
 
 #: ../data/SmartPlaylistWidget.ui:31
 msgid "Rating"
@@ -1496,11 +1500,11 @@ msgstr "設定網路服務"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/view_settings.py:50
 msgid "Devices"
-msgstr ""
+msgstr "裝置"
 
 #: ../lollypop/dialog_settings.py:62 ../lollypop/view_settings.py:51
 msgid "Manage devices"
-msgstr ""
+msgstr "管理裝置"
 
 #: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
 #: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102
@@ -1564,7 +1568,7 @@ msgstr "修改資訊"
 #: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
 #: ../lollypop/menu_selectionlist.py:54
 msgid "Synchronization"
-msgstr ""
+msgstr "同步"
 
 #: ../lollypop/menu_objects.py:42 ../lollypop/menu_objects.py:65
 msgid "Edit"
@@ -1646,11 +1650,11 @@ msgstr "初始啟動"
 
 #: ../lollypop/menu_selectionlist.py:106
 msgid "Sections"
-msgstr ""
+msgstr "區段"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
-msgstr ""
+msgstr "所有裝置"
 
 #: ../lollypop/menu_toolbar.py:38
 msgid "Lyrics"
@@ -1714,7 +1718,7 @@ msgstr "目前的播放清單"
 
 #: ../lollypop/selectionlist.py:533
 msgid "No connected devices"
-msgstr ""
+msgstr "無連接的裝置"
 
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
@@ -1846,16 +1850,16 @@ msgstr "找不到歌詞 "
 
 #: ../lollypop/view_playlists_manager.py:40
 msgid "New playlist"
-msgstr ""
+msgstr "新播放清單"
 
 #: ../lollypop/view_playlists_manager.py:211
 #: ../lollypop/view_playlists_manager.py:214
 msgid "New playlist "
-msgstr ""
+msgstr "新播放清單 "
 
 #: ../lollypop/view.py:61
 msgid "No items to show"
-msgstr ""
+msgstr "沒有可顯示的項目"
 
 #: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
@@ -1876,7 +1880,7 @@ msgstr "選取封面"
 
 #: ../lollypop/widgets_artwork.py:189
 msgid "Local"
-msgstr ""
+msgstr "本機"
 
 #: ../lollypop/widgets_artwork.py:448
 msgid "Reset artwork?"
@@ -1888,11 +1892,11 @@ msgstr "變更封面"
 
 #: ../lollypop/widgets_device.py:115
 msgid "No synchronized albums"
-msgstr ""
+msgstr "沒有同步的專輯"
 
 #: ../lollypop/widgets_device.py:127
 msgid "No synchronized playlists"
-msgstr ""
+msgstr "沒有同步的播放清單"
 
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
 #: ../lollypop/widgets_equalizer.py:147
