@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-17 12:12+0200\n"
+"POT-Creation-Date: 2019-06-25 15:46+0200\n"
 "PO-Revision-Date: 2019-06-14 12:55+0000\n"
 "Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -132,7 +132,7 @@ msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr "تصفير هذه القيمة سيصفِّر قاعدة البيانات. ستستعاد الألبومات الشهيرة"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:268
+#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:273
 msgid "Albums cover size"
 msgstr "حجم صورة غطاء الألبوم"
 
@@ -165,8 +165,8 @@ msgstr "أظهر المؤدين"
 msgid "Show sidebar"
 msgstr "أظهر الشريط الجانبي"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174 ../data/SettingsAppearance.ui:178
-#: ../data/SettingsAppearance.ui:192
+#: ../data/org.gnome.Lollypop.gschema.xml:174 ../data/SettingsAppearance.ui:183
+#: ../data/SettingsAppearance.ui:197
 msgid "Show artist artwork"
 msgstr "أظهر صورة الفنان"
 
@@ -186,7 +186,7 @@ msgstr "تعطيل استخدام scrobbler"
 msgid "Handle compilations"
 msgstr "التعامل مع التجميعات"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsAppearance.ui:338
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsAppearance.ui:347
 msgid "Show compilations in albums view"
 msgstr "أظهر المجموعات في عرض الألبومات"
 
@@ -279,7 +279,7 @@ msgstr "هذا الخيار يمنع شاشة التوقف والتعليق أث
 msgid "Repeat"
 msgstr "أعد"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:341 ../data/SettingsAppearance.ui:221
+#: ../data/org.gnome.Lollypop.gschema.xml:341 ../data/SettingsAppearance.ui:226
 msgid "Order albums by"
 msgstr "رتب الألبومات بـ"
 
@@ -454,51 +454,32 @@ msgstr "أظهر الكلمات"
 msgid "Go to artist view"
 msgstr "إذهب إلى عرض الفنان"
 
-#: ../data/ArtistView.ui:98 ../lollypop/widgets_album_simple.py:184
+#: ../data/ArtistView.ui:97 ../lollypop/widgets_album_simple.py:184
 msgid "Play albums"
 msgstr "شغِّل الألبومات"
 
-#: ../data/ArtistView.ui:118
+#: ../data/ArtistView.ui:116
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "أضف إلى قائمة التشغيل الحالية"
 
-#: ../data/ArtistView.ui:138 ../data/SimilarsPopover.ui:77
+#: ../data/ArtistView.ui:135 ../data/SimilarsPopover.ui:77
 msgid "Similar artists"
 msgstr "فنانون مشابهون"
 
-#: ../data/ArtistView.ui:159 ../data/PlaylistView.ui:86
-#: ../lollypop/view_current_albums.py:56
+#: ../data/ArtistView.ui:155 ../data/PlaylistView.ui:83
+#: ../lollypop/view_current_albums.py:57
 msgid "Go to current track"
 msgstr "انتقل إلى القطعة الحالية"
 
-#: ../data/ArtworkSearch.ui:40 ../data/RadioPopover.ui:46
-#: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:164
+#: ../data/ArtworkSearch.ui:35
 msgid "Select a local file"
 msgstr "استخدم ملفا محليا"
 
-#: ../data/ArtworkSearch.ui:131 ../data/SettingsCollections.ui:44
+#: ../data/ArtworkSearch.ui:126 ../data/SettingsCollections.ui:44
 #: ../lollypop/menu_playlist.py:79 ../lollypop/pop_playlist_edit.py:63
 msgid "Confirm"
 msgstr "أكد"
-
-#: ../data/ArtworkSearch.ui:230
-msgid ""
-"<b>Lollypop uses the Google Custom Search API to search for images on the "
-"web.</b>\n"
-"<small>This API is limited, so it may not work with the default API key.</"
-"small>"
-msgstr ""
-"<b>Lollypop يستخدم بحث مخصص جوجل API للبحث عن الصور في الانترنت.</b>\n"
-"<small>هذا محدود، حيث أنها قد لا تعمل مع مفتاح API  الافتراضي.</small>"
-
-#: ../data/ArtworkSearch.ui:262 ../data/SettingsWeb.ui:358
-msgid "API key"
-msgstr "مفتاح API"
-
-#: ../data/ArtworkSearch.ui:274
-msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
-msgstr "<b>الرجاء إنشاء \"محرك بحث مخصص\" هنا</b>:"
 
 #: ../data/DeviceWidget.ui:98
 msgid "Convert to:"
@@ -542,16 +523,16 @@ msgstr "الألبومات"
 msgid "Playlists"
 msgstr "قوائم التشغيل"
 
-#: ../data/DeviceWidget.ui:316 ../lollypop/widgets_device.py:134
+#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:134
 #: ../lollypop/widgets_device.py:331
 msgid "Synchronize"
 msgstr "مزامنة"
 
-#: ../data/LyricsView.ui:75
+#: ../data/LyricsView.ui:67
 msgid "Translate"
 msgstr "ترجم"
 
-#: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:45
+#: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:84
 #: ../lollypop/controller_playback.py:102
 #: ../lollypop/controller_playback.py:129
@@ -563,16 +544,16 @@ msgstr "ترجم"
 msgid "Play"
 msgstr "شغِّل"
 
-#: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:200
+#: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:28
 msgid "Name:"
 msgstr "الاسم:"
 
-#: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:278
+#: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:106
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:94
 msgid "Save"
 msgstr "احفظ"
 
-#: ../data/PlaylistView.ui:65
+#: ../data/PlaylistView.ui:63
 msgid "Play playlist randomized"
 msgstr "شغل القائمة عشوائيا"
 
@@ -584,19 +565,7 @@ msgstr "امح قائمة الانتظار"
 msgid "Queue"
 msgstr "قائمة الانتظار"
 
-#: ../data/RadioPopover.ui:34 ../lollypop/pop_tunein.py:160
-msgid "Please wait…"
-msgstr "الرجاء الانتظار…"
-
-#: ../data/RadioPopover.ui:75
-msgid "No logo found…"
-msgstr "لم أعثر على شعار…"
-
-#: ../data/RadioPopover.ui:128
-msgid "Select a logo  for this radio"
-msgstr "حدد شعارًا لهذا الراديو"
-
-#: ../data/RadioPopover.ui:223
+#: ../data/RadioPopover.ui:51
 msgid "Address:"
 msgstr "العنوان:"
 
@@ -608,7 +577,7 @@ msgstr "راديو جديد"
 msgid "Search in TuneIn"
 msgstr "ابحث في TuneIn"
 
-#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:46
+#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:47
 msgid "Create a new playlist"
 msgstr "أنشئ قائمة تشغيل جديدة"
 
@@ -884,53 +853,53 @@ msgstr ""
 msgid "South Africa"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:31 ../data/SettingsAppearance.ui:45
+#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
 msgid "Use dark theme variant"
 msgstr "استخدم متغير سمة داكن"
 
-#: ../data/SettingsAppearance.ui:74
+#: ../data/SettingsAppearance.ui:79
 msgid "Items in sidebar"
 msgstr "العناصر في الشريط الجانبي"
 
-#: ../data/SettingsAppearance.ui:89 ../lollypop/widgets_equalizer.py:22
+#: ../data/SettingsAppearance.ui:94 ../lollypop/widgets_equalizer.py:22
 msgid "Default"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:90 ../lollypop/shown.py:48
+#: ../data/SettingsAppearance.ui:95 ../lollypop/shown.py:48
 msgid "Genres"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:91
+#: ../data/SettingsAppearance.ui:96
 msgid "Artists"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:120 ../data/SettingsAppearance.ui:149
+#: ../data/SettingsAppearance.ui:125 ../data/SettingsAppearance.ui:154
 msgid "Show compilations"
 msgstr "أظهر مجموعات"
 
-#: ../data/SettingsAppearance.ui:238 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:243 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:37 ../lollypop/menu_objects.py:58
 #: ../lollypop/menu_toolbar.py:42
 msgid "Artist"
 msgstr "الفنان"
 
-#: ../data/SettingsAppearance.ui:239
+#: ../data/SettingsAppearance.ui:244
 msgid "Name"
 msgstr "الاسم"
 
-#: ../data/SettingsAppearance.ui:240 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:245 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "السنة"
 
-#: ../data/SettingsAppearance.ui:241
+#: ../data/SettingsAppearance.ui:246
 msgid "Popularity"
 msgstr "شعبية"
 
-#: ../data/SettingsAppearance.ui:294
+#: ../data/SettingsAppearance.ui:303
 msgid "Clean cache"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:373
+#: ../data/SettingsAppearance.ui:382
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -938,7 +907,7 @@ msgstr ""
 "التجميع هو عبارة عن ألبوم دون أي \"علامة فنان الألبوم\"،\n"
 "ومع فنانين مختلفين."
 
-#: ../data/SettingsAppearance.ui:387
+#: ../data/SettingsAppearance.ui:396
 msgid "You need to reset database [Music]"
 msgstr "تحتاج إلى تصفير قاعدة بيانات [الموسيقى]"
 
@@ -1130,6 +1099,10 @@ msgstr ""
 "<small>بدون هذا الاخير, والا ستصل الى الحصة الافتراضية…\n"
 "Lollypop يحتاج لهاذا للبحث عن الاغلفة القنية .</small>"
 
+#: ../data/SettingsWeb.ui:358
+msgid "API key"
+msgstr "مفتاح API"
+
 #: ../data/SettingsWeb.ui:376
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
@@ -1137,8 +1110,8 @@ msgid ""
 msgstr ""
 
 #: ../data/SettingsWeb.ui:398 ../data/ToolbarEnd.ui:128
-#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:353
-#: ../lollypop/window.py:404 ../lollypop/window.py:405
+#: ../lollypop/playlists.py:438 ../lollypop/selectionlist.py:397
+#: ../lollypop/window.py:411 ../lollypop/window.py:412
 msgid "Search"
 msgstr "ابحث"
 
@@ -1177,10 +1150,15 @@ msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
 msgstr "أظهر/أخف قائمة التنقل"
 
-#: ../data/Shortcuts.ui:59 ../data/Shortcuts.ui:66
+#: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Show equalizer"
 msgstr ""
+
+#: ../data/Shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Show lyrics"
+msgstr "أظهر الكلمات"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
@@ -1202,62 +1180,72 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "املأ الشاشة"
 
-#: ../data/Shortcuts.ui:103
+#: ../data/Shortcuts.ui:101
+msgctxt "shortcut window"
+msgid "Search in list one"
+msgstr ""
+
+#: ../data/Shortcuts.ui:108
+msgctxt "shortcut window"
+msgid "Search in list two"
+msgstr ""
+
+#: ../data/Shortcuts.ui:117
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "قراءة"
 
-#: ../data/Shortcuts.ui:107
+#: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "شغِّل"
 
-#: ../data/Shortcuts.ui:114
+#: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "ألبث"
 
-#: ../data/Shortcuts.ui:121
+#: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "أوقف"
 
-#: ../data/Shortcuts.ui:128
+#: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "القطعة التالية"
 
-#: ../data/Shortcuts.ui:135
+#: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "المقطوعة السابقة"
 
-#: ../data/Shortcuts.ui:142
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "تخط الألبوم الحالي"
 
-#: ../data/Shortcuts.ui:149
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "اعجاب بالمسار الحالي"
 
-#: ../data/Shortcuts.ui:156
+#: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "كرر المقطوعة"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:177
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "تخط المسار  إلى الخلف"
 
-#: ../data/Shortcuts.ui:170
+#: ../data/Shortcuts.ui:184
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "تخط المسار إلى الامام"
 
-#: ../data/Shortcuts.ui:177
+#: ../data/Shortcuts.ui:191
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "تمكين / تعطيل scrobbler"
@@ -1403,7 +1391,7 @@ msgid "Go home"
 msgstr "اذهب للبيت"
 
 #: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
-#: ../lollypop/container_lists.py:165 ../lollypop/database_tracks.py:402
+#: ../lollypop/container_lists.py:167 ../lollypop/database_tracks.py:402
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1416,7 +1404,7 @@ msgstr "مجهول"
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/container_lists.py:141 ../lollypop/shown.py:57
+#: ../lollypop/container_lists.py:143 ../lollypop/shown.py:57
 msgid "All artists"
 msgstr "جميع الفنانين"
 
@@ -1551,7 +1539,7 @@ msgid "Modify information"
 msgstr "غيِّر المعلومات"
 
 #: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
-#: ../lollypop/menu_selectionlist.py:54
+#: ../lollypop/menu_selectionlist.py:59
 msgid "Synchronization"
 msgstr ""
 
@@ -1625,15 +1613,19 @@ msgstr "إزالة من \"%s\""
 msgid "Add to \"%s\""
 msgstr "أضف إلى \"%s\""
 
-#: ../lollypop/menu_selectionlist.py:76
+#: ../lollypop/menu_selectionlist.py:44
+msgid "No connected devices"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Default on startup"
 msgstr "الافتراضي عند بدء التشغيل"
 
-#: ../lollypop/menu_selectionlist.py:79
+#: ../lollypop/menu_selectionlist.py:84
 msgid "Startup"
 msgstr "بدء التشغيل"
 
-#: ../lollypop/menu_selectionlist.py:106
+#: ../lollypop/menu_selectionlist.py:110
 msgid "Sections"
 msgstr ""
 
@@ -1692,18 +1684,18 @@ msgstr "%Y-%m-%d"
 msgid "Can't connect to TuneIn…"
 msgstr "لا يمكن الاتصال TuneIn…"
 
+#: ../lollypop/pop_tunein.py:160
+msgid "Please wait…"
+msgstr "الرجاء الانتظار…"
+
 #: ../lollypop/pop_tunein.py:401 ../lollypop/pop_tunein.py:403
 msgid "No result…"
 msgstr "لا توجد نتيجة…"
 
-#: ../lollypop/selectionlist.py:355 ../lollypop/window.py:407
-#: ../lollypop/window.py:408
+#: ../lollypop/selectionlist.py:399 ../lollypop/window.py:414
+#: ../lollypop/window.py:415
 msgid "Current playlist"
 msgstr "قائمة التشغيل الحالية"
-
-#: ../lollypop/selectionlist.py:533
-msgid "No connected devices"
-msgstr ""
 
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
@@ -1753,7 +1745,7 @@ msgstr "جميع الأنواع"
 msgid "Playing playlists"
 msgstr "قائمة التشغيل الحالية"
 
-#: ../lollypop/toolbar_end.py:421 ../lollypop/view_current_albums.py:58
+#: ../lollypop/toolbar_end.py:421 ../lollypop/view_current_albums.py:59
 msgid "Playing albums"
 msgstr "الألبومات الشغَّالة"
 
@@ -1780,19 +1772,19 @@ msgstr "هذا"
 msgid "Others albums from"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:46
+#: ../lollypop/view_albums_box.py:47
 msgid "Network not available"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:49 ../lollypop/view_albums_list.py:489
+#: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:489
 msgid "Missing youtube-dl command"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:53
+#: ../lollypop/view_albums_box.py:54
 msgid "You need to enable Spotify "
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:55
 msgid "and YouTube in network settings"
 msgstr ""
 
@@ -1813,23 +1805,23 @@ msgstr "يحمل المعلومات"
 msgid "No information for %s"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:66
+#: ../lollypop/view_lyrics.py:120
 msgid "Loading…"
 msgstr "جار التحميل…"
 
-#: ../lollypop/view_lyrics.py:88
+#: ../lollypop/view_lyrics.py:155
 msgid "You have disabled lyrics search in network settings !"
 msgstr "لقد عطلت البحث عن الكلمات في إعدادات الشبكة !"
 
-#: ../lollypop/view_lyrics.py:137
+#: ../lollypop/view_lyrics.py:229
 msgid "You need to install python3-textblob module"
 msgstr "تحتاج إلى تثبيت الوحدة python3-textblob"
 
-#: ../lollypop/view_lyrics.py:142
+#: ../lollypop/view_lyrics.py:234
 msgid "Can't translate this lyrics"
 msgstr "تعذرت ترجمة هذه الكلمات"
 
-#: ../lollypop/view_lyrics.py:276
+#: ../lollypop/view_lyrics.py:379
 msgid "No lyrics found "
 msgstr "لم أجد الكلمات "
 
@@ -1859,15 +1851,15 @@ msgstr "<big>ابحث عن فنانين وألبومات ومقطوعات صوت
 msgid "Disc %s"
 msgstr "القرص %s"
 
-#: ../lollypop/widgets_artwork.py:147
-msgid "Select artwork"
-msgstr "اختر صورة فنية"
-
-#: ../lollypop/widgets_artwork.py:189
+#: ../lollypop/widgets_artwork_album.py:45
 msgid "Local"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:448
+#: ../lollypop/widgets_artwork.py:132
+msgid "Select artwork"
+msgstr "اختر صورة فنية"
+
+#: ../lollypop/widgets_artwork.py:237
 msgid "Reset artwork?"
 msgstr "إعادة تعيين الصورة الفنية؟"
 
@@ -2054,6 +2046,24 @@ msgstr[5] "%d مقطوعات"
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "استخدام إعدادات \"حسابات غنوم عبر الإنترنت\""
 
+#~ msgid ""
+#~ "<b>Lollypop uses the Google Custom Search API to search for images on the "
+#~ "web.</b>\n"
+#~ "<small>This API is limited, so it may not work with the default API key.</"
+#~ "small>"
+#~ msgstr ""
+#~ "<b>Lollypop يستخدم بحث مخصص جوجل API للبحث عن الصور في الانترنت.</b>\n"
+#~ "<small>هذا محدود، حيث أنها قد لا تعمل مع مفتاح API  الافتراضي.</small>"
+
+#~ msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
+#~ msgstr "<b>الرجاء إنشاء \"محرك بحث مخصص\" هنا</b>:"
+
+#~ msgid "No logo found…"
+#~ msgstr "لم أعثر على شعار…"
+
+#~ msgid "Select a logo  for this radio"
+#~ msgstr "حدد شعارًا لهذا الراديو"
+
 #~ msgid "Turn on background data"
 #~ msgstr "السماح لاتصال البيانات في الخلفية"
 
@@ -2119,10 +2129,6 @@ msgstr "استخدام إعدادات \"حسابات غنوم عبر الإنت�
 
 #~ msgid "Volume"
 #~ msgstr "حجم الصوت"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Show lyrics"
-#~ msgstr "أظهر الكلمات"
 
 #~ msgid "Last.fm login"
 #~ msgstr "ولوج Last.fm"
