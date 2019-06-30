@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-25 15:46+0200\n"
-"PO-Revision-Date: 2019-04-29 11:45+0000\n"
+"PO-Revision-Date: 2019-07-01 18:01+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/eo/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:34
 msgid "Window size"
@@ -86,7 +86,7 @@ msgstr "ID-oj por ĝenroj."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:89
 msgid "Allow syncing to USB disks"
-msgstr ""
+msgstr "Permesi sinkronigadon al USB-diskoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "Import playlists from collections"
@@ -247,7 +247,7 @@ msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Equalizer enabled"
-msgstr ""
+msgstr "Egaligilo enŝaltita"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Smooth track transitions"
@@ -524,7 +524,7 @@ msgstr "FLAC"
 
 #: ../data/DeviceWidget.ui:235
 msgid "Synchronized:"
-msgstr ""
+msgstr "Sinkronigata:"
 
 #: ../data/DeviceWidget.ui:248
 msgid "Albums"
@@ -676,7 +676,7 @@ msgstr "Kipro"
 
 #: ../data/SearchView.ui:241
 msgid "Czechia"
-msgstr ""
+msgstr "Ĉeĥa"
 
 #: ../data/SearchView.ui:242
 msgid "Germany"
@@ -910,7 +910,7 @@ msgstr "Populareco"
 
 #: ../data/SettingsAppearance.ui:303
 msgid "Clean cache"
-msgstr ""
+msgstr "Purigi kaŝmemoron"
 
 #: ../data/SettingsAppearance.ui:382
 msgid ""
@@ -997,6 +997,8 @@ msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"Ekpaĝo\n"
+"<span size=\"x-small\" alpha=\"70%\">Serĉo de artaĵo</span>"
 
 #: ../data/SettingsBehaviour.ui:511
 msgid ""
@@ -1064,6 +1066,9 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
 "span>"
 msgstr ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">Biografio de artisto, serĉo de artaĵo, "
+"…</span>"
 
 #: ../data/SettingsBehaviour.ui:860
 msgid "Only in party mode"
@@ -1079,7 +1084,7 @@ msgstr "Reagordi la datumbazon"
 
 #: ../data/SettingsDevices.ui:44
 msgid "Remove devices managed by Lollypop:"
-msgstr ""
+msgstr "Forigi aparatojn kiuj Lollypop kontrolas:"
 
 #: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:88
 #: ../lollypop/dialog_settings.py:91
@@ -1222,12 +1227,12 @@ msgstr "Tutekrana reĝimo"
 #: ../data/Shortcuts.ui:101
 msgctxt "shortcut window"
 msgid "Search in list one"
-msgstr ""
+msgstr "Serĉi en la listo unu"
 
 #: ../data/Shortcuts.ui:108
 msgctxt "shortcut window"
 msgid "Search in list two"
-msgstr ""
+msgstr "Serĉi en la listo du"
 
 #: ../data/Shortcuts.ui:117
 msgctxt "shortcut window"
@@ -1511,11 +1516,11 @@ msgstr "Agordi retservojn"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/view_settings.py:50
 msgid "Devices"
-msgstr ""
+msgstr "Aparatoj"
 
 #: ../lollypop/dialog_settings.py:62 ../lollypop/view_settings.py:51
 msgid "Manage devices"
-msgstr ""
+msgstr "Administri aparatojn"
 
 #: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
 #: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102
@@ -1579,7 +1584,7 @@ msgstr "Aliigi la informojn"
 #: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
 #: ../lollypop/menu_selectionlist.py:59
 msgid "Synchronization"
-msgstr ""
+msgstr "Sinkronigado"
 
 #: ../lollypop/menu_objects.py:42 ../lollypop/menu_objects.py:65
 msgid "Edit"
@@ -1607,11 +1612,11 @@ msgstr "Forigi el atendovico"
 
 #: ../lollypop/menu_playback.py:100
 msgid "Do not stop after"
-msgstr ""
+msgstr "Ne ŝtopi poste"
 
 #: ../lollypop/menu_playback.py:105
 msgid "Stop after"
-msgstr ""
+msgstr "Ŝtopi post"
 
 #: ../lollypop/menu_playlist.py:37 ../lollypop/menu_playlist.py:91
 msgid "Save playlist"
@@ -1653,7 +1658,7 @@ msgstr "Aldoni al \"%s\""
 
 #: ../lollypop/menu_selectionlist.py:44
 msgid "No connected devices"
-msgstr ""
+msgstr "Neniu konektita aparato"
 
 #: ../lollypop/menu_selectionlist.py:81
 msgid "Default on startup"
@@ -1669,7 +1674,7 @@ msgstr "Sekcioj"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
-msgstr ""
+msgstr "Ĉiuj aparatoj"
 
 #: ../lollypop/menu_toolbar.py:38
 msgid "Lyrics"
@@ -1812,7 +1817,7 @@ msgstr "Aliaj albumoj de"
 
 #: ../lollypop/view_albums_box.py:47
 msgid "Network not available"
-msgstr ""
+msgstr "Reto malatingas"
 
 #: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:489
 msgid "Missing youtube-dl command"
@@ -1820,11 +1825,11 @@ msgstr "Mankas komando de youtube-dl"
 
 #: ../lollypop/view_albums_box.py:54
 msgid "You need to enable Spotify "
-msgstr ""
+msgstr "Vi bezonas ebligi na Spotify "
 
 #: ../lollypop/view_albums_box.py:55
 msgid "and YouTube in network settings"
-msgstr ""
+msgstr "kaj Youtube en la retaj agordoj"
 
 #: ../lollypop/view_albums_list.py:114
 msgid "Compilation"
@@ -1874,7 +1879,7 @@ msgstr "Nova ludlisto "
 
 #: ../lollypop/view.py:61
 msgid "No items to show"
-msgstr ""
+msgstr "Neniu montreblas"
 
 #: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
@@ -1891,7 +1896,7 @@ msgstr "Disko %s"
 
 #: ../lollypop/widgets_artwork_album.py:45
 msgid "Local"
-msgstr ""
+msgstr "Loka"
 
 #: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
@@ -1907,11 +1912,11 @@ msgstr "Ŝanĝi la albumkovrilon"
 
 #: ../lollypop/widgets_device.py:115
 msgid "No synchronized albums"
-msgstr ""
+msgstr "Neniu sinkronigita albumo"
 
 #: ../lollypop/widgets_device.py:127
 msgid "No synchronized playlists"
-msgstr ""
+msgstr "Neniu sinkronigita ludlisto"
 
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
 #: ../lollypop/widgets_equalizer.py:147
