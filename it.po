@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-25 15:46+0200\n"
-"PO-Revision-Date: 2019-05-18 13:52+0000\n"
+"PO-Revision-Date: 2019-07-03 00:01+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "it/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.8-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:34
 msgid "Window size"
@@ -92,7 +92,7 @@ msgstr "ID per i generi."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:89
 msgid "Allow syncing to USB disks"
-msgstr ""
+msgstr "Autorizza sincronizzazione con dispositivi USB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "Import playlists from collections"
@@ -252,7 +252,7 @@ msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Equalizer enabled"
-msgstr ""
+msgstr "Equalizzatore attivo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Smooth track transitions"
@@ -529,7 +529,7 @@ msgstr "FLAC"
 
 #: ../data/DeviceWidget.ui:235
 msgid "Synchronized:"
-msgstr ""
+msgstr "Sincronizzato:"
 
 #: ../data/DeviceWidget.ui:248
 msgid "Albums"
@@ -915,7 +915,7 @@ msgstr "Popolarità"
 
 #: ../data/SettingsAppearance.ui:303
 msgid "Clean cache"
-msgstr ""
+msgstr "Svuota cache"
 
 #: ../data/SettingsAppearance.ui:382
 msgid ""
@@ -1002,6 +1002,8 @@ msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
 
 #: ../data/SettingsBehaviour.ui:511
 msgid ""
@@ -1069,6 +1071,9 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
 "span>"
 msgstr ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca buografia dell'artista, immagini, "
+"…</span>"
 
 #: ../data/SettingsBehaviour.ui:860
 msgid "Only in party mode"
@@ -1084,7 +1089,7 @@ msgstr "Azzera database"
 
 #: ../data/SettingsDevices.ui:44
 msgid "Remove devices managed by Lollypop:"
-msgstr ""
+msgstr "Rimuovi dispositivi gestiti da Lollypop:"
 
 #: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:88
 #: ../lollypop/dialog_settings.py:91
@@ -1093,7 +1098,7 @@ msgstr "Preferenze"
 
 #: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
 msgid "Login:"
-msgstr "Login:"
+msgstr "Nome utente:"
 
 #: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
 msgid "Password:"
@@ -1227,12 +1232,12 @@ msgstr "Schermo intero"
 #: ../data/Shortcuts.ui:101
 msgctxt "shortcut window"
 msgid "Search in list one"
-msgstr ""
+msgstr "Cerca nella lista uno"
 
 #: ../data/Shortcuts.ui:108
 msgctxt "shortcut window"
 msgid "Search in list two"
-msgstr ""
+msgstr "Cerca nella lista due"
 
 #: ../data/Shortcuts.ui:117
 msgctxt "shortcut window"
@@ -1516,11 +1521,11 @@ msgstr "Configura servizi Web"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/view_settings.py:50
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivi"
 
 #: ../lollypop/dialog_settings.py:62 ../lollypop/view_settings.py:51
 msgid "Manage devices"
-msgstr ""
+msgstr "Gestisci dispositivi"
 
 #: ../lollypop/fullscreen.py:272 ../lollypop/toolbar_info.py:127
 #: ../lollypop/utils.py:107 ../lollypop/view_artist.py:102
@@ -1530,7 +1535,7 @@ msgstr "Stai usando un tema del cursore non valido!"
 
 #: ../lollypop/helper_overlay_album.py:69 ../lollypop/view_artist_common.py:66
 msgid "Add to current playlist"
-msgstr "Aggiungi alla scaletta attuale"
+msgstr "Aggiungi alla playlist attuale"
 
 #: ../lollypop/helper_overlay_album.py:75 ../lollypop/view_albums_list.py:130
 #: ../lollypop/view_artist_common.py:73
@@ -1547,7 +1552,7 @@ msgstr "Rimuovi"
 
 #: ../lollypop/helper_overlay_playlist.py:82
 msgid "Modify playlist"
-msgstr "Modifica scaletta"
+msgstr "Modifica playlist"
 
 #: ../lollypop/helper_overlay_radio.py:66
 msgid "Modify radio"
@@ -1584,7 +1589,7 @@ msgstr "Modifica informazioni"
 #: ../lollypop/menu_objects.py:41 ../lollypop/menu_playlist.py:55
 #: ../lollypop/menu_selectionlist.py:59
 msgid "Synchronization"
-msgstr ""
+msgstr "Sincronizzazione"
 
 #: ../lollypop/menu_objects.py:42 ../lollypop/menu_objects.py:65
 msgid "Edit"
@@ -1620,7 +1625,7 @@ msgstr "Ferma dopo"
 
 #: ../lollypop/menu_playlist.py:37 ../lollypop/menu_playlist.py:91
 msgid "Save playlist"
-msgstr "Salva scaletta"
+msgstr "Salva playlist"
 
 #: ../lollypop/menu_playlist.py:41
 msgid "Manage smart playlist"
@@ -1658,7 +1663,7 @@ msgstr "Aggiungi a «%s»"
 
 #: ../lollypop/menu_selectionlist.py:44
 msgid "No connected devices"
-msgstr ""
+msgstr "Nessun dispositivo connesso"
 
 #: ../lollypop/menu_selectionlist.py:81
 msgid "Default on startup"
@@ -1674,7 +1679,7 @@ msgstr "Sezioni"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
-msgstr ""
+msgstr "Tutti i dispositivi"
 
 #: ../lollypop/menu_toolbar.py:38
 msgid "Lyrics"
@@ -1738,7 +1743,7 @@ msgstr "Nessun risultato…"
 #: ../lollypop/selectionlist.py:399 ../lollypop/window.py:414
 #: ../lollypop/window.py:415
 msgid "Current playlist"
-msgstr "Scaletta attuale"
+msgstr "Playlist attuale"
 
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
@@ -1817,7 +1822,7 @@ msgstr "Altri album di"
 
 #: ../lollypop/view_albums_box.py:47
 msgid "Network not available"
-msgstr ""
+msgstr "Rete non disponibile"
 
 #: ../lollypop/view_albums_box.py:50 ../lollypop/view_albums_list.py:489
 msgid "Missing youtube-dl command"
@@ -1870,16 +1875,16 @@ msgstr "Nessun testo trovato "
 
 #: ../lollypop/view_playlists_manager.py:40
 msgid "New playlist"
-msgstr "Nuova scaletta"
+msgstr "Nuova playlist"
 
 #: ../lollypop/view_playlists_manager.py:211
 #: ../lollypop/view_playlists_manager.py:214
 msgid "New playlist "
-msgstr "Nuova scaletta "
+msgstr "Nuova playlist "
 
 #: ../lollypop/view.py:61
 msgid "No items to show"
-msgstr ""
+msgstr "Nessun elemento da mostrare"
 
 #: ../lollypop/view_search.py:173
 msgid "<big>No results for this search</big>"
@@ -1896,7 +1901,7 @@ msgstr "Disco %s"
 
 #: ../lollypop/widgets_artwork_album.py:45
 msgid "Local"
-msgstr ""
+msgstr "Locale"
 
 #: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
@@ -1912,11 +1917,11 @@ msgstr "Cambia immagine"
 
 #: ../lollypop/widgets_device.py:115
 msgid "No synchronized albums"
-msgstr ""
+msgstr "Nessun album sincronizzato"
 
 #: ../lollypop/widgets_device.py:127
 msgid "No synchronized playlists"
-msgstr ""
+msgstr "Nessuna playlist sincronizzata"
 
 #: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:97
 #: ../lollypop/widgets_equalizer.py:147
