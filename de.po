@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-19 21:45+0200\n"
+"POT-Creation-Date: 2019-07-20 23:42+0200\n"
 "PO-Revision-Date: 2019-06-27 04:39+0000\n"
 "Last-Translator: dolwup <carlokretzschmann@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -311,19 +311,19 @@ msgstr ""
 "Philipp Wolfer <ph.wolfer@gmail.com>\n"
 "Mario Blättermann <mario.blaettermann@gmail.com>"
 
-#: ../data/AboutDialog.ui.in:57
+#: ../data/AboutDialog.ui.in:58
 msgid "Donations:"
 msgstr "Spenden:"
 
-#: ../data/AboutDialog.ui.in:64
+#: ../data/AboutDialog.ui.in:65
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:74 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:75 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:85 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -466,7 +466,7 @@ msgstr "_Tastenkürzel"
 msgid "_About"
 msgstr "_Info"
 
-#: ../data/ArtistBannerWidget.ui:91
+#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:147
 msgid "Play albums"
 msgstr "Album wiedergeben"
 
@@ -555,11 +555,11 @@ msgstr "Übersetzen"
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:85
 #: ../lollypop/controller_playback.py:97 ../lollypop/controller_playback.py:124
-#: ../lollypop/helper_overlay_album.py:60
-#: ../lollypop/helper_overlay_decade.py:49
-#: ../lollypop/helper_overlay_genre.py:49
-#: ../lollypop/helper_overlay_playlist.py:53
-#: ../lollypop/helper_overlay_radio.py:52 ../lollypop/pop_tunein.py:194
+#: ../lollypop/helper_overlay_album.py:66
+#: ../lollypop/helper_overlay_decade.py:46
+#: ../lollypop/helper_overlay_genre.py:46
+#: ../lollypop/helper_overlay_playlist.py:51
+#: ../lollypop/helper_overlay_radio.py:50 ../lollypop/pop_tunein.py:194
 #: ../lollypop/view_tracks.py:302
 msgid "Play"
 msgstr "Wiedergabe"
@@ -1507,29 +1507,29 @@ msgstr "Geräte verwalten"
 msgid "You are using a broken cursor theme!"
 msgstr "Sie verwenden ein kaputtes Cursor-Thema!"
 
-#: ../lollypop/helper_overlay_album.py:94
-#: ../lollypop/widgets_banner_artist.py:295
+#: ../lollypop/helper_overlay_album.py:103
+#: ../lollypop/widgets_banner_artist.py:296
 msgid "Add to current playlist"
 msgstr "Zur aktuellen Wiedergabeliste hinzufügen"
 
-#: ../lollypop/helper_overlay_album.py:100
-#: ../lollypop/widgets_banner_artist.py:302
+#: ../lollypop/helper_overlay_album.py:109
+#: ../lollypop/widgets_banner_artist.py:303
 msgid "Remove from current playlist"
 msgstr "Aus aktueller Wiedergabeliste entfernen"
 
-#: ../lollypop/helper_overlay_playlist.py:64 ../lollypop/pop_tunein.py:201
+#: ../lollypop/helper_overlay_playlist.py:62 ../lollypop/pop_tunein.py:201
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: ../lollypop/helper_overlay_playlist.py:70 ../lollypop/widgets_artwork.py:164
+#: ../lollypop/helper_overlay_playlist.py:68 ../lollypop/widgets_artwork.py:164
 msgid "Remove"
 msgstr "Entfernen"
 
-#: ../lollypop/helper_overlay_playlist.py:83
+#: ../lollypop/helper_overlay_playlist.py:81
 msgid "Modify playlist"
 msgstr "Wiedergabeliste bearbeiten"
 
-#: ../lollypop/helper_overlay_radio.py:65
+#: ../lollypop/helper_overlay_radio.py:63
 msgid "Modify radio"
 msgstr "Radio modifzieren"
 
@@ -1715,7 +1715,7 @@ msgstr "Bitte warten…"
 msgid "No result…"
 msgstr "Nichts gefunden…"
 
-#: ../lollypop/selectionlist.py:534 ../lollypop/selectionlist.py:535
+#: ../lollypop/selectionlist.py:530 ../lollypop/selectionlist.py:531
 msgid "Current playlist"
 msgstr "Aktuelle Wiedergabeliste"
 
@@ -1752,7 +1752,7 @@ msgid "Genres"
 msgstr "Genres"
 
 #: ../lollypop/shown.py:42
-msgid "Genres ≣"
+msgid "Genres (list)"
 msgstr ""
 
 #: ../lollypop/shown.py:50
@@ -1760,7 +1760,7 @@ msgid "Artists"
 msgstr "Künstler"
 
 #: ../lollypop/shown.py:51
-msgid "Artists ≣"
+msgid "Artists (list)"
 msgstr ""
 
 #: ../lollypop/shown.py:53
@@ -1814,20 +1814,20 @@ msgstr "Aktivieren Sie Spotify "
 msgid "and YouTube in network settings"
 msgstr "und YouTube in den Netzwerkeinstellungen"
 
-#: ../lollypop/view_albums_box.py:261
+#: ../lollypop/view_albums_box.py:300
 msgid "Others albums from"
 msgstr "Andere Alben von"
 
-#: ../lollypop/view_albums_box.py:426
+#: ../lollypop/view_albums_box.py:467
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:451
+#: ../lollypop/view_albums_box.py:493
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:210
+#: ../lollypop/view_artists_rounded.py:215
 msgid "Why not listen to?"
 msgstr ""
 
@@ -1872,12 +1872,12 @@ msgstr "Kein Liedtext gefunden "
 msgid "New playlist"
 msgstr "Neue Wiedergabeliste"
 
-#: ../lollypop/view_playlists_manager.py:213
-#: ../lollypop/view_playlists_manager.py:216
+#: ../lollypop/view_playlists_manager.py:246
+#: ../lollypop/view_playlists_manager.py:249
 msgid "New playlist "
 msgstr "Neue Wiedergabeliste "
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Nichts vorhanden"
 
@@ -1906,7 +1906,7 @@ msgstr "Bild wählen"
 msgid "Reset artwork?"
 msgstr "Coverbild zurücksetzen?"
 
-#: ../lollypop/widgets_cover.py:90
+#: ../lollypop/widgets_cover.py:87
 msgid "Change artwork"
 msgstr "Coverbild ändern"
 

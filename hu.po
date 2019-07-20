@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-19 21:45+0200\n"
+"POT-Creation-Date: 2019-07-20 23:42+0200\n"
 "PO-Revision-Date: 2018-09-08 15:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnumdk/"
@@ -296,19 +296,19 @@ msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Meskó Balázs <mesko.balazs@fsf.hu>"
 
-#: ../data/AboutDialog.ui.in:57
+#: ../data/AboutDialog.ui.in:58
 msgid "Donations:"
 msgstr "Támogatás:"
 
-#: ../data/AboutDialog.ui.in:64
+#: ../data/AboutDialog.ui.in:65
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:74 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:75 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:85 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -452,7 +452,7 @@ msgstr "Gyorsbille_ntyűk"
 msgid "_About"
 msgstr "_Névjegy"
 
-#: ../data/ArtistBannerWidget.ui:91
+#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:147
 msgid "Play albums"
 msgstr "Albumok lejátszása"
 
@@ -541,11 +541,11 @@ msgstr "Fordítás"
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:85
 #: ../lollypop/controller_playback.py:97 ../lollypop/controller_playback.py:124
-#: ../lollypop/helper_overlay_album.py:60
-#: ../lollypop/helper_overlay_decade.py:49
-#: ../lollypop/helper_overlay_genre.py:49
-#: ../lollypop/helper_overlay_playlist.py:53
-#: ../lollypop/helper_overlay_radio.py:52 ../lollypop/pop_tunein.py:194
+#: ../lollypop/helper_overlay_album.py:66
+#: ../lollypop/helper_overlay_decade.py:46
+#: ../lollypop/helper_overlay_genre.py:46
+#: ../lollypop/helper_overlay_playlist.py:51
+#: ../lollypop/helper_overlay_radio.py:50 ../lollypop/pop_tunein.py:194
 #: ../lollypop/view_tracks.py:302
 msgid "Play"
 msgstr "Lejátszás"
@@ -1461,29 +1461,29 @@ msgstr ""
 msgid "You are using a broken cursor theme!"
 msgstr ""
 
-#: ../lollypop/helper_overlay_album.py:94
-#: ../lollypop/widgets_banner_artist.py:295
+#: ../lollypop/helper_overlay_album.py:103
+#: ../lollypop/widgets_banner_artist.py:296
 msgid "Add to current playlist"
 msgstr "Hozzáadás a lejátszólistához"
 
-#: ../lollypop/helper_overlay_album.py:100
-#: ../lollypop/widgets_banner_artist.py:302
+#: ../lollypop/helper_overlay_album.py:109
+#: ../lollypop/widgets_banner_artist.py:303
 msgid "Remove from current playlist"
 msgstr "Eltávolítás a lejátszólistáról"
 
-#: ../lollypop/helper_overlay_playlist.py:64 ../lollypop/pop_tunein.py:201
+#: ../lollypop/helper_overlay_playlist.py:62 ../lollypop/pop_tunein.py:201
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: ../lollypop/helper_overlay_playlist.py:70 ../lollypop/widgets_artwork.py:164
+#: ../lollypop/helper_overlay_playlist.py:68 ../lollypop/widgets_artwork.py:164
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: ../lollypop/helper_overlay_playlist.py:83
+#: ../lollypop/helper_overlay_playlist.py:81
 msgid "Modify playlist"
 msgstr ""
 
-#: ../lollypop/helper_overlay_radio.py:65
+#: ../lollypop/helper_overlay_radio.py:63
 msgid "Modify radio"
 msgstr "Rádió módosítása"
 
@@ -1669,7 +1669,7 @@ msgstr "Kérem várjon…"
 msgid "No result…"
 msgstr "Nincs találat…"
 
-#: ../lollypop/selectionlist.py:534 ../lollypop/selectionlist.py:535
+#: ../lollypop/selectionlist.py:530 ../lollypop/selectionlist.py:531
 msgid "Current playlist"
 msgstr ""
 
@@ -1706,7 +1706,7 @@ msgid "Genres"
 msgstr ""
 
 #: ../lollypop/shown.py:42
-msgid "Genres ≣"
+msgid "Genres (list)"
 msgstr ""
 
 #: ../lollypop/shown.py:50
@@ -1714,7 +1714,7 @@ msgid "Artists"
 msgstr ""
 
 #: ../lollypop/shown.py:51
-msgid "Artists ≣"
+msgid "Artists (list)"
 msgstr ""
 
 #: ../lollypop/shown.py:53
@@ -1768,20 +1768,20 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:261
+#: ../lollypop/view_albums_box.py:300
 msgid "Others albums from"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:426
+#: ../lollypop/view_albums_box.py:467
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:451
+#: ../lollypop/view_albums_box.py:493
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:210
+#: ../lollypop/view_artists_rounded.py:215
 msgid "Why not listen to?"
 msgstr ""
 
@@ -1826,12 +1826,12 @@ msgstr "Nem található dalszöveg "
 msgid "New playlist"
 msgstr "Új lejátszólista"
 
-#: ../lollypop/view_playlists_manager.py:213
-#: ../lollypop/view_playlists_manager.py:216
+#: ../lollypop/view_playlists_manager.py:246
+#: ../lollypop/view_playlists_manager.py:249
 msgid "New playlist "
 msgstr "Új lejátszólista "
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr ""
 
@@ -1860,7 +1860,7 @@ msgstr "Grafika kiválasztása"
 msgid "Reset artwork?"
 msgstr "Grafika visszaállítása?"
 
-#: ../lollypop/widgets_cover.py:90
+#: ../lollypop/widgets_cover.py:87
 msgid "Change artwork"
 msgstr "Grafika módosítása"
 
