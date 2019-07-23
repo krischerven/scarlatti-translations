@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 11:32+0200\n"
+"POT-Creation-Date: 2019-07-23 16:12+0200\n"
 "PO-Revision-Date: 2019-07-23 09:31+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -1555,7 +1555,11 @@ msgstr "Uložit do kolekce"
 msgid "Remove from collection"
 msgstr "Odstranit z kolekce"
 
-#: ../lollypop/menu_edit.py:73
+#: ../lollypop/menu_edit.py:70
+msgid "Buy this album"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:79
 msgid "Modify information"
 msgstr "Upravit údaje"
 
@@ -1788,34 +1792,38 @@ msgstr "%s m"
 msgid "The the"
 msgstr "\"The\""
 
-#: ../lollypop/view_albums_box.py:48
+#: ../lollypop/view_albums_box.py:50
 msgid "Network not available"
 msgstr "Síť není dostupná"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Chybí příkaz youtube-dl"
 
-#: ../lollypop/view_albums_box.py:55
+#: ../lollypop/view_albums_box.py:57
 msgid "You need to enable Spotify "
 msgstr "Musíte povolit Spotify "
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:58
 msgid "and YouTube in network settings"
 msgstr "a YouTube v nastavení sítě"
 
-#: ../lollypop/view_albums_box.py:279
+#: ../lollypop/view_albums_box.py:276
 msgid "Others albums from"
 msgstr "Jiná alba od"
 
-#: ../lollypop/view_albums_box.py:446
+#: ../lollypop/view_albums_box.py:443
 msgid "Popular albums at the moment"
 msgstr "V tuto chvíli oblíbená alba"
 
-#: ../lollypop/view_albums_box.py:472
+#: ../lollypop/view_albums_box.py:469
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Některá alba z: %s"
+
+#: ../lollypop/view_albums_box.py:488
+msgid "New albums from Spotify"
+msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:203
 msgid "Why not listen to?"
@@ -1858,7 +1866,7 @@ msgstr "Tento text písně nelze přeložit"
 msgid "No lyrics found "
 msgstr "Nenalezen žádný text písně "
 
-#: ../lollypop/view_playlists_manager.py:44
+#: ../lollypop/view_playlists_manager.py:41
 msgid "New playlist"
 msgstr "Nový seznam skladeb"
 
@@ -1867,15 +1875,15 @@ msgstr "Nový seznam skladeb"
 msgid "New playlist "
 msgstr "Nový seznam skladeb "
 
-#: ../lollypop/view.py:48
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Žádné položky k ukázání"
 
-#: ../lollypop/view_search.py:259
+#: ../lollypop/view_search.py:261
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:265
+#: ../lollypop/view_search.py:267
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
@@ -1888,7 +1896,7 @@ msgstr "Disk %s"
 msgid "Local"
 msgstr "Místní"
 
-#: ../lollypop/widgets_artwork.py:135
+#: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
 msgstr "Vybrat obal"
 

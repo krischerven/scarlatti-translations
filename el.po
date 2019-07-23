@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 11:32+0200\n"
+"POT-Creation-Date: 2019-07-23 16:12+0200\n"
 "PO-Revision-Date: 2019-05-28 15:11+0000\n"
 "Last-Translator: Panagiotis Tabakis <tabakisp@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/gnumdk/lollypop/el/"
@@ -1549,7 +1549,11 @@ msgstr "Αποθήκευση στην συλλογή"
 msgid "Remove from collection"
 msgstr "Αφαίρεση από την συλλογή"
 
-#: ../lollypop/menu_edit.py:73
+#: ../lollypop/menu_edit.py:70
+msgid "Buy this album"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:79
 msgid "Modify information"
 msgstr "Τροποποίηση πληροφοριών"
 
@@ -1782,33 +1786,37 @@ msgstr "%s λ"
 msgid "The the"
 msgstr "Το το Τα τα"
 
-#: ../lollypop/view_albums_box.py:48
+#: ../lollypop/view_albums_box.py:50
 msgid "Network not available"
 msgstr "Το δίκτυο δεν είναι διαθέσιμο"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Λείπει η εντολή youtube-dl"
 
-#: ../lollypop/view_albums_box.py:55
+#: ../lollypop/view_albums_box.py:57
 msgid "You need to enable Spotify "
 msgstr "Πρέπει να ενεργοποιήσετε το Spotify "
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:58
 msgid "and YouTube in network settings"
 msgstr "και το YouTube στις ρυθμίσεις δικτύου"
 
-#: ../lollypop/view_albums_box.py:279
+#: ../lollypop/view_albums_box.py:276
 msgid "Others albums from"
 msgstr "Άλλα άλμπουμ από"
 
-#: ../lollypop/view_albums_box.py:446
+#: ../lollypop/view_albums_box.py:443
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:472
+#: ../lollypop/view_albums_box.py:469
 #, python-format
 msgid "Some albums from: %s"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:488
+msgid "New albums from Spotify"
 msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:203
@@ -1852,7 +1860,7 @@ msgstr "Δεν είναι δυνατή η μετάφραση αυτών των �
 msgid "No lyrics found "
 msgstr "Δεν βρέθηκαν στίχοι "
 
-#: ../lollypop/view_playlists_manager.py:44
+#: ../lollypop/view_playlists_manager.py:41
 msgid "New playlist"
 msgstr "Νέα λίστα αναπαραγωγής"
 
@@ -1861,15 +1869,15 @@ msgstr "Νέα λίστα αναπαραγωγής"
 msgid "New playlist "
 msgstr "Νέα λίστα αναπαραγωγής "
 
-#: ../lollypop/view.py:48
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr ""
 
-#: ../lollypop/view_search.py:259
+#: ../lollypop/view_search.py:261
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:265
+#: ../lollypop/view_search.py:267
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
@@ -1882,7 +1890,7 @@ msgstr "Δίσκος %s"
 msgid "Local"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:135
+#: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
 msgstr "Επιλογή καλλιτεχνήματος"
 

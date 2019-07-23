@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 11:32+0200\n"
+"POT-Creation-Date: 2019-07-23 16:12+0200\n"
 "PO-Revision-Date: 2019-07-07 10:01+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -1555,7 +1555,11 @@ msgstr "Įrašyti į kolekciją"
 msgid "Remove from collection"
 msgstr "Šalinti iš kolekcijos"
 
-#: ../lollypop/menu_edit.py:73
+#: ../lollypop/menu_edit.py:70
+msgid "Buy this album"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:79
 msgid "Modify information"
 msgstr "Modifikuoti informaciją"
 
@@ -1788,33 +1792,37 @@ msgstr "%s min."
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:48
+#: ../lollypop/view_albums_box.py:50
 msgid "Network not available"
 msgstr "Tinklas neprieinamas"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Trūksta youtube-dl komandos"
 
-#: ../lollypop/view_albums_box.py:55
+#: ../lollypop/view_albums_box.py:57
 msgid "You need to enable Spotify "
 msgstr "Turite įjungti Spotify "
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:58
 msgid "and YouTube in network settings"
 msgstr "ir YouTube tinklo nustatymuose"
 
-#: ../lollypop/view_albums_box.py:279
+#: ../lollypop/view_albums_box.py:276
 msgid "Others albums from"
 msgstr "Kiti albumai iš"
 
-#: ../lollypop/view_albums_box.py:446
+#: ../lollypop/view_albums_box.py:443
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:472
+#: ../lollypop/view_albums_box.py:469
 #, python-format
 msgid "Some albums from: %s"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:488
+msgid "New albums from Spotify"
 msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:203
@@ -1858,7 +1866,7 @@ msgstr "Nepavyksta išversti šių dainos žodžių"
 msgid "No lyrics found "
 msgstr "Dainos žodžių nerasta "
 
-#: ../lollypop/view_playlists_manager.py:44
+#: ../lollypop/view_playlists_manager.py:41
 msgid "New playlist"
 msgstr "Naujas grojaraštis"
 
@@ -1867,15 +1875,15 @@ msgstr "Naujas grojaraštis"
 msgid "New playlist "
 msgstr "Naujas grojaraštis "
 
-#: ../lollypop/view.py:48
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Nėra jokių rodytinų elementų"
 
-#: ../lollypop/view_search.py:259
+#: ../lollypop/view_search.py:261
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:265
+#: ../lollypop/view_search.py:267
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
@@ -1888,7 +1896,7 @@ msgstr "Diskas %s"
 msgid "Local"
 msgstr "Vietinis"
 
-#: ../lollypop/widgets_artwork.py:135
+#: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
 msgstr "Pasirinkti iliustraciją"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 11:32+0200\n"
+"POT-Creation-Date: 2019-07-23 16:12+0200\n"
 "PO-Revision-Date: 2019-07-23 09:31+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -1561,7 +1561,11 @@ msgstr "Lagre i samling"
 msgid "Remove from collection"
 msgstr "Fjern fra samling"
 
-#: ../lollypop/menu_edit.py:73
+#: ../lollypop/menu_edit.py:70
+msgid "Buy this album"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:79
 msgid "Modify information"
 msgstr "Modifiser informasjon"
 
@@ -1794,34 +1798,38 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the De de"
 
-#: ../lollypop/view_albums_box.py:48
+#: ../lollypop/view_albums_box.py:50
 msgid "Network not available"
 msgstr "Nettverk ikke tilgjengelig"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Mangler youtube-dl -kommando"
 
-#: ../lollypop/view_albums_box.py:55
+#: ../lollypop/view_albums_box.py:57
 msgid "You need to enable Spotify "
 msgstr "Du må skru på Spotify "
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:58
 msgid "and YouTube in network settings"
 msgstr "og YouTube i nettverksinnstillingene"
 
-#: ../lollypop/view_albums_box.py:279
+#: ../lollypop/view_albums_box.py:276
 msgid "Others albums from"
 msgstr "Andre albumer fra"
 
-#: ../lollypop/view_albums_box.py:446
+#: ../lollypop/view_albums_box.py:443
 msgid "Popular albums at the moment"
 msgstr "Populære album for øyeblikket"
 
-#: ../lollypop/view_albums_box.py:472
+#: ../lollypop/view_albums_box.py:469
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Noen album fra: %s"
+
+#: ../lollypop/view_albums_box.py:488
+msgid "New albums from Spotify"
+msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:203
 #, fuzzy
@@ -1865,7 +1873,7 @@ msgstr "Kan ikke oversette denne teksten"
 msgid "No lyrics found "
 msgstr "Fant ikke noen sangtekster "
 
-#: ../lollypop/view_playlists_manager.py:44
+#: ../lollypop/view_playlists_manager.py:41
 msgid "New playlist"
 msgstr "Ny spilleliste"
 
@@ -1874,15 +1882,15 @@ msgstr "Ny spilleliste"
 msgid "New playlist "
 msgstr "Ny spilleliste "
 
-#: ../lollypop/view.py:48
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Ingen elementer å vise"
 
-#: ../lollypop/view_search.py:259
+#: ../lollypop/view_search.py:261
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:265
+#: ../lollypop/view_search.py:267
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
@@ -1895,7 +1903,7 @@ msgstr "Disk %s"
 msgid "Local"
 msgstr "Lokal"
 
-#: ../lollypop/widgets_artwork.py:135
+#: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
 msgstr "Velg omslag"
 

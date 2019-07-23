@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 11:32+0200\n"
+"POT-Creation-Date: 2019-07-23 16:12+0200\n"
 "PO-Revision-Date: 2019-06-27 04:39+0000\n"
 "Last-Translator: dolwup <carlokretzschmann@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1560,7 +1560,11 @@ msgstr "In der Sammlung speichern"
 msgid "Remove from collection"
 msgstr "Aus der Sammlung entfernen"
 
-#: ../lollypop/menu_edit.py:73
+#: ../lollypop/menu_edit.py:70
+msgid "Buy this album"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:79
 msgid "Modify information"
 msgstr "Informationen bearbeiten"
 
@@ -1793,33 +1797,37 @@ msgstr "%s m"
 msgid "The the"
 msgstr "Der der"
 
-#: ../lollypop/view_albums_box.py:48
+#: ../lollypop/view_albums_box.py:50
 msgid "Network not available"
 msgstr "Netzwerk nicht verfügbar"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Fehlender youtube-dl Befehl"
 
-#: ../lollypop/view_albums_box.py:55
+#: ../lollypop/view_albums_box.py:57
 msgid "You need to enable Spotify "
 msgstr "Aktivieren Sie Spotify "
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:58
 msgid "and YouTube in network settings"
 msgstr "und YouTube in den Netzwerkeinstellungen"
 
-#: ../lollypop/view_albums_box.py:279
+#: ../lollypop/view_albums_box.py:276
 msgid "Others albums from"
 msgstr "Andere Alben von"
 
-#: ../lollypop/view_albums_box.py:446
+#: ../lollypop/view_albums_box.py:443
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:472
+#: ../lollypop/view_albums_box.py:469
 #, python-format
 msgid "Some albums from: %s"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:488
+msgid "New albums from Spotify"
 msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:203
@@ -1863,7 +1871,7 @@ msgstr "Dieser Text kann nicht übersetzt werden"
 msgid "No lyrics found "
 msgstr "Kein Liedtext gefunden "
 
-#: ../lollypop/view_playlists_manager.py:44
+#: ../lollypop/view_playlists_manager.py:41
 msgid "New playlist"
 msgstr "Neue Wiedergabeliste"
 
@@ -1872,15 +1880,15 @@ msgstr "Neue Wiedergabeliste"
 msgid "New playlist "
 msgstr "Neue Wiedergabeliste "
 
-#: ../lollypop/view.py:48
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Nichts vorhanden"
 
-#: ../lollypop/view_search.py:259
+#: ../lollypop/view_search.py:261
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:265
+#: ../lollypop/view_search.py:267
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
@@ -1893,7 +1901,7 @@ msgstr "CD %s"
 msgid "Local"
 msgstr "Lokal"
 
-#: ../lollypop/widgets_artwork.py:135
+#: ../lollypop/widgets_artwork.py:132
 msgid "Select artwork"
 msgstr "Bild wählen"
 
