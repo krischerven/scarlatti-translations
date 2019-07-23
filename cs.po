@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-20 23:42+0200\n"
+"POT-Creation-Date: 2019-07-23 11:32+0200\n"
 "PO-Revision-Date: 2019-07-23 09:31+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -427,7 +427,7 @@ msgstr "Přehrát/Pozastavit"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:229
 #: ../data/ToolbarPlayback.ui:104 ../lollypop/notification.py:41
-#: ../lollypop/toolbar_end.py:239
+#: ../lollypop/toolbar_end.py:210
 msgid "Next"
 msgstr "Další"
 
@@ -460,7 +460,7 @@ msgstr "_Klávesové zkratky"
 msgid "_About"
 msgstr "O _programu"
 
-#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:147
+#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:157
 msgid "Play albums"
 msgstr "Přehrát alba"
 
@@ -474,15 +474,15 @@ msgid "Similar artists"
 msgstr "Podobní umělci"
 
 #: ../data/ArtistBannerWidget.ui:149 ../data/PlaylistView.ui:83
-#: ../lollypop/view_current_albums.py:57
+#: ../lollypop/view_current_albums.py:61
 msgid "Go to current track"
 msgstr "Jít na nynější skladbu"
 
-#: ../data/ArtistInformation.ui:91 ../lollypop/menu_toolbar.py:37
+#: ../data/ArtistInformation.ui:90 ../lollypop/menu_toolbar.py:37
 msgid "Show lyrics"
 msgstr "Ukázat text písně"
 
-#: ../data/ArtistInformation.ui:111 ../lollypop/widgets_row_album.py:144
+#: ../data/ArtistInformation.ui:109 ../lollypop/widgets_row_album.py:129
 msgid "Go to artist view"
 msgstr "Jít na přehled umělců"
 
@@ -548,13 +548,13 @@ msgstr "Přeložit"
 
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:85
-#: ../lollypop/controller_playback.py:97 ../lollypop/controller_playback.py:124
-#: ../lollypop/helper_overlay_album.py:66
-#: ../lollypop/helper_overlay_decade.py:46
-#: ../lollypop/helper_overlay_genre.py:46
-#: ../lollypop/helper_overlay_playlist.py:51
-#: ../lollypop/helper_overlay_radio.py:50 ../lollypop/pop_tunein.py:194
-#: ../lollypop/view_tracks.py:302
+#: ../lollypop/controller_playback.py:98 ../lollypop/controller_playback.py:117
+#: ../lollypop/helper_overlay_album.py:65
+#: ../lollypop/helper_overlay_decade.py:45
+#: ../lollypop/helper_overlay_genre.py:45
+#: ../lollypop/helper_overlay_playlist.py:50
+#: ../lollypop/helper_overlay_radio.py:49 ../lollypop/pop_tunein.py:194
+#: ../lollypop/view_tracks.py:298
 msgid "Play"
 msgstr "Přehrát"
 
@@ -575,7 +575,7 @@ msgstr "Přehrávat seznam skladeb v náhodném pořadí"
 msgid "Clear queue"
 msgstr "Vyprázdnit řadu"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:375
+#: ../data/QueuePopover.ui:45
 msgid "Queue"
 msgstr "Řada"
 
@@ -591,7 +591,7 @@ msgstr "Nové rádio"
 msgid "Search in TuneIn"
 msgstr "Hledat v TuneIn"
 
-#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:47
+#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:51
 msgid "Create a new playlist"
 msgstr "Vytvořit nový seznam skladeb"
 
@@ -1428,6 +1428,10 @@ msgstr "Neznámý"
 msgid "Scan disabled, missing collection"
 msgstr "Prohledávání zakázáno, chybí sbírka"
 
+#: ../lollypop/container_lists.py:52 ../lollypop/container_lists.py:53
+msgid "Current playlist"
+msgstr "Nynější seznam skladeb"
+
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
 msgstr "Automaticky stáhnout alba a obrázky obalů a umělců?"
@@ -1448,7 +1452,7 @@ msgstr "Nové skladby dostupné"
 msgid "Refresh"
 msgstr "Obnovit"
 
-#: ../lollypop/controller_playback.py:95 ../lollypop/controller_playback.py:127
+#: ../lollypop/controller_playback.py:96 ../lollypop/controller_playback.py:120
 msgid "Pause"
 msgstr "Pozastavit"
 
@@ -1497,34 +1501,33 @@ msgstr "Zařízení"
 msgid "Manage devices"
 msgstr "Spravovat zařízení"
 
-#: ../lollypop/fullscreen.py:290 ../lollypop/toolbar_info.py:128
-#: ../lollypop/utils.py:107 ../lollypop/view_information.py:133
+#: ../lollypop/fullscreen.py:284 ../lollypop/utils.py:107
 msgid "You are using a broken cursor theme!"
 msgstr "Používáte poškozený vzhled ukazatele!"
 
-#: ../lollypop/helper_overlay_album.py:103
-#: ../lollypop/widgets_banner_artist.py:296
+#: ../lollypop/helper_overlay_album.py:102
+#: ../lollypop/widgets_banner_artist.py:312
 msgid "Add to current playlist"
 msgstr "Přidat do nynějšího seznamu skladeb"
 
-#: ../lollypop/helper_overlay_album.py:109
-#: ../lollypop/widgets_banner_artist.py:303
+#: ../lollypop/helper_overlay_album.py:108
+#: ../lollypop/widgets_banner_artist.py:319
 msgid "Remove from current playlist"
 msgstr "Odstranit z nynějšího seznamu skladeb"
 
-#: ../lollypop/helper_overlay_playlist.py:62 ../lollypop/pop_tunein.py:201
+#: ../lollypop/helper_overlay_playlist.py:61 ../lollypop/pop_tunein.py:201
 msgid "Add"
 msgstr "Přidat"
 
-#: ../lollypop/helper_overlay_playlist.py:68 ../lollypop/widgets_artwork.py:164
+#: ../lollypop/helper_overlay_playlist.py:67 ../lollypop/widgets_artwork.py:167
 msgid "Remove"
 msgstr "Odstranit"
 
-#: ../lollypop/helper_overlay_playlist.py:81
+#: ../lollypop/helper_overlay_playlist.py:80
 msgid "Modify playlist"
 msgstr "Upravit seznam skladeb"
 
-#: ../lollypop/helper_overlay_radio.py:63
+#: ../lollypop/helper_overlay_radio.py:62
 msgid "Modify radio"
 msgstr "Upravit rádio"
 
@@ -1544,7 +1547,7 @@ msgstr "Dostupná alba"
 msgid "Other albums"
 msgstr "Jiná alba"
 
-#: ../lollypop/menu_edit.py:57 ../lollypop/widgets_row_album.py:139
+#: ../lollypop/menu_edit.py:57 ../lollypop/widgets_row_album.py:124
 msgid "Save in collection"
 msgstr "Uložit do kolekce"
 
@@ -1710,10 +1713,6 @@ msgstr "Počkejte, prosím…"
 msgid "No result…"
 msgstr "Žádný výsledek…"
 
-#: ../lollypop/selectionlist.py:530 ../lollypop/selectionlist.py:531
-msgid "Current playlist"
-msgstr "Nynější seznam skladeb"
-
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
 msgstr "Oblíbená alba"
@@ -1766,13 +1765,9 @@ msgstr "Alba s různými umělci"
 msgid "Unplayed"
 msgstr "Nepřehráváno"
 
-#: ../lollypop/toolbar_end.py:235
+#: ../lollypop/toolbar_end.py:206
 msgid "All genres"
 msgstr "Všechny žánry"
-
-#: ../lollypop/toolbar_end.py:377
-msgid "Tracks"
-msgstr "Skladby"
 
 #: ../lollypop/utils.py:56
 #, python-format
@@ -1789,7 +1784,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:309
+#: ../lollypop/utils.py:328
 msgid "The the"
 msgstr "\"The\""
 
@@ -1797,7 +1792,7 @@ msgstr "\"The\""
 msgid "Network not available"
 msgstr "Síť není dostupná"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:55
+#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Chybí příkaz youtube-dl"
 
@@ -1809,45 +1804,45 @@ msgstr "Musíte povolit Spotify "
 msgid "and YouTube in network settings"
 msgstr "a YouTube v nastavení sítě"
 
-#: ../lollypop/view_albums_box.py:300
+#: ../lollypop/view_albums_box.py:279
 msgid "Others albums from"
 msgstr "Jiná alba od"
 
-#: ../lollypop/view_albums_box.py:467
+#: ../lollypop/view_albums_box.py:446
 msgid "Popular albums at the moment"
 msgstr "V tuto chvíli oblíbená alba"
 
-#: ../lollypop/view_albums_box.py:493
+#: ../lollypop/view_albums_box.py:472
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Některá alba z: %s"
 
-#: ../lollypop/view_artists_rounded.py:215
+#: ../lollypop/view_artists_rounded.py:203
 msgid "Why not listen to?"
 msgstr "Proč si neposlechnout?"
 
-#: ../lollypop/view_current_albums.py:36
+#: ../lollypop/view_current_albums.py:40
 msgid "Clear albums"
 msgstr "Vyprázdnit alba"
 
-#: ../lollypop/view_current_albums.py:59
+#: ../lollypop/view_current_albums.py:63
 msgid "Playing albums"
 msgstr "Přehrávání alb"
 
-#: ../lollypop/view_information.py:148
+#: ../lollypop/view_information.py:179
 msgid "Loading information"
 msgstr "Nahrávají se informace"
 
-#: ../lollypop/view_information.py:152
+#: ../lollypop/view_information.py:183
 #, python-format
 msgid "No information for %s"
 msgstr "Žádné informace pro %s"
 
-#: ../lollypop/view_lyrics.py:121
+#: ../lollypop/view_lyrics.py:125
 msgid "Loading…"
 msgstr "Nahrává se…"
 
-#: ../lollypop/view_lyrics.py:156
+#: ../lollypop/view_lyrics.py:160
 msgid "You have disabled lyrics search in network settings !"
 msgstr "V nastavení sítě bylo zakázáno hledání textů písní!"
 
@@ -1863,28 +1858,28 @@ msgstr "Tento text písně nelze přeložit"
 msgid "No lyrics found "
 msgstr "Nenalezen žádný text písně "
 
-#: ../lollypop/view_playlists_manager.py:39
+#: ../lollypop/view_playlists_manager.py:44
 msgid "New playlist"
 msgstr "Nový seznam skladeb"
 
-#: ../lollypop/view_playlists_manager.py:246
-#: ../lollypop/view_playlists_manager.py:249
+#: ../lollypop/view_playlists_manager.py:233
+#: ../lollypop/view_playlists_manager.py:236
 msgid "New playlist "
 msgstr "Nový seznam skladeb "
 
-#: ../lollypop/view.py:45
+#: ../lollypop/view.py:48
 msgid "No items to show"
 msgstr "Žádné položky k ukázání"
 
-#: ../lollypop/view_search.py:189
-msgid "<big>No results for this search</big>"
-msgstr "<big>Žádné výsledky pro toto hledání</big>"
+#: ../lollypop/view_search.py:259
+msgid "No results for this search"
+msgstr ""
 
-#: ../lollypop/view_search.py:196
-msgid "<big>Search for artists, albums and tracks</big>"
-msgstr "<big>Hledat umělce, alba a skladby</big>"
+#: ../lollypop/view_search.py:265
+msgid "Search for artists, albums and tracks"
+msgstr ""
 
-#: ../lollypop/view_tracks.py:293
+#: ../lollypop/view_tracks.py:289
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
@@ -1893,15 +1888,15 @@ msgstr "Disk %s"
 msgid "Local"
 msgstr "Místní"
 
-#: ../lollypop/widgets_artwork.py:131
+#: ../lollypop/widgets_artwork.py:135
 msgid "Select artwork"
 msgstr "Vybrat obal"
 
-#: ../lollypop/widgets_artwork.py:244
+#: ../lollypop/widgets_artwork.py:247
 msgid "Reset artwork?"
 msgstr "Nastavit obal znovu?"
 
-#: ../lollypop/widgets_cover.py:87
+#: ../lollypop/widgets_cover.py:89
 msgid "Change artwork"
 msgstr "Změnit obal"
 
@@ -2047,11 +2042,11 @@ msgstr "je menší než"
 msgid "Song played %s times"
 msgstr "Píseň hrána %s krát"
 
-#: ../lollypop/widgets_row_album.py:118
+#: ../lollypop/widgets_row_album.py:103
 msgid "Compilation"
 msgstr "Sbírka skladeb"
 
-#: ../lollypop/widgets_row_album.py:134 ../lollypop/widgets_row.py:112
+#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row.py:87
 msgid "Remove from playlist"
 msgstr "Odstranit ze seznamu skladeb"
 
@@ -2086,6 +2081,15 @@ msgstr[2] "%d skladeb"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Převzít nastavení GNOME pro internetové účty"
+
+#~ msgid "Tracks"
+#~ msgstr "Skladby"
+
+#~ msgid "<big>No results for this search</big>"
+#~ msgstr "<big>Žádné výsledky pro toto hledání</big>"
+
+#~ msgid "<big>Search for artists, albums and tracks</big>"
+#~ msgstr "<big>Hledat umělce, alba a skladby</big>"
 
 #~ msgid "Split playlists view"
 #~ msgstr "Rozdělit pohled na seznam skladeb"

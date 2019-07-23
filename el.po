@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-20 23:42+0200\n"
+"POT-Creation-Date: 2019-07-23 11:32+0200\n"
 "PO-Revision-Date: 2019-05-28 15:11+0000\n"
 "Last-Translator: Panagiotis Tabakis <tabakisp@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/gnumdk/lollypop/el/"
@@ -426,7 +426,7 @@ msgstr "Αναπαραγωγή/Παύση"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:229
 #: ../data/ToolbarPlayback.ui:104 ../lollypop/notification.py:41
-#: ../lollypop/toolbar_end.py:239
+#: ../lollypop/toolbar_end.py:210
 msgid "Next"
 msgstr "Επόμενο"
 
@@ -459,7 +459,7 @@ msgstr "_Συντομεύσεις Πληκτρολογίου"
 msgid "_About"
 msgstr "_Σχετικά"
 
-#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:147
+#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:157
 msgid "Play albums"
 msgstr "Αναπαραγωγή άλμπουμ"
 
@@ -473,15 +473,15 @@ msgid "Similar artists"
 msgstr "Παρόμοιοι καλλιτέχνες"
 
 #: ../data/ArtistBannerWidget.ui:149 ../data/PlaylistView.ui:83
-#: ../lollypop/view_current_albums.py:57
+#: ../lollypop/view_current_albums.py:61
 msgid "Go to current track"
 msgstr "Μετάβαση στο τρέχον κομμάτι"
 
-#: ../data/ArtistInformation.ui:91 ../lollypop/menu_toolbar.py:37
+#: ../data/ArtistInformation.ui:90 ../lollypop/menu_toolbar.py:37
 msgid "Show lyrics"
 msgstr "Εμφάνιση στίχων"
 
-#: ../data/ArtistInformation.ui:111 ../lollypop/widgets_row_album.py:144
+#: ../data/ArtistInformation.ui:109 ../lollypop/widgets_row_album.py:129
 msgid "Go to artist view"
 msgstr "Μετάβαση στην προβολή καλλιτέχνη"
 
@@ -547,13 +547,13 @@ msgstr "Μετάφραση"
 
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:85
-#: ../lollypop/controller_playback.py:97 ../lollypop/controller_playback.py:124
-#: ../lollypop/helper_overlay_album.py:66
-#: ../lollypop/helper_overlay_decade.py:46
-#: ../lollypop/helper_overlay_genre.py:46
-#: ../lollypop/helper_overlay_playlist.py:51
-#: ../lollypop/helper_overlay_radio.py:50 ../lollypop/pop_tunein.py:194
-#: ../lollypop/view_tracks.py:302
+#: ../lollypop/controller_playback.py:98 ../lollypop/controller_playback.py:117
+#: ../lollypop/helper_overlay_album.py:65
+#: ../lollypop/helper_overlay_decade.py:45
+#: ../lollypop/helper_overlay_genre.py:45
+#: ../lollypop/helper_overlay_playlist.py:50
+#: ../lollypop/helper_overlay_radio.py:49 ../lollypop/pop_tunein.py:194
+#: ../lollypop/view_tracks.py:298
 msgid "Play"
 msgstr "Αναπαραγωγή"
 
@@ -574,7 +574,7 @@ msgstr "Τυχαιοποιημένη αναπαραγωγή λίστας"
 msgid "Clear queue"
 msgstr "Εκκαθάριση ουράς"
 
-#: ../data/QueuePopover.ui:45 ../lollypop/toolbar_end.py:375
+#: ../data/QueuePopover.ui:45
 msgid "Queue"
 msgstr "Ουρά"
 
@@ -590,7 +590,7 @@ msgstr "Νέο ράδιο"
 msgid "Search in TuneIn"
 msgstr "Αναζήτηση στο TuneIn"
 
-#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:47
+#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:51
 msgid "Create a new playlist"
 msgstr "Δημιουργία μιας νέας λίστας αναπαραγωγής"
 
@@ -1422,6 +1422,10 @@ msgstr "Άγνωστο"
 msgid "Scan disabled, missing collection"
 msgstr "Η σάρωση απενεργοποιήθηκε, λείπει συλλογή"
 
+#: ../lollypop/container_lists.py:52 ../lollypop/container_lists.py:53
+msgid "Current playlist"
+msgstr "Τρέχουσα λίστα αναπαραγωγής"
+
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
 msgstr "Αυτόματη λήψη καλλιτεχνήματος άλμπουμ και καλλιτεχνών;"
@@ -1442,7 +1446,7 @@ msgstr "Νέα κομμάτια είναι διαθέσιμα"
 msgid "Refresh"
 msgstr "Ανανέωση"
 
-#: ../lollypop/controller_playback.py:95 ../lollypop/controller_playback.py:127
+#: ../lollypop/controller_playback.py:96 ../lollypop/controller_playback.py:120
 msgid "Pause"
 msgstr "Παύση"
 
@@ -1491,34 +1495,33 @@ msgstr ""
 msgid "Manage devices"
 msgstr ""
 
-#: ../lollypop/fullscreen.py:290 ../lollypop/toolbar_info.py:128
-#: ../lollypop/utils.py:107 ../lollypop/view_information.py:133
+#: ../lollypop/fullscreen.py:284 ../lollypop/utils.py:107
 msgid "You are using a broken cursor theme!"
 msgstr "Χρησιμοποιείτε ένα χαλασμένο θέμα δρομέα!"
 
-#: ../lollypop/helper_overlay_album.py:103
-#: ../lollypop/widgets_banner_artist.py:296
+#: ../lollypop/helper_overlay_album.py:102
+#: ../lollypop/widgets_banner_artist.py:312
 msgid "Add to current playlist"
 msgstr "Προσθήκη στην τρέχουσα λίστα αναπαραγωγής"
 
-#: ../lollypop/helper_overlay_album.py:109
-#: ../lollypop/widgets_banner_artist.py:303
+#: ../lollypop/helper_overlay_album.py:108
+#: ../lollypop/widgets_banner_artist.py:319
 msgid "Remove from current playlist"
 msgstr "Αφαίρεση από την τρέχουσα λίστα αναπαραγωγής"
 
-#: ../lollypop/helper_overlay_playlist.py:62 ../lollypop/pop_tunein.py:201
+#: ../lollypop/helper_overlay_playlist.py:61 ../lollypop/pop_tunein.py:201
 msgid "Add"
 msgstr "Προσθήκη"
 
-#: ../lollypop/helper_overlay_playlist.py:68 ../lollypop/widgets_artwork.py:164
+#: ../lollypop/helper_overlay_playlist.py:67 ../lollypop/widgets_artwork.py:167
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: ../lollypop/helper_overlay_playlist.py:81
+#: ../lollypop/helper_overlay_playlist.py:80
 msgid "Modify playlist"
 msgstr "Τροποποίηση λίστας αναπαραγωγής"
 
-#: ../lollypop/helper_overlay_radio.py:63
+#: ../lollypop/helper_overlay_radio.py:62
 msgid "Modify radio"
 msgstr "Τροποποίηση ραδιοφωνικού σταθμού"
 
@@ -1538,7 +1541,7 @@ msgstr "Διαθέσιμα άλμπουμ"
 msgid "Other albums"
 msgstr "Άλλα άλμπουμ"
 
-#: ../lollypop/menu_edit.py:57 ../lollypop/widgets_row_album.py:139
+#: ../lollypop/menu_edit.py:57 ../lollypop/widgets_row_album.py:124
 msgid "Save in collection"
 msgstr "Αποθήκευση στην συλλογή"
 
@@ -1704,10 +1707,6 @@ msgstr "Παρακαλώ περιμένετε…"
 msgid "No result…"
 msgstr "Κανένα αποτέλεσμα…"
 
-#: ../lollypop/selectionlist.py:530 ../lollypop/selectionlist.py:531
-msgid "Current playlist"
-msgstr "Τρέχουσα λίστα αναπαραγωγής"
-
 #: ../lollypop/shown.py:24
 msgid "Popular albums"
 msgstr "Δημοφιλή άλμπουμ"
@@ -1760,13 +1759,9 @@ msgstr "Συλλογές"
 msgid "Unplayed"
 msgstr "Μη παιγμένα"
 
-#: ../lollypop/toolbar_end.py:235
+#: ../lollypop/toolbar_end.py:206
 msgid "All genres"
 msgstr "Όλα τα είδη"
-
-#: ../lollypop/toolbar_end.py:377
-msgid "Tracks"
-msgstr ""
 
 #: ../lollypop/utils.py:56
 #, python-format
@@ -1783,7 +1778,7 @@ msgstr "%s ώ"
 msgid "%s m"
 msgstr "%s λ"
 
-#: ../lollypop/utils.py:309
+#: ../lollypop/utils.py:328
 msgid "The the"
 msgstr "Το το Τα τα"
 
@@ -1791,7 +1786,7 @@ msgstr "Το το Τα τα"
 msgid "Network not available"
 msgstr "Το δίκτυο δεν είναι διαθέσιμο"
 
-#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:55
+#: ../lollypop/view_albums_box.py:51 ../lollypop/view_albums_list.py:54
 msgid "Missing youtube-dl command"
 msgstr "Λείπει η εντολή youtube-dl"
 
@@ -1803,45 +1798,45 @@ msgstr "Πρέπει να ενεργοποιήσετε το Spotify "
 msgid "and YouTube in network settings"
 msgstr "και το YouTube στις ρυθμίσεις δικτύου"
 
-#: ../lollypop/view_albums_box.py:300
+#: ../lollypop/view_albums_box.py:279
 msgid "Others albums from"
 msgstr "Άλλα άλμπουμ από"
 
-#: ../lollypop/view_albums_box.py:467
+#: ../lollypop/view_albums_box.py:446
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:493
+#: ../lollypop/view_albums_box.py:472
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:215
+#: ../lollypop/view_artists_rounded.py:203
 msgid "Why not listen to?"
 msgstr ""
 
-#: ../lollypop/view_current_albums.py:36
+#: ../lollypop/view_current_albums.py:40
 msgid "Clear albums"
 msgstr "Καθαρισμός άλμπουμ"
 
-#: ../lollypop/view_current_albums.py:59
+#: ../lollypop/view_current_albums.py:63
 msgid "Playing albums"
 msgstr "Άλμπουμ που παίζουν τώρα"
 
-#: ../lollypop/view_information.py:148
+#: ../lollypop/view_information.py:179
 msgid "Loading information"
 msgstr "Φόρτωση πληροφοριών"
 
-#: ../lollypop/view_information.py:152
+#: ../lollypop/view_information.py:183
 #, python-format
 msgid "No information for %s"
 msgstr "Χωρίς πληροφορίες για %s"
 
-#: ../lollypop/view_lyrics.py:121
+#: ../lollypop/view_lyrics.py:125
 msgid "Loading…"
 msgstr "Φόρτωση…"
 
-#: ../lollypop/view_lyrics.py:156
+#: ../lollypop/view_lyrics.py:160
 msgid "You have disabled lyrics search in network settings !"
 msgstr "Έχετε απενεργοποιήσει την αναζήτηση στίχων στις ρυθμίσεις δικτύου !"
 
@@ -1857,28 +1852,28 @@ msgstr "Δεν είναι δυνατή η μετάφραση αυτών των �
 msgid "No lyrics found "
 msgstr "Δεν βρέθηκαν στίχοι "
 
-#: ../lollypop/view_playlists_manager.py:39
+#: ../lollypop/view_playlists_manager.py:44
 msgid "New playlist"
 msgstr "Νέα λίστα αναπαραγωγής"
 
-#: ../lollypop/view_playlists_manager.py:246
-#: ../lollypop/view_playlists_manager.py:249
+#: ../lollypop/view_playlists_manager.py:233
+#: ../lollypop/view_playlists_manager.py:236
 msgid "New playlist "
 msgstr "Νέα λίστα αναπαραγωγής "
 
-#: ../lollypop/view.py:45
+#: ../lollypop/view.py:48
 msgid "No items to show"
 msgstr ""
 
-#: ../lollypop/view_search.py:189
-msgid "<big>No results for this search</big>"
-msgstr "<big>Χωρίς αποτελέσματα για αυτή την αναζήτηση</big>"
+#: ../lollypop/view_search.py:259
+msgid "No results for this search"
+msgstr ""
 
-#: ../lollypop/view_search.py:196
-msgid "<big>Search for artists, albums and tracks</big>"
-msgstr "<big>Αναζήτηση για καλλιτέχνες, άλμπουμ και κομμάτια</big>"
+#: ../lollypop/view_search.py:265
+msgid "Search for artists, albums and tracks"
+msgstr ""
 
-#: ../lollypop/view_tracks.py:293
+#: ../lollypop/view_tracks.py:289
 #, python-format
 msgid "Disc %s"
 msgstr "Δίσκος %s"
@@ -1887,15 +1882,15 @@ msgstr "Δίσκος %s"
 msgid "Local"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:131
+#: ../lollypop/widgets_artwork.py:135
 msgid "Select artwork"
 msgstr "Επιλογή καλλιτεχνήματος"
 
-#: ../lollypop/widgets_artwork.py:244
+#: ../lollypop/widgets_artwork.py:247
 msgid "Reset artwork?"
 msgstr "Επαναφορά καλλιτεχνήματος;"
 
-#: ../lollypop/widgets_cover.py:87
+#: ../lollypop/widgets_cover.py:89
 msgid "Change artwork"
 msgstr "Αλλαγή καλλιτεχνήματος"
 
@@ -2041,11 +2036,11 @@ msgstr "είναι λιγότερο από"
 msgid "Song played %s times"
 msgstr "Το τραγούδι έπαιξε %s φορές"
 
-#: ../lollypop/widgets_row_album.py:118
+#: ../lollypop/widgets_row_album.py:103
 msgid "Compilation"
 msgstr "Συλλογή"
 
-#: ../lollypop/widgets_row_album.py:134 ../lollypop/widgets_row.py:112
+#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row.py:87
 msgid "Remove from playlist"
 msgstr ""
 
@@ -2077,6 +2072,12 @@ msgstr[1] "%d κομμάτια"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Χρήση ρυθμίσεων \"Διαδικτυακοί λογαριασμοί GNOME\""
+
+#~ msgid "<big>No results for this search</big>"
+#~ msgstr "<big>Χωρίς αποτελέσματα για αυτή την αναζήτηση</big>"
+
+#~ msgid "<big>Search for artists, albums and tracks</big>"
+#~ msgstr "<big>Αναζήτηση για καλλιτέχνες, άλμπουμ και κομμάτια</big>"
 
 #~ msgid "Split playlists view"
 #~ msgstr "Προβολή διαιρεμένων λιστών αναπαραγωγής"
