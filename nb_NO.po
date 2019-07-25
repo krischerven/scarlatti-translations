@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 16:12+0200\n"
+"POT-Creation-Date: 2019-07-25 12:15+0200\n"
 "PO-Revision-Date: 2019-07-25 10:15+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -454,7 +454,7 @@ msgstr "_Tastatursnarveier"
 msgid "_About"
 msgstr "_Om"
 
-#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:157
+#: ../data/ArtistBannerWidget.ui:91 ../lollypop/pop_tracks.py:103
 msgid "Play albums"
 msgstr "Spill av album"
 
@@ -468,7 +468,7 @@ msgid "Similar artists"
 msgstr "Lignende artister"
 
 #: ../data/ArtistBannerWidget.ui:149 ../data/PlaylistView.ui:83
-#: ../lollypop/view_current_albums.py:61
+#: ../lollypop/view_current_albums.py:66
 msgid "Go to current track"
 msgstr "Gå til nåværende spor"
 
@@ -476,7 +476,7 @@ msgstr "Gå til nåværende spor"
 msgid "Show lyrics"
 msgstr "Vis sangtekster"
 
-#: ../data/ArtistInformation.ui:109 ../lollypop/widgets_row_album.py:129
+#: ../data/ArtistInformation.ui:109 ../lollypop/widgets_row_album.py:126
 msgid "Go to artist view"
 msgstr "Gå til artistvisning"
 
@@ -543,11 +543,7 @@ msgstr "Oversett"
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:85
 #: ../lollypop/controller_playback.py:98 ../lollypop/controller_playback.py:117
-#: ../lollypop/helper_overlay_album.py:65
-#: ../lollypop/helper_overlay_decade.py:45
-#: ../lollypop/helper_overlay_genre.py:45
-#: ../lollypop/helper_overlay_playlist.py:50
-#: ../lollypop/helper_overlay_radio.py:49 ../lollypop/pop_tunein.py:194
+#: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:194
 #: ../lollypop/view_tracks.py:298
 msgid "Play"
 msgstr "Spill"
@@ -585,7 +581,7 @@ msgstr "Ny radiostasjon"
 msgid "Search in TuneIn"
 msgstr "Søk i TuneIn"
 
-#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:51
+#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:56
 msgid "Create a new playlist"
 msgstr "Opprett en ny spilleliste"
 
@@ -1419,8 +1415,8 @@ msgstr "Gå tilbake"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
-#: ../lollypop/database_tracks.py:402 ../lollypop/tagreader.py:85
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:618
+#: ../lollypop/database_tracks.py:411 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:172
 #: ../lollypop/tagreader.py:220 ../lollypop/tagreader.py:242
 #: ../lollypop/tagreader.py:258 ../lollypop/tagreader.py:262
@@ -1428,7 +1424,7 @@ msgstr "Gå hjem"
 msgid "Unknown"
 msgstr "Ukjent"
 
-#: ../lollypop/collectionscanner.py:453
+#: ../lollypop/collectionscanner.py:455
 #, fuzzy
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
@@ -1462,7 +1458,7 @@ msgstr "Gjenoppfrisk"
 msgid "Pause"
 msgstr "Pause"
 
-#: ../lollypop/database_artists.py:109
+#: ../lollypop/database_artists.py:110
 msgid "Many artists"
 msgstr "Mange artister"
 
@@ -1507,35 +1503,9 @@ msgstr "Enheter"
 msgid "Manage devices"
 msgstr "Håndter enehter"
 
-#: ../lollypop/fullscreen.py:284 ../lollypop/utils.py:107
+#: ../lollypop/fullscreen.py:284
 msgid "You are using a broken cursor theme!"
 msgstr "Du bruker en knekt pekerdrakt!"
-
-#: ../lollypop/helper_overlay_album.py:102
-#: ../lollypop/widgets_banner_artist.py:312
-msgid "Add to current playlist"
-msgstr "Legg til i gjeldende spilleliste"
-
-#: ../lollypop/helper_overlay_album.py:108
-#: ../lollypop/widgets_banner_artist.py:319
-msgid "Remove from current playlist"
-msgstr "Fjern fra gjeldende spilleliste"
-
-#: ../lollypop/helper_overlay_playlist.py:61 ../lollypop/pop_tunein.py:201
-msgid "Add"
-msgstr "Legg til"
-
-#: ../lollypop/helper_overlay_playlist.py:67 ../lollypop/widgets_artwork.py:167
-msgid "Remove"
-msgstr "Fjern"
-
-#: ../lollypop/helper_overlay_playlist.py:80
-msgid "Modify playlist"
-msgstr "Rediger spilleliste"
-
-#: ../lollypop/helper_overlay_radio.py:62
-msgid "Modify radio"
-msgstr "Modifiser radiostasjon"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1553,19 +1523,19 @@ msgstr "Tilgjengelige album"
 msgid "Other albums"
 msgstr "Andre album"
 
-#: ../lollypop/menu_edit.py:57 ../lollypop/widgets_row_album.py:124
+#: ../lollypop/menu_edit.py:59 ../lollypop/widgets_row_album.py:121
 msgid "Save in collection"
 msgstr "Lagre i samling"
 
-#: ../lollypop/menu_edit.py:64
+#: ../lollypop/menu_edit.py:66
 msgid "Remove from collection"
 msgstr "Fjern fra samling"
 
-#: ../lollypop/menu_edit.py:70
+#: ../lollypop/menu_edit.py:72
 msgid "Buy this album"
 msgstr "Kjøp dette albumet"
 
-#: ../lollypop/menu_edit.py:79
+#: ../lollypop/menu_edit.py:81
 msgid "Modify information"
 msgstr "Modifiser informasjon"
 
@@ -1707,9 +1677,17 @@ msgstr "Fjern spor"
 msgid "Remove tracks"
 msgstr "Fjern spor"
 
-#: ../lollypop/pop_menu.py:79
+#: ../lollypop/pop_menu.py:78
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
+
+#: ../lollypop/pop_tracks.py:174 ../lollypop/widgets_banner_artist.py:314
+msgid "Add to current playlist"
+msgstr "Legg til i gjeldende spilleliste"
+
+#: ../lollypop/pop_tracks.py:180 ../lollypop/widgets_banner_artist.py:321
+msgid "Remove from current playlist"
+msgstr "Fjern fra gjeldende spilleliste"
 
 #: ../lollypop/pop_tunein.py:86 ../lollypop/pop_tunein.py:396
 msgid "Can't connect to TuneIn…"
@@ -1718,6 +1696,10 @@ msgstr "Kan ikke koble til TuneIn…"
 #: ../lollypop/pop_tunein.py:153
 msgid "Please wait…"
 msgstr "Vent…"
+
+#: ../lollypop/pop_tunein.py:201
+msgid "Add"
+msgstr "Legg til"
 
 #: ../lollypop/pop_tunein.py:389 ../lollypop/pop_tunein.py:391
 msgid "No result…"
@@ -1779,42 +1761,42 @@ msgstr "Uspilt"
 msgid "All genres"
 msgstr "Alle sjangere"
 
-#: ../lollypop/utils.py:56
+#: ../lollypop/utils.py:66
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s t %s m"
 
-#: ../lollypop/utils.py:58
+#: ../lollypop/utils.py:68
 #, python-format
 msgid "%s h"
 msgstr "%s t"
 
-#: ../lollypop/utils.py:60
+#: ../lollypop/utils.py:70
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:328
+#: ../lollypop/utils.py:348
 msgid "The the"
 msgstr "The the De de"
 
-#: ../lollypop/view_albums_box.py:50
+#: ../lollypop/view_albums_box.py:51
 msgid "Network not available"
 msgstr "Nettverk ikke tilgjengelig"
 
-#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:54
 msgid "Missing youtube-dl command"
 msgstr "Mangler youtube-dl -kommando"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "You need to enable Spotify "
 msgstr "Du må skru på Spotify "
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:59
 msgid "and YouTube in network settings"
 msgstr "og YouTube i nettverksinnstillingene"
 
-#: ../lollypop/view_albums_box.py:276
+#: ../lollypop/view_albums_box.py:277
 msgid "Others albums from"
 msgstr "Andre albumer fra"
 
@@ -1827,22 +1809,26 @@ msgstr "Populære album for øyeblikket"
 msgid "Some albums from: %s"
 msgstr "Noen album fra: %s"
 
-#: ../lollypop/view_albums_box.py:488
-msgid "New albums from Spotify"
-msgstr "Nye album fra Spotify"
-
 #: ../lollypop/view_artists_rounded.py:203
 #, fuzzy
 msgid "Why not listen to?"
 msgstr "Hvorfor ikke lytte til?"
 
-#: ../lollypop/view_current_albums.py:40
+#: ../lollypop/view_current_albums.py:45
 msgid "Clear albums"
 msgstr "Tøm album"
 
-#: ../lollypop/view_current_albums.py:63
+#: ../lollypop/view_current_albums.py:68
 msgid "Playing albums"
 msgstr "Album som spilles"
+
+#: ../lollypop/view_home.py:62
+msgid "You should like this:"
+msgstr ""
+
+#: ../lollypop/view_home.py:66
+msgid "New albums from Spotify"
+msgstr "Nye album fra Spotify"
 
 #: ../lollypop/view_information.py:179
 msgid "Loading information"
@@ -1886,11 +1872,11 @@ msgstr "Ny spilleliste "
 msgid "No items to show"
 msgstr "Ingen elementer å vise"
 
-#: ../lollypop/view_search.py:261
+#: ../lollypop/view_search.py:258
 msgid "No results for this search"
 msgstr "Resultatløst søk"
 
-#: ../lollypop/view_search.py:267
+#: ../lollypop/view_search.py:264
 msgid "Search for artists, albums and tracks"
 msgstr "Søk etter artister, album, og spor"
 
@@ -1907,13 +1893,13 @@ msgstr "Lokal"
 msgid "Select artwork"
 msgstr "Velg omslag"
 
+#: ../lollypop/widgets_artwork.py:167
+msgid "Remove"
+msgstr "Fjern"
+
 #: ../lollypop/widgets_artwork.py:247
 msgid "Reset artwork?"
 msgstr "Tilbakestill omslag?"
-
-#: ../lollypop/widgets_cover.py:89
-msgid "Change artwork"
-msgstr "Endre omslag"
 
 #: ../lollypop/widgets_device.py:114
 msgid "No synchronized albums"
@@ -2057,11 +2043,11 @@ msgstr "er mindre enn"
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
 
-#: ../lollypop/widgets_row_album.py:103
+#: ../lollypop/widgets_row_album.py:100
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row.py:87
+#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "Fjern fra spilleliste"
 
@@ -2093,6 +2079,15 @@ msgstr[1] "%d spor"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Bruk innstillinger fra \"GNOME nettbaserte kontoer\""
+
+#~ msgid "Modify playlist"
+#~ msgstr "Rediger spilleliste"
+
+#~ msgid "Modify radio"
+#~ msgstr "Modifiser radiostasjon"
+
+#~ msgid "Change artwork"
+#~ msgstr "Endre omslag"
 
 #~ msgid "Tracks"
 #~ msgstr "Spor"

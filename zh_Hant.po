@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 16:12+0200\n"
+"POT-Creation-Date: 2019-07-25 12:15+0200\n"
 "PO-Revision-Date: 2019-06-19 13:01+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -438,7 +438,7 @@ msgstr "鍵盤快捷鍵(_K)"
 msgid "_About"
 msgstr "關於(_A)"
 
-#: ../data/ArtistBannerWidget.ui:91 ../lollypop/widgets_album_simple.py:157
+#: ../data/ArtistBannerWidget.ui:91 ../lollypop/pop_tracks.py:103
 msgid "Play albums"
 msgstr "播放專輯"
 
@@ -452,7 +452,7 @@ msgid "Similar artists"
 msgstr "類似的演出者"
 
 #: ../data/ArtistBannerWidget.ui:149 ../data/PlaylistView.ui:83
-#: ../lollypop/view_current_albums.py:61
+#: ../lollypop/view_current_albums.py:66
 msgid "Go to current track"
 msgstr "前往目前的曲目"
 
@@ -460,7 +460,7 @@ msgstr "前往目前的曲目"
 msgid "Show lyrics"
 msgstr "顯示歌詞"
 
-#: ../data/ArtistInformation.ui:109 ../lollypop/widgets_row_album.py:129
+#: ../data/ArtistInformation.ui:109 ../lollypop/widgets_row_album.py:126
 msgid "Go to artist view"
 msgstr "前往演出者檢視"
 
@@ -527,11 +527,7 @@ msgstr "翻譯"
 #: ../data/MiniPlayer.ui:206 ../data/PlaylistView.ui:44
 #: ../data/SearchView.ui:115 ../data/ToolbarPlayback.ui:85
 #: ../lollypop/controller_playback.py:98 ../lollypop/controller_playback.py:117
-#: ../lollypop/helper_overlay_album.py:65
-#: ../lollypop/helper_overlay_decade.py:45
-#: ../lollypop/helper_overlay_genre.py:45
-#: ../lollypop/helper_overlay_playlist.py:50
-#: ../lollypop/helper_overlay_radio.py:49 ../lollypop/pop_tunein.py:194
+#: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:194
 #: ../lollypop/view_tracks.py:298
 msgid "Play"
 msgstr "播放"
@@ -569,7 +565,7 @@ msgstr "新電臺"
 msgid "Search in TuneIn"
 msgstr "在 TuneIn 中搜尋"
 
-#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:51
+#: ../data/SearchView.ui:48 ../lollypop/view_current_albums.py:56
 msgid "Create a new playlist"
 msgstr "製作新的播放清單"
 
@@ -1382,8 +1378,8 @@ msgstr "返回"
 msgid "Go home"
 msgstr "回主頁"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:613
-#: ../lollypop/database_tracks.py:402 ../lollypop/tagreader.py:85
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:618
+#: ../lollypop/database_tracks.py:411 ../lollypop/tagreader.py:85
 #: ../lollypop/tagreader.py:101 ../lollypop/tagreader.py:172
 #: ../lollypop/tagreader.py:220 ../lollypop/tagreader.py:242
 #: ../lollypop/tagreader.py:258 ../lollypop/tagreader.py:262
@@ -1391,7 +1387,7 @@ msgstr "回主頁"
 msgid "Unknown"
 msgstr "未知"
 
-#: ../lollypop/collectionscanner.py:453
+#: ../lollypop/collectionscanner.py:455
 msgid "Scan disabled, missing collection"
 msgstr "掃描已停用，遺失收藏"
 
@@ -1423,7 +1419,7 @@ msgstr "重新整理"
 msgid "Pause"
 msgstr "暫停"
 
-#: ../lollypop/database_artists.py:109
+#: ../lollypop/database_artists.py:110
 msgid "Many artists"
 msgstr "多位演出者"
 
@@ -1468,35 +1464,9 @@ msgstr "裝置"
 msgid "Manage devices"
 msgstr "管理裝置"
 
-#: ../lollypop/fullscreen.py:284 ../lollypop/utils.py:107
+#: ../lollypop/fullscreen.py:284
 msgid "You are using a broken cursor theme!"
 msgstr "您正在使用毀損的游標主題！"
-
-#: ../lollypop/helper_overlay_album.py:102
-#: ../lollypop/widgets_banner_artist.py:312
-msgid "Add to current playlist"
-msgstr "加入目前的播放清單中"
-
-#: ../lollypop/helper_overlay_album.py:108
-#: ../lollypop/widgets_banner_artist.py:319
-msgid "Remove from current playlist"
-msgstr "從目前的播放清單中移除"
-
-#: ../lollypop/helper_overlay_playlist.py:61 ../lollypop/pop_tunein.py:201
-msgid "Add"
-msgstr "加入"
-
-#: ../lollypop/helper_overlay_playlist.py:67 ../lollypop/widgets_artwork.py:167
-msgid "Remove"
-msgstr "移除"
-
-#: ../lollypop/helper_overlay_playlist.py:80
-msgid "Modify playlist"
-msgstr "修改播放清單"
-
-#: ../lollypop/helper_overlay_radio.py:62
-msgid "Modify radio"
-msgstr "修改電臺"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1514,19 +1484,19 @@ msgstr "可用專輯"
 msgid "Other albums"
 msgstr "其他專輯"
 
-#: ../lollypop/menu_edit.py:57 ../lollypop/widgets_row_album.py:124
+#: ../lollypop/menu_edit.py:59 ../lollypop/widgets_row_album.py:121
 msgid "Save in collection"
 msgstr "儲存到收藏中"
 
-#: ../lollypop/menu_edit.py:64
+#: ../lollypop/menu_edit.py:66
 msgid "Remove from collection"
 msgstr "從收藏中移除"
 
-#: ../lollypop/menu_edit.py:70
+#: ../lollypop/menu_edit.py:72
 msgid "Buy this album"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:79
+#: ../lollypop/menu_edit.py:81
 msgid "Modify information"
 msgstr "修改資訊"
 
@@ -1668,9 +1638,17 @@ msgstr "移除曲目"
 msgid "Remove tracks"
 msgstr "移除曲目"
 
-#: ../lollypop/pop_menu.py:79
+#: ../lollypop/pop_menu.py:78
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
+
+#: ../lollypop/pop_tracks.py:174 ../lollypop/widgets_banner_artist.py:314
+msgid "Add to current playlist"
+msgstr "加入目前的播放清單中"
+
+#: ../lollypop/pop_tracks.py:180 ../lollypop/widgets_banner_artist.py:321
+msgid "Remove from current playlist"
+msgstr "從目前的播放清單中移除"
 
 #: ../lollypop/pop_tunein.py:86 ../lollypop/pop_tunein.py:396
 msgid "Can't connect to TuneIn…"
@@ -1679,6 +1657,10 @@ msgstr "無法連接 TuneIn…"
 #: ../lollypop/pop_tunein.py:153
 msgid "Please wait…"
 msgstr "請稍候…"
+
+#: ../lollypop/pop_tunein.py:201
+msgid "Add"
+msgstr "加入"
 
 #: ../lollypop/pop_tunein.py:389 ../lollypop/pop_tunein.py:391
 msgid "No result…"
@@ -1740,42 +1722,42 @@ msgstr "尚未播放"
 msgid "All genres"
 msgstr "所有曲風"
 
-#: ../lollypop/utils.py:56
+#: ../lollypop/utils.py:66
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s 小時 %s 分鐘"
 
-#: ../lollypop/utils.py:58
+#: ../lollypop/utils.py:68
 #, python-format
 msgid "%s h"
 msgstr "%s 小時"
 
-#: ../lollypop/utils.py:60
+#: ../lollypop/utils.py:70
 #, python-format
 msgid "%s m"
 msgstr "%s 分鐘"
 
-#: ../lollypop/utils.py:328
+#: ../lollypop/utils.py:348
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:50
+#: ../lollypop/view_albums_box.py:51
 msgid "Network not available"
 msgstr "無法使用網路"
 
-#: ../lollypop/view_albums_box.py:53 ../lollypop/view_albums_list.py:54
+#: ../lollypop/view_albums_box.py:54
 msgid "Missing youtube-dl command"
 msgstr "缺少 youtube-dl 指令"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "You need to enable Spotify "
 msgstr "您需要在網路設定中啟用 Spotify "
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:59
 msgid "and YouTube in network settings"
 msgstr "和 YouTube"
 
-#: ../lollypop/view_albums_box.py:276
+#: ../lollypop/view_albums_box.py:277
 msgid "Others albums from"
 msgstr "其他專輯來自"
 
@@ -1788,21 +1770,25 @@ msgstr ""
 msgid "Some albums from: %s"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:488
-msgid "New albums from Spotify"
-msgstr ""
-
 #: ../lollypop/view_artists_rounded.py:203
 msgid "Why not listen to?"
 msgstr ""
 
-#: ../lollypop/view_current_albums.py:40
+#: ../lollypop/view_current_albums.py:45
 msgid "Clear albums"
 msgstr "清除專輯"
 
-#: ../lollypop/view_current_albums.py:63
+#: ../lollypop/view_current_albums.py:68
 msgid "Playing albums"
 msgstr "播放中的專輯"
+
+#: ../lollypop/view_home.py:62
+msgid "You should like this:"
+msgstr ""
+
+#: ../lollypop/view_home.py:66
+msgid "New albums from Spotify"
+msgstr ""
 
 #: ../lollypop/view_information.py:179
 msgid "Loading information"
@@ -1846,11 +1832,11 @@ msgstr "新播放清單 "
 msgid "No items to show"
 msgstr "沒有可顯示的項目"
 
-#: ../lollypop/view_search.py:261
+#: ../lollypop/view_search.py:258
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:267
+#: ../lollypop/view_search.py:264
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
@@ -1867,13 +1853,13 @@ msgstr "本機"
 msgid "Select artwork"
 msgstr "選取封面"
 
+#: ../lollypop/widgets_artwork.py:167
+msgid "Remove"
+msgstr "移除"
+
 #: ../lollypop/widgets_artwork.py:247
 msgid "Reset artwork?"
 msgstr "重設封面？"
-
-#: ../lollypop/widgets_cover.py:89
-msgid "Change artwork"
-msgstr "變更封面"
 
 #: ../lollypop/widgets_device.py:114
 msgid "No synchronized albums"
@@ -2017,11 +2003,11 @@ msgstr "少於"
 msgid "Song played %s times"
 msgstr "歌曲已播放 %s 次"
 
-#: ../lollypop/widgets_row_album.py:103
+#: ../lollypop/widgets_row_album.py:100
 msgid "Compilation"
 msgstr "彙編"
 
-#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row.py:87
+#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr ""
 
@@ -2050,6 +2036,15 @@ msgstr[0] "%d 首曲目"
 #: ../lollypop/widgets_settings_web.py:37
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "使用「GNOME 線上帳號」設定"
+
+#~ msgid "Modify playlist"
+#~ msgstr "修改播放清單"
+
+#~ msgid "Modify radio"
+#~ msgstr "修改電臺"
+
+#~ msgid "Change artwork"
+#~ msgstr "變更封面"
 
 #~ msgid "<big>No results for this search</big>"
 #~ msgstr "<big>此搜尋沒有結果</big>"
