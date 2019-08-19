@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-18 17:50+0200\n"
+"POT-Creation-Date: 2019-08-19 18:49+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Romanian (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -45,10 +45,9 @@ msgstr "Pozitia ferestrei (x si y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:229
 #: ../data/org.gnome.Lollypop.gschema.xml:238
 #: ../data/org.gnome.Lollypop.gschema.xml:243
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 #: ../data/org.gnome.Lollypop.gschema.xml:273
-#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -132,7 +131,7 @@ msgstr ""
 "Resetarea acestei valori va reseta baza de date, albumele populare vor fi "
 "restaurate"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:270
+#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Marime coperta album"
 
@@ -157,8 +156,8 @@ msgstr "Reîmprospătare automată muzică"
 msgid "Show performers"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:180
-#: ../data/SettingsAppearance.ui:194
+#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:138
+#: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr ""
 
@@ -178,7 +177,7 @@ msgstr ""
 msgid "Handle compilations"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:344
+#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:302
 msgid "Show compilations in albums view"
 msgstr ""
 
@@ -223,55 +222,55 @@ msgstr ""
 msgid "Show track number from tags"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:248
 msgid "JPG cover quality"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:254
+#: ../data/org.gnome.Lollypop.gschema.xml:249
 msgid "0-100"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "Force single column mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Equalizer enabled"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "Smooth track transitions"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288 ../data/SettingsAppearance.ui:79
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Show labels in sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Only mix songs in party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Smoothing duration"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Shuffle mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:309
+#: ../data/org.gnome.Lollypop.gschema.xml:304
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Repeat"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:223
+#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr ""
 
@@ -288,6 +287,15 @@ msgstr ""
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+
+#: ../data/AboutDialog.ui.in:27
+msgid ""
+"Reda Lazri (Lollypop icon)\n"
+"Geary Development Team (tag-list-symbolic icon)\n"
+"GNOME Project (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
+"Martins D. Okoi (Description in appdata)\n"
+"    "
+msgstr ""
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -537,38 +545,38 @@ msgstr ""
 msgid "Use dark theme variant"
 msgstr "Utilizeaza varianta intunecata a temei"
 
-#: ../data/SettingsAppearance.ui:122 ../data/SettingsAppearance.ui:151
+#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
 msgid "Show compilations"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:240 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:241
+#: ../data/SettingsAppearance.ui:199
 msgid "Name"
 msgstr "Nume"
 
-#: ../data/SettingsAppearance.ui:242 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "An"
 
-#: ../data/SettingsAppearance.ui:243
+#: ../data/SettingsAppearance.ui:201
 msgid "Popularity"
 msgstr "Popularitate"
 
-#: ../data/SettingsAppearance.ui:300
+#: ../data/SettingsAppearance.ui:258
 msgid "Clean cache"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:379
+#: ../data/SettingsAppearance.ui:337
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:393
+#: ../data/SettingsAppearance.ui:351
 msgid "You need to reset database [Music]"
 msgstr ""
 
@@ -763,7 +771,7 @@ msgid ""
 "your project.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:51
+#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:50
 msgid "Search"
 msgstr "Cautare"
 
@@ -1050,7 +1058,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: ../lollypop/container_lists.py:52 ../lollypop/container_lists.py:53
+#: ../lollypop/container_lists.py:51 ../lollypop/container_lists.py:52
 msgid "Current playlist"
 msgstr ""
 
@@ -1258,7 +1266,15 @@ msgstr ""
 msgid "Startup"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:102
+#: ../lollypop/menu_selectionlist.py:89
+msgid "Show text"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:90
+msgid "Options"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:117
 msgid "Sections"
 msgstr ""
 

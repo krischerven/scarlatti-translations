@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-18 17:50+0200\n"
+"POT-Creation-Date: 2019-08-19 18:49+0200\n"
 "PO-Revision-Date: 2019-06-15 07:41+0000\n"
 "Last-Translator: Attila Farkas <farkasattila@ymail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -44,10 +44,9 @@ msgstr "Pozícia okna (x a y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:229
 #: ../data/org.gnome.Lollypop.gschema.xml:238
 #: ../data/org.gnome.Lollypop.gschema.xml:243
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 #: ../data/org.gnome.Lollypop.gschema.xml:273
-#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "INTERNAL"
 msgstr "VNÚTORNÉ"
 
@@ -131,7 +130,7 @@ msgstr ""
 "Vynulovaním tejto hodnoty sa vynuluje databáza. Obľúbené albumy budú "
 "obnovené."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:270
+#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Veľkosť obalu albumu"
 
@@ -156,8 +155,8 @@ msgstr "Automaticky aktualizovať hudbu"
 msgid "Show performers"
 msgstr "Zobraziť účinkujúcich"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:180
-#: ../data/SettingsAppearance.ui:194
+#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:138
+#: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Zobraziť obrázok interpreta"
 
@@ -177,7 +176,7 @@ msgstr ""
 msgid "Handle compilations"
 msgstr "Spracovať kompilácie"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:344
+#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:302
 msgid "Show compilations in albums view"
 msgstr "Zobraziť kompilácie v zobrazení albumov"
 
@@ -222,55 +221,55 @@ msgstr ""
 msgid "Show track number from tags"
 msgstr "Zobraziť číslo skladby zo značiek"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:248
 msgid "JPG cover quality"
 msgstr "Kvalita obalu vo formáte JPG"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:254
+#: ../data/org.gnome.Lollypop.gschema.xml:249
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "Force single column mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Equalizer enabled"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "Smooth track transitions"
 msgstr "Plynulé prechody skladieb"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288 ../data/SettingsAppearance.ui:79
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Show labels in sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Only mix songs in party mode"
 msgstr "Zamiešať skladby iba v párty režime"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Smoothing duration"
 msgstr "Trvanie prechodu"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Shuffle mode"
 msgstr "Náhodný režim"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:309
+#: ../data/org.gnome.Lollypop.gschema.xml:304
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Repeat"
 msgstr "Opakovať"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:223
+#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Zoradiť albumy podľa"
 
@@ -287,6 +286,15 @@ msgstr "Navštíviť domovskú stránku prehrávača Lollypop"
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Dušan Kazik <prescott66@gmail.com>"
+
+#: ../data/AboutDialog.ui.in:27
+msgid ""
+"Reda Lazri (Lollypop icon)\n"
+"Geary Development Team (tag-list-symbolic icon)\n"
+"GNOME Project (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
+"Martins D. Okoi (Description in appdata)\n"
+"    "
+msgstr ""
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -536,38 +544,38 @@ msgstr "Vytvoriť nový zoznam skladieb"
 msgid "Use dark theme variant"
 msgstr "Použiť variant tmavej témy"
 
-#: ../data/SettingsAppearance.ui:122 ../data/SettingsAppearance.ui:151
+#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
 msgid "Show compilations"
 msgstr "Zobraziť kompilácie"
 
-#: ../data/SettingsAppearance.ui:240 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "Interpret"
 
-#: ../data/SettingsAppearance.ui:241
+#: ../data/SettingsAppearance.ui:199
 msgid "Name"
 msgstr "Názvu"
 
-#: ../data/SettingsAppearance.ui:242 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "Roku"
 
-#: ../data/SettingsAppearance.ui:243
+#: ../data/SettingsAppearance.ui:201
 msgid "Popularity"
 msgstr "Obľúbenosti"
 
-#: ../data/SettingsAppearance.ui:300
+#: ../data/SettingsAppearance.ui:258
 msgid "Clean cache"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:379
+#: ../data/SettingsAppearance.ui:337
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:393
+#: ../data/SettingsAppearance.ui:351
 msgid "You need to reset database [Music]"
 msgstr "Je potreba obnoviť databázu [Hudba]"
 
@@ -785,7 +793,7 @@ msgid ""
 "your project.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:51
+#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:50
 msgid "Search"
 msgstr "Hľadať"
 
@@ -1072,7 +1080,7 @@ msgstr ""
 msgid "Unknown"
 msgstr "Neznáme"
 
-#: ../lollypop/container_lists.py:52 ../lollypop/container_lists.py:53
+#: ../lollypop/container_lists.py:51 ../lollypop/container_lists.py:52
 msgid "Current playlist"
 msgstr "Aktuálny zoznam skladieb"
 
@@ -1280,7 +1288,15 @@ msgstr ""
 msgid "Startup"
 msgstr "Pri spustení"
 
-#: ../lollypop/menu_selectionlist.py:102
+#: ../lollypop/menu_selectionlist.py:89
+msgid "Show text"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:90
+msgid "Options"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:117
 msgid "Sections"
 msgstr "Sekcie"
 

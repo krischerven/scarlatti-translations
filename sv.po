@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-18 17:50+0200\n"
+"POT-Creation-Date: 2019-08-19 18:49+0200\n"
 "PO-Revision-Date: 2019-03-18 21:15+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -47,10 +47,9 @@ msgstr "Fönsterposition (x och y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:229
 #: ../data/org.gnome.Lollypop.gschema.xml:238
 #: ../data/org.gnome.Lollypop.gschema.xml:243
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 #: ../data/org.gnome.Lollypop.gschema.xml:273
-#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -134,7 +133,7 @@ msgstr ""
 "Återställning av detta värde kommer att nollställa databasen, populära album "
 "kommer att återskapas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:270
+#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Storlek på omslagsbilder för album"
 
@@ -159,8 +158,8 @@ msgstr "Uppdatera automatiskt musik"
 msgid "Show performers"
 msgstr "Visa artister"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:180
-#: ../data/SettingsAppearance.ui:194
+#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:138
+#: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Visa bildmaterial för artist"
 
@@ -180,7 +179,7 @@ msgstr "Inaktivera användande av scrobbling"
 msgid "Handle compilations"
 msgstr "Hantera samlingsalbum"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:344
+#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:302
 msgid "Show compilations in albums view"
 msgstr "Visa samlingsalbum i albumvy"
 
@@ -225,57 +224,57 @@ msgstr ""
 msgid "Show track number from tags"
 msgstr "Visa spårnummer från taggar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:248
 msgid "JPG cover quality"
 msgstr "JPG omslagskvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:254
+#: ../data/org.gnome.Lollypop.gschema.xml:249
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "Force single column mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Equalizer enabled"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "Smooth track transitions"
 msgstr "Mjuka spårbyten"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288 ../data/SettingsAppearance.ui:79
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Show labels in sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Only mix songs in party mode"
 msgstr "Mixa endast låtar i partyläge"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Smoothing duration"
 msgstr "Utjämningstid"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Shuffle mode"
 msgstr "Blandningsläge"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Possibilities for powermanagement options"
 msgstr "Möjligheter för energisparfunktioner"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:309
+#: ../data/org.gnome.Lollypop.gschema.xml:304
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Detta alternativ hindrar skärmsläckare och vänteläge under uppspelning med "
 "Lollypop."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Repeat"
 msgstr "Upprepa"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:223
+#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Sortera album efter"
 
@@ -292,6 +291,15 @@ msgstr "Besök Lollypops webbplats"
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Göran Olsson <kronstadt21@gmail.com>"
+
+#: ../data/AboutDialog.ui.in:27
+msgid ""
+"Reda Lazri (Lollypop icon)\n"
+"Geary Development Team (tag-list-symbolic icon)\n"
+"GNOME Project (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
+"Martins D. Okoi (Description in appdata)\n"
+"    "
+msgstr ""
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -541,32 +549,32 @@ msgstr "Skapa ny spellista"
 msgid "Use dark theme variant"
 msgstr "Använd mörk temavariant"
 
-#: ../data/SettingsAppearance.ui:122 ../data/SettingsAppearance.ui:151
+#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
 msgid "Show compilations"
 msgstr "Visa samlingsalbum"
 
-#: ../data/SettingsAppearance.ui:240 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "Artist"
 
-#: ../data/SettingsAppearance.ui:241
+#: ../data/SettingsAppearance.ui:199
 msgid "Name"
 msgstr "Namn"
 
-#: ../data/SettingsAppearance.ui:242 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "År"
 
-#: ../data/SettingsAppearance.ui:243
+#: ../data/SettingsAppearance.ui:201
 msgid "Popularity"
 msgstr "Popularitet"
 
-#: ../data/SettingsAppearance.ui:300
+#: ../data/SettingsAppearance.ui:258
 msgid "Clean cache"
 msgstr ""
 
-#: ../data/SettingsAppearance.ui:379
+#: ../data/SettingsAppearance.ui:337
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -574,7 +582,7 @@ msgstr ""
 "Ett samlingsalbum är ett album utan någon \"Albumartist-tagg\"\n"
 "och med olika artister."
 
-#: ../data/SettingsAppearance.ui:393
+#: ../data/SettingsAppearance.ui:351
 msgid "You need to reset database [Music]"
 msgstr "Du måste återställa databasen [Musik]"
 
@@ -778,7 +786,7 @@ msgstr ""
 "<small>Du måste aktivera \"Custom Search API\" och \"YouTube API v3\" för "
 "ditt projekt.</small>"
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:51
+#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:50
 msgid "Search"
 msgstr "Sökning"
 
@@ -1065,7 +1073,7 @@ msgstr ""
 msgid "Unknown"
 msgstr "Okänd"
 
-#: ../lollypop/container_lists.py:52 ../lollypop/container_lists.py:53
+#: ../lollypop/container_lists.py:51 ../lollypop/container_lists.py:52
 msgid "Current playlist"
 msgstr "Aktuell spellista"
 
@@ -1273,7 +1281,15 @@ msgstr "Standard vid start"
 msgid "Startup"
 msgstr "Uppstart"
 
-#: ../lollypop/menu_selectionlist.py:102
+#: ../lollypop/menu_selectionlist.py:89
+msgid "Show text"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:90
+msgid "Options"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:117
 msgid "Sections"
 msgstr "Sektioner"
 
