@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-20 12:15+0200\n"
-"PO-Revision-Date: 2019-08-18 03:23+0000\n"
-"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
-"co.jp>\n"
+"PO-Revision-Date: 2019-08-22 18:24+0000\n"
+"Last-Translator: YAMADA Shinichirou "
+"<yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:34
 msgid "Window size"
@@ -60,11 +60,11 @@ msgstr "ネットワークアクセス"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:74
 msgid "Save artwork/popularity in tags"
-msgstr "タグでアートワーク/人気度を保存"
+msgstr "タグにアートワーク/人気度を保存"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:79
 msgid "Window maximized"
-msgstr "最大化されたウィンドウ"
+msgstr "ウィンドウの最大化"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:80
 msgid "Window maximized state."
@@ -80,7 +80,7 @@ msgstr "ジャンルの ID。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:89
 msgid "Allow syncing to USB disks"
-msgstr ""
+msgstr "USB ディスクの同期を許可"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "Import playlists from collections"
@@ -108,7 +108,7 @@ msgstr "Google カスタム検索 API キー"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "Favorite tag editor"
-msgstr "お気に入りタグエディター"
+msgstr "お気に入りのタグエディター"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid "Favorite cover file"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
-msgstr "アルバムのカバーのサイズ"
+msgstr "アルバムカバーのサイズ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:144
 msgid "Replay gain value in dB"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Equalizer enabled"
-msgstr ""
+msgstr "イコライザーを有効化"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "Smooth track transitions"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Repeat"
-msgstr ""
+msgstr "リピート"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
@@ -303,6 +303,11 @@ msgid ""
 "Martins D. Okoi (Description in appdata)\n"
 "    "
 msgstr ""
+"Reda Lazri (Lollypop アイコン)\n"
+"Geary Development Team (tag-list-symbolic アイコン)\n"
+"GNOME Project (unplayed-albums-symbolic, artists-list-symbolic アイコン)\n"
+"Martins D. Okoi (appdata の説明文)\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -1023,7 +1028,7 @@ msgstr "評価"
 
 #: ../data/SmartPlaylistWidget.ui:33
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
@@ -1095,7 +1100,7 @@ msgstr "ホームに移動"
 
 #: ../lollypop/collectionscanner.py:469
 msgid "Scan disabled, missing collection"
-msgstr ""
+msgstr "コレクションがないためスキャンは無効です"
 
 #: ../lollypop/collectionscanner.py:655 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
@@ -1218,7 +1223,7 @@ msgstr "情報を変更"
 
 #: ../lollypop/menu_edit.py:98
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
-msgstr ""
+msgstr "<i>easytag</i> か <i>kid3-qt</i> をインストールしてください"
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
 msgid "Playback"
@@ -1227,7 +1232,7 @@ msgstr "プレイバック"
 #: ../lollypop/menu_objects.py:53 ../lollypop/menu_objects.py:71
 #: ../lollypop/menu_objects.py:94
 msgid "Add to"
-msgstr ""
+msgstr "次に追加"
 
 #: ../lollypop/menu_objects.py:54 ../lollypop/menu_objects.py:72
 #: ../lollypop/menu_objects.py:95
@@ -1240,7 +1245,7 @@ msgstr "%Y-%m-%d"
 
 #: ../lollypop/menu_objects.py:151
 msgid "YouTube page address"
-msgstr ""
+msgstr "YouTube のアドレス"
 
 #: ../lollypop/menu_playback.py:37
 msgid "Play this album"
@@ -1264,11 +1269,11 @@ msgstr "キューから削除"
 
 #: ../lollypop/menu_playback.py:171
 msgid "Do not stop after"
-msgstr ""
+msgstr "この曲で止めない"
 
 #: ../lollypop/menu_playback.py:176
 msgid "Stop after"
-msgstr ""
+msgstr "この曲で止める"
 
 #: ../lollypop/menu_playlist.py:36 ../lollypop/menu_playlist.py:81
 msgid "Save playlist"
@@ -1312,11 +1317,11 @@ msgstr "スタートアップ"
 
 #: ../lollypop/menu_selectionlist.py:89
 msgid "Show text"
-msgstr ""
+msgstr "テキストを表示"
 
 #: ../lollypop/menu_selectionlist.py:90
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: ../lollypop/menu_selectionlist.py:119
 msgid "Sections"
@@ -1411,7 +1416,7 @@ msgstr "ジャンル"
 
 #: ../lollypop/shown.py:34
 msgid "Genres (list)"
-msgstr ""
+msgstr "ジャンル (一覧)"
 
 #: ../lollypop/shown.py:36
 msgid "Lyrics"
@@ -1423,7 +1428,7 @@ msgstr "アーティスト"
 
 #: ../lollypop/shown.py:39
 msgid "Artists (list)"
-msgstr ""
+msgstr "アーティスト (一覧)"
 
 #: ../lollypop/shown.py:41
 msgid "Current playlist"
@@ -1499,11 +1504,11 @@ msgstr "現時点で人気のアルバム"
 #: ../lollypop/view_albums_box.py:465
 #, python-format
 msgid "Some albums from: %s"
-msgstr ""
+msgstr "%s のアルバム"
 
 #: ../lollypop/view_artists_rounded.py:228
 msgid "Why not listen to?"
-msgstr ""
+msgstr "聞きませんか?"
 
 #: ../lollypop/view_current_albums.py:42
 msgid "Clear albums"
@@ -1568,7 +1573,7 @@ msgstr ""
 
 #: ../lollypop/view_suggestions.py:144
 msgid "Welcome on Lollypop"
-msgstr ""
+msgstr "Lollypop へようこそ"
 
 #: ../lollypop/view_tracks.py:383
 #, python-format
