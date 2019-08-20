@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-19 18:49+0200\n"
+"POT-Creation-Date: 2019-08-20 12:15+0200\n"
 "PO-Revision-Date: 2019-08-18 03:23+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -476,13 +476,13 @@ msgstr "FLAC"
 msgid "Synchronized:"
 msgstr "同期:"
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:50
+#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:37
 msgid "Albums"
 msgstr "アルバム"
 
 #: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:49
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:93
-#: ../lollypop/shown.py:36
+#: ../lollypop/shown.py:30
 msgid "Playlists"
 msgstr "プレイリスト"
 
@@ -819,7 +819,7 @@ msgstr ""
 "<small>\"Custom Search API\" と \"YouTube API v3\" が有効である必要がありま"
 "す。</small>"
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:50
+#: ../data/SettingsWeb.ui:398 ../lollypop/shown.py:40
 msgid "Search"
 msgstr "検索"
 
@@ -1093,11 +1093,11 @@ msgstr "前に戻る"
 msgid "Go home"
 msgstr "ホームに移動"
 
-#: ../lollypop/collectionscanner.py:461
+#: ../lollypop/collectionscanner.py:469
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:643 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:655 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1105,10 +1105,6 @@ msgstr ""
 #: ../lollypop/tagreader.py:280
 msgid "Unknown"
 msgstr "不明"
-
-#: ../lollypop/container_lists.py:51 ../lollypop/container_lists.py:52
-msgid "Current playlist"
-msgstr "現在のプレイリスト"
 
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
@@ -1162,7 +1158,7 @@ msgstr "音楽"
 msgid "Select music folders"
 msgstr "音楽フォルダーを選択"
 
-#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:46
+#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "ウェブ"
@@ -1220,8 +1216,8 @@ msgstr "このアルバムを購入"
 msgid "Modify information"
 msgstr "情報を変更"
 
-#: ../lollypop/menu_edit.py:96
-msgid "Please install easytag or kid3-qt"
+#: ../lollypop/menu_edit.py:98
+msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
@@ -1322,7 +1318,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:117
+#: ../lollypop/menu_selectionlist.py:119
 msgid "Sections"
 msgstr "セクション"
 
@@ -1340,7 +1336,7 @@ msgstr "アーティスト: %s"
 msgid "by %s, from %s"
 msgstr "アーティスト: %s, アルバム: %s"
 
-#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:60
+#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:61
 msgid "Radio"
 msgstr "ラジオ"
 
@@ -1349,7 +1345,7 @@ msgid "New playlist "
 msgstr "新しいプレイリスト "
 
 #: ../lollypop/playlists.py:105 ../lollypop/playlists.py:361
-#: ../lollypop/shown.py:82
+#: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "評価したトラック"
 
@@ -1381,71 +1377,75 @@ msgstr "結果はありません…"
 msgid "Suggestions"
 msgstr "提案"
 
-#: ../lollypop/shown.py:26
+#: ../lollypop/shown.py:25
 msgid "Popular albums"
 msgstr "人気のアルバム"
 
-#: ../lollypop/shown.py:28
+#: ../lollypop/shown.py:26
 msgid "Random albums"
 msgstr "ランダムなアルバム"
 
-#: ../lollypop/shown.py:30
+#: ../lollypop/shown.py:27
 msgid "Loved albums"
 msgstr "評価したアルバム"
 
-#: ../lollypop/shown.py:32
+#: ../lollypop/shown.py:28
 msgid "Recently added albums"
 msgstr "最近追加されたアルバム"
 
-#: ../lollypop/shown.py:34
+#: ../lollypop/shown.py:29
 msgid "Unplayed albums"
 msgstr "未再生のアルバム"
 
-#: ../lollypop/shown.py:38
+#: ../lollypop/shown.py:31
 msgid "Radios"
 msgstr "ラジオ"
 
-#: ../lollypop/shown.py:40
+#: ../lollypop/shown.py:32
 msgid "Years"
 msgstr "年"
 
-#: ../lollypop/shown.py:42
+#: ../lollypop/shown.py:33
 msgid "Genres"
 msgstr "ジャンル"
 
-#: ../lollypop/shown.py:44
+#: ../lollypop/shown.py:34
 msgid "Genres (list)"
 msgstr ""
 
-#: ../lollypop/shown.py:48
+#: ../lollypop/shown.py:36
 msgid "Lyrics"
 msgstr "歌詞"
 
-#: ../lollypop/shown.py:52
+#: ../lollypop/shown.py:38
 msgid "Artists"
 msgstr "アーティスト"
 
-#: ../lollypop/shown.py:53
+#: ../lollypop/shown.py:39
 msgid "Artists (list)"
 msgstr ""
 
-#: ../lollypop/shown.py:55
+#: ../lollypop/shown.py:41
+msgid "Current playlist"
+msgstr "現在のプレイリスト"
+
+#: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "コンピレーション"
 
-#: ../lollypop/shown.py:80
+#: ../lollypop/shown.py:68
 msgid "Popular tracks"
 msgstr "人気のあるトラック"
 
-#: ../lollypop/shown.py:81
+#: ../lollypop/shown.py:69
 msgid "Random tracks"
 msgstr "ランダムなトラック"
 
-#: ../lollypop/shown.py:83
+#: ../lollypop/shown.py:71
 msgid "Recently played"
 msgstr "最近再生したもの"
 
-#: ../lollypop/shown.py:84
+#: ../lollypop/shown.py:72
 msgid "Unplayed"
 msgstr "未再生"
 
@@ -1488,15 +1488,15 @@ msgstr "ネットワーク設定で Spotify と "
 msgid "and YouTube in network settings"
 msgstr "YouTube を有効にする必要があります"
 
-#: ../lollypop/view_albums_box.py:285
+#: ../lollypop/view_albums_box.py:412
 msgid "Others albums from"
 msgstr "他のアルバム:"
 
-#: ../lollypop/view_albums_box.py:455
+#: ../lollypop/view_albums_box.py:439
 msgid "Popular albums at the moment"
 msgstr "現時点で人気のアルバム"
 
-#: ../lollypop/view_albums_box.py:481
+#: ../lollypop/view_albums_box.py:465
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
@@ -1534,15 +1534,15 @@ msgstr "読み込み中…"
 msgid "You have disabled lyrics search in network settings !"
 msgstr "ネットワーク設定で歌詞検索が無効になっています!"
 
-#: ../lollypop/view_lyrics.py:265
+#: ../lollypop/view_lyrics.py:269
 msgid "You need to install python3-textblob module"
 msgstr "python3-textblob モジュールをインストールする必要があります"
 
-#: ../lollypop/view_lyrics.py:270
+#: ../lollypop/view_lyrics.py:274
 msgid "Can't translate this lyrics"
 msgstr "この歌詞を翻訳できません"
 
-#: ../lollypop/view_lyrics.py:391
+#: ../lollypop/view_lyrics.py:395
 msgid "No lyrics found "
 msgstr "このトラックの歌詞は見つかりませんでした "
 
@@ -1550,11 +1550,11 @@ msgstr "このトラックの歌詞は見つかりませんでした "
 msgid "No items to show"
 msgstr "表示するアイテムはありません"
 
-#: ../lollypop/view_search.py:243
+#: ../lollypop/view_search.py:247
 msgid "No results for this search"
 msgstr "見つかりません"
 
-#: ../lollypop/view_search.py:249
+#: ../lollypop/view_search.py:253
 msgid "Search for artists, albums and tracks"
 msgstr "アーティスト、アルバム、トラックを検索します"
 

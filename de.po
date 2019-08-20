@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-19 18:49+0200\n"
+"POT-Creation-Date: 2019-08-20 12:15+0200\n"
 "PO-Revision-Date: 2019-08-04 21:47+0000\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -487,13 +487,13 @@ msgstr "FLAC"
 msgid "Synchronized:"
 msgstr "Synchronisiert:"
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:50
+#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:37
 msgid "Albums"
 msgstr "Alben"
 
 #: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:49
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:93
-#: ../lollypop/shown.py:36
+#: ../lollypop/shown.py:30
 msgid "Playlists"
 msgstr "Wiedergabelisten"
 
@@ -830,7 +830,7 @@ msgstr ""
 "<small>Sie müssen \"Custom Search API\" und \"YouTube API v3\" für Ihr "
 "Projekt aktivieren.</small>"
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:50
+#: ../data/SettingsWeb.ui:398 ../lollypop/shown.py:40
 msgid "Search"
 msgstr "Suche"
 
@@ -1104,11 +1104,11 @@ msgstr "Zurück"
 msgid "Go home"
 msgstr "Zur Startseite"
 
-#: ../lollypop/collectionscanner.py:461
+#: ../lollypop/collectionscanner.py:469
 msgid "Scan disabled, missing collection"
 msgstr "Scan deaktiviert, fehlende Sammlung"
 
-#: ../lollypop/collectionscanner.py:643 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:655 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1116,10 +1116,6 @@ msgstr "Scan deaktiviert, fehlende Sammlung"
 #: ../lollypop/tagreader.py:280
 msgid "Unknown"
 msgstr "Unbekannt"
-
-#: ../lollypop/container_lists.py:51 ../lollypop/container_lists.py:52
-msgid "Current playlist"
-msgstr "Aktuelle Wiedergabeliste"
 
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
@@ -1173,7 +1169,7 @@ msgstr "Musik"
 msgid "Select music folders"
 msgstr "Wähle Musikordner"
 
-#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:46
+#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Web"
@@ -1231,8 +1227,8 @@ msgstr "Dieses Album kaufen"
 msgid "Modify information"
 msgstr "Informationen bearbeiten"
 
-#: ../lollypop/menu_edit.py:96
-msgid "Please install easytag or kid3-qt"
+#: ../lollypop/menu_edit.py:98
+msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
@@ -1333,7 +1329,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:117
+#: ../lollypop/menu_selectionlist.py:119
 msgid "Sections"
 msgstr "Sektionen"
 
@@ -1351,7 +1347,7 @@ msgstr "von %s"
 msgid "by %s, from %s"
 msgstr "von %s, aus %s"
 
-#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:60
+#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:61
 msgid "Radio"
 msgstr "Radio"
 
@@ -1360,7 +1356,7 @@ msgid "New playlist "
 msgstr "Neue Wiedergabeliste "
 
 #: ../lollypop/playlists.py:105 ../lollypop/playlists.py:361
-#: ../lollypop/shown.py:82
+#: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Geliebte Titel"
 
@@ -1392,71 +1388,75 @@ msgstr "Nichts gefunden…"
 msgid "Suggestions"
 msgstr ""
 
-#: ../lollypop/shown.py:26
+#: ../lollypop/shown.py:25
 msgid "Popular albums"
 msgstr "Beliebte Alben"
 
-#: ../lollypop/shown.py:28
+#: ../lollypop/shown.py:26
 msgid "Random albums"
 msgstr "Zufällige Alben"
 
-#: ../lollypop/shown.py:30
+#: ../lollypop/shown.py:27
 msgid "Loved albums"
 msgstr "Lieblingsalben"
 
-#: ../lollypop/shown.py:32
+#: ../lollypop/shown.py:28
 msgid "Recently added albums"
 msgstr "Kürzlich hinzugefügte Alben"
 
-#: ../lollypop/shown.py:34
+#: ../lollypop/shown.py:29
 msgid "Unplayed albums"
 msgstr "Noch nicht gespielte Alben"
 
-#: ../lollypop/shown.py:38
+#: ../lollypop/shown.py:31
 msgid "Radios"
 msgstr "Stationen"
 
-#: ../lollypop/shown.py:40
+#: ../lollypop/shown.py:32
 msgid "Years"
 msgstr "Jahre"
 
-#: ../lollypop/shown.py:42
+#: ../lollypop/shown.py:33
 msgid "Genres"
 msgstr "Genres"
 
-#: ../lollypop/shown.py:44
+#: ../lollypop/shown.py:34
 msgid "Genres (list)"
 msgstr "Genres (Liste)"
 
-#: ../lollypop/shown.py:48
+#: ../lollypop/shown.py:36
 msgid "Lyrics"
 msgstr "Liedtexte"
 
-#: ../lollypop/shown.py:52
+#: ../lollypop/shown.py:38
 msgid "Artists"
 msgstr "Künstler"
 
-#: ../lollypop/shown.py:53
+#: ../lollypop/shown.py:39
 msgid "Artists (list)"
 msgstr "Künstler (Liste)"
 
-#: ../lollypop/shown.py:55
+#: ../lollypop/shown.py:41
+msgid "Current playlist"
+msgstr "Aktuelle Wiedergabeliste"
+
+#: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Kompilationen"
 
-#: ../lollypop/shown.py:80
+#: ../lollypop/shown.py:68
 msgid "Popular tracks"
 msgstr "Beliebte Titel"
 
-#: ../lollypop/shown.py:81
+#: ../lollypop/shown.py:69
 msgid "Random tracks"
 msgstr "Zufällige Titel"
 
-#: ../lollypop/shown.py:83
+#: ../lollypop/shown.py:71
 msgid "Recently played"
 msgstr "Kürzlich abgespielt"
 
-#: ../lollypop/shown.py:84
+#: ../lollypop/shown.py:72
 msgid "Unplayed"
 msgstr "Nicht abgespielt"
 
@@ -1499,15 +1499,15 @@ msgstr "Aktivieren Sie Spotify "
 msgid "and YouTube in network settings"
 msgstr "und YouTube in den Netzwerkeinstellungen"
 
-#: ../lollypop/view_albums_box.py:285
+#: ../lollypop/view_albums_box.py:412
 msgid "Others albums from"
 msgstr "Andere Alben von"
 
-#: ../lollypop/view_albums_box.py:455
+#: ../lollypop/view_albums_box.py:439
 msgid "Popular albums at the moment"
 msgstr "Momentan beliebte Alben"
 
-#: ../lollypop/view_albums_box.py:481
+#: ../lollypop/view_albums_box.py:465
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Einige Alben von: %s"
@@ -1545,15 +1545,15 @@ msgstr "Lade…"
 msgid "You have disabled lyrics search in network settings !"
 msgstr "Sie haben Liedtext-Suche in den Netzwerkeinstellungen deaktiviert!"
 
-#: ../lollypop/view_lyrics.py:265
+#: ../lollypop/view_lyrics.py:269
 msgid "You need to install python3-textblob module"
 msgstr "Sie müssen das python3-textblob-Modul installieren"
 
-#: ../lollypop/view_lyrics.py:270
+#: ../lollypop/view_lyrics.py:274
 msgid "Can't translate this lyrics"
 msgstr "Dieser Text kann nicht übersetzt werden"
 
-#: ../lollypop/view_lyrics.py:391
+#: ../lollypop/view_lyrics.py:395
 msgid "No lyrics found "
 msgstr "Kein Liedtext gefunden "
 
@@ -1561,11 +1561,11 @@ msgstr "Kein Liedtext gefunden "
 msgid "No items to show"
 msgstr "Nichts vorhanden"
 
-#: ../lollypop/view_search.py:243
+#: ../lollypop/view_search.py:247
 msgid "No results for this search"
 msgstr "Keine Suchergebnisse"
 
-#: ../lollypop/view_search.py:249
+#: ../lollypop/view_search.py:253
 msgid "Search for artists, albums and tracks"
 msgstr "Nach Künstlern, Alben und Titeln suchen"
 

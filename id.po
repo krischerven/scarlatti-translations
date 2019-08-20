@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-19 18:49+0200\n"
+"POT-Creation-Date: 2019-08-20 12:15+0200\n"
 "PO-Revision-Date: 2018-05-16 01:38+0000\n"
 "Last-Translator: Fiki Maulana <fikimaul@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/gnumdk/"
@@ -467,13 +467,13 @@ msgstr ""
 msgid "Synchronized:"
 msgstr ""
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:50
+#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:37
 msgid "Albums"
 msgstr ""
 
 #: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:49
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:93
-#: ../lollypop/shown.py:36
+#: ../lollypop/shown.py:30
 msgid "Playlists"
 msgstr ""
 
@@ -769,7 +769,7 @@ msgid ""
 "your project.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/container_lists.py:50
+#: ../data/SettingsWeb.ui:398 ../lollypop/shown.py:40
 msgid "Search"
 msgstr ""
 
@@ -1043,21 +1043,17 @@ msgstr ""
 msgid "Go home"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:461
+#: ../lollypop/collectionscanner.py:469
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:643 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:655 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
 #: ../lollypop/tagreader.py:262 ../lollypop/tagreader.py:272
 #: ../lollypop/tagreader.py:280
 msgid "Unknown"
-msgstr ""
-
-#: ../lollypop/container_lists.py:51 ../lollypop/container_lists.py:52
-msgid "Current playlist"
 msgstr ""
 
 #: ../lollypop/container_notification.py:71
@@ -1112,7 +1108,7 @@ msgstr "Musik"
 msgid "Select music folders"
 msgstr "Pilih berkas musik"
 
-#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:46
+#: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
 #: ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr ""
@@ -1170,8 +1166,8 @@ msgstr ""
 msgid "Modify information"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:96
-msgid "Please install easytag or kid3-qt"
+#: ../lollypop/menu_edit.py:98
+msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
@@ -1272,7 +1268,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:117
+#: ../lollypop/menu_selectionlist.py:119
 msgid "Sections"
 msgstr ""
 
@@ -1290,7 +1286,7 @@ msgstr ""
 msgid "by %s, from %s"
 msgstr ""
 
-#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:60
+#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:61
 msgid "Radio"
 msgstr ""
 
@@ -1299,7 +1295,7 @@ msgid "New playlist "
 msgstr ""
 
 #: ../lollypop/playlists.py:105 ../lollypop/playlists.py:361
-#: ../lollypop/shown.py:82
+#: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr ""
 
@@ -1333,71 +1329,75 @@ msgstr ""
 msgid "Suggestions"
 msgstr ""
 
-#: ../lollypop/shown.py:26
+#: ../lollypop/shown.py:25
 msgid "Popular albums"
 msgstr ""
 
-#: ../lollypop/shown.py:28
+#: ../lollypop/shown.py:26
 msgid "Random albums"
 msgstr ""
 
-#: ../lollypop/shown.py:30
+#: ../lollypop/shown.py:27
 msgid "Loved albums"
 msgstr ""
 
-#: ../lollypop/shown.py:32
+#: ../lollypop/shown.py:28
 msgid "Recently added albums"
 msgstr ""
 
-#: ../lollypop/shown.py:34
+#: ../lollypop/shown.py:29
 msgid "Unplayed albums"
 msgstr ""
 
-#: ../lollypop/shown.py:38
+#: ../lollypop/shown.py:31
 msgid "Radios"
 msgstr ""
 
-#: ../lollypop/shown.py:40
+#: ../lollypop/shown.py:32
 msgid "Years"
 msgstr ""
 
-#: ../lollypop/shown.py:42
+#: ../lollypop/shown.py:33
 msgid "Genres"
 msgstr ""
 
-#: ../lollypop/shown.py:44
+#: ../lollypop/shown.py:34
 msgid "Genres (list)"
 msgstr ""
 
-#: ../lollypop/shown.py:48
+#: ../lollypop/shown.py:36
 msgid "Lyrics"
 msgstr ""
 
-#: ../lollypop/shown.py:52
+#: ../lollypop/shown.py:38
 msgid "Artists"
 msgstr ""
 
-#: ../lollypop/shown.py:53
+#: ../lollypop/shown.py:39
 msgid "Artists (list)"
 msgstr ""
 
-#: ../lollypop/shown.py:55
+#: ../lollypop/shown.py:41
+msgid "Current playlist"
+msgstr ""
+
+#: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr ""
 
-#: ../lollypop/shown.py:80
+#: ../lollypop/shown.py:68
 msgid "Popular tracks"
 msgstr ""
 
-#: ../lollypop/shown.py:81
+#: ../lollypop/shown.py:69
 msgid "Random tracks"
 msgstr ""
 
-#: ../lollypop/shown.py:83
+#: ../lollypop/shown.py:71
 msgid "Recently played"
 msgstr ""
 
-#: ../lollypop/shown.py:84
+#: ../lollypop/shown.py:72
 msgid "Unplayed"
 msgstr ""
 
@@ -1440,15 +1440,15 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:285
+#: ../lollypop/view_albums_box.py:412
 msgid "Others albums from"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:455
+#: ../lollypop/view_albums_box.py:439
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:481
+#: ../lollypop/view_albums_box.py:465
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
@@ -1486,15 +1486,15 @@ msgstr ""
 msgid "You have disabled lyrics search in network settings !"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:265
+#: ../lollypop/view_lyrics.py:269
 msgid "You need to install python3-textblob module"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:270
+#: ../lollypop/view_lyrics.py:274
 msgid "Can't translate this lyrics"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:391
+#: ../lollypop/view_lyrics.py:395
 msgid "No lyrics found "
 msgstr ""
 
@@ -1502,11 +1502,11 @@ msgstr ""
 msgid "No items to show"
 msgstr ""
 
-#: ../lollypop/view_search.py:243
+#: ../lollypop/view_search.py:247
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:249
+#: ../lollypop/view_search.py:253
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
