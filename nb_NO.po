@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 16:40+0200\n"
+"POT-Creation-Date: 2019-08-27 18:30+0200\n"
 "PO-Revision-Date: 2019-08-19 16:49+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -41,12 +41,12 @@ msgstr "Vindusposisjon (x og y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:64
 #: ../data/org.gnome.Lollypop.gschema.xml:89
-#: ../data/org.gnome.Lollypop.gschema.xml:229
-#: ../data/org.gnome.Lollypop.gschema.xml:238
+#: ../data/org.gnome.Lollypop.gschema.xml:234
 #: ../data/org.gnome.Lollypop.gschema.xml:243
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:248
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 #: ../data/org.gnome.Lollypop.gschema.xml:273
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -89,199 +89,203 @@ msgid ""
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
+msgid "If true, Lollypop will not use system youtube-dl"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "Import playlists from collections"
 msgstr "Importer spillelister fra samlinger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:104
+#: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "Music URI"
 msgstr "Musikk-URI"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:105
+#: ../data/org.gnome.Lollypop.gschema.xml:110
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Når tom, bruk XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:109
+#: ../data/org.gnome.Lollypop.gschema.xml:114
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Bruk Libre.fm istedenfor Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:114
+#: ../data/org.gnome.Lollypop.gschema.xml:119
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz-brukersymbol"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "Google Custom Search API key"
 msgstr "Google API-nøkkel for egendefinert søk"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 #, fuzzy
 msgid "Favorite tag editor"
 msgstr "Favoritt-merkelappredigerer"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Favorite cover file"
 msgstr "Favorittomslags-fil"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:130
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Restart needed"
 msgstr "Omstart nødvendig"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid "Database version"
 msgstr "Databaseversjon"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:140
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Tilbakestilling av denne verdien vil tilbakestille databasen, populære album "
 "vil bli gjenopprettet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Størrelse på omslag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Replay gain value in dB"
 msgstr "Gjentakelsesforsterkningsnivå i dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:145
+#: ../data/org.gnome.Lollypop.gschema.xml:150
 msgid "Between -15 and 15"
 msgstr "Mellom -15 og 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:149
+#: ../data/org.gnome.Lollypop.gschema.xml:154
 msgid "Encoding quality"
 msgstr "Kodingskvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:154 ../data/SettingsBehaviour.ui:33
+#: ../data/org.gnome.Lollypop.gschema.xml:159 ../data/SettingsBehaviour.ui:33
 #: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
 msgid "Auto update music"
 msgstr "Oppdater musikk automatisk"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:159
+#: ../data/org.gnome.Lollypop.gschema.xml:164
 msgid "Show performers"
 msgstr "Vis utøvere"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Vis bildemateriale for artist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169
+#: ../data/org.gnome.Lollypop.gschema.xml:174
 msgid "Use dark GTK theme"
 msgstr "Bruk mørk GTK-drakt"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Skru av vindusdekorasjoner på klientsiden (hodefelt)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179
+#: ../data/org.gnome.Lollypop.gschema.xml:184
 msgid "Disable scrobbling usage"
 msgstr "Skru av skrobblingsbruk"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Handle compilations"
 msgstr "Håndter samlinger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
 msgid "Show compilations in albums view"
 msgstr "Vis samlere i albumvisning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "Fortsett avspilling når lukket"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199
+#: ../data/org.gnome.Lollypop.gschema.xml:204
 msgid "Append albums by default"
 msgstr "Legg til album som forvalg"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Smart sort for artist"
 msgstr "Smart sortering på artist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:205
+#: ../data/org.gnome.Lollypop.gschema.xml:210
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "F.eks: The Beatles sortert som Beatles. Tilbakestilling av database kreves"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Vis sorteringsetikett som artist. Tilbakestilling av databasen kan være "
 "nødvendig"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Ex: Beatles, The"
 msgstr "F.eks: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restore previous state"
 msgstr "Gjenopprett tidligere tilstand"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Disable MPRIS"
 msgstr "Skru av MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Notifications behaviour"
 msgstr "Merknadsoppførsel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:233
+#: ../data/org.gnome.Lollypop.gschema.xml:238
 msgid "Show track number from tags"
 msgstr "Vis spornummer fra merkelapper"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "JPG cover quality"
 msgstr "JPG-omslagskvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:249
+#: ../data/org.gnome.Lollypop.gschema.xml:254
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Force single column mode"
 msgstr "Påtving enkeltkolonnemodus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "Equalizer enabled"
 msgstr "Tonekontroll påskrudd"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Smooth track transitions"
 msgstr "Myke sporoverganger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Show labels in sidebar"
 msgstr "Vis etiketter i sidefelt"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Only mix songs in party mode"
 msgstr "Bare bland sanger i festmodus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Smoothing duration"
 msgstr "Overgangsperiode"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:303 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Veksle spor"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Possibilities for powermanagement options"
 msgstr "Muligheter for strømstyring"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:304
+#: ../data/org.gnome.Lollypop.gschema.xml:309
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Dette valget vil forhindre skjermsparing eller dvalgang mens Lollypop "
 "spiller."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Repeat"
 msgstr "Gjenta"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Sorter album etter"
 
@@ -364,6 +368,14 @@ msgstr "Synkronisering –"
 msgid "Audio Scrobbling –"
 msgstr "Lydskrobbling –"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:22
+msgid "Do not reload views on adaptive"
+msgstr "Ikke last inn visninger igjen i tilpasningsmodus"
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:23
+msgid "Bugfixes"
+msgstr "Feilrettinger"
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Musikkavspiller"
@@ -390,7 +402,7 @@ msgstr "Forrige"
 #: ../data/PlaylistBannerWidget.ui:80 ../data/SearchBannerWidget.ui:66
 #: ../data/ToolbarPlayback.ui:85 ../lollypop/controller_playback.py:98
 #: ../lollypop/controller_playback.py:117 ../lollypop/pop_tracks.py:70
-#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:379
+#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
 msgid "Play"
 msgstr "Spill"
 
@@ -444,7 +456,7 @@ msgstr "Lignende artister"
 msgid "Go to current track"
 msgstr "Gå til nåværende spor"
 
-#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:129
+#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:131
 msgid "Go to artist view"
 msgstr "Gå til artistvisning"
 
@@ -797,7 +809,7 @@ msgstr "Brukersymbol"
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:331
+#: ../data/SettingsWeb.ui:336
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -808,11 +820,11 @@ msgstr ""
 "Lollypop trenger dette for å søke etter omslag.\n"
 "</small>"
 
-#: ../data/SettingsWeb.ui:358
+#: ../data/SettingsWeb.ui:363
 msgid "API key"
 msgstr "API-nøkkel"
 
-#: ../data/SettingsWeb.ui:376
+#: ../data/SettingsWeb.ui:381
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -820,9 +832,24 @@ msgstr ""
 "<small>Du må skru på \"Egendefinert søke-API\" og \"YouTube-API v3\" for "
 "ditt prosjekt.</small>"
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/shown.py:40
-msgid "Search"
-msgstr "Søk"
+#: ../data/SettingsWeb.ui:415
+msgid ""
+"Use a recent version of youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Check this if web playback does not work</"
+"span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:450
+msgid "Use an Invidious server"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:468
+msgid "No server set"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:491
+msgid "Google"
+msgstr "Google"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1085,12 +1112,12 @@ msgstr "Gå tilbake"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collectionscanner.py:470
+#: ../lollypop/collectionscanner.py:487
 #, fuzzy
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
 
-#: ../lollypop/collectionscanner.py:656 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1174,7 +1201,7 @@ msgstr "Håndter enehter"
 msgid "You are using a broken cursor theme!"
 msgstr "Du bruker en knekt pekerdrakt!"
 
-#: ../lollypop/helper_web_youtube.py:86
+#: ../lollypop/helper_web_youtube.py:91
 msgid "Can't find this track on YouTube"
 msgstr "Finner ikke dette sporet på YouTube"
 
@@ -1194,7 +1221,7 @@ msgstr "Tilgjengelige album"
 msgid "Other albums"
 msgstr "Andre album"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:124
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:126
 msgid "Save in collection"
 msgstr "Lagre i samling"
 
@@ -1347,11 +1374,11 @@ msgstr "Ny spilleliste "
 msgid "Loved tracks"
 msgstr "Elskede spor"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:310
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:311
 msgid "Add to current playlist"
 msgstr "Legg til i gjeldende spilleliste"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:317
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:318
 msgid "Remove from current playlist"
 msgstr "Fjern fra gjeldende spilleliste"
 
@@ -1423,6 +1450,10 @@ msgstr "Artister"
 msgid "Artists (list)"
 msgstr "Artister (liste)"
 
+#: ../lollypop/shown.py:40
+msgid "Search"
+msgstr "Søk"
+
 #: ../lollypop/shown.py:41
 msgid "Current playlist"
 msgstr "Nåværende spilleliste"
@@ -1486,15 +1517,15 @@ msgstr "Du må skru på Spotify "
 msgid "and YouTube in network settings"
 msgstr "og YouTube i nettverksinnstillingene"
 
-#: ../lollypop/view_albums_box.py:477
+#: ../lollypop/view_albums_box.py:478
 msgid "Others albums from"
 msgstr "Andre albumer fra"
 
-#: ../lollypop/view_albums_box.py:504
+#: ../lollypop/view_albums_box.py:505
 msgid "Popular albums at the moment"
 msgstr "Populære album for øyeblikket"
 
-#: ../lollypop/view_albums_box.py:530
+#: ../lollypop/view_albums_box.py:531
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Noen album fra: %s"
@@ -1537,7 +1568,7 @@ msgstr "Kan ikke oversette denne teksten"
 msgid "No lyrics found "
 msgstr "Fant ikke noen sangtekster "
 
-#: ../lollypop/view_playlists_manager.py:217
+#: ../lollypop/view_playlists_manager.py:218
 msgid "Rename"
 msgstr ""
 
@@ -1545,27 +1576,27 @@ msgstr ""
 msgid "No items to show"
 msgstr "Ingen elementer å vise"
 
-#: ../lollypop/view_search.py:276
+#: ../lollypop/view_search.py:277
 msgid "No results for this search"
 msgstr "Resultatløst søk"
 
-#: ../lollypop/view_search.py:282
+#: ../lollypop/view_search.py:283
 msgid "Search for artists, albums and tracks"
 msgstr "Søk etter artister, album, og spor"
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:71
 msgid "You might like this"
 msgstr "Det kan hende du liker dette"
 
-#: ../lollypop/view_suggestions.py:74
+#: ../lollypop/view_suggestions.py:75
 msgid "New albums from Spotify"
 msgstr "Nye album fra Spotify"
 
-#: ../lollypop/view_suggestions.py:176
+#: ../lollypop/view_suggestions.py:177
 msgid "Welcome on Lollypop"
 msgstr "Velkommen til Lollypop"
 
-#: ../lollypop/view_tracks.py:114
+#: ../lollypop/view_tracks.py:116
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
@@ -1573,7 +1604,7 @@ msgstr ""
 "Dette albumet har inget spor. Sjekk etikettene, alle \"album-artist\"-"
 "etikettene skal være i \"artist\"-etiketter"
 
-#: ../lollypop/view_tracks.py:370
+#: ../lollypop/view_tracks.py:372
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
@@ -1748,11 +1779,11 @@ msgstr "er mindre enn"
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
 
-#: ../lollypop/widgets_row_album.py:103
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row_track.py:110
+#: ../lollypop/widgets_row_album.py:121 ../lollypop/widgets_row_track.py:114
 msgid "Remove from playlist"
 msgstr "Fjern fra spilleliste"
 
@@ -1795,12 +1826,6 @@ msgstr "sanger"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Vekslingsmodus"
-
-#~ msgid "Do not reload views on adaptive"
-#~ msgstr "Ikke last inn visninger igjen i tilpasningsmodus"
-
-#~ msgid "Bugfixes"
-#~ msgstr "Feilrettinger"
 
 #~ msgid "Search in your collection"
 #~ msgstr "Søk i din samling"
@@ -2299,9 +2324,6 @@ msgstr "sanger"
 #, fuzzy
 #~ msgid "Google artwork search"
 #~ msgstr "Omslagssøk på Google"
-
-#~ msgid "Google"
-#~ msgstr "Google"
 
 #, fuzzy
 #~ msgid "DuckDuckGo artwork search and Wikipedia search"

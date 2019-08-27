@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 16:40+0200\n"
+"POT-Creation-Date: 2019-08-27 18:30+0200\n"
 "PO-Revision-Date: 2019-08-26 14:42+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -42,12 +42,12 @@ msgstr "La position de la fenêtre (en x et y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:64
 #: ../data/org.gnome.Lollypop.gschema.xml:89
-#: ../data/org.gnome.Lollypop.gschema.xml:229
-#: ../data/org.gnome.Lollypop.gschema.xml:238
+#: ../data/org.gnome.Lollypop.gschema.xml:234
 #: ../data/org.gnome.Lollypop.gschema.xml:243
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:248
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 #: ../data/org.gnome.Lollypop.gschema.xml:273
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "INTERNAL"
 msgstr "INTERNE"
 
@@ -92,199 +92,203 @@ msgstr ""
 "github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
+msgid "If true, Lollypop will not use system youtube-dl"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "Import playlists from collections"
 msgstr "Importer les listes de lecture depuis les collections"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:104
+#: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "Music URI"
 msgstr "Adresses de la musique"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:105
+#: ../data/org.gnome.Lollypop.gschema.xml:110
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Utilise XDG_MUSIC_DIR si vide"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:109
+#: ../data/org.gnome.Lollypop.gschema.xml:114
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Utiliser Libre.fm au lieu de Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:114
+#: ../data/org.gnome.Lollypop.gschema.xml:119
 msgid "ListenBrainz user token"
 msgstr "Jeton utilisateur ListenBrainz"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "Google Custom Search API key"
 msgstr "Clé d'API pour Google Custom Search"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid "Favorite tag editor"
 msgstr "Editeur de tags préféré"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Favorite cover file"
 msgstr "Fichier de pochette favoris"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:130
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Restart needed"
 msgstr "Redémarrage nécessaire"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid "Database version"
 msgstr "Version de la base de données"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:140
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Remettre cette valeur à zéro réinitialisera votre base de données, les "
 "albums populaires seront restaurés"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Taille des pochettes d'albums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Replay gain value in dB"
 msgstr "Gain de relecture en décibel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:145
+#: ../data/org.gnome.Lollypop.gschema.xml:150
 msgid "Between -15 and 15"
 msgstr "Entre -15 et 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:149
+#: ../data/org.gnome.Lollypop.gschema.xml:154
 msgid "Encoding quality"
 msgstr "Qualité d'encodage"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:154 ../data/SettingsBehaviour.ui:33
+#: ../data/org.gnome.Lollypop.gschema.xml:159 ../data/SettingsBehaviour.ui:33
 #: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
 msgid "Auto update music"
 msgstr "Mise à jour automatique de la musique"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:159
+#: ../data/org.gnome.Lollypop.gschema.xml:164
 msgid "Show performers"
 msgstr "Afficher les interprètes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Afficher la photo de l'artiste"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169
+#: ../data/org.gnome.Lollypop.gschema.xml:174
 msgid "Use dark GTK theme"
 msgstr "Utiliser une variante de thème foncée"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Désactiver les décorations coté client (Barre de titre)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179
+#: ../data/org.gnome.Lollypop.gschema.xml:184
 msgid "Disable scrobbling usage"
 msgstr "Désactiver l'usage du scrobbler"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Handle compilations"
 msgstr "Gère les compilations"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
 msgid "Show compilations in albums view"
 msgstr "Afficher les compilations dans la vue des albums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "Continuer à lire à la fermeture"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199
+#: ../data/org.gnome.Lollypop.gschema.xml:204
 msgid "Append albums by default"
 msgstr "Ajouter les albums par défaut"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Smart sort for artist"
 msgstr "Tri intelligent pour l'artiste"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:205
+#: ../data/org.gnome.Lollypop.gschema.xml:210
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Ex: The Beatles classé comme Beatles. Remise à zero de la base de données "
 "nécessaire"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Afficher le tag de classement comme artiste. Remise à zéro de la base de "
 "données peut être nécessaire"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Ex: Beatles, The"
 msgstr "Ex : Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restore previous state"
 msgstr "Restaurer l'état au démarrage"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Disable MPRIS"
 msgstr "Désactive MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Notifications behaviour"
 msgstr "Comportement des notifications"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:233
+#: ../data/org.gnome.Lollypop.gschema.xml:238
 msgid "Show track number from tags"
 msgstr "Montrer les numéros des morceaux présents dans les tags"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "JPG cover quality"
 msgstr "Qualité des pochettes JPG"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:249
+#: ../data/org.gnome.Lollypop.gschema.xml:254
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Force single column mode"
 msgstr "Forcer le mode colonne simple"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "Equalizer enabled"
 msgstr "Égaliseur activé"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Smooth track transitions"
 msgstr "Transitions douces entre les morceaux"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Show labels in sidebar"
 msgstr "Afficher les étiquettes dans la barre latérale"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Only mix songs in party mode"
 msgstr "Enchaîner les morceaux seulement en mode soirée"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Smoothing duration"
 msgstr "Durée de la transition"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:303 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Mélanger les morceaux"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Possibilities for powermanagement options"
 msgstr "Options de gestion d'énergie"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:304
+#: ../data/org.gnome.Lollypop.gschema.xml:309
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Cette option permet de désactiver l'économiseur d'écran ou la veille lorsque "
 "Lollypop est en cours de lecture."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Repeat"
 msgstr "Répéter"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Trier les albums par"
 
@@ -374,6 +378,14 @@ msgstr "Synchronisation -"
 msgid "Audio Scrobbling –"
 msgstr "Scrobbling Audio -"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:22
+msgid "Do not reload views on adaptive"
+msgstr "Ne rechargez pas les vues sur l'adaptatif"
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:23
+msgid "Bugfixes"
+msgstr "Corrections de bugs"
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Lecteur de musique"
@@ -400,7 +412,7 @@ msgstr "Précédent"
 #: ../data/PlaylistBannerWidget.ui:80 ../data/SearchBannerWidget.ui:66
 #: ../data/ToolbarPlayback.ui:85 ../lollypop/controller_playback.py:98
 #: ../lollypop/controller_playback.py:117 ../lollypop/pop_tracks.py:70
-#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:379
+#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
 msgid "Play"
 msgstr "Lire"
 
@@ -454,7 +466,7 @@ msgstr "Artistes similaires"
 msgid "Go to current track"
 msgstr "Aller au morceau courant"
 
-#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:129
+#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:131
 msgid "Go to artist view"
 msgstr "Aller à la vue de l'artiste"
 
@@ -803,7 +815,7 @@ msgstr "Jeton utilisateur"
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:331
+#: ../data/SettingsWeb.ui:336
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -814,11 +826,11 @@ msgstr ""
 "rapidement…\n"
 "Lollypop a besoin de cela pour rechercher des pochettes.</small>"
 
-#: ../data/SettingsWeb.ui:358
+#: ../data/SettingsWeb.ui:363
 msgid "API key"
 msgstr "Clé d'API"
 
-#: ../data/SettingsWeb.ui:376
+#: ../data/SettingsWeb.ui:381
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -826,9 +838,24 @@ msgstr ""
 "<small>Vous devez activer « Custom Search API » et « YouTube API v3 » pour "
 "votre projet.</small>"
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/shown.py:40
-msgid "Search"
-msgstr "Rechercher"
+#: ../data/SettingsWeb.ui:415
+msgid ""
+"Use a recent version of youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Check this if web playback does not work</"
+"span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:450
+msgid "Use an Invidious server"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:468
+msgid "No server set"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:491
+msgid "Google"
+msgstr "Google"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1088,11 +1115,11 @@ msgstr "Aller en arrière"
 msgid "Go home"
 msgstr "Aller à l'accueil"
 
-#: ../lollypop/collectionscanner.py:470
+#: ../lollypop/collectionscanner.py:487
 msgid "Scan disabled, missing collection"
 msgstr "Scan désactivé, collection manquante"
 
-#: ../lollypop/collectionscanner.py:656 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1175,7 +1202,7 @@ msgstr "Gérer les périphériques"
 msgid "You are using a broken cursor theme!"
 msgstr "Vous utilisez un thème de curseur cassé !"
 
-#: ../lollypop/helper_web_youtube.py:86
+#: ../lollypop/helper_web_youtube.py:91
 msgid "Can't find this track on YouTube"
 msgstr "Impossible de trouver ce titre sur YouTube"
 
@@ -1195,7 +1222,7 @@ msgstr "Albums disponibles"
 msgid "Other albums"
 msgstr "Autres albums"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:124
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:126
 msgid "Save in collection"
 msgstr "Enregistrer dans la collection"
 
@@ -1348,11 +1375,11 @@ msgstr "Nouvelle liste de lecture "
 msgid "Loved tracks"
 msgstr "Morceaux favoris"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:310
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:311
 msgid "Add to current playlist"
 msgstr "Ajouter à la liste de lecture courante"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:317
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:318
 msgid "Remove from current playlist"
 msgstr "Enlever de la liste de lecture courante"
 
@@ -1424,6 +1451,10 @@ msgstr "Artistes"
 msgid "Artists (list)"
 msgstr "Artistes (liste)"
 
+#: ../lollypop/shown.py:40
+msgid "Search"
+msgstr "Rechercher"
+
 #: ../lollypop/shown.py:41
 msgid "Current playlist"
 msgstr "Liste de lecture courante"
@@ -1487,15 +1518,15 @@ msgstr "Vous devez activer Spotify "
 msgid "and YouTube in network settings"
 msgstr "et YouTube dans les paramètres réseau"
 
-#: ../lollypop/view_albums_box.py:477
+#: ../lollypop/view_albums_box.py:478
 msgid "Others albums from"
 msgstr "Autres albums de"
 
-#: ../lollypop/view_albums_box.py:504
+#: ../lollypop/view_albums_box.py:505
 msgid "Popular albums at the moment"
 msgstr "Albums populaires en ce moment"
 
-#: ../lollypop/view_albums_box.py:530
+#: ../lollypop/view_albums_box.py:531
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Quelques albums de: %s"
@@ -1538,7 +1569,7 @@ msgstr "Impossible de traduire les paroles"
 msgid "No lyrics found "
 msgstr "Pas de paroles trouvées "
 
-#: ../lollypop/view_playlists_manager.py:217
+#: ../lollypop/view_playlists_manager.py:218
 msgid "Rename"
 msgstr "Renommer"
 
@@ -1546,27 +1577,27 @@ msgstr "Renommer"
 msgid "No items to show"
 msgstr "Aucun élément à afficher"
 
-#: ../lollypop/view_search.py:276
+#: ../lollypop/view_search.py:277
 msgid "No results for this search"
 msgstr "Aucun résultat pour cette recherche"
 
-#: ../lollypop/view_search.py:282
+#: ../lollypop/view_search.py:283
 msgid "Search for artists, albums and tracks"
 msgstr "Rechercher des artistes, des albums et des morceaux"
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:71
 msgid "You might like this"
 msgstr "Vous pourriez aimer ceci"
 
-#: ../lollypop/view_suggestions.py:74
+#: ../lollypop/view_suggestions.py:75
 msgid "New albums from Spotify"
 msgstr "Nouveaux albums sur Spotify"
 
-#: ../lollypop/view_suggestions.py:176
+#: ../lollypop/view_suggestions.py:177
 msgid "Welcome on Lollypop"
 msgstr "Bienvenue sur Lollypop"
 
-#: ../lollypop/view_tracks.py:114
+#: ../lollypop/view_tracks.py:116
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
@@ -1574,7 +1605,7 @@ msgstr ""
 "Cet album n'a pas de piste. Vérifiez les balises, toutes les étiquettes "
 "'album artist' doivent être dans les balises 'artiste'"
 
-#: ../lollypop/view_tracks.py:370
+#: ../lollypop/view_tracks.py:372
 #, python-format
 msgid "Disc %s"
 msgstr "Disque %s"
@@ -1749,11 +1780,11 @@ msgstr "est plus petit(e) que"
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
 
-#: ../lollypop/widgets_row_album.py:103
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row_track.py:110
+#: ../lollypop/widgets_row_album.py:121 ../lollypop/widgets_row_track.py:114
 msgid "Remove from playlist"
 msgstr "Supprimer de la liste de lecture"
 
@@ -1796,12 +1827,6 @@ msgstr "chanteur"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Mode de lecture aléatoire"
-
-#~ msgid "Do not reload views on adaptive"
-#~ msgstr "Ne rechargez pas les vues sur l'adaptatif"
-
-#~ msgid "Bugfixes"
-#~ msgstr "Corrections de bugs"
 
 #~ msgid "Search in your collection"
 #~ msgstr "Rechercher dans votre collection"
@@ -2309,9 +2334,6 @@ msgstr "chanteur"
 
 #~ msgid "Google artwork search"
 #~ msgstr "Recherche d'images sur Google"
-
-#~ msgid "Google"
-#~ msgstr "Google"
 
 #~ msgid "DuckDuckGo artwork search and Wikipedia search"
 #~ msgstr "Recherche d'images sur DuckDuckGo et recherche sur Wikipedia"

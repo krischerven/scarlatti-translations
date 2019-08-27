@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 16:40+0200\n"
+"POT-Creation-Date: 2019-08-27 18:30+0200\n"
 "PO-Revision-Date: 2019-06-19 13:01+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -40,12 +40,12 @@ msgstr "視窗位置（X 和 Y 座標）。"
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:64
 #: ../data/org.gnome.Lollypop.gschema.xml:89
-#: ../data/org.gnome.Lollypop.gschema.xml:229
-#: ../data/org.gnome.Lollypop.gschema.xml:238
+#: ../data/org.gnome.Lollypop.gschema.xml:234
 #: ../data/org.gnome.Lollypop.gschema.xml:243
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:248
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 #: ../data/org.gnome.Lollypop.gschema.xml:273
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "INTERNAL"
 msgstr "內部"
 
@@ -88,191 +88,195 @@ msgid ""
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
+msgid "If true, Lollypop will not use system youtube-dl"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "Import playlists from collections"
 msgstr "從收藏集匯入播放清單"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:104
+#: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "Music URI"
 msgstr "音樂 URI"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:105
+#: ../data/org.gnome.Lollypop.gschema.xml:110
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "若空白，則使用 XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:109
+#: ../data/org.gnome.Lollypop.gschema.xml:114
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "使用 Libre.fm 取代 Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:114
+#: ../data/org.gnome.Lollypop.gschema.xml:119
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz 使用者代符"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "Google Custom Search API key"
 msgstr "Google 自訂搜尋 API 金鑰"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid "Favorite tag editor"
 msgstr "喜愛標籤編輯器"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Favorite cover file"
 msgstr "喜愛的封面檔"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:130
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Restart needed"
 msgstr "需要重新啟動"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid "Database version"
 msgstr "資料庫版本"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:140
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr "重設此值將重設資料庫，人氣專輯資料將還原至初始狀態"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "專輯封面大小"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Replay gain value in dB"
 msgstr "回放增益值 (dB)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:145
+#: ../data/org.gnome.Lollypop.gschema.xml:150
 msgid "Between -15 and 15"
 msgstr "介於 -15 至 15 之間"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:149
+#: ../data/org.gnome.Lollypop.gschema.xml:154
 msgid "Encoding quality"
 msgstr "編碼品質"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:154 ../data/SettingsBehaviour.ui:33
+#: ../data/org.gnome.Lollypop.gschema.xml:159 ../data/SettingsBehaviour.ui:33
 #: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
 msgid "Auto update music"
 msgstr "自動更新音樂"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:159
+#: ../data/org.gnome.Lollypop.gschema.xml:164
 msgid "Show performers"
 msgstr "顯示演出者"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "顯示演出者圖片"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169
+#: ../data/org.gnome.Lollypop.gschema.xml:174
 msgid "Use dark GTK theme"
 msgstr "使用深黑 GTK 主題"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "停用客戶端視窗裝飾（標頭列）"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179
+#: ../data/org.gnome.Lollypop.gschema.xml:184
 msgid "Disable scrobbling usage"
 msgstr "停用隨播傳功能"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Handle compilations"
 msgstr "處理彙編"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
 msgid "Show compilations in albums view"
 msgstr "以專輯檢視方式顯示彙編"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "關閉後繼續播放"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199
+#: ../data/org.gnome.Lollypop.gschema.xml:204
 msgid "Append albums by default"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Smart sort for artist"
 msgstr "演出者智慧排序"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:205
+#: ../data/org.gnome.Lollypop.gschema.xml:210
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr "例：The Beatles 與 Beatles 相同排序。需要重設資料庫"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr "以演出者作為排序標籤顯示。可能需要重設資料庫"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Ex: Beatles, The"
 msgstr "例：Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restore previous state"
 msgstr "還原到先前狀態"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Disable MPRIS"
 msgstr "停用 MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Notifications behaviour"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:233
+#: ../data/org.gnome.Lollypop.gschema.xml:238
 msgid "Show track number from tags"
 msgstr "根據標籤顯示曲目編號"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "JPG cover quality"
 msgstr "JPG 封面品質"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:249
+#: ../data/org.gnome.Lollypop.gschema.xml:254
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "Force single column mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "Equalizer enabled"
 msgstr "等化器已啟用"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Smooth track transitions"
 msgstr "平滑曲目轉換"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Show labels in sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Only mix songs in party mode"
 msgstr "僅在派對模式中混合歌曲"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Smoothing duration"
 msgstr "平滑轉換時間"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:303 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "隨機曲目"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Possibilities for powermanagement options"
 msgstr "可能使用的電源管理選項"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:304
+#: ../data/org.gnome.Lollypop.gschema.xml:309
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr "此選項會在 Lollypop 播放控制期間，抑制螢幕保護程式與電腦暫停機能。"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Repeat"
 msgstr "重複"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "排序專輯依據"
 
@@ -350,6 +354,14 @@ msgstr ""
 msgid "Audio Scrobbling –"
 msgstr ""
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:22
+msgid "Do not reload views on adaptive"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:23
+msgid "Bugfixes"
+msgstr ""
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "音樂播放器"
@@ -376,7 +388,7 @@ msgstr "上一首"
 #: ../data/PlaylistBannerWidget.ui:80 ../data/SearchBannerWidget.ui:66
 #: ../data/ToolbarPlayback.ui:85 ../lollypop/controller_playback.py:98
 #: ../lollypop/controller_playback.py:117 ../lollypop/pop_tracks.py:70
-#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:379
+#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
 msgid "Play"
 msgstr "播放"
 
@@ -430,7 +442,7 @@ msgstr "類似的演出者"
 msgid "Go to current track"
 msgstr "前往目前的曲目"
 
-#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:129
+#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:131
 msgid "Go to artist view"
 msgstr "前往演出者檢視"
 
@@ -771,27 +783,42 @@ msgstr "使用者代符"
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:331
+#: ../data/SettingsWeb.ui:336
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:358
+#: ../data/SettingsWeb.ui:363
 msgid "API key"
 msgstr "API 金鑰"
 
-#: ../data/SettingsWeb.ui:376
+#: ../data/SettingsWeb.ui:381
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
 "<small>您需要啟用您專案的「Custom Search API」和「YouTube API v3」。</small>"
 
-#: ../data/SettingsWeb.ui:398 ../lollypop/shown.py:40
-msgid "Search"
-msgstr "搜尋"
+#: ../data/SettingsWeb.ui:415
+msgid ""
+"Use a recent version of youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Check this if web playback does not work</"
+"span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:450
+msgid "Use an Invidious server"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:468
+msgid "No server set"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:491
+msgid "Google"
+msgstr ""
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1051,11 +1078,11 @@ msgstr "返回"
 msgid "Go home"
 msgstr "回主頁"
 
-#: ../lollypop/collectionscanner.py:470
+#: ../lollypop/collectionscanner.py:487
 msgid "Scan disabled, missing collection"
 msgstr "掃描已停用，遺失收藏"
 
-#: ../lollypop/collectionscanner.py:656 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1138,7 +1165,7 @@ msgstr "管理裝置"
 msgid "You are using a broken cursor theme!"
 msgstr "您正在使用毀損的游標主題！"
 
-#: ../lollypop/helper_web_youtube.py:86
+#: ../lollypop/helper_web_youtube.py:91
 msgid "Can't find this track on YouTube"
 msgstr ""
 
@@ -1158,7 +1185,7 @@ msgstr "可用專輯"
 msgid "Other albums"
 msgstr "其他專輯"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:124
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:126
 msgid "Save in collection"
 msgstr "儲存到收藏中"
 
@@ -1311,11 +1338,11 @@ msgstr "新播放清單 "
 msgid "Loved tracks"
 msgstr "喜愛曲目"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:310
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:311
 msgid "Add to current playlist"
 msgstr "加入目前的播放清單中"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:317
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:318
 msgid "Remove from current playlist"
 msgstr "從目前的播放清單中移除"
 
@@ -1387,6 +1414,10 @@ msgstr "演出者"
 msgid "Artists (list)"
 msgstr ""
 
+#: ../lollypop/shown.py:40
+msgid "Search"
+msgstr "搜尋"
+
 #: ../lollypop/shown.py:41
 msgid "Current playlist"
 msgstr "目前的播放清單"
@@ -1450,15 +1481,15 @@ msgstr "您需要在網路設定中啟用 Spotify "
 msgid "and YouTube in network settings"
 msgstr "和 YouTube"
 
-#: ../lollypop/view_albums_box.py:477
+#: ../lollypop/view_albums_box.py:478
 msgid "Others albums from"
 msgstr "其他專輯來自"
 
-#: ../lollypop/view_albums_box.py:504
+#: ../lollypop/view_albums_box.py:505
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:530
+#: ../lollypop/view_albums_box.py:531
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
@@ -1500,7 +1531,7 @@ msgstr "無法翻譯此歌詞"
 msgid "No lyrics found "
 msgstr "找不到歌詞 "
 
-#: ../lollypop/view_playlists_manager.py:217
+#: ../lollypop/view_playlists_manager.py:218
 msgid "Rename"
 msgstr ""
 
@@ -1508,33 +1539,33 @@ msgstr ""
 msgid "No items to show"
 msgstr "沒有可顯示的項目"
 
-#: ../lollypop/view_search.py:276
+#: ../lollypop/view_search.py:277
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_search.py:282
+#: ../lollypop/view_search.py:283
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:71
 msgid "You might like this"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:74
+#: ../lollypop/view_suggestions.py:75
 msgid "New albums from Spotify"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:176
+#: ../lollypop/view_suggestions.py:177
 msgid "Welcome on Lollypop"
 msgstr ""
 
-#: ../lollypop/view_tracks.py:114
+#: ../lollypop/view_tracks.py:116
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
 
-#: ../lollypop/view_tracks.py:370
+#: ../lollypop/view_tracks.py:372
 #, python-format
 msgid "Disc %s"
 msgstr "碟片 %s"
@@ -1709,11 +1740,11 @@ msgstr "少於"
 msgid "Song played %s times"
 msgstr "歌曲已播放 %s 次"
 
-#: ../lollypop/widgets_row_album.py:103
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "彙編"
 
-#: ../lollypop/widgets_row_album.py:119 ../lollypop/widgets_row_track.py:110
+#: ../lollypop/widgets_row_album.py:121 ../lollypop/widgets_row_track.py:114
 msgid "Remove from playlist"
 msgstr ""
 
