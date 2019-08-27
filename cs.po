@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 16:40+0200\n"
-"PO-Revision-Date: 2019-07-25 10:15+0000\n"
+"PO-Revision-Date: 2019-08-27 16:29+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
 ">\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:29
 msgid "Window size"
@@ -90,6 +90,8 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
+"Pokud je nastaveno, Lollypop použije tento server namísto YouTube. Podívejte "
+"se na https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "Import playlists from collections"
@@ -228,7 +230,7 @@ msgstr "Zakázat MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Notifications behaviour"
-msgstr ""
+msgstr "Chování oznamování"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:233
 msgid "Show track number from tags"
@@ -256,7 +258,7 @@ msgstr "Plynulé přechody skladeb"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Show labels in sidebar"
-msgstr ""
+msgstr "Ukázat štítky v postranním panelu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Only mix songs in party mode"
@@ -310,6 +312,11 @@ msgid ""
 "Martins D. Okoi (Description in appdata)\n"
 "    "
 msgstr ""
+"Reda Lazri (ikona pro Lollypop)\n"
+"Geary Development Team (seznam značek: symbolická ikona)\n"
+"GNOME Project (nepřehrávaná alba, seznam umělců: symbolické ikony)\n"
+"Martins D. Okoi (popis v appdata)\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -345,22 +352,28 @@ msgid ""
 "view which lets you visually access the player from your couch thanks to its "
 "HiDPI support; and native support for replay gain."
 msgstr ""
+"Lollypop je pokrokový nový hudební přehrávač navržený tak, aby výborně "
+"spolupracoval s pracovním prostředím plochy GNOME. Lollypop také má "
+"společenský režim, který automaticky zvolí seznamy skladeb se vztahem k "
+"události; celoobrazovkové zobrazení, které vám díky podpoře pro HiDPI dovolí "
+"zrakový přístup k přehrávači z vaší pohovky; a vlastní podporu pro vyrovnání "
+"hlasitosti přehrávaných skladeb."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "Mnoho zvukových formátů –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
-msgstr ""
+msgstr "Popis –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "Synchronizace –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
+msgstr "Odesílání údajů o přehrávání –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -422,7 +435,7 @@ msgstr "_O programu Lollypop"
 
 #: ../data/Appmenu.ui:157
 msgid "Quit"
-msgstr ""
+msgstr "Ukončit"
 
 #: ../data/ArtistBannerWidget.ui:91
 msgid "Play albums"
@@ -1163,7 +1176,7 @@ msgstr "Používáte poškozený vzhled ukazatele!"
 
 #: ../lollypop/helper_web_youtube.py:86
 msgid "Can't find this track on YouTube"
-msgstr ""
+msgstr "Tuto skladbu nelze na YouTube najít"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1199,11 +1212,11 @@ msgstr "Upravit údaje"
 
 #: ../lollypop/menu_edit.py:98
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
-msgstr ""
+msgstr "Nainstalujte, prosím, <i>easytag</i> nebo <i>kid3-qt</i>"
 
 #: ../lollypop/menu_header.py:35
 msgid "Sidebar"
-msgstr ""
+msgstr "Postranní panel"
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
 msgid "Playback"
@@ -1212,7 +1225,7 @@ msgstr "Přehrávání"
 #: ../lollypop/menu_objects.py:53 ../lollypop/menu_objects.py:71
 #: ../lollypop/menu_objects.py:94
 msgid "Add to"
-msgstr ""
+msgstr "Přidat do"
 
 #: ../lollypop/menu_objects.py:54 ../lollypop/menu_objects.py:72
 #: ../lollypop/menu_objects.py:95
@@ -1225,11 +1238,11 @@ msgstr "%Y-%m-%d"
 
 #: ../lollypop/menu_objects.py:151
 msgid "YouTube page address"
-msgstr ""
+msgstr "Adresa stránky YouTube"
 
 #: ../lollypop/menu_playback.py:37
 msgid "Play this album"
-msgstr ""
+msgstr "Přehrát toto album"
 
 #: ../lollypop/menu_playback.py:56 ../lollypop/menu_playback.py:136
 msgid "Add to playback"
@@ -1297,11 +1310,11 @@ msgstr "Spuštění programu"
 
 #: ../lollypop/menu_selectionlist.py:99
 msgid "Show text"
-msgstr ""
+msgstr "Ukázat text"
 
 #: ../lollypop/menu_selectionlist.py:100
 msgid "Options"
-msgstr ""
+msgstr "Volby"
 
 #: ../lollypop/menu_selectionlist.py:129
 msgid "Sections"
@@ -1360,7 +1373,7 @@ msgstr "Žádný výsledek…"
 
 #: ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr ""
+msgstr "Návrhy"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1428,11 +1441,11 @@ msgstr "Náhodné skladby"
 
 #: ../lollypop/shown.py:71
 msgid "Recently played tracks"
-msgstr ""
+msgstr "Nedávno přehrávané skladby"
 
 #: ../lollypop/shown.py:72
 msgid "Unplayed tracks"
-msgstr ""
+msgstr "Nepřehrávané skladby"
 
 #: ../lollypop/toolbar_end.py:244
 msgid "All genres"
@@ -1501,7 +1514,7 @@ msgstr "Žádné informace pro %s"
 
 #: ../lollypop/view_lyrics.py:101
 msgid "No track playing"
-msgstr ""
+msgstr "Nehraje žádná skladba"
 
 #: ../lollypop/view_lyrics.py:136
 msgid "Loading…"
@@ -1525,7 +1538,7 @@ msgstr "Nenalezen žádný text písně "
 
 #: ../lollypop/view_playlists_manager.py:217
 msgid "Rename"
-msgstr ""
+msgstr "Přejmenovat"
 
 #: ../lollypop/view.py:46
 msgid "No items to show"
@@ -1541,7 +1554,7 @@ msgstr "Hledat umělce, alba a skladby"
 
 #: ../lollypop/view_suggestions.py:70
 msgid "You might like this"
-msgstr ""
+msgstr "Může se vám líbit"
 
 #: ../lollypop/view_suggestions.py:74
 msgid "New albums from Spotify"
@@ -1549,13 +1562,15 @@ msgstr "Nová alba ze Spotify"
 
 #: ../lollypop/view_suggestions.py:176
 msgid "Welcome on Lollypop"
-msgstr ""
+msgstr "Vítejte v Lollypopu"
 
 #: ../lollypop/view_tracks.py:114
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
+"Toto album nemá žádné značky. Prověřte značky, všechny značky Umělec alba "
+"musí být ve značce Umělec"
 
 #: ../lollypop/view_tracks.py:370
 #, python-format
@@ -1588,7 +1603,7 @@ msgstr "Přehrávání alb"
 
 #: ../lollypop/widgets_banner_today.py:65
 msgid "<b>Album of the day: </b>\n"
-msgstr ""
+msgstr "<b>Album dne: </b>\n"
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
@@ -1774,11 +1789,11 @@ msgstr "Převzít nastavení GNOME pro internetové účty"
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
-msgstr ""
+msgstr "Skupina"
 
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
-msgstr ""
+msgstr "Zpěvák"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Režim náhodného zamíchání"
