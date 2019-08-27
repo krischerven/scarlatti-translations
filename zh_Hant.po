@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 18:38+0200\n"
+"POT-Creation-Date: 2019-08-27 21:49+0200\n"
 "PO-Revision-Date: 2019-06-19 13:01+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -137,7 +137,7 @@ msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr "重設此值將重設資料庫，人氣專輯資料將還原至初始狀態"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:233
 msgid "Albums cover size"
 msgstr "專輯封面大小"
 
@@ -162,8 +162,8 @@ msgstr "自動更新音樂"
 msgid "Show performers"
 msgstr "顯示演出者"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
-#: ../data/SettingsAppearance.ui:152
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:143
+#: ../data/SettingsAppearance.ui:157
 msgid "Show artist artwork"
 msgstr "顯示演出者圖片"
 
@@ -183,7 +183,7 @@ msgstr "停用隨播傳功能"
 msgid "Handle compilations"
 msgstr "處理彙編"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:373
 msgid "Show compilations in albums view"
 msgstr "以專輯檢視方式顯示彙編"
 
@@ -276,7 +276,7 @@ msgstr "此選項會在 Lollypop 播放控制期間，抑制螢幕保護程式�
 msgid "Repeat"
 msgstr "重複"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:186
 msgid "Order albums by"
 msgstr "排序專輯依據"
 
@@ -352,14 +352,6 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
@@ -540,36 +532,40 @@ msgstr "在 TuneIn 中搜尋"
 msgid "Create a new playlist"
 msgstr "製作新的播放清單"
 
-#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
+#: ../data/SettingsAppearance.ui:41 ../data/SettingsAppearance.ui:55
 msgid "Use dark theme variant"
 msgstr "使用深黑主題"
 
-#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
+#: ../data/SettingsAppearance.ui:85 ../data/SettingsAppearance.ui:114
 msgid "Show compilations"
 msgstr "顯示彙編"
 
-#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "演出者"
 
-#: ../data/SettingsAppearance.ui:199
+#: ../data/SettingsAppearance.ui:204
 msgid "Name"
 msgstr "名稱"
 
-#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "年分"
 
-#: ../data/SettingsAppearance.ui:201
+#: ../data/SettingsAppearance.ui:206
 msgid "Popularity"
 msgstr "人氣度"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
 msgid "Clean cache"
 msgstr "清理快取"
 
-#: ../data/SettingsAppearance.ui:337
+#: ../data/SettingsAppearance.ui:294
+msgid "Default background image"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:408
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -577,7 +573,7 @@ msgstr ""
 "彙編為沒有任何「專輯演出者標籤」的專輯\n"
 "且有多位不同的演出者。"
 
-#: ../data/SettingsAppearance.ui:351
+#: ../data/SettingsAppearance.ui:422
 msgid "You need to reset database [Music]"
 msgstr "您需要重設資料庫 [音樂]"
 
@@ -1594,7 +1590,7 @@ msgstr "清除專輯"
 msgid "Playing albums"
 msgstr "播放中的專輯"
 
-#: ../lollypop/widgets_banner_today.py:65
+#: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
 msgstr ""
 

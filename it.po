@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 18:38+0200\n"
+"POT-Creation-Date: 2019-08-27 21:49+0200\n"
 "PO-Revision-Date: 2019-08-22 18:24+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -148,7 +148,7 @@ msgstr ""
 "Azzerare questo valore svuoterà il database, gli album popolari saranno "
 "ripristinati"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:233
 msgid "Albums cover size"
 msgstr "Dimensione copertine degli album"
 
@@ -173,8 +173,8 @@ msgstr "Aggiorna musica automaticamente"
 msgid "Show performers"
 msgstr "Mostra interpreti"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
-#: ../data/SettingsAppearance.ui:152
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:143
+#: ../data/SettingsAppearance.ui:157
 msgid "Show artist artwork"
 msgstr "Mostra immagine dell'artista"
 
@@ -194,7 +194,7 @@ msgstr "Disabilita scrobbling"
 msgid "Handle compilations"
 msgstr "Gestisci compilation"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:373
 msgid "Show compilations in albums view"
 msgstr "Mostra compilation nella vista album"
 
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Repeat"
 msgstr "Ripeti"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:186
 msgid "Order albums by"
 msgstr "Ordina album per"
 
@@ -378,14 +378,6 @@ msgstr "Sincronizzazione –"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
 msgstr "Audio Scrobbling –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr "Non ricaricare viste al ridimensionamento"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr "Correzioni"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -565,36 +557,40 @@ msgstr "Cerca su Tunein"
 msgid "Create a new playlist"
 msgstr "Crea una nuova lista di riproduzione"
 
-#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
+#: ../data/SettingsAppearance.ui:41 ../data/SettingsAppearance.ui:55
 msgid "Use dark theme variant"
 msgstr "Usa variante scura del tema"
 
-#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
+#: ../data/SettingsAppearance.ui:85 ../data/SettingsAppearance.ui:114
 msgid "Show compilations"
 msgstr "Mostra compilation"
 
-#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "Artista"
 
-#: ../data/SettingsAppearance.ui:199
+#: ../data/SettingsAppearance.ui:204
 msgid "Name"
 msgstr "Nome"
 
-#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "Anno"
 
-#: ../data/SettingsAppearance.ui:201
+#: ../data/SettingsAppearance.ui:206
 msgid "Popularity"
 msgstr "Popolarità"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
 msgid "Clean cache"
 msgstr "Svuota cache"
 
-#: ../data/SettingsAppearance.ui:337
+#: ../data/SettingsAppearance.ui:294
+msgid "Default background image"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:408
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -602,7 +598,7 @@ msgstr ""
 "Una compilation è un album senza alcun tag \"Album artist\"\n"
 "e con artisti differenti."
 
-#: ../data/SettingsAppearance.ui:351
+#: ../data/SettingsAppearance.ui:422
 msgid "You need to reset database [Music]"
 msgstr "È necessario azzerare il database [Music]"
 
@@ -1630,7 +1626,7 @@ msgstr "Pulisci album"
 msgid "Playing albums"
 msgstr "Album in riproduzione"
 
-#: ../lollypop/widgets_banner_today.py:65
+#: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
 msgstr ""
 
@@ -1820,6 +1816,12 @@ msgstr "gruppo"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "cantante"
+
+#~ msgid "Do not reload views on adaptive"
+#~ msgstr "Non ricaricare viste al ridimensionamento"
+
+#~ msgid "Bugfixes"
+#~ msgstr "Correzioni"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Modalità mischia"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 18:38+0200\n"
+"POT-Creation-Date: 2019-08-27 21:49+0200\n"
 "PO-Revision-Date: 2019-08-19 16:49+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -141,7 +141,7 @@ msgstr ""
 "Tilbakestilling av denne verdien vil tilbakestille databasen, populære album "
 "vil bli gjenopprettet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:233
 msgid "Albums cover size"
 msgstr "Størrelse på omslag"
 
@@ -166,8 +166,8 @@ msgstr "Oppdater musikk automatisk"
 msgid "Show performers"
 msgstr "Vis utøvere"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
-#: ../data/SettingsAppearance.ui:152
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:143
+#: ../data/SettingsAppearance.ui:157
 msgid "Show artist artwork"
 msgstr "Vis bildemateriale for artist"
 
@@ -187,7 +187,7 @@ msgstr "Skru av skrobblingsbruk"
 msgid "Handle compilations"
 msgstr "Håndter samlinger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:373
 msgid "Show compilations in albums view"
 msgstr "Vis samlere i albumvisning"
 
@@ -285,7 +285,7 @@ msgstr ""
 msgid "Repeat"
 msgstr "Gjenta"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:186
 msgid "Order albums by"
 msgstr "Sorter album etter"
 
@@ -367,14 +367,6 @@ msgstr "Synkronisering –"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
 msgstr "Lydskrobbling –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr "Ikke last inn visninger igjen i tilpasningsmodus"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr "Feilrettinger"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -554,36 +546,40 @@ msgstr "Søk i TuneIn"
 msgid "Create a new playlist"
 msgstr "Opprett en ny spilleliste"
 
-#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
+#: ../data/SettingsAppearance.ui:41 ../data/SettingsAppearance.ui:55
 msgid "Use dark theme variant"
 msgstr "Bruk mørk draktvariant"
 
-#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
+#: ../data/SettingsAppearance.ui:85 ../data/SettingsAppearance.ui:114
 msgid "Show compilations"
 msgstr "Vis samlinger"
 
-#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "Artist"
 
-#: ../data/SettingsAppearance.ui:199
+#: ../data/SettingsAppearance.ui:204
 msgid "Name"
 msgstr "Navn"
 
-#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "År"
 
-#: ../data/SettingsAppearance.ui:201
+#: ../data/SettingsAppearance.ui:206
 msgid "Popularity"
 msgstr "Popularitet"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
 msgid "Clean cache"
 msgstr "Tøm hurtiglager"
 
-#: ../data/SettingsAppearance.ui:337
+#: ../data/SettingsAppearance.ui:294
+msgid "Default background image"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:408
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -591,7 +587,7 @@ msgstr ""
 "En samling er et album uten noen «Albumartistetikett»\n"
 "og med forskjellige artister."
 
-#: ../data/SettingsAppearance.ui:351
+#: ../data/SettingsAppearance.ui:422
 msgid "You need to reset database [Music]"
 msgstr "Du må tilbakestille databasen [Music]"
 
@@ -1633,7 +1629,7 @@ msgstr "Tøm album"
 msgid "Playing albums"
 msgstr "Album som spilles"
 
-#: ../lollypop/widgets_banner_today.py:65
+#: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
 msgstr ""
 
@@ -1823,6 +1819,12 @@ msgstr "band"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "sanger"
+
+#~ msgid "Do not reload views on adaptive"
+#~ msgstr "Ikke last inn visninger igjen i tilpasningsmodus"
+
+#~ msgid "Bugfixes"
+#~ msgstr "Feilrettinger"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Vekslingsmodus"

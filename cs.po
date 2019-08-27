@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 18:38+0200\n"
+"POT-Creation-Date: 2019-08-27 21:49+0200\n"
 "PO-Revision-Date: 2019-08-27 16:29+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -145,7 +145,7 @@ msgstr ""
 "Vynulování této hodnoty obnoví výchozí stav databáze, oblíbená alba budou "
 "obnovena"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:233
 msgid "Albums cover size"
 msgstr "Velikost obalu alba"
 
@@ -170,8 +170,8 @@ msgstr "Automatická aktualizace hudby"
 msgid "Show performers"
 msgstr "Ukázat účinkující"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
-#: ../data/SettingsAppearance.ui:152
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:143
+#: ../data/SettingsAppearance.ui:157
 msgid "Show artist artwork"
 msgstr "Ukázat obal umělce"
 
@@ -192,7 +192,7 @@ msgid "Handle compilations"
 msgstr ""
 "Zpracovat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:373
 msgid "Show compilations in albums view"
 msgstr ""
 "Ukázat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů v "
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Repeat"
 msgstr "Opakovat"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:186
 msgid "Order albums by"
 msgstr "Řadit alba podle"
 
@@ -378,15 +378,6 @@ msgstr "Synchronizace –"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
 msgstr "Odesílání údajů o přehrávání –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-#, fuzzy
-msgid "Do not reload views on adaptive"
-msgstr "Nenahrávat zobrazení znovu na přizpůsobující se"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -566,43 +557,47 @@ msgstr "Hledat v TuneIn"
 msgid "Create a new playlist"
 msgstr "Vytvořit nový seznam skladeb"
 
-#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
+#: ../data/SettingsAppearance.ui:41 ../data/SettingsAppearance.ui:55
 msgid "Use dark theme variant"
 msgstr "Použít variantu s tmavým vzhledem"
 
-#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
+#: ../data/SettingsAppearance.ui:85 ../data/SettingsAppearance.ui:114
 msgid "Show compilations"
 msgstr ""
 "Ukázat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů"
 
-#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "Umělec"
 
-#: ../data/SettingsAppearance.ui:199
+#: ../data/SettingsAppearance.ui:204
 msgid "Name"
 msgstr "Název"
 
-#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "Rok"
 
-#: ../data/SettingsAppearance.ui:201
+#: ../data/SettingsAppearance.ui:206
 msgid "Popularity"
 msgstr "Oblíbenost"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
 msgid "Clean cache"
 msgstr "Vyprázdnit vyrovnávací paměť"
 
-#: ../data/SettingsAppearance.ui:337
+#: ../data/SettingsAppearance.ui:294
+msgid "Default background image"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:408
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr "Kompilace je album bez značky umělec alba a s různými umělci."
 
-#: ../data/SettingsAppearance.ui:351
+#: ../data/SettingsAppearance.ui:422
 msgid "You need to reset database [Music]"
 msgstr "Je potřeba vynulovat databázi [Music]"
 
@@ -1633,7 +1628,7 @@ msgstr "Vyprázdnit alba"
 msgid "Playing albums"
 msgstr "Přehrávání alb"
 
-#: ../lollypop/widgets_banner_today.py:65
+#: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
 msgstr "<b>Album dne: </b>\n"
 
@@ -1826,6 +1821,10 @@ msgstr "Skupina"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "Zpěvák"
+
+#, fuzzy
+#~ msgid "Do not reload views on adaptive"
+#~ msgstr "Nenahrávat zobrazení znovu na přizpůsobující se"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Režim náhodného zamíchání"

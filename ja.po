@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 18:38+0200\n"
+"POT-Creation-Date: 2019-08-27 21:49+0200\n"
 "PO-Revision-Date: 2019-08-22 18:24+0000\n"
 "Last-Translator: Sunatomo Masuda <sunatomo@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -139,7 +139,7 @@ msgstr ""
 "この値をリセットするとデータベースがリセットされ、アルバムの人気度が初期化さ"
 "れます"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:233
 msgid "Albums cover size"
 msgstr "アルバムカバーのサイズ"
 
@@ -164,8 +164,8 @@ msgstr "楽曲自動更新"
 msgid "Show performers"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
-#: ../data/SettingsAppearance.ui:152
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:143
+#: ../data/SettingsAppearance.ui:157
 msgid "Show artist artwork"
 msgstr "アーティストのアートワークを表示"
 
@@ -185,7 +185,7 @@ msgstr "Scrobbling の使用を無効化"
 msgid "Handle compilations"
 msgstr "コンピレーションを処理"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:302
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:373
 msgid "Show compilations in albums view"
 msgstr "アルバムビューでコンピレーションを表示"
 
@@ -283,7 +283,7 @@ msgstr ""
 msgid "Repeat"
 msgstr "リピート"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:186
 msgid "Order albums by"
 msgstr "アルバムの並び順"
 
@@ -367,14 +367,6 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
@@ -555,36 +547,40 @@ msgstr "TuneIn で検索"
 msgid "Create a new playlist"
 msgstr "新しいプレイリストを作成"
 
-#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
+#: ../data/SettingsAppearance.ui:41 ../data/SettingsAppearance.ui:55
 msgid "Use dark theme variant"
 msgstr "ダークテーマを使用"
 
-#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
+#: ../data/SettingsAppearance.ui:85 ../data/SettingsAppearance.ui:114
 msgid "Show compilations"
 msgstr "コンピレーションを表示"
 
-#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:45
 msgid "Artist"
 msgstr "アーティスト"
 
-#: ../data/SettingsAppearance.ui:199
+#: ../data/SettingsAppearance.ui:204
 msgid "Name"
 msgstr "名前"
 
-#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:205 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "年"
 
-#: ../data/SettingsAppearance.ui:201
+#: ../data/SettingsAppearance.ui:206
 msgid "Popularity"
 msgstr "人気度"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
 msgid "Clean cache"
 msgstr "キャッシュを消去"
 
-#: ../data/SettingsAppearance.ui:337
+#: ../data/SettingsAppearance.ui:294
+msgid "Default background image"
+msgstr ""
+
+#: ../data/SettingsAppearance.ui:408
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -592,7 +588,7 @@ msgstr ""
 "コンピレーションは \"アルバムアーティストタグ\" がなく、\n"
 "複数のアーティストが混在するアルバムです。"
 
-#: ../data/SettingsAppearance.ui:351
+#: ../data/SettingsAppearance.ui:422
 msgid "You need to reset database [Music]"
 msgstr "[音楽] データベースをリセットする必要があります"
 
@@ -1619,7 +1615,7 @@ msgstr "アルバムをクリア"
 msgid "Playing albums"
 msgstr "再生中のアルバム"
 
-#: ../lollypop/widgets_banner_today.py:65
+#: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
 msgstr ""
 
