@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-27 21:49+0200\n"
-"PO-Revision-Date: 2019-08-26 14:34+0000\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"PO-Revision-Date: 2019-08-30 18:24+0000\n"
+"Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "tr/>\n"
 "Language: tr\n"
@@ -90,10 +90,12 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
+"Ayarlanırsa, Lollypop YouTube yerine bu sunucuyu kullanır. Bkz "
+"https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "If true, Lollypop will not use system youtube-dl"
-msgstr ""
+msgstr "Ayarlanırsa, Lollypop youtube-dl sistemini kullanmayacak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "Import playlists from collections"
@@ -318,6 +320,11 @@ msgid ""
 "Martins D. Okoi (Description in appdata)\n"
 "    "
 msgstr ""
+"Reda Lazri (Lollypop simgesi)\n"
+"Geary Geliştirici Takımı (etiket-liste-sembolik simge)\n"
+"GNOME Projesi (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
+"Martins D. Okoi (Appdata'daki açıklama)\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -353,22 +360,27 @@ msgid ""
 "view which lets you visually access the player from your couch thanks to its "
 "HiDPI support; and native support for replay gain."
 msgstr ""
+"Lollypop, GNOME masaüstü ortamında mükemmel çalışmak için tasarlanmış hafif "
+"ve modern bir müzik çalar. Lolipop ayrıca, çalınacak parti ile ilgili çalma "
+"listelerini otomatik olarak seçecek bir parti kipine sahiptir; HiDPI desteği "
+"sayesinde müzik çalara koltuğunuzdan görsel olarak erişmenizi sağlayan tam "
+"ekran görünüm; ve tekrar kazancı için yerel destek."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "Çoklu Ses Biçimleri -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
-msgstr ""
+msgstr "Üstveri –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "Eşitleyici –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
+msgstr "Ses Skroplama –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -579,7 +591,7 @@ msgstr "Önbelleği temizle"
 
 #: ../data/SettingsAppearance.ui:294
 msgid "Default background image"
-msgstr ""
+msgstr "Varsayılan arka plan resmi"
 
 #: ../data/SettingsAppearance.ui:408
 msgid ""
@@ -829,14 +841,17 @@ msgid ""
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
+"Son sürüm youtube-dl kullan\n"
+"<span size=\"small\" alpha='40000'>Web oynatma işe yaramazsa bunu "
+"etkinleştir</span>"
 
 #: ../data/SettingsWeb.ui:450
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Invidious sunucusunu kullan"
 
 #: ../data/SettingsWeb.ui:468
 msgid "No server set"
-msgstr ""
+msgstr "Sunucu ayarlanmadı"
 
 #: ../data/SettingsWeb.ui:491
 msgid "Google"
@@ -1225,11 +1240,11 @@ msgstr "Bilgileri değiştir"
 
 #: ../lollypop/menu_edit.py:98
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
-msgstr ""
+msgstr "Lütfen <i>easytag</i> yada <i>kid3-qt</i> kurun"
 
 #: ../lollypop/menu_header.py:35
 msgid "Sidebar"
-msgstr ""
+msgstr "Kenar çubuğu"
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
 msgid "Playback"
@@ -1251,7 +1266,7 @@ msgstr "%Y-%m-%d"
 
 #: ../lollypop/menu_objects.py:151
 msgid "YouTube page address"
-msgstr ""
+msgstr "YouTube sayfa adresi"
 
 #: ../lollypop/menu_playback.py:37
 msgid "Play this album"
@@ -1323,11 +1338,11 @@ msgstr "Başlangıç"
 
 #: ../lollypop/menu_selectionlist.py:99
 msgid "Show text"
-msgstr ""
+msgstr "Metni göster"
 
 #: ../lollypop/menu_selectionlist.py:100
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: ../lollypop/menu_selectionlist.py:129
 msgid "Sections"
@@ -1458,11 +1473,11 @@ msgstr "Rastgele parçalar"
 
 #: ../lollypop/shown.py:71
 msgid "Recently played tracks"
-msgstr ""
+msgstr "Son çalınan parçalar"
 
 #: ../lollypop/shown.py:72
 msgid "Unplayed tracks"
-msgstr ""
+msgstr "Çalınmayan parçalar"
 
 #: ../lollypop/toolbar_end.py:244
 msgid "All genres"
@@ -1555,7 +1570,7 @@ msgstr "Şarkı sözü bulunamadı "
 
 #: ../lollypop/view_playlists_manager.py:218
 msgid "Rename"
-msgstr ""
+msgstr "Adlandır"
 
 #: ../lollypop/view.py:46
 msgid "No items to show"
@@ -1586,6 +1601,8 @@ msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
+"Bu albümde şarkı yok. Etiketleri kontrol edin, tüm 'albüm sanatçısı' "
+"etiketlerinin 'sanatçı' etiketlerinde olması gerekir"
 
 #: ../lollypop/view_tracks.py:372
 #, python-format
@@ -1618,7 +1635,7 @@ msgstr "Çalınan albümler"
 
 #: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
-msgstr ""
+msgstr "<b>Günün albümü: </b>\n"
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
