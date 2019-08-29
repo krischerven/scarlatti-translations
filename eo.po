@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-27 21:49+0200\n"
-"PO-Revision-Date: 2019-08-06 14:23+0000\n"
+"PO-Revision-Date: 2019-08-30 18:24+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/eo/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:29
 msgid "Window size"
@@ -89,10 +89,12 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
+"Se agordata, Lollypop uzos ĉi-tiun servon anstataŭ YouTube. Vidu "
+"https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "If true, Lollypop will not use system youtube-dl"
-msgstr ""
+msgstr "Se vero, Lollypop uzos la youtube-dl de la mastrumilo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "Import playlists from collections"
@@ -312,6 +314,11 @@ msgid ""
 "Martins D. Okoi (Description in appdata)\n"
 "    "
 msgstr ""
+"Reda Lazri (Lollypop ikono)\n"
+"Geary Development Team (tag-list-symbolic ikono)\n"
+"GNOME Project (unplayed-albums-symbolic, artists-list-symbolic ikonoj)\n"
+"Martins D. Okoi (Priskribo en appdata)\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:59
 msgid "Donations:"
@@ -347,22 +354,24 @@ msgid ""
 "view which lets you visually access the player from your couch thanks to its "
 "HiDPI support; and native support for replay gain."
 msgstr ""
+"Lollypop estas leĝera moderna muzikludilo konceptita por perfekta funkciado "
+"sur la GNOME fenestrilo."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "Pluraj Aŭdiaj Formatoj –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
-msgstr ""
+msgstr "Metadatumo –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "Sinkronigado –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
+msgstr "Aŭdia Luditkolektado –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -573,7 +582,7 @@ msgstr "Purigi kaŝmemoron"
 
 #: ../data/SettingsAppearance.ui:294
 msgid "Default background image"
-msgstr ""
+msgstr "Laŭnorma fona bildo"
 
 #: ../data/SettingsAppearance.ui:408
 msgid ""
@@ -822,14 +831,17 @@ msgid ""
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
+"Uzi freŝdatan version de youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Enŝaltu ĉi-tiun se reta ludado "
+"malfunkcias</span>"
 
 #: ../data/SettingsWeb.ui:450
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Uzi  alternativan servon al youtube-dl (Invidious)"
 
 #: ../data/SettingsWeb.ui:468
 msgid "No server set"
-msgstr ""
+msgstr "Neniu servilo starigita"
 
 #: ../data/SettingsWeb.ui:491
 msgid "Google"
@@ -1218,11 +1230,11 @@ msgstr "Aliigi la informojn"
 
 #: ../lollypop/menu_edit.py:98
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
-msgstr ""
+msgstr "Bonvolu instali na <i>easytag</i> aŭ <i>kid3-qt</i>"
 
 #: ../lollypop/menu_header.py:35
 msgid "Sidebar"
-msgstr ""
+msgstr "Flankbreto"
 
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
 msgid "Playback"
@@ -1244,7 +1256,7 @@ msgstr "%Y-%m-%d"
 
 #: ../lollypop/menu_objects.py:151
 msgid "YouTube page address"
-msgstr ""
+msgstr "Paĝadreso de Youtube"
 
 #: ../lollypop/menu_playback.py:37
 msgid "Play this album"
@@ -1316,11 +1328,11 @@ msgstr "Startigo"
 
 #: ../lollypop/menu_selectionlist.py:99
 msgid "Show text"
-msgstr ""
+msgstr "Montri tekston"
 
 #: ../lollypop/menu_selectionlist.py:100
 msgid "Options"
-msgstr ""
+msgstr "Agordoj"
 
 #: ../lollypop/menu_selectionlist.py:129
 msgid "Sections"
@@ -1451,11 +1463,11 @@ msgstr "Hazardaj trakoj"
 
 #: ../lollypop/shown.py:71
 msgid "Recently played tracks"
-msgstr ""
+msgstr "Ĵus luditaj pecoj"
 
 #: ../lollypop/shown.py:72
 msgid "Unplayed tracks"
-msgstr ""
+msgstr "Neluditaj pecoj"
 
 #: ../lollypop/toolbar_end.py:244
 msgid "All genres"
@@ -1548,7 +1560,7 @@ msgstr "Ne trovis kantotekston "
 
 #: ../lollypop/view_playlists_manager.py:218
 msgid "Rename"
-msgstr ""
+msgstr "Alinomi"
 
 #: ../lollypop/view.py:46
 msgid "No items to show"
@@ -1579,6 +1591,8 @@ msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
+"Ĉi-tiu albumo neniun pecon entenas. Kontrolu etikedojn; ĉiu etikedo 'artisto "
+"de albumo' devus esti en etikedo 'artisto'."
 
 #: ../lollypop/view_tracks.py:372
 #, python-format
@@ -1611,7 +1625,7 @@ msgstr "Ludantaj albumoj"
 
 #: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day: </b>\n"
-msgstr ""
+msgstr "<b>Albumo de la tago: </b>\n"
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
