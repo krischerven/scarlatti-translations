@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 21:49+0200\n"
+"POT-Creation-Date: 2019-09-01 01:29+0200\n"
 "PO-Revision-Date: 2019-08-30 18:24+0000\n"
-"Last-Translator: YAMADA Shinichirou "
-"<yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
+"co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -382,21 +382,18 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "再生/一時停止"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:204
-#: ../data/ToolbarPlayback.ui:104 ../lollypop/notification.py:40
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../lollypop/notification.py:40
 msgid "Next"
 msgstr "次へ"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:158
-#: ../data/ToolbarPlayback.ui:66 ../lollypop/notification.py:36
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "前へ"
 
-#: ../data/AlbumsBannerWidget.ui:68 ../data/MiniPlayer.ui:181
-#: ../data/PlaylistBannerWidget.ui:80 ../data/SearchBannerWidget.ui:66
-#: ../data/ToolbarPlayback.ui:85 ../lollypop/controller_playback.py:98
-#: ../lollypop/controller_playback.py:117 ../lollypop/pop_tracks.py:70
+#: ../data/AlbumsBannerWidget.ui:68 ../data/PlaylistBannerWidget.ui:80
+#: ../data/SearchBannerWidget.ui:66 ../lollypop/pop_tracks.py:70
 #: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
+#: ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "再生"
 
@@ -510,10 +507,6 @@ msgstr "プレイリスト"
 msgid "Synchronize"
 msgstr "同期する"
 
-#: ../data/LyricsView.ui:68
-msgid "Translate"
-msgstr "翻訳"
-
 #: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:28
 msgid "Name:"
 msgstr "名前:"
@@ -573,13 +566,17 @@ msgstr "年"
 msgid "Popularity"
 msgstr "人気度"
 
-#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
+#: ../data/SettingsAppearance.ui:263
 msgid "Clean cache"
 msgstr "キャッシュを消去"
 
 #: ../data/SettingsAppearance.ui:294
 msgid "Default background image"
 msgstr "デフォルトの背景画像"
+
+#: ../data/SettingsAppearance.ui:329
+msgid "Reset"
+msgstr ""
 
 #: ../data/SettingsAppearance.ui:408
 msgid ""
@@ -830,7 +827,8 @@ msgid ""
 "work</span>"
 msgstr ""
 "youtube-dl の最新バージョンを使用\n"
-"<span size=\"small\" alpha='40000'>ウェブ再生が動作しない場合は、これを有効にしてください</span>"
+"<span size=\"small\" alpha='40000'>ウェブ再生が動作しない場合は、これを有効に"
+"してください</span>"
 
 #: ../data/SettingsWeb.ui:450
 msgid "Use an Invidious server"
@@ -1135,10 +1133,6 @@ msgstr "新しいトラックが利用可能です"
 msgid "Refresh"
 msgstr "更新"
 
-#: ../lollypop/controller_playback.py:96 ../lollypop/controller_playback.py:120
-msgid "Pause"
-msgstr "一時停止"
-
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
 msgstr "多くのアーティスト"
@@ -1185,7 +1179,7 @@ msgstr "デバイス"
 msgid "Manage devices"
 msgstr "デバイスを管理"
 
-#: ../lollypop/fullscreen.py:292
+#: ../lollypop/fullscreen.py:359
 msgid "You are using a broken cursor theme!"
 msgstr "壊れたカーソルテーマを使用しています!"
 
@@ -1362,11 +1356,11 @@ msgstr "新しいプレイリスト "
 msgid "Loved tracks"
 msgstr "評価したトラック"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:311
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:321
 msgid "Add to current playlist"
 msgstr "現在のプレイリストに追加"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:318
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:328
 msgid "Remove from current playlist"
 msgstr "現在のプレイリストから削除"
 
@@ -1485,7 +1479,7 @@ msgstr "%s 時間"
 msgid "%s m"
 msgstr "%s 分"
 
-#: ../lollypop/utils.py:358
+#: ../lollypop/utils.py:359
 msgid "The the"
 msgstr "The the"
 
@@ -1505,20 +1499,20 @@ msgstr "ネットワーク設定で Spotify と "
 msgid "and YouTube in network settings"
 msgstr "YouTube を有効にする必要があります"
 
-#: ../lollypop/view_albums_box.py:478
+#: ../lollypop/view_albums_box.py:440
 msgid "Others albums from"
 msgstr "他のアルバム:"
 
-#: ../lollypop/view_albums_box.py:505
+#: ../lollypop/view_albums_box.py:467
 msgid "Popular albums at the moment"
 msgstr "現時点で人気のアルバム"
 
-#: ../lollypop/view_albums_box.py:531
+#: ../lollypop/view_albums_box.py:493
 #, python-format
 msgid "Some albums from: %s"
 msgstr "%s のアルバム"
 
-#: ../lollypop/view_artists_rounded.py:225
+#: ../lollypop/view_artists_rounded.py:222
 msgid "Why not listen to?"
 msgstr "聴いてみませんか?"
 
@@ -1531,55 +1525,55 @@ msgstr "情報を読み込んでいます"
 msgid "No information for %s"
 msgstr "%s の情報はありません"
 
-#: ../lollypop/view_lyrics.py:101
+#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:158
 msgid "No track playing"
 msgstr "再生中のトラックはありません"
 
-#: ../lollypop/view_lyrics.py:136
-msgid "Loading…"
-msgstr "読み込み中…"
-
-#: ../lollypop/view_lyrics.py:173
-msgid "You have disabled lyrics search in network settings !"
-msgstr "ネットワーク設定で歌詞検索が無効になっています!"
-
-#: ../lollypop/view_lyrics.py:265
-msgid "You need to install python3-textblob module"
-msgstr "python3-textblob モジュールをインストールする必要があります"
-
-#: ../lollypop/view_lyrics.py:270
-msgid "Can't translate this lyrics"
-msgstr "この歌詞を翻訳できません"
-
-#: ../lollypop/view_lyrics.py:391
+#: ../lollypop/view_lyrics.py:118 ../lollypop/view_lyrics.py:365
 msgid "No lyrics found "
 msgstr "このトラックの歌詞は見つかりませんでした "
 
-#: ../lollypop/view_playlists_manager.py:218
+#: ../lollypop/view_lyrics.py:121
+msgid "Loading…"
+msgstr "読み込み中…"
+
+#: ../lollypop/view_lyrics.py:156
+msgid "You have disabled lyrics search in network settings !"
+msgstr "ネットワーク設定で歌詞検索が無効になっています!"
+
+#: ../lollypop/view_lyrics.py:239
+msgid "You need to install python3-textblob module"
+msgstr "python3-textblob モジュールをインストールする必要があります"
+
+#: ../lollypop/view_lyrics.py:244
+msgid "Can't translate this lyrics"
+msgstr "この歌詞を翻訳できません"
+
+#: ../lollypop/view_playlists_manager.py:180
 msgid "Rename"
 msgstr "名前の変更"
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:47
 msgid "No items to show"
 msgstr "表示するアイテムはありません"
 
-#: ../lollypop/view_search.py:277
-msgid "No results for this search"
-msgstr "見つかりません"
-
-#: ../lollypop/view_search.py:283
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:126
 msgid "Search for artists, albums and tracks"
 msgstr "アーティスト、アルバム、トラックを検索します"
 
-#: ../lollypop/view_suggestions.py:71
+#: ../lollypop/view_search.py:237
+msgid "No results for this search"
+msgstr "見つかりません"
+
+#: ../lollypop/view_suggestions.py:66
 msgid "You might like this"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:75
+#: ../lollypop/view_suggestions.py:70
 msgid "New albums from Spotify"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:177
+#: ../lollypop/view_suggestions.py:129
 msgid "Welcome on Lollypop"
 msgstr "Lollypop へようこそ"
 
@@ -1606,7 +1600,7 @@ msgstr "アートワークを選択"
 msgid "Remove"
 msgstr "削除"
 
-#: ../lollypop/widgets_artwork.py:247
+#: ../lollypop/widgets_artwork.py:268
 msgid "Reset artwork?"
 msgstr "アートワークをリセットしますか?"
 
@@ -1618,7 +1612,7 @@ msgstr "アルバムをクリア"
 msgid "Playing albums"
 msgstr "再生中のアルバム"
 
-#: ../lollypop/widgets_banner_today.py:67
+#: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day: </b>\n"
 msgstr "<b>今日のアルバム: </b>\n"
 
@@ -1735,6 +1729,10 @@ msgstr "スキ"
 msgid "Disallow playback"
 msgstr "再生を禁止"
 
+#: ../lollypop/widgets_player_buttons.py:147
+msgid "Pause"
+msgstr "一時停止"
+
 #: ../lollypop/widgets_playlist_smart.py:160
 msgid "is equal to"
 msgstr "次と同一"
@@ -1805,6 +1803,9 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Translate"
+#~ msgstr "翻訳"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "シャッフルモード"

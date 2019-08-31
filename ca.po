@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 21:49+0200\n"
+"POT-Creation-Date: 2019-09-01 01:29+0200\n"
 "PO-Revision-Date: 2019-08-30 18:24+0000\n"
 "Last-Translator: Marc Riera <marc.riera.irigoyen@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -389,21 +389,18 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "Reprodueix / Pausa"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:204
-#: ../data/ToolbarPlayback.ui:104 ../lollypop/notification.py:40
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../lollypop/notification.py:40
 msgid "Next"
 msgstr "Següent"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:158
-#: ../data/ToolbarPlayback.ui:66 ../lollypop/notification.py:36
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "Anterior"
 
-#: ../data/AlbumsBannerWidget.ui:68 ../data/MiniPlayer.ui:181
-#: ../data/PlaylistBannerWidget.ui:80 ../data/SearchBannerWidget.ui:66
-#: ../data/ToolbarPlayback.ui:85 ../lollypop/controller_playback.py:98
-#: ../lollypop/controller_playback.py:117 ../lollypop/pop_tracks.py:70
+#: ../data/AlbumsBannerWidget.ui:68 ../data/PlaylistBannerWidget.ui:80
+#: ../data/SearchBannerWidget.ui:66 ../lollypop/pop_tracks.py:70
 #: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
+#: ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Reprodueix"
 
@@ -517,10 +514,6 @@ msgstr "Llistes"
 msgid "Synchronize"
 msgstr "Sincronitza"
 
-#: ../data/LyricsView.ui:68
-msgid "Translate"
-msgstr "Tradueix"
-
 #: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:28
 msgid "Name:"
 msgstr "Nom:"
@@ -580,13 +573,17 @@ msgstr "Any"
 msgid "Popularity"
 msgstr "Popularitat"
 
-#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
+#: ../data/SettingsAppearance.ui:263
 msgid "Clean cache"
 msgstr "Neteja la memòria cau"
 
 #: ../data/SettingsAppearance.ui:294
 msgid "Default background image"
 msgstr "Imatge de fons per defecte"
+
+#: ../data/SettingsAppearance.ui:329
+msgid "Reset"
+msgstr ""
 
 #: ../data/SettingsAppearance.ui:408
 msgid ""
@@ -1140,10 +1137,6 @@ msgstr "Hi ha noves pistes disponibles"
 msgid "Refresh"
 msgstr "Actualitza"
 
-#: ../lollypop/controller_playback.py:96 ../lollypop/controller_playback.py:120
-msgid "Pause"
-msgstr "Pausa"
-
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
 msgstr "Molts artistes"
@@ -1190,7 +1183,7 @@ msgstr "Dispositius"
 msgid "Manage devices"
 msgstr "Gestiona els dispositius"
 
-#: ../lollypop/fullscreen.py:292
+#: ../lollypop/fullscreen.py:359
 msgid "You are using a broken cursor theme!"
 msgstr "Esteu utilitzant un tema de cursor incompatible!"
 
@@ -1367,11 +1360,11 @@ msgstr "Llista nova "
 msgid "Loved tracks"
 msgstr "Pistes preferides"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:311
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:321
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:318
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:328
 msgid "Remove from current playlist"
 msgstr "Elimina de la llista actual"
 
@@ -1490,7 +1483,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:358
+#: ../lollypop/utils.py:359
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
@@ -1510,20 +1503,20 @@ msgstr "Heu d'activar Spotify "
 msgid "and YouTube in network settings"
 msgstr "i YouTube als paràmetres de xarxa"
 
-#: ../lollypop/view_albums_box.py:478
+#: ../lollypop/view_albums_box.py:440
 msgid "Others albums from"
 msgstr "Altres àlbums de"
 
-#: ../lollypop/view_albums_box.py:505
+#: ../lollypop/view_albums_box.py:467
 msgid "Popular albums at the moment"
 msgstr "Àlbums populars actualment"
 
-#: ../lollypop/view_albums_box.py:531
+#: ../lollypop/view_albums_box.py:493
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Alguns àlbums de: %s"
 
-#: ../lollypop/view_artists_rounded.py:225
+#: ../lollypop/view_artists_rounded.py:222
 msgid "Why not listen to?"
 msgstr "I si escolteu a...?"
 
@@ -1536,55 +1529,55 @@ msgstr "S'està carregant la informació"
 msgid "No information for %s"
 msgstr "Cap informació de %s"
 
-#: ../lollypop/view_lyrics.py:101
+#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:158
 msgid "No track playing"
 msgstr "No s'està reproduint cap pista"
 
-#: ../lollypop/view_lyrics.py:136
-msgid "Loading…"
-msgstr "S'està carregant…"
-
-#: ../lollypop/view_lyrics.py:173
-msgid "You have disabled lyrics search in network settings !"
-msgstr "Heu desactivat la cerca de lletres a la configuració de xarxa!"
-
-#: ../lollypop/view_lyrics.py:265
-msgid "You need to install python3-textblob module"
-msgstr "Heu d'instal·lar el mòdul python3-textblob"
-
-#: ../lollypop/view_lyrics.py:270
-msgid "Can't translate this lyrics"
-msgstr "No es pot traduir aquesta lletra"
-
-#: ../lollypop/view_lyrics.py:391
+#: ../lollypop/view_lyrics.py:118 ../lollypop/view_lyrics.py:365
 msgid "No lyrics found "
 msgstr "No s'ha trobat la lletra "
 
-#: ../lollypop/view_playlists_manager.py:218
+#: ../lollypop/view_lyrics.py:121
+msgid "Loading…"
+msgstr "S'està carregant…"
+
+#: ../lollypop/view_lyrics.py:156
+msgid "You have disabled lyrics search in network settings !"
+msgstr "Heu desactivat la cerca de lletres a la configuració de xarxa!"
+
+#: ../lollypop/view_lyrics.py:239
+msgid "You need to install python3-textblob module"
+msgstr "Heu d'instal·lar el mòdul python3-textblob"
+
+#: ../lollypop/view_lyrics.py:244
+msgid "Can't translate this lyrics"
+msgstr "No es pot traduir aquesta lletra"
+
+#: ../lollypop/view_playlists_manager.py:180
 msgid "Rename"
 msgstr "Canvia el nom"
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:47
 msgid "No items to show"
 msgstr "No hi ha elements per mostrar"
 
-#: ../lollypop/view_search.py:277
-msgid "No results for this search"
-msgstr "No hi ha resultats per a aquesta cerca"
-
-#: ../lollypop/view_search.py:283
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:126
 msgid "Search for artists, albums and tracks"
 msgstr "Cerca artistes, àlbums i pistes"
 
-#: ../lollypop/view_suggestions.py:71
+#: ../lollypop/view_search.py:237
+msgid "No results for this search"
+msgstr "No hi ha resultats per a aquesta cerca"
+
+#: ../lollypop/view_suggestions.py:66
 msgid "You might like this"
 msgstr "Potser us agradarà això"
 
-#: ../lollypop/view_suggestions.py:75
+#: ../lollypop/view_suggestions.py:70
 msgid "New albums from Spotify"
 msgstr "Nous àlbums de Spotify"
 
-#: ../lollypop/view_suggestions.py:177
+#: ../lollypop/view_suggestions.py:129
 msgid "Welcome on Lollypop"
 msgstr "Us donem la benvinguda al Lollypop"
 
@@ -1611,7 +1604,7 @@ msgstr "Trieu una caràtula"
 msgid "Remove"
 msgstr "Elimina"
 
-#: ../lollypop/widgets_artwork.py:247
+#: ../lollypop/widgets_artwork.py:268
 msgid "Reset artwork?"
 msgstr "Voleu reinicialitzar les il·lustracions?"
 
@@ -1623,7 +1616,7 @@ msgstr "Neteja àlbums"
 msgid "Playing albums"
 msgstr "Àlbums en reproducció"
 
-#: ../lollypop/widgets_banner_today.py:67
+#: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day: </b>\n"
 msgstr "<b>Àlbum del dia: </b>\n"
 
@@ -1740,6 +1733,10 @@ msgstr "M'agrada"
 msgid "Disallow playback"
 msgstr "No permetis la reproducció"
 
+#: ../lollypop/widgets_player_buttons.py:147
+msgid "Pause"
+msgstr "Pausa"
+
 #: ../lollypop/widgets_playlist_smart.py:160
 msgid "is equal to"
 msgstr "és igual a"
@@ -1813,6 +1810,9 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "cantant"
+
+#~ msgid "Translate"
+#~ msgstr "Tradueix"
 
 #~ msgid "Do not reload views on adaptive"
 #~ msgstr "No tornis a carregar les vistes en mode adaptatiu"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 21:49+0200\n"
+"POT-Creation-Date: 2019-09-01 01:29+0200\n"
 "PO-Revision-Date: 2019-08-30 18:24+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -90,8 +90,8 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
-"Ayarlanırsa, Lollypop YouTube yerine bu sunucuyu kullanır. Bkz "
-"https://github.com/omarroth/invidious"
+"Ayarlanırsa, Lollypop YouTube yerine bu sunucuyu kullanır. Bkz https://"
+"github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -394,21 +394,18 @@ msgstr "org.gnome.Lollypop"
 msgid "Play/Pause"
 msgstr "Çal/Duraklat"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/MiniPlayer.ui:204
-#: ../data/ToolbarPlayback.ui:104 ../lollypop/notification.py:40
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../lollypop/notification.py:40
 msgid "Next"
 msgstr "Sonraki"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/MiniPlayer.ui:158
-#: ../data/ToolbarPlayback.ui:66 ../lollypop/notification.py:36
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/notification.py:36
 msgid "Previous"
 msgstr "Önceki"
 
-#: ../data/AlbumsBannerWidget.ui:68 ../data/MiniPlayer.ui:181
-#: ../data/PlaylistBannerWidget.ui:80 ../data/SearchBannerWidget.ui:66
-#: ../data/ToolbarPlayback.ui:85 ../lollypop/controller_playback.py:98
-#: ../lollypop/controller_playback.py:117 ../lollypop/pop_tracks.py:70
+#: ../data/AlbumsBannerWidget.ui:68 ../data/PlaylistBannerWidget.ui:80
+#: ../data/SearchBannerWidget.ui:66 ../lollypop/pop_tracks.py:70
 #: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
+#: ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Çal"
 
@@ -522,10 +519,6 @@ msgstr "Çalma listeleri"
 msgid "Synchronize"
 msgstr "Eşzamanla"
 
-#: ../data/LyricsView.ui:68
-msgid "Translate"
-msgstr "Çevir"
-
 #: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:28
 msgid "Name:"
 msgstr "İsim:"
@@ -585,13 +578,17 @@ msgstr "Yıl"
 msgid "Popularity"
 msgstr "Sevilme"
 
-#: ../data/SettingsAppearance.ui:263 ../data/SettingsAppearance.ui:329
+#: ../data/SettingsAppearance.ui:263
 msgid "Clean cache"
 msgstr "Önbelleği temizle"
 
 #: ../data/SettingsAppearance.ui:294
 msgid "Default background image"
 msgstr "Varsayılan arka plan resmi"
+
+#: ../data/SettingsAppearance.ui:329
+msgid "Reset"
+msgstr ""
 
 #: ../data/SettingsAppearance.ui:408
 msgid ""
@@ -1148,10 +1145,6 @@ msgstr "Yeni parçalar var"
 msgid "Refresh"
 msgstr "Tazele"
 
-#: ../lollypop/controller_playback.py:96 ../lollypop/controller_playback.py:120
-msgid "Pause"
-msgstr "Duraklat"
-
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
 msgstr "Birçok sanatçı"
@@ -1198,7 +1191,7 @@ msgstr "Cihazlar"
 msgid "Manage devices"
 msgstr "Cihazları yönet"
 
-#: ../lollypop/fullscreen.py:292
+#: ../lollypop/fullscreen.py:359
 msgid "You are using a broken cursor theme!"
 msgstr "Bozuk imleç teması kullanıyorsunuz!"
 
@@ -1375,11 +1368,11 @@ msgstr "Yeni çalma listesi "
 msgid "Loved tracks"
 msgstr "Sevilen parçalar"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:311
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:321
 msgid "Add to current playlist"
 msgstr "Geçerli çalma listesine ekle"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:318
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:328
 msgid "Remove from current playlist"
 msgstr "Geçerli çalma listesinden kaldır"
 
@@ -1498,7 +1491,7 @@ msgstr "%s s"
 msgid "%s m"
 msgstr "%s d"
 
-#: ../lollypop/utils.py:358
+#: ../lollypop/utils.py:359
 msgid "The the"
 msgstr "Bu bu"
 
@@ -1518,20 +1511,20 @@ msgstr "Spotify'ı etkinleştirmeniz gerekir "
 msgid "and YouTube in network settings"
 msgstr "ve YouTube ağ ayarlarını da"
 
-#: ../lollypop/view_albums_box.py:478
+#: ../lollypop/view_albums_box.py:440
 msgid "Others albums from"
 msgstr "Diğer albümler"
 
-#: ../lollypop/view_albums_box.py:505
+#: ../lollypop/view_albums_box.py:467
 msgid "Popular albums at the moment"
 msgstr "Şu an popüler albümler"
 
-#: ../lollypop/view_albums_box.py:531
+#: ../lollypop/view_albums_box.py:493
 #, python-format
 msgid "Some albums from: %s"
 msgstr "Şu albümlerden bazıları: %s"
 
-#: ../lollypop/view_artists_rounded.py:225
+#: ../lollypop/view_artists_rounded.py:222
 msgid "Why not listen to?"
 msgstr "Neden dinlemiyorsun?"
 
@@ -1544,55 +1537,55 @@ msgstr "Bilgi yükleniyor"
 msgid "No information for %s"
 msgstr "%s için bilgi yok"
 
-#: ../lollypop/view_lyrics.py:101
+#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:158
 msgid "No track playing"
 msgstr "Çalınan parça yok"
 
-#: ../lollypop/view_lyrics.py:136
-msgid "Loading…"
-msgstr "Yükleniyor…"
-
-#: ../lollypop/view_lyrics.py:173
-msgid "You have disabled lyrics search in network settings !"
-msgstr "Ağ ayarlarından şarkı sözü aramalarını devre dışı bıraktınız!"
-
-#: ../lollypop/view_lyrics.py:265
-msgid "You need to install python3-textblob module"
-msgstr "python3-textblob modülünü kurmanız gerekiyor"
-
-#: ../lollypop/view_lyrics.py:270
-msgid "Can't translate this lyrics"
-msgstr "Bu şarkı sözleri tercüme edilemiyor"
-
-#: ../lollypop/view_lyrics.py:391
+#: ../lollypop/view_lyrics.py:118 ../lollypop/view_lyrics.py:365
 msgid "No lyrics found "
 msgstr "Şarkı sözü bulunamadı "
 
-#: ../lollypop/view_playlists_manager.py:218
+#: ../lollypop/view_lyrics.py:121
+msgid "Loading…"
+msgstr "Yükleniyor…"
+
+#: ../lollypop/view_lyrics.py:156
+msgid "You have disabled lyrics search in network settings !"
+msgstr "Ağ ayarlarından şarkı sözü aramalarını devre dışı bıraktınız!"
+
+#: ../lollypop/view_lyrics.py:239
+msgid "You need to install python3-textblob module"
+msgstr "python3-textblob modülünü kurmanız gerekiyor"
+
+#: ../lollypop/view_lyrics.py:244
+msgid "Can't translate this lyrics"
+msgstr "Bu şarkı sözleri tercüme edilemiyor"
+
+#: ../lollypop/view_playlists_manager.py:180
 msgid "Rename"
 msgstr "Adlandır"
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:47
 msgid "No items to show"
 msgstr "Gösterilecek öge yok"
 
-#: ../lollypop/view_search.py:277
-msgid "No results for this search"
-msgstr "Bu arama için sonuç yok"
-
-#: ../lollypop/view_search.py:283
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:126
 msgid "Search for artists, albums and tracks"
 msgstr "Sanatçıları, albümleri ve parçaları ara"
 
-#: ../lollypop/view_suggestions.py:71
+#: ../lollypop/view_search.py:237
+msgid "No results for this search"
+msgstr "Bu arama için sonuç yok"
+
+#: ../lollypop/view_suggestions.py:66
 msgid "You might like this"
 msgstr "Bunu beğenebilirsin"
 
-#: ../lollypop/view_suggestions.py:75
+#: ../lollypop/view_suggestions.py:70
 msgid "New albums from Spotify"
 msgstr "Spotify'dan yeni albümler"
 
-#: ../lollypop/view_suggestions.py:177
+#: ../lollypop/view_suggestions.py:129
 msgid "Welcome on Lollypop"
 msgstr "Lolipop'a Hoş Geldiniz"
 
@@ -1621,7 +1614,7 @@ msgstr "Çizim seç"
 msgid "Remove"
 msgstr "Kaldır"
 
-#: ../lollypop/widgets_artwork.py:247
+#: ../lollypop/widgets_artwork.py:268
 msgid "Reset artwork?"
 msgstr "Çizimi sıfırla?"
 
@@ -1633,7 +1626,7 @@ msgstr "Albümleri temizle"
 msgid "Playing albums"
 msgstr "Çalınan albümler"
 
-#: ../lollypop/widgets_banner_today.py:67
+#: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day: </b>\n"
 msgstr "<b>Günün albümü: </b>\n"
 
@@ -1750,6 +1743,10 @@ msgstr "Beğen"
 msgid "Disallow playback"
 msgstr "Kayıttan çalmaya izin verme"
 
+#: ../lollypop/widgets_player_buttons.py:147
+msgid "Pause"
+msgstr "Duraklat"
+
 #: ../lollypop/widgets_playlist_smart.py:160
 msgid "is equal to"
 msgstr "eşittir"
@@ -1823,6 +1820,9 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "şarkıcı"
+
+#~ msgid "Translate"
+#~ msgstr "Çevir"
 
 #~ msgid "Do not reload views on adaptive"
 #~ msgstr "Uyarlanabilir görünümleri yeniden yükleme"
