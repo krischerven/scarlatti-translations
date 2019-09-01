@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 01:29+0200\n"
+"POT-Creation-Date: 2019-09-01 23:42+0200\n"
 "PO-Revision-Date: 2019-08-07 21:01+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -514,14 +514,6 @@ msgstr "قائمة الانتظار"
 #: ../data/RadioPopover.ui:54
 msgid "Address:"
 msgstr "العنوان:"
-
-#: ../data/RadiosView.ui:24
-msgid "New radio"
-msgstr "راديو جديد"
-
-#: ../data/RadiosView.ui:44
-msgid "Search in TuneIn"
-msgstr "ابحث في TuneIn"
 
 #: ../data/SearchBannerWidget.ui:88
 #: ../lollypop/widgets_banner_current_albums.py:48
@@ -1114,7 +1106,7 @@ msgid "Select music folders"
 msgstr "اختر مجلدات الموسيقى"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:247 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "وب"
 
@@ -1432,7 +1424,7 @@ msgstr "%s س"
 msgid "%s m"
 msgstr "%s د"
 
-#: ../lollypop/utils.py:359
+#: ../lollypop/utils.py:361
 msgid "The the"
 msgstr "هذا"
 
@@ -1452,15 +1444,19 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:440
-msgid "Others albums from"
+#: ../lollypop/view_albums_box.py:439
+msgid "Others compilations:"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:467
+#: ../lollypop/view_albums_box.py:441
+msgid "Others albums:"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:468
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:493
+#: ../lollypop/view_albums_box.py:494
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
@@ -1514,7 +1510,7 @@ msgstr ""
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:237
+#: ../lollypop/view_search.py:209
 msgid "No results for this search"
 msgstr ""
 
@@ -1564,6 +1560,10 @@ msgstr "امح الألبومات"
 #: ../lollypop/widgets_banner_current_albums.py:63
 msgid "Playing albums"
 msgstr "الألبومات الشغَّالة"
+
+#: ../lollypop/widgets_banner_radios.py:37
+msgid "New radio"
+msgstr "راديو جديد"
 
 #: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day: </b>\n"
@@ -1771,6 +1771,9 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Search in TuneIn"
+#~ msgstr "ابحث في TuneIn"
 
 #~ msgid "Translate"
 #~ msgstr "ترجم"

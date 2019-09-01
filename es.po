@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 01:29+0200\n"
+"POT-Creation-Date: 2019-09-01 23:42+0200\n"
 "PO-Revision-Date: 2019-06-03 09:02+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -532,14 +532,6 @@ msgstr "Cola"
 #: ../data/RadioPopover.ui:54
 msgid "Address:"
 msgstr "Dirección:"
-
-#: ../data/RadiosView.ui:24
-msgid "New radio"
-msgstr "Nueva radio"
-
-#: ../data/RadiosView.ui:44
-msgid "Search in TuneIn"
-msgstr "Buscar en TuneIn"
 
 #: ../data/SearchBannerWidget.ui:88
 #: ../lollypop/widgets_banner_current_albums.py:48
@@ -1137,7 +1129,7 @@ msgid "Select music folders"
 msgstr "Seleccionar las carpetas de música"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:247 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Web"
 
@@ -1454,7 +1446,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:359
+#: ../lollypop/utils.py:361
 msgid "The the"
 msgstr "The the Les les La Le la le los el"
 
@@ -1474,15 +1466,19 @@ msgstr "Tiene que habilitar Spotify "
 msgid "and YouTube in network settings"
 msgstr "y YouTube en la configuración de red"
 
-#: ../lollypop/view_albums_box.py:440
-msgid "Others albums from"
-msgstr "Otros álbumes de"
+#: ../lollypop/view_albums_box.py:439
+msgid "Others compilations:"
+msgstr ""
 
-#: ../lollypop/view_albums_box.py:467
+#: ../lollypop/view_albums_box.py:441
+msgid "Others albums:"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:468
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:493
+#: ../lollypop/view_albums_box.py:494
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
@@ -1536,7 +1532,7 @@ msgstr ""
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:237
+#: ../lollypop/view_search.py:209
 msgid "No results for this search"
 msgstr ""
 
@@ -1586,6 +1582,10 @@ msgstr "Vaciar álbumes"
 #: ../lollypop/widgets_banner_current_albums.py:63
 msgid "Playing albums"
 msgstr "Reproducción de álbumes"
+
+#: ../lollypop/widgets_banner_radios.py:37
+msgid "New radio"
+msgstr "Nueva radio"
 
 #: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day: </b>\n"
@@ -1781,6 +1781,12 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Search in TuneIn"
+#~ msgstr "Buscar en TuneIn"
+
+#~ msgid "Others albums from"
+#~ msgstr "Otros álbumes de"
 
 #~ msgid "Translate"
 #~ msgstr "Traducir"

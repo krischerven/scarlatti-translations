@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 01:29+0200\n"
+"POT-Creation-Date: 2019-09-01 23:42+0200\n"
 "PO-Revision-Date: 2019-03-18 21:15+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -519,14 +519,6 @@ msgstr "Kö"
 #: ../data/RadioPopover.ui:54
 msgid "Address:"
 msgstr "Adress:"
-
-#: ../data/RadiosView.ui:24
-msgid "New radio"
-msgstr "Ny radiostation"
-
-#: ../data/RadiosView.ui:44
-msgid "Search in TuneIn"
-msgstr "Sök i TuneIn"
 
 #: ../data/SearchBannerWidget.ui:88
 #: ../lollypop/widgets_banner_current_albums.py:48
@@ -1121,7 +1113,7 @@ msgid "Select music folders"
 msgstr "Välj musikmappar"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:247 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Webb"
 
@@ -1438,7 +1430,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:359
+#: ../lollypop/utils.py:361
 msgid "The the"
 msgstr "The the"
 
@@ -1458,15 +1450,19 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:440
-msgid "Others albums from"
-msgstr "Andra album av"
+#: ../lollypop/view_albums_box.py:439
+msgid "Others compilations:"
+msgstr ""
 
-#: ../lollypop/view_albums_box.py:467
+#: ../lollypop/view_albums_box.py:441
+msgid "Others albums:"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:468
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:493
+#: ../lollypop/view_albums_box.py:494
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
@@ -1520,7 +1516,7 @@ msgstr ""
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:237
+#: ../lollypop/view_search.py:209
 msgid "No results for this search"
 msgstr ""
 
@@ -1570,6 +1566,10 @@ msgstr "Rensa album"
 #: ../lollypop/widgets_banner_current_albums.py:63
 msgid "Playing albums"
 msgstr "Album som spelas"
+
+#: ../lollypop/widgets_banner_radios.py:37
+msgid "New radio"
+msgstr "Ny radiostation"
 
 #: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day: </b>\n"
@@ -1765,6 +1765,12 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Search in TuneIn"
+#~ msgstr "Sök i TuneIn"
+
+#~ msgid "Others albums from"
+#~ msgstr "Andra album av"
 
 #~ msgid "Translate"
 #~ msgstr "Översätt"
