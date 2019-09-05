@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 15:32+0200\n"
+"POT-Creation-Date: 2019-09-05 15:40+0200\n"
 "PO-Revision-Date: 2019-09-05 08:06+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1343,16 +1343,6 @@ msgstr "Sections"
 msgid "All devices"
 msgstr "Tous les périphériques"
 
-#: ../lollypop/notification.py:77
-#, python-format
-msgid "by %s"
-msgstr "Par %s"
-
-#: ../lollypop/notification.py:83
-#, python-format
-msgid "by %s, from %s"
-msgstr "par %s, sur %s"
-
 #: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:61
 msgid "Radio"
 msgstr "Radio"
@@ -1827,6 +1817,14 @@ msgstr "groupe"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "chanteur"
+
+#, python-format
+#~ msgid "by %s"
+#~ msgstr "Par %s"
+
+#, python-format
+#~ msgid "by %s, from %s"
+#~ msgstr "par %s, sur %s"
 
 #~ msgid "No connected devices"
 #~ msgstr "Aucun périphérique connecté"

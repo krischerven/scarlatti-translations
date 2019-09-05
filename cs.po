@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 15:32+0200\n"
+"POT-Creation-Date: 2019-09-05 15:40+0200\n"
 "PO-Revision-Date: 2019-08-27 16:29+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -1339,16 +1339,6 @@ msgstr "Sekce"
 msgid "All devices"
 msgstr "Všechna zařízení"
 
-#: ../lollypop/notification.py:77
-#, python-format
-msgid "by %s"
-msgstr "od %s"
-
-#: ../lollypop/notification.py:83
-#, python-format
-msgid "by %s, from %s"
-msgstr "od %s, na %s"
-
 #: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:61
 msgid "Radio"
 msgstr "Rádio"
@@ -1825,6 +1815,14 @@ msgstr "Skupina"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "Zpěvák"
+
+#, python-format
+#~ msgid "by %s"
+#~ msgstr "od %s"
+
+#, python-format
+#~ msgid "by %s, from %s"
+#~ msgstr "od %s, na %s"
 
 #~ msgid "No connected devices"
 #~ msgstr "Žádná připojená zařízení"
