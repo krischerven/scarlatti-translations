@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 23:42+0200\n"
+"POT-Creation-Date: 2019-09-05 10:03+0200\n"
 "PO-Revision-Date: 2018-05-13 20:41+0000\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -380,17 +380,6 @@ msgstr "Следећа"
 msgid "Previous"
 msgstr "Претходна"
 
-#: ../data/AlbumsBannerWidget.ui:68 ../data/PlaylistBannerWidget.ui:80
-#: ../data/SearchBannerWidget.ui:66 ../lollypop/pop_tracks.py:70
-#: ../lollypop/pop_tunein.py:194 ../lollypop/view_tracks.py:381
-#: ../lollypop/widgets_player_buttons.py:151
-msgid "Play"
-msgstr "Пусти"
-
-#: ../data/AlbumsBannerWidget.ui:87 ../data/PlaylistBannerWidget.ui:99
-msgid "Play playlist randomized"
-msgstr ""
-
 #: ../data/Appmenu.ui:45
 msgid "Update music"
 msgstr ""
@@ -432,11 +421,6 @@ msgstr "Додај на тренутни списак песама"
 msgid "Similar artists"
 msgstr "Слични извођачи"
 
-#: ../data/ArtistBannerWidget.ui:149 ../data/PlaylistBannerWidget.ui:118
-#: ../lollypop/widgets_banner_current_albums.py:58
-msgid "Go to current track"
-msgstr "Иди на тренутну нумеру"
-
 #: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:131
 msgid "Go to artist view"
 msgstr ""
@@ -446,7 +430,7 @@ msgid "Select a local file"
 msgstr "Изабери локалну датотеку"
 
 #: ../data/ArtworkSearch.ui:126 ../data/SettingsCollections.ui:44
-#: ../lollypop/menu_playlist.py:73
+#: ../lollypop/menu_playlist.py:81
 msgid "Confirm"
 msgstr "Потврди"
 
@@ -482,12 +466,13 @@ msgstr ""
 msgid "Synchronized:"
 msgstr ""
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/shown.py:37
+#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:38
+#: ../lollypop/shown.py:37
 msgid "Albums"
 msgstr "Албуми"
 
-#: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:49
-#: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:93
+#: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:51
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:95
 #: ../lollypop/shown.py:30
 msgid "Playlists"
 msgstr "Листе песама"
@@ -497,12 +482,22 @@ msgstr "Листе песама"
 msgid "Synchronize"
 msgstr ""
 
+#: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
+#: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:192
+#: ../lollypop/view_tracks.py:381 ../lollypop/widgets_player_buttons.py:151
+msgid "Play"
+msgstr "Пусти"
+
+#: ../data/PlaylistBannerWidget.ui:93
+msgid "Play playlist randomized"
+msgstr ""
+
 #: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:28
 msgid "Name:"
 msgstr "Назив:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:109
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:88
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "Сачувај"
 
@@ -532,7 +527,7 @@ msgid "Show compilations"
 msgstr "Прикажи компилације"
 
 #: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_objects.py:47
 msgid "Artist"
 msgstr "Извођач"
 
@@ -1100,7 +1095,7 @@ msgid "Select music folders"
 msgstr "Изабери директоријуме са музиком"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:247 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:248 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Веб"
 
@@ -1108,8 +1103,8 @@ msgstr "Веб"
 msgid "Configure Web services"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:51
-#: ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
+#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr ""
 
@@ -1133,11 +1128,17 @@ msgstr ""
 msgid "Last.fm authentication disabled"
 msgstr "Пријава на Last.fm је онемогућена"
 
-#: ../lollypop/menu_artist.py:48
+#: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
+#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
+msgid "Playback"
+msgstr "Пуштање"
+
+#: ../lollypop/menu_artist.py:70
 msgid "Available albums"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:53
+#: ../lollypop/menu_artist.py:75
 msgid "Other albums"
 msgstr ""
 
@@ -1161,81 +1162,85 @@ msgstr "Измени податке"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
-#: ../lollypop/menu_header.py:35
-msgid "Sidebar"
-msgstr ""
-
-#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:90
-msgid "Playback"
-msgstr "Пуштање"
-
-#: ../lollypop/menu_objects.py:53 ../lollypop/menu_objects.py:71
-#: ../lollypop/menu_objects.py:94
+#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
+#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:54 ../lollypop/menu_objects.py:72
-#: ../lollypop/menu_objects.py:95
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:74
+#: ../lollypop/menu_objects.py:97 ../lollypop/menu_playlist.py:58
 msgid "Edit"
 msgstr "Уреди"
 
-#: ../lollypop/menu_objects.py:117
+#: ../lollypop/menu_objects.py:119
 msgid "%Y-%m-%d"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:151
+#: ../lollypop/menu_objects.py:153
 msgid "YouTube page address"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:37
-msgid "Play this album"
-msgstr ""
-
-#: ../lollypop/menu_playback.py:56 ../lollypop/menu_playback.py:136
+#: ../lollypop/menu_playback.py:55
 msgid "Add to playback"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:63 ../lollypop/menu_playback.py:142
+#: ../lollypop/menu_playback.py:62
 msgid "Remove from playback"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:153
+#: ../lollypop/menu_playback.py:82
+msgid "Play this playlist"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:123
+msgid "Play this artist"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:187
+msgid "Play this genre"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:266
+msgid "Play this decade"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:347
+msgid "Play this album"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:473
 msgid "Add to queue"
 msgstr "Додај у редослед"
 
-#: ../lollypop/menu_playback.py:159
+#: ../lollypop/menu_playback.py:479
 msgid "Remove from queue"
 msgstr "Избаци из редоследа"
 
-#: ../lollypop/menu_playback.py:171
+#: ../lollypop/menu_playback.py:490
 msgid "Do not stop after"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:176
+#: ../lollypop/menu_playback.py:495
 msgid "Stop after"
 msgstr ""
 
-#: ../lollypop/menu_playlist.py:40 ../lollypop/menu_playlist.py:85
+#: ../lollypop/menu_playlist.py:42 ../lollypop/menu_playlist.py:93
 msgid "Save playlist"
 msgstr "Сачувај списак песама"
 
-#: ../lollypop/menu_playlist.py:44
+#: ../lollypop/menu_playlist.py:46
 msgid "Manage smart playlist"
 msgstr ""
 
-#: ../lollypop/menu_playlist.py:48
+#: ../lollypop/menu_playlist.py:50
 msgid "Remove playlist"
 msgstr ""
 
-#: ../lollypop/menu_playlist.py:49 ../lollypop/menu_selectionlist.py:67
-msgid "Synchronization"
-msgstr ""
-
-#: ../lollypop/menu_playlist.py:72
+#: ../lollypop/menu_playlist.py:80
 msgid "Remove this playlist?"
 msgstr ""
 
-#: ../lollypop/menu_playlist.py:89 ../lollypop/widgets_device.py:138
+#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:138
 msgid "Cancel"
 msgstr "Откажи"
 
@@ -1243,27 +1248,35 @@ msgstr "Откажи"
 msgid "New playlist"
 msgstr "Нова листа песама"
 
-#: ../lollypop/menu_selectionlist.py:52
+#: ../lollypop/menu_selectionlist.py:45
+msgid "Sidebar"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:56
 msgid "No connected devices"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:82
+#: ../lollypop/menu_selectionlist.py:71
+msgid "Synchronization"
+msgstr ""
+
+#: ../lollypop/menu_selectionlist.py:86
 msgid "Default on startup"
 msgstr "Подразумевано при покретању"
 
-#: ../lollypop/menu_selectionlist.py:85
+#: ../lollypop/menu_selectionlist.py:89
 msgid "Startup"
 msgstr "Покретање"
 
-#: ../lollypop/menu_selectionlist.py:99
+#: ../lollypop/menu_selectionlist.py:103
 msgid "Show text"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:100
+#: ../lollypop/menu_selectionlist.py:104
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:129
+#: ../lollypop/menu_selectionlist.py:133
 msgid "Sections"
 msgstr ""
 
@@ -1294,27 +1307,27 @@ msgstr "Нова листа песама"
 msgid "Loved tracks"
 msgstr "Омиљене песме"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:321
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:289
 msgid "Add to current playlist"
 msgstr "Додај на тренутни списак песама"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:328
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:296
 msgid "Remove from current playlist"
 msgstr "Уклони са тренутног списка песама"
 
-#: ../lollypop/pop_tunein.py:86 ../lollypop/pop_tunein.py:396
+#: ../lollypop/pop_tunein.py:85 ../lollypop/pop_tunein.py:367
 msgid "Can't connect to TuneIn…"
 msgstr "Не могу да се повежем на TuneIn…"
 
-#: ../lollypop/pop_tunein.py:153
+#: ../lollypop/pop_tunein.py:152
 msgid "Please wait…"
 msgstr "Сачекајте…"
 
-#: ../lollypop/pop_tunein.py:201
+#: ../lollypop/pop_tunein.py:199
 msgid "Add"
 msgstr "Додај"
 
-#: ../lollypop/pop_tunein.py:389 ../lollypop/pop_tunein.py:391
+#: ../lollypop/pop_tunein.py:360 ../lollypop/pop_tunein.py:362
 msgid "No result…"
 msgstr "Нема резултата…"
 
@@ -1398,7 +1411,7 @@ msgstr ""
 msgid "Unplayed tracks"
 msgstr ""
 
-#: ../lollypop/toolbar_end.py:244
+#: ../lollypop/toolbar_end.py:245
 msgid "All genres"
 msgstr ""
 
@@ -1417,52 +1430,52 @@ msgstr "%s ч"
 msgid "%s m"
 msgstr "%s м"
 
-#: ../lollypop/utils.py:361
+#: ../lollypop/utils.py:363
 msgid "The the"
 msgstr "Члан члан"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:56
 msgid "Network not available"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:59
 msgid "Missing youtube-dl command"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:63
 msgid "You need to enable Spotify "
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:64
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:439
+#: ../lollypop/view_albums_box.py:408
 msgid "Others compilations:"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:441
+#: ../lollypop/view_albums_box.py:410
 msgid "Others albums:"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:468
+#: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:494
+#: ../lollypop/view_albums_box.py:463
 #, python-format
 msgid "Some albums from: %s"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:222
+#: ../lollypop/view_artists_rounded.py:262
 msgid "Why not listen to?"
 msgstr ""
 
-#: ../lollypop/view_information.py:229
+#: ../lollypop/view_information.py:228
 msgid "Loading information"
 msgstr "Учитавам податке"
 
-#: ../lollypop/view_information.py:233
+#: ../lollypop/view_information.py:232
 #, python-format
 msgid "No information for %s"
 msgstr ""
@@ -1489,10 +1502,6 @@ msgstr ""
 
 #: ../lollypop/view_lyrics.py:244
 msgid "Can't translate this lyrics"
-msgstr ""
-
-#: ../lollypop/view_playlists_manager.py:180
-msgid "Rename"
 msgstr ""
 
 #: ../lollypop/view.py:47
@@ -1549,6 +1558,10 @@ msgstr "Ресетуј омот?"
 #: ../lollypop/widgets_banner_current_albums.py:39
 msgid "Clear albums"
 msgstr "Очисти албуме"
+
+#: ../lollypop/widgets_banner_current_albums.py:58
+msgid "Go to current track"
+msgstr "Иди на тренутну нумеру"
 
 #: ../lollypop/widgets_banner_current_albums.py:63
 msgid "Playing albums"
