@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:03+0200\n"
+"POT-Creation-Date: 2019-09-05 15:32+0200\n"
 "PO-Revision-Date: 2019-09-04 05:24+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -1175,8 +1175,9 @@ msgstr "Nett"
 msgid "Configure Web services"
 msgstr "Konfigurer webtjenester"
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Enheter"
 
@@ -1201,7 +1202,7 @@ msgid "Last.fm authentication disabled"
 msgstr "Last.fm-autentisering avskrudd"
 
 #: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "Avspilling"
@@ -1234,8 +1235,9 @@ msgstr "Modifiser informasjon"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr "Installer <i>easytag</i> eller <i>kid3-qt</i>"
 
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
-#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr "Legg til i"
 
@@ -1320,35 +1322,27 @@ msgstr "Avbryt"
 msgid "New playlist"
 msgstr "Ny spilleliste"
 
-#: ../lollypop/menu_selectionlist.py:45
+#: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
 msgstr "Sidefelt"
 
-#: ../lollypop/menu_selectionlist.py:56
-msgid "No connected devices"
-msgstr "Ingen tilkoblede enheter"
-
-#: ../lollypop/menu_selectionlist.py:71
-msgid "Synchronization"
-msgstr "Synkronisering"
-
-#: ../lollypop/menu_selectionlist.py:86
+#: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
 msgstr "Forvalg ved oppstart"
 
-#: ../lollypop/menu_selectionlist.py:89
+#: ../lollypop/menu_selectionlist.py:67
 msgid "Startup"
 msgstr "Programstart"
 
-#: ../lollypop/menu_selectionlist.py:103
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
 msgstr "Vis tekst"
 
-#: ../lollypop/menu_selectionlist.py:104
+#: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
 msgstr "Valg"
 
-#: ../lollypop/menu_selectionlist.py:133
+#: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
 msgstr "Seksjoner"
 
@@ -1523,21 +1517,21 @@ msgid "and YouTube in network settings"
 msgstr "og YouTube i nettverksinnstillingene"
 
 #: ../lollypop/view_albums_box.py:408
-msgid "Others compilations:"
+msgid "Others compilations"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:410
-msgid "Others albums:"
-msgstr ""
+msgid "Others albums"
+msgstr "Andre album"
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr "Populære album for øyeblikket"
 
-#: ../lollypop/view_albums_box.py:463
+#: ../lollypop/view_albums_box.py:464
 #, python-format
-msgid "Some albums from: %s"
-msgstr "Noen album fra: %s"
+msgid "Some albums from %s"
+msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:262
 #, fuzzy
@@ -1647,8 +1641,8 @@ msgid "New radio"
 msgstr "Ny radiostasjon"
 
 #: ../lollypop/widgets_banner_today.py:68
-msgid "<b>Album of the day: </b>\n"
-msgstr "<b>Dagens album:</b>\n"
+msgid "<b>Album of the day</b>\n"
+msgstr ""
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
@@ -1840,6 +1834,19 @@ msgstr "band"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "sanger"
+
+#~ msgid "No connected devices"
+#~ msgstr "Ingen tilkoblede enheter"
+
+#~ msgid "Synchronization"
+#~ msgstr "Synkronisering"
+
+#, python-format
+#~ msgid "Some albums from: %s"
+#~ msgstr "Noen album fra: %s"
+
+#~ msgid "<b>Album of the day: </b>\n"
+#~ msgstr "<b>Dagens album:</b>\n"
 
 #~ msgid "Rename"
 #~ msgstr "Gi nytt navn"
@@ -2432,9 +2439,6 @@ msgstr "sanger"
 #~ msgstr ""
 #~ "<small>Du må skru på \"Egendefinert søke-API\" og YouTube-API\" for ditt "
 #~ "prosjekt.</small>"
-
-#~ msgid "Others albums"
-#~ msgstr "Andre album"
 
 #~ msgid "Playback behaviour"
 #~ msgstr "Avspillingsoppførsel"

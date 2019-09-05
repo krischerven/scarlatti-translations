@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:03+0200\n"
+"POT-Creation-Date: 2019-09-05 15:32+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Hebrew (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -1099,8 +1099,9 @@ msgstr ""
 msgid "Configure Web services"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr ""
 
@@ -1125,7 +1126,7 @@ msgid "Last.fm authentication disabled"
 msgstr "הושבת אימות Last.fm"
 
 #: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "בִצוע מוקלט"
@@ -1158,8 +1159,9 @@ msgstr "שינוי מידע"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
-#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr ""
 
@@ -1244,35 +1246,27 @@ msgstr ""
 msgid "New playlist"
 msgstr "רשימת השמעה חדשה"
 
-#: ../lollypop/menu_selectionlist.py:45
+#: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:56
-msgid "No connected devices"
-msgstr ""
-
-#: ../lollypop/menu_selectionlist.py:71
-msgid "Synchronization"
-msgstr ""
-
-#: ../lollypop/menu_selectionlist.py:86
+#: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:89
+#: ../lollypop/menu_selectionlist.py:67
 msgid "Startup"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:103
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:104
+#: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:133
+#: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
 msgstr ""
 
@@ -1449,20 +1443,20 @@ msgid "and YouTube in network settings"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:408
-msgid "Others compilations:"
+msgid "Others compilations"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:410
-msgid "Others albums:"
+msgid "Others albums"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:463
+#: ../lollypop/view_albums_box.py:464
 #, python-format
-msgid "Some albums from: %s"
+msgid "Some albums from %s"
 msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:262
@@ -1570,7 +1564,7 @@ msgid "New radio"
 msgstr "תחנת רדיו חדשה"
 
 #: ../lollypop/widgets_banner_today.py:68
-msgid "<b>Album of the day: </b>\n"
+msgid "<b>Album of the day</b>\n"
 msgstr ""
 
 #: ../lollypop/widgets_device.py:113

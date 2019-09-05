@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:03+0200\n"
+"POT-Creation-Date: 2019-09-05 15:32+0200\n"
 "PO-Revision-Date: 2019-08-27 16:29+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
@@ -1164,8 +1164,9 @@ msgstr "Internet"
 msgid "Configure Web services"
 msgstr "Nastavit internetové služby"
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Zařízení"
 
@@ -1190,7 +1191,7 @@ msgid "Last.fm authentication disabled"
 msgstr "Ověření Last.fm zakázáno"
 
 #: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "Přehrávání"
@@ -1223,8 +1224,9 @@ msgstr "Upravit údaje"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr "Nainstalujte, prosím, <i>easytag</i> nebo <i>kid3-qt</i>"
 
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
-#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr "Přidat do"
 
@@ -1309,35 +1311,27 @@ msgstr "Zrušit"
 msgid "New playlist"
 msgstr "Nový seznam skladeb"
 
-#: ../lollypop/menu_selectionlist.py:45
+#: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
 msgstr "Postranní panel"
 
-#: ../lollypop/menu_selectionlist.py:56
-msgid "No connected devices"
-msgstr "Žádná připojená zařízení"
-
-#: ../lollypop/menu_selectionlist.py:71
-msgid "Synchronization"
-msgstr "Seřízení"
-
-#: ../lollypop/menu_selectionlist.py:86
+#: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
 msgstr "Výchozí při spuštění"
 
-#: ../lollypop/menu_selectionlist.py:89
+#: ../lollypop/menu_selectionlist.py:67
 msgid "Startup"
 msgstr "Spuštění programu"
 
-#: ../lollypop/menu_selectionlist.py:103
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
 msgstr "Ukázat text"
 
-#: ../lollypop/menu_selectionlist.py:104
+#: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
 msgstr "Volby"
 
-#: ../lollypop/menu_selectionlist.py:133
+#: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
 msgstr "Sekce"
 
@@ -1512,21 +1506,21 @@ msgid "and YouTube in network settings"
 msgstr "a YouTube v nastavení sítě"
 
 #: ../lollypop/view_albums_box.py:408
-msgid "Others compilations:"
+msgid "Others compilations"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:410
-msgid "Others albums:"
+msgid "Others albums"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr "V tuto chvíli oblíbená alba"
 
-#: ../lollypop/view_albums_box.py:463
+#: ../lollypop/view_albums_box.py:464
 #, python-format
-msgid "Some albums from: %s"
-msgstr "Některá alba z: %s"
+msgid "Some albums from %s"
+msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:262
 msgid "Why not listen to?"
@@ -1635,8 +1629,8 @@ msgid "New radio"
 msgstr "Nové rádio"
 
 #: ../lollypop/widgets_banner_today.py:68
-msgid "<b>Album of the day: </b>\n"
-msgstr "<b>Album dne: </b>\n"
+msgid "<b>Album of the day</b>\n"
+msgstr ""
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
@@ -1831,6 +1825,19 @@ msgstr "Skupina"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "Zpěvák"
+
+#~ msgid "No connected devices"
+#~ msgstr "Žádná připojená zařízení"
+
+#~ msgid "Synchronization"
+#~ msgstr "Seřízení"
+
+#, python-format
+#~ msgid "Some albums from: %s"
+#~ msgstr "Některá alba z: %s"
+
+#~ msgid "<b>Album of the day: </b>\n"
+#~ msgstr "<b>Album dne: </b>\n"
 
 #~ msgid "Rename"
 #~ msgstr "Přejmenovat"

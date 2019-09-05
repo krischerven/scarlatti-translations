@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:03+0200\n"
+"POT-Creation-Date: 2019-09-05 15:32+0200\n"
 "PO-Revision-Date: 2019-09-05 08:02+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -1159,8 +1159,9 @@ msgstr "ウェブ"
 msgid "Configure Web services"
 msgstr "ウェブサービスを設定"
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "デバイス"
 
@@ -1185,7 +1186,7 @@ msgid "Last.fm authentication disabled"
 msgstr "Last.fm 認証は無効です"
 
 #: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "プレイバック"
@@ -1218,8 +1219,9 @@ msgstr "情報を変更"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr "<i>easytag</i> か <i>kid3-qt</i> をインストールしてください"
 
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
-#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr "次に追加"
 
@@ -1304,35 +1306,27 @@ msgstr "キャンセル"
 msgid "New playlist"
 msgstr "新しいプレイリスト"
 
-#: ../lollypop/menu_selectionlist.py:45
+#: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
 msgstr "サイドバー"
 
-#: ../lollypop/menu_selectionlist.py:56
-msgid "No connected devices"
-msgstr "接続デバイスなし"
-
-#: ../lollypop/menu_selectionlist.py:71
-msgid "Synchronization"
-msgstr "同期"
-
-#: ../lollypop/menu_selectionlist.py:86
+#: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
 msgstr "起動時のデフォルト"
 
-#: ../lollypop/menu_selectionlist.py:89
+#: ../lollypop/menu_selectionlist.py:67
 msgid "Startup"
 msgstr "スタートアップ"
 
-#: ../lollypop/menu_selectionlist.py:103
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
 msgstr "テキストを表示"
 
-#: ../lollypop/menu_selectionlist.py:104
+#: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
 msgstr "オプション"
 
-#: ../lollypop/menu_selectionlist.py:133
+#: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
 msgstr "セクション"
 
@@ -1507,21 +1501,21 @@ msgid "and YouTube in network settings"
 msgstr "YouTube を有効にする必要があります"
 
 #: ../lollypop/view_albums_box.py:408
-msgid "Others compilations:"
+msgid "Others compilations"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:410
-msgid "Others albums:"
+msgid "Others albums"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr "現時点で人気のアルバム"
 
-#: ../lollypop/view_albums_box.py:463
+#: ../lollypop/view_albums_box.py:464
 #, python-format
-msgid "Some albums from: %s"
-msgstr "%s のアルバム"
+msgid "Some albums from %s"
+msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:262
 msgid "Why not listen to?"
@@ -1628,8 +1622,8 @@ msgid "New radio"
 msgstr "新しいラジオ"
 
 #: ../lollypop/widgets_banner_today.py:68
-msgid "<b>Album of the day: </b>\n"
-msgstr "<b>今日のアルバム: </b>\n"
+msgid "<b>Album of the day</b>\n"
+msgstr ""
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
@@ -1818,6 +1812,19 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "No connected devices"
+#~ msgstr "接続デバイスなし"
+
+#~ msgid "Synchronization"
+#~ msgstr "同期"
+
+#, python-format
+#~ msgid "Some albums from: %s"
+#~ msgstr "%s のアルバム"
+
+#~ msgid "<b>Album of the day: </b>\n"
+#~ msgstr "<b>今日のアルバム: </b>\n"
 
 #~ msgid "Rename"
 #~ msgstr "名前の変更"

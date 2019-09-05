@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:03+0200\n"
+"POT-Creation-Date: 2019-09-05 15:32+0200\n"
 "PO-Revision-Date: 2019-08-30 18:24+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -1159,8 +1159,9 @@ msgstr "Reto"
 msgid "Configure Web services"
 msgstr "Agordi retservojn"
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Aparatoj"
 
@@ -1185,7 +1186,7 @@ msgid "Last.fm authentication disabled"
 msgstr "Last.fm aliĝo malŝaltita"
 
 #: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "Ludo"
@@ -1218,8 +1219,9 @@ msgstr "Aliigi la informojn"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr "Bonvolu instali na <i>easytag</i> aŭ <i>kid3-qt</i>"
 
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
-#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr "Aldoni je"
 
@@ -1304,35 +1306,27 @@ msgstr "Nuligi"
 msgid "New playlist"
 msgstr "Nova ludlisto"
 
-#: ../lollypop/menu_selectionlist.py:45
+#: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
 msgstr "Flankbreto"
 
-#: ../lollypop/menu_selectionlist.py:56
-msgid "No connected devices"
-msgstr "Neniu konektita aparato"
-
-#: ../lollypop/menu_selectionlist.py:71
-msgid "Synchronization"
-msgstr "Sinkronigado"
-
-#: ../lollypop/menu_selectionlist.py:86
+#: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
 msgstr "Defaŭlto ĉe komenco"
 
-#: ../lollypop/menu_selectionlist.py:89
+#: ../lollypop/menu_selectionlist.py:67
 msgid "Startup"
 msgstr "Startigo"
 
-#: ../lollypop/menu_selectionlist.py:103
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
 msgstr "Montri tekston"
 
-#: ../lollypop/menu_selectionlist.py:104
+#: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
 msgstr "Agordoj"
 
-#: ../lollypop/menu_selectionlist.py:133
+#: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
 msgstr "Sekcioj"
 
@@ -1507,21 +1501,21 @@ msgid "and YouTube in network settings"
 msgstr "kaj Youtube en la retaj agordoj"
 
 #: ../lollypop/view_albums_box.py:408
-msgid "Others compilations:"
+msgid "Others compilations"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:410
-msgid "Others albums:"
+msgid "Others albums"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr "Nuntempe popularaj albumoj"
 
-#: ../lollypop/view_albums_box.py:463
+#: ../lollypop/view_albums_box.py:464
 #, python-format
-msgid "Some albums from: %s"
-msgstr "Iuj albumoj el: %s"
+msgid "Some albums from %s"
+msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:262
 msgid "Why not listen to?"
@@ -1630,8 +1624,8 @@ msgid "New radio"
 msgstr "Nova radio"
 
 #: ../lollypop/widgets_banner_today.py:68
-msgid "<b>Album of the day: </b>\n"
-msgstr "<b>Albumo de la tago: </b>\n"
+msgid "<b>Album of the day</b>\n"
+msgstr ""
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
@@ -1823,6 +1817,19 @@ msgstr "grupo"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "kantisto"
+
+#~ msgid "No connected devices"
+#~ msgstr "Neniu konektita aparato"
+
+#~ msgid "Synchronization"
+#~ msgstr "Sinkronigado"
+
+#, python-format
+#~ msgid "Some albums from: %s"
+#~ msgstr "Iuj albumoj el: %s"
+
+#~ msgid "<b>Album of the day: </b>\n"
+#~ msgstr "<b>Albumo de la tago: </b>\n"
 
 #~ msgid "Rename"
 #~ msgstr "Alinomi"

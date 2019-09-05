@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:03+0200\n"
+"POT-Creation-Date: 2019-09-05 15:32+0200\n"
 "PO-Revision-Date: 2018-09-29 00:33+0000\n"
 "Last-Translator: Slobodan Terzić <githzerai06@gmail.com>\n"
 "Language-Team: Serbian (latin) <https://hosted.weblate.org/projects/gnumdk/"
@@ -1103,8 +1103,9 @@ msgstr "Veb"
 msgid "Configure Web services"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_playlist.py:56 ../lollypop/view_settings.py:50
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr ""
 
@@ -1129,7 +1130,7 @@ msgid "Last.fm authentication disabled"
 msgstr "Prijava na Last.fm je onemogućena"
 
 #: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:39 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "Puštanje"
@@ -1162,8 +1163,9 @@ msgstr "Izmeni podatke"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:73
-#: ../lollypop/menu_objects.py:96 ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr ""
 
@@ -1248,35 +1250,27 @@ msgstr "Otkaži"
 msgid "New playlist"
 msgstr "Nova lista pesama"
 
-#: ../lollypop/menu_selectionlist.py:45
+#: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:56
-msgid "No connected devices"
-msgstr ""
-
-#: ../lollypop/menu_selectionlist.py:71
-msgid "Synchronization"
-msgstr ""
-
-#: ../lollypop/menu_selectionlist.py:86
+#: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
 msgstr "Osnovno pri pokretanju"
 
-#: ../lollypop/menu_selectionlist.py:89
+#: ../lollypop/menu_selectionlist.py:67
 msgid "Startup"
 msgstr "Pokretanje"
 
-#: ../lollypop/menu_selectionlist.py:103
+#: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:104
+#: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:133
+#: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
 msgstr ""
 
@@ -1453,20 +1447,20 @@ msgid "and YouTube in network settings"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:408
-msgid "Others compilations:"
+msgid "Others compilations"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:410
-msgid "Others albums:"
+msgid "Others albums"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:463
+#: ../lollypop/view_albums_box.py:464
 #, python-format
-msgid "Some albums from: %s"
+msgid "Some albums from %s"
 msgstr ""
 
 #: ../lollypop/view_artists_rounded.py:262
@@ -1574,7 +1568,7 @@ msgid "New radio"
 msgstr "Nova radio stanica"
 
 #: ../lollypop/widgets_banner_today.py:68
-msgid "<b>Album of the day: </b>\n"
+msgid "<b>Album of the day</b>\n"
 msgstr ""
 
 #: ../lollypop/widgets_device.py:113
