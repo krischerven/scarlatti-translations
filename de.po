@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-05 15:40+0200\n"
-"PO-Revision-Date: 2019-09-04 05:24+0000\n"
-"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
+"PO-Revision-Date: 2019-09-13 11:23+0000\n"
+"Last-Translator: dolwup <carlokretzschmann@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "de/>\n"
 "Language: de\n"
@@ -97,7 +97,7 @@ msgstr "Synchronisation zu USB-Laufwerken erlauben"
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
-msgstr ""
+msgstr "Wenn festgelegt, nutzt Lollypop diesen Server statt YouTube"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -314,7 +314,8 @@ msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
 "Philipp Wolfer <ph.wolfer@gmail.com>\n"
-"Mario Blättermann <mario.blaettermann@gmail.com>"
+"Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Carlo Kretzschmann <carlokretzschmann@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:27
 msgid ""
@@ -375,7 +376,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "Synchronisierung –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
@@ -427,7 +428,7 @@ msgstr "_Über Lollypop"
 
 #: ../data/Appmenu.ui:157
 msgid "Quit"
-msgstr ""
+msgstr "Beenden"
 
 #: ../data/ArtistBannerWidget.ui:91
 msgid "Play albums"
@@ -570,11 +571,11 @@ msgstr "Cache leeren"
 
 #: ../data/SettingsAppearance.ui:294
 msgid "Default background image"
-msgstr ""
+msgstr "Standard Hintergrundbild"
 
 #: ../data/SettingsAppearance.ui:329
 msgid "Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #: ../data/SettingsAppearance.ui:408
 msgid ""
@@ -831,7 +832,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:468
 msgid "No server set"
-msgstr ""
+msgstr "Kein Server festgelegt"
 
 #: ../data/SettingsWeb.ui:491
 msgid "Google"
@@ -1181,7 +1182,7 @@ msgstr "Sie verwenden ein kaputtes Cursor-Thema!"
 
 #: ../lollypop/helper_web_youtube.py:91
 msgid "Can't find this track on YouTube"
-msgstr ""
+msgstr "Kann den Titel nicht auf YouTube finden"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1229,7 +1230,7 @@ msgstr ""
 #: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
 #: ../lollypop/menu_playlist.py:55
 msgid "Add to"
-msgstr ""
+msgstr "Hinzufügen zu"
 
 #: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:74
 #: ../lollypop/menu_objects.py:97 ../lollypop/menu_playlist.py:58
@@ -1254,23 +1255,23 @@ msgstr "Aus Wiedergabe entfernen"
 
 #: ../lollypop/menu_playback.py:82
 msgid "Play this playlist"
-msgstr ""
+msgstr "Diese Wiedergabeliste wiedergeben"
 
 #: ../lollypop/menu_playback.py:123
 msgid "Play this artist"
-msgstr ""
+msgstr "Diesen Künstler wiedergeben"
 
 #: ../lollypop/menu_playback.py:187
 msgid "Play this genre"
-msgstr ""
+msgstr "Dieses Genre wiedergeben"
 
 #: ../lollypop/menu_playback.py:266
 msgid "Play this decade"
-msgstr ""
+msgstr "Dieses Jahrzehnt wiedergeben"
 
 #: ../lollypop/menu_playback.py:347
 msgid "Play this album"
-msgstr ""
+msgstr "Dieses Album wiedergeben"
 
 #: ../lollypop/menu_playback.py:473
 msgid "Add to queue"
@@ -1314,7 +1315,7 @@ msgstr "Neue Wiedergabeliste"
 
 #: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
-msgstr ""
+msgstr "Seitenleiste"
 
 #: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
@@ -1326,11 +1327,11 @@ msgstr "Programmstart"
 
 #: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
-msgstr ""
+msgstr "Text anzeigen"
 
 #: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
-msgstr ""
+msgstr "Optionen"
 
 #: ../lollypop/menu_selectionlist.py:111
 msgid "Sections"
@@ -1379,7 +1380,7 @@ msgstr "Nichts gefunden…"
 
 #: ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr ""
+msgstr "Empfehlungen"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1451,11 +1452,11 @@ msgstr "Zufällige Titel"
 
 #: ../lollypop/shown.py:71
 msgid "Recently played tracks"
-msgstr ""
+msgstr "Kürzlich gespielte Titel"
 
 #: ../lollypop/shown.py:72
 msgid "Unplayed tracks"
-msgstr ""
+msgstr "Ungespielte Titel"
 
 #: ../lollypop/toolbar_end.py:245
 msgid "All genres"
@@ -1498,11 +1499,11 @@ msgstr "und YouTube in den Netzwerkeinstellungen"
 
 #: ../lollypop/view_albums_box.py:408
 msgid "Others compilations"
-msgstr ""
+msgstr "Andere Kompilationen"
 
 #: ../lollypop/view_albums_box.py:410
 msgid "Others albums"
-msgstr ""
+msgstr "Andere Alben"
 
 #: ../lollypop/view_albums_box.py:437
 msgid "Popular albums at the moment"
@@ -1619,7 +1620,7 @@ msgstr "Neue Station"
 
 #: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day</b>\n"
-msgstr ""
+msgstr "<b>Album des Tages</b>\n"
 
 #: ../lollypop/widgets_device.py:113
 msgid "No synchronized albums"
@@ -1810,7 +1811,7 @@ msgstr ""
 
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
-msgstr ""
+msgstr "Sänger"
 
 #, python-format
 #~ msgid "by %s"
