@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 15:40+0200\n"
+"POT-Creation-Date: 2019-09-18 08:39+0200\n"
 "PO-Revision-Date: 2019-09-08 15:19+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -145,7 +145,7 @@ msgstr ""
 "Bu değeri sıfırlamak veri tabanını sıfırlayacaktır, gözde albümler "
 "kurtarılacaktır"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:233
+#: ../data/org.gnome.Lollypop.gschema.xml:144 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Albüm kapak boyutu"
 
@@ -170,8 +170,8 @@ msgstr "Müziği otomatik güncelle"
 msgid "Show performers"
 msgstr "Sanatçıları göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:143
-#: ../data/SettingsAppearance.ui:157
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
+#: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Sanatçı çizimini göster"
 
@@ -192,7 +192,7 @@ msgstr "Skroplama kullanımını devre dışı bırak"
 msgid "Handle compilations"
 msgstr "Derlemeleri işle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:373
+#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Derlemeleri albüm görünümünde göster"
 
@@ -291,7 +291,7 @@ msgstr ""
 msgid "Repeat"
 msgstr "Tekrarla"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:186
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Albümleri şuna göre sırala"
 
@@ -314,31 +314,32 @@ msgstr ""
 
 #: ../data/AboutDialog.ui.in:27
 msgid ""
-"Reda Lazri (Lollypop icon)\n"
-"Geary Development Team (tag-list-symbolic icon)\n"
-"GNOME Project (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
-"Martins D. Okoi (Description in appdata)\n"
+"\n"
+"Reda Lazri:\n"
+"    Lollypop icon\n"
+"Geary Development Team:\n"
+"    tag-list-symbolic icon\n"
+"GNOME Project:\n"
+"    unplayed-albums-symbolic\n"
+"    artists-list-symbolic icons\n"
+"Martins D. Okoi:\n"
+"    Description in appdata\n"
 "    "
 msgstr ""
-"Reda Lazri (Lollypop simgesi)\n"
-"Geary Geliştirici Takımı (etiket-liste-sembolik simge)\n"
-"GNOME Projesi (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
-"Martins D. Okoi (Appdata'daki açıklama)\n"
-"    "
 
-#: ../data/AboutDialog.ui.in:59
+#: ../data/AboutDialog.ui.in:65
 msgid "Donations:"
 msgstr "Bağış:"
 
-#: ../data/AboutDialog.ui.in:66
+#: ../data/AboutDialog.ui.in:72
 msgid "Liberapay"
 msgstr "Liberapay ✓"
 
-#: ../data/AboutDialog.ui.in:76 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:82 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon ✓"
 
-#: ../data/AboutDialog.ui.in:86 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:92 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal ✓"
 
@@ -382,6 +383,14 @@ msgstr "Eşitleyici –"
 msgid "Audio Scrobbling –"
 msgstr "Ses Skroplama –"
 
+#: ../data/org.gnome.Lollypop.appdata.xml.in:22
+msgid "Do not reload views on adaptive"
+msgstr "Uyarlanabilir görünümleri yeniden yükleme"
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:23
+msgid "Bugfixes"
+msgstr "Hata düzeltmeleri"
+
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Müzik Çalar"
@@ -406,55 +415,46 @@ msgstr "Önceki"
 msgid "Update music"
 msgstr "Müziği Güncelle"
 
-#: ../data/Appmenu.ui:65
+#: ../data/Appmenu.ui:63
 msgid "Equalizer"
 msgstr "Dengeleyici"
 
-#: ../data/Appmenu.ui:84
+#: ../data/Appmenu.ui:81
 msgid "Fullscreen"
 msgstr "Tam Ekran"
 
-#: ../data/Appmenu.ui:114
+#: ../data/Appmenu.ui:109
 msgid "_Preferences"
 msgstr "_Tercihler"
 
-#: ../data/Appmenu.ui:128
+#: ../data/Appmenu.ui:123
 msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
-#: ../data/Appmenu.ui:143
+#: ../data/Appmenu.ui:137
 msgid "_About Lollypop"
 msgstr "Lollypop _Hakkında"
 
-#: ../data/Appmenu.ui:157
+#: ../data/Appmenu.ui:151
 msgid "Quit"
 msgstr "Çık"
 
-#: ../data/ArtistBannerWidget.ui:91
+#: ../data/ArtistBannerWidget.ui:77
 msgid "Play albums"
 msgstr "Albümleri çal"
 
-#: ../data/ArtistBannerWidget.ui:110
+#: ../data/ArtistBannerWidget.ui:95
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Geçerli çalma listesine ekle"
 
-#: ../data/ArtistBannerWidget.ui:129 ../data/SimilarsPopover.ui:77
-msgid "Similar artists"
-msgstr "Benzer sanatçılar"
-
-#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:131
+#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:120
 msgid "Go to artist view"
 msgstr "Sanatçı görünümüne git"
 
-#: ../data/ArtworkSearch.ui:35
+#: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
 msgstr "Yerel bir dosya seç"
-
-#: ../data/ArtworkSearch.ui:126 ../data/SettingsCollections.ui:44
-#: ../lollypop/menu_playlist.py:81
-msgid "Confirm"
-msgstr "Kabul et"
 
 #: ../data/DeviceWidget.ui:98
 msgid "Convert to:"
@@ -495,18 +495,18 @@ msgstr "Albümler"
 
 #: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:51
 #: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:95
-#: ../lollypop/shown.py:30
+#: ../lollypop/shown.py:30 ../lollypop/widgets_banner_playlists.py:40
 msgid "Playlists"
 msgstr "Çalma listeleri"
 
-#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:131
-#: ../lollypop/widgets_device.py:332
+#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:135
+#: ../lollypop/widgets_device.py:336
 msgid "Synchronize"
 msgstr "Eşzamanla"
 
 #: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
 #: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:192
-#: ../lollypop/view_tracks.py:381 ../lollypop/widgets_player_buttons.py:151
+#: ../lollypop/view_tracks.py:383 ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Çal"
 
@@ -514,11 +514,11 @@ msgstr "Çal"
 msgid "Play playlist randomized"
 msgstr "Çalma listesini rastgele çal"
 
-#: ../data/PlaylistPopover.ui:23 ../data/RadioPopover.ui:28
+#: ../data/PlaylistPopover.ui:23 ../data/RadioMenu.ui:50
 msgid "Name:"
 msgstr "İsim:"
 
-#: ../data/PlaylistPopover.ui:59 ../data/RadioPopover.ui:109
+#: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "Kaydet"
@@ -531,7 +531,7 @@ msgstr "Sırayı sil"
 msgid "Queue"
 msgstr "Sıra"
 
-#: ../data/RadioPopover.ui:54
+#: ../data/RadioMenu.ui:61
 msgid "Address:"
 msgstr "Adres:"
 
@@ -540,44 +540,36 @@ msgstr "Adres:"
 msgid "Create a new playlist"
 msgstr "Yeni çalma listesi oluştur"
 
-#: ../data/SettingsAppearance.ui:41 ../data/SettingsAppearance.ui:55
+#: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
 msgid "Use dark theme variant"
 msgstr "Karanlık gövdeyi kullan"
 
-#: ../data/SettingsAppearance.ui:85 ../data/SettingsAppearance.ui:114
+#: ../data/SettingsAppearance.ui:80 ../data/SettingsAppearance.ui:109
 msgid "Show compilations"
 msgstr "Derlemeleri göster"
 
-#: ../data/SettingsAppearance.ui:203 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_objects.py:47
 msgid "Artist"
 msgstr "Sanatçı"
 
-#: ../data/SettingsAppearance.ui:204
+#: ../data/SettingsAppearance.ui:199
 msgid "Name"
 msgstr "İsim"
 
-#: ../data/SettingsAppearance.ui:205 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsAppearance.ui:200 ../data/SmartPlaylistWidget.ui:32
 msgid "Year"
 msgstr "Yıl"
 
-#: ../data/SettingsAppearance.ui:206
+#: ../data/SettingsAppearance.ui:201
 msgid "Popularity"
 msgstr "Sevilme"
 
-#: ../data/SettingsAppearance.ui:263
+#: ../data/SettingsAppearance.ui:258
 msgid "Clean cache"
 msgstr "Önbelleği temizle"
 
-#: ../data/SettingsAppearance.ui:294
-msgid "Default background image"
-msgstr "Varsayılan arka plan resmi"
-
-#: ../data/SettingsAppearance.ui:329
-msgid "Reset"
-msgstr "Sıfırla"
-
-#: ../data/SettingsAppearance.ui:408
+#: ../data/SettingsAppearance.ui:358
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
@@ -585,7 +577,7 @@ msgstr ""
 "Derleme, farklı sanatçıların olduğu ve herhangi\n"
 "\"Albüm sanatçı etiketi\" olmayan albümdür."
 
-#: ../data/SettingsAppearance.ui:422
+#: ../data/SettingsAppearance.ui:372
 msgid "You need to reset database [Music]"
 msgstr "Veri tabanını sıfırlamalısınız [Müzik]"
 
@@ -742,6 +734,10 @@ msgstr "Yalnızca parti kipinde"
 #: ../data/SettingsBehaviour.ui:910
 msgid "Transition duration in seconds"
 msgstr "Saniye türünde geçiş süresi"
+
+#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:81
+msgid "Confirm"
+msgstr "Kabul et"
 
 #: ../data/SettingsCollections.ui:133
 msgid "Reset database"
@@ -971,10 +967,6 @@ msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Skroplamayı etkinleştir/devre dışı bırak"
 
-#: ../data/SimilarsPopover.ui:46
-msgid "No results"
-msgstr "Sonuç yok"
-
 #: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
 msgstr "İle sınırlandır"
@@ -1011,7 +1003,7 @@ msgstr "süre AZALAN"
 msgid "duration ASC"
 msgstr "süre ARTAN"
 
-#: ../data/SmartPlaylistView.ui:185
+#: ../data/SmartPlaylistView.ui:184
 msgid "Match music for "
 msgstr "için müzik eşleştir "
 
@@ -1161,7 +1153,7 @@ msgid "Select music folders"
 msgstr "Müzik dosyalarını seç"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:248 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:236 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Web"
 
@@ -1183,7 +1175,7 @@ msgstr "Cihazları yönet"
 msgid "You are using a broken cursor theme!"
 msgstr "Bozuk imleç teması kullanıyorsunuz!"
 
-#: ../lollypop/helper_web_youtube.py:91
+#: ../lollypop/helper_web.py:78
 msgid "Can't find this track on YouTube"
 msgstr "Bu parçayı YouTube'da bulamıyorum"
 
@@ -1201,15 +1193,15 @@ msgstr "Last.fm kimlik doğrulaması devre dışı"
 msgid "Playback"
 msgstr "Kayıttan çal"
 
-#: ../lollypop/menu_artist.py:70
+#: ../lollypop/menu_artist.py:71
 msgid "Available albums"
 msgstr "Mevcut albümler"
 
-#: ../lollypop/menu_artist.py:75
+#: ../lollypop/menu_artist.py:76
 msgid "Other albums"
 msgstr "Diğer albümler"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:126
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:115
 msgid "Save in collection"
 msgstr "Koleksiyona kaydet"
 
@@ -1244,7 +1236,7 @@ msgstr "Düzenle"
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/menu_objects.py:153
+#: ../lollypop/menu_objects.py:152
 msgid "YouTube page address"
 msgstr "YouTube sayfa adresi"
 
@@ -1308,13 +1300,17 @@ msgstr "Çalma listesini kaldır"
 msgid "Remove this playlist?"
 msgstr "Bu çalma listesi kaldırılsın mı?"
 
-#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:138
+#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:142
 msgid "Cancel"
 msgstr "İptal"
 
-#: ../lollypop/menu_playlists.py:47 ../lollypop/widgets_banner_playlists.py:38
+#: ../lollypop/menu_playlists.py:47
 msgid "New playlist"
 msgstr "Yeni çalma listesi"
+
+#: ../lollypop/menu_radio.py:92
+msgid "New radio"
+msgstr "Yeni radyo"
 
 #: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
@@ -1340,6 +1336,10 @@ msgstr "Seçenekler"
 msgid "Sections"
 msgstr "Bölümler"
 
+#: ../lollypop/menu_similars.py:171
+msgid "No results"
+msgstr "Sonuç yok"
+
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
 msgstr "Tüm cihazlar"
@@ -1352,16 +1352,16 @@ msgstr "Radyo"
 msgid "New playlist "
 msgstr "Yeni çalma listesi "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:362
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:364
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Sevilen parçalar"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:289
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:285
 msgid "Add to current playlist"
 msgstr "Geçerli çalma listesine ekle"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:296
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:292
 msgid "Remove from current playlist"
 msgstr "Geçerli çalma listesinden kaldır"
 
@@ -1405,7 +1405,7 @@ msgstr "Son eklenen albümler"
 msgid "Unplayed albums"
 msgstr "Çalınmamış albümler"
 
-#: ../lollypop/shown.py:31
+#: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
 msgid "Radios"
 msgstr "Radyolar"
 
@@ -1437,9 +1437,9 @@ msgstr "Sanatçılar (liste)"
 msgid "Search"
 msgstr "Ara"
 
-#: ../lollypop/shown.py:41
-msgid "Current playlist"
-msgstr "Mevcut çalma listesi"
+#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:63
+msgid "Playing albums"
+msgstr "Çalınan albümler"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1461,7 +1461,11 @@ msgstr "Son çalınan parçalar"
 msgid "Unplayed tracks"
 msgstr "Çalınmayan parçalar"
 
-#: ../lollypop/toolbar_end.py:245
+#: ../lollypop/shown.py:73
+msgid "All tracks"
+msgstr ""
+
+#: ../lollypop/toolbar_end.py:233
 msgid "All genres"
 msgstr "Tüm türler"
 
@@ -1484,40 +1488,40 @@ msgstr "%s d"
 msgid "The the"
 msgstr "Bu bu"
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:54
 msgid "Network not available"
 msgstr "Ağ kullanılamıyor"
 
-#: ../lollypop/view_albums_box.py:59
+#: ../lollypop/view_albums_box.py:57
 msgid "Missing youtube-dl command"
 msgstr "youtube-dl komutu eksik"
 
-#: ../lollypop/view_albums_box.py:63
+#: ../lollypop/view_albums_box.py:61
 msgid "You need to enable Spotify "
 msgstr "Spotify'ı etkinleştirmeniz gerekir "
 
-#: ../lollypop/view_albums_box.py:64
+#: ../lollypop/view_albums_box.py:62
 msgid "and YouTube in network settings"
 msgstr "ve YouTube ağ ayarlarını da"
 
-#: ../lollypop/view_albums_box.py:408
+#: ../lollypop/view_albums_box.py:433
 msgid "Others compilations"
 msgstr "Diğer derlemeler"
 
-#: ../lollypop/view_albums_box.py:410
+#: ../lollypop/view_albums_box.py:435
 msgid "Others albums"
 msgstr "Diğer albümler"
 
-#: ../lollypop/view_albums_box.py:437
+#: ../lollypop/view_albums_box.py:462
 msgid "Popular albums at the moment"
 msgstr "Şu an popüler albümler"
 
-#: ../lollypop/view_albums_box.py:464
-#, python-format
-msgid "Some albums from %s"
-msgstr "%s Bazı albümler"
+#: ../lollypop/view_artists_rounded.py:123
+#: ../lollypop/widgets_banner_artist.py:174
+msgid "Similar artists"
+msgstr "Benzer sanatçılar"
 
-#: ../lollypop/view_artists_rounded.py:262
+#: ../lollypop/view_artists_rounded.py:296
 msgid "Why not listen to?"
 msgstr "Neden dinlemiyorsun?"
 
@@ -1558,11 +1562,11 @@ msgstr "Bu şarkı sözleri tercüme edilemiyor"
 msgid "No items to show"
 msgstr "Gösterilecek öge yok"
 
-#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:126
+#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:132
 msgid "Search for artists, albums and tracks"
 msgstr "Sanatçıları, albümleri ve parçaları ara"
 
-#: ../lollypop/view_search.py:209
+#: ../lollypop/view_search.py:230
 msgid "No results for this search"
 msgstr "Bu arama için sonuç yok"
 
@@ -1578,7 +1582,7 @@ msgstr "Spotify'dan yeni albümler"
 msgid "Welcome on Lollypop"
 msgstr "Lolipop'a Hoş Geldiniz"
 
-#: ../lollypop/view_tracks.py:116
+#: ../lollypop/view_tracks.py:118
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
@@ -1586,26 +1590,22 @@ msgstr ""
 "Bu albümde şarkı yok. Etiketleri kontrol edin, tüm 'albüm sanatçısı' "
 "etiketlerinin 'sanatçı' etiketlerinde olması gerekir"
 
-#: ../lollypop/view_tracks.py:372
+#: ../lollypop/view_tracks.py:374
 #, python-format
 msgid "Disc %s"
 msgstr "%s diski"
 
-#: ../lollypop/widgets_artwork_album.py:45
+#: ../lollypop/widgets_artwork_album.py:83
 msgid "Local"
 msgstr "Yerel"
 
-#: ../lollypop/widgets_artwork.py:132
+#: ../lollypop/widgets_artwork.py:140
 msgid "Select artwork"
 msgstr "Çizim seç"
 
-#: ../lollypop/widgets_artwork.py:167
+#: ../lollypop/widgets_artwork.py:181
 msgid "Remove"
 msgstr "Kaldır"
-
-#: ../lollypop/widgets_artwork.py:268
-msgid "Reset artwork?"
-msgstr "Çizimi sıfırla?"
 
 #: ../lollypop/widgets_banner_current_albums.py:39
 msgid "Clear albums"
@@ -1615,23 +1615,15 @@ msgstr "Albümleri temizle"
 msgid "Go to current track"
 msgstr "Geçerli parçaya git"
 
-#: ../lollypop/widgets_banner_current_albums.py:63
-msgid "Playing albums"
-msgstr "Çalınan albümler"
-
-#: ../lollypop/widgets_banner_radios.py:37
-msgid "New radio"
-msgstr "Yeni radyo"
-
-#: ../lollypop/widgets_banner_today.py:68
+#: ../lollypop/widgets_banner_today.py:67
 msgid "<b>Album of the day</b>\n"
 msgstr "<b>Günün albümü</b>\n"
 
-#: ../lollypop/widgets_device.py:113
+#: ../lollypop/widgets_device.py:117
 msgid "No synchronized albums"
 msgstr "Eşitlenmiş albüm yok"
 
-#: ../lollypop/widgets_device.py:124
+#: ../lollypop/widgets_device.py:128
 msgid "No synchronized playlists"
 msgstr "Eşitlenmiş oynatma listesi yok"
 
@@ -1728,15 +1720,15 @@ msgstr "Soft Rock ♪"
 msgid "Techno"
 msgstr "Tekno ♪"
 
-#: ../lollypop/widgets_loved.py:117
+#: ../lollypop/widgets_loved.py:116
 msgid "Allow playback"
 msgstr "Kayıttan çalmaya izin ver"
 
-#: ../lollypop/widgets_loved.py:122
+#: ../lollypop/widgets_loved.py:121
 msgid "Like"
 msgstr "Beğen"
 
-#: ../lollypop/widgets_loved.py:127
+#: ../lollypop/widgets_loved.py:126
 msgid "Disallow playback"
 msgstr "Kayıttan çalmaya izin verme"
 
@@ -1768,16 +1760,16 @@ msgstr "daha büyük"
 msgid "is less than"
 msgstr "daha az"
 
-#: ../lollypop/widgets_rating.py:52
+#: ../lollypop/widgets_rating.py:51
 #, python-format
 msgid "Song played %s times"
 msgstr "Şarkı %s kez çalındı"
 
-#: ../lollypop/widgets_row_album.py:105
+#: ../lollypop/widgets_row_album.py:94
 msgid "Compilation"
 msgstr "Derleme"
 
-#: ../lollypop/widgets_row_album.py:121 ../lollypop/widgets_row_track.py:114
+#: ../lollypop/widgets_row_album.py:110 ../lollypop/widgets_row_track.py:112
 msgid "Remove from playlist"
 msgstr "Çalma listesinden kaldır"
 
@@ -1806,7 +1798,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d parça"
 msgstr[1] "%d parça"
 
-#: ../lollypop/widgets_settings_web.py:37
+#: ../lollypop/widgets_settings_web.py:39
+#: ../lollypop/widgets_settings_web.py:41
+msgid "Disabled in network settings"
+msgstr ""
+
+#: ../lollypop/widgets_settings_web.py:44
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "\"GNOME Çevrim İçi Hesaplar\" ayarlarını kullan"
 
@@ -1817,6 +1814,35 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "şarkıcı"
+
+#~ msgid ""
+#~ "Reda Lazri (Lollypop icon)\n"
+#~ "Geary Development Team (tag-list-symbolic icon)\n"
+#~ "GNOME Project (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
+#~ "Martins D. Okoi (Description in appdata)\n"
+#~ "    "
+#~ msgstr ""
+#~ "Reda Lazri (Lollypop simgesi)\n"
+#~ "Geary Geliştirici Takımı (etiket-liste-sembolik simge)\n"
+#~ "GNOME Projesi (unplayed-albums-symbolic, artists-list-symbolic icons)\n"
+#~ "Martins D. Okoi (Appdata'daki açıklama)\n"
+#~ "    "
+
+#~ msgid "Default background image"
+#~ msgstr "Varsayılan arka plan resmi"
+
+#~ msgid "Reset"
+#~ msgstr "Sıfırla"
+
+#~ msgid "Current playlist"
+#~ msgstr "Mevcut çalma listesi"
+
+#, python-format
+#~ msgid "Some albums from %s"
+#~ msgstr "%s Bazı albümler"
+
+#~ msgid "Reset artwork?"
+#~ msgstr "Çizimi sıfırla?"
 
 #, python-format
 #~ msgid "by %s"
@@ -1850,12 +1876,6 @@ msgstr "şarkıcı"
 
 #~ msgid "Translate"
 #~ msgstr "Çevir"
-
-#~ msgid "Do not reload views on adaptive"
-#~ msgstr "Uyarlanabilir görünümleri yeniden yükleme"
-
-#~ msgid "Bugfixes"
-#~ msgstr "Hata düzeltmeleri"
 
 #~ msgid "Shuffle mode"
 #~ msgstr "Karma kipi"
