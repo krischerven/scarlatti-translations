@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 08:39+0200\n"
+"POT-Creation-Date: 2019-09-21 14:54+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Irish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -427,7 +427,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr ""
 
-#: ../data/ArtistInformation.ui:57 ../lollypop/widgets_row_album.py:120
+#: ../data/ArtistInformation.ui:60 ../lollypop/widgets_row_album.py:126
 msgid "Go to artist view"
 msgstr ""
 
@@ -467,13 +467,13 @@ msgstr ""
 msgid "Synchronized:"
 msgstr ""
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:38
+#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:39
 #: ../lollypop/shown.py:37
 msgid "Albums"
 msgstr "Albaim"
 
-#: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:51
-#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:95
+#: ../data/DeviceWidget.ui:264 ../lollypop/menu_objects.py:52
+#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
 #: ../lollypop/shown.py:30 ../lollypop/widgets_banner_playlists.py:40
 msgid "Playlists"
 msgstr "Seinnliostaí"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
 #: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:192
-#: ../lollypop/view_tracks.py:383 ../lollypop/widgets_player_buttons.py:151
+#: ../lollypop/view_tracks.py:388 ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Seinn"
 
@@ -528,7 +528,7 @@ msgid "Show compilations"
 msgstr ""
 
 #: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/menu_objects.py:47
+#: ../lollypop/menu_objects.py:49
 msgid "Artist"
 msgstr "Ealaíontóir"
 
@@ -1097,7 +1097,7 @@ msgid "Configure Web services"
 msgstr ""
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
-#: ../lollypop/menu_objects.py:53 ../lollypop/menu_playlist.py:56
+#: ../lollypop/menu_objects.py:54 ../lollypop/menu_playlist.py:56
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr ""
@@ -1122,21 +1122,21 @@ msgstr ""
 msgid "Last.fm authentication disabled"
 msgstr "Fíordheimniú Last.fm díchumasaithe"
 
-#: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
+#: ../lollypop/menu_artist.py:38 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
-#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_objects.py:93 ../lollypop/menu_playlist.py:53
 msgid "Playback"
 msgstr "Athsheinm"
 
-#: ../lollypop/menu_artist.py:71
+#: ../lollypop/menu_artist.py:72
 msgid "Available albums"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:76
-msgid "Other albums"
+#: ../lollypop/menu_artist.py:82
+msgid "Albums on the Web"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:115
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:121
 msgid "Save in collection"
 msgstr ""
 
@@ -1156,22 +1156,22 @@ msgstr "Mionathraigh eolas"
 msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
 msgstr ""
 
-#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:73 ../lollypop/menu_objects.py:96
+#: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
+#: ../lollypop/menu_objects.py:74 ../lollypop/menu_objects.py:97
 #: ../lollypop/menu_playlist.py:55
 msgid "Add to"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:74
-#: ../lollypop/menu_objects.py:97 ../lollypop/menu_playlist.py:58
+#: ../lollypop/menu_objects.py:57 ../lollypop/menu_objects.py:75
+#: ../lollypop/menu_objects.py:98 ../lollypop/menu_playlist.py:58
 msgid "Edit"
 msgstr "Eagar"
 
-#: ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:120
 msgid "%Y-%m-%d"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:152
+#: ../lollypop/menu_objects.py:153
 msgid "YouTube page address"
 msgstr ""
 
@@ -1292,12 +1292,12 @@ msgstr "Seinnliosta nua"
 msgid "Loved tracks"
 msgstr "Rianta is fearr"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:285
+#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:287
 #, fuzzy
 msgid "Add to current playlist"
 msgstr "Cuir le seinnliosta"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:292
+#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:294
 #, fuzzy
 msgid "Remove from current playlist"
 msgstr "Cuir le seinnliosta"
@@ -1441,24 +1441,24 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:433
+#: ../lollypop/view_albums_box.py:431
 msgid "Others compilations"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:435
+#: ../lollypop/view_albums_box.py:433
 msgid "Others albums"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:462
+#: ../lollypop/view_albums_box.py:460
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:123
-#: ../lollypop/widgets_banner_artist.py:174
+#: ../lollypop/view_artists_rounded.py:122
+#: ../lollypop/widgets_banner_artist.py:176
 msgid "Similar artists"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:296
+#: ../lollypop/view_artists_rounded.py:286
 msgid "Why not listen to?"
 msgstr ""
 
@@ -1471,7 +1471,7 @@ msgstr ""
 msgid "No information for %s"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:158
+#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:161
 msgid "No track playing"
 msgstr ""
 
@@ -1499,11 +1499,11 @@ msgstr ""
 msgid "No items to show"
 msgstr ""
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:132
+#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:135
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:230
+#: ../lollypop/view_search.py:231
 msgid "No results for this search"
 msgstr ""
 
@@ -1515,17 +1515,17 @@ msgstr ""
 msgid "New albums from Spotify"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:129
+#: ../lollypop/view_suggestions.py:128
 msgid "Welcome on Lollypop"
 msgstr ""
 
-#: ../lollypop/view_tracks.py:118
+#: ../lollypop/view_tracks.py:120
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
 
-#: ../lollypop/view_tracks.py:374
+#: ../lollypop/view_tracks.py:379
 #, python-format
 msgid "Disc %s"
 msgstr "Ceirnín %s"
@@ -1700,11 +1700,11 @@ msgstr ""
 msgid "Song played %s times"
 msgstr ""
 
-#: ../lollypop/widgets_row_album.py:94
+#: ../lollypop/widgets_row_album.py:100
 msgid "Compilation"
 msgstr "Teaglaim"
 
-#: ../lollypop/widgets_row_album.py:110 ../lollypop/widgets_row_track.py:112
+#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:112
 msgid "Remove from playlist"
 msgstr ""
 
