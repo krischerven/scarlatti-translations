@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-21 14:54+0200\n"
+"POT-Creation-Date: 2019-09-28 00:56+0200\n"
 "PO-Revision-Date: 2019-09-27 22:56+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@bol.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -397,14 +397,6 @@ msgstr "Sincronização –"
 msgid "Audio Scrobbling –"
 msgstr "Scrobbling de Áudio -"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr "Não recarregar as visualizações em adaptável"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr "Correções de Bugs"
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Tocador de Música"
@@ -462,7 +454,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Adic. para a lista atual"
 
-#: ../data/ArtistInformation.ui:60 ../lollypop/widgets_row_album.py:126
+#: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
 msgstr "Ir para a visão do artista"
 
@@ -536,14 +528,6 @@ msgstr "Nome:"
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "Salvar"
-
-#: ../data/QueuePopover.ui:22
-msgid "Clear queue"
-msgstr "Limpar fila"
-
-#: ../data/QueuePopover.ui:45
-msgid "Queue"
-msgstr "Fila"
 
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
@@ -741,11 +725,17 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Pesquisar artista, biografia, arte, …</"
 "span>"
 
-#: ../data/SettingsBehaviour.ui:860
+#: ../data/SettingsBehaviour.ui:836
+msgid ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:888
 msgid "Only in party mode"
 msgstr "Apenas no modo de festa"
 
-#: ../data/SettingsBehaviour.ui:910
+#: ../data/SettingsBehaviour.ui:938
 msgid "Transition duration in seconds"
 msgstr "Duração da transição em segundos"
 
@@ -766,27 +756,28 @@ msgstr "Remover dispositivos gerenciados pelo Lollypop:"
 msgid "Preferences"
 msgstr "Preferências"
 
-#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
+#: ../data/SettingsWeb.ui:25 ../data/SettingsWeb.ui:144
 msgid "Login:"
 msgstr "Login:"
 
-#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
+#: ../data/SettingsWeb.ui:38 ../data/SettingsWeb.ui:157
 msgid "Password:"
 msgstr "Senha:"
 
-#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
+#: ../data/SettingsWeb.ui:74 ../data/SettingsWeb.ui:193
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
-msgid "You need to install pylast and gi secret"
-msgstr "Você precisa instalar o pylast e o gi secret"
+#: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
+#: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+msgid "Disabled in network settings"
+msgstr "Desabilitado nas configurações de rede"
 
-#: ../data/SettingsWeb.ui:237
+#: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:261
+#: ../data/SettingsWeb.ui:269
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -798,15 +789,15 @@ msgstr ""
 "de usuário do ListenBrainz . Você pode ver seu chave de usuário em seu <a "
 "href=\"https://listenbrainz.org/profile/\"></a>perfil de usuário.</small>"
 
-#: ../data/SettingsWeb.ui:291
+#: ../data/SettingsWeb.ui:299
 msgid "User token"
 msgstr "Chave de usuário"
 
-#: ../data/SettingsWeb.ui:307
+#: ../data/SettingsWeb.ui:332
 msgid "ListenBrainz"
 msgstr "ListenBainz"
 
-#: ../data/SettingsWeb.ui:336
+#: ../data/SettingsWeb.ui:361
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -816,11 +807,11 @@ msgstr ""
 "<small>Sem uma, a cota padrão de pesquisas se esgotará rápido.\n"
 "O Lollypop precisa dela para pesquisar imagens de capa.</small>"
 
-#: ../data/SettingsWeb.ui:363
+#: ../data/SettingsWeb.ui:388
 msgid "API key"
 msgstr "Chave da API"
 
-#: ../data/SettingsWeb.ui:381
+#: ../data/SettingsWeb.ui:406
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -828,7 +819,7 @@ msgstr ""
 "<small>Você precisa ativar o 'API de pesquisa personalizada' e 'API do "
 "YouTube v3' para seu projeto</small>"
 
-#: ../data/SettingsWeb.ui:415
+#: ../data/SettingsWeb.ui:440
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -838,15 +829,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>A ativação desta reprodução na rede não "
 "está funcionando</span>"
 
-#: ../data/SettingsWeb.ui:450
+#: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
 msgstr "Use um servidor individual"
 
-#: ../data/SettingsWeb.ui:468
+#: ../data/SettingsWeb.ui:493
 msgid "No server set"
 msgstr "Nenhum servidor definido"
 
-#: ../data/SettingsWeb.ui:491
+#: ../data/SettingsWeb.ui:531
 msgid "Google"
 msgstr "Google"
 
@@ -1345,7 +1336,7 @@ msgstr "Mostrar texto"
 msgid "Options"
 msgstr "Opções"
 
-#: ../lollypop/menu_selectionlist.py:111
+#: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
 msgstr "Seções"
 
@@ -1505,27 +1496,27 @@ msgstr "A a O o As as Os os"
 msgid "Network not available"
 msgstr "Rede não disponível"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "Missing youtube-dl command"
 msgstr "Comando youtube-dl perdido"
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:63
 msgid "You need to enable Spotify "
 msgstr "Você precisa habilitar Spotify "
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:64
 msgid "and YouTube in network settings"
 msgstr "e Youtube nas configurações de rede"
 
-#: ../lollypop/view_albums_box.py:431
+#: ../lollypop/view_albums_box.py:435
 msgid "Others compilations"
 msgstr "Outras compilações"
 
-#: ../lollypop/view_albums_box.py:433
+#: ../lollypop/view_albums_box.py:437
 msgid "Others albums"
 msgstr "Outros álbuns"
 
-#: ../lollypop/view_albums_box.py:460
+#: ../lollypop/view_albums_box.py:464
 msgid "Popular albums at the moment"
 msgstr "Álbuns populares até o momento"
 
@@ -1575,11 +1566,11 @@ msgstr "Não conseguimos traduzir esta letra"
 msgid "No items to show"
 msgstr "Nenhum item para mostrar"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:135
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
 msgid "Search for artists, albums and tracks"
 msgstr "Pesquisar por artistas, álbuns e faixas"
 
-#: ../lollypop/view_search.py:231
+#: ../lollypop/view_search.py:229
 msgid "No results for this search"
 msgstr "Sem resultados nesta pesquisa"
 
@@ -1811,12 +1802,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d faixa"
 msgstr[1] "%d faixas"
 
-#: ../lollypop/widgets_settings_web.py:39
-#: ../lollypop/widgets_settings_web.py:41
-msgid "Disabled in network settings"
-msgstr "Desabilitado nas configurações de rede"
+#: ../lollypop/widgets_settings_web.py:38
+#: ../lollypop/widgets_settings_web.py:40
+msgid "You need to install pylast and gi secret"
+msgstr "Você precisa instalar o pylast e o gi secret"
 
-#: ../lollypop/widgets_settings_web.py:44
+#: ../lollypop/widgets_settings_web.py:45
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "usando ajustes da \"Conta Online Gnome\""
 
@@ -1827,6 +1818,18 @@ msgstr "banda"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "Cantor(a)"
+
+#~ msgid "Do not reload views on adaptive"
+#~ msgstr "Não recarregar as visualizações em adaptável"
+
+#~ msgid "Bugfixes"
+#~ msgstr "Correções de Bugs"
+
+#~ msgid "Clear queue"
+#~ msgstr "Limpar fila"
+
+#~ msgid "Queue"
+#~ msgstr "Fila"
 
 #~ msgid "Other albums"
 #~ msgstr "Outros álbuns"

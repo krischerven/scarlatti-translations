@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-21 14:54+0200\n"
+"POT-Creation-Date: 2019-09-28 00:56+0200\n"
 "PO-Revision-Date: 2019-06-19 13:01+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -360,14 +360,6 @@ msgstr ""
 msgid "Audio Scrobbling –"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr ""
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "音樂播放器"
@@ -425,7 +417,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "加入目前的播放清單"
 
-#: ../data/ArtistInformation.ui:60 ../lollypop/widgets_row_album.py:126
+#: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
 msgstr "前往演出者檢視"
 
@@ -499,14 +491,6 @@ msgstr "名稱："
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "儲存"
-
-#: ../data/QueuePopover.ui:22
-msgid "Clear queue"
-msgstr "清除佇列"
-
-#: ../data/QueuePopover.ui:45
-msgid "Queue"
-msgstr "佇列"
 
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
@@ -703,11 +687,17 @@ msgstr ""
 "AudioDB\n"
 "<span size=\"x-small\" alpha=\"70%\">演出者介紹、封面圖像搜尋…</span>"
 
-#: ../data/SettingsBehaviour.ui:860
+#: ../data/SettingsBehaviour.ui:836
+msgid ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:888
 msgid "Only in party mode"
 msgstr "只在派對模式"
 
-#: ../data/SettingsBehaviour.ui:910
+#: ../data/SettingsBehaviour.ui:938
 msgid "Transition duration in seconds"
 msgstr "切換間隔（秒）"
 
@@ -728,27 +718,28 @@ msgstr "移除 Lollypop 管理的裝置："
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
+#: ../data/SettingsWeb.ui:25 ../data/SettingsWeb.ui:144
 msgid "Login:"
 msgstr "登入："
 
-#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
+#: ../data/SettingsWeb.ui:38 ../data/SettingsWeb.ui:157
 msgid "Password:"
 msgstr "密碼："
 
-#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
+#: ../data/SettingsWeb.ui:74 ../data/SettingsWeb.ui:193
 msgid "Connect"
 msgstr "連接"
 
-#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
-msgid "You need to install pylast and gi secret"
-msgstr "您需要安裝 pylast 和 gi secrect"
+#: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
+#: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+msgid "Disabled in network settings"
+msgstr ""
 
-#: ../data/SettingsWeb.ui:237
+#: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:261
+#: ../data/SettingsWeb.ui:269
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -756,48 +747,48 @@ msgid ""
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:291
+#: ../data/SettingsWeb.ui:299
 msgid "User token"
 msgstr "使用者代符"
 
-#: ../data/SettingsWeb.ui:307
+#: ../data/SettingsWeb.ui:332
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:336
+#: ../data/SettingsWeb.ui:361
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:363
+#: ../data/SettingsWeb.ui:388
 msgid "API key"
 msgstr "API 金鑰"
 
-#: ../data/SettingsWeb.ui:381
+#: ../data/SettingsWeb.ui:406
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
 "<small>您需要啟用您專案的「Custom Search API」和「YouTube API v3」。</small>"
 
-#: ../data/SettingsWeb.ui:415
+#: ../data/SettingsWeb.ui:440
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:450
+#: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:468
+#: ../data/SettingsWeb.ui:493
 msgid "No server set"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:491
+#: ../data/SettingsWeb.ui:531
 msgid "Google"
 msgstr ""
 
@@ -1296,7 +1287,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../lollypop/menu_selectionlist.py:111
+#: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
 msgstr "區段"
 
@@ -1456,27 +1447,27 @@ msgstr "The the"
 msgid "Network not available"
 msgstr "無法使用網路"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "Missing youtube-dl command"
 msgstr "缺少 youtube-dl 指令"
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:63
 msgid "You need to enable Spotify "
 msgstr "您需要在網路設定中啟用 Spotify "
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:64
 msgid "and YouTube in network settings"
 msgstr "和 YouTube"
 
-#: ../lollypop/view_albums_box.py:431
+#: ../lollypop/view_albums_box.py:435
 msgid "Others compilations"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:433
+#: ../lollypop/view_albums_box.py:437
 msgid "Others albums"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:460
+#: ../lollypop/view_albums_box.py:464
 msgid "Popular albums at the moment"
 msgstr ""
 
@@ -1526,11 +1517,11 @@ msgstr "無法翻譯此歌詞"
 msgid "No items to show"
 msgstr "沒有可顯示的項目"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:135
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:231
+#: ../lollypop/view_search.py:229
 msgid "No results for this search"
 msgstr ""
 
@@ -1757,12 +1748,12 @@ msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d 首曲目"
 
-#: ../lollypop/widgets_settings_web.py:39
-#: ../lollypop/widgets_settings_web.py:41
-msgid "Disabled in network settings"
-msgstr ""
+#: ../lollypop/widgets_settings_web.py:38
+#: ../lollypop/widgets_settings_web.py:40
+msgid "You need to install pylast and gi secret"
+msgstr "您需要安裝 pylast 和 gi secrect"
 
-#: ../lollypop/widgets_settings_web.py:44
+#: ../lollypop/widgets_settings_web.py:45
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "使用「GNOME 線上帳號」設定"
 
@@ -1773,6 +1764,12 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Clear queue"
+#~ msgstr "清除佇列"
+
+#~ msgid "Queue"
+#~ msgstr "佇列"
 
 #~ msgid "Other albums"
 #~ msgstr "其他專輯"

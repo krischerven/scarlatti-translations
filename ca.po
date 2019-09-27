@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-21 14:54+0200\n"
+"POT-Creation-Date: 2019-09-28 00:56+0200\n"
 "PO-Revision-Date: 2019-09-25 05:41+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -395,14 +395,6 @@ msgstr "Sincronització –"
 msgid "Audio Scrobbling –"
 msgstr "Àudio Scrobbling –"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr "No tornis a carregar les vistes en mode adaptatiu"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr "Errors corregits"
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Reproductor musical"
@@ -460,7 +452,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
 
-#: ../data/ArtistInformation.ui:60 ../lollypop/widgets_row_album.py:126
+#: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
 msgstr "Vés a la vista de l'artista"
 
@@ -534,14 +526,6 @@ msgstr "Nom:"
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "Desa"
-
-#: ../data/QueuePopover.ui:22
-msgid "Clear queue"
-msgstr "Neteja la cua"
-
-#: ../data/QueuePopover.ui:45
-msgid "Queue"
-msgstr "Cua"
 
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
@@ -739,11 +723,17 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Biografies d'artistes, cerca de "
 "caràtules…</span>"
 
-#: ../data/SettingsBehaviour.ui:860
+#: ../data/SettingsBehaviour.ui:836
+msgid ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:888
 msgid "Only in party mode"
 msgstr "Només en mode festa"
 
-#: ../data/SettingsBehaviour.ui:910
+#: ../data/SettingsBehaviour.ui:938
 msgid "Transition duration in seconds"
 msgstr "Durada de la transició en segons"
 
@@ -764,27 +754,28 @@ msgstr "Suprimeix els dispositius gestionats pel Lollypop:"
 msgid "Preferences"
 msgstr "Configuració"
 
-#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
+#: ../data/SettingsWeb.ui:25 ../data/SettingsWeb.ui:144
 msgid "Login:"
 msgstr "Nom usuari:"
 
-#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
+#: ../data/SettingsWeb.ui:38 ../data/SettingsWeb.ui:157
 msgid "Password:"
 msgstr "Contrasenya:"
 
-#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
+#: ../data/SettingsWeb.ui:74 ../data/SettingsWeb.ui:193
 msgid "Connect"
 msgstr "Connecta"
 
-#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
-msgid "You need to install pylast and gi secret"
-msgstr "Heu d'instal·lar \"pylast\" i \"gi secret\""
+#: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
+#: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+msgid "Disabled in network settings"
+msgstr "Desactiva en la configuració de xarxa"
 
-#: ../data/SettingsWeb.ui:237
+#: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:261
+#: ../data/SettingsWeb.ui:269
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -797,15 +788,15 @@ msgstr ""
 "<a href=\"https://listenbrainz.org/profile/\">listenbrainz.org</a> trobareu "
 "el codi anomenat \"User token\"</small>"
 
-#: ../data/SettingsWeb.ui:291
+#: ../data/SettingsWeb.ui:299
 msgid "User token"
 msgstr "Identificador d'usuari"
 
-#: ../data/SettingsWeb.ui:307
+#: ../data/SettingsWeb.ui:332
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:336
+#: ../data/SettingsWeb.ui:361
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -815,11 +806,11 @@ msgstr ""
 "<small>En cas contrari, aviat arribareu a la quota per defecte…\n"
 "Lollypop la necessita per cercar imatges.</small>"
 
-#: ../data/SettingsWeb.ui:363
+#: ../data/SettingsWeb.ui:388
 msgid "API key"
 msgstr "Clau API"
 
-#: ../data/SettingsWeb.ui:381
+#: ../data/SettingsWeb.ui:406
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -827,7 +818,7 @@ msgstr ""
 "<small>Heu d'activar \"Custom Search API\" i \"YouTube API v3\" per al "
 "vostre projecte.</small>"
 
-#: ../data/SettingsWeb.ui:415
+#: ../data/SettingsWeb.ui:440
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -837,15 +828,15 @@ msgstr ""
 "<span size = \"small\" alpha = '40000'> Activeu això si la reproducció web "
 "no funciona </span>"
 
-#: ../data/SettingsWeb.ui:450
+#: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
 msgstr "Utilitza un servidor d'Invidious"
 
-#: ../data/SettingsWeb.ui:468
+#: ../data/SettingsWeb.ui:493
 msgid "No server set"
 msgstr "No s'ha definit cap servidor"
 
-#: ../data/SettingsWeb.ui:491
+#: ../data/SettingsWeb.ui:531
 msgid "Google"
 msgstr "Google"
 
@@ -1344,7 +1335,7 @@ msgstr "Mostra el text"
 msgid "Options"
 msgstr "Opcions"
 
-#: ../lollypop/menu_selectionlist.py:111
+#: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
 msgstr "Seccions"
 
@@ -1504,27 +1495,27 @@ msgstr "The the El el La la Els els Les les L' l' L’ l’"
 msgid "Network not available"
 msgstr "La xarxa no està disponible"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "Missing youtube-dl command"
 msgstr "Manca l'ordre youtube-dl"
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:63
 msgid "You need to enable Spotify "
 msgstr "Heu d'activar Spotify "
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:64
 msgid "and YouTube in network settings"
 msgstr "i YouTube als paràmetres de xarxa"
 
-#: ../lollypop/view_albums_box.py:431
+#: ../lollypop/view_albums_box.py:435
 msgid "Others compilations"
 msgstr "Altres compilacions"
 
-#: ../lollypop/view_albums_box.py:433
+#: ../lollypop/view_albums_box.py:437
 msgid "Others albums"
 msgstr "Altres àlbums"
 
-#: ../lollypop/view_albums_box.py:460
+#: ../lollypop/view_albums_box.py:464
 msgid "Popular albums at the moment"
 msgstr "Àlbums populars actualment"
 
@@ -1574,11 +1565,11 @@ msgstr "No es pot traduir aquesta lletra"
 msgid "No items to show"
 msgstr "No hi ha elements per mostrar"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:135
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
 msgid "Search for artists, albums and tracks"
 msgstr "Cerca artistes, àlbums i pistes"
 
-#: ../lollypop/view_search.py:231
+#: ../lollypop/view_search.py:229
 msgid "No results for this search"
 msgstr "No hi ha resultats per a aquesta cerca"
 
@@ -1810,12 +1801,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d pista"
 msgstr[1] "%d pistes"
 
-#: ../lollypop/widgets_settings_web.py:39
-#: ../lollypop/widgets_settings_web.py:41
-msgid "Disabled in network settings"
-msgstr "Desactiva en la configuració de xarxa"
+#: ../lollypop/widgets_settings_web.py:38
+#: ../lollypop/widgets_settings_web.py:40
+msgid "You need to install pylast and gi secret"
+msgstr "Heu d'instal·lar \"pylast\" i \"gi secret\""
 
-#: ../lollypop/widgets_settings_web.py:44
+#: ../lollypop/widgets_settings_web.py:45
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "S'estan utilitzant els paràmetres dels comptes en línia del GNOME"
 
@@ -1826,6 +1817,18 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "cantant"
+
+#~ msgid "Do not reload views on adaptive"
+#~ msgstr "No tornis a carregar les vistes en mode adaptatiu"
+
+#~ msgid "Bugfixes"
+#~ msgstr "Errors corregits"
+
+#~ msgid "Clear queue"
+#~ msgstr "Neteja la cua"
+
+#~ msgid "Queue"
+#~ msgstr "Cua"
 
 #~ msgid "Other albums"
 #~ msgstr "Altres àlbums"

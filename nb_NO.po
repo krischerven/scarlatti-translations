@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-21 14:54+0200\n"
+"POT-Creation-Date: 2019-09-28 00:56+0200\n"
 "PO-Revision-Date: 2019-09-20 23:27+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -388,14 +388,6 @@ msgstr "Synkronisering –"
 msgid "Audio Scrobbling –"
 msgstr "Lydskrobbling –"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr "Ikke last inn visninger igjen i tilpasningsmodus"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr "Feilrettinger"
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "Musikkavspiller"
@@ -453,7 +445,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Legg til i gjeldende spilleliste"
 
-#: ../data/ArtistInformation.ui:60 ../lollypop/widgets_row_album.py:126
+#: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
 msgstr "Gå til artistvisning"
 
@@ -527,14 +519,6 @@ msgstr "Navn:"
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "Lagre"
-
-#: ../data/QueuePopover.ui:22
-msgid "Clear queue"
-msgstr "Tøm kø"
-
-#: ../data/QueuePopover.ui:45
-msgid "Queue"
-msgstr "Kø"
 
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
@@ -739,11 +723,17 @@ msgstr ""
 "AudioDB\n"
 "<span size=\"x-small\" alpha=\"70%\">Artistbiografi, omslagssøk, …</span>"
 
-#: ../data/SettingsBehaviour.ui:860
+#: ../data/SettingsBehaviour.ui:836
+msgid ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:888
 msgid "Only in party mode"
 msgstr "Bare i festmodus"
 
-#: ../data/SettingsBehaviour.ui:910
+#: ../data/SettingsBehaviour.ui:938
 msgid "Transition duration in seconds"
 msgstr "Overgangsvarighet i sekunder"
 
@@ -764,27 +754,28 @@ msgstr "Fjern enheter håndtert av Lollypop:"
 msgid "Preferences"
 msgstr "Innstillinger"
 
-#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
+#: ../data/SettingsWeb.ui:25 ../data/SettingsWeb.ui:144
 msgid "Login:"
 msgstr "Innlogging:"
 
-#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
+#: ../data/SettingsWeb.ui:38 ../data/SettingsWeb.ui:157
 msgid "Password:"
 msgstr "Passord:"
 
-#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
+#: ../data/SettingsWeb.ui:74 ../data/SettingsWeb.ui:193
 msgid "Connect"
 msgstr "Koble til"
 
-#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
-msgid "You need to install pylast and gi secret"
-msgstr "Du må installere pylast og gi secret"
+#: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
+#: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+msgid "Disabled in network settings"
+msgstr "Avskrudd i nettverksinnstillinger"
 
-#: ../data/SettingsWeb.ui:237
+#: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:261
+#: ../data/SettingsWeb.ui:269
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -796,15 +787,15 @@ msgstr ""
 "ListenBrainz-brukersymbol nedenfor. Du kan se ditt brukersymbol i din <a "
 "href=\"https://listenbrainz.org/profile/\">brukerprofil</a>.</small>"
 
-#: ../data/SettingsWeb.ui:291
+#: ../data/SettingsWeb.ui:299
 msgid "User token"
 msgstr "Brukersymbol"
 
-#: ../data/SettingsWeb.ui:307
+#: ../data/SettingsWeb.ui:332
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:336
+#: ../data/SettingsWeb.ui:361
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -815,11 +806,11 @@ msgstr ""
 "Lollypop trenger dette for å søke etter omslag.\n"
 "</small>"
 
-#: ../data/SettingsWeb.ui:363
+#: ../data/SettingsWeb.ui:388
 msgid "API key"
 msgstr "API-nøkkel"
 
-#: ../data/SettingsWeb.ui:381
+#: ../data/SettingsWeb.ui:406
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -827,7 +818,7 @@ msgstr ""
 "<small>Du må skru på \"Egendefinert søke-API\" og \"YouTube-API v3\" for "
 "ditt prosjekt.</small>"
 
-#: ../data/SettingsWeb.ui:415
+#: ../data/SettingsWeb.ui:440
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -837,15 +828,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>Aktiver dette hvis vev-avspilling ikke "
 "virker</span>"
 
-#: ../data/SettingsWeb.ui:450
+#: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
 msgstr "Bruk en Invidious-tjener"
 
-#: ../data/SettingsWeb.ui:468
+#: ../data/SettingsWeb.ui:493
 msgid "No server set"
 msgstr "Ingen tjener satt"
 
-#: ../data/SettingsWeb.ui:491
+#: ../data/SettingsWeb.ui:531
 msgid "Google"
 msgstr "Google"
 
@@ -1349,7 +1340,7 @@ msgstr "Vis tekst"
 msgid "Options"
 msgstr "Valg"
 
-#: ../lollypop/menu_selectionlist.py:111
+#: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
 msgstr "Seksjoner"
 
@@ -1509,27 +1500,27 @@ msgstr "The the De de"
 msgid "Network not available"
 msgstr "Nettverk ikke tilgjengelig"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "Missing youtube-dl command"
 msgstr "Mangler youtube-dl -kommando"
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:63
 msgid "You need to enable Spotify "
 msgstr "Du må skru på Spotify "
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:64
 msgid "and YouTube in network settings"
 msgstr "og YouTube i nettverksinnstillingene"
 
-#: ../lollypop/view_albums_box.py:431
+#: ../lollypop/view_albums_box.py:435
 msgid "Others compilations"
 msgstr "Andre samlinger"
 
-#: ../lollypop/view_albums_box.py:433
+#: ../lollypop/view_albums_box.py:437
 msgid "Others albums"
 msgstr "Andre album"
 
-#: ../lollypop/view_albums_box.py:460
+#: ../lollypop/view_albums_box.py:464
 msgid "Popular albums at the moment"
 msgstr "Populære album for øyeblikket"
 
@@ -1580,11 +1571,11 @@ msgstr "Kan ikke oversette denne teksten"
 msgid "No items to show"
 msgstr "Ingen elementer å vise"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:135
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
 msgid "Search for artists, albums and tracks"
 msgstr "Søk etter artister, album, og spor"
 
-#: ../lollypop/view_search.py:231
+#: ../lollypop/view_search.py:229
 msgid "No results for this search"
 msgstr "Resultatløst søk"
 
@@ -1816,12 +1807,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d spor"
 msgstr[1] "%d spor"
 
-#: ../lollypop/widgets_settings_web.py:39
-#: ../lollypop/widgets_settings_web.py:41
-msgid "Disabled in network settings"
-msgstr "Avskrudd i nettverksinnstillinger"
+#: ../lollypop/widgets_settings_web.py:38
+#: ../lollypop/widgets_settings_web.py:40
+msgid "You need to install pylast and gi secret"
+msgstr "Du må installere pylast og gi secret"
 
-#: ../lollypop/widgets_settings_web.py:44
+#: ../lollypop/widgets_settings_web.py:45
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Bruk innstillinger fra \"GNOME nettbaserte kontoer\""
 
@@ -1832,6 +1823,18 @@ msgstr "band"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "sanger"
+
+#~ msgid "Do not reload views on adaptive"
+#~ msgstr "Ikke last inn visninger igjen i tilpasningsmodus"
+
+#~ msgid "Bugfixes"
+#~ msgstr "Feilrettinger"
+
+#~ msgid "Clear queue"
+#~ msgstr "Tøm kø"
+
+#~ msgid "Queue"
+#~ msgstr "Kø"
 
 #~ msgid "Other albums"
 #~ msgstr "Andre album"

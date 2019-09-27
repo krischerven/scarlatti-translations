@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-21 14:54+0200\n"
+"POT-Creation-Date: 2019-09-28 00:56+0200\n"
 "PO-Revision-Date: 2019-09-25 05:41+0000\n"
-"Last-Translator: YAMADA Shinichirou "
-"<yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
+"co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -388,14 +388,6 @@ msgstr "同期 –"
 msgid "Audio Scrobbling –"
 msgstr "オーディオの Scrobbling –"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
-msgid "Do not reload views on adaptive"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
-msgid "Bugfixes"
-msgstr "バグフィックス"
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "音楽プレーヤー"
@@ -453,7 +445,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "現在のプレイリストに追加"
 
-#: ../data/ArtistInformation.ui:60 ../lollypop/widgets_row_album.py:126
+#: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
 msgstr "アーティストビューへ移動"
 
@@ -527,14 +519,6 @@ msgstr "名前:"
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
 msgid "Save"
 msgstr "保存"
-
-#: ../data/QueuePopover.ui:22
-msgid "Clear queue"
-msgstr "キューをクリア"
-
-#: ../data/QueuePopover.ui:45
-msgid "Queue"
-msgstr "キュー"
 
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
@@ -733,11 +717,17 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">アーティスト情報, アートワークの検索, …"
 "</span>"
 
-#: ../data/SettingsBehaviour.ui:860
+#: ../data/SettingsBehaviour.ui:836
+msgid ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:888
 msgid "Only in party mode"
 msgstr "パーティーモードのみ"
 
-#: ../data/SettingsBehaviour.ui:910
+#: ../data/SettingsBehaviour.ui:938
 msgid "Transition duration in seconds"
 msgstr "遷移時間 (秒単位)"
 
@@ -758,27 +748,28 @@ msgstr "Lollypop が管理するデバイスの削除:"
 msgid "Preferences"
 msgstr "設定"
 
-#: ../data/SettingsWeb.ui:26 ../data/SettingsWeb.ui:141
+#: ../data/SettingsWeb.ui:25 ../data/SettingsWeb.ui:144
 msgid "Login:"
 msgstr "ログイン:"
 
-#: ../data/SettingsWeb.ui:39 ../data/SettingsWeb.ui:154
+#: ../data/SettingsWeb.ui:38 ../data/SettingsWeb.ui:157
 msgid "Password:"
 msgstr "パスワード:"
 
-#: ../data/SettingsWeb.ui:75 ../data/SettingsWeb.ui:190
+#: ../data/SettingsWeb.ui:74 ../data/SettingsWeb.ui:193
 msgid "Connect"
 msgstr "接続"
 
-#: ../data/SettingsWeb.ui:102 ../data/SettingsWeb.ui:217
-msgid "You need to install pylast and gi secret"
-msgstr "pylast と gi secret をインストールする必要があります"
+#: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
+#: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+msgid "Disabled in network settings"
+msgstr "ネットワーク設定で無効になっています"
 
-#: ../data/SettingsWeb.ui:237
+#: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:261
+#: ../data/SettingsWeb.ui:269
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -790,15 +781,15 @@ msgstr ""
 "を入力してください。ユーザートークンはあなたの<a href=\"https://listenbrainz."
 "org/profile/\">ユーザープロファイル</a>で確認できます。</small>"
 
-#: ../data/SettingsWeb.ui:291
+#: ../data/SettingsWeb.ui:299
 msgid "User token"
 msgstr "ユーザートークン"
 
-#: ../data/SettingsWeb.ui:307
+#: ../data/SettingsWeb.ui:332
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:336
+#: ../data/SettingsWeb.ui:361
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -808,11 +799,11 @@ msgstr ""
 "<small>API キーがない場合、すぐに規定の上限に達します…\n"
 "Lollypop はアートワークの検索に API キーを必要とします。</small>"
 
-#: ../data/SettingsWeb.ui:363
+#: ../data/SettingsWeb.ui:388
 msgid "API key"
 msgstr "API キー"
 
-#: ../data/SettingsWeb.ui:381
+#: ../data/SettingsWeb.ui:406
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -820,7 +811,7 @@ msgstr ""
 "<small>\"Custom Search API\" と \"YouTube API v3\" が有効である必要がありま"
 "す。</small>"
 
-#: ../data/SettingsWeb.ui:415
+#: ../data/SettingsWeb.ui:440
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -830,15 +821,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>ウェブ再生が動作しない場合は有効にしてくだ"
 "さい</span>"
 
-#: ../data/SettingsWeb.ui:450
+#: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
 msgstr "Invidious サーバーを使用"
 
-#: ../data/SettingsWeb.ui:468
+#: ../data/SettingsWeb.ui:493
 msgid "No server set"
 msgstr "サーバー設定なし"
 
-#: ../data/SettingsWeb.ui:491
+#: ../data/SettingsWeb.ui:531
 msgid "Google"
 msgstr "Google"
 
@@ -1337,7 +1328,7 @@ msgstr "テキストを表示"
 msgid "Options"
 msgstr "オプション"
 
-#: ../lollypop/menu_selectionlist.py:111
+#: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
 msgstr "セクション"
 
@@ -1497,27 +1488,27 @@ msgstr "The the"
 msgid "Network not available"
 msgstr "ネットワークが利用可能ではありません"
 
-#: ../lollypop/view_albums_box.py:57
+#: ../lollypop/view_albums_box.py:58
 msgid "Missing youtube-dl command"
 msgstr "youtube-dl コマンドがありません"
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:63
 msgid "You need to enable Spotify "
 msgstr "ネットワーク設定で Spotify と "
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:64
 msgid "and YouTube in network settings"
 msgstr "YouTube を有効にする必要があります"
 
-#: ../lollypop/view_albums_box.py:431
+#: ../lollypop/view_albums_box.py:435
 msgid "Others compilations"
 msgstr "その他のコンピレーション"
 
-#: ../lollypop/view_albums_box.py:433
+#: ../lollypop/view_albums_box.py:437
 msgid "Others albums"
 msgstr "その他のアルバム"
 
-#: ../lollypop/view_albums_box.py:460
+#: ../lollypop/view_albums_box.py:464
 msgid "Popular albums at the moment"
 msgstr "現時点で人気のアルバム"
 
@@ -1567,11 +1558,11 @@ msgstr "この歌詞を翻訳できません"
 msgid "No items to show"
 msgstr "表示するアイテムはありません"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:135
+#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
 msgid "Search for artists, albums and tracks"
 msgstr "アーティスト、アルバム、トラックを検索します"
 
-#: ../lollypop/view_search.py:231
+#: ../lollypop/view_search.py:229
 msgid "No results for this search"
 msgstr "見つかりません"
 
@@ -1800,12 +1791,12 @@ msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d トラック"
 
-#: ../lollypop/widgets_settings_web.py:39
-#: ../lollypop/widgets_settings_web.py:41
-msgid "Disabled in network settings"
-msgstr "ネットワーク設定で無効になっています"
+#: ../lollypop/widgets_settings_web.py:38
+#: ../lollypop/widgets_settings_web.py:40
+msgid "You need to install pylast and gi secret"
+msgstr "pylast と gi secret をインストールする必要があります"
 
-#: ../lollypop/widgets_settings_web.py:44
+#: ../lollypop/widgets_settings_web.py:45
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "\"GNOME オンラインアカウント\" の設定を使用しています"
 
@@ -1816,6 +1807,15 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Bugfixes"
+#~ msgstr "バグフィックス"
+
+#~ msgid "Clear queue"
+#~ msgstr "キューをクリア"
+
+#~ msgid "Queue"
+#~ msgstr "キュー"
 
 #~ msgid "Other albums"
 #~ msgstr "その他のアルバム"
