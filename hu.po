@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-28 00:56+0200\n"
+"POT-Creation-Date: 2019-10-08 09:01+0200\n"
 "PO-Revision-Date: 2018-09-08 15:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnumdk/"
@@ -464,7 +464,7 @@ msgstr "FLAC"
 msgid "Synchronized:"
 msgstr ""
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:39
+#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:41
 #: ../lollypop/shown.py:37
 msgid "Albums"
 msgstr "Albumok"
@@ -475,13 +475,13 @@ msgstr "Albumok"
 msgid "Playlists"
 msgstr "Lejátszási listák"
 
-#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:135
-#: ../lollypop/widgets_device.py:336
+#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:136
+#: ../lollypop/widgets_device.py:337
 msgid "Synchronize"
 msgstr ""
 
 #: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
-#: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:192
+#: ../lollypop/pop_tracks.py:71 ../lollypop/pop_tunein.py:192
 #: ../lollypop/view_tracks.py:388 ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Lejátszás"
@@ -533,7 +533,7 @@ msgstr "Év"
 msgid "Popularity"
 msgstr "Népszerűség"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:258 ../lollypop/menu_edit.py:77
 msgid "Clean cache"
 msgstr ""
 
@@ -561,9 +561,14 @@ msgstr ""
 msgid "Import playlists files present in collections"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:207 ../data/SettingsBehaviour.ui:221
+#: ../data/SettingsBehaviour.ui:207
 msgid "Save changes to files"
 msgstr "Változások mentése fájlba"
+
+#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:492
+#: ../lollypop/widgets_rating.py:205
+msgid "You need to install kid3-cli"
+msgstr "Telepítsd a kid3-cli-t"
 
 #: ../data/SettingsBehaviour.ui:250 ../data/SettingsBehaviour.ui:280
 msgid "Smooth transitions"
@@ -711,6 +716,7 @@ msgstr "Csatlakozás"
 
 #: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
 #: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+#: ../lollypop/widgets_settings_web.py:195
 msgid "Disabled in network settings"
 msgstr ""
 
@@ -837,72 +843,62 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Teljes képernyő"
 
-#: ../data/Shortcuts.ui:94
-msgctxt "shortcut window"
-msgid "Search in list one"
-msgstr ""
-
-#: ../data/Shortcuts.ui:101
-msgctxt "shortcut window"
-msgid "Search in list two"
-msgstr ""
-
-#: ../data/Shortcuts.ui:110
+#: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Lejátszás"
 
-#: ../data/Shortcuts.ui:114
+#: ../data/Shortcuts.ui:100
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "Lejátszás"
 
-#: ../data/Shortcuts.ui:121
+#: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "Szünet"
 
-#: ../data/Shortcuts.ui:128
+#: ../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "Megállítás"
 
-#: ../data/Shortcuts.ui:135
+#: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "Következő szám"
 
-#: ../data/Shortcuts.ui:142
+#: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "Előző szám"
 
-#: ../data/Shortcuts.ui:149
+#: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "Most játszott album kihagyása"
 
-#: ../data/Shortcuts.ui:156
+#: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "Most játszott szám hozzáadása a kedvencekhez"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Szám ismétlése"
 
-#: ../data/Shortcuts.ui:170
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Visszaugrás a számban"
 
-#: ../data/Shortcuts.ui:177
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Előreugrás a számban"
 
-#: ../data/Shortcuts.ui:184
+#: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr ""
@@ -1031,11 +1027,11 @@ msgstr "Vissza"
 msgid "Go home"
 msgstr "Vissza a főoldalra"
 
-#: ../lollypop/collectionscanner.py:487
+#: ../lollypop/collectionscanner.py:486
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:678 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1111,12 +1107,8 @@ msgstr ""
 msgid "Manage devices"
 msgstr ""
 
-#: ../lollypop/fullscreen.py:359
+#: ../lollypop/fullscreen.py:360
 msgid "You are using a broken cursor theme!"
-msgstr ""
-
-#: ../lollypop/helper_web.py:78
-msgid "Can't find this track on YouTube"
 msgstr ""
 
 #: ../lollypop/inhibitor.py:101
@@ -1133,11 +1125,11 @@ msgstr "Last.fm hitelesítés letiltva"
 msgid "Playback"
 msgstr "Lejátszás"
 
-#: ../lollypop/menu_artist.py:72
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:82
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr ""
 
@@ -1149,16 +1141,16 @@ msgstr ""
 msgid "Remove from collection"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:77
+#: ../lollypop/menu_edit.py:86
 msgid "Buy this album"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:89
+#: ../lollypop/menu_edit.py:98
 msgid "Modify information"
 msgstr "Információ szerkesztése"
 
-#: ../lollypop/menu_edit.py:98
-msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
+#: ../lollypop/menu_edit.py:184
+msgid "Please install Easytag or Kid3"
 msgstr ""
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
@@ -1240,7 +1232,7 @@ msgstr ""
 msgid "Remove this playlist?"
 msgstr ""
 
-#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:142
+#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:143
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -1248,7 +1240,7 @@ msgstr "Mégse"
 msgid "New playlist"
 msgstr "Új lejátszólista"
 
-#: ../lollypop/menu_radio.py:92
+#: ../lollypop/menu_radio.py:94
 msgid "New radio"
 msgstr "Új rádió"
 
@@ -1276,7 +1268,7 @@ msgstr ""
 msgid "Sections"
 msgstr ""
 
-#: ../lollypop/menu_similars.py:171
+#: ../lollypop/menu_similars.py:160
 msgid "No results"
 msgstr ""
 
@@ -1288,6 +1280,10 @@ msgstr ""
 msgid "Radio"
 msgstr ""
 
+#: ../lollypop/player_bin.py:301
+msgid "Can't find this track on YouTube"
+msgstr ""
+
 #: ../lollypop/playlists.py:92 ../lollypop/playlists.py:95
 msgid "New playlist "
 msgstr "Új lejátszólista "
@@ -1297,11 +1293,11 @@ msgstr "Új lejátszólista "
 msgid "Loved tracks"
 msgstr "Kedvelt számok"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:287
+#: ../lollypop/pop_tracks.py:151 ../lollypop/widgets_banner_artist.py:284
 msgid "Add to current playlist"
 msgstr "Hozzáadás a lejátszólistához"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:294
+#: ../lollypop/pop_tracks.py:157 ../lollypop/widgets_banner_artist.py:291
 msgid "Remove from current playlist"
 msgstr "Eltávolítás a lejátszólistáról"
 
@@ -1409,22 +1405,22 @@ msgstr ""
 msgid "All genres"
 msgstr "Összes műfaj"
 
-#: ../lollypop/utils.py:66
+#: ../lollypop/utils.py:67
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/utils.py:68
+#: ../lollypop/utils.py:69
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/utils.py:70
+#: ../lollypop/utils.py:71
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:363
+#: ../lollypop/utils.py:364
 msgid "The the"
 msgstr "The the A a Az a"
 
@@ -1444,32 +1440,28 @@ msgstr ""
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:435
+#: ../lollypop/view_albums_box.py:437
 msgid "Others compilations"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:437
-msgid "Others albums"
-msgstr ""
-
-#: ../lollypop/view_albums_box.py:464
+#: ../lollypop/view_albums_box.py:466
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:122
-#: ../lollypop/widgets_banner_artist.py:176
+#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/widgets_banner_artist.py:174
 msgid "Similar artists"
 msgstr "Hasonló előadó"
 
-#: ../lollypop/view_artists_rounded.py:286
+#: ../lollypop/view_artists_rounded.py:305
 msgid "Why not listen to?"
 msgstr ""
 
-#: ../lollypop/view_information.py:228
+#: ../lollypop/view_information.py:231
 msgid "Loading information"
 msgstr "Információk betöltése"
 
-#: ../lollypop/view_information.py:232
+#: ../lollypop/view_information.py:235
 #, python-format
 msgid "No information for %s"
 msgstr ""
@@ -1478,47 +1470,47 @@ msgstr ""
 msgid "No track playing"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:118 ../lollypop/view_lyrics.py:365
-msgid "No lyrics found "
-msgstr "Nem található dalszöveg "
-
-#: ../lollypop/view_lyrics.py:121
+#: ../lollypop/view_lyrics.py:120
 msgid "Loading…"
 msgstr "Betöltés…"
 
-#: ../lollypop/view_lyrics.py:156
-msgid "You have disabled lyrics search in network settings !"
-msgstr ""
-
-#: ../lollypop/view_lyrics.py:239
+#: ../lollypop/view_lyrics.py:233
 msgid "You need to install python3-textblob module"
 msgstr ""
 
-#: ../lollypop/view_lyrics.py:244
+#: ../lollypop/view_lyrics.py:238
 msgid "Can't translate this lyrics"
 msgstr ""
+
+#: ../lollypop/view_lyrics.py:276
+msgid "You have disabled lyrics search in network settings !"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:279
+msgid "No lyrics found "
+msgstr "Nem található dalszöveg "
 
 #: ../lollypop/view.py:47
 msgid "No items to show"
 msgstr ""
 
-#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
+#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:126
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:229
+#: ../lollypop/view_search.py:216
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:66
+#: ../lollypop/view_suggestions.py:65
 msgid "You might like this"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:69
 msgid "New albums from Spotify"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:128
+#: ../lollypop/view_suggestions.py:127
 msgid "Welcome on Lollypop"
 msgstr ""
 
@@ -1533,15 +1525,15 @@ msgstr ""
 msgid "Disc %s"
 msgstr "%s. lemez"
 
-#: ../lollypop/widgets_artwork_album.py:83
+#: ../lollypop/widgets_artwork_album.py:85
 msgid "Local"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:140
+#: ../lollypop/widgets_artwork.py:141
 msgid "Select artwork"
 msgstr "Grafika kiválasztása"
 
-#: ../lollypop/widgets_artwork.py:181
+#: ../lollypop/widgets_artwork.py:182
 msgid "Remove"
 msgstr "Eltávolítás"
 
@@ -1553,15 +1545,15 @@ msgstr "Albumok törlése a listáról"
 msgid "Go to current track"
 msgstr "Ugorj a most játszottra"
 
-#: ../lollypop/widgets_banner_today.py:67
+#: ../lollypop/widgets_banner_today.py:69
 msgid "<b>Album of the day</b>\n"
 msgstr ""
 
-#: ../lollypop/widgets_device.py:117
+#: ../lollypop/widgets_device.py:118
 msgid "No synchronized albums"
 msgstr ""
 
-#: ../lollypop/widgets_device.py:128
+#: ../lollypop/widgets_device.py:129
 msgid "No synchronized playlists"
 msgstr ""
 
@@ -1707,13 +1699,9 @@ msgstr "A szám %s alkalommal lett lejátszva"
 msgid "Compilation"
 msgstr "Összeállítás"
 
-#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:112
+#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr ""
-
-#: ../lollypop/widgets_settings_behaviour.py:222
-msgid "You need to install kid3-cli"
-msgstr "Telepítsd a kid3-cli-t"
 
 #: ../lollypop/widgets_settings_collections.py:129
 #, python-format
@@ -1736,12 +1724,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d szám"
 msgstr[1] "%d szám"
 
-#: ../lollypop/widgets_settings_web.py:38
-#: ../lollypop/widgets_settings_web.py:40
+#: ../lollypop/widgets_settings_web.py:47
+#: ../lollypop/widgets_settings_web.py:49
 msgid "You need to install pylast and gi secret"
 msgstr "Telepítsd a \"pylast\" és a \"gi secret\" csomagot"
 
-#: ../lollypop/widgets_settings_web.py:45
+#: ../lollypop/widgets_settings_web.py:199
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "A „GNOME Online fiókok” beállításainak használata"
 

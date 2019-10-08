@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-28 00:56+0200\n"
+"POT-Creation-Date: 2019-10-08 09:01+0200\n"
 "PO-Revision-Date: 2019-09-29 12:56+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -487,7 +487,7 @@ msgstr "FLAC"
 msgid "Synchronized:"
 msgstr "Synchronisé :"
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:39
+#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:41
 #: ../lollypop/shown.py:37
 msgid "Albums"
 msgstr "Albums"
@@ -498,13 +498,13 @@ msgstr "Albums"
 msgid "Playlists"
 msgstr "Listes de lecture"
 
-#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:135
-#: ../lollypop/widgets_device.py:336
+#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:136
+#: ../lollypop/widgets_device.py:337
 msgid "Synchronize"
 msgstr "Synchroniser"
 
 #: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
-#: ../lollypop/pop_tracks.py:70 ../lollypop/pop_tunein.py:192
+#: ../lollypop/pop_tracks.py:71 ../lollypop/pop_tunein.py:192
 #: ../lollypop/view_tracks.py:388 ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Lire"
@@ -556,7 +556,7 @@ msgstr "Année"
 msgid "Popularity"
 msgstr "Popularité"
 
-#: ../data/SettingsAppearance.ui:258
+#: ../data/SettingsAppearance.ui:258 ../lollypop/menu_edit.py:77
 msgid "Clean cache"
 msgstr "Nettoyer le cache"
 
@@ -584,9 +584,14 @@ msgstr "Importer les listes de lecture"
 msgid "Import playlists files present in collections"
 msgstr "Importer les listes de lecture présentes dans les collections"
 
-#: ../data/SettingsBehaviour.ui:207 ../data/SettingsBehaviour.ui:221
+#: ../data/SettingsBehaviour.ui:207
 msgid "Save changes to files"
 msgstr "Sauvegarder les modifications dans les fichiers"
+
+#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:492
+#: ../lollypop/widgets_rating.py:205
+msgid "You need to install kid3-cli"
+msgstr "Vous devez installer kid3-cli"
 
 #: ../data/SettingsBehaviour.ui:250 ../data/SettingsBehaviour.ui:280
 msgid "Smooth transitions"
@@ -767,6 +772,7 @@ msgstr "Connexion"
 
 #: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
 #: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
+#: ../lollypop/widgets_settings_web.py:195
 msgid "Disabled in network settings"
 msgstr "Désactivé dans les paramètres réseau"
 
@@ -900,72 +906,62 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Plein écran"
 
-#: ../data/Shortcuts.ui:94
-msgctxt "shortcut window"
-msgid "Search in list one"
-msgstr "Rechercher dans la liste une"
-
-#: ../data/Shortcuts.ui:101
-msgctxt "shortcut window"
-msgid "Search in list two"
-msgstr "Rechercher dans la liste deux"
-
-#: ../data/Shortcuts.ui:110
+#: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Lecture"
 
-#: ../data/Shortcuts.ui:114
+#: ../data/Shortcuts.ui:100
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "Lire"
 
-#: ../data/Shortcuts.ui:121
+#: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "Pause"
 
-#: ../data/Shortcuts.ui:128
+#: ../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "Stop"
 
-#: ../data/Shortcuts.ui:135
+#: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "Morceau suivant"
 
-#: ../data/Shortcuts.ui:142
+#: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "Morceau précédent"
 
-#: ../data/Shortcuts.ui:149
+#: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "Saute l'album courant"
 
-#: ../data/Shortcuts.ui:156
+#: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "Aimer le morceau en cours"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Répéter le morceau"
 
-#: ../data/Shortcuts.ui:170
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Recule dans le morceau"
 
-#: ../data/Shortcuts.ui:177
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Avance dans le morceau"
 
-#: ../data/Shortcuts.ui:184
+#: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "Activer/Désactiver le scrobbler"
@@ -1094,11 +1090,11 @@ msgstr "Aller en arrière"
 msgid "Go home"
 msgstr "Aller à l'accueil"
 
-#: ../lollypop/collectionscanner.py:487
+#: ../lollypop/collectionscanner.py:486
 msgid "Scan disabled, missing collection"
 msgstr "Scan désactivé, collection manquante"
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:678 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1174,13 +1170,9 @@ msgstr "Périphériques"
 msgid "Manage devices"
 msgstr "Gérer les périphériques"
 
-#: ../lollypop/fullscreen.py:359
+#: ../lollypop/fullscreen.py:360
 msgid "You are using a broken cursor theme!"
 msgstr "Vous utilisez un thème de curseur cassé !"
-
-#: ../lollypop/helper_web.py:78
-msgid "Can't find this track on YouTube"
-msgstr "Impossible de trouver ce titre sur YouTube"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
@@ -1196,11 +1188,11 @@ msgstr "Authentification Last.fm désactivée"
 msgid "Playback"
 msgstr "Lecture"
 
-#: ../lollypop/menu_artist.py:72
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr "Albums disponibles"
 
-#: ../lollypop/menu_artist.py:82
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr "Albums sur le Web"
 
@@ -1212,17 +1204,17 @@ msgstr "Enregistrer dans la collection"
 msgid "Remove from collection"
 msgstr "Supprimer de la collection"
 
-#: ../lollypop/menu_edit.py:77
+#: ../lollypop/menu_edit.py:86
 msgid "Buy this album"
 msgstr "Acheter cet album"
 
-#: ../lollypop/menu_edit.py:89
+#: ../lollypop/menu_edit.py:98
 msgid "Modify information"
 msgstr "Modifier les informations"
 
-#: ../lollypop/menu_edit.py:98
-msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
-msgstr "Veuillez installer <i>easytag</i> ou <i>kid3-qt</i>"
+#: ../lollypop/menu_edit.py:184
+msgid "Please install Easytag or Kid3"
+msgstr ""
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
 #: ../lollypop/menu_objects.py:74 ../lollypop/menu_objects.py:97
@@ -1303,7 +1295,7 @@ msgstr "Supprimer la liste de lecture"
 msgid "Remove this playlist?"
 msgstr "Supprimer la liste de lecture ?"
 
-#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:142
+#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:143
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -1311,7 +1303,7 @@ msgstr "Annuler"
 msgid "New playlist"
 msgstr "Nouvelle liste de lecture"
 
-#: ../lollypop/menu_radio.py:92
+#: ../lollypop/menu_radio.py:94
 msgid "New radio"
 msgstr "Nouvelle radio"
 
@@ -1339,7 +1331,7 @@ msgstr "Options"
 msgid "Sections"
 msgstr "Sections"
 
-#: ../lollypop/menu_similars.py:171
+#: ../lollypop/menu_similars.py:160
 msgid "No results"
 msgstr "Pas de résultats"
 
@@ -1351,6 +1343,10 @@ msgstr "Tous les périphériques"
 msgid "Radio"
 msgstr "Radio"
 
+#: ../lollypop/player_bin.py:301
+msgid "Can't find this track on YouTube"
+msgstr "Impossible de trouver ce titre sur YouTube"
+
 #: ../lollypop/playlists.py:92 ../lollypop/playlists.py:95
 msgid "New playlist "
 msgstr "Nouvelle liste de lecture "
@@ -1360,11 +1356,11 @@ msgstr "Nouvelle liste de lecture "
 msgid "Loved tracks"
 msgstr "Morceaux favoris"
 
-#: ../lollypop/pop_tracks.py:150 ../lollypop/widgets_banner_artist.py:287
+#: ../lollypop/pop_tracks.py:151 ../lollypop/widgets_banner_artist.py:284
 msgid "Add to current playlist"
 msgstr "Ajouter à la liste de lecture courante"
 
-#: ../lollypop/pop_tracks.py:156 ../lollypop/widgets_banner_artist.py:294
+#: ../lollypop/pop_tracks.py:157 ../lollypop/widgets_banner_artist.py:291
 msgid "Remove from current playlist"
 msgstr "Enlever de la liste de lecture courante"
 
@@ -1472,22 +1468,22 @@ msgstr "Tous les morceaux"
 msgid "All genres"
 msgstr "Tous les genres"
 
-#: ../lollypop/utils.py:66
+#: ../lollypop/utils.py:67
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/utils.py:68
+#: ../lollypop/utils.py:69
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/utils.py:70
+#: ../lollypop/utils.py:71
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:363
+#: ../lollypop/utils.py:364
 msgid "The the"
 msgstr "The the La la Le le Les les"
 
@@ -1507,32 +1503,28 @@ msgstr "Vous devez activer Spotify "
 msgid "and YouTube in network settings"
 msgstr "et YouTube dans les paramètres réseau"
 
-#: ../lollypop/view_albums_box.py:435
+#: ../lollypop/view_albums_box.py:437
 msgid "Others compilations"
 msgstr "Autres compilations"
 
-#: ../lollypop/view_albums_box.py:437
-msgid "Others albums"
-msgstr "Autres albums"
-
-#: ../lollypop/view_albums_box.py:464
+#: ../lollypop/view_albums_box.py:466
 msgid "Popular albums at the moment"
 msgstr "Albums populaires en ce moment"
 
-#: ../lollypop/view_artists_rounded.py:122
-#: ../lollypop/widgets_banner_artist.py:176
+#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/widgets_banner_artist.py:174
 msgid "Similar artists"
 msgstr "Artistes similaires"
 
-#: ../lollypop/view_artists_rounded.py:286
+#: ../lollypop/view_artists_rounded.py:305
 msgid "Why not listen to?"
 msgstr "Pourquoi ne pas écouter ceci ?"
 
-#: ../lollypop/view_information.py:228
+#: ../lollypop/view_information.py:231
 msgid "Loading information"
 msgstr "Chargement des informations"
 
-#: ../lollypop/view_information.py:232
+#: ../lollypop/view_information.py:235
 #, python-format
 msgid "No information for %s"
 msgstr "Pas d'informations pour %s"
@@ -1541,48 +1533,48 @@ msgstr "Pas d'informations pour %s"
 msgid "No track playing"
 msgstr "Aucun morceau en cours de lecture"
 
-#: ../lollypop/view_lyrics.py:118 ../lollypop/view_lyrics.py:365
-msgid "No lyrics found "
-msgstr "Pas de paroles trouvées "
-
-#: ../lollypop/view_lyrics.py:121
+#: ../lollypop/view_lyrics.py:120
 msgid "Loading…"
 msgstr "Chargement…"
 
-#: ../lollypop/view_lyrics.py:156
+#: ../lollypop/view_lyrics.py:233
+msgid "You need to install python3-textblob module"
+msgstr "Vous devez installer le module python3-textblob"
+
+#: ../lollypop/view_lyrics.py:238
+msgid "Can't translate this lyrics"
+msgstr "Impossible de traduire les paroles"
+
+#: ../lollypop/view_lyrics.py:276
 msgid "You have disabled lyrics search in network settings !"
 msgstr ""
 "Vous avez désactivé la recherche de paroles dans les paramètres réseau !"
 
-#: ../lollypop/view_lyrics.py:239
-msgid "You need to install python3-textblob module"
-msgstr "Vous devez installer le module python3-textblob"
-
-#: ../lollypop/view_lyrics.py:244
-msgid "Can't translate this lyrics"
-msgstr "Impossible de traduire les paroles"
+#: ../lollypop/view_lyrics.py:279
+msgid "No lyrics found "
+msgstr "Pas de paroles trouvées "
 
 #: ../lollypop/view.py:47
 msgid "No items to show"
 msgstr "Aucun élément à afficher"
 
-#: ../lollypop/view_search.py:44 ../lollypop/view_search.py:133
+#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:126
 msgid "Search for artists, albums and tracks"
 msgstr "Rechercher des artistes, des albums et des morceaux"
 
-#: ../lollypop/view_search.py:229
+#: ../lollypop/view_search.py:216
 msgid "No results for this search"
 msgstr "Aucun résultat pour cette recherche"
 
-#: ../lollypop/view_suggestions.py:66
+#: ../lollypop/view_suggestions.py:65
 msgid "You might like this"
 msgstr "Vous pourriez aimer ceci"
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:69
 msgid "New albums from Spotify"
 msgstr "Nouveaux albums sur Spotify"
 
-#: ../lollypop/view_suggestions.py:128
+#: ../lollypop/view_suggestions.py:127
 msgid "Welcome on Lollypop"
 msgstr "Bienvenue sur Lollypop"
 
@@ -1599,15 +1591,15 @@ msgstr ""
 msgid "Disc %s"
 msgstr "Disque %s"
 
-#: ../lollypop/widgets_artwork_album.py:83
+#: ../lollypop/widgets_artwork_album.py:85
 msgid "Local"
 msgstr "Local"
 
-#: ../lollypop/widgets_artwork.py:140
+#: ../lollypop/widgets_artwork.py:141
 msgid "Select artwork"
 msgstr "Choisissez une image"
 
-#: ../lollypop/widgets_artwork.py:181
+#: ../lollypop/widgets_artwork.py:182
 msgid "Remove"
 msgstr "Enlever"
 
@@ -1619,15 +1611,15 @@ msgstr "Vider la liste des albums"
 msgid "Go to current track"
 msgstr "Aller au morceau courant"
 
-#: ../lollypop/widgets_banner_today.py:67
+#: ../lollypop/widgets_banner_today.py:69
 msgid "<b>Album of the day</b>\n"
 msgstr "<b>Album du jour</b>\n"
 
-#: ../lollypop/widgets_device.py:117
+#: ../lollypop/widgets_device.py:118
 msgid "No synchronized albums"
 msgstr "Pas d'albums synchronisés"
 
-#: ../lollypop/widgets_device.py:128
+#: ../lollypop/widgets_device.py:129
 msgid "No synchronized playlists"
 msgstr "Pas de listes de lecture synchronisées"
 
@@ -1773,13 +1765,9 @@ msgstr "Morceau joué %s fois"
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:112
+#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Supprimer de la liste de lecture"
-
-#: ../lollypop/widgets_settings_behaviour.py:222
-msgid "You need to install kid3-cli"
-msgstr "Vous devez installer kid3-cli"
 
 #: ../lollypop/widgets_settings_collections.py:129
 #, python-format
@@ -1802,12 +1790,12 @@ msgid_plural "%d tracks"
 msgstr[0] "%d morceau"
 msgstr[1] "%d morceaux"
 
-#: ../lollypop/widgets_settings_web.py:38
-#: ../lollypop/widgets_settings_web.py:40
+#: ../lollypop/widgets_settings_web.py:47
+#: ../lollypop/widgets_settings_web.py:49
 msgid "You need to install pylast and gi secret"
 msgstr "Vous devez installer pylast et gi secret"
 
-#: ../lollypop/widgets_settings_web.py:45
+#: ../lollypop/widgets_settings_web.py:199
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Utilise les paramètres de «Comptes en ligne»"
 
@@ -1818,6 +1806,20 @@ msgstr "groupe"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "chanteur"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search in list one"
+#~ msgstr "Rechercher dans la liste une"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search in list two"
+#~ msgstr "Rechercher dans la liste deux"
+
+#~ msgid "Please install <i>easytag</i> or <i>kid3-qt</i>"
+#~ msgstr "Veuillez installer <i>easytag</i> ou <i>kid3-qt</i>"
+
+#~ msgid "Others albums"
+#~ msgstr "Autres albums"
 
 #~ msgid "Do not reload views on adaptive"
 #~ msgstr "Ne rechargez pas les vues sur l'adaptatif"
