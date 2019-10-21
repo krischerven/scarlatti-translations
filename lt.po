@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-08 09:01+0200\n"
+"POT-Creation-Date: 2019-10-21 15:42+0200\n"
 "PO-Revision-Date: 2019-09-04 05:24+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -43,12 +43,12 @@ msgstr "Lango vieta (x ir y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:64
 #: ../data/org.gnome.Lollypop.gschema.xml:89
-#: ../data/org.gnome.Lollypop.gschema.xml:234
-#: ../data/org.gnome.Lollypop.gschema.xml:243
+#: ../data/org.gnome.Lollypop.gschema.xml:239
 #: ../data/org.gnome.Lollypop.gschema.xml:248
-#: ../data/org.gnome.Lollypop.gschema.xml:268
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 #: ../data/org.gnome.Lollypop.gschema.xml:273
 #: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "INTERNAL"
 msgstr "VIDINĖ"
 
@@ -129,7 +129,7 @@ msgid "Favorite cover file"
 msgstr "Mėgstamas viršelio failas"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:135
-#: ../data/org.gnome.Lollypop.gschema.xml:225
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Restart needed"
 msgstr "Reikalingas paleidimas iš naujo"
 
@@ -169,126 +169,130 @@ msgstr "Automatiškai atnaujinti muziką"
 msgid "Show performers"
 msgstr "Rodyti atlikėjus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:169
+msgid "Show tracks in artist view"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:174 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Rodyti atlikėjo iliustraciją"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Use dark GTK theme"
 msgstr "Naudoti tamsią GTK temą"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179
+#: ../data/org.gnome.Lollypop.gschema.xml:184
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Išjungti kliento pusės lango dekoracijų naudojimą (antraštės juostą)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Disable scrobbling usage"
 msgstr "Išjungti \"scrobble\" paslaugos naudojimą"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189
+#: ../data/org.gnome.Lollypop.gschema.xml:194
 msgid "Handle compilations"
 msgstr "Apdoroti rinkinius"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Rodyti albumų rodinyje rinkinius"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:204 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "Užvėrus, tęsti muzikos grojimą"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Append albums by default"
 msgstr "Pagal numatymą, pridėti albumus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Smart sort for artist"
 msgstr "Išmanusis atlikėjo rikiavimas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Pvz., The Beatles rikiuojami kaip Beatles. Reikalingas duomenų bazės "
 "atstatymas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Rodyti rikiavimo žymę kaip atlikėją. Gali būti reikalingas duomenų bazės "
 "atstatymas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:215
+#: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Ex: Beatles, The"
 msgstr "Pvz.: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Restore previous state"
 msgstr "Atkurti ankstesnę būseną"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Disable MPRIS"
 msgstr "Išjungti MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:229
+#: ../data/org.gnome.Lollypop.gschema.xml:234
 msgid "Notifications behaviour"
 msgstr "Pranešimų elgsena"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:238
+#: ../data/org.gnome.Lollypop.gschema.xml:243
 msgid "Show track number from tags"
 msgstr "Rodyti takelių numerius iš žymių"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "JPG cover quality"
 msgstr "JPG viršelio kokybė"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:254
+#: ../data/org.gnome.Lollypop.gschema.xml:259
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "Force single column mode"
 msgstr "Priverstinai naudoti vieno stulpelio veikseną"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:268
 msgid "Equalizer enabled"
 msgstr "Glodintuvas įjungtas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Smooth track transitions"
 msgstr "Glotnūs takelių perėjimai"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Show labels in sidebar"
 msgstr "Rodyti etiketes šoninėje juostoje"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Only mix songs in party mode"
 msgstr "Naudoti perėjimą tik vakarėlio veiksenoje"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Smoothing duration"
 msgstr "Glotninimo trukmė"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:308 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Maišyti takelius"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Possibilities for powermanagement options"
 msgstr "Energijos valdymo parametrų galimybės"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:309
+#: ../data/org.gnome.Lollypop.gschema.xml:314
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Šis parametras Lollypop grojimo metu nuslopina ir pristabdo ekrano užsklandą."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Repeat"
 msgstr "Kartoti"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:323 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Rikiuoti albumus pagal"
 
@@ -500,7 +504,7 @@ msgid "Name:"
 msgstr "Pavadinimas:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:116
 msgid "Save"
 msgstr "Įrašyti"
 
@@ -508,8 +512,7 @@ msgstr "Įrašyti"
 msgid "Address:"
 msgstr "Adresas:"
 
-#: ../data/SearchBannerWidget.ui:88
-#: ../lollypop/widgets_banner_current_albums.py:48
+#: ../data/SearchBannerWidget.ui:88 ../lollypop/menu_playback.py:38
 msgid "Create a new playlist"
 msgstr "Sukurti naują grojaraštį"
 
@@ -570,7 +573,7 @@ msgstr "Importuoti kolekcijose esančius grojaraščio failus"
 msgid "Save changes to files"
 msgstr "Įrašyti pakeitimus į failus"
 
-#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:492
+#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:512
 #: ../lollypop/widgets_rating.py:205
 msgid "You need to install kid3-cli"
 msgstr "Jums reikia įdiegti kid3-cli"
@@ -721,7 +724,7 @@ msgstr "Tik vakarėlio veiksenoje"
 msgid "Transition duration in seconds"
 msgstr "Perėjimo trukmė, sekundėmis"
 
-#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:81
+#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:91
 msgid "Confirm"
 msgstr "Patvirtinti"
 
@@ -1067,11 +1070,11 @@ msgstr "Grįžti atgal"
 msgid "Go home"
 msgstr "Grįžti į pradžią"
 
-#: ../lollypop/collectionscanner.py:486
+#: ../lollypop/collectionscanner.py:481
 msgid "Scan disabled, missing collection"
 msgstr "Peržiūra išjungta, trūksta kolekcijos"
 
-#: ../lollypop/collectionscanner.py:678 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1138,7 +1141,7 @@ msgid "Configure Web services"
 msgstr "Konfigūruoti saityno paslaugas"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
-#: ../lollypop/menu_objects.py:54 ../lollypop/menu_playlist.py:56
+#: ../lollypop/menu_objects.py:54 ../lollypop/menu_playlist.py:66
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Įrenginiai"
@@ -1161,19 +1164,23 @@ msgstr "Last.fm tapatybės nustatymas išjungtas"
 
 #: ../lollypop/menu_artist.py:38 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
-#: ../lollypop/menu_objects.py:93 ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_objects.py:93
 msgid "Playback"
 msgstr "Grojimas"
 
-#: ../lollypop/menu_artist.py:73
+#: ../lollypop/menu_artist.py:76
+msgid "Show tracks"
+msgstr ""
+
+#: ../lollypop/menu_artist.py:83
 msgid "Available albums"
 msgstr "Prieinami albumai"
 
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:93
 msgid "Albums on the Web"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:121
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
 msgid "Save in collection"
 msgstr "Įrašyti į kolekciją"
 
@@ -1195,12 +1202,12 @@ msgstr ""
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
 #: ../lollypop/menu_objects.py:74 ../lollypop/menu_objects.py:97
-#: ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_playlist.py:64
 msgid "Add to"
 msgstr "Pridėti į"
 
 #: ../lollypop/menu_objects.py:57 ../lollypop/menu_objects.py:75
-#: ../lollypop/menu_objects.py:98 ../lollypop/menu_playlist.py:58
+#: ../lollypop/menu_objects.py:98 ../lollypop/menu_playlist.py:68
 msgid "Edit"
 msgstr "Redaguoti"
 
@@ -1212,51 +1219,60 @@ msgstr "%Y %m %d"
 msgid "YouTube page address"
 msgstr "YouTube puslapio adresas"
 
-#: ../lollypop/menu_playback.py:55
+#: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
+msgid "Show tracks number"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:48 ../lollypop/shown.py:41
+#: ../lollypop/widgets_banner_current_albums.py:62
+msgid "Playing albums"
+msgstr "Grojami albumai"
+
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
 msgid "Add to playback"
 msgstr "Pridėti į grojimą"
 
-#: ../lollypop/menu_playback.py:62
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
 msgid "Remove from playback"
 msgstr "Šalinti iš grojimo"
 
-#: ../lollypop/menu_playback.py:82
+#: ../lollypop/menu_playback.py:138
 msgid "Play this playlist"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:123
+#: ../lollypop/menu_playback.py:179
 msgid "Play this artist"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:187
+#: ../lollypop/menu_playback.py:243
 msgid "Play this genre"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:266
+#: ../lollypop/menu_playback.py:317
 msgid "Play this decade"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:347
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:473
+#: ../lollypop/menu_playback.py:517
 msgid "Add to queue"
 msgstr "Pridėti į eilę"
 
-#: ../lollypop/menu_playback.py:479
+#: ../lollypop/menu_playback.py:523
 msgid "Remove from queue"
 msgstr "Šalinti iš eilės"
 
-#: ../lollypop/menu_playback.py:490
+#: ../lollypop/menu_playback.py:534
 msgid "Do not stop after"
 msgstr "Nestabdyti po"
 
-#: ../lollypop/menu_playback.py:495
+#: ../lollypop/menu_playback.py:539
 msgid "Stop after"
 msgstr "Stabdyti po"
 
-#: ../lollypop/menu_playlist.py:42 ../lollypop/menu_playlist.py:93
+#: ../lollypop/menu_playlist.py:42 ../lollypop/menu_playlist.py:113
 msgid "Save playlist"
 msgstr "Įrašyti grojaraštį"
 
@@ -1268,11 +1284,15 @@ msgstr "Tvarkyti išmanųjį grojaraštį"
 msgid "Remove playlist"
 msgstr "Šalinti grojaraštį"
 
-#: ../lollypop/menu_playlist.py:80
+#: ../lollypop/menu_playlist.py:62
+msgid "Playlist"
+msgstr ""
+
+#: ../lollypop/menu_playlist.py:90
 msgid "Remove this playlist?"
 msgstr "Šalinti šį grojaraštį?"
 
-#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:143
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:143
 msgid "Cancel"
 msgstr "Atsisakyti"
 
@@ -1308,7 +1328,7 @@ msgstr "Parametrai"
 msgid "Sections"
 msgstr "Sekcijos"
 
-#: ../lollypop/menu_similars.py:160
+#: ../lollypop/menu_similars.py:163
 msgid "No results"
 msgstr "Rezultatų nėra"
 
@@ -1320,7 +1340,7 @@ msgstr "Visi įrenginiai"
 msgid "Radio"
 msgstr "Radijas"
 
-#: ../lollypop/player_bin.py:301
+#: ../lollypop/player_bin.py:306
 msgid "Can't find this track on YouTube"
 msgstr ""
 
@@ -1333,11 +1353,11 @@ msgstr "Naujas grojaraštis "
 msgid "Loved tracks"
 msgstr "Pamėgti takeliai"
 
-#: ../lollypop/pop_tracks.py:151 ../lollypop/widgets_banner_artist.py:284
+#: ../lollypop/pop_tracks.py:151 ../lollypop/widgets_banner_artist.py:285
 msgid "Add to current playlist"
 msgstr "Pridėti į esamą grojaraštį"
 
-#: ../lollypop/pop_tracks.py:157 ../lollypop/widgets_banner_artist.py:291
+#: ../lollypop/pop_tracks.py:157 ../lollypop/widgets_banner_artist.py:292
 msgid "Remove from current playlist"
 msgstr "Šalinti iš esamo grojaraščio"
 
@@ -1413,10 +1433,6 @@ msgstr "Atlikėjai (sąrašas)"
 msgid "Search"
 msgstr "Paieška"
 
-#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:63
-msgid "Playing albums"
-msgstr "Grojami albumai"
-
 #: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Rinkiniai"
@@ -1489,7 +1505,7 @@ msgid "Popular albums at the moment"
 msgstr "Šiuo metu populiarūs albumai"
 
 #: ../lollypop/view_artists_rounded.py:120
-#: ../lollypop/widgets_banner_artist.py:174
+#: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "Panašūs atlikėjai"
 
@@ -1534,11 +1550,12 @@ msgstr "Dainos žodžių nerasta "
 msgid "No items to show"
 msgstr "Nėra jokių rodytinų elementų"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:126
+#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:86
+#: ../lollypop/view_search.py:128
 msgid "Search for artists, albums and tracks"
 msgstr "Ieškoti atlikėjų, albumų ir takelių"
 
-#: ../lollypop/view_search.py:216
+#: ../lollypop/view_search.py:218
 msgid "No results for this search"
 msgstr ""
 
@@ -1581,7 +1598,7 @@ msgstr "Šalinti"
 msgid "Clear albums"
 msgstr "Išvalyti albumus"
 
-#: ../lollypop/widgets_banner_current_albums.py:58
+#: ../lollypop/widgets_banner_current_albums.py:57
 msgid "Go to current track"
 msgstr "Pereiti prie esamo takelio"
 
@@ -1735,11 +1752,11 @@ msgstr "yra mažesni nei"
 msgid "Song played %s times"
 msgstr "Daina grota %s kartų"
 
-#: ../lollypop/widgets_row_album.py:100
+#: ../lollypop/widgets_row_album.py:104
 msgid "Compilation"
 msgstr "Rinkinys"
 
-#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Šalinti iš grojaraščio"
 

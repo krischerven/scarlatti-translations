@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-08 09:01+0200\n"
+"POT-Creation-Date: 2019-10-21 15:42+0200\n"
 "PO-Revision-Date: 2019-10-15 15:52+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -42,12 +42,12 @@ msgstr "Vinduesposition (x og y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:64
 #: ../data/org.gnome.Lollypop.gschema.xml:89
-#: ../data/org.gnome.Lollypop.gschema.xml:234
-#: ../data/org.gnome.Lollypop.gschema.xml:243
+#: ../data/org.gnome.Lollypop.gschema.xml:239
 #: ../data/org.gnome.Lollypop.gschema.xml:248
-#: ../data/org.gnome.Lollypop.gschema.xml:268
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 #: ../data/org.gnome.Lollypop.gschema.xml:273
 #: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "INTERNAL"
 msgstr "INTERN"
 
@@ -128,7 +128,7 @@ msgid "Favorite cover file"
 msgstr "Foretrukken coverfil"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:135
-#: ../data/org.gnome.Lollypop.gschema.xml:225
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Restart needed"
 msgstr "Genstart nødvendig"
 
@@ -168,123 +168,127 @@ msgstr "Opdater musik automatisk"
 msgid "Show performers"
 msgstr "Vis optrædere"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:169
+msgid "Show tracks in artist view"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:174 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Vis billede"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Use dark GTK theme"
 msgstr "Brug mørkt GTK-tema"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179
+#: ../data/org.gnome.Lollypop.gschema.xml:184
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Deaktivér brug af klientside-vinduesdekorationer (hovedbjælke)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Disable scrobbling usage"
 msgstr "Deaktivér anvendelse af scrobbling"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189
+#: ../data/org.gnome.Lollypop.gschema.xml:194
 msgid "Handle compilations"
 msgstr "Håndter samlinger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Vis samlinger i albumvisning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:204 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "Fortsæt afspilning når lukket"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204
+#: ../data/org.gnome.Lollypop.gschema.xml:209
 msgid "Append albums by default"
 msgstr "Tilføj albummer til slutningen som standard"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209
+#: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Smart sort for artist"
 msgstr "Smart sortering af kunstner"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Eksempel: The Beatles sorteret som Beatles. Kræver nulstilling af database"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr "Vis sortingsmærkat som kunstner. Kan kræve nulstilling af database"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:215
+#: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Ex: Beatles, The"
 msgstr "Eksempel: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Restore previous state"
 msgstr "Gendan tidligere tilstand"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Disable MPRIS"
 msgstr "Deaktivér MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:229
+#: ../data/org.gnome.Lollypop.gschema.xml:234
 msgid "Notifications behaviour"
 msgstr "Opførsel for underretninger"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:238
+#: ../data/org.gnome.Lollypop.gschema.xml:243
 msgid "Show track number from tags"
 msgstr "Vis spornummer fra mærkater"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:258
 msgid "JPG cover quality"
 msgstr "JPG-coverkvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:254
+#: ../data/org.gnome.Lollypop.gschema.xml:259
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:258
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "Force single column mode"
 msgstr "Gennemtving tilstand med én kolonne"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:268
 msgid "Equalizer enabled"
 msgstr "Equalizer aktiveret"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Smooth track transitions"
 msgstr "Blød overgang mellem spor"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Show labels in sidebar"
 msgstr "Vis etiketter i sidebjælke"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Only mix songs in party mode"
 msgstr "Bland kun sange i festtilstand"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Smoothing duration"
 msgstr "Varighed af blød overgang"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:308 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Bland spor"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Possibilities for powermanagement options"
 msgstr "Muligheder til strømstyringsvalgmuligheder"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:309
+#: ../data/org.gnome.Lollypop.gschema.xml:314
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Denne valgmulighed forhindre pauseskærm og hvile mens Lollypop afspiller."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Repeat"
 msgstr "Gentag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:323 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Sortér albummer efter"
 
@@ -514,7 +518,7 @@ msgid "Name:"
 msgstr "Navn:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:96
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:116
 msgid "Save"
 msgstr "Gem"
 
@@ -522,8 +526,7 @@ msgstr "Gem"
 msgid "Address:"
 msgstr "Adresse:"
 
-#: ../data/SearchBannerWidget.ui:88
-#: ../lollypop/widgets_banner_current_albums.py:48
+#: ../data/SearchBannerWidget.ui:88 ../lollypop/menu_playback.py:38
 msgid "Create a new playlist"
 msgstr "Opret en ny playliste"
 
@@ -584,7 +587,7 @@ msgstr "Importér afspilningslister-filer fra samlinger"
 msgid "Save changes to files"
 msgstr "Gem ændringer til filer"
 
-#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:492
+#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:512
 #: ../lollypop/widgets_rating.py:205
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli skal være installeret"
@@ -734,7 +737,7 @@ msgstr "Kun i festtilstand"
 msgid "Transition duration in seconds"
 msgstr "Varighed for overgang i sekunder"
 
-#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:81
+#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:91
 msgid "Confirm"
 msgstr "Bekræft"
 
@@ -1081,11 +1084,11 @@ msgstr "Gå tilbage"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collectionscanner.py:486
+#: ../lollypop/collectionscanner.py:481
 msgid "Scan disabled, missing collection"
 msgstr "Skanning deaktiveret, manglende samling"
 
-#: ../lollypop/collectionscanner.py:678 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1152,7 +1155,7 @@ msgid "Configure Web services"
 msgstr "Konfigurer webtjenester"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_genre.py:47
-#: ../lollypop/menu_objects.py:54 ../lollypop/menu_playlist.py:56
+#: ../lollypop/menu_objects.py:54 ../lollypop/menu_playlist.py:66
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Enheder"
@@ -1175,19 +1178,23 @@ msgstr "Last.fm-godkendelse deaktiveret"
 
 #: ../lollypop/menu_artist.py:38 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
-#: ../lollypop/menu_objects.py:93 ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_objects.py:93
 msgid "Playback"
 msgstr "Afspilning"
 
-#: ../lollypop/menu_artist.py:73
+#: ../lollypop/menu_artist.py:76
+msgid "Show tracks"
+msgstr ""
+
+#: ../lollypop/menu_artist.py:83
 msgid "Available albums"
 msgstr "Tilgængelige albummer"
 
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:93
 msgid "Albums on the Web"
 msgstr "Albummer på webbet"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:121
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
 msgid "Save in collection"
 msgstr "Gem i samling"
 
@@ -1209,12 +1216,12 @@ msgstr "Installer venligst Easytag eller Kid3"
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
 #: ../lollypop/menu_objects.py:74 ../lollypop/menu_objects.py:97
-#: ../lollypop/menu_playlist.py:55
+#: ../lollypop/menu_playlist.py:64
 msgid "Add to"
 msgstr "Tilføj til"
 
 #: ../lollypop/menu_objects.py:57 ../lollypop/menu_objects.py:75
-#: ../lollypop/menu_objects.py:98 ../lollypop/menu_playlist.py:58
+#: ../lollypop/menu_objects.py:98 ../lollypop/menu_playlist.py:68
 msgid "Edit"
 msgstr "Rediger"
 
@@ -1226,51 +1233,60 @@ msgstr "%d-%m-%Y"
 msgid "YouTube page address"
 msgstr "Adresse til YouTube-side"
 
-#: ../lollypop/menu_playback.py:55
+#: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
+msgid "Show tracks number"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:48 ../lollypop/shown.py:41
+#: ../lollypop/widgets_banner_current_albums.py:62
+msgid "Playing albums"
+msgstr "Afspillende albummer"
+
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
 msgid "Add to playback"
 msgstr "Tilføj til afspilning"
 
-#: ../lollypop/menu_playback.py:62
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
 msgid "Remove from playback"
 msgstr "Fjern fra afspilning"
 
-#: ../lollypop/menu_playback.py:82
+#: ../lollypop/menu_playback.py:138
 msgid "Play this playlist"
 msgstr "Afspil denne afspilningsliste"
 
-#: ../lollypop/menu_playback.py:123
+#: ../lollypop/menu_playback.py:179
 msgid "Play this artist"
 msgstr "Afspil denne kunstner"
 
-#: ../lollypop/menu_playback.py:187
+#: ../lollypop/menu_playback.py:243
 msgid "Play this genre"
 msgstr "Afspil denne genre"
 
-#: ../lollypop/menu_playback.py:266
+#: ../lollypop/menu_playback.py:317
 msgid "Play this decade"
 msgstr "Afspil dette årti"
 
-#: ../lollypop/menu_playback.py:347
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "Afspil albummet"
 
-#: ../lollypop/menu_playback.py:473
+#: ../lollypop/menu_playback.py:517
 msgid "Add to queue"
 msgstr "Tilføj til kø"
 
-#: ../lollypop/menu_playback.py:479
+#: ../lollypop/menu_playback.py:523
 msgid "Remove from queue"
 msgstr "Fjern fra kø"
 
-#: ../lollypop/menu_playback.py:490
+#: ../lollypop/menu_playback.py:534
 msgid "Do not stop after"
 msgstr "Stop ikke efter"
 
-#: ../lollypop/menu_playback.py:495
+#: ../lollypop/menu_playback.py:539
 msgid "Stop after"
 msgstr "Stop efter"
 
-#: ../lollypop/menu_playlist.py:42 ../lollypop/menu_playlist.py:93
+#: ../lollypop/menu_playlist.py:42 ../lollypop/menu_playlist.py:113
 msgid "Save playlist"
 msgstr "Gem playliste"
 
@@ -1282,11 +1298,15 @@ msgstr "Håndter smart afspilningsliste"
 msgid "Remove playlist"
 msgstr "Fjern afspilningsliste"
 
-#: ../lollypop/menu_playlist.py:80
+#: ../lollypop/menu_playlist.py:62
+msgid "Playlist"
+msgstr ""
+
+#: ../lollypop/menu_playlist.py:90
 msgid "Remove this playlist?"
 msgstr "Fjern afspilningslisten?"
 
-#: ../lollypop/menu_playlist.py:97 ../lollypop/widgets_device.py:143
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:143
 msgid "Cancel"
 msgstr "Annuller"
 
@@ -1322,7 +1342,7 @@ msgstr "Valgmuligheder"
 msgid "Sections"
 msgstr "Sektioner"
 
-#: ../lollypop/menu_similars.py:160
+#: ../lollypop/menu_similars.py:163
 msgid "No results"
 msgstr "Ingen resultater"
 
@@ -1334,7 +1354,7 @@ msgstr "Alle enheder"
 msgid "Radio"
 msgstr "Radio"
 
-#: ../lollypop/player_bin.py:301
+#: ../lollypop/player_bin.py:306
 msgid "Can't find this track on YouTube"
 msgstr "Kan ikke finde sporet på YouTube"
 
@@ -1347,11 +1367,11 @@ msgstr "Ny afspilningsliste "
 msgid "Loved tracks"
 msgstr "Elskede spor"
 
-#: ../lollypop/pop_tracks.py:151 ../lollypop/widgets_banner_artist.py:284
+#: ../lollypop/pop_tracks.py:151 ../lollypop/widgets_banner_artist.py:285
 msgid "Add to current playlist"
 msgstr "Tilføj til nuværende afspilningsliste"
 
-#: ../lollypop/pop_tracks.py:157 ../lollypop/widgets_banner_artist.py:291
+#: ../lollypop/pop_tracks.py:157 ../lollypop/widgets_banner_artist.py:292
 msgid "Remove from current playlist"
 msgstr "Fjern fra nuværende afspilningsliste"
 
@@ -1427,10 +1447,6 @@ msgstr "Kunstnere (liste)"
 msgid "Search"
 msgstr "Søgning"
 
-#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:63
-msgid "Playing albums"
-msgstr "Afspillende albummer"
-
 #: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Samlinger"
@@ -1503,7 +1519,7 @@ msgid "Popular albums at the moment"
 msgstr "Albummer som er populære for tiden"
 
 #: ../lollypop/view_artists_rounded.py:120
-#: ../lollypop/widgets_banner_artist.py:174
+#: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "Ligende kunstnere"
 
@@ -1549,11 +1565,12 @@ msgstr "Der blev ikke fundet nogen sangtekster "
 msgid "No items to show"
 msgstr "Ingen punkter at vise"
 
-#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:126
+#: ../lollypop/view_search.py:45 ../lollypop/view_search.py:86
+#: ../lollypop/view_search.py:128
 msgid "Search for artists, albums and tracks"
 msgstr "Søg efter kunstnere, albummer og spor"
 
-#: ../lollypop/view_search.py:216
+#: ../lollypop/view_search.py:218
 msgid "No results for this search"
 msgstr "Ingen resultater for søgningen"
 
@@ -1598,7 +1615,7 @@ msgstr "Fjern"
 msgid "Clear albums"
 msgstr "Ryd albummer"
 
-#: ../lollypop/widgets_banner_current_albums.py:58
+#: ../lollypop/widgets_banner_current_albums.py:57
 msgid "Go to current track"
 msgstr "Gå til aktuelle spor"
 
@@ -1752,11 +1769,11 @@ msgstr "er mindre end"
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
 
-#: ../lollypop/widgets_row_album.py:100
+#: ../lollypop/widgets_row_album.py:104
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/widgets_row_album.py:116 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Fjern fra afspilningsliste"
 
