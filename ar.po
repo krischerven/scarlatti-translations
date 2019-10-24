@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 15:42+0200\n"
+"POT-Creation-Date: 2019-10-24 07:26+0200\n"
 "PO-Revision-Date: 2019-08-07 21:01+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1026,11 +1026,11 @@ msgstr "ارجع للخلف"
 msgid "Go home"
 msgstr "اذهب للبيت"
 
-#: ../lollypop/collectionscanner.py:481
+#: ../lollypop/collectionscanner.py:491
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:684 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1050,14 +1050,6 @@ msgstr "نعم"
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
 msgstr "يرجى النظر في تبرع لهذا المشروع"
-
-#: ../lollypop/container_scanner.py:44
-msgid "New tracks available"
-msgstr "مقطوعات جديدة متاحة"
-
-#: ../lollypop/container_scanner.py:45
-msgid "Refresh"
-msgstr "حدِّث"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1125,19 +1117,19 @@ msgstr "لاست إف إم التوثيق التوثبق معطل"
 msgid "Playback"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:76
-msgid "Show tracks"
-msgstr ""
-
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr "الألبومات المتاحة"
 
-#: ../lollypop/menu_artist.py:93
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
+#: ../lollypop/menu_artist.py:93
+msgid "Show tracks"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
 msgstr ""
 
@@ -1185,11 +1177,11 @@ msgstr ""
 msgid "Playing albums"
 msgstr "الألبومات الشغَّالة"
 
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:306
 msgid "Add to playback"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:313
 msgid "Remove from playback"
 msgstr ""
 
@@ -1209,7 +1201,7 @@ msgstr ""
 msgid "Play this decade"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
 msgid "Play this album"
 msgstr ""
 
@@ -1305,7 +1297,7 @@ msgstr ""
 msgid "New playlist "
 msgstr "قائمة تشغيل جديدة "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:364
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "المقطوعة المفضلة"
@@ -1355,8 +1347,8 @@ msgid "Recently added albums"
 msgstr "ألبومات المضافة مؤخرا"
 
 #: ../lollypop/shown.py:29
-msgid "Unplayed albums"
-msgstr "البومات لم تشغل من قبل"
+msgid "Little played albums"
+msgstr ""
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
 msgid "Radios"
@@ -1407,7 +1399,7 @@ msgid "Recently played tracks"
 msgstr ""
 
 #: ../lollypop/shown.py:72
-msgid "Unplayed tracks"
+msgid "Little played tracks"
 msgstr ""
 
 #: ../lollypop/shown.py:73
@@ -1437,36 +1429,36 @@ msgstr "%s د"
 msgid "The the"
 msgstr "هذا"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:53
 msgid "Network not available"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:57
 msgid "Missing youtube-dl command"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:63
+#: ../lollypop/view_albums_box.py:62
 msgid "You need to enable Spotify "
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:64
+#: ../lollypop/view_albums_box.py:63
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:437
+#: ../lollypop/view_albums_box.py:441
 msgid "Others compilations"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:466
+#: ../lollypop/view_albums_box.py:470
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/view_artists_rounded.py:109
 #: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "فنانون مشابهون"
 
-#: ../lollypop/view_artists_rounded.py:305
+#: ../lollypop/view_artists_rounded.py:286
 msgid "Why not listen to?"
 msgstr ""
 
@@ -1503,7 +1495,7 @@ msgstr "لقد عطلت البحث عن الكلمات في إعدادات ال�
 msgid "No lyrics found "
 msgstr "لم أجد الكلمات "
 
-#: ../lollypop/view.py:47
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr ""
 
@@ -1709,11 +1701,11 @@ msgstr "أصغر من"
 msgid "Song played %s times"
 msgstr "اغنية شغلت %s مرة"
 
-#: ../lollypop/widgets_row_album.py:104
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "التجميعات"
 
-#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:311 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "أزل من قائمة التشغيل"
 
@@ -1766,6 +1758,15 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "New tracks available"
+#~ msgstr "مقطوعات جديدة متاحة"
+
+#~ msgid "Refresh"
+#~ msgstr "حدِّث"
+
+#~ msgid "Unplayed albums"
+#~ msgstr "البومات لم تشغل من قبل"
 
 #~ msgid "Clear queue"
 #~ msgstr "امح قائمة الانتظار"

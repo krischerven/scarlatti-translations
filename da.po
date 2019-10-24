@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 15:42+0200\n"
+"POT-Creation-Date: 2019-10-24 07:26+0200\n"
 "PO-Revision-Date: 2019-10-24 05:26+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1084,11 +1084,11 @@ msgstr "Gå tilbage"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collectionscanner.py:481
+#: ../lollypop/collectionscanner.py:491
 msgid "Scan disabled, missing collection"
 msgstr "Skanning deaktiveret, manglende samling"
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:684 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1108,14 +1108,6 @@ msgstr "Ja"
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
 msgstr "Overvej venligst at donere til projektet"
-
-#: ../lollypop/container_scanner.py:44
-msgid "New tracks available"
-msgstr "Nye numre tilgængelige"
-
-#: ../lollypop/container_scanner.py:45
-msgid "Refresh"
-msgstr "Genopfrisk"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1182,19 +1174,19 @@ msgstr "Last.fm-godkendelse deaktiveret"
 msgid "Playback"
 msgstr "Afspilning"
 
-#: ../lollypop/menu_artist.py:76
-msgid "Show tracks"
-msgstr "Vis spor"
-
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr "Tilgængelige albummer"
 
-#: ../lollypop/menu_artist.py:93
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr "Albummer på webbet"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
+#: ../lollypop/menu_artist.py:93
+msgid "Show tracks"
+msgstr "Vis spor"
+
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
 msgstr "Gem i samling"
 
@@ -1242,11 +1234,11 @@ msgstr "Vis spornummer"
 msgid "Playing albums"
 msgstr "Afspillende albummer"
 
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:306
 msgid "Add to playback"
 msgstr "Tilføj til afspilning"
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:313
 msgid "Remove from playback"
 msgstr "Fjern fra afspilning"
 
@@ -1266,7 +1258,7 @@ msgstr "Afspil denne genre"
 msgid "Play this decade"
 msgstr "Afspil dette årti"
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
 msgid "Play this album"
 msgstr "Afspil albummet"
 
@@ -1362,7 +1354,7 @@ msgstr "Kan ikke finde sporet på YouTube"
 msgid "New playlist "
 msgstr "Ny afspilningsliste "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:364
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Elskede spor"
@@ -1412,8 +1404,8 @@ msgid "Recently added albums"
 msgstr "Nyligt tilføjede albummer"
 
 #: ../lollypop/shown.py:29
-msgid "Unplayed albums"
-msgstr "Uafspillede albummer"
+msgid "Little played albums"
+msgstr ""
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
 msgid "Radios"
@@ -1464,8 +1456,8 @@ msgid "Recently played tracks"
 msgstr "Seneste afspillede spor"
 
 #: ../lollypop/shown.py:72
-msgid "Unplayed tracks"
-msgstr "Uafspillede spor"
+msgid "Little played tracks"
+msgstr ""
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
@@ -1494,36 +1486,36 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the Den den De de"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:53
 msgid "Network not available"
 msgstr "Netværk ikke tilgængeligt"
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:57
 msgid "Missing youtube-dl command"
 msgstr "Mangler youtube-dl-kommando"
 
-#: ../lollypop/view_albums_box.py:63
+#: ../lollypop/view_albums_box.py:62
 msgid "You need to enable Spotify "
 msgstr "Du skal aktivere Spotify "
 
-#: ../lollypop/view_albums_box.py:64
+#: ../lollypop/view_albums_box.py:63
 msgid "and YouTube in network settings"
 msgstr "og YouTube i netværksindstillinger"
 
-#: ../lollypop/view_albums_box.py:437
+#: ../lollypop/view_albums_box.py:441
 msgid "Others compilations"
 msgstr "Andres samlinger"
 
-#: ../lollypop/view_albums_box.py:466
+#: ../lollypop/view_albums_box.py:470
 msgid "Popular albums at the moment"
 msgstr "Albummer som er populære for tiden"
 
-#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/view_artists_rounded.py:109
 #: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "Ligende kunstnere"
 
-#: ../lollypop/view_artists_rounded.py:305
+#: ../lollypop/view_artists_rounded.py:286
 msgid "Why not listen to?"
 msgstr "Hvorfor ikke lytte til?"
 
@@ -1561,7 +1553,7 @@ msgstr ""
 msgid "No lyrics found "
 msgstr "Der blev ikke fundet nogen sangtekster "
 
-#: ../lollypop/view.py:47
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Ingen punkter at vise"
 
@@ -1769,11 +1761,11 @@ msgstr "er mindre end"
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
 
-#: ../lollypop/widgets_row_album.py:104
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:311 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Fjern fra afspilningsliste"
 
@@ -1814,6 +1806,18 @@ msgstr "band"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "sanger"
+
+#~ msgid "New tracks available"
+#~ msgstr "Nye numre tilgængelige"
+
+#~ msgid "Refresh"
+#~ msgstr "Genopfrisk"
+
+#~ msgid "Unplayed albums"
+#~ msgstr "Uafspillede albummer"
+
+#~ msgid "Unplayed tracks"
+#~ msgstr "Uafspillede spor"
 
 #~ msgctxt "shortcut window"
 #~ msgid "Search in list one"

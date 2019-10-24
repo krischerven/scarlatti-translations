@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 15:42+0200\n"
+"POT-Creation-Date: 2019-10-24 07:26+0200\n"
 "PO-Revision-Date: 2018-08-27 11:40+0000\n"
 "Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
 "Language-Team: Occidental <https://hosted.weblate.org/projects/gnumdk/"
@@ -1014,11 +1014,11 @@ msgstr ""
 msgid "Go home"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:481
+#: ../lollypop/collectionscanner.py:491
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:684 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1038,14 +1038,6 @@ msgstr ""
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
 msgstr ""
-
-#: ../lollypop/container_scanner.py:44
-msgid "New tracks available"
-msgstr ""
-
-#: ../lollypop/container_scanner.py:45
-msgid "Refresh"
-msgstr "Refriscar"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1112,19 +1104,19 @@ msgstr "Autentication Last.fm es depermisset"
 msgid "Playback"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:76
-msgid "Show tracks"
-msgstr ""
-
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:93
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr ""
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
+#: ../lollypop/menu_artist.py:93
+msgid "Show tracks"
+msgstr ""
+
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
 msgstr ""
 
@@ -1172,11 +1164,11 @@ msgstr ""
 msgid "Playing albums"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:306
 msgid "Add to playback"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:313
 msgid "Remove from playback"
 msgstr ""
 
@@ -1196,7 +1188,7 @@ msgstr ""
 msgid "Play this decade"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
 msgid "Play this album"
 msgstr ""
 
@@ -1292,7 +1284,7 @@ msgstr ""
 msgid "New playlist "
 msgstr "Nov playlist "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:364
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr ""
@@ -1342,7 +1334,7 @@ msgid "Recently added albums"
 msgstr ""
 
 #: ../lollypop/shown.py:29
-msgid "Unplayed albums"
+msgid "Little played albums"
 msgstr ""
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
@@ -1394,7 +1386,7 @@ msgid "Recently played tracks"
 msgstr ""
 
 #: ../lollypop/shown.py:72
-msgid "Unplayed tracks"
+msgid "Little played tracks"
 msgstr ""
 
 #: ../lollypop/shown.py:73
@@ -1424,36 +1416,36 @@ msgstr "%s m"
 msgid "The the"
 msgstr "Li li"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:53
 msgid "Network not available"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:57
 msgid "Missing youtube-dl command"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:63
+#: ../lollypop/view_albums_box.py:62
 msgid "You need to enable Spotify "
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:64
+#: ../lollypop/view_albums_box.py:63
 msgid "and YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:437
+#: ../lollypop/view_albums_box.py:441
 msgid "Others compilations"
 msgstr ""
 
-#: ../lollypop/view_albums_box.py:466
+#: ../lollypop/view_albums_box.py:470
 msgid "Popular albums at the moment"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/view_artists_rounded.py:109
 #: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "Simil artistes"
 
-#: ../lollypop/view_artists_rounded.py:305
+#: ../lollypop/view_artists_rounded.py:286
 msgid "Why not listen to?"
 msgstr ""
 
@@ -1490,7 +1482,7 @@ msgstr ""
 msgid "No lyrics found "
 msgstr "Null textu trovat "
 
-#: ../lollypop/view.py:47
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr ""
 
@@ -1696,11 +1688,11 @@ msgstr ""
 msgid "Song played %s times"
 msgstr "Canzon reproductet %s vezes"
 
-#: ../lollypop/widgets_row_album.py:104
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:311 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr ""
 
@@ -1741,6 +1733,9 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Refresh"
+#~ msgstr "Refriscar"
 
 #~ msgid "Queue"
 #~ msgstr "Linea"

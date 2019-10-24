@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 15:42+0200\n"
+"POT-Creation-Date: 2019-10-24 07:26+0200\n"
 "PO-Revision-Date: 2019-10-21 13:49+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1092,11 +1092,11 @@ msgstr "Aller en arrière"
 msgid "Go home"
 msgstr "Aller à l'accueil"
 
-#: ../lollypop/collectionscanner.py:481
+#: ../lollypop/collectionscanner.py:491
 msgid "Scan disabled, missing collection"
 msgstr "Scan désactivé, collection manquante"
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:684 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1116,14 +1116,6 @@ msgstr "Oui"
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
 msgstr "Merci de considérer un don au projet"
-
-#: ../lollypop/container_scanner.py:44
-msgid "New tracks available"
-msgstr "Nouveaux morceaux disponibles"
-
-#: ../lollypop/container_scanner.py:45
-msgid "Refresh"
-msgstr "Rafraîchir"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1190,19 +1182,19 @@ msgstr "Authentification Last.fm désactivée"
 msgid "Playback"
 msgstr "Lecture"
 
-#: ../lollypop/menu_artist.py:76
-msgid "Show tracks"
-msgstr "Afficher les morceaux"
-
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr "Albums disponibles"
 
-#: ../lollypop/menu_artist.py:93
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr "Albums sur le Web"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
+#: ../lollypop/menu_artist.py:93
+msgid "Show tracks"
+msgstr "Afficher les morceaux"
+
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
 msgstr "Enregistrer dans la collection"
 
@@ -1250,11 +1242,11 @@ msgstr "Afficher les numéros des morceaux"
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:306
 msgid "Add to playback"
 msgstr "Ajouter à la lecture"
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:313
 msgid "Remove from playback"
 msgstr "Supprimer de la lecture"
 
@@ -1274,7 +1266,7 @@ msgstr "Lire ce genre"
 msgid "Play this decade"
 msgstr "Lire cette décennie"
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
 msgid "Play this album"
 msgstr "Lire cet album"
 
@@ -1370,7 +1362,7 @@ msgstr "Impossible de trouver ce titre sur YouTube"
 msgid "New playlist "
 msgstr "Nouvelle liste de lecture "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:364
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Morceaux favoris"
@@ -1420,8 +1412,8 @@ msgid "Recently added albums"
 msgstr "Albums ajoutés récemment"
 
 #: ../lollypop/shown.py:29
-msgid "Unplayed albums"
-msgstr "Albums jamais joués"
+msgid "Little played albums"
+msgstr ""
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
 msgid "Radios"
@@ -1472,8 +1464,8 @@ msgid "Recently played tracks"
 msgstr "Morceaux récemment joués"
 
 #: ../lollypop/shown.py:72
-msgid "Unplayed tracks"
-msgstr "Morceaux jamais joués"
+msgid "Little played tracks"
+msgstr ""
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
@@ -1502,36 +1494,36 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the La la Le le Les les"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:53
 msgid "Network not available"
 msgstr "Réseau non disponible"
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:57
 msgid "Missing youtube-dl command"
 msgstr "Commande youtube-dl manquante"
 
-#: ../lollypop/view_albums_box.py:63
+#: ../lollypop/view_albums_box.py:62
 msgid "You need to enable Spotify "
 msgstr "Vous devez activer Spotify "
 
-#: ../lollypop/view_albums_box.py:64
+#: ../lollypop/view_albums_box.py:63
 msgid "and YouTube in network settings"
 msgstr "et YouTube dans les paramètres réseau"
 
-#: ../lollypop/view_albums_box.py:437
+#: ../lollypop/view_albums_box.py:441
 msgid "Others compilations"
 msgstr "Autres compilations"
 
-#: ../lollypop/view_albums_box.py:466
+#: ../lollypop/view_albums_box.py:470
 msgid "Popular albums at the moment"
 msgstr "Albums populaires en ce moment"
 
-#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/view_artists_rounded.py:109
 #: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "Artistes similaires"
 
-#: ../lollypop/view_artists_rounded.py:305
+#: ../lollypop/view_artists_rounded.py:286
 msgid "Why not listen to?"
 msgstr "Pourquoi ne pas écouter ceci ?"
 
@@ -1569,7 +1561,7 @@ msgstr ""
 msgid "No lyrics found "
 msgstr "Pas de paroles trouvées "
 
-#: ../lollypop/view.py:47
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "Aucun élément à afficher"
 
@@ -1777,11 +1769,11 @@ msgstr "est plus petit(e) que"
 msgid "Song played %s times"
 msgstr "Morceau joué %s fois"
 
-#: ../lollypop/widgets_row_album.py:104
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:311 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Supprimer de la liste de lecture"
 
@@ -1822,6 +1814,18 @@ msgstr "groupe"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "chanteur"
+
+#~ msgid "New tracks available"
+#~ msgstr "Nouveaux morceaux disponibles"
+
+#~ msgid "Refresh"
+#~ msgstr "Rafraîchir"
+
+#~ msgid "Unplayed albums"
+#~ msgstr "Albums jamais joués"
+
+#~ msgid "Unplayed tracks"
+#~ msgstr "Morceaux jamais joués"
 
 #~ msgctxt "shortcut window"
 #~ msgid "Search in list one"

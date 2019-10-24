@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 15:42+0200\n"
+"POT-Creation-Date: 2019-10-24 07:26+0200\n"
 "PO-Revision-Date: 2019-10-21 20:41+0000\n"
 "Last-Translator: Marc Riera <marc.riera.irigoyen@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1095,11 +1095,11 @@ msgstr "Vés enrere"
 msgid "Go home"
 msgstr "Vés a l’inici"
 
-#: ../lollypop/collectionscanner.py:481
+#: ../lollypop/collectionscanner.py:491
 msgid "Scan disabled, missing collection"
 msgstr "Seguiment desactivat, manca col·lecció"
 
-#: ../lollypop/collectionscanner.py:673 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:684 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
 #: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
 #: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
@@ -1119,14 +1119,6 @@ msgstr "Sí"
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
 msgstr "Considereu fer una donació al projecte"
-
-#: ../lollypop/container_scanner.py:44
-msgid "New tracks available"
-msgstr "Hi ha noves pistes disponibles"
-
-#: ../lollypop/container_scanner.py:45
-msgid "Refresh"
-msgstr "Actualitza"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1193,19 +1185,19 @@ msgstr "L'autenticació de Last.fm està desactivada"
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../lollypop/menu_artist.py:76
-msgid "Show tracks"
-msgstr "Mostra les pistes"
-
-#: ../lollypop/menu_artist.py:83
+#: ../lollypop/menu_artist.py:73
 msgid "Available albums"
 msgstr "Àlbums disponibles"
 
-#: ../lollypop/menu_artist.py:93
+#: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
 msgstr "Àlbums al web"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:127
+#: ../lollypop/menu_artist.py:93
+msgid "Show tracks"
+msgstr "Mostra les pistes"
+
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
 msgstr "Desa a la col·lecció"
 
@@ -1253,11 +1245,11 @@ msgstr "Mostra el número de les pistes"
 msgid "Playing albums"
 msgstr "Àlbums en reproducció"
 
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:305
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:306
 msgid "Add to playback"
 msgstr "Afegeix a la reproducció"
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:313
 msgid "Remove from playback"
 msgstr "Elimina de la reproducció"
 
@@ -1277,7 +1269,7 @@ msgstr "Reprodueix aquest gènere"
 msgid "Play this decade"
 msgstr "Reprodueix aquesta dècada"
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:119
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
 msgid "Play this album"
 msgstr "Reprodueix aquest àlbum"
 
@@ -1373,7 +1365,7 @@ msgstr "No s'ha pogut trobar aquesta pista al YouTube"
 msgid "New playlist "
 msgstr "Llista nova "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:364
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Pistes preferides"
@@ -1423,8 +1415,8 @@ msgid "Recently added albums"
 msgstr "Àlbums recents"
 
 #: ../lollypop/shown.py:29
-msgid "Unplayed albums"
-msgstr "Àlbums no reproduits"
+msgid "Little played albums"
+msgstr ""
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
 msgid "Radios"
@@ -1475,8 +1467,8 @@ msgid "Recently played tracks"
 msgstr "Pistes reproduïdes recentment"
 
 #: ../lollypop/shown.py:72
-msgid "Unplayed tracks"
-msgstr "Pistes sense reproduir"
+msgid "Little played tracks"
+msgstr ""
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
@@ -1505,36 +1497,36 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:53
 msgid "Network not available"
 msgstr "La xarxa no està disponible"
 
-#: ../lollypop/view_albums_box.py:58
+#: ../lollypop/view_albums_box.py:57
 msgid "Missing youtube-dl command"
 msgstr "Manca l'ordre youtube-dl"
 
-#: ../lollypop/view_albums_box.py:63
+#: ../lollypop/view_albums_box.py:62
 msgid "You need to enable Spotify "
 msgstr "Heu d'activar Spotify "
 
-#: ../lollypop/view_albums_box.py:64
+#: ../lollypop/view_albums_box.py:63
 msgid "and YouTube in network settings"
 msgstr "i YouTube als paràmetres de xarxa"
 
-#: ../lollypop/view_albums_box.py:437
+#: ../lollypop/view_albums_box.py:441
 msgid "Others compilations"
 msgstr "Altres compilacions"
 
-#: ../lollypop/view_albums_box.py:466
+#: ../lollypop/view_albums_box.py:470
 msgid "Popular albums at the moment"
 msgstr "Àlbums populars actualment"
 
-#: ../lollypop/view_artists_rounded.py:120
+#: ../lollypop/view_artists_rounded.py:109
 #: ../lollypop/widgets_banner_artist.py:175
 msgid "Similar artists"
 msgstr "Artistes semblants"
 
-#: ../lollypop/view_artists_rounded.py:305
+#: ../lollypop/view_artists_rounded.py:286
 msgid "Why not listen to?"
 msgstr "I si escolteu a...?"
 
@@ -1571,7 +1563,7 @@ msgstr "Heu desactivat la cerca de lletres a la configuració de xarxa!"
 msgid "No lyrics found "
 msgstr "No s'ha trobat la lletra "
 
-#: ../lollypop/view.py:47
+#: ../lollypop/view.py:45
 msgid "No items to show"
 msgstr "No hi ha elements per mostrar"
 
@@ -1779,11 +1771,11 @@ msgstr "menor que"
 msgid "Song played %s times"
 msgstr "Reproduïda %s vegades"
 
-#: ../lollypop/widgets_row_album.py:104
+#: ../lollypop/widgets_row_album.py:105
 msgid "Compilation"
 msgstr "Compilació"
 
-#: ../lollypop/widgets_row_album.py:310 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:311 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Elimina de la llista de reproducció"
 
@@ -1824,6 +1816,18 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "cantant"
+
+#~ msgid "New tracks available"
+#~ msgstr "Hi ha noves pistes disponibles"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualitza"
+
+#~ msgid "Unplayed albums"
+#~ msgstr "Àlbums no reproduits"
+
+#~ msgid "Unplayed tracks"
+#~ msgstr "Pistes sense reproduir"
 
 #~ msgctxt "shortcut window"
 #~ msgid "Search in list one"
