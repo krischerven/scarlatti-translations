@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-24 07:26+0200\n"
-"PO-Revision-Date: 2019-10-07 19:56+0000\n"
+"PO-Revision-Date: 2019-11-01 14:51+0000\n"
 "Last-Translator: dolwup <carlokretzschmann@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "de/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:29
 msgid "Window size"
@@ -178,7 +178,7 @@ msgstr "Künstler anzeigen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:169
 msgid "Show tracks in artist view"
-msgstr ""
+msgstr "Zeige Titel in der Künstleransicht"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:174 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
@@ -373,7 +373,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "Verschiedene Audioformate –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
@@ -725,6 +725,8 @@ msgid ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Suche nach Artwork</span>"
 
 #: ../data/SettingsBehaviour.ui:888
 msgid "Only in party mode"
@@ -821,10 +823,13 @@ msgid ""
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
+"Nutze eine aktuelle Version von youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Aktiviere dies, falls die Netzwiedergabe "
+"nicht funktioniert</span>"
 
 #: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Nutze einen Invidious-Server"
 
 #: ../data/SettingsWeb.ui:493
 msgid "No server set"
@@ -1178,7 +1183,7 @@ msgstr "Alben im Netz"
 
 #: ../lollypop/menu_artist.py:93
 msgid "Show tracks"
-msgstr ""
+msgstr "Titel anzeigen"
 
 #: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
@@ -1198,7 +1203,7 @@ msgstr "Informationen bearbeiten"
 
 #: ../lollypop/menu_edit.py:184
 msgid "Please install Easytag or Kid3"
-msgstr ""
+msgstr "Bitte installiere Easytag oder Kid3"
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
 #: ../lollypop/menu_objects.py:74 ../lollypop/menu_objects.py:97
@@ -1217,11 +1222,11 @@ msgstr "%Y-%m-%d"
 
 #: ../lollypop/menu_objects.py:153
 msgid "YouTube page address"
-msgstr ""
+msgstr "YouTube Videoadresse"
 
 #: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
 msgid "Show tracks number"
-msgstr ""
+msgstr "Titelnummer anzeigen"
 
 #: ../lollypop/menu_playback.py:48 ../lollypop/shown.py:41
 #: ../lollypop/widgets_banner_current_albums.py:62
@@ -1286,7 +1291,7 @@ msgstr "Wiedergabeliste entfernen"
 
 #: ../lollypop/menu_playlist.py:62
 msgid "Playlist"
-msgstr ""
+msgstr "Wiedergabeliste"
 
 #: ../lollypop/menu_playlist.py:90
 msgid "Remove this playlist?"
@@ -1399,7 +1404,7 @@ msgstr "Kürzlich hinzugefügte Alben"
 
 #: ../lollypop/shown.py:29
 msgid "Little played albums"
-msgstr ""
+msgstr "Wenig gespielte Alben"
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:39
 msgid "Radios"
@@ -1451,7 +1456,7 @@ msgstr "Kürzlich gespielte Titel"
 
 #: ../lollypop/shown.py:72
 msgid "Little played tracks"
-msgstr ""
+msgstr "Wenig gespielte Titel"
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
