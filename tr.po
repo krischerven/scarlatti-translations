@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-04 10:04+0100\n"
+"POT-Creation-Date: 2019-11-10 15:09+0100\n"
 "PO-Revision-Date: 2019-11-05 08:20+0000\n"
 "Last-Translator: Oguz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -282,24 +282,28 @@ msgid "Shuffle tracks"
 msgstr "Parçaları karıştır"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:318
+msgid "Ignore internal symlinks"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "ReplayGain state"
 msgstr "ReplayGain durumu"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:323
+#: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "Possibilities for powermanagement options"
 msgstr "Güç yönetimi seçenekleri için olasılıklar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:324
+#: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Bu seçenek ekran koruyucuyu önler ve Lollypop'un kayıttan çalması boyunca "
 "askıya alır."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:328
+#: ../data/org.gnome.Lollypop.gschema.xml:333
 msgid "Repeat"
 msgstr "Tekrarla"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:333 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:338 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Albümleri şuna göre sırala"
 
@@ -377,13 +381,10 @@ msgid ""
 "Lollypop is a lightweight modern music player designed to work excellently "
 "on the GNOME desktop environment. It also features a party mode which will "
 "auto-select party-related playlists; access the player from your couch in "
-"fullscreen thanks to HiDPI support; and native support for ReplayGain."
+"fullscreen thanks to HiDPI support; fetching lyrics and artist biography "
+"from the internet, as well as automatically fetching cover arts for music "
+"files; and native support for ReplayGain."
 msgstr ""
-"Lollypop, GNOME masaüstü ortamında mükemmel çalışacak şekilde tasarlanmış "
-"hafif ve modern bir müzik çalardır. Ayrıca parti ile ilgili çalma "
-"listelerini otomatik olarak seçecek bir parti moduna da sahiptir; HiDPI "
-"desteği sayesinde müzik çalara kanepenizden tam ekran olarak erişin; ve "
-"ReplayGain için yerel desteğe sahiptir."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -449,11 +450,11 @@ msgstr "Lollypop _Hakkında"
 msgid "Quit"
 msgstr "Çık"
 
-#: ../data/ArtistBannerWidget.ui:81
+#: ../data/ArtistBannerWidget.ui:88
 msgid "Play albums"
 msgstr "Albümleri çal"
 
-#: ../data/ArtistBannerWidget.ui:99
+#: ../data/ArtistBannerWidget.ui:106
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Geçerli çalma listesine ekle"
@@ -509,14 +510,14 @@ msgstr "Albümler"
 msgid "Playlists"
 msgstr "Çalma listeleri"
 
-#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:136
-#: ../lollypop/widgets_device.py:337
+#: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:137
+#: ../lollypop/widgets_device.py:338
 msgid "Synchronize"
 msgstr "Eşzamanla"
 
 #: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
-#: ../lollypop/pop_tracks.py:73 ../lollypop/pop_tunein.py:192
-#: ../lollypop/view_tracks.py:370 ../lollypop/widgets_player_buttons.py:151
+#: ../lollypop/pop_tunein.py:192 ../lollypop/view_tracks.py:376
+#: ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Çal"
 
@@ -611,27 +612,27 @@ msgstr "Yumuşak geçişler"
 msgid "Allow network access"
 msgstr "Ağ erişimine izin ver"
 
-#: ../data/SettingsBehaviour.ui:368
+#: ../data/SettingsBehaviour.ui:364
 msgid "ReplayGain"
 msgstr "ReplayGain"
 
-#: ../data/SettingsBehaviour.ui:385
+#: ../data/SettingsBehaviour.ui:389
 msgid "Disabled"
 msgstr "Devre dışı"
 
-#: ../data/SettingsBehaviour.ui:386
+#: ../data/SettingsBehaviour.ui:390
 msgid "Track"
 msgstr "Parça"
 
-#: ../data/SettingsBehaviour.ui:387 ../data/SmartPlaylistWidget.ui:30
+#: ../data/SettingsBehaviour.ui:391 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
 msgstr "Albüm"
 
-#: ../data/SettingsBehaviour.ui:438
+#: ../data/SettingsBehaviour.ui:442
 msgid "Search artwork in background"
 msgstr "Arka planda kapak resmi ara"
 
-#: ../data/SettingsBehaviour.ui:454
+#: ../data/SettingsBehaviour.ui:458
 msgid ""
 "Background data\n"
 "<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
@@ -639,7 +640,7 @@ msgstr ""
 "Arka plan verisi\n"
 "<span size=\"x-small\" alpha=\"70%\">Arka planda kapak resmi ara</span>"
 
-#: ../data/SettingsBehaviour.ui:470
+#: ../data/SettingsBehaviour.ui:474
 msgid ""
 "Last.fm and Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
@@ -647,7 +648,7 @@ msgstr ""
 "Last.fm ve Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, kapak resmi, …</span>"
 
-#: ../data/SettingsBehaviour.ui:484
+#: ../data/SettingsBehaviour.ui:488
 msgid ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
@@ -655,7 +656,7 @@ msgstr ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Şarkı ara, kapak resmi, …</span>"
 
-#: ../data/SettingsBehaviour.ui:498
+#: ../data/SettingsBehaviour.ui:502
 msgid ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
@@ -663,7 +664,7 @@ msgstr ""
 "YouTube\n"
 "<span size=\"x-small\" alpha=\"70%\">Şarkı çalımı</span>"
 
-#: ../data/SettingsBehaviour.ui:512
+#: ../data/SettingsBehaviour.ui:516
 msgid ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -671,7 +672,7 @@ msgstr ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Kapak resmi ara</span>"
 
-#: ../data/SettingsBehaviour.ui:526
+#: ../data/SettingsBehaviour.ui:530
 msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -679,7 +680,7 @@ msgstr ""
 "Başlangıç sayfası\n"
 "<span size=\"x-small\" alpha=\"70%\">Kapak resmi ara</span>"
 
-#: ../data/SettingsBehaviour.ui:540
+#: ../data/SettingsBehaviour.ui:544
 msgid ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -687,7 +688,7 @@ msgstr ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Şarkı sözü ara</span>"
 
-#: ../data/SettingsBehaviour.ui:638
+#: ../data/SettingsBehaviour.ui:642
 msgid ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
@@ -695,7 +696,7 @@ msgstr ""
 "Wikipedia\n"
 "<span size=\"x-small\" alpha=\"70%\">Sanatçı biyografisi</span>"
 
-#: ../data/SettingsBehaviour.ui:666
+#: ../data/SettingsBehaviour.ui:670
 msgid ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
@@ -703,7 +704,7 @@ msgstr ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Radyo ara</span>"
 
-#: ../data/SettingsBehaviour.ui:694
+#: ../data/SettingsBehaviour.ui:698
 msgid ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
@@ -711,7 +712,7 @@ msgstr ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobb'layıcı, bilgi, …</span>"
 
-#: ../data/SettingsBehaviour.ui:722
+#: ../data/SettingsBehaviour.ui:726
 msgid ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -719,11 +720,11 @@ msgstr ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Şarkı sözü arama</span>"
 
-#: ../data/SettingsBehaviour.ui:760
+#: ../data/SettingsBehaviour.ui:764
 msgid "Control your privacy by selecting allowed services"
 msgstr "İzin verilen hizmetleri seçerek gizliliğinizi kontrol edin"
 
-#: ../data/SettingsBehaviour.ui:781
+#: ../data/SettingsBehaviour.ui:785
 msgid ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -731,7 +732,7 @@ msgstr ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Kapak resmi ara</span>"
 
-#: ../data/SettingsBehaviour.ui:795
+#: ../data/SettingsBehaviour.ui:799
 msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -739,7 +740,7 @@ msgstr ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Kapak resmi ara</span>"
 
-#: ../data/SettingsBehaviour.ui:837
+#: ../data/SettingsBehaviour.ui:841
 msgid ""
 "AudioDB\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
@@ -749,7 +750,7 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Sanatçı biyografisi, kapak resmi ara, …"
 "</span>"
 
-#: ../data/SettingsBehaviour.ui:865
+#: ../data/SettingsBehaviour.ui:869
 msgid ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -757,11 +758,11 @@ msgstr ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Kapak resmi ara</span>"
 
-#: ../data/SettingsBehaviour.ui:917
+#: ../data/SettingsBehaviour.ui:921
 msgid "Only in party mode"
 msgstr "Yalnızca parti kipinde"
 
-#: ../data/SettingsBehaviour.ui:967
+#: ../data/SettingsBehaviour.ui:971
 msgid "Transition duration in seconds"
 msgstr "Saniye türünde geçiş süresi"
 
@@ -1109,16 +1110,16 @@ msgstr "Geri dön"
 msgid "Go home"
 msgstr "Anasayfaya git"
 
-#: ../lollypop/collectionscanner.py:488
+#: ../lollypop/collectionscanner.py:484
 msgid "Scan disabled, missing collection"
 msgstr "Tarama devre dışı, koleksiyon eksik"
 
-#: ../lollypop/collectionscanner.py:681 ../lollypop/database_tracks.py:411
-#: ../lollypop/tagreader.py:85 ../lollypop/tagreader.py:101
-#: ../lollypop/tagreader.py:172 ../lollypop/tagreader.py:220
-#: ../lollypop/tagreader.py:242 ../lollypop/tagreader.py:258
-#: ../lollypop/tagreader.py:262 ../lollypop/tagreader.py:272
-#: ../lollypop/tagreader.py:280
+#: ../lollypop/collectionscanner.py:677 ../lollypop/database_tracks.py:411
+#: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
+#: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
+#: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
+#: ../lollypop/tagreader.py:261 ../lollypop/tagreader.py:271
+#: ../lollypop/tagreader.py:279
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
@@ -1323,7 +1324,7 @@ msgstr "Oynatma Listesi"
 msgid "Remove this playlist?"
 msgstr "Bu çalma listesi kaldırılsın mı?"
 
-#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:143
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
 msgid "Cancel"
 msgstr "İptal"
 
@@ -1383,14 +1384,6 @@ msgstr "Yeni çalma listesi "
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Sevilen parçalar"
-
-#: ../lollypop/pop_tracks.py:153 ../lollypop/widgets_banner_artist.py:271
-msgid "Add to current playlist"
-msgstr "Geçerli çalma listesine ekle"
-
-#: ../lollypop/pop_tracks.py:159 ../lollypop/widgets_banner_artist.py:278
-msgid "Remove from current playlist"
-msgstr "Geçerli çalma listesinden kaldır"
 
 #: ../lollypop/pop_tunein.py:85 ../lollypop/pop_tunein.py:367
 msgid "Can't connect to TuneIn…"
@@ -1527,16 +1520,16 @@ msgstr "Spotify'ı etkinleştirmeniz gerekir "
 msgid "and YouTube in network settings"
 msgstr "ve YouTube ağ ayarlarını da"
 
-#: ../lollypop/view_albums_box.py:441
+#: ../lollypop/view_albums_box.py:423
 msgid "Others compilations"
 msgstr "Diğer derlemeler"
 
-#: ../lollypop/view_albums_box.py:470
+#: ../lollypop/view_albums_box.py:452
 msgid "Popular albums at the moment"
 msgstr "Şu an popüler albümler"
 
 #: ../lollypop/view_artists_rounded.py:109
-#: ../lollypop/widgets_banner_artist.py:161
+#: ../lollypop/widgets_banner_artist.py:146
 msgid "Similar artists"
 msgstr "Benzer sanatçılar"
 
@@ -1553,7 +1546,7 @@ msgstr "Bilgi yükleniyor"
 msgid "No information for %s"
 msgstr "%s için bilgi yok"
 
-#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:159
+#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:128
 msgid "No track playing"
 msgstr "Çalınan parça yok"
 
@@ -1577,12 +1570,12 @@ msgstr "Şarkı sözü bulunamadı "
 msgid "No items to show"
 msgstr "Gösterilecek öge yok"
 
-#: ../lollypop/view_search.py:46 ../lollypop/view_search.py:87
-#: ../lollypop/view_search.py:130
+#: ../lollypop/view_search.py:46 ../lollypop/view_search.py:90
+#: ../lollypop/view_search.py:133
 msgid "Search for artists, albums and tracks"
 msgstr "Sanatçıları, albümleri ve parçaları ara"
 
-#: ../lollypop/view_search.py:223
+#: ../lollypop/view_search.py:226
 msgid "No results for this search"
 msgstr "Bu arama için sonuç yok"
 
@@ -1598,7 +1591,7 @@ msgstr "Spotify'dan yeni albümler"
 msgid "Welcome on Lollypop"
 msgstr "Lolipop'a Hoş Geldiniz"
 
-#: ../lollypop/view_tracks.py:99
+#: ../lollypop/view_tracks.py:89
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
@@ -1606,7 +1599,7 @@ msgstr ""
 "Bu albümde şarkı yok. Etiketleri kontrol edin, tüm 'albüm sanatçısı' "
 "etiketlerinin 'sanatçı' etiketlerinde olması gerekir"
 
-#: ../lollypop/view_tracks.py:361
+#: ../lollypop/view_tracks.py:367
 #, python-format
 msgid "Disc %s"
 msgstr "%s diski"
@@ -1623,6 +1616,14 @@ msgstr "Kapak resmi seç"
 msgid "Remove"
 msgstr "Kaldır"
 
+#: ../lollypop/widgets_banner_artist.py:264
+msgid "Add to current playlist"
+msgstr "Geçerli çalma listesine ekle"
+
+#: ../lollypop/widgets_banner_artist.py:271
+msgid "Remove from current playlist"
+msgstr "Geçerli çalma listesinden kaldır"
+
 #: ../lollypop/widgets_banner_current_albums.py:39
 msgid "Clear albums"
 msgstr "Albümleri temizle"
@@ -1635,11 +1636,11 @@ msgstr "Geçerli parçaya git"
 msgid "<b>Album of the day</b>\n"
 msgstr "<b>Günün albümü</b>\n"
 
-#: ../lollypop/widgets_device.py:118
+#: ../lollypop/widgets_device.py:119
 msgid "No synchronized albums"
 msgstr "Eşitlenmiş albüm yok"
 
-#: ../lollypop/widgets_device.py:129
+#: ../lollypop/widgets_device.py:130
 msgid "No synchronized playlists"
 msgstr "Eşitlenmiş oynatma listesi yok"
 
@@ -1826,6 +1827,19 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "şarkıcı"
+
+#~ msgid ""
+#~ "Lollypop is a lightweight modern music player designed to work "
+#~ "excellently on the GNOME desktop environment. It also features a party "
+#~ "mode which will auto-select party-related playlists; access the player "
+#~ "from your couch in fullscreen thanks to HiDPI support; and native support "
+#~ "for ReplayGain."
+#~ msgstr ""
+#~ "Lollypop, GNOME masaüstü ortamında mükemmel çalışacak şekilde tasarlanmış "
+#~ "hafif ve modern bir müzik çalardır. Ayrıca parti ile ilgili çalma "
+#~ "listelerini otomatik olarak seçecek bir parti moduna da sahiptir; HiDPI "
+#~ "desteği sayesinde müzik çalara kanepenizden tam ekran olarak erişin; ve "
+#~ "ReplayGain için yerel desteğe sahiptir."
 
 #~ msgid "Replay gain value in dB"
 #~ msgstr "Yeniden kazanım değeri dB"
