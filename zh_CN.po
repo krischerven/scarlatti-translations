@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-10 21:11+0100\n"
-"PO-Revision-Date: 2019-08-11 13:27+0000\n"
-"Last-Translator: Elizabeth Sherrock <lizzyd710@gmail.com>\n"
+"PO-Revision-Date: 2019-11-12 06:20+0000\n"
+"Last-Translator: Zhenkai Weng <oakrc@protonmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:34
 msgid "Window size"
@@ -84,13 +84,13 @@ msgstr "类型 ID。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:89
 msgid "Allow syncing to USB disks"
-msgstr ""
+msgstr "允许向USB设备同步"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:99
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
-msgstr ""
+msgstr "点选后，Lollypop会用此服务器代替YouTube （参照 https://github.com/omarroth/invidious）"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "Import playlists from collections"
-msgstr ""
+msgstr "从库内导入播放列表"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:114
 msgid "Music URI"
@@ -114,7 +114,7 @@ msgstr "使用 Libre.fm 而不是 Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "ListenBrainz user token"
-msgstr ""
+msgstr "ListenBrainz用户口令"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid "Google Custom Search API key"
@@ -148,7 +148,7 @@ msgstr "专辑封面大小"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:154
 msgid "ReplayGain value in dB"
-msgstr ""
+msgstr "ReplayGain dB值"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:155
 msgid "Between -15 and 15"
@@ -156,7 +156,7 @@ msgstr "界于-15和15之间"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:159
 msgid "Encoding quality"
-msgstr ""
+msgstr "编码质量"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsBehaviour.ui:33
 #: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
@@ -165,11 +165,11 @@ msgstr "自动更新音乐"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:169
 msgid "Show performers"
-msgstr ""
+msgstr "展示演奏者"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:174
 msgid "Show tracks in artist view"
-msgstr ""
+msgstr "在艺术家视图下展示曲目"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:179 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
@@ -186,7 +186,7 @@ msgstr "不使用客户侧窗口装饰（标题栏）"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:194
 msgid "Disable scrobbling usage"
-msgstr ""
+msgstr "关闭Scrobbling"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:199
 msgid "Handle compilations"
@@ -203,7 +203,7 @@ msgstr "关闭后继续播放"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Append albums by default"
-msgstr ""
+msgstr "自动添加专辑"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Smart sort for artist"
@@ -211,7 +211,7 @@ msgstr "艺术家智能排序"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
-msgstr ""
+msgstr "例：The Beatles 会被视作 Beatles（需要重设数据库）"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Show sort tag as artist. Reset of database may be required"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "例： Beatles, The"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Restore previous state"
@@ -231,7 +231,7 @@ msgstr "关闭MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:239
 msgid "Notifications behaviour"
-msgstr ""
+msgstr "通知行为"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:248
 msgid "Show track number from tags"
@@ -247,11 +247,11 @@ msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:268
 msgid "Force single column mode"
-msgstr ""
+msgstr "强制使用单列模式"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:273
 msgid "Equalizer enabled"
-msgstr ""
+msgstr "使用均衡器"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Smooth track transitions"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Show labels in sidebar"
-msgstr ""
+msgstr "在边栏内显示标签"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Only mix songs in party mode"
@@ -267,7 +267,7 @@ msgstr "仅在派对模式使用混音歌曲"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Smoothing duration"
-msgstr ""
+msgstr "平滑化时长"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
@@ -275,11 +275,11 @@ msgstr "重排曲目"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Ignore internal symlinks"
-msgstr ""
+msgstr "忽略内部符号链接"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "ReplayGain state"
-msgstr ""
+msgstr "ReplayGain 状态"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "Possibilities for powermanagement options"
@@ -291,7 +291,7 @@ msgstr "在Lollypop录音时该选项会阻止屏幕保护程序和电脑挂起�
 
 #: ../data/org.gnome.Lollypop.gschema.xml:333
 msgid "Repeat"
-msgstr ""
+msgstr "重放"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:338 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
@@ -336,7 +336,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:82 ../lollypop/container_notification.py:86
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:92 ../lollypop/container_notification.py:86
 msgid "PayPal"
@@ -345,12 +345,12 @@ msgstr "PayPal"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
-msgstr ""
+msgstr "Lollypop"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:9
 #: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr ""
+msgstr "播放与整理你的音乐集"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:11
 msgid ""
@@ -363,31 +363,31 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "多种音频格式 -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
-msgstr ""
+msgstr "元信息 -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "同步 -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
+msgstr "音频Scrobbling"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
-msgstr ""
+msgstr "音乐播放器"
 
 #: ../data/org.gnome.Lollypop.desktop.in:7
 msgid "org.gnome.Lollypop"
-msgstr ""
+msgstr "org.gnome.Lollypop"
 
 #: ../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
-msgstr ""
+msgstr "播放/暂停"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23 ../lollypop/notification.py:40
 msgid "Next"
@@ -399,15 +399,15 @@ msgstr "上一曲"
 
 #: ../data/Appmenu.ui:45
 msgid "Update music"
-msgstr ""
+msgstr "更新音乐"
 
 #: ../data/Appmenu.ui:63
 msgid "Equalizer"
-msgstr ""
+msgstr "均衡器"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
-msgstr ""
+msgstr "全屏"
 
 #: ../data/Appmenu.ui:109
 msgid "_Preferences"
@@ -419,11 +419,11 @@ msgstr "键盘快捷键(_K)"
 
 #: ../data/Appmenu.ui:137
 msgid "_About Lollypop"
-msgstr ""
+msgstr "关于Lollypop(_A)"
 
 #: ../data/Appmenu.ui:151
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: ../data/ArtistBannerWidget.ui:88
 msgid "Play albums"
@@ -436,7 +436,7 @@ msgstr ""
 
 #: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
-msgstr ""
+msgstr "前往艺术家视图"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -452,27 +452,27 @@ msgstr ""
 
 #: ../data/DeviceWidget.ui:131
 msgid "Do not convert"
-msgstr ""
+msgstr "勿转化"
 
 #: ../data/DeviceWidget.ui:148
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../data/DeviceWidget.ui:165
 msgid "Ogg Vorbis"
-msgstr ""
+msgstr "Ogg Vorbis"
 
 #: ../data/DeviceWidget.ui:182
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../data/DeviceWidget.ui:199
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../data/DeviceWidget.ui:235
 msgid "Synchronized:"
-msgstr ""
+msgstr "同步："
 
 #: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:41
 #: ../lollypop/shown.py:37
@@ -488,7 +488,7 @@ msgstr "播放列表"
 #: ../data/DeviceWidget.ui:315 ../lollypop/widgets_device.py:137
 #: ../lollypop/widgets_device.py:338
 msgid "Synchronize"
-msgstr ""
+msgstr "同步"
 
 #: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
 #: ../lollypop/pop_tunein.py:192 ../lollypop/view_tracks.py:376
