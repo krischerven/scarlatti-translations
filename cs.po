@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-12 07:21+0100\n"
-"PO-Revision-Date: 2019-08-27 16:29+0000\n"
+"PO-Revision-Date: 2019-12-11 16:46+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
 ">\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:34
 msgid "Window size"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid "If true, Lollypop will not use system youtube-dl"
-msgstr ""
+msgstr "Pokud je povoleno, Lollypop nebude používat youtube-dl systému"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "Import playlists from collections"
@@ -151,7 +151,7 @@ msgstr "Velikost obalu alba"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:154
 msgid "ReplayGain value in dB"
-msgstr ""
+msgstr "Hodnota pro vyrovnání hlasitosti v dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:155
 msgid "Between -15 and 15"
@@ -172,7 +172,7 @@ msgstr "Ukázat účinkující"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:174
 msgid "Show tracks in artist view"
-msgstr ""
+msgstr "Ukázat skladby v přehledu umělců"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:179 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
@@ -282,11 +282,11 @@ msgstr "Zamíchat skladby"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Ignore internal symlinks"
-msgstr ""
+msgstr "Přehlížet vnitřní symbolické odkazy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "ReplayGain state"
-msgstr ""
+msgstr "Stav vyrovnání hlasitosti přehrávaných skladeb"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "Possibilities for powermanagement options"
@@ -334,6 +334,17 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    ikona Lollypopu\n"
+"Vývojářské družstvo Geary:\n"
+"    ikona pro symbolizaci seznamu značek\n"
+"Projekt GNOME:\n"
+"    symbolizace nepřehraných alb\n"
+"    ikony pro symbolizaci seznamu umělců\n"
+"Martins D. Okoi:\n"
+"    Popis v appdata\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:65
 msgid "Donations:"
@@ -369,6 +380,13 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
+"Lollypop je lehký pokrokový přehrávač navržený tak, aby pracoval výborně v "
+"prostředí pracovní plochy GNOME. Je vybaven i večírkovým režimem, v němž "
+"jsou automaticky vybírány seznamy skladeb spojené se společenskými "
+"událostmi. Díky svému celoobrazovkovému režimu dává možnost přehrávač "
+"ovládat z pohodlí lehátka. Natahuje z internetových databází slova písní, "
+"obrázky týkající se děl a umělců a životopisy. Poskytuje vlastní podporu pro "
+"vyrovnání hlasitosti přehrávaných skladeb."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -597,15 +615,15 @@ msgstr "Povolit přístup k síti"
 
 #: ../data/SettingsBehaviour.ui:364
 msgid "ReplayGain"
-msgstr ""
+msgstr "Vyrovnání hlasitosti"
 
 #: ../data/SettingsBehaviour.ui:389
 msgid "Disabled"
-msgstr ""
+msgstr "Zakázáno"
 
 #: ../data/SettingsBehaviour.ui:390
 msgid "Track"
-msgstr ""
+msgstr "Skladba"
 
 #: ../data/SettingsBehaviour.ui:391 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
@@ -740,6 +758,8 @@ msgid ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Hledání výtvarných děl</span>"
 
 #: ../data/SettingsBehaviour.ui:921
 msgid "Only in party mode"
@@ -782,7 +802,7 @@ msgstr "Připojit"
 #: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
 #: ../lollypop/widgets_settings_web.py:195
 msgid "Disabled in network settings"
-msgstr ""
+msgstr "Zakázáno v nastavení sítě"
 
 #: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
@@ -837,18 +857,21 @@ msgid ""
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
+"Použít poslední verzi youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Zapnout, pokud nepracuje přehrávání "
+"internetových stránek</span>"
 
 #: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Použít server Invidious"
 
 #: ../data/SettingsWeb.ui:493
 msgid "No server set"
-msgstr ""
+msgstr "Nenastaven žádný server"
 
 #: ../data/SettingsWeb.ui:531
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -868,7 +891,7 @@ msgstr "Hledat"
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Party mode"
-msgstr "Večírek"
+msgstr "Večírkový režim"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -1186,11 +1209,11 @@ msgstr "Dostupná alba"
 
 #: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
-msgstr ""
+msgstr "Alba na internetu"
 
 #: ../lollypop/menu_artist.py:93
 msgid "Show tracks"
-msgstr ""
+msgstr "Ukázat skladby"
 
 #: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
 msgid "Save in collection"
@@ -1210,7 +1233,7 @@ msgstr "Upravit údaje"
 
 #: ../lollypop/menu_edit.py:184
 msgid "Please install EasyTAG or Kid3"
-msgstr ""
+msgstr "Nainstalujte EasyTAG nebo Kid3"
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
 #: ../lollypop/menu_objects.py:77 ../lollypop/menu_objects.py:100
@@ -1233,7 +1256,7 @@ msgstr "Adresa stránky YouTube"
 
 #: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
 msgid "Show tracks number"
-msgstr ""
+msgstr "Ukázat čísla skladeb"
 
 #: ../lollypop/menu_playback.py:48 ../lollypop/shown.py:41
 #: ../lollypop/widgets_banner_current_albums.py:62
@@ -1250,19 +1273,19 @@ msgstr "Odstranit z řady skladeb k přehrání"
 
 #: ../lollypop/menu_playback.py:138
 msgid "Play this playlist"
-msgstr ""
+msgstr "Přehrát tento seznam skladeb"
 
 #: ../lollypop/menu_playback.py:179
 msgid "Play this artist"
-msgstr ""
+msgstr "Přehrát tohoto umělce"
 
 #: ../lollypop/menu_playback.py:243
 msgid "Play this genre"
-msgstr ""
+msgstr "Přehrát tento žánr"
 
 #: ../lollypop/menu_playback.py:317
 msgid "Play this decade"
-msgstr ""
+msgstr "Přehrát toto desetiletí"
 
 #: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
 msgid "Play this album"
@@ -1298,7 +1321,7 @@ msgstr "Odstranit seznam skladeb"
 
 #: ../lollypop/menu_playlist.py:62
 msgid "Playlist"
-msgstr ""
+msgstr "Seznam skladeb"
 
 #: ../lollypop/menu_playlist.py:90
 msgid "Remove this playlist?"
@@ -1403,7 +1426,7 @@ msgstr "Nedávno přidaná alba"
 
 #: ../lollypop/shown.py:29
 msgid "Seldomly played albums"
-msgstr ""
+msgstr "Zřídkakdy přehrávaná alba"
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:38
 msgid "Radios"
@@ -1455,11 +1478,11 @@ msgstr "Nedávno přehrávané skladby"
 
 #: ../lollypop/shown.py:72
 msgid "Seldomly played tracks"
-msgstr ""
+msgstr "Zřídkakdy přehrávané skladby"
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
-msgstr ""
+msgstr "Všechny skladby"
 
 #: ../lollypop/toolbar_end.py:233
 msgid "All genres"
@@ -1502,7 +1525,7 @@ msgstr "a YouTube v nastavení sítě"
 
 #: ../lollypop/view_albums_box.py:423
 msgid "Others compilations"
-msgstr ""
+msgstr "Jiné kompilace"
 
 #: ../lollypop/view_albums_box.py:452
 msgid "Popular albums at the moment"
@@ -1569,7 +1592,7 @@ msgstr "Nová alba ze Spotify"
 
 #: ../lollypop/view_suggestions.py:127
 msgid "Welcome to Lollypop"
-msgstr ""
+msgstr "Vítejte v Lollypopu"
 
 #: ../lollypop/view_tracks.py:89
 msgid ""
@@ -1614,7 +1637,7 @@ msgstr "Jít na nynější skladbu"
 
 #: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day</b>\n"
-msgstr ""
+msgstr "<b>Album dne</b>\n"
 
 #: ../lollypop/widgets_device.py:119
 msgid "No synchronized albums"
