@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-12 07:21+0100\n"
+"POT-Creation-Date: 2020-01-06 07:26+0100\n"
 "PO-Revision-Date: 2019-11-14 10:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -43,13 +43,13 @@ msgstr "Pencere konumu (x ve y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:49
 #: ../data/org.gnome.Lollypop.gschema.xml:54
 #: ../data/org.gnome.Lollypop.gschema.xml:69
-#: ../data/org.gnome.Lollypop.gschema.xml:94
-#: ../data/org.gnome.Lollypop.gschema.xml:244
-#: ../data/org.gnome.Lollypop.gschema.xml:253
+#: ../data/org.gnome.Lollypop.gschema.xml:99
+#: ../data/org.gnome.Lollypop.gschema.xml:249
 #: ../data/org.gnome.Lollypop.gschema.xml:258
-#: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 #: ../data/org.gnome.Lollypop.gschema.xml:283
 #: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "INTERNAL"
 msgstr "DAHİLİ"
 
@@ -81,11 +81,15 @@ msgstr "Parti kipinde türleri etkinleştir"
 msgid "ID for genres."
 msgstr "Türler için kimlik."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:89
+#: ../data/org.gnome.Lollypop.gschema.xml:89 ../data/SearchBannerWidget.ui:8
+msgid "Search on Spotify"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:94
 msgid "Allow syncing to USB disks"
 msgstr "USB disklerle eşitlemeye izin ver"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:99
+#: ../data/org.gnome.Lollypop.gschema.xml:104
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
@@ -93,217 +97,217 @@ msgstr ""
 "Ayarlanırsa, Lollypop YouTube yerine bu sunucuyu kullanır. Bkz https://"
 "github.com/omarroth/invidious"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:104
+#: ../data/org.gnome.Lollypop.gschema.xml:109
 msgid "If true, Lollypop will not use system youtube-dl"
 msgstr "Ayarlanırsa, Lollypop youtube-dl sistemini kullanmayacak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:109
+#: ../data/org.gnome.Lollypop.gschema.xml:114
 msgid "Import playlists from collections"
 msgstr "Çalma listelerini koleksiyonlardan içe aktar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:114
+#: ../data/org.gnome.Lollypop.gschema.xml:119
 msgid "Music URI"
 msgstr "Müzik URI'si"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:115
+#: ../data/org.gnome.Lollypop.gschema.xml:120
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Boş olduğunda XDG_MUSIC_DIR kullan"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:119
+#: ../data/org.gnome.Lollypop.gschema.xml:124
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Last.fm yerine Libre.fm kullan"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:124
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz kullanıcı jetonu"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:129
+#: ../data/org.gnome.Lollypop.gschema.xml:134
 msgid "Google Custom Search API key"
 msgstr "Google Özel Arama API anahtarı"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid "Favorite tag editor"
 msgstr "Gözde etiket düzenleyicisi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:139
+#: ../data/org.gnome.Lollypop.gschema.xml:144
 msgid "Favorite cover file"
 msgstr "Gözde kapak dosyası"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:140
-#: ../data/org.gnome.Lollypop.gschema.xml:235
+#: ../data/org.gnome.Lollypop.gschema.xml:145
+#: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Restart needed"
 msgstr "Yeniden başlatma gerekli"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:144
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Database version"
 msgstr "Veri tabanı sürümü"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:145
+#: ../data/org.gnome.Lollypop.gschema.xml:150
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Bu değeri sıfırlamak veri tabanını sıfırlayacaktır, gözde albümler "
 "kurtarılacaktır"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:149 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:154 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Albüm kapak boyutu"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:154
+#: ../data/org.gnome.Lollypop.gschema.xml:159
 msgid "ReplayGain value in dB"
 msgstr "dB cinsinden ReplayGain değeri"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:155
+#: ../data/org.gnome.Lollypop.gschema.xml:160
 msgid "Between -15 and 15"
 msgstr "-15 ile 15 arasında"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:159
+#: ../data/org.gnome.Lollypop.gschema.xml:164
 msgid "Encoding quality"
 msgstr "Kodlama kalitesi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:164 ../data/SettingsBehaviour.ui:33
+#: ../data/org.gnome.Lollypop.gschema.xml:169 ../data/SettingsBehaviour.ui:33
 #: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
 msgid "Auto update music"
 msgstr "Müziği otomatik güncelle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:169
+#: ../data/org.gnome.Lollypop.gschema.xml:174
 msgid "Show performers"
 msgstr "Sanatçıları göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:174
+#: ../data/org.gnome.Lollypop.gschema.xml:179
 msgid "Show tracks in artist view"
 msgstr "Sanatçı görünümünde parçaları göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:179 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:184 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Sanatçı kapak resmini göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:184
+#: ../data/org.gnome.Lollypop.gschema.xml:189
 msgid "Use dark GTK theme"
 msgstr "Koyu GTK gövdesi kullan"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:189
+#: ../data/org.gnome.Lollypop.gschema.xml:194
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 "İstemci tarafı pencere süslemeleri (üst çubuk) kullanımını devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:194
+#: ../data/org.gnome.Lollypop.gschema.xml:199
 msgid "Disable scrobbling usage"
 msgstr "Skroplama kullanımını devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:199
+#: ../data/org.gnome.Lollypop.gschema.xml:204
 msgid "Handle compilations"
 msgstr "Derlemeleri işle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:204 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:209 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Derlemeleri albüm görünümünde göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:209 ../data/SettingsBehaviour.ui:80
+#: ../data/org.gnome.Lollypop.gschema.xml:214 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
 msgstr "Kapandığında kayıttan çalmaya devam et"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:214
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Append albums by default"
 msgstr "Albümleri öntanımlı olarak ekle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:219
+#: ../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Smart sort for artist"
 msgstr "Sanatçı için akıllı sıralama"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Ör: The Beatles, Beatles olarak sıralanır. Veri tabanının sıfırlanması "
 "gerekir"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:224
+#: ../data/org.gnome.Lollypop.gschema.xml:229
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Sıralama etiketini sanatçı olarak göster. Veri tabanının sıfırlanması "
 "gerekebilir"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:225
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Ex: Beatles, The"
 msgstr "Örn: Saz, İnce"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:229
+#: ../data/org.gnome.Lollypop.gschema.xml:234
 msgid "Restore previous state"
 msgstr "Önceki durumu geri yükle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:234
+#: ../data/org.gnome.Lollypop.gschema.xml:239
 msgid "Disable MPRIS"
 msgstr "MPRISʼi devre dışı bırak"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:239
+#: ../data/org.gnome.Lollypop.gschema.xml:244
 msgid "Notifications behaviour"
 msgstr "Bildirimler davranışı"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:253
 msgid "Show track number from tags"
 msgstr "Parça numarasını etiketten göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:268
 msgid "JPG cover quality"
 msgstr "JPG kapak kalitesi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:264
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:268
+#: ../data/org.gnome.Lollypop.gschema.xml:273
 msgid "Force single column mode"
 msgstr "Tek sütun kipini zorla"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:273
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "Equalizer enabled"
 msgstr "Dengeleyici etkin"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Smooth track transitions"
 msgstr "Yumuşak parça geçişleri"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Show labels in sidebar"
 msgstr "Etiketleri kenar çubuğunda göster"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Only mix songs in party mode"
 msgstr "Şarkıları yalnızca parti kipinde karıştır"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Smoothing duration"
 msgstr "Yumuşama süresi"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:318 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Parçaları karıştır"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318
+#: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "Ignore internal symlinks"
 msgstr "Dahili sembolik linkleri yoksay"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:323
+#: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "ReplayGain state"
 msgstr "ReplayGain durumu"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:328
+#: ../data/org.gnome.Lollypop.gschema.xml:333
 msgid "Possibilities for powermanagement options"
 msgstr "Güç yönetimi seçenekleri için olasılıklar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:329
+#: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Bu seçenek ekran koruyucuyu önler ve Lollypop'un kayıttan çalması boyunca "
 "askıya alır."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:333
+#: ../data/org.gnome.Lollypop.gschema.xml:338
 msgid "Repeat"
 msgstr "Tekrarla"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:338 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:343 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Albümleri şuna göre sırala"
 
@@ -505,7 +509,7 @@ msgid "Synchronized:"
 msgstr "Eşitlenen:"
 
 #: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:41
-#: ../lollypop/shown.py:37
+#: ../lollypop/shown.py:37 ../lollypop/view_albums_line.py:208
 msgid "Albums"
 msgstr "Albümler"
 
@@ -520,8 +524,8 @@ msgstr "Çalma listeleri"
 msgid "Synchronize"
 msgstr "Eşzamanla"
 
-#: ../data/PlaylistBannerWidget.ui:74 ../data/SearchBannerWidget.ui:66
-#: ../lollypop/pop_tunein.py:192 ../lollypop/view_tracks.py:376
+#: ../data/PlaylistBannerWidget.ui:74 ../lollypop/pop_tunein.py:192
+#: ../lollypop/view_tracks_album.py:212
 #: ../lollypop/widgets_player_buttons.py:151
 msgid "Play"
 msgstr "Çal"
@@ -542,10 +546,6 @@ msgstr "Kaydet"
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
 msgstr "Adres:"
-
-#: ../data/SearchBannerWidget.ui:87 ../lollypop/menu_playback.py:38
-msgid "Create a new playlist"
-msgstr "Yeni çalma listesi oluştur"
 
 #: ../data/SettingsAppearance.ui:36 ../data/SettingsAppearance.ui:50
 msgid "Use dark theme variant"
@@ -604,8 +604,8 @@ msgstr "Koleksiyonlarda bulunan çalma listeleri dosyalarını içe aktar"
 msgid "Save changes to files"
 msgstr "Değişiklikleri dosyalara kaydet"
 
-#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:514
-#: ../lollypop/widgets_rating.py:205
+#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:517
+#: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli'i indirmen gerekmektedir"
 
@@ -1115,11 +1115,11 @@ msgstr "Geri dön"
 msgid "Go home"
 msgstr "Anasayfaya git"
 
-#: ../lollypop/collectionscanner.py:484
+#: ../lollypop/collectionscanner.py:482
 msgid "Scan disabled, missing collection"
 msgstr "Tarama devre dışı, koleksiyon eksik"
 
-#: ../lollypop/collectionscanner.py:677 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:666 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1217,7 +1217,7 @@ msgstr "Web'deki Albümler"
 msgid "Show tracks"
 msgstr "Parçaları göster"
 
-#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:128
+#: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:129
 msgid "Save in collection"
 msgstr "Koleksiyona kaydet"
 
@@ -1233,7 +1233,7 @@ msgstr "Bu albümü satın al"
 msgid "Modify information"
 msgstr "Bilgileri değiştir"
 
-#: ../lollypop/menu_edit.py:184
+#: ../lollypop/menu_edit.py:185
 msgid "Please install EasyTAG or Kid3"
 msgstr "Lütfen EasyTAG veya Kid3'ü kurun"
 
@@ -1256,6 +1256,10 @@ msgstr "%Y-%m-%d"
 msgid "YouTube page address"
 msgstr "YouTube sayfa adresi"
 
+#: ../lollypop/menu_playback.py:38
+msgid "Create a new playlist"
+msgstr "Yeni çalma listesi oluştur"
+
 #: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
 msgid "Show tracks number"
 msgstr "Parça numarasını göster"
@@ -1265,11 +1269,11 @@ msgstr "Parça numarasını göster"
 msgid "Playing albums"
 msgstr "Çalınan albümler"
 
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:311
+#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:312
 msgid "Add to playback"
 msgstr "Kayıttan çalmaya ekle"
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:318
+#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:319
 msgid "Remove from playback"
 msgstr "Kayıttan çalmadan kaldır"
 
@@ -1289,7 +1293,7 @@ msgstr "Bu türü çal"
 msgid "Play this decade"
 msgstr "Bu onluyu çal"
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:120
+#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:121
 msgid "Play this album"
 msgstr "Bu albümü çal"
 
@@ -1373,7 +1377,7 @@ msgstr "Sonuç yok"
 msgid "All devices"
 msgstr "Tüm cihazlar"
 
-#: ../lollypop/objects_radio.py:31 ../lollypop/objects_radio.py:61
+#: ../lollypop/objects_radio.py:32 ../lollypop/objects_radio.py:62
 msgid "Radio"
 msgstr "Radyo"
 
@@ -1450,7 +1454,7 @@ msgstr "Türler (liste)"
 msgid "Lyrics"
 msgstr "Şarkı sözleri"
 
-#: ../lollypop/shown.py:38
+#: ../lollypop/shown.py:38 ../lollypop/view_artists_line.py:133
 msgid "Artists"
 msgstr "Sanatçılar"
 
@@ -1505,42 +1509,42 @@ msgstr "%s s"
 msgid "%s m"
 msgstr "%s d"
 
-#: ../lollypop/utils.py:364
+#: ../lollypop/utils.py:353
 msgid "The the"
 msgstr "Bu bu"
 
-#: ../lollypop/view_albums_box.py:52 ../lollypop/view_lyrics.py:276
+#: ../lollypop/view_albums_box.py:51 ../lollypop/view_lyrics.py:278
 msgid "Network not available"
 msgstr "Ağ kullanılamıyor"
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
 msgstr "youtube-dl komutu eksik"
 
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:60
 msgid "You need to enable Spotify "
 msgstr "Spotify'ı etkinleştirmeniz gerekir "
 
-#: ../lollypop/view_albums_box.py:62
+#: ../lollypop/view_albums_box.py:61
 msgid "and YouTube in network settings"
 msgstr "ve YouTube ağ ayarlarını da"
 
-#: ../lollypop/view_albums_box.py:423
+#: ../lollypop/view_albums_line.py:137
 msgid "Others compilations"
 msgstr "Diğer derlemeler"
 
-#: ../lollypop/view_albums_box.py:452
+#: ../lollypop/view_albums_line.py:166
 msgid "Popular albums at the moment"
 msgstr "Şu an popüler albümler"
 
-#: ../lollypop/view_artists_rounded.py:109
+#: ../lollypop/view_artists_line.py:104
+msgid "Why not listen to?"
+msgstr "Neden dinlemiyorsun?"
+
+#: ../lollypop/view_artists_rounded.py:103
 #: ../lollypop/widgets_banner_artist.py:146
 msgid "Similar artists"
 msgstr "Benzer sanatçılar"
-
-#: ../lollypop/view_artists_rounded.py:286
-msgid "Why not listen to?"
-msgstr "Neden dinlemiyorsun?"
 
 #: ../lollypop/view_information.py:231
 msgid "Loading information"
@@ -1551,23 +1555,23 @@ msgstr "Bilgi yükleniyor"
 msgid "No information for %s"
 msgstr "%s için bilgi yok"
 
-#: ../lollypop/view_lyrics.py:94 ../lollypop/widgets_banner_lyrics.py:128
+#: ../lollypop/view_lyrics.py:95 ../lollypop/widgets_banner_lyrics.py:129
 msgid "No track playing"
 msgstr "Çalınan parça yok"
 
-#: ../lollypop/view_lyrics.py:120
+#: ../lollypop/view_lyrics.py:121
 msgid "Loading…"
 msgstr "Yükleniyor…"
 
-#: ../lollypop/view_lyrics.py:233
+#: ../lollypop/view_lyrics.py:235
 msgid "You need to install python3-textblob module"
 msgstr "python3-textblob modülünü kurmanız gerekiyor"
 
-#: ../lollypop/view_lyrics.py:238
+#: ../lollypop/view_lyrics.py:240
 msgid "Can't translate this lyrics"
 msgstr "Bu şarkı sözleri tercüme edilemiyor"
 
-#: ../lollypop/view_lyrics.py:279
+#: ../lollypop/view_lyrics.py:281
 msgid "No lyrics found "
 msgstr "Şarkı sözü bulunamadı "
 
@@ -1575,12 +1579,12 @@ msgstr "Şarkı sözü bulunamadı "
 msgid "No items to show"
 msgstr "Gösterilecek öge yok"
 
-#: ../lollypop/view_search.py:46 ../lollypop/view_search.py:90
-#: ../lollypop/view_search.py:133
+#: ../lollypop/view_search.py:135 ../lollypop/view_search.py:146
+#: ../lollypop/view_search.py:193
 msgid "Search for artists, albums and tracks"
 msgstr "Sanatçıları, albümleri ve parçaları ara"
 
-#: ../lollypop/view_search.py:226
+#: ../lollypop/view_search.py:297
 msgid "No results for this search"
 msgstr "Bu arama için sonuç yok"
 
@@ -1596,7 +1600,7 @@ msgstr "Spotify'dan yeni albümler"
 msgid "Welcome to Lollypop"
 msgstr "Lollypop'a Hoşgeldiniz"
 
-#: ../lollypop/view_tracks.py:89
+#: ../lollypop/view_tracks_album.py:67
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
@@ -1604,10 +1608,14 @@ msgstr ""
 "Bu albümde şarkı yok. Etiketleri kontrol edin, tüm 'albüm sanatçısı' "
 "etiketlerinin 'sanatçı' etiketlerinde olması gerekir"
 
-#: ../lollypop/view_tracks.py:367
+#: ../lollypop/view_tracks_album.py:203
 #, python-format
 msgid "Disc %s"
 msgstr "%s diski"
+
+#: ../lollypop/view_tracks_search.py:105
+msgid "Tracks"
+msgstr "Parçalar"
 
 #: ../lollypop/widgets_artwork_album.py:85
 msgid "Local"
@@ -1787,11 +1795,11 @@ msgstr "daha az"
 msgid "Song played %s times"
 msgstr "Şarkı %s kez çalındı"
 
-#: ../lollypop/widgets_row_album.py:105
+#: ../lollypop/widgets_row_album.py:106
 msgid "Compilation"
 msgstr "Derleme"
 
-#: ../lollypop/widgets_row_album.py:316 ../lollypop/widgets_row_track.py:113
+#: ../lollypop/widgets_row_album.py:317 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
 msgstr "Çalma listesinden kaldır"
 
@@ -2327,9 +2335,6 @@ msgstr "şarkıcı"
 
 #~ msgid "Change artwork"
 #~ msgstr "Çizimi değiştir"
-
-#~ msgid "Tracks"
-#~ msgstr "Parçalar"
 
 #~ msgid "<big>No results for this search</big>"
 #~ msgstr "<big>Bu arama için sonuç yok</big>"
