@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 08:58+0100\n"
-"PO-Revision-Date: 2020-01-16 20:21+0000\n"
+"PO-Revision-Date: 2020-01-20 14:21+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
 ">\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.2-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -60,11 +60,11 @@ msgstr "Hoes per nummer toestaan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:65
 msgid "Access network"
-msgstr "Netwerktoegang"
+msgstr "Internettoegang"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:75
 msgid "Save artwork/popularity in tags"
-msgstr "Albumhoezen/populariteit opslaan in tags"
+msgstr "Albumhoezen/Populariteit opslaan in tags"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:80
 msgid "Window maximized"
@@ -84,7 +84,7 @@ msgstr "ID voor genres."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
 msgid "Search on Spotify"
-msgstr ""
+msgstr "Zoeken op Spotify"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -95,10 +95,14 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
+"Schakel dit in om Lollypop gebruik te laten maken van deze server in plaats "
+"van YouTube. Zie https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:110
 msgid "If true, Lollypop will not use system youtube-dl"
 msgstr ""
+"Schakel dit in om geen gebruik te maken van de geïnstalleerde versie van "
+"youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:115
 msgid "Import playlists from collections"
@@ -106,19 +110,19 @@ msgstr "Afspeellijsten importeren uit verzamelingen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:120
 msgid "Music URI"
-msgstr "Muziek-URI"
+msgstr "Muziek-uri"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:121
 msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "Gebruik XDG_MUSIC_DIR wanneer leeg"
+msgstr "Gebruik XDG_MUSIC_DIR indien blanco"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:125
 msgid "Use Libre.fm instead of Last.fm"
-msgstr "Libre.fm i.p.v. Last.fm gebruiken"
+msgstr "Libre.fm in plaats van Last.fm gebruiken"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "ListenBrainz user token"
-msgstr "ListenBrainz-gebruikerstoken"
+msgstr "ListenBrainz-gebruikerssleutel"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:135
 msgid "Google Custom Search API key"
@@ -154,7 +158,7 @@ msgstr "Afmetingen van albumhoes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:160
 msgid "ReplayGain value in dB"
-msgstr ""
+msgstr "ReplayGain-waarden in dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Between -15 and 15"
@@ -175,7 +179,7 @@ msgstr "Uitvoerende artiesten tonen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:180
 msgid "Show tracks in artist view"
-msgstr ""
+msgstr "Nummers tonen in artiestweergave"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:185 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
@@ -184,7 +188,7 @@ msgstr "Artiestfoto tonen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:190
 msgid "Use dark GTK theme"
-msgstr "Donker GTK-thema gebruiken"
+msgstr "Donker thema gebruiken"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:195
 msgid "Disable use of client side window decorations (headerbar)"
@@ -205,11 +209,11 @@ msgstr "Compilaties tonen in albumoverzicht"
 #: ../data/org.gnome.Lollypop.gschema.xml:215 ../data/SettingsBehaviour.ui:80
 #: ../data/SettingsBehaviour.ui:94
 msgid "Continue playback when closed"
-msgstr "Doorgaan met afspelen wanneer gesloten"
+msgstr "Doorgaan met afspelen na sluiten van venster"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Append albums by default"
-msgstr ""
+msgstr "Albums standaard toevoegen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Smart sort for artist"
@@ -240,11 +244,11 @@ msgstr "MPRIS uitschakelen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:245
 msgid "Notifications behaviour"
-msgstr ""
+msgstr "Meldingen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:254
 msgid "Show track number from tags"
-msgstr "Liednummer uit tags tonen"
+msgstr "CD-nummer uit tags tonen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "JPG cover quality"
@@ -256,7 +260,7 @@ msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:274
 msgid "Force single column mode"
-msgstr ""
+msgstr "Eénkolommodus afdwingen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Equalizer enabled"
@@ -268,7 +272,7 @@ msgstr "Vloeiende overgang tussen nummers"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:304
 msgid "Show labels in sidebar"
-msgstr ""
+msgstr "Labels tonen in zijbalk"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:309
 msgid "Only mix songs in party mode"
@@ -284,11 +288,11 @@ msgstr "Nummers willekeurig afspelen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:324
 msgid "Ignore internal symlinks"
-msgstr ""
+msgstr "Interne symlinks negeren"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "ReplayGain state"
-msgstr ""
+msgstr "ReplayGain-status"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Possibilities for powermanagement options"
@@ -338,6 +342,17 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    Lollypop-pictogram\n"
+"Geary-ontwikkelaars:\n"
+"    tag-list-symbolic-pictogram\n"
+"GNOME-project:\n"
+"    unplayed-albums-symbolic\n"
+"    artists-list-symbolic-pictogrammen\n"
+"Martins D. Okoi:\n"
+"    Omschrijving in appdata\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:65
 msgid "Donations:"
@@ -363,7 +378,7 @@ msgstr "Lollypop"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:9
 #: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr "Organiseer je muziekverzameling en speel muziek af"
+msgstr "Breng orde in je muziekverzameling en speel muziek af"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:11
 msgid ""
@@ -373,22 +388,28 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
+"Lollypop is een lichte, moderne muziekspeler, ontworpen voor de GNOME-"
+"werkomgeving. Lollypop beschikt over een speciale feestmodus, welke "
+"automatisch feestgerelateerde afspeellijsten afspeelt, een beeldvullende "
+"modus voor bediening vanaf de bank, het ophalen van songteksten, online "
+"opzoeken van albumhoezen en biografieën, en ingebouwde ondersteuning voor "
+"ReplayGain."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "Meerdere audioformaten –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
-msgstr ""
+msgstr "Metagegevens –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "Synchronisatie –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
+msgstr "Audioscrobbling –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -412,15 +433,15 @@ msgstr "Vorige"
 
 #: ../data/Appmenu.ui:45
 msgid "Update music"
-msgstr "Muziek bijwerken"
+msgstr "Verzameling bijwerken"
 
 #: ../data/Appmenu.ui:63
 msgid "Equalizer"
-msgstr "Equaliser"
+msgstr "Equalizer"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
-msgstr "Volledig scherm"
+msgstr "Beeldvullend"
 
 #: ../data/Appmenu.ui:109
 msgid "_Preferences"
@@ -436,7 +457,7 @@ msgstr "_Over Lollypop"
 
 #: ../data/Appmenu.ui:151
 msgid "Quit"
-msgstr ""
+msgstr "Afsluiten"
 
 #: ../data/ArtistBannerWidget.ui:88
 msgid "Play albums"
@@ -553,7 +574,7 @@ msgstr "Populariteit"
 
 #: ../data/SettingsAppearance.ui:258 ../lollypop/menu_edit.py:77
 msgid "Clean cache"
-msgstr "Cache wissen"
+msgstr "Cache opschonen"
 
 #: ../data/SettingsAppearance.ui:358
 msgid ""
@@ -586,7 +607,7 @@ msgstr "Wijzigingen opslaan in bestanden"
 #: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:517
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
-msgstr "Je moet kid3-cli installeren"
+msgstr "Installeer kid3-cli"
 
 #: ../data/SettingsBehaviour.ui:250 ../data/SettingsBehaviour.ui:280
 msgid "Smooth transitions"
@@ -594,11 +615,11 @@ msgstr "Vloeiende overgangen"
 
 #: ../data/SettingsBehaviour.ui:309 ../data/SettingsBehaviour.ui:339
 msgid "Allow network access"
-msgstr "Netwerktoegang verlenen"
+msgstr "Internettoegang toestaan"
 
 #: ../data/SettingsBehaviour.ui:364
 msgid "ReplayGain"
-msgstr ""
+msgstr "ReplayGain"
 
 #: ../data/SettingsBehaviour.ui:389
 msgid "Disabled"
@@ -606,7 +627,7 @@ msgstr "Uitgeschakeld"
 
 #: ../data/SettingsBehaviour.ui:390
 msgid "Track"
-msgstr ""
+msgstr "Nummer"
 
 #: ../data/SettingsBehaviour.ui:391 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
@@ -614,7 +635,7 @@ msgstr "Album"
 
 #: ../data/SettingsBehaviour.ui:442
 msgid "Search artwork in background"
-msgstr "Albumhoezen zoeken in de achtergrond"
+msgstr "Naar albumhoezen zoeken op de achtergrond"
 
 #: ../data/SettingsBehaviour.ui:458
 msgid ""
@@ -622,8 +643,8 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
 msgstr ""
 "Achtergrondgegevens\n"
-"<span size=\"x-small\" alpha=\"70%\">Afbeeldingen zoeken in achtergrond</"
-"span>"
+"<span size=\"x-small\" alpha=\"70%\">Naar albumhoezen zoeken op de "
+"achtergrond</span>"
 
 #: ../data/SettingsBehaviour.ui:474
 msgid ""
@@ -631,7 +652,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
 "Last.fm en Libre.fm\n"
-"<span size=\"x-small\" alpha=\"70%\">Scrobbler, afbeeldingen, …</span>"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, albumhoezen, …</span>"
 
 #: ../data/SettingsBehaviour.ui:488
 msgid ""
@@ -639,7 +660,8 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "Spotify\n"
-"<span size=\"x-small\" alpha=\"70%\">Liedjes, afbeeldingen, … zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar nummers, albumhoezen, "
+"…</span>"
 
 #: ../data/SettingsBehaviour.ui:502
 msgid ""
@@ -647,7 +669,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
 msgstr ""
 "YouTube\n"
-"<span size=\"x-small\" alpha=\"70%\">Liedjes afspelen</span>"
+"<span size=\"x-small\" alpha=\"70%\">Nummers afspelen</span>"
 
 #: ../data/SettingsBehaviour.ui:516
 msgid ""
@@ -655,13 +677,15 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "Google\n"
-"<span size=\"x-small\" alpha=\"70%\">Afbeeldingen zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
 #: ../data/SettingsBehaviour.ui:530
 msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
 #: ../data/SettingsBehaviour.ui:544
 msgid ""
@@ -669,7 +693,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
 msgstr ""
 "Wikia\n"
-"<span size=\"x-small\" alpha=\"70%\">Songteksten zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar songteksten</span>"
 
 #: ../data/SettingsBehaviour.ui:642
 msgid ""
@@ -685,7 +709,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
 msgstr ""
 "Tunein\n"
-"<span size=\"x-small\" alpha=\"70%\">Radiostations zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar radiostations</span>"
 
 #: ../data/SettingsBehaviour.ui:698
 msgid ""
@@ -701,11 +725,11 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
 msgstr ""
 "Genius\n"
-"<span size=\"x-small\" alpha=\"70%\">Songteksten zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar songteksten</span>"
 
 #: ../data/SettingsBehaviour.ui:764
 msgid "Control your privacy by selecting allowed services"
-msgstr "Beheer je privacy door de toegestane diensten te selecteren"
+msgstr "Beheer je privacy door alleen toegestane diensten te selecteren"
 
 #: ../data/SettingsBehaviour.ui:785
 msgid ""
@@ -713,7 +737,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "iTunes\n"
-"<span size=\"x-small\" alpha=\"70%\">Afbeeldingen zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
 #: ../data/SettingsBehaviour.ui:799
 msgid ""
@@ -721,7 +745,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "Deezer\n"
-"<span size=\"x-small\" alpha=\"70%\">Afbeeldingen zoeken</span>"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
 #: ../data/SettingsBehaviour.ui:841
 msgid ""
@@ -729,12 +753,17 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
 "span>"
 msgstr ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">Artiestbiografieën, zoeken naar "
+"albumhoezen, …</span>"
 
 #: ../data/SettingsBehaviour.ui:869
 msgid ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
 #: ../data/SettingsBehaviour.ui:921
 msgid "Only in party mode"
@@ -754,7 +783,7 @@ msgstr "Databank opnieuw instellen"
 
 #: ../data/SettingsDevices.ui:44
 msgid "Remove devices managed by Lollypop:"
-msgstr ""
+msgstr "Verwijder door Lollypop beheerde apparaten:"
 
 #: ../data/SettingsDialog.ui:12 ../lollypop/dialog_settings.py:88
 #: ../lollypop/dialog_settings.py:91
@@ -777,7 +806,7 @@ msgstr "Verbinden"
 #: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
 #: ../lollypop/widgets_settings_web.py:195
 msgid "Disabled in network settings"
-msgstr ""
+msgstr "Uitgeschakeld in internetinstellingen"
 
 #: ../data/SettingsWeb.ui:245
 msgid "Libre.fm"
@@ -790,11 +819,11 @@ msgid ""
 "token below. You can see your user token in your <a href=\"https://"
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
-"<b>ListenBrainz-gebruikerstoken</b>\n"
-"<small>Voer hieronder je ListenBrainz-gebruikerssleutel in om je beluisterde "
+"<b>ListenBrainz-gebruikerssleutel</b>\n"
+"<small>Voer hieronder je ListenBrainz-gebruikerssleutel in om beluisterde "
 "nummers in te dienen op ListenBrainz. Je kunt je gebruikerssleutel vinden op "
-"je <a href=\"https://listenbrainz.org/profile/\">gebruikersprofiel</a>.</"
-"small>"
+"je <a href=\"https://listenbrainz.org/profile/\""
+">gebruikersprofiel</a>.</small>"
 
 #: ../data/SettingsWeb.ui:299
 msgid "User token"
@@ -812,7 +841,7 @@ msgid ""
 msgstr ""
 "<b>Google-webdiensten hebben een aangepaste API-sleutel nodig.</b>\n"
 "<small>Zonder deze sleutel raak je snel aan de standaardquota…\n"
-"Lollypop heeft dit nodig om naar albumhoezen te zoeken.</small>"
+"Lollypop heeft deze sleutel nodig om naar albumhoezen te zoeken.</small>"
 
 #: ../data/SettingsWeb.ui:388
 msgid "API key"
@@ -823,8 +852,8 @@ msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
-"<small>Je dient de ‘Aangepast zoeken-API’ en de ‘YouTube-API v3’ voor je "
-"project in te schakelen.</small>"
+"<small>Je dient de ‘Aangepast zoeken-API’ en de ‘YouTube-API v3’ in te "
+"schakelen voor je project.</small>"
 
 #: ../data/SettingsWeb.ui:440
 msgid ""
@@ -832,14 +861,17 @@ msgid ""
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
+"Recente versie van youtube-dl gebruiken\n"
+"<span size=\"small\" alpha='40000'>Schakel dit in als afspelen van internet "
+"niet werkt</span>"
 
 #: ../data/SettingsWeb.ui:475
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Invidious-server gebruiken"
 
 #: ../data/SettingsWeb.ui:493
 msgid "No server set"
-msgstr ""
+msgstr "Geen server ingesteld"
 
 #: ../data/SettingsWeb.ui:531
 msgid "Google"
@@ -943,7 +975,7 @@ msgstr "Huidig album overslaan"
 #: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Love current track"
-msgstr "Huidig nummer toevoegen aan lievelingsnummers"
+msgstr "Huidig nummer toevoegen aan favorieten"
 
 #: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
@@ -958,7 +990,7 @@ msgstr "Terugspoelen in nummer"
 #: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip forward in track"
-msgstr "Doorspoelen in nummer"
+msgstr "Vooruitspoelen in nummer"
 
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
@@ -1055,11 +1087,11 @@ msgstr "Doorlopend afspelen"
 
 #: ../data/ToolbarEnd.ui:31
 msgid "Automatic playback (similar)"
-msgstr ""
+msgstr "Automatisch afspelen (vergelijkbaar)"
 
 #: ../data/ToolbarEnd.ui:36
 msgid "Automatic playback (random)"
-msgstr ""
+msgstr "Automatisch afspelen (willekeurig)"
 
 #: ../data/ToolbarEnd.ui:41
 msgid "Repeat track"
@@ -1087,11 +1119,11 @@ msgstr "Terug"
 
 #: ../data/TuneinPopover.ui:58
 msgid "Go home"
-msgstr "Terug naar beginscherm"
+msgstr "Terug naar startpagina"
 
 #: ../lollypop/collectionscanner.py:482
 msgid "Scan disabled, missing collection"
-msgstr "Scannen uitgeschakeld, verzameling ontbreekt"
+msgstr "Scannen is uitgeschakeld: verzameling ontbreekt"
 
 #: ../lollypop/collectionscanner.py:666 ../lollypop/database_tracks.py:411
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
@@ -1104,7 +1136,7 @@ msgstr "Onbekend"
 
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
-msgstr "Albumhoezen en artiestfoto’s automatisch downloaden?"
+msgstr "Wil je albumhoezen en artiestfoto’s automatisch downloaden?"
 
 #: ../lollypop/container_notification.py:72
 msgid "Yes"
@@ -1112,7 +1144,7 @@ msgstr "Ja"
 
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
-msgstr "Overweeg te doneren aan dit project"
+msgstr "Overweeg een donatie"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1155,11 +1187,11 @@ msgstr "Internetdiensten instellen"
 #: ../lollypop/menu_objects.py:54 ../lollypop/menu_playlist.py:66
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
-msgstr ""
+msgstr "Apparaten"
 
 #: ../lollypop/dialog_settings.py:62 ../lollypop/view_settings.py:51
 msgid "Manage devices"
-msgstr ""
+msgstr "Apparaten beheren"
 
 #: ../lollypop/fullscreen.py:360
 msgid "You are using a broken cursor theme!"
@@ -1185,11 +1217,11 @@ msgstr "Beschikbare albums"
 
 #: ../lollypop/menu_artist.py:83
 msgid "Albums on the Web"
-msgstr ""
+msgstr "Albums op het internet"
 
 #: ../lollypop/menu_artist.py:93
 msgid "Show tracks"
-msgstr ""
+msgstr "Nummers tonen"
 
 #: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:129
 msgid "Save in collection"
@@ -1201,21 +1233,21 @@ msgstr "Verwijderen uit verzameling"
 
 #: ../lollypop/menu_edit.py:86
 msgid "Buy this album"
-msgstr ""
+msgstr "Album aanschaffen"
 
 #: ../lollypop/menu_edit.py:98
 msgid "Modify information"
-msgstr "Informatie bewerken"
+msgstr "Informatie aanpassen"
 
 #: ../lollypop/menu_edit.py:185
 msgid "Please install EasyTAG or Kid3"
-msgstr ""
+msgstr "Installeer EasyTAG of Kid3"
 
 #: ../lollypop/menu_genre.py:43 ../lollypop/menu_objects.py:56
 #: ../lollypop/menu_objects.py:77 ../lollypop/menu_objects.py:100
 #: ../lollypop/menu_playlist.py:64
 msgid "Add to"
-msgstr ""
+msgstr "Toevoegen aan"
 
 #: ../lollypop/menu_objects.py:57 ../lollypop/menu_objects.py:78
 #: ../lollypop/menu_objects.py:101 ../lollypop/menu_playlist.py:68
@@ -1228,15 +1260,15 @@ msgstr "%d-%m-%Y"
 
 #: ../lollypop/menu_objects.py:156
 msgid "YouTube page address"
-msgstr ""
+msgstr "YouTube-adres"
 
 #: ../lollypop/menu_playback.py:38
 msgid "Create a new playlist"
-msgstr "Nieuwe afspeellijst creëren"
+msgstr "Nieuwe afspeellijst maken"
 
 #: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
 msgid "Show tracks number"
-msgstr ""
+msgstr "CD-getallen van nummers tonen"
 
 #: ../lollypop/menu_playback.py:48 ../lollypop/shown.py:41
 #: ../lollypop/widgets_banner_current_albums.py:62
@@ -1245,31 +1277,31 @@ msgstr "Afspelende albums"
 
 #: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:312
 msgid "Add to playback"
-msgstr "Toevoegen aan afspeelwachtrij"
+msgstr "Toevoegen aan wachtrij"
 
 #: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:319
 msgid "Remove from playback"
-msgstr "Verwijderen uit afspeelwachtrij"
+msgstr "Verwijderen uit wachtrij"
 
 #: ../lollypop/menu_playback.py:138
 msgid "Play this playlist"
-msgstr ""
+msgstr "Afspeellijst afspelen"
 
 #: ../lollypop/menu_playback.py:179
 msgid "Play this artist"
-msgstr ""
+msgstr "Alles van artiest afspelen"
 
 #: ../lollypop/menu_playback.py:243
 msgid "Play this genre"
-msgstr ""
+msgstr "Alles van genre afspelen"
 
 #: ../lollypop/menu_playback.py:317
 msgid "Play this decade"
-msgstr ""
+msgstr "Alles van afgelopen 10 jaar afspelen"
 
 #: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:121
 msgid "Play this album"
-msgstr ""
+msgstr "Album afspelen"
 
 #: ../lollypop/menu_playback.py:517
 msgid "Add to queue"
@@ -1301,11 +1333,11 @@ msgstr "Afspeellijst verwijderen"
 
 #: ../lollypop/menu_playlist.py:62
 msgid "Playlist"
-msgstr ""
+msgstr "Afspeellijst"
 
 #: ../lollypop/menu_playlist.py:90
 msgid "Remove this playlist?"
-msgstr "Deze afspeellijst verwijderen?"
+msgstr "Wil je deze afspeellijst verwijderen?"
 
 #: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
 msgid "Cancel"
@@ -1321,7 +1353,7 @@ msgstr "Nieuwe radiozender"
 
 #: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
-msgstr ""
+msgstr "Zijbalk"
 
 #: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
@@ -1333,11 +1365,11 @@ msgstr "Opstarten"
 
 #: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
-msgstr ""
+msgstr "Tekst tonen"
 
 #: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
-msgstr ""
+msgstr "Opties"
 
 #: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
@@ -1349,15 +1381,15 @@ msgstr "Geen resultaten"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
-msgstr ""
+msgstr "Alle apparaten"
 
 #: ../lollypop/objects_radio.py:32 ../lollypop/objects_radio.py:62
 msgid "Radio"
-msgstr ""
+msgstr "Radio"
 
 #: ../lollypop/player_bin.py:306
 msgid "Can't find this track on YouTube"
-msgstr ""
+msgstr "Dit nummer is niet beschikbaar op YouTube"
 
 #: ../lollypop/playlists.py:92 ../lollypop/playlists.py:95
 msgid "New playlist "
@@ -1366,7 +1398,7 @@ msgstr "Nieuwe afspeellijst "
 #: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
-msgstr "Lievelingsnummers"
+msgstr "Favorieten"
 
 #: ../lollypop/pop_tunein.py:85 ../lollypop/pop_tunein.py:367
 msgid "Can't connect to TuneIn…"
@@ -1386,7 +1418,7 @@ msgstr "Geen resultaten…"
 
 #: ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr ""
+msgstr "Suggesties"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1398,15 +1430,15 @@ msgstr "Willekeurige albums"
 
 #: ../lollypop/shown.py:27
 msgid "Loved albums"
-msgstr "Lievelingsalbums"
+msgstr "Favoriete albums"
 
 #: ../lollypop/shown.py:28
 msgid "Recently added albums"
-msgstr "Recent toegevoegde albums"
+msgstr "Onlangs toegevoegde albums"
 
 #: ../lollypop/shown.py:29
 msgid "Seldomly played albums"
-msgstr ""
+msgstr "Zelden afgespeelde albums"
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:38
 msgid "Radios"
@@ -1414,7 +1446,7 @@ msgstr "Radiozenders"
 
 #: ../lollypop/shown.py:32
 msgid "Years"
-msgstr "jaar"
+msgstr "Jaar"
 
 #: ../lollypop/shown.py:33
 msgid "Genres"
@@ -1422,7 +1454,7 @@ msgstr "Genres"
 
 #: ../lollypop/shown.py:34
 msgid "Genres (list)"
-msgstr ""
+msgstr "Genres (lijst)"
 
 #: ../lollypop/shown.py:36
 msgid "Lyrics"
@@ -1434,7 +1466,7 @@ msgstr "Artiesten"
 
 #: ../lollypop/shown.py:39
 msgid "Artists (list)"
-msgstr ""
+msgstr "Artiesten (lijst)"
 
 #: ../lollypop/shown.py:40
 msgid "Search"
@@ -1454,15 +1486,15 @@ msgstr "Willekeurige nummers"
 
 #: ../lollypop/shown.py:71
 msgid "Recently played tracks"
-msgstr ""
+msgstr "Onlangs afgespeelde nummers"
 
 #: ../lollypop/shown.py:72
 msgid "Seldomly played tracks"
-msgstr ""
+msgstr "Zelden afgespeelde nummers"
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
-msgstr ""
+msgstr "Alle nummers"
 
 #: ../lollypop/toolbar_end.py:233
 msgid "All genres"
@@ -1493,27 +1525,27 @@ msgstr "Geen internetverbinding"
 
 #: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
-msgstr "Opdracht youtube-dl ontbreekt"
+msgstr "youtube-dl ontbreekt"
 
 #: ../lollypop/view_albums_box.py:60
 msgid "You need to enable Spotify "
-msgstr "U dient Spotify in te schakelen "
+msgstr "Schakel Spotify en "
 
 #: ../lollypop/view_albums_box.py:61
 msgid "and YouTube in network settings"
-msgstr "evenals YouTube in de netwerkinstellingen"
+msgstr "YouTube in in de internetinstellingen"
 
 #: ../lollypop/view_albums_line.py:137
 msgid "Others compilations"
-msgstr ""
+msgstr "Overige veramelingen"
 
 #: ../lollypop/view_albums_line.py:166
 msgid "Popular albums at the moment"
-msgstr ""
+msgstr "Populaire albums"
 
 #: ../lollypop/view_artists_line.py:104
 msgid "Why not listen to?"
-msgstr ""
+msgstr "Luister ook eens naar…"
 
 #: ../lollypop/view_artists_rounded.py:103
 #: ../lollypop/widgets_banner_artist.py:146
@@ -1522,7 +1554,7 @@ msgstr "Vergelijkbare artiesten"
 
 #: ../lollypop/view_information.py:231
 msgid "Loading information"
-msgstr "Bezig met laden van informatie"
+msgstr "Bezig met laden van informatie…"
 
 #: ../lollypop/view_information.py:235
 #, python-format
@@ -1531,7 +1563,7 @@ msgstr "Geen informatie over %s"
 
 #: ../lollypop/view_lyrics.py:95 ../lollypop/widgets_banner_lyrics.py:129
 msgid "No track playing"
-msgstr ""
+msgstr "Er wordt niks afgespeeld"
 
 #: ../lollypop/view_lyrics.py:121
 msgid "Loading…"
@@ -1539,7 +1571,7 @@ msgstr "Bezig met laden…"
 
 #: ../lollypop/view_lyrics.py:235
 msgid "You need to install python3-textblob module"
-msgstr "Je moet python3-textblob-module installeren"
+msgstr "Installeer python3-textblob-module"
 
 #: ../lollypop/view_lyrics.py:240
 msgid "Can't translate this lyrics"
@@ -1547,38 +1579,40 @@ msgstr "Kan songtekst niet vertalen"
 
 #: ../lollypop/view_lyrics.py:281
 msgid "No lyrics found "
-msgstr "Geen songtekst gevonden "
+msgstr "Geen songtekst beschikbaar "
 
 #: ../lollypop/view.py:45
 msgid "No items to show"
-msgstr "Geen items om te tonen"
+msgstr "Geen te tonen items"
 
 #: ../lollypop/view_search.py:136 ../lollypop/view_search.py:147
 #: ../lollypop/view_search.py:192
 msgid "Search for artists, albums and tracks"
-msgstr ""
+msgstr "Zoeken naar artiesten, albums en nummers"
 
 #: ../lollypop/view_search.py:296
 msgid "No results for this search"
-msgstr ""
+msgstr "Geen zoekresultaten"
 
 #: ../lollypop/view_suggestions.py:65
 msgid "You might like this"
-msgstr ""
+msgstr "Speciaal voor jou"
 
 #: ../lollypop/view_suggestions.py:69
 msgid "New albums from Spotify"
-msgstr ""
+msgstr "Nieuwe albums op Spotify"
 
 #: ../lollypop/view_suggestions.py:127
 msgid "Welcome to Lollypop"
-msgstr ""
+msgstr "Welkom bij Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
+"Dit album bevat geen nummers. Controleer alle tags - 'albumartiest' moet "
+"'artiest' zijn."
 
 #: ../lollypop/view_tracks_album.py:203
 #, python-format
@@ -1587,15 +1621,15 @@ msgstr "Schijf %s"
 
 #: ../lollypop/view_tracks_search.py:105
 msgid "Tracks"
-msgstr ""
+msgstr "Nummers"
 
 #: ../lollypop/widgets_artwork_album.py:85
 msgid "Local"
-msgstr ""
+msgstr "Lokaal"
 
 #: ../lollypop/widgets_artwork.py:141
 msgid "Select artwork"
-msgstr "Albumhoes kiezen"
+msgstr "Kies een hoes"
 
 #: ../lollypop/widgets_artwork.py:182
 msgid "Remove"
@@ -1607,7 +1641,7 @@ msgstr "Toevoegen aan huidige afspeellijst"
 
 #: ../lollypop/widgets_banner_artist.py:272
 msgid "Remove from current playlist"
-msgstr "Verwijderen uit huidige afspeellijst"
+msgstr "Verwijderen van huidige afspeellijst"
 
 #: ../lollypop/widgets_banner_current_albums.py:39
 msgid "Clear albums"
@@ -1619,7 +1653,7 @@ msgstr "Ga naar huidig nummer"
 
 #: ../lollypop/widgets_banner_today.py:68
 msgid "<b>Album of the day</b>\n"
-msgstr ""
+msgstr "<b>Album van de dag</b>\n"
 
 #: ../lollypop/widgets_device.py:119
 msgid "No synchronized albums"
@@ -1676,7 +1710,7 @@ msgstr "Kuduro"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Laptop/Headphones"
-msgstr "Laptop/koptelefoon"
+msgstr "Laptop/Koptelefoon"
 
 #: ../lollypop/widgets_equalizer.py:34
 msgid "Large Hall"
@@ -1728,7 +1762,7 @@ msgstr "Afspelen toestaan"
 
 #: ../lollypop/widgets_loved.py:121
 msgid "Like"
-msgstr "Leuk vinden"
+msgstr "Vind ik leuk"
 
 #: ../lollypop/widgets_loved.py:126
 msgid "Disallow playback"
@@ -1773,7 +1807,7 @@ msgstr "Compilatie"
 
 #: ../lollypop/widgets_row_album.py:317 ../lollypop/widgets_row_track.py:113
 msgid "Remove from playlist"
-msgstr "Verwijderen uit afspeellijst"
+msgstr "Verwijderen van afspeellijst"
 
 #: ../lollypop/widgets_settings_collections.py:129
 #, python-format
@@ -1799,19 +1833,19 @@ msgstr[1] "%d nummers"
 #: ../lollypop/widgets_settings_web.py:47
 #: ../lollypop/widgets_settings_web.py:49
 msgid "You need to install pylast and gi secret"
-msgstr "Je moet pylast en gi secret installeren"
+msgstr "Installeer pylast en gi secret"
 
 #: ../lollypop/widgets_settings_web.py:199
 msgid "Using \"GNOME Online Accounts\" settings"
-msgstr "Gebruikmakend van de instellingen van \"GNOME Online Accounts\""
+msgstr "Gebruikmakend van de instellingen van 'GNOME Online Accounts'"
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
-msgstr ""
+msgstr "band"
 
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
-msgstr ""
+msgstr "zanger"
 
 #~ msgid "Automatic playback"
 #~ msgstr "Automatisch afspelen"
