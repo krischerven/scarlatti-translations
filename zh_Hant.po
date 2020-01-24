@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-08 08:58+0100\n"
+"POT-Creation-Date: 2020-01-24 16:05+0100\n"
 "PO-Revision-Date: 2019-06-19 13:01+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -40,12 +40,12 @@ msgstr "視窗位置（X 和 Y 座標）。"
 #: ../data/org.gnome.Lollypop.gschema.xml:55
 #: ../data/org.gnome.Lollypop.gschema.xml:70
 #: ../data/org.gnome.Lollypop.gschema.xml:100
-#: ../data/org.gnome.Lollypop.gschema.xml:250
+#: ../data/org.gnome.Lollypop.gschema.xml:245
+#: ../data/org.gnome.Lollypop.gschema.xml:254
 #: ../data/org.gnome.Lollypop.gschema.xml:259
-#: ../data/org.gnome.Lollypop.gschema.xml:264
+#: ../data/org.gnome.Lollypop.gschema.xml:279
 #: ../data/org.gnome.Lollypop.gschema.xml:284
 #: ../data/org.gnome.Lollypop.gschema.xml:289
-#: ../data/org.gnome.Lollypop.gschema.xml:294
 msgid "INTERNAL"
 msgstr "內部"
 
@@ -128,7 +128,7 @@ msgid "Favorite cover file"
 msgstr "喜愛的封面檔"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:146
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Restart needed"
 msgstr "需要重新啟動"
 
@@ -146,153 +146,175 @@ msgid "Albums cover size"
 msgstr "專輯封面大小"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:160
-msgid "ReplayGain value in dB"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.gschema.xml:161
-msgid "Between -15 and 15"
-msgstr "介於 -15 至 15 之間"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:165
 msgid "Encoding quality"
 msgstr "編碼品質"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:170 ../data/SettingsBehaviour.ui:33
-#: ../data/SettingsBehaviour.ui:36 ../data/SettingsBehaviour.ui:50
+#: ../data/org.gnome.Lollypop.gschema.xml:165 ../data/SettingsBehaviour.ui:45
+#: ../data/SettingsBehaviour.ui:48 ../data/SettingsBehaviour.ui:62
 msgid "Auto update music"
 msgstr "自動更新音樂"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:175
+#: ../data/org.gnome.Lollypop.gschema.xml:170
 msgid "Show performers"
 msgstr "顯示演出者"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:180
+#: ../data/org.gnome.Lollypop.gschema.xml:175
 msgid "Show tracks in artist view"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:185 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:180 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "顯示演出者圖片"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:190
+#: ../data/org.gnome.Lollypop.gschema.xml:185
 msgid "Use dark GTK theme"
 msgstr "使用深黑 GTK 主題"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:195
+#: ../data/org.gnome.Lollypop.gschema.xml:190
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "停用客戶端視窗裝飾（標頭列）"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:200
+#: ../data/org.gnome.Lollypop.gschema.xml:195
 msgid "Disable scrobbling usage"
 msgstr "停用隨播傳功能"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:205
+#: ../data/org.gnome.Lollypop.gschema.xml:200
 msgid "Handle compilations"
 msgstr "處理彙編"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:205 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "以專輯檢視方式顯示彙編"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:215 ../data/SettingsBehaviour.ui:80
-#: ../data/SettingsBehaviour.ui:94
+#: ../data/org.gnome.Lollypop.gschema.xml:210 ../data/SettingsBehaviour.ui:92
+#: ../data/SettingsBehaviour.ui:106
 msgid "Continue playback when closed"
 msgstr "關閉後繼續播放"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Append albums by default"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:225
+#: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Smart sort for artist"
 msgstr "演出者智慧排序"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr "例：The Beatles 與 Beatles 相同排序。需要重設資料庫"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:230
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr "以演出者作為排序標籤顯示。可能需要重設資料庫"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231
+#: ../data/org.gnome.Lollypop.gschema.xml:226
 msgid "Ex: Beatles, The"
 msgstr "例：Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:235
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Restore previous state"
 msgstr "還原到先前狀態"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:240
+#: ../data/org.gnome.Lollypop.gschema.xml:235
 msgid "Disable MPRIS"
 msgstr "停用 MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:245
+#: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Notifications behaviour"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:254
+#: ../data/org.gnome.Lollypop.gschema.xml:249
 msgid "Show track number from tags"
 msgstr "根據標籤顯示曲目編號"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:269
+#: ../data/org.gnome.Lollypop.gschema.xml:264
 msgid "JPG cover quality"
 msgstr "JPG 封面品質"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:270
+#: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Force single column mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:279
+#: ../data/org.gnome.Lollypop.gschema.xml:274
 msgid "Equalizer enabled"
 msgstr "等化器已啟用"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:294
+msgid "Show labels in sidebar"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:299
 msgid "Smooth track transitions"
 msgstr "平滑曲目轉換"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:304
-msgid "Show labels in sidebar"
+msgid "Smooth track transitions only in party mode"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:309
-msgid "Only mix songs in party mode"
-msgstr "僅在派對模式中混合歌曲"
+msgid "Transition duration in ms"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:314
-msgid "Smoothing duration"
-msgstr "平滑轉換時間"
+msgid "Fade effect on playback status change"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:319 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:319
+msgid "Fade duration in ms"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:324
+msgid "Fade effect only in party mode"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:329 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "隨機曲目"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:324
+#: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Ignore internal symlinks"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:329
+#: ../data/org.gnome.Lollypop.gschema.xml:339
 msgid "ReplayGain state"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:334
+#: ../data/org.gnome.Lollypop.gschema.xml:344
+msgid "ReplayGain value in dB"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:345
+msgid "Between -15 and 15"
+msgstr "介於 -15 至 15 之間"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:349
+msgid "Applies signal compression/limiting to raw audio data"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:350
+msgid ""
+"It performs strict hard limiting with soft-knee characteristics, using a "
+"threshold of -6 dB"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:354
 msgid "Possibilities for powermanagement options"
 msgstr "可能使用的電源管理選項"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:335
+#: ../data/org.gnome.Lollypop.gschema.xml:355
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr "此選項會在 Lollypop 播放控制期間，抑制螢幕保護程式與電腦暫停機能。"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:339
+#: ../data/org.gnome.Lollypop.gschema.xml:359
 msgid "Repeat"
 msgstr "重複"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:344 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:364 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "排序專輯依據"
 
@@ -305,12 +327,12 @@ msgid "Visit Lollypop website"
 msgstr "造訪 Lollypop 網站"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:26
+#: ../data/AboutDialog.ui.in:27
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Cheng-Chia Tseng <zerngjia@gmail.com>"
 
-#: ../data/AboutDialog.ui.in:27
+#: ../data/AboutDialog.ui.in:28
 msgid ""
 "\n"
 "Reda Lazri:\n"
@@ -325,19 +347,19 @@ msgid ""
 "    "
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:65
+#: ../data/AboutDialog.ui.in:66
 msgid "Donations:"
 msgstr "捐款："
 
-#: ../data/AboutDialog.ui.in:72
+#: ../data/AboutDialog.ui.in:73
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:82 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:92 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:93 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -473,8 +495,8 @@ msgstr "FLAC"
 msgid "Synchronized:"
 msgstr "已同步："
 
-#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:41
-#: ../lollypop/shown.py:37 ../lollypop/view_albums_line.py:208
+#: ../data/DeviceWidget.ui:248 ../lollypop/menu_artist.py:40
+#: ../lollypop/shown.py:37 ../lollypop/view_albums_line.py:212
 msgid "Albums"
 msgstr "專輯"
 
@@ -553,185 +575,70 @@ msgstr ""
 msgid "You need to reset database [Music]"
 msgstr "您需要重設資料庫 [音樂]"
 
-#: ../data/SettingsBehaviour.ui:124 ../data/SettingsBehaviour.ui:138
+#: ../data/SettingsBehaviour.ui:136 ../data/SettingsBehaviour.ui:150
 msgid "Restore state on startup"
 msgstr "初始啟動時還原狀態"
 
-#: ../data/SettingsBehaviour.ui:165
+#: ../data/SettingsBehaviour.ui:177
 msgid "Import playlists"
 msgstr "匯入播放清單"
 
-#: ../data/SettingsBehaviour.ui:177
+#: ../data/SettingsBehaviour.ui:189
 msgid "Import playlists files present in collections"
 msgstr "匯入收藏中出現的播放清單檔案"
 
-#: ../data/SettingsBehaviour.ui:207
+#: ../data/SettingsBehaviour.ui:219
 msgid "Save changes to files"
 msgstr "將變更儲存至檔案"
 
-#: ../data/SettingsBehaviour.ui:221 ../lollypop/art_album.py:517
+#: ../data/SettingsBehaviour.ui:233 ../lollypop/art_album.py:517
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "您需要安裝 kid3-cli"
 
-#: ../data/SettingsBehaviour.ui:250 ../data/SettingsBehaviour.ui:280
+#: ../data/SettingsBehaviour.ui:262
+msgid "Track transitions"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:292 ../data/SettingsBehaviour.ui:351
 msgid "Smooth transitions"
 msgstr "平滑切換"
 
-#: ../data/SettingsBehaviour.ui:309 ../data/SettingsBehaviour.ui:339
-msgid "Allow network access"
-msgstr "允許網路存取"
+#: ../data/SettingsBehaviour.ui:321
+msgid "Playback fade"
+msgstr ""
 
-#: ../data/SettingsBehaviour.ui:364
+#: ../data/SettingsBehaviour.ui:376
 msgid "ReplayGain"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:389
+#: ../data/SettingsBehaviour.ui:401
 msgid "Disabled"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:390
+#: ../data/SettingsBehaviour.ui:402
 msgid "Track"
 msgstr ""
 
-#: ../data/SettingsBehaviour.ui:391 ../data/SmartPlaylistWidget.ui:30
+#: ../data/SettingsBehaviour.ui:403 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
 msgstr "專輯"
 
-#: ../data/SettingsBehaviour.ui:442
-msgid "Search artwork in background"
-msgstr "於背景搜尋封面圖像"
-
-#: ../data/SettingsBehaviour.ui:458
-msgid ""
-"Background data\n"
-"<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
-msgstr ""
-"背景資料\n"
-"<span size=\"x-small\" alpha=\"70%\">在背景中搜尋封面圖像</span>"
-
-#: ../data/SettingsBehaviour.ui:474
-msgid ""
-"Last.fm and Libre.fm\n"
-"<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
-msgstr ""
-"Last.fm 和 Libre.fm\n"
-"<span size=\"x-small\" alpha=\"70%\">Scrobbler、封面圖像…</span>"
-
-#: ../data/SettingsBehaviour.ui:488
-msgid ""
-"Spotify\n"
-"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
-msgstr ""
-"Spotify\n"
-"<span size=\"x-small\" alpha=\"70%\">搜尋歌曲、封面圖像…</span>"
-
-#: ../data/SettingsBehaviour.ui:502
-msgid ""
-"YouTube\n"
-"<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
-msgstr ""
-"YouTube\n"
-"<span size=\"x-small\" alpha=\"70%\">歌曲播放</span>"
-
-#: ../data/SettingsBehaviour.ui:516
-msgid ""
-"Google\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
-msgstr ""
-"Google\n"
-"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
-
-#: ../data/SettingsBehaviour.ui:530
-msgid ""
-"Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
-msgstr ""
-"Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
-
-#: ../data/SettingsBehaviour.ui:544
-msgid ""
-"Wikia\n"
-"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
-msgstr ""
-"Wikia\n"
-"<span size=\"x-small\" alpha=\"70%\">搜尋歌詞</span>"
-
-#: ../data/SettingsBehaviour.ui:642
-msgid ""
-"Wikipedia\n"
-"<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
-msgstr ""
-"Wikipedia\n"
-"<span size=\"x-small\" alpha=\"70%\">藝人介紹</span>"
-
-#: ../data/SettingsBehaviour.ui:670
-msgid ""
-"Tunein\n"
-"<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
-msgstr ""
-"Tunein\n"
-"<span size=\"x-small\" alpha=\"70%\">電臺搜尋</span>"
-
-#: ../data/SettingsBehaviour.ui:698
-msgid ""
-"MusicBrainz\n"
-"<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
-msgstr ""
-"MusicBrainz\n"
-"<span size=\"x-small\" alpha=\"70%\">Scrobbler、資訊…</span>"
-
-#: ../data/SettingsBehaviour.ui:726
-msgid ""
-"Genius\n"
-"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
-msgstr ""
-"Genius\n"
-"<span size=\"x-small\" alpha=\"70%\">搜尋歌詞</span>"
-
-#: ../data/SettingsBehaviour.ui:764
-msgid "Control your privacy by selecting allowed services"
-msgstr "選取允許的服務以控制您的隱私權"
-
-#: ../data/SettingsBehaviour.ui:785
-msgid ""
-"ITunes\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
-msgstr ""
-"ITunes\n"
-"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
-
-#: ../data/SettingsBehaviour.ui:799
-msgid ""
-"Deezer\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
-msgstr ""
-"Deezer\n"
-"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
-
-#: ../data/SettingsBehaviour.ui:841
-msgid ""
-"AudioDB\n"
-"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
-"span>"
-msgstr ""
-"AudioDB\n"
-"<span size=\"x-small\" alpha=\"70%\">演出者介紹、封面圖像搜尋…</span>"
-
-#: ../data/SettingsBehaviour.ui:869
-msgid ""
-"FANART.TV\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
-msgstr ""
-
-#: ../data/SettingsBehaviour.ui:921
+#: ../data/SettingsBehaviour.ui:443 ../data/SettingsBehaviour.ui:530
 msgid "Only in party mode"
 msgstr "只在派對模式"
 
-#: ../data/SettingsBehaviour.ui:971
-msgid "Transition duration in seconds"
-msgstr "切換間隔（秒）"
+#: ../data/SettingsBehaviour.ui:478
+msgid "Fade duration in milliseconds"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:491
+msgid "100"
+msgstr ""
+
+#: ../data/SettingsBehaviour.ui:565
+msgid "Transitions duration in milliseconds"
+msgstr ""
 
 #: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:91
 msgid "Confirm"
@@ -750,29 +657,164 @@ msgstr "移除 Lollypop 管理的裝置："
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: ../data/SettingsWeb.ui:25 ../data/SettingsWeb.ui:144
+#: ../data/SettingsWeb.ui:31
+msgid "Control your privacy by selecting allowed services"
+msgstr "選取允許的服務以控制您的隱私權"
+
+#: ../data/SettingsWeb.ui:60 ../data/SettingsWeb.ui:73
+msgid "Allow network access"
+msgstr "允許網路存取"
+
+#: ../data/SettingsWeb.ui:120
+msgid "Search artwork in background"
+msgstr "於背景搜尋封面圖像"
+
+#: ../data/SettingsWeb.ui:136
+msgid ""
+"Background data\n"
+"<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
+msgstr ""
+"背景資料\n"
+"<span size=\"x-small\" alpha=\"70%\">在背景中搜尋封面圖像</span>"
+
+#: ../data/SettingsWeb.ui:152
+msgid ""
+"Last.fm and Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
+msgstr ""
+"Last.fm 和 Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler、封面圖像…</span>"
+
+#: ../data/SettingsWeb.ui:166
+msgid ""
+"Spotify\n"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
+msgstr ""
+"Spotify\n"
+"<span size=\"x-small\" alpha=\"70%\">搜尋歌曲、封面圖像…</span>"
+
+#: ../data/SettingsWeb.ui:180
+msgid ""
+"YouTube\n"
+"<span size=\"x-small\" alpha=\"70%\">Songs playback</span>"
+msgstr ""
+"YouTube\n"
+"<span size=\"x-small\" alpha=\"70%\">歌曲播放</span>"
+
+#: ../data/SettingsWeb.ui:194
+msgid ""
+"Google\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+"Google\n"
+"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
+
+#: ../data/SettingsWeb.ui:208
+msgid ""
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
+
+#: ../data/SettingsWeb.ui:222
+msgid ""
+"Wikia\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
+"Wikia\n"
+"<span size=\"x-small\" alpha=\"70%\">搜尋歌詞</span>"
+
+#: ../data/SettingsWeb.ui:320
+msgid ""
+"Wikipedia\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography</span>"
+msgstr ""
+"Wikipedia\n"
+"<span size=\"x-small\" alpha=\"70%\">藝人介紹</span>"
+
+#: ../data/SettingsWeb.ui:348
+msgid ""
+"Tunein\n"
+"<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
+msgstr ""
+"Tunein\n"
+"<span size=\"x-small\" alpha=\"70%\">電臺搜尋</span>"
+
+#: ../data/SettingsWeb.ui:376
+msgid ""
+"MusicBrainz\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
+msgstr ""
+"MusicBrainz\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler、資訊…</span>"
+
+#: ../data/SettingsWeb.ui:404
+msgid ""
+"Genius\n"
+"<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
+msgstr ""
+"Genius\n"
+"<span size=\"x-small\" alpha=\"70%\">搜尋歌詞</span>"
+
+#: ../data/SettingsWeb.ui:432
+msgid ""
+"ITunes\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+"ITunes\n"
+"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
+
+#: ../data/SettingsWeb.ui:446
+msgid ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">封面圖像搜尋</span>"
+
+#: ../data/SettingsWeb.ui:488
+msgid ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
+"span>"
+msgstr ""
+"AudioDB\n"
+"<span size=\"x-small\" alpha=\"70%\">演出者介紹、封面圖像搜尋…</span>"
+
+#: ../data/SettingsWeb.ui:516
+msgid ""
+"FANART.TV\n"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:562
+msgid "Privacy"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:583 ../data/SettingsWeb.ui:706
 msgid "Login:"
 msgstr "登入："
 
-#: ../data/SettingsWeb.ui:38 ../data/SettingsWeb.ui:157
+#: ../data/SettingsWeb.ui:596 ../data/SettingsWeb.ui:719
 msgid "Password:"
 msgstr "密碼："
 
-#: ../data/SettingsWeb.ui:74 ../data/SettingsWeb.ui:193
+#: ../data/SettingsWeb.ui:632 ../data/SettingsWeb.ui:755
 msgid "Connect"
 msgstr "連接"
 
-#: ../data/SettingsWeb.ui:103 ../data/SettingsWeb.ui:222
-#: ../data/SettingsWeb.ui:312 ../data/SettingsWeb.ui:512
-#: ../lollypop/widgets_settings_web.py:195
+#: ../data/SettingsWeb.ui:661 ../data/SettingsWeb.ui:784
+#: ../data/SettingsWeb.ui:874 ../data/SettingsWeb.ui:1074
+#: ../lollypop/widgets_settings_web.py:238
 msgid "Disabled in network settings"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:245
+#: ../data/SettingsWeb.ui:807
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:269
+#: ../data/SettingsWeb.ui:831
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -780,48 +822,48 @@ msgid ""
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:299
+#: ../data/SettingsWeb.ui:861
 msgid "User token"
 msgstr "使用者代符"
 
-#: ../data/SettingsWeb.ui:332
+#: ../data/SettingsWeb.ui:894
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:361
+#: ../data/SettingsWeb.ui:923
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:388
+#: ../data/SettingsWeb.ui:950
 msgid "API key"
 msgstr "API 金鑰"
 
-#: ../data/SettingsWeb.ui:406
+#: ../data/SettingsWeb.ui:968
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
 "<small>您需要啟用您專案的「Custom Search API」和「YouTube API v3」。</small>"
 
-#: ../data/SettingsWeb.ui:440
+#: ../data/SettingsWeb.ui:1002
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:475
+#: ../data/SettingsWeb.ui:1037
 msgid "Use an Invidious server"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:493
+#: ../data/SettingsWeb.ui:1055
 msgid "No server set"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:531
+#: ../data/SettingsWeb.ui:1093
 msgid "Google"
 msgstr ""
 
@@ -1069,11 +1111,11 @@ msgstr "返回"
 msgid "Go home"
 msgstr "回主頁"
 
-#: ../lollypop/collectionscanner.py:482
+#: ../lollypop/collectionscanner.py:484
 msgid "Scan disabled, missing collection"
 msgstr "掃描已停用，遺失收藏"
 
-#: ../lollypop/collectionscanner.py:666 ../lollypop/database_tracks.py:411
+#: ../lollypop/collectionscanner.py:668 ../lollypop/database_tracks.py:425
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1123,7 +1165,7 @@ msgid "Select music folders"
 msgstr "選取音樂資料夾"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:236 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:240 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "網路"
 
@@ -1141,7 +1183,7 @@ msgstr "裝置"
 msgid "Manage devices"
 msgstr "管理裝置"
 
-#: ../lollypop/fullscreen.py:360
+#: ../lollypop/fullscreen.py:359
 msgid "You are using a broken cursor theme!"
 msgstr "您正在使用毀損的游標主題！"
 
@@ -1153,22 +1195,31 @@ msgstr "播放中的音樂"
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm 身份核對已停用"
 
-#: ../lollypop/menu_artist.py:38 ../lollypop/menu_decade.py:39
+#: ../lollypop/menu_artist.py:37 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:40 ../lollypop/menu_objects.py:45
 #: ../lollypop/menu_objects.py:96
 msgid "Playback"
 msgstr "播放"
 
-#: ../lollypop/menu_artist.py:73
+#: ../lollypop/menu_artist.py:70
 msgid "Available albums"
 msgstr "可用專輯"
 
-#: ../lollypop/menu_artist.py:83
-msgid "Albums on the Web"
+#: ../lollypop/menu_artist.py:80
+msgid "Show tracks"
 msgstr ""
 
-#: ../lollypop/menu_artist.py:93
-msgid "Show tracks"
+#: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:52
+#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:62
+msgid "Playing albums"
+msgstr "播放中的專輯"
+
+#: ../lollypop/menu_current_albums.py:42
+msgid "Create a new playlist"
+msgstr "製作新的播放清單"
+
+#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:61
+msgid "Show tracks number"
 msgstr ""
 
 #: ../lollypop/menu_edit.py:58 ../lollypop/widgets_row_album.py:129
@@ -1187,7 +1238,7 @@ msgstr ""
 msgid "Modify information"
 msgstr "修改資訊"
 
-#: ../lollypop/menu_edit.py:185
+#: ../lollypop/menu_edit.py:186
 msgid "Please install EasyTAG or Kid3"
 msgstr ""
 
@@ -1210,60 +1261,47 @@ msgstr "%Y-%m-%d"
 msgid "YouTube page address"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:38
-msgid "Create a new playlist"
-msgstr "製作新的播放清單"
-
-#: ../lollypop/menu_playback.py:47 ../lollypop/menu_playlist.py:61
-msgid "Show tracks number"
-msgstr ""
-
-#: ../lollypop/menu_playback.py:48 ../lollypop/shown.py:41
-#: ../lollypop/widgets_banner_current_albums.py:62
-msgid "Playing albums"
-msgstr "播放中的專輯"
-
-#: ../lollypop/menu_playback.py:111 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:55 ../lollypop/widgets_row_album.py:312
 msgid "Add to playback"
 msgstr "加入播放中"
 
-#: ../lollypop/menu_playback.py:118 ../lollypop/widgets_row_album.py:319
+#: ../lollypop/menu_playback.py:62 ../lollypop/widgets_row_album.py:319
 msgid "Remove from playback"
 msgstr "從播放中移除"
 
-#: ../lollypop/menu_playback.py:138
+#: ../lollypop/menu_playback.py:82
 msgid "Play this playlist"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:179
+#: ../lollypop/menu_playback.py:123
 msgid "Play this artist"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:243
+#: ../lollypop/menu_playback.py:187
 msgid "Play this genre"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:317
+#: ../lollypop/menu_playback.py:261
 msgid "Play this decade"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:393 ../lollypop/widgets_row_album.py:121
+#: ../lollypop/menu_playback.py:337 ../lollypop/widgets_row_album.py:121
 msgid "Play this album"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:517
+#: ../lollypop/menu_playback.py:461
 msgid "Add to queue"
 msgstr "加入佇列中"
 
-#: ../lollypop/menu_playback.py:523
+#: ../lollypop/menu_playback.py:467
 msgid "Remove from queue"
 msgstr "從佇列中移除"
 
-#: ../lollypop/menu_playback.py:534
+#: ../lollypop/menu_playback.py:478
 msgid "Do not stop after"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:539
+#: ../lollypop/menu_playback.py:483
 msgid "Stop after"
 msgstr ""
 
@@ -1335,7 +1373,7 @@ msgstr "所有裝置"
 msgid "Radio"
 msgstr ""
 
-#: ../lollypop/player_bin.py:306
+#: ../lollypop/player_bin.py:302
 msgid "Can't find this track on YouTube"
 msgstr ""
 
@@ -1343,7 +1381,7 @@ msgstr ""
 msgid "New playlist "
 msgstr "新播放清單 "
 
-#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:368
+#: ../lollypop/playlists.py:105 ../lollypop/playlists.py:346
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "喜愛曲目"
@@ -1444,7 +1482,7 @@ msgstr ""
 msgid "All tracks"
 msgstr ""
 
-#: ../lollypop/toolbar_end.py:233
+#: ../lollypop/toolbar_end.py:237
 msgid "All genres"
 msgstr "所有曲風"
 
@@ -1483,11 +1521,11 @@ msgstr "您需要在網路設定中啟用 Spotify "
 msgid "and YouTube in network settings"
 msgstr "和 YouTube"
 
-#: ../lollypop/view_albums_line.py:137
+#: ../lollypop/view_albums_line.py:141
 msgid "Others compilations"
 msgstr ""
 
-#: ../lollypop/view_albums_line.py:166
+#: ../lollypop/view_albums_line.py:170
 msgid "Popular albums at the moment"
 msgstr ""
 
@@ -1495,7 +1533,7 @@ msgstr ""
 msgid "Why not listen to?"
 msgstr ""
 
-#: ../lollypop/view_artists_rounded.py:103
+#: ../lollypop/view_artists_rounded.py:105
 #: ../lollypop/widgets_banner_artist.py:146
 msgid "Similar artists"
 msgstr "類似的演出者"
@@ -1533,24 +1571,24 @@ msgstr "找不到歌詞 "
 msgid "No items to show"
 msgstr "沒有可顯示的項目"
 
-#: ../lollypop/view_search.py:136 ../lollypop/view_search.py:147
-#: ../lollypop/view_search.py:192
+#: ../lollypop/view_search.py:137 ../lollypop/view_search.py:147
+#: ../lollypop/view_search.py:194
 msgid "Search for artists, albums and tracks"
 msgstr ""
 
-#: ../lollypop/view_search.py:296
+#: ../lollypop/view_search.py:304
 msgid "No results for this search"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:65
+#: ../lollypop/view_suggestions.py:69
 msgid "You might like this"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:69
+#: ../lollypop/view_suggestions.py:73
 msgid "New albums from Spotify"
 msgstr ""
 
-#: ../lollypop/view_suggestions.py:127
+#: ../lollypop/view_suggestions.py:124
 msgid "Welcome to Lollypop"
 msgstr ""
 
@@ -1581,11 +1619,11 @@ msgstr "選取封面"
 msgid "Remove"
 msgstr "移除"
 
-#: ../lollypop/widgets_banner_artist.py:265
+#: ../lollypop/widgets_banner_artist.py:264
 msgid "Add to current playlist"
 msgstr "加入目前的播放清單中"
 
-#: ../lollypop/widgets_banner_artist.py:272
+#: ../lollypop/widgets_banner_artist.py:271
 msgid "Remove from current playlist"
 msgstr "從目前的播放清單中移除"
 
@@ -1702,15 +1740,15 @@ msgstr "軟搖滾"
 msgid "Techno"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:116
+#: ../lollypop/widgets_loved.py:119
 msgid "Allow playback"
 msgstr "允許回播"
 
-#: ../lollypop/widgets_loved.py:121
+#: ../lollypop/widgets_loved.py:124
 msgid "Like"
 msgstr "喜歡"
 
-#: ../lollypop/widgets_loved.py:126
+#: ../lollypop/widgets_loved.py:129
 msgid "Disallow playback"
 msgstr "不允許回播"
 
@@ -1778,7 +1816,7 @@ msgstr[0] "%d 首曲目"
 msgid "You need to install pylast and gi secret"
 msgstr "您需要安裝 pylast 和 gi secrect"
 
-#: ../lollypop/widgets_settings_web.py:199
+#: ../lollypop/widgets_settings_web.py:242
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "使用「GNOME 線上帳號」設定"
 
@@ -1789,6 +1827,15 @@ msgstr ""
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr ""
+
+#~ msgid "Only mix songs in party mode"
+#~ msgstr "僅在派對模式中混合歌曲"
+
+#~ msgid "Smoothing duration"
+#~ msgstr "平滑轉換時間"
+
+#~ msgid "Transition duration in seconds"
+#~ msgstr "切換間隔（秒）"
 
 #~ msgid "Automatic playback"
 #~ msgstr "自動播放"
