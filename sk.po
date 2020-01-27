@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-24 16:20+0100\n"
-"PO-Revision-Date: 2019-06-15 07:41+0000\n"
-"Last-Translator: Attila Farkas <farkasattila@ymail.com>\n"
+"PO-Revision-Date: 2020-01-27 12:50+0000\n"
+"Last-Translator: Jozef Gaal <preklady@mayday.sk>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "sk/>\n"
 "Language: sk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -80,7 +80,7 @@ msgstr "ID pre žánre."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
 msgid "Search on Spotify"
-msgstr ""
+msgstr "Hľadať na Spotify"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -91,6 +91,8 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
+"Ak je nastavené, Lollypop použije tento server namiesto služby YouTube. "
+"Pozrite https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:110
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -141,8 +143,7 @@ msgstr "Verzia databázy"
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
-"Vynulovaním tejto hodnoty sa vynuluje databáza. Obľúbené albumy budú "
-"obnovené."
+"Vynulovaním tejto hodnoty sa vynuluje databáza. Obľúbené albumy budú obnovené"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:155 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
@@ -794,7 +795,7 @@ msgstr "Prihlasovacie meno:"
 
 #: ../data/SettingsWeb.ui:596 ../data/SettingsWeb.ui:719
 msgid "Password:"
-msgstr "Heslo"
+msgstr "Heslo:"
 
 #: ../data/SettingsWeb.ui:632 ../data/SettingsWeb.ui:755
 msgid "Connect"
@@ -1334,7 +1335,7 @@ msgstr "Nové rádio"
 
 #: ../lollypop/menu_selectionlist.py:44
 msgid "Sidebar"
-msgstr ""
+msgstr "Bočný panel"
 
 #: ../lollypop/menu_selectionlist.py:64
 msgid "Default on startup"
@@ -1346,11 +1347,11 @@ msgstr "Pri spustení"
 
 #: ../lollypop/menu_selectionlist.py:81
 msgid "Show text"
-msgstr ""
+msgstr "Zobraziť popis"
 
 #: ../lollypop/menu_selectionlist.py:82
 msgid "Options"
-msgstr ""
+msgstr "Možnosti"
 
 #: ../lollypop/menu_selectionlist.py:108
 msgid "Sections"
@@ -1374,7 +1375,7 @@ msgstr ""
 
 #: ../lollypop/playlists.py:92 ../lollypop/playlists.py:95
 msgid "New playlist "
-msgstr "Nový zoznam skladieb"
+msgstr "Nový zoznam skladieb "
 
 #: ../lollypop/playlists.py:105 ../lollypop/playlists.py:346
 #: ../lollypop/shown.py:70
@@ -1399,7 +1400,7 @@ msgstr "Žiadny výsledok…"
 
 #: ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr ""
+msgstr "Návrhy"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1419,7 +1420,7 @@ msgstr "Nedávno pridané albumy"
 
 #: ../lollypop/shown.py:29
 msgid "Seldomly played albums"
-msgstr ""
+msgstr "Zriedkavo hrané albumy"
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:38
 msgid "Radios"
@@ -1435,7 +1436,7 @@ msgstr "Žánre"
 
 #: ../lollypop/shown.py:34
 msgid "Genres (list)"
-msgstr ""
+msgstr "Žánre (zoznam)"
 
 #: ../lollypop/shown.py:36
 msgid "Lyrics"
@@ -1447,7 +1448,7 @@ msgstr "Umelci"
 
 #: ../lollypop/shown.py:39
 msgid "Artists (list)"
-msgstr ""
+msgstr "Umelci (zoznam)"
 
 #: ../lollypop/shown.py:40
 msgid "Search"
@@ -1471,7 +1472,7 @@ msgstr ""
 
 #: ../lollypop/shown.py:72
 msgid "Seldomly played tracks"
-msgstr ""
+msgstr "Zriedkavo hrané albumy"
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
