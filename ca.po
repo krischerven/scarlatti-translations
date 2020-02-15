@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-24 16:20+0100\n"
-"PO-Revision-Date: 2019-11-10 23:08+0000\n"
-"Last-Translator: Marc Riera <marc.riera.irigoyen@gmail.com>\n"
+"PO-Revision-Date: 2020-02-17 20:39+0000\n"
+"Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ca/>\n"
 "Language: ca\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.11\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -84,7 +84,7 @@ msgstr "ID per gèneres."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
 msgid "Search on Spotify"
-msgstr ""
+msgstr "Cerca en l'Spotify"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -267,23 +267,23 @@ msgstr "Transició suau entre pistes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:304
 msgid "Smooth track transitions only in party mode"
-msgstr ""
+msgstr "Transició suau entre pistes només en mode festa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:309
 msgid "Transition duration in ms"
-msgstr ""
+msgstr "Durada de la transició en ms"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:314
 msgid "Fade effect on playback status change"
-msgstr ""
+msgstr "Efecte de fosa en canviar l'estat de reproducció"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:319
 msgid "Fade duration in ms"
-msgstr ""
+msgstr "Durada de la fosa en ms"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:324
 msgid "Fade effect only in party mode"
-msgstr ""
+msgstr "Efecte fosa només en mode festa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:329 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
@@ -307,13 +307,16 @@ msgstr "Entre -15 i 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:349
 msgid "Applies signal compression/limiting to raw audio data"
-msgstr ""
+msgstr "Aplica compressió/limitació del senyal per a dades d'àudio raw"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:350
+#, fuzzy
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
+"Realitza una limitació estricte amb característiques de compressió gradual, "
+"utilitzant un llindar de -6dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:354
 msgid "Possibilities for powermanagement options"
@@ -410,6 +413,12 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
+"El Lollypop és un reproductor de música lleuger i modern dissenyat per "
+"funcionar de manera excel·lent en l'entorn d'escriptori GNOME. El Lollypop "
+"també inclou un mode festa que selecciona automàticament les llistes de "
+"reproducció que es reproduiran; permet l'accés al reproductor des del sofà "
+"gràcies al mode pantalla completa; cerca en línia lletres, caràtules i "
+"biografies; i proporciona suport natiu per a Replay Gain."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -627,7 +636,7 @@ msgstr "Heu d'instal·lar \"kid3-cli\""
 
 #: ../data/SettingsBehaviour.ui:262
 msgid "Transitions between tracks"
-msgstr ""
+msgstr "Transicions entre pistes"
 
 #: ../data/SettingsBehaviour.ui:292 ../data/SettingsBehaviour.ui:351
 msgid "Smooth transitions"
@@ -635,7 +644,7 @@ msgstr "Transicions suaus"
 
 #: ../data/SettingsBehaviour.ui:321
 msgid "Playback fade"
-msgstr ""
+msgstr "Fosa de reproducció"
 
 #: ../data/SettingsBehaviour.ui:376
 msgid "ReplayGain"
@@ -659,15 +668,15 @@ msgstr "Només en mode festa"
 
 #: ../data/SettingsBehaviour.ui:478
 msgid "Fade duration in milliseconds"
-msgstr ""
+msgstr "Durada de la fosa en mil·lisegons"
 
 #: ../data/SettingsBehaviour.ui:491
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: ../data/SettingsBehaviour.ui:565
 msgid "Transitions duration in milliseconds"
-msgstr ""
+msgstr "Durada de les transicions en mil·lisegons"
 
 #: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:91
 msgid "Confirm"
@@ -822,7 +831,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:562
 msgid "Privacy"
-msgstr ""
+msgstr "Privacitat"
 
 #: ../data/SettingsWeb.ui:583 ../data/SettingsWeb.ui:706
 msgid "Login:"
@@ -1121,11 +1130,11 @@ msgstr "Reproducció contínua"
 
 #: ../data/ToolbarEnd.ui:31
 msgid "Automatic playback (similar)"
-msgstr ""
+msgstr "Reproducció automàtica (similar)"
 
 #: ../data/ToolbarEnd.ui:36
 msgid "Automatic playback (random)"
-msgstr ""
+msgstr "Reproducció automàtica (aleatòria)"
 
 #: ../data/ToolbarEnd.ui:41
 msgid "Repeat track"
