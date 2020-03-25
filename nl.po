@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 18:40+0100\n"
+"POT-Creation-Date: 2020-03-25 22:22+0100\n"
 "PO-Revision-Date: 2020-03-24 14:46+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -606,7 +606,7 @@ msgstr "Jaar"
 msgid "Popularity"
 msgstr "Populariteit"
 
-#: ../data/SettingsAppearance.ui:258 ../lollypop/menu_actions.py:78
+#: ../data/SettingsAppearance.ui:258 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
 msgstr "Cache opschonen"
 
@@ -749,10 +749,8 @@ msgstr ""
 #: ../data/SettingsWeb.ui:208
 msgid ""
 "Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
-"Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
 #: ../data/SettingsWeb.ui:222
 msgid ""
@@ -828,33 +826,39 @@ msgstr ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
 
-#: ../data/SettingsWeb.ui:562
+#: ../data/SettingsWeb.ui:544
+msgid ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:590
 msgid "Privacy"
 msgstr "Privacy"
 
-#: ../data/SettingsWeb.ui:583 ../data/SettingsWeb.ui:706
+#: ../data/SettingsWeb.ui:611 ../data/SettingsWeb.ui:734
 msgid "Login:"
 msgstr "Gebruikersnaam:"
 
-#: ../data/SettingsWeb.ui:596 ../data/SettingsWeb.ui:719
+#: ../data/SettingsWeb.ui:624 ../data/SettingsWeb.ui:747
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../data/SettingsWeb.ui:632 ../data/SettingsWeb.ui:755
+#: ../data/SettingsWeb.ui:660 ../data/SettingsWeb.ui:783
 msgid "Connect"
 msgstr "Verbinden"
 
-#: ../data/SettingsWeb.ui:661 ../data/SettingsWeb.ui:784
-#: ../data/SettingsWeb.ui:874 ../data/SettingsWeb.ui:1074
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:238
+#: ../data/SettingsWeb.ui:689 ../data/SettingsWeb.ui:812
+#: ../data/SettingsWeb.ui:902 ../data/SettingsWeb.ui:1102
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:249
 msgid "Disabled in network settings"
 msgstr "Uitgeschakeld in internetinstellingen"
 
-#: ../data/SettingsWeb.ui:807
+#: ../data/SettingsWeb.ui:835
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:831
+#: ../data/SettingsWeb.ui:859
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -867,15 +871,15 @@ msgstr ""
 "je <a href=\"https://listenbrainz.org/profile/\">gebruikersprofiel</a>.</"
 "small>"
 
-#: ../data/SettingsWeb.ui:861
+#: ../data/SettingsWeb.ui:889
 msgid "User token"
 msgstr "Gebruikerssleutel"
 
-#: ../data/SettingsWeb.ui:894
+#: ../data/SettingsWeb.ui:922
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:923
+#: ../data/SettingsWeb.ui:951
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -885,11 +889,11 @@ msgstr ""
 "<small>Zonder deze sleutel raak je snel aan de standaardquota…\n"
 "Lollypop heeft deze sleutel nodig om naar albumhoezen te zoeken.</small>"
 
-#: ../data/SettingsWeb.ui:950
+#: ../data/SettingsWeb.ui:978
 msgid "API key"
 msgstr "API-sleutel"
 
-#: ../data/SettingsWeb.ui:968
+#: ../data/SettingsWeb.ui:996
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -897,7 +901,7 @@ msgstr ""
 "<small>Je dient de ‘Aangepast zoeken-API’ en de ‘YouTube-API v3’ in te "
 "schakelen voor je project.</small>"
 
-#: ../data/SettingsWeb.ui:1002
+#: ../data/SettingsWeb.ui:1030
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -907,15 +911,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>Schakel dit in als afspelen van internet "
 "niet werkt</span>"
 
-#: ../data/SettingsWeb.ui:1037
+#: ../data/SettingsWeb.ui:1065
 msgid "Use an Invidious server"
 msgstr "Invidious-server gebruiken"
 
-#: ../data/SettingsWeb.ui:1055
+#: ../data/SettingsWeb.ui:1083
 msgid "No server set"
 msgstr "Geen server ingesteld"
 
-#: ../data/SettingsWeb.ui:1093
+#: ../data/SettingsWeb.ui:1121
 msgid "Google"
 msgstr "Google"
 
@@ -1167,7 +1171,7 @@ msgstr "Terug naar startpagina"
 msgid "Scan disabled, missing collection"
 msgstr "Scannen is uitgeschakeld: verzameling ontbreekt"
 
-#: ../lollypop/collectionscanner.py:654 ../lollypop/database_tracks.py:532
+#: ../lollypop/collectionscanner.py:654 ../lollypop/database_tracks.py:531
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1261,11 +1265,11 @@ msgstr "Bezig met afspelen van muziek"
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm-authenticatie is uitgeschakeld"
 
-#: ../lollypop/menu_actions.py:59 ../lollypop/widgets_row_album.py:129
+#: ../lollypop/menu_actions.py:58 ../lollypop/widgets_row_album.py:129
 msgid "Save in collection"
 msgstr "Opslaan in verzameling"
 
-#: ../lollypop/menu_actions.py:69
+#: ../lollypop/menu_actions.py:68
 msgid "Remove from collection"
 msgstr "Verwijderen uit verzameling"
 
@@ -1321,11 +1325,11 @@ msgstr "%d-%m-%Y"
 msgid "YouTube page address"
 msgstr "YouTube-adres"
 
-#: ../lollypop/menu_playback.py:56 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:56 ../lollypop/widgets_row_album.py:322
 msgid "Add to playback"
 msgstr "Toevoegen aan wachtrij"
 
-#: ../lollypop/menu_playback.py:63 ../lollypop/widgets_row_album.py:319
+#: ../lollypop/menu_playback.py:63 ../lollypop/widgets_row_album.py:329
 msgid "Remove from playback"
 msgstr "Verwijderen uit wachtrij"
 
@@ -1441,7 +1445,7 @@ msgstr "Alle apparaten"
 msgid "Radio"
 msgstr "Radio"
 
-#: ../lollypop/player_bin.py:292
+#: ../lollypop/player_bin.py:426
 msgid "Can't find this track on YouTube"
 msgstr "Dit nummer is niet beschikbaar op YouTube"
 
@@ -1554,22 +1558,22 @@ msgstr "Alle nummers"
 msgid "All genres"
 msgstr "Alle genres"
 
-#: ../lollypop/utils.py:84
+#: ../lollypop/utils.py:75
 #, python-format
 msgid "%s h  %s m"
 msgstr "%su %sm"
 
-#: ../lollypop/utils.py:86
+#: ../lollypop/utils.py:77
 #, python-format
 msgid "%s h"
 msgstr "%su"
 
-#: ../lollypop/utils.py:88
+#: ../lollypop/utils.py:79
 #, python-format
 msgid "%s m"
 msgstr "%sm"
 
-#: ../lollypop/utils.py:309
+#: ../lollypop/utils.py:300
 msgid "The the"
 msgstr "The the De de Het het"
 
@@ -1582,12 +1586,8 @@ msgid "Missing youtube-dl command"
 msgstr "youtube-dl ontbreekt"
 
 #: ../lollypop/view_albums_box.py:64
-msgid "You need to enable Spotify "
-msgstr "Schakel Spotify en "
-
-#: ../lollypop/view_albums_box.py:65
-msgid "and YouTube in network settings"
-msgstr "YouTube in in de internetinstellingen"
+msgid "You need to enable YouTube in network settings"
+msgstr ""
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1630,28 +1630,28 @@ msgstr "Kan songtekst niet vertalen"
 msgid "No lyrics found "
 msgstr "Geen songtekst beschikbaar "
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:49
 msgid "No items to show"
 msgstr "Geen te tonen items"
 
-#: ../lollypop/view_search.py:148 ../lollypop/view_search.py:158
-#: ../lollypop/view_search.py:197
+#: ../lollypop/view_search.py:150 ../lollypop/view_search.py:160
+#: ../lollypop/view_search.py:199
 msgid "Search for artists, albums and tracks"
 msgstr "Zoeken naar artiesten, albums en nummers"
 
-#: ../lollypop/view_search.py:316
+#: ../lollypop/view_search.py:317
 msgid "No results for this search"
 msgstr "Geen zoekresultaten"
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:68
 msgid "You might like this"
 msgstr "Speciaal voor jou"
 
-#: ../lollypop/view_suggestions.py:75
+#: ../lollypop/view_suggestions.py:73
 msgid "New albums from Spotify"
 msgstr "Nieuwe albums op Spotify"
 
-#: ../lollypop/view_suggestions.py:128
+#: ../lollypop/view_suggestions.py:106
 msgid "Welcome to Lollypop"
 msgstr "Welkom bij Lollypop"
 
@@ -1712,98 +1712,97 @@ msgstr "Geen gesynchroniseerde albums"
 msgid "No synchronized playlists"
 msgstr "Geen gesynchroniseerde afspeellijsten"
 
-#: ../lollypop/widgets_equalizer.py:22
+#: ../lollypop/widgets_equalizer.py:23
 msgid "Default"
 msgstr "Standaard"
 
-#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:106
-#: ../lollypop/widgets_equalizer.py:156
-msgid "Custom"
-msgstr "Aangepast"
-
-#: ../lollypop/widgets_equalizer.py:24
+#: ../lollypop/widgets_equalizer.py:25
 msgid "Classical"
 msgstr "Klassiek"
 
-#: ../lollypop/widgets_equalizer.py:25
+#: ../lollypop/widgets_equalizer.py:26
 msgid "Club"
 msgstr "Club"
 
-#: ../lollypop/widgets_equalizer.py:26
+#: ../lollypop/widgets_equalizer.py:27
 msgid "Dance"
 msgstr "Dance"
 
-#: ../lollypop/widgets_equalizer.py:27
+#: ../lollypop/widgets_equalizer.py:28
 msgid "Dubstep"
 msgstr "Dubstep"
 
-#: ../lollypop/widgets_equalizer.py:28
+#: ../lollypop/widgets_equalizer.py:29
 msgid "Full Bass"
 msgstr "Veel bas"
 
-#: ../lollypop/widgets_equalizer.py:29
+#: ../lollypop/widgets_equalizer.py:30
 msgid "Full Treble"
 msgstr "Veel treble"
 
-#: ../lollypop/widgets_equalizer.py:30
+#: ../lollypop/widgets_equalizer.py:31
 msgid "Full Bass + Treble"
 msgstr "Veel bas en treble"
 
-#: ../lollypop/widgets_equalizer.py:31
+#: ../lollypop/widgets_equalizer.py:32
 msgid "Hip Hop"
 msgstr "Hiphop"
 
-#: ../lollypop/widgets_equalizer.py:32
+#: ../lollypop/widgets_equalizer.py:33
 msgid "Kuduro"
 msgstr "Kuduro"
 
-#: ../lollypop/widgets_equalizer.py:33
+#: ../lollypop/widgets_equalizer.py:34
 msgid "Laptop/Headphones"
 msgstr "Laptop/Koptelefoon"
 
-#: ../lollypop/widgets_equalizer.py:34
+#: ../lollypop/widgets_equalizer.py:35
 msgid "Large Hall"
 msgstr "Grote zaal"
 
-#: ../lollypop/widgets_equalizer.py:35
+#: ../lollypop/widgets_equalizer.py:36
 msgid "Live"
 msgstr "Live"
 
-#: ../lollypop/widgets_equalizer.py:36
+#: ../lollypop/widgets_equalizer.py:37
 msgid "Party"
 msgstr "Feestje"
 
-#: ../lollypop/widgets_equalizer.py:37
+#: ../lollypop/widgets_equalizer.py:38
 msgid "Pop"
 msgstr "Pop"
 
-#: ../lollypop/widgets_equalizer.py:38
+#: ../lollypop/widgets_equalizer.py:39
 msgid "Psychedelic"
 msgstr "Psychedelisch"
 
-#: ../lollypop/widgets_equalizer.py:39
+#: ../lollypop/widgets_equalizer.py:40
 msgid "Reggae"
 msgstr "Reggae"
 
-#: ../lollypop/widgets_equalizer.py:40
+#: ../lollypop/widgets_equalizer.py:41
 msgid "Rock"
 msgstr "Rock"
 
-#: ../lollypop/widgets_equalizer.py:41
+#: ../lollypop/widgets_equalizer.py:42
 msgid "Soft"
 msgstr "Zacht"
 
-#: ../lollypop/widgets_equalizer.py:42
+#: ../lollypop/widgets_equalizer.py:43
 msgid "Ska"
 msgstr "Ska"
 
-#: ../lollypop/widgets_equalizer.py:43
+#: ../lollypop/widgets_equalizer.py:44
 msgid "Soft Rock"
 msgstr "Softrock"
 
-#: ../lollypop/widgets_equalizer.py:44
+#: ../lollypop/widgets_equalizer.py:45
 msgid "Techno"
 msgstr "Techno"
+
+#: ../lollypop/widgets_equalizer.py:140 ../lollypop/widgets_equalizer.py:172
+msgid "Custom"
+msgstr "Aangepast"
 
 #: ../lollypop/widgets_loved.py:119
 msgid "Allow playback"
@@ -1854,7 +1853,7 @@ msgstr "%s keer beluisterd"
 msgid "Compilation"
 msgstr "Compilatie"
 
-#: ../lollypop/widgets_row_album.py:317 ../lollypop/widgets_row_track.py:115
+#: ../lollypop/widgets_row_album.py:327 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "Verwijderen van afspeellijst"
 
@@ -1884,7 +1883,7 @@ msgstr[1] "%d nummers"
 msgid "You need to install pylast and gi secret"
 msgstr "Installeer pylast en gi secret"
 
-#: ../lollypop/widgets_settings_web.py:242
+#: ../lollypop/widgets_settings_web.py:253
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Gebruikmakend van de instellingen van 'GNOME Online Accounts'"
 
@@ -1895,6 +1894,19 @@ msgstr "band"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "zanger"
+
+#~ msgid ""
+#~ "Startpage\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+#~ msgstr ""
+#~ "Startpage\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Zoeken naar albumhoezen</span>"
+
+#~ msgid "You need to enable Spotify "
+#~ msgstr "Schakel Spotify en "
+
+#~ msgid "and YouTube in network settings"
+#~ msgstr "YouTube in in de internetinstellingen"
 
 #~ msgid "Show performers"
 #~ msgstr "Uitvoerende artiesten tonen"

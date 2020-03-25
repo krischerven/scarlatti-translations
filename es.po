@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 18:40+0100\n"
+"POT-Creation-Date: 2020-03-25 22:22+0100\n"
 "PO-Revision-Date: 2020-03-06 15:32+0000\n"
 "Last-Translator: Alexis Ruiz <alexmtzr14@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -611,7 +611,7 @@ msgstr "Año"
 msgid "Popularity"
 msgstr "Popularidad"
 
-#: ../data/SettingsAppearance.ui:258 ../lollypop/menu_actions.py:78
+#: ../data/SettingsAppearance.ui:258 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
 msgstr "Limpiar caché"
 
@@ -752,10 +752,8 @@ msgstr ""
 #: ../data/SettingsWeb.ui:208
 msgid ""
 "Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
-"Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">Búsqueda de carátula</span>"
 
 #: ../data/SettingsWeb.ui:222
 msgid ""
@@ -831,33 +829,39 @@ msgstr ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Búsqueda de carátula</span>"
 
-#: ../data/SettingsWeb.ui:562
+#: ../data/SettingsWeb.ui:544
+msgid ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:590
 msgid "Privacy"
 msgstr "Privacidad"
 
-#: ../data/SettingsWeb.ui:583 ../data/SettingsWeb.ui:706
+#: ../data/SettingsWeb.ui:611 ../data/SettingsWeb.ui:734
 msgid "Login:"
 msgstr "Nombre de usuario:"
 
-#: ../data/SettingsWeb.ui:596 ../data/SettingsWeb.ui:719
+#: ../data/SettingsWeb.ui:624 ../data/SettingsWeb.ui:747
 msgid "Password:"
 msgstr "Contraseña:"
 
-#: ../data/SettingsWeb.ui:632 ../data/SettingsWeb.ui:755
+#: ../data/SettingsWeb.ui:660 ../data/SettingsWeb.ui:783
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../data/SettingsWeb.ui:661 ../data/SettingsWeb.ui:784
-#: ../data/SettingsWeb.ui:874 ../data/SettingsWeb.ui:1074
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:238
+#: ../data/SettingsWeb.ui:689 ../data/SettingsWeb.ui:812
+#: ../data/SettingsWeb.ui:902 ../data/SettingsWeb.ui:1102
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:249
 msgid "Disabled in network settings"
 msgstr "Deshabilitado en los ajustes de red"
 
-#: ../data/SettingsWeb.ui:807
+#: ../data/SettingsWeb.ui:835
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsWeb.ui:831
+#: ../data/SettingsWeb.ui:859
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -870,15 +874,15 @@ msgstr ""
 "usuario en <a href=\"https://listenbrainz.org/profile/\">tu perfil de "
 "usuario</a>.</small>"
 
-#: ../data/SettingsWeb.ui:861
+#: ../data/SettingsWeb.ui:889
 msgid "User token"
 msgstr "Token de usuario"
 
-#: ../data/SettingsWeb.ui:894
+#: ../data/SettingsWeb.ui:922
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:923
+#: ../data/SettingsWeb.ui:951
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -888,11 +892,11 @@ msgstr ""
 "<small>De lo contrario, pronto excederá el cupo predeterminado…\n"
 "Lollypop necesita esto para buscar carátulas.</small>"
 
-#: ../data/SettingsWeb.ui:950
+#: ../data/SettingsWeb.ui:978
 msgid "API key"
 msgstr "Clave API"
 
-#: ../data/SettingsWeb.ui:968
+#: ../data/SettingsWeb.ui:996
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -900,7 +904,7 @@ msgstr ""
 "</small>Necesita habilitar \"Custom Search API\" y \"YouTube API v3\" para "
 "su proyecto.</small>"
 
-#: ../data/SettingsWeb.ui:1002
+#: ../data/SettingsWeb.ui:1030
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -910,15 +914,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>Active esto si la reproducción Web no "
 "funciona</span>"
 
-#: ../data/SettingsWeb.ui:1037
+#: ../data/SettingsWeb.ui:1065
 msgid "Use an Invidious server"
 msgstr "Usar un servidor de Invidious"
 
-#: ../data/SettingsWeb.ui:1055
+#: ../data/SettingsWeb.ui:1083
 msgid "No server set"
 msgstr "Ningún servidor establecido"
 
-#: ../data/SettingsWeb.ui:1093
+#: ../data/SettingsWeb.ui:1121
 msgid "Google"
 msgstr "Google"
 
@@ -1170,7 +1174,7 @@ msgstr "Ir al inicio"
 msgid "Scan disabled, missing collection"
 msgstr "Escaneo desactivado, no se encuentra la colección"
 
-#: ../lollypop/collectionscanner.py:654 ../lollypop/database_tracks.py:532
+#: ../lollypop/collectionscanner.py:654 ../lollypop/database_tracks.py:531
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1264,11 +1268,11 @@ msgstr "Reproduciendo música"
 msgid "Last.fm authentication disabled"
 msgstr "Autenticación de Last.fm desactivada"
 
-#: ../lollypop/menu_actions.py:59 ../lollypop/widgets_row_album.py:129
+#: ../lollypop/menu_actions.py:58 ../lollypop/widgets_row_album.py:129
 msgid "Save in collection"
 msgstr "Guardar en la colección"
 
-#: ../lollypop/menu_actions.py:69
+#: ../lollypop/menu_actions.py:68
 msgid "Remove from collection"
 msgstr "Eliminar de la colección"
 
@@ -1324,11 +1328,11 @@ msgstr "%A-%m-%d"
 msgid "YouTube page address"
 msgstr "Dirección de YouTube"
 
-#: ../lollypop/menu_playback.py:56 ../lollypop/widgets_row_album.py:312
+#: ../lollypop/menu_playback.py:56 ../lollypop/widgets_row_album.py:322
 msgid "Add to playback"
 msgstr "Añadir a la reproducción"
 
-#: ../lollypop/menu_playback.py:63 ../lollypop/widgets_row_album.py:319
+#: ../lollypop/menu_playback.py:63 ../lollypop/widgets_row_album.py:329
 msgid "Remove from playback"
 msgstr "Quitar de la reproducción"
 
@@ -1444,7 +1448,7 @@ msgstr "Todos los dispositivos"
 msgid "Radio"
 msgstr "Radio"
 
-#: ../lollypop/player_bin.py:292
+#: ../lollypop/player_bin.py:426
 msgid "Can't find this track on YouTube"
 msgstr "No se encontró la pista en YouTube"
 
@@ -1557,22 +1561,22 @@ msgstr "Todas las pistas"
 msgid "All genres"
 msgstr "Todos los géneros"
 
-#: ../lollypop/utils.py:84
+#: ../lollypop/utils.py:75
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../lollypop/utils.py:86
+#: ../lollypop/utils.py:77
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/utils.py:88
+#: ../lollypop/utils.py:79
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:309
+#: ../lollypop/utils.py:300
 msgid "The the"
 msgstr "The the Les les La Le la le los el"
 
@@ -1585,12 +1589,8 @@ msgid "Missing youtube-dl command"
 msgstr "Falta el comando youtube-dl"
 
 #: ../lollypop/view_albums_box.py:64
-msgid "You need to enable Spotify "
-msgstr "Tiene que habilitar Spotify "
-
-#: ../lollypop/view_albums_box.py:65
-msgid "and YouTube in network settings"
-msgstr "y YouTube en la configuración de red"
+msgid "You need to enable YouTube in network settings"
+msgstr ""
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1633,28 +1633,28 @@ msgstr "No se puede traducir esta letra"
 msgid "No lyrics found "
 msgstr "No se encuentra la letra "
 
-#: ../lollypop/view.py:46
+#: ../lollypop/view.py:49
 msgid "No items to show"
 msgstr "No hay nada por aquí"
 
-#: ../lollypop/view_search.py:148 ../lollypop/view_search.py:158
-#: ../lollypop/view_search.py:197
+#: ../lollypop/view_search.py:150 ../lollypop/view_search.py:160
+#: ../lollypop/view_search.py:199
 msgid "Search for artists, albums and tracks"
 msgstr "Buscar artistas, álbumes y canciones"
 
-#: ../lollypop/view_search.py:316
+#: ../lollypop/view_search.py:317
 msgid "No results for this search"
 msgstr "Sin resultados en esta búsqueda"
 
-#: ../lollypop/view_suggestions.py:70
+#: ../lollypop/view_suggestions.py:68
 msgid "You might like this"
 msgstr "Puede que te guste"
 
-#: ../lollypop/view_suggestions.py:75
+#: ../lollypop/view_suggestions.py:73
 msgid "New albums from Spotify"
 msgstr "Nuevos álbumes de Spotify"
 
-#: ../lollypop/view_suggestions.py:128
+#: ../lollypop/view_suggestions.py:106
 msgid "Welcome to Lollypop"
 msgstr "Bienvenido a Lollypop"
 
@@ -1715,98 +1715,97 @@ msgstr "Sin álbumes sincronizados"
 msgid "No synchronized playlists"
 msgstr "Sin listas de reproducción sincronizadas"
 
-#: ../lollypop/widgets_equalizer.py:22
+#: ../lollypop/widgets_equalizer.py:23
 msgid "Default"
 msgstr "Por defecto"
 
-#: ../lollypop/widgets_equalizer.py:23 ../lollypop/widgets_equalizer.py:106
-#: ../lollypop/widgets_equalizer.py:156
-msgid "Custom"
-msgstr "Personalizado"
-
-#: ../lollypop/widgets_equalizer.py:24
+#: ../lollypop/widgets_equalizer.py:25
 msgid "Classical"
 msgstr "Clásica"
 
-#: ../lollypop/widgets_equalizer.py:25
+#: ../lollypop/widgets_equalizer.py:26
 msgid "Club"
 msgstr "Club"
 
-#: ../lollypop/widgets_equalizer.py:26
+#: ../lollypop/widgets_equalizer.py:27
 msgid "Dance"
 msgstr "Dance"
 
-#: ../lollypop/widgets_equalizer.py:27
+#: ../lollypop/widgets_equalizer.py:28
 msgid "Dubstep"
 msgstr "Dubstep"
 
-#: ../lollypop/widgets_equalizer.py:28
+#: ../lollypop/widgets_equalizer.py:29
 msgid "Full Bass"
 msgstr "Graves al máximo"
 
-#: ../lollypop/widgets_equalizer.py:29
+#: ../lollypop/widgets_equalizer.py:30
 msgid "Full Treble"
 msgstr "Agudos al máximo"
 
-#: ../lollypop/widgets_equalizer.py:30
+#: ../lollypop/widgets_equalizer.py:31
 msgid "Full Bass + Treble"
 msgstr "Bajos y agudos al máximo"
 
-#: ../lollypop/widgets_equalizer.py:31
+#: ../lollypop/widgets_equalizer.py:32
 msgid "Hip Hop"
 msgstr "Hip Hop"
 
-#: ../lollypop/widgets_equalizer.py:32
+#: ../lollypop/widgets_equalizer.py:33
 msgid "Kuduro"
 msgstr "Kuduro"
 
-#: ../lollypop/widgets_equalizer.py:33
+#: ../lollypop/widgets_equalizer.py:34
 msgid "Laptop/Headphones"
 msgstr "Portátil/Auriculares"
 
-#: ../lollypop/widgets_equalizer.py:34
+#: ../lollypop/widgets_equalizer.py:35
 msgid "Large Hall"
 msgstr "Auditorio"
 
-#: ../lollypop/widgets_equalizer.py:35
+#: ../lollypop/widgets_equalizer.py:36
 msgid "Live"
 msgstr "En vivo"
 
-#: ../lollypop/widgets_equalizer.py:36
+#: ../lollypop/widgets_equalizer.py:37
 msgid "Party"
 msgstr "Fiesta"
 
-#: ../lollypop/widgets_equalizer.py:37
+#: ../lollypop/widgets_equalizer.py:38
 msgid "Pop"
 msgstr "Pop"
 
-#: ../lollypop/widgets_equalizer.py:38
+#: ../lollypop/widgets_equalizer.py:39
 msgid "Psychedelic"
 msgstr "Psicodélica"
 
-#: ../lollypop/widgets_equalizer.py:39
+#: ../lollypop/widgets_equalizer.py:40
 msgid "Reggae"
 msgstr "Reggae"
 
-#: ../lollypop/widgets_equalizer.py:40
+#: ../lollypop/widgets_equalizer.py:41
 msgid "Rock"
 msgstr "Rock"
 
-#: ../lollypop/widgets_equalizer.py:41
+#: ../lollypop/widgets_equalizer.py:42
 msgid "Soft"
 msgstr "Suave"
 
-#: ../lollypop/widgets_equalizer.py:42
+#: ../lollypop/widgets_equalizer.py:43
 msgid "Ska"
 msgstr "Ska"
 
-#: ../lollypop/widgets_equalizer.py:43
+#: ../lollypop/widgets_equalizer.py:44
 msgid "Soft Rock"
 msgstr "Rock suave"
 
-#: ../lollypop/widgets_equalizer.py:44
+#: ../lollypop/widgets_equalizer.py:45
 msgid "Techno"
 msgstr "Techno"
+
+#: ../lollypop/widgets_equalizer.py:140 ../lollypop/widgets_equalizer.py:172
+msgid "Custom"
+msgstr "Personalizado"
 
 #: ../lollypop/widgets_loved.py:119
 msgid "Allow playback"
@@ -1857,7 +1856,7 @@ msgstr "Canción reproducida %s veces"
 msgid "Compilation"
 msgstr "Recopilación"
 
-#: ../lollypop/widgets_row_album.py:317 ../lollypop/widgets_row_track.py:115
+#: ../lollypop/widgets_row_album.py:327 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "Quitar de la lista de reproducción"
 
@@ -1887,7 +1886,7 @@ msgstr[1] "%d canciones"
 msgid "You need to install pylast and gi secret"
 msgstr "Necesita instalar «pylast» y «gi secret»"
 
-#: ../lollypop/widgets_settings_web.py:242
+#: ../lollypop/widgets_settings_web.py:253
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Usando la configuración de \"cuentas en línea de GNOME\""
 
@@ -1898,6 +1897,19 @@ msgstr "banda"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "cantante"
+
+#~ msgid ""
+#~ "Startpage\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+#~ msgstr ""
+#~ "Startpage\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Búsqueda de carátula</span>"
+
+#~ msgid "You need to enable Spotify "
+#~ msgstr "Tiene que habilitar Spotify "
+
+#~ msgid "and YouTube in network settings"
+#~ msgstr "y YouTube en la configuración de red"
 
 #~ msgid "Show performers"
 #~ msgstr "Mostrar artistas"
