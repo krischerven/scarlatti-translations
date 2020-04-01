@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-25 22:22+0100\n"
 "PO-Revision-Date: 2020-04-01 13:18+0000\n"
-"Last-Translator: Zhenkai Weng <oakrc@protonmail.com>\n"
+"Last-Translator: maitreya2019 <crc2005@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -85,7 +85,7 @@ msgstr "类型 ID。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
 msgid "Search on Spotify"
-msgstr ""
+msgstr "在Spotify上搜索"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -210,7 +210,7 @@ msgstr "例：The Beatles 会被视作 Beatles（需要重设数据库）"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Show sort tag as artist. Reset of database may be required"
-msgstr ""
+msgstr "以艺术家作为排序标签显示 (或需重设数据库)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Ex: Beatles, The"
@@ -250,11 +250,12 @@ msgstr "强制使用单列模式"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:273
 msgid "Volume rate"
-msgstr ""
+msgstr "音量比率"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:274
+#, fuzzy
 msgid "0.0-1.0"
-msgstr ""
+msgstr "0.0-1.0"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "Equalizer enabled"
@@ -270,23 +271,23 @@ msgstr "顺滑地过渡曲目"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:308
 msgid "Smooth track transitions only in party mode"
-msgstr ""
+msgstr "仅在派对模式顺滑过渡曲目"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Transition duration in ms"
-msgstr ""
+msgstr "过渡间隔以毫秒计"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Fade effect on playback status change"
-msgstr ""
+msgstr "回放状态变化时使用淡入淡出效果"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "Fade duration in ms"
-msgstr ""
+msgstr "淡入淡出间隔以毫秒计"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "Fade effect only in party mode"
-msgstr ""
+msgstr "仅在派对模式使用淡入淡出效果"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:333 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
@@ -310,13 +311,13 @@ msgstr "界于-15和15之间"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:358
 msgid "Applies signal compression/limiting to raw audio data"
-msgstr ""
+msgstr "对原始音频数据应用信号压缩/限制"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:359
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
-msgstr ""
+msgstr "执行搭配平滑折膝特性的严格硬性限制时，使用-6 dB阈值"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:363
 msgid "Possibilities for powermanagement options"
@@ -362,6 +363,17 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    Lollypop 图标\n"
+"Geary 开发团队:\n"
+"    标签列表符号图标\n"
+"GNOME 项目:\n"
+"    未播放专辑符号图标\n"
+"    艺术家列表符号图标\n"
+"Martins D. Okoi:\n"
+"    应用数据说明\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:66
 msgid "Donations:"
@@ -397,6 +409,8 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
+"Lollypop是一款轻量级的现代音乐播放器，为在GNOME桌面环境中出色工作而设计。 它还具有一种派对模式，能够自动选择与派对相关的播放列表；在全屏模式"
+"下允许从您的沙发访问播放器；在线获取歌词、插图和艺术家传记；并为ReplayGain提供本机支持。"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -469,7 +483,7 @@ msgstr "播放专辑"
 #: ../data/ArtistBannerWidget.ui:108
 msgctxt "artist context"
 msgid "Add to current playlist"
-msgstr ""
+msgstr "添加到现有播放列表"
 
 #: ../data/ArtistInformation.ui:60
 msgid "Go to artist view"
@@ -481,7 +495,7 @@ msgstr "选择一个本地文件"
 
 #: ../data/DeviceWidget.ui:67
 msgid "Convert to:"
-msgstr ""
+msgstr "转换为:"
 
 #: ../data/DeviceWidget.ui:79
 msgid "Normalize"
