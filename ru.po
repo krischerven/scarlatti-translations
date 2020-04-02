@@ -19,17 +19,17 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-25 22:22+0100\n"
-"PO-Revision-Date: 2018-08-27 11:41+0000\n"
-"Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
+"PO-Revision-Date: 2020-04-02 01:35+0000\n"
+"Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -37,7 +37,7 @@ msgstr "Размер окна"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size (width and height)."
-msgstr "Размер окна (ширина и высота)"
+msgstr "Размер окна (ширина и высота)."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:40
 msgid "Window position"
@@ -45,7 +45,7 @@ msgstr "Позиция окна"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:41
 msgid "Window position (x and y)."
-msgstr "Позиция окна (x, y)"
+msgstr "Позиция окна (x, y)."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:45
 #: ../data/org.gnome.Lollypop.gschema.xml:50
@@ -64,7 +64,7 @@ msgstr "ВНУТРЕННИЙ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:60
 msgid "Allow using a cover per track"
-msgstr ""
+msgstr "Разрешить использовать обложку для каждого трека"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:65
 msgid "Access network"
@@ -80,7 +80,7 @@ msgstr "Развёрнутое окно"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Window maximized state."
-msgstr "Состояние развёрнутого окна"
+msgstr "Состояние развёрнутого окна."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:85
 msgid "Enabled genres in party mode"
@@ -88,29 +88,31 @@ msgstr "Включает жанры в режиме вечеринки"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "ID for genres."
-msgstr ""
+msgstr "Идентификация для жанров."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
 msgid "Search on Spotify"
-msgstr ""
+msgstr "Поиск на Spotify"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
-msgstr ""
+msgstr "Разрешить синхронизировать USB накопители"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:105
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
+"Если установлено, Lollypop будет использовать этот сервер вместо сервера от "
+"Youtube. См. https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:110
 msgid "If true, Lollypop will not use system youtube-dl"
-msgstr ""
+msgstr "Если включено, Lollypop не будет использовать локальный youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:115
 msgid "Import playlists from collections"
-msgstr ""
+msgstr "Импортировать плейлисты с коллекций"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:120
 msgid "Music URI"
@@ -267,7 +269,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Show labels in sidebar"
-msgstr ""
+msgstr "Показывать ярлыки на боково"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:303
 msgid "Smooth track transitions"
@@ -1475,7 +1477,7 @@ msgstr "Случайные треки"
 
 #: ../lollypop/shown.py:71
 msgid "Recently played tracks"
-msgstr ""
+msgstr "Недавно прослушанные треки"
 
 #: ../lollypop/shown.py:72
 msgid "Seldomly played tracks"
@@ -1487,7 +1489,7 @@ msgstr ""
 
 #: ../lollypop/toolbar_end.py:237
 msgid "All genres"
-msgstr ""
+msgstr "Все жанры"
 
 #: ../lollypop/utils.py:75
 #, python-format
