@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-25 22:22+0100\n"
-"PO-Revision-Date: 2020-04-02 01:56+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-04-02 02:52+0000\n"
+"Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ru/>\n"
 "Language: ru\n"
@@ -380,6 +380,17 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    Иконка Lollypop\n"
+"Команда разработчиков Geary:\n"
+"    иконка тег-листа\n"
+"Проект GNOME:\n"
+"    иконки непроигрываемых-символических-альбомов\n"
+"    список-символических-артистов\n"
+"Martins D. Okoi:\n"
+"    Описание в appdata\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:66
 msgid "Donations:"
@@ -387,7 +398,7 @@ msgstr "Пожертвования:"
 
 #: ../data/AboutDialog.ui.in:73
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:83 ../lollypop/container_notification.py:86
 msgid "Patreon"
@@ -444,7 +455,7 @@ msgstr "Музыкальный плеер"
 
 #: ../data/org.gnome.Lollypop.desktop.in:7
 msgid "org.gnome.Lollypop"
-msgstr ""
+msgstr "org.gnome.Lollypop"
 
 #: ../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
@@ -517,19 +528,19 @@ msgstr "Не конвертировать"
 
 #: ../data/DeviceWidget.ui:117
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../data/DeviceWidget.ui:134
 msgid "Ogg Vorbis"
-msgstr ""
+msgstr "Ogg Vorbis"
 
 #: ../data/DeviceWidget.ui:151
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../data/DeviceWidget.ui:168
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../data/DeviceWidget.ui:204
 msgid "Synchronized:"
@@ -647,7 +658,7 @@ msgstr "Плавные переходы"
 
 #: ../data/SettingsBehaviour.ui:312
 msgid "ReplayGain"
-msgstr ""
+msgstr "ReplayGain"
 
 #: ../data/SettingsBehaviour.ui:337
 msgid "Disabled"
@@ -800,7 +811,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "Deezer\n"
-"<span size=\\\"x-small\\\" alpha=\\\"70%\\\">Поиск обложек</span>"
+"<span size=\"x-small\" alpha=\"70%\">Поиск обложек</span>"
 
 #: ../data/SettingsWeb.ui:488
 msgid ""
@@ -809,9 +820,8 @@ msgid ""
 "span>"
 msgstr ""
 "AudioDB\n"
-"<span size=\\\"x-small\\\" alpha=\\\"70%\\\">Биография исполнителя, поиск "
-"обложек, …</\n"
-"span>"
+"<span size=\"x-small\" alpha=\"70%\">Биография исполнителя, поиск обложек, "
+"…</span>"
 
 #: ../data/SettingsWeb.ui:516
 msgid ""
@@ -819,7 +829,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "FANART.TV\n"
-"<span size=\\\"x-small\\\" alpha=\\\"70%\\\">Поиск обложек</span>"
+"<span size=\"x-small\" alpha=\"70%\">Поиск обложек</span>"
 
 #: ../data/SettingsWeb.ui:544
 msgid ""
@@ -827,7 +837,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "DuckDuckGo\n"
-"<span size=\\\"x-small\\\" alpha=\\\"70%\\\">Поиск песен , обложек, …</span>"
+"<span size=\"x-small\" alpha=\"70%\">Поиск песен , обложек, …</span>"
 
 #: ../data/SettingsWeb.ui:590
 msgid "Privacy"
@@ -849,11 +859,11 @@ msgstr "Подключение"
 #: ../data/SettingsWeb.ui:902 ../data/SettingsWeb.ui:1102
 #: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:249
 msgid "Disabled in network settings"
-msgstr ""
+msgstr "Выключено в настройках сети"
 
 #: ../data/SettingsWeb.ui:835
 msgid "Libre.fm"
-msgstr ""
+msgstr "Libre.fm"
 
 #: ../data/SettingsWeb.ui:859
 msgid ""
@@ -862,14 +872,18 @@ msgid ""
 "token below. You can see your user token in your <a href=\"https://"
 "listenbrainz.org/profile/\">user profile</a>.</small>"
 msgstr ""
+"<b>Пользовательский токен ListenBrainz</b>\n"
+"<small>Для отправки ваших лицензий на ListenBrainz, введите ваш "
+"пользовательский токен ListenBrainz внизу. Вы можете найти его в вашем <a "
+"href=\"https://listenbrainz.org/profile/\">профиле пользователя</a>.</small>"
 
 #: ../data/SettingsWeb.ui:889
 msgid "User token"
-msgstr ""
+msgstr "Пользовательский токен"
 
 #: ../data/SettingsWeb.ui:922
 msgid "ListenBrainz"
-msgstr ""
+msgstr "ListenBrainz"
 
 #: ../data/SettingsWeb.ui:951
 msgid ""
@@ -877,6 +891,9 @@ msgid ""
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
+"<b>Google Веб Сервисам необходим API ключ.</b>\n"
+"<small>В противном случае вы не сможете ими воспользоваться…\n"
+"Lollypop нуждается в этом для поиска обложек.</small>"
 
 #: ../data/SettingsWeb.ui:978
 msgid "API key"
@@ -887,6 +904,8 @@ msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
+"<small>Вам необходимо включить \"Поиск сторонних API\" и \"YouTube API v3\" "
+"для вашего проекта.</small>"
 
 #: ../data/SettingsWeb.ui:1030
 msgid ""
@@ -894,18 +913,21 @@ msgid ""
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
 "work</span>"
 msgstr ""
+"Использовать локальную версию youtube-dl\n"
+"<span size=\"small\" alpha='40000'>Включите если Веб-воспроизведение не "
+"работает</span>"
 
 #: ../data/SettingsWeb.ui:1065
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Использовать индивидуальный сервер"
 
 #: ../data/SettingsWeb.ui:1083
 msgid "No server set"
-msgstr ""
+msgstr "Сервер не установлен"
 
 #: ../data/SettingsWeb.ui:1121
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -940,27 +962,27 @@ msgstr "Блокировать воспроизведение"
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
 msgid "Show equalizer"
-msgstr ""
+msgstr "Показать эквалайзер"
 
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Show lyrics"
-msgstr ""
+msgstr "Показать текст песни"
 
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Volume up"
-msgstr ""
+msgstr "Повысить громкость"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
 msgid "Volume down"
-msgstr ""
+msgstr "Понизить громкость"
 
 #: ../data/Shortcuts.ui:80
 msgctxt "shortcut window"
 msgid "Show albums from artist"
-msgstr ""
+msgstr "Показать альбомы от исполнителя"
 
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
@@ -1025,83 +1047,83 @@ msgstr "Перемотать вперёд"
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
-msgstr ""
+msgstr "Включить/выключить скробблинг"
 
 #: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
-msgstr ""
+msgstr "Лимит в"
 
 #: ../data/SmartPlaylistView.ui:121
 msgid "tracks selected by"
-msgstr ""
+msgstr "треки выбраны"
 
 #: ../data/SmartPlaylistView.ui:136
 msgid "random"
-msgstr ""
+msgstr "случайно"
 
 #: ../data/SmartPlaylistView.ui:137
 msgid "album"
-msgstr ""
+msgstr "альбом"
 
 #: ../data/SmartPlaylistView.ui:138
 msgid "artist"
-msgstr ""
+msgstr "исполнитель"
 
 #: ../data/SmartPlaylistView.ui:139
 msgid "year DESC"
-msgstr ""
+msgstr "год ОПИСАНИЕ"
 
 #: ../data/SmartPlaylistView.ui:140
 msgid "year ASC"
-msgstr ""
+msgstr "год ASCII"
 
 #: ../data/SmartPlaylistView.ui:141
 msgid "duration DESC"
-msgstr ""
+msgstr "продолжительность ОПИСАНИЕ"
 
 #: ../data/SmartPlaylistView.ui:142
 msgid "duration ASC"
-msgstr ""
+msgstr "продолжительность ASCII"
 
 #: ../data/SmartPlaylistView.ui:184
 msgid "Match music for "
-msgstr ""
+msgstr "Совпадение музыки для "
 
 #: ../data/SmartPlaylistView.ui:210
 msgid "all"
-msgstr ""
+msgstr "всё"
 
 #: ../data/SmartPlaylistView.ui:211
 msgid "one"
-msgstr ""
+msgstr "один"
 
 #: ../data/SmartPlaylistView.ui:226
 msgid "of the following rules :"
-msgstr ""
+msgstr "одно из следующих правил:"
 
 #: ../data/SmartPlaylistWidget.ui:28
 msgid "Genre"
-msgstr ""
+msgstr "Жанр"
 
 #: ../data/SmartPlaylistWidget.ui:31
 msgid "Rating"
-msgstr ""
+msgstr "Рейтинг"
 
 #: ../data/SmartPlaylistWidget.ui:34
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
-msgstr ""
+msgstr "Режим вечеринки"
 
 #: ../data/ToolbarEnd.ui:9
 msgid "Enable party mode"
-msgstr ""
+msgstr "Включить режим вечеринки"
 
 #: ../data/ToolbarEnd.ui:13
 msgid "Configure"
-msgstr ""
+msgstr "Настроить"
 
 #: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
@@ -1117,11 +1139,11 @@ msgstr "Непрерывное воспроизведение"
 
 #: ../data/ToolbarEnd.ui:31
 msgid "Automatic playback (similar)"
-msgstr ""
+msgstr "Автоматическое воспроизведение (схоже)"
 
 #: ../data/ToolbarEnd.ui:36
 msgid "Automatic playback (random)"
-msgstr ""
+msgstr "Автоматическое воспроизведение (случайное)"
 
 #: ../data/ToolbarEnd.ui:41
 msgid "Repeat track"
@@ -1133,15 +1155,15 @@ msgstr "Не повторять"
 
 #: ../data/ToolbarEnd.ui:52
 msgid "Scrobbling"
-msgstr ""
+msgstr "Скробблинг"
 
 #: ../data/ToolbarEnd.ui:54
 msgid "Enable scrobbling"
-msgstr ""
+msgstr "Включить скробблинг"
 
 #: ../data/ToolbarEnd.ui:96
 msgid "Playback options"
-msgstr ""
+msgstr "Опции воспроизведения"
 
 #: ../data/TuneinPopover.ui:26
 msgid "Go back"
@@ -1153,7 +1175,7 @@ msgstr "Вернуться домой"
 
 #: ../lollypop/collectionscanner.py:462
 msgid "Scan disabled, missing collection"
-msgstr ""
+msgstr "Сканирование выключено, коллекции недоступны"
 
 #: ../lollypop/collectionscanner.py:654 ../lollypop/database_tracks.py:531
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
@@ -1166,15 +1188,15 @@ msgstr "Неизвестный"
 
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
-msgstr ""
+msgstr "Загружать альбомы и обложки исполнителей автоматически?"
 
 #: ../lollypop/container_notification.py:72
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: ../lollypop/container_notification.py:85
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Пожалуйста, поддержите проект донатом"
 
 #: ../lollypop/database_artists.py:121
 msgid "Many artists"
@@ -1183,15 +1205,15 @@ msgstr "Множество исполнителей"
 #: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
 #: ../lollypop/widgets_device.py:144
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: ../lollypop/dialog_apps.py:73
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #: ../lollypop/dialog_apps.py:81
 msgid "Select an application"
-msgstr ""
+msgstr "Выберите приложение"
 
 #: ../lollypop/dialog_settings.py:41 ../lollypop/view_settings.py:38
 msgid "Appearance"
@@ -1224,26 +1246,26 @@ msgstr "Веб"
 
 #: ../lollypop/dialog_settings.py:57 ../lollypop/view_settings.py:48
 msgid "Configure Web services"
-msgstr ""
+msgstr "Настроить веб-сервисы"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_genre.py:54 ../lollypop/menu_objects.py:55
 #: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:66
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
-msgstr ""
+msgstr "Устройства"
 
 #: ../lollypop/dialog_settings.py:62 ../lollypop/view_settings.py:51
 msgid "Manage devices"
-msgstr ""
+msgstr "Управление устройствами"
 
 #: ../lollypop/fullscreen.py:363
 msgid "You are using a broken cursor theme!"
-msgstr ""
+msgstr "Вы используете тему с неисправным курсором!"
 
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
-msgstr ""
+msgstr "Воспроизведение музыки"
 
 #: ../lollypop/lastfm.py:23
 msgid "Last.fm authentication disabled"
@@ -1251,23 +1273,23 @@ msgstr "Аутентификация Last.fm отключена"
 
 #: ../lollypop/menu_actions.py:58 ../lollypop/widgets_row_album.py:129
 msgid "Save in collection"
-msgstr ""
+msgstr "Сохранить в коллекцию"
 
 #: ../lollypop/menu_actions.py:68
 msgid "Remove from collection"
-msgstr ""
+msgstr "Удалить из коллекции"
 
 #: ../lollypop/menu_actions.py:87
 msgid "Buy this album"
-msgstr ""
+msgstr "Купить этот альбом"
 
 #: ../lollypop/menu_actions.py:99
 msgid "Open with…"
-msgstr ""
+msgstr "Открыть с помощью…"
 
 #: ../lollypop/menu_artist.py:49
 msgid "Show tracks"
-msgstr ""
+msgstr "Показать треки"
 
 #: ../lollypop/menu_artist.py:52 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:41 ../lollypop/menu_objects.py:46
@@ -1277,7 +1299,7 @@ msgstr "Проигрывание"
 
 #: ../lollypop/menu_artist.py:102
 msgid "Available albums"
-msgstr ""
+msgstr "Доступные альбомы"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:52
 #: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:62
@@ -1286,56 +1308,56 @@ msgstr "Воспроизведение альбомов"
 
 #: ../lollypop/menu_current_albums.py:42
 msgid "Create a new playlist"
-msgstr ""
+msgstr "Создать новый плейлист"
 
 #: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:61
 msgid "Show tracks number"
-msgstr ""
+msgstr "Показать номера треков"
 
 #: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:57
 #: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:64
 msgid "Add to"
-msgstr ""
+msgstr "Добавить в"
 
 #: ../lollypop/menu_objects.py:58 ../lollypop/menu_objects.py:107
 msgid "Others"
-msgstr ""
+msgstr "Другие"
 
 #: ../lollypop/menu_objects.py:129
 msgid "%Y-%m-%d"
-msgstr ""
+msgstr "%d-%m-%Y"
 
 #: ../lollypop/menu_objects.py:162
 msgid "YouTube page address"
-msgstr ""
+msgstr "Адрес YouTube страницы"
 
 #: ../lollypop/menu_playback.py:56 ../lollypop/widgets_row_album.py:322
 msgid "Add to playback"
-msgstr ""
+msgstr "Добавить в воспроизведение"
 
 #: ../lollypop/menu_playback.py:63 ../lollypop/widgets_row_album.py:329
 msgid "Remove from playback"
-msgstr ""
+msgstr "Удалить из воспроизведения"
 
 #: ../lollypop/menu_playback.py:83
 msgid "Play this playlist"
-msgstr ""
+msgstr "Воспроизвести этот плейлист"
 
 #: ../lollypop/menu_playback.py:126
 msgid "Play this artist"
-msgstr ""
+msgstr "Воспроизвести этого исполнителя"
 
 #: ../lollypop/menu_playback.py:191
 msgid "Play this genre"
-msgstr ""
+msgstr "Воспроизвести этот жанр"
 
 #: ../lollypop/menu_playback.py:271
 msgid "Play this decade"
-msgstr ""
+msgstr "Воспроизвести это десятилетие"
 
 #: ../lollypop/menu_playback.py:350 ../lollypop/widgets_row_album.py:121
 msgid "Play this album"
-msgstr ""
+msgstr "Воспроизвести этот альбом"
 
 #: ../lollypop/menu_playback.py:476
 msgid "Add to queue"
@@ -1343,31 +1365,31 @@ msgstr "Добавить в очередь"
 
 #: ../lollypop/menu_playback.py:482
 msgid "Remove from queue"
-msgstr "Удалить из очереди "
+msgstr "Удалить из очереди"
 
 #: ../lollypop/menu_playback.py:493
 msgid "Do not stop after"
-msgstr ""
+msgstr "Не останавливать после"
 
 #: ../lollypop/menu_playback.py:498
 msgid "Stop after"
-msgstr ""
+msgstr "Остановить после"
 
 #: ../lollypop/menu_playlist.py:42 ../lollypop/menu_playlist.py:113
 msgid "Save playlist"
-msgstr ""
+msgstr "Сохранить плейлист"
 
 #: ../lollypop/menu_playlist.py:46
 msgid "Manage smart playlist"
-msgstr ""
+msgstr "Управление умными устройствами"
 
 #: ../lollypop/menu_playlist.py:50
 msgid "Remove playlist"
-msgstr ""
+msgstr "Удалить плейлист"
 
 #: ../lollypop/menu_playlist.py:62
 msgid "Playlist"
-msgstr ""
+msgstr "Плейлист"
 
 #: ../lollypop/menu_playlist.py:68
 msgid "Edit"
@@ -1375,7 +1397,7 @@ msgstr "Редактировать"
 
 #: ../lollypop/menu_playlist.py:90
 msgid "Remove this playlist?"
-msgstr ""
+msgstr "Удалить из этого плейлиста?"
 
 #: ../lollypop/menu_playlists.py:47
 msgid "New playlist"
@@ -1387,31 +1409,31 @@ msgstr "Новая радиостанция"
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
-msgstr ""
+msgstr "По-умолчанию при запуске"
 
 #: ../lollypop/menu_selectionlist.py:53
 msgid "Startup"
-msgstr ""
+msgstr "Запуск"
 
 #: ../lollypop/menu_selectionlist.py:92
 msgid "Sidebar"
-msgstr ""
+msgstr "Боковая панель"
 
 #: ../lollypop/menu_selectionlist.py:106
 msgid "Show text"
-msgstr ""
+msgstr "Показать текст"
 
 #: ../lollypop/menu_selectionlist.py:107
 msgid "Options"
-msgstr ""
+msgstr "Опции"
 
 #: ../lollypop/menu_selectionlist.py:132
 msgid "Sections"
-msgstr ""
+msgstr "Секции"
 
 #: ../lollypop/menu_similars.py:154 ../lollypop/view_lyrics.py:132
 msgid "Loading…"
-msgstr ""
+msgstr "Загрузка…"
 
 #: ../lollypop/menu_similars.py:191
 msgid "Similar artists"
@@ -1419,23 +1441,23 @@ msgstr "Похожие исполнители"
 
 #: ../lollypop/menu_similars.py:209 ../lollypop/menu_similars.py:237
 msgid "No results"
-msgstr ""
+msgstr "Нет результатов"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
-msgstr ""
+msgstr "Все устройства"
 
 #: ../lollypop/objects_radio.py:32 ../lollypop/objects_radio.py:62
 msgid "Radio"
-msgstr ""
+msgstr "Радио"
 
 #: ../lollypop/player_bin.py:426
 msgid "Can't find this track on YouTube"
-msgstr ""
+msgstr "Не удается найти этот трек на YouTube"
 
 #: ../lollypop/playlists.py:93 ../lollypop/playlists.py:96
 msgid "New playlist "
-msgstr "Новый плейлист"
+msgstr "Новый плейлист "
 
 #: ../lollypop/playlists.py:106 ../lollypop/playlists.py:350
 #: ../lollypop/shown.py:70
@@ -1456,11 +1478,11 @@ msgstr "Добавить"
 
 #: ../lollypop/pop_tunein.py:362 ../lollypop/pop_tunein.py:364
 msgid "No result…"
-msgstr ""
+msgstr "Нет результатов…"
 
 #: ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr ""
+msgstr "Предложения"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1480,7 +1502,7 @@ msgstr "Недавно добавленные альбомы"
 
 #: ../lollypop/shown.py:29
 msgid "Seldomly played albums"
-msgstr ""
+msgstr "Редко воспроизводимые альбомы"
 
 #: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:38
 msgid "Radios"
@@ -1488,27 +1510,27 @@ msgstr "Радиостанции"
 
 #: ../lollypop/shown.py:32
 msgid "Years"
-msgstr ""
+msgstr "Года"
 
 #: ../lollypop/shown.py:33
 msgid "Genres"
-msgstr ""
+msgstr "Жанры"
 
 #: ../lollypop/shown.py:34
 msgid "Genres (list)"
-msgstr ""
+msgstr "Жанры (список)"
 
 #: ../lollypop/shown.py:36
 msgid "Lyrics"
-msgstr "Lyrics"
+msgstr "Текст песни"
 
 #: ../lollypop/shown.py:38 ../lollypop/view_artists_line.py:165
 msgid "Artists"
-msgstr ""
+msgstr "Исполнители"
 
 #: ../lollypop/shown.py:39
 msgid "Artists (list)"
-msgstr ""
+msgstr "Исполнители (список)"
 
 #: ../lollypop/shown.py:40
 msgid "Search"
@@ -1532,11 +1554,11 @@ msgstr "Недавно прослушанные треки"
 
 #: ../lollypop/shown.py:72
 msgid "Seldomly played tracks"
-msgstr ""
+msgstr "Редко прослушиваемые треки"
 
 #: ../lollypop/shown.py:73
 msgid "All tracks"
-msgstr ""
+msgstr "Все треки"
 
 #: ../lollypop/toolbar_end.py:237
 msgid "All genres"
@@ -1563,87 +1585,89 @@ msgstr "The the"
 
 #: ../lollypop/view_albums_box.py:55 ../lollypop/view_lyrics.py:167
 msgid "Network not available"
-msgstr ""
+msgstr "Сеть недоступна"
 
 #: ../lollypop/view_albums_box.py:59
 msgid "Missing youtube-dl command"
-msgstr ""
+msgstr "Команда youtube-dl не найдена"
 
 #: ../lollypop/view_albums_box.py:64
 msgid "You need to enable YouTube in network settings"
-msgstr ""
+msgstr "Вам необходимо включить YouTube в настройка сети"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
-msgstr ""
+msgstr "Другие подборки"
 
 #: ../lollypop/view_albums_line.py:202
 msgid "Appears on"
-msgstr ""
+msgstr "Встречается в"
 
 #: ../lollypop/view_albums_line.py:232
 msgid "Popular albums at the moment"
-msgstr ""
+msgstr "Популярные альбомы на данный момент"
 
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
-msgstr ""
+msgstr "Почему бы не послушать?"
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"
-msgstr ""
+msgstr "Загрузка информации"
 
 #: ../lollypop/view_information.py:275
 #, python-format
 msgid "No information for %s"
-msgstr ""
+msgstr "Нет информации по %s"
 
 #: ../lollypop/view_lyrics.py:105 ../lollypop/widgets_banner_lyrics.py:129
 msgid "No track playing"
-msgstr ""
+msgstr "Воспроизведение не запущено"
 
 #: ../lollypop/view_lyrics.py:261
 msgid "You need to install python3-textblob module"
-msgstr ""
+msgstr "Вам нужно установить модуль python3-textblob"
 
 #: ../lollypop/view_lyrics.py:266
 msgid "Can't translate this lyrics"
-msgstr ""
+msgstr "Не могу перевести этот текст песни"
 
 #: ../lollypop/view_lyrics.py:307
 msgid "No lyrics found "
-msgstr ""
+msgstr "Текст песни не найден "
 
 #: ../lollypop/view.py:49
 msgid "No items to show"
-msgstr ""
+msgstr "Ничего не найдено"
 
 #: ../lollypop/view_search.py:150 ../lollypop/view_search.py:160
 #: ../lollypop/view_search.py:199
 msgid "Search for artists, albums and tracks"
-msgstr ""
+msgstr "Поиск по исполнителям, альбомам и трекам"
 
 #: ../lollypop/view_search.py:317
 msgid "No results for this search"
-msgstr ""
+msgstr "Нет результатов по этому запросу"
 
 #: ../lollypop/view_suggestions.py:68
 msgid "You might like this"
-msgstr ""
+msgstr "Вам также может понравиться"
 
 #: ../lollypop/view_suggestions.py:73
 msgid "New albums from Spotify"
-msgstr ""
+msgstr "Новые альбомы с Spotify"
 
 #: ../lollypop/view_suggestions.py:106
 msgid "Welcome to Lollypop"
-msgstr ""
+msgstr "Добро пожаловать в Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
+"У этого альбома отсутствуют треки. Проверьте теги, все 'исполнители альбома' "
+"должны быть в тегах 'исполнитель'"
 
 #: ../lollypop/view_tracks_album.py:231
 #, python-format
@@ -1652,11 +1676,11 @@ msgstr "Диск %s"
 
 #: ../lollypop/view_tracks_search.py:105
 msgid "Tracks"
-msgstr ""
+msgstr "Треки"
 
 #: ../lollypop/widgets_artwork_album.py:85
 msgid "Local"
-msgstr ""
+msgstr "Локальные"
 
 #: ../lollypop/widgets_artwork.py:143
 msgid "Select artwork"
@@ -1667,14 +1691,12 @@ msgid "Remove"
 msgstr "Удалить"
 
 #: ../lollypop/widgets_banner_artist.py:264
-#, fuzzy
 msgid "Add to current playlist"
-msgstr "Добавить в плейлист"
+msgstr "Добавить в текущий плейлист"
 
 #: ../lollypop/widgets_banner_artist.py:271
-#, fuzzy
 msgid "Remove from current playlist"
-msgstr "Добавить в плейлист"
+msgstr "Удалить из плейлиста"
 
 #: ../lollypop/widgets_banner_current_albums.py:39
 msgid "Clear albums"
@@ -1686,119 +1708,119 @@ msgstr "Перейти к текущему треку"
 
 #: ../lollypop/widgets_banner_today.py:70
 msgid "<b>Album of the day</b>\n"
-msgstr ""
+msgstr "<b>Альбом дня</b>\n"
 
 #: ../lollypop/widgets_device.py:119
 msgid "No synchronized albums"
-msgstr ""
+msgstr "Синхронизированные альбомы отсутствуют"
 
 #: ../lollypop/widgets_device.py:130
 msgid "No synchronized playlists"
-msgstr ""
+msgstr "Синхронизированные плейлисты отсутствуют"
 
 #: ../lollypop/widgets_equalizer.py:23
 msgid "Default"
-msgstr ""
+msgstr "По-умолчанию"
 
 #: ../lollypop/widgets_equalizer.py:25
 msgid "Classical"
-msgstr ""
+msgstr "Классика"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Club"
-msgstr ""
+msgstr "Клуб"
 
 #: ../lollypop/widgets_equalizer.py:27
 msgid "Dance"
-msgstr ""
+msgstr "Танец"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Dubstep"
-msgstr ""
+msgstr "Дабстеп"
 
 #: ../lollypop/widgets_equalizer.py:29
 msgid "Full Bass"
-msgstr ""
+msgstr "Полный бас"
 
 #: ../lollypop/widgets_equalizer.py:30
 msgid "Full Treble"
-msgstr ""
+msgstr "Полное утройнение"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Full Bass + Treble"
-msgstr ""
+msgstr "Полный бас + утройнение"
 
 #: ../lollypop/widgets_equalizer.py:32
 msgid "Hip Hop"
-msgstr ""
+msgstr "Хип Хоп"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Kuduro"
-msgstr ""
+msgstr "Кудуро"
 
 #: ../lollypop/widgets_equalizer.py:34
 msgid "Laptop/Headphones"
-msgstr ""
+msgstr "Ноутбук/Наушники"
 
 #: ../lollypop/widgets_equalizer.py:35
 msgid "Large Hall"
-msgstr ""
+msgstr "Большой зал"
 
 #: ../lollypop/widgets_equalizer.py:36
 msgid "Live"
-msgstr ""
+msgstr "В живую"
 
 #: ../lollypop/widgets_equalizer.py:37
 msgid "Party"
-msgstr ""
+msgstr "Вечеринка"
 
 #: ../lollypop/widgets_equalizer.py:38
 msgid "Pop"
-msgstr ""
+msgstr "Поп"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Psychedelic"
-msgstr ""
+msgstr "Психоделика"
 
 #: ../lollypop/widgets_equalizer.py:40
 msgid "Reggae"
-msgstr ""
+msgstr "Регги"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Rock"
-msgstr ""
+msgstr "Рок"
 
 #: ../lollypop/widgets_equalizer.py:42
 msgid "Soft"
-msgstr ""
+msgstr "Плавно"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Ska"
-msgstr ""
+msgstr "Ска"
 
 #: ../lollypop/widgets_equalizer.py:44
 msgid "Soft Rock"
-msgstr ""
+msgstr "Плавный рок"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Techno"
-msgstr ""
+msgstr "Техно"
 
 #: ../lollypop/widgets_equalizer.py:140 ../lollypop/widgets_equalizer.py:172
 msgid "Custom"
-msgstr ""
+msgstr "Изменённый"
 
 #: ../lollypop/widgets_loved.py:119
 msgid "Allow playback"
-msgstr ""
+msgstr "Разрешить воспроизведение"
 
 #: ../lollypop/widgets_loved.py:124
 msgid "Like"
-msgstr ""
+msgstr "Нравится"
 
 #: ../lollypop/widgets_loved.py:129
 msgid "Disallow playback"
-msgstr ""
+msgstr "Запретить воспроизведение"
 
 #: ../lollypop/widgets_player_buttons.py:147
 msgid "Pause"
@@ -1806,32 +1828,32 @@ msgstr "Приостановить"
 
 #: ../lollypop/widgets_playlist_smart.py:165
 msgid "is equal to"
-msgstr ""
+msgstr "равняется"
 
 #: ../lollypop/widgets_playlist_smart.py:166
 msgid "is not equal to"
-msgstr ""
+msgstr "не равняется"
 
 #: ../lollypop/widgets_playlist_smart.py:168
 msgid "contains "
-msgstr ""
+msgstr "содержит "
 
 #: ../lollypop/widgets_playlist_smart.py:169
 msgid "does not contain"
-msgstr ""
+msgstr "не содержит"
 
 #: ../lollypop/widgets_playlist_smart.py:171
 msgid "is greater than"
-msgstr ""
+msgstr "больше чем"
 
 #: ../lollypop/widgets_playlist_smart.py:172
 msgid "is less than"
-msgstr ""
+msgstr "меньше чем"
 
 #: ../lollypop/widgets_rating.py:51
 #, python-format
 msgid "Song played %s times"
-msgstr ""
+msgstr "Песня проиграна %s раз"
 
 #: ../lollypop/widgets_row_album.py:106
 msgid "Compilation"
@@ -1839,7 +1861,7 @@ msgstr "Подборка"
 
 #: ../lollypop/widgets_row_album.py:327 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
-msgstr ""
+msgstr "Удалить из плейлиста"
 
 #: ../lollypop/widgets_settings_collections.py:129
 #, python-format
@@ -1875,15 +1897,15 @@ msgstr "Вам необходимо установить pylast и gi secret"
 
 #: ../lollypop/widgets_settings_web.py:253
 msgid "Using \"GNOME Online Accounts\" settings"
-msgstr ""
+msgstr "Использование настроек \"Онлайн аккаунтов GNOME\""
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
-msgstr ""
+msgstr "банда"
 
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
-msgstr ""
+msgstr "вокалист"
 
 #~ msgid "Modify information"
 #~ msgstr "Изменить информацию"
