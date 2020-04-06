@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-06 11:20+0200\n"
-"PO-Revision-Date: 2020-04-04 04:38+0000\n"
+"PO-Revision-Date: 2020-04-06 15:19+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "tr/>\n"
@@ -64,7 +64,7 @@ msgstr "Ağa eriş"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:75
 msgid "Save artwork/popularity in tags"
-msgstr "Kapak resmi/sevilmeyi etiketlere kaydet"
+msgstr "Kapak resmini/popülerliği etiketlere kaydet"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:80
 msgid "Window maximized"
@@ -72,11 +72,11 @@ msgstr "Pencere büyütülmüş"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Window maximized state."
-msgstr "Ekranı kaplama alanı."
+msgstr "Pencere büyütülmüş durumu."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:85
 msgid "Enabled genres in party mode"
-msgstr "Parti kipinde türleri etkinleştir"
+msgstr "Parti kipinde etkinleştirilmiş türler"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "ID for genres."
@@ -411,7 +411,7 @@ msgstr "Lollypop"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:9
 #: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr "Müzik derlemelerini çalın ve düzenleyin"
+msgstr "Müzik koleksiyonunuzu çalın ve düzenleyin"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:11
 msgid ""
@@ -605,7 +605,7 @@ msgstr "Yıl"
 
 #: ../data/SettingsAppearance.ui:201 ../data/SmartPlaylistWidget.ui:32
 msgid "Popularity"
-msgstr "Sevilme"
+msgstr "Popülerlik"
 
 #: ../data/SettingsAppearance.ui:258 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -727,7 +727,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "Spotify\n"
-"<span size=\"x-small\" alpha=\"70%\">Şarkı ara, kapak resmi, …</span>"
+"<span size=\"x-small\" alpha=\"70%\">Şarkı, kapak resmi, … ara</span>"
 
 #: ../data/SettingsWeb.ui:183
 msgid ""
@@ -751,7 +751,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "Startpage\n"
-"<span size=\"x-small\" alpha=\"70%\">Şarkı , albüm kapağı, … ara</span>"
+"<span size=\"x-small\" alpha=\"70%\">Şarkı, kapak resmi, … ara</span>"
 
 #: ../data/SettingsWeb.ui:228
 msgid ""
@@ -791,7 +791,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
 msgstr ""
 "Genius\n"
-"<span size=\"x-small\" alpha=\"70%\">Şarkı sözü arama</span>"
+"<span size=\"x-small\" alpha=\"70%\">Şarkı sözü ara</span>"
 
 #: ../data/SettingsWeb.ui:443
 msgid ""
@@ -816,8 +816,8 @@ msgid ""
 "span>"
 msgstr ""
 "AudioDB\n"
-"<span size=\"x-small\" alpha=\"70%\">Sanatçı biyografisi, kapak resmi ara, …"
-"</span>"
+"<span size=\"x-small\" alpha=\"70%\">Sanatçı biyografisi, kapak resmi, … "
+"ara</span>"
 
 #: ../data/SettingsWeb.ui:530
 msgid ""
@@ -833,7 +833,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "DuckDuckGo\n"
-"<span size=\"x-small\" alpha=\"70%\">Şarkı , albüm kapağı, … ara</span>"
+"<span size=\"x-small\" alpha=\"70%\">Şarkı, kapak resmi, … ara</span>"
 
 #: ../data/SettingsWeb.ui:606
 msgid "Privacy"
@@ -888,9 +888,9 @@ msgid ""
 "<small>Otherwise you will soon reach the default quota…\n"
 "Lollypop needs this to search for artwork.</small>"
 msgstr ""
-"<b>Google Web Hizmetleri, özel API anahtarı gerektirir.</b>\n"
+"<b>Google Web Hizmetleri, bir API anahtarı gerektirir.</b>\n"
 "<small>Bu olmadan, öntanımlı kotaya kısa sürede ulaşacaksınız…\n"
-"Lollypop, kapak resmi aramak için buna gereksinir.</small>"
+"Lollypop, kapak resmi aramak için buna ihtiyaç duyar.</small>"
 
 #: ../data/SettingsWeb.ui:998
 msgid ""
@@ -902,7 +902,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:1013
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: ../data/SettingsWeb.ui:1030
 msgid "API key"
@@ -1342,15 +1342,15 @@ msgstr "Kayıttan çalmadan kaldır"
 
 #: ../lollypop/menu_playback.py:86
 msgid "From collection"
-msgstr ""
+msgstr "Koleksiyondan"
 
 #: ../lollypop/menu_playback.py:96
 msgid "From Spotify"
-msgstr ""
+msgstr "Spotify'dan"
 
 #: ../lollypop/menu_playback.py:106
 msgid "From Last.FM"
-msgstr ""
+msgstr "Last.FM'den"
 
 #: ../lollypop/menu_playback.py:143
 msgid "Play this playlist"
@@ -1362,7 +1362,7 @@ msgstr "Bu sanatçıyı çal"
 
 #: ../lollypop/menu_playback.py:192 ../lollypop/menu_playback.py:417
 msgid "Play a radio"
-msgstr ""
+msgstr "Radyo çal"
 
 #: ../lollypop/menu_playback.py:253
 msgid "Play this genre"
@@ -1618,7 +1618,7 @@ msgstr "Diğer derlemeler"
 
 #: ../lollypop/view_albums_line.py:196
 msgid "Appears on"
-msgstr "Gösterildiği yer"
+msgstr "Göründüğü albüm(ler)"
 
 #: ../lollypop/view_albums_line.py:226
 msgid "Popular albums at the moment"
