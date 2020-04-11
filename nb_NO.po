@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 11:20+0200\n"
+"POT-Creation-Date: 2020-04-11 22:04+0200\n"
 "PO-Revision-Date: 2020-04-04 04:38+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -79,9 +79,9 @@ msgstr "Skrur på sjangere i festmodus"
 msgid "ID for genres."
 msgstr "ID-er for sjangere."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
-msgid "Search on Spotify"
-msgstr "Søk på Spotify"
+#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:55
+msgid "Search on the Web"
+msgstr "Søk på nettet"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -534,7 +534,7 @@ msgid "Synchronized:"
 msgstr "Synkronisert:"
 
 #: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:37
-#: ../lollypop/view_albums_line.py:274
+#: ../lollypop/view_albums_line.py:282
 msgid "Albums"
 msgstr "Album"
 
@@ -552,7 +552,7 @@ msgstr "Synkroniser"
 
 #: ../data/PlaylistBannerWidget.ui:74 ../lollypop/pop_tunein.py:192
 #: ../lollypop/view_tracks_album.py:240
-#: ../lollypop/widgets_player_buttons.py:151
+#: ../lollypop/widgets_player_buttons.py:189
 msgid "Play"
 msgstr "Spill"
 
@@ -565,7 +565,7 @@ msgid "Name:"
 msgstr "Navn:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:121
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:122
 msgid "Save"
 msgstr "Lagre"
 
@@ -631,7 +631,7 @@ msgstr "Importer spillelister som finnes i samlinger"
 msgid "Save changes to files"
 msgstr "Lagre endringer til filer"
 
-#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:504
+#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:505
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "Du må installere kid3-cli"
@@ -648,7 +648,7 @@ msgstr "Myke overganger"
 msgid "ReplayGain"
 msgstr "ReplayGain"
 
-#: ../data/SettingsBehaviour.ui:337
+#: ../data/SettingsBehaviour.ui:337 ../lollypop/menu_search.py:44
 msgid "Disabled"
 msgstr "Deaktivert"
 
@@ -668,7 +668,7 @@ msgstr "Bare i festmodus"
 msgid "Transitions duration in milliseconds"
 msgstr "Overgangsvarighet i millisekunder"
 
-#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:96
+#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:97
 msgid "Confirm"
 msgstr "Bekreft"
 
@@ -833,29 +833,21 @@ msgstr ""
 msgid "Privacy"
 msgstr "Personvern"
 
-#: ../data/SettingsWeb.ui:627 ../data/SettingsWeb.ui:750
-msgid "Login:"
-msgstr "Innlogging:"
-
-#: ../data/SettingsWeb.ui:640 ../data/SettingsWeb.ui:763
-msgid "Password:"
-msgstr "Passord:"
-
-#: ../data/SettingsWeb.ui:676 ../data/SettingsWeb.ui:799
+#: ../data/SettingsWeb.ui:624 ../data/SettingsWeb.ui:664
+#: ../lollypop/widgets_settings_web.py:130
+#: ../lollypop/widgets_settings_web.py:143
 msgid "Connect"
 msgstr "Koble til"
 
-#: ../data/SettingsWeb.ui:705 ../data/SettingsWeb.ui:828
-#: ../data/SettingsWeb.ui:918 ../data/SettingsWeb.ui:1151
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:256
-msgid "Disabled in network settings"
-msgstr "Avskrudd i nettverksinnstillinger"
+#: ../data/SettingsWeb.ui:641
+msgid "Last.FM:"
+msgstr ""
 
-#: ../data/SettingsWeb.ui:851
-msgid "Libre.fm"
-msgstr "Libre.fm"
+#: ../data/SettingsWeb.ui:654
+msgid "Librefm:"
+msgstr ""
 
-#: ../data/SettingsWeb.ui:875
+#: ../data/SettingsWeb.ui:709
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -867,15 +859,20 @@ msgstr ""
 "ListenBrainz-brukersymbol nedenfor. Du kan se ditt brukersymbol i din <a "
 "href=\"https://listenbrainz.org/profile/\">brukerprofil</a>.</small>"
 
-#: ../data/SettingsWeb.ui:905
+#: ../data/SettingsWeb.ui:739
 msgid "User token"
 msgstr "Brukersymbol"
 
-#: ../data/SettingsWeb.ui:938
+#: ../data/SettingsWeb.ui:752 ../data/SettingsWeb.ui:985
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:254
+msgid "Disabled in network settings"
+msgstr "Avskrudd i nettverksinnstillinger"
+
+#: ../data/SettingsWeb.ui:772
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:967
+#: ../data/SettingsWeb.ui:801
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -886,7 +883,7 @@ msgstr ""
 "Lollypop trenger dette for å søke etter omslag.\n"
 "</small>"
 
-#: ../data/SettingsWeb.ui:998
+#: ../data/SettingsWeb.ui:832
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -894,15 +891,15 @@ msgstr ""
 "<small>Du må skru på \"Egendefinert søke-API\" og \"YouTube-API v3\" for "
 "ditt prosjekt.</small>"
 
-#: ../data/SettingsWeb.ui:1013
+#: ../data/SettingsWeb.ui:847
 msgid "?"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:1030
+#: ../data/SettingsWeb.ui:864
 msgid "API key"
 msgstr "API-nøkkel"
 
-#: ../data/SettingsWeb.ui:1061
+#: ../data/SettingsWeb.ui:895
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -912,15 +909,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>Aktiver dette hvis vev-avspilling ikke "
 "virker</span>"
 
-#: ../data/SettingsWeb.ui:1102
+#: ../data/SettingsWeb.ui:936
 msgid "No server set"
 msgstr "Ingen tjener satt"
 
-#: ../data/SettingsWeb.ui:1130
+#: ../data/SettingsWeb.ui:964
 msgid "Use an Invidious server"
 msgstr "Bruk en Invidious-tjener"
 
-#: ../data/SettingsWeb.ui:1170
+#: ../data/SettingsWeb.ui:1004
 msgid "Google"
 msgstr "Google"
 
@@ -1171,12 +1168,12 @@ msgstr "Gå tilbake"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../lollypop/collection_scanner.py:463
+#: ../lollypop/collection_scanner.py:462
 #, fuzzy
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
 
-#: ../lollypop/collection_scanner.py:727 ../lollypop/database_tracks.py:380
+#: ../lollypop/collection_scanner.py:726 ../lollypop/database_tracks.py:380
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1202,7 +1199,7 @@ msgstr "Overvei å donere til prosjektet"
 msgid "Many artists"
 msgstr "Mange artister"
 
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:122
+#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:123
 #: ../lollypop/widgets_device.py:144
 msgid "Cancel"
 msgstr "Avbryt"
@@ -1250,7 +1247,7 @@ msgstr "Konfigurer webtjenester"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:71
+#: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:72
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Enheter"
@@ -1310,12 +1307,12 @@ msgstr "Album som spilles"
 msgid "Create a new playlist"
 msgstr "Opprett en ny spilleliste"
 
-#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:65
+#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:66
 msgid "Show tracks number"
 msgstr "Vis spornummer"
 
 #: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:57
-#: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:69
+#: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:70
 msgid "Add to"
 msgstr "Legg til i"
 
@@ -1391,27 +1388,27 @@ msgstr "Ikke stopp etter"
 msgid "Stop after"
 msgstr "Stopp etter"
 
-#: ../lollypop/menu_playlist.py:43 ../lollypop/menu_playlist.py:118
+#: ../lollypop/menu_playlist.py:43 ../lollypop/menu_playlist.py:119
 msgid "Save playlist"
 msgstr "Lagre spilleliste"
 
-#: ../lollypop/menu_playlist.py:49
+#: ../lollypop/menu_playlist.py:50
 msgid "Manage smart playlist"
 msgstr "Administrer smart spilleliste"
 
-#: ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_playlist.py:54
 msgid "Remove playlist"
 msgstr "Fjern spilleliste"
 
-#: ../lollypop/menu_playlist.py:67
+#: ../lollypop/menu_playlist.py:68
 msgid "Playlist"
 msgstr "Spilleliste"
 
-#: ../lollypop/menu_playlist.py:73
+#: ../lollypop/menu_playlist.py:74
 msgid "Edit"
 msgstr "Rediger"
 
-#: ../lollypop/menu_playlist.py:95
+#: ../lollypop/menu_playlist.py:96
 msgid "Remove this playlist?"
 msgstr "Fjern denne spillelisten?"
 
@@ -1422,6 +1419,18 @@ msgstr "Ny spilleliste"
 #: ../lollypop/menu_radio.py:94
 msgid "New radio"
 msgstr "Ny radiostasjon"
+
+#: ../lollypop/menu_search.py:33 ../lollypop/shown.py:40
+msgid "Search"
+msgstr "Søk"
+
+#: ../lollypop/menu_search.py:48
+msgid "Spotify"
+msgstr "Spotify"
+
+#: ../lollypop/menu_search.py:52
+msgid "Last.FM"
+msgstr ""
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1447,15 +1456,15 @@ msgstr "Valg"
 msgid "Sections"
 msgstr "Seksjoner"
 
-#: ../lollypop/menu_similars.py:154 ../lollypop/view_lyrics.py:132
+#: ../lollypop/menu_similars.py:157 ../lollypop/view_lyrics.py:132
 msgid "Loading…"
 msgstr "Laster…"
 
-#: ../lollypop/menu_similars.py:184
+#: ../lollypop/menu_similars.py:179
 msgid "Similar artists"
 msgstr "Lignende artister"
 
-#: ../lollypop/menu_similars.py:275
+#: ../lollypop/menu_similars.py:269
 msgid "No results"
 msgstr "Resultatløst"
 
@@ -1467,7 +1476,7 @@ msgstr "Alle enheter"
 msgid "Radio"
 msgstr "Forhold"
 
-#: ../lollypop/player_bin.py:426
+#: ../lollypop/player_bin.py:427
 msgid "Can't find this track on YouTube"
 msgstr "Finner ikke dette sporet på YouTube"
 
@@ -1548,10 +1557,6 @@ msgstr "Artister"
 msgid "Artists (list)"
 msgstr "Artister (liste)"
 
-#: ../lollypop/shown.py:40
-msgid "Search"
-msgstr "Søk"
-
 #: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Samlere"
@@ -1611,15 +1616,15 @@ msgstr "Mangler youtube-dl -kommando"
 msgid "You need to enable YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_line.py:162
+#: ../lollypop/view_albums_line.py:170
 msgid "Others compilations"
 msgstr "Andre samlinger"
 
-#: ../lollypop/view_albums_line.py:196
+#: ../lollypop/view_albums_line.py:204
 msgid "Appears on"
 msgstr ""
 
-#: ../lollypop/view_albums_line.py:226
+#: ../lollypop/view_albums_line.py:234
 msgid "Popular albums at the moment"
 msgstr "Populære album for øyeblikket"
 
@@ -1657,12 +1662,12 @@ msgstr "Fant ikke noen sangtekster "
 msgid "No items to show"
 msgstr "Ingen elementer å vise"
 
-#: ../lollypop/view_search.py:150 ../lollypop/view_search.py:160
-#: ../lollypop/view_search.py:197
+#: ../lollypop/view_search.py:146 ../lollypop/view_search.py:156
+#: ../lollypop/view_search.py:180
 msgid "Search for artists, albums and tracks"
 msgstr "Søk etter artister, album, og spor"
 
-#: ../lollypop/view_search.py:315
+#: ../lollypop/view_search.py:290
 msgid "No results for this search"
 msgstr "Resultatløst søk"
 
@@ -1827,19 +1832,19 @@ msgstr "Techno"
 msgid "Custom"
 msgstr "Egendefinert"
 
-#: ../lollypop/widgets_loved.py:119
+#: ../lollypop/widgets_loved.py:105
 msgid "Allow playback"
 msgstr "Tillat avspilling"
 
-#: ../lollypop/widgets_loved.py:124
+#: ../lollypop/widgets_loved.py:110
 msgid "Like"
 msgstr "Liker"
 
-#: ../lollypop/widgets_loved.py:129
+#: ../lollypop/widgets_loved.py:115
 msgid "Disallow playback"
 msgstr "Ikke tillat avspilling"
 
-#: ../lollypop/widgets_player_buttons.py:147
+#: ../lollypop/widgets_player_buttons.py:185
 msgid "Pause"
 msgstr "Pause"
 
@@ -1901,14 +1906,13 @@ msgid_plural "%d tracks"
 msgstr[0] "%d spor"
 msgstr[1] "%d spor"
 
-#: ../lollypop/widgets_settings_web.py:49
-#: ../lollypop/widgets_settings_web.py:51
-msgid "You need to install pylast and gi secret"
-msgstr "Du må installere pylast og gi secret"
-
-#: ../lollypop/widgets_settings_web.py:260
+#: ../lollypop/widgets_settings_web.py:258
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Bruk innstillinger fra \"GNOME nettbaserte kontoer\""
+
+#: ../lollypop/widgets_settings_web.py:282
+msgid "Disconnect"
+msgstr ""
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
@@ -1917,6 +1921,21 @@ msgstr "band"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "sanger"
+
+#~ msgid "Search on Spotify"
+#~ msgstr "Søk på Spotify"
+
+#~ msgid "Login:"
+#~ msgstr "Innlogging:"
+
+#~ msgid "Password:"
+#~ msgstr "Passord:"
+
+#~ msgid "Libre.fm"
+#~ msgstr "Libre.fm"
+
+#~ msgid "You need to install pylast and gi secret"
+#~ msgstr "Du må installere pylast og gi secret"
 
 #, fuzzy
 #~ msgid ""
@@ -2141,9 +2160,6 @@ msgstr "sanger"
 
 #~ msgid "Search in your collection"
 #~ msgstr "Søk i din samling"
-
-#~ msgid "Search on the Web"
-#~ msgstr "Søk på nettet"
 
 #~ msgid "No shuffle"
 #~ msgstr "Ingen veksling"
@@ -2620,9 +2636,6 @@ msgstr "sanger"
 
 #~ msgid "Spotify search"
 #~ msgstr "Spotify-søk"
-
-#~ msgid "Spotify"
-#~ msgstr "Spotify"
 
 #~ msgid "YouTube playback"
 #~ msgstr "YouTube-avspilling"

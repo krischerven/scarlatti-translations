@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 11:20+0200\n"
+"POT-Creation-Date: 2020-04-11 22:04+0200\n"
 "PO-Revision-Date: 2020-03-10 17:11+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -78,9 +78,9 @@ msgstr "派對模式中啟用的曲風"
 msgid "ID for genres."
 msgstr "曲風的 ID。"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:90 ../data/SearchBannerWidget.ui:8
-msgid "Search on Spotify"
-msgstr "在 Spotify 上搜尋"
+#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:55
+msgid "Search on the Web"
+msgstr "搜尋網路"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -523,7 +523,7 @@ msgid "Synchronized:"
 msgstr "已同步："
 
 #: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:37
-#: ../lollypop/view_albums_line.py:274
+#: ../lollypop/view_albums_line.py:282
 msgid "Albums"
 msgstr "專輯"
 
@@ -541,7 +541,7 @@ msgstr "同步"
 
 #: ../data/PlaylistBannerWidget.ui:74 ../lollypop/pop_tunein.py:192
 #: ../lollypop/view_tracks_album.py:240
-#: ../lollypop/widgets_player_buttons.py:151
+#: ../lollypop/widgets_player_buttons.py:189
 msgid "Play"
 msgstr "播放"
 
@@ -554,7 +554,7 @@ msgid "Name:"
 msgstr "名稱："
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:121
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:122
 msgid "Save"
 msgstr "儲存"
 
@@ -620,7 +620,7 @@ msgstr "匯入收藏中出現的播放清單檔案"
 msgid "Save changes to files"
 msgstr "將變更儲存至檔案"
 
-#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:504
+#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:505
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "您需要安裝 kid3-cli"
@@ -637,7 +637,7 @@ msgstr "平滑切換"
 msgid "ReplayGain"
 msgstr "回放增益"
 
-#: ../data/SettingsBehaviour.ui:337
+#: ../data/SettingsBehaviour.ui:337 ../lollypop/menu_search.py:44
 msgid "Disabled"
 msgstr "取消"
 
@@ -657,7 +657,7 @@ msgstr "只在派對模式"
 msgid "Transitions duration in milliseconds"
 msgstr "轉場毫秒間隔"
 
-#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:96
+#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:97
 msgid "Confirm"
 msgstr "確認"
 
@@ -815,29 +815,21 @@ msgstr ""
 msgid "Privacy"
 msgstr "隱私"
 
-#: ../data/SettingsWeb.ui:627 ../data/SettingsWeb.ui:750
-msgid "Login:"
-msgstr "登入："
-
-#: ../data/SettingsWeb.ui:640 ../data/SettingsWeb.ui:763
-msgid "Password:"
-msgstr "密碼："
-
-#: ../data/SettingsWeb.ui:676 ../data/SettingsWeb.ui:799
+#: ../data/SettingsWeb.ui:624 ../data/SettingsWeb.ui:664
+#: ../lollypop/widgets_settings_web.py:130
+#: ../lollypop/widgets_settings_web.py:143
 msgid "Connect"
 msgstr "連接"
 
-#: ../data/SettingsWeb.ui:705 ../data/SettingsWeb.ui:828
-#: ../data/SettingsWeb.ui:918 ../data/SettingsWeb.ui:1151
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:256
-msgid "Disabled in network settings"
-msgstr "於網路設定中取消"
+#: ../data/SettingsWeb.ui:641
+msgid "Last.FM:"
+msgstr ""
 
-#: ../data/SettingsWeb.ui:851
-msgid "Libre.fm"
-msgstr "Libre.fm"
+#: ../data/SettingsWeb.ui:654
+msgid "Librefm:"
+msgstr ""
 
-#: ../data/SettingsWeb.ui:875
+#: ../data/SettingsWeb.ui:709
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -849,15 +841,20 @@ msgstr ""
 "使用者代符。您可以到<a href=\"https://listenbrainz.org/profile/\">使用者個人"
 "檔案</a>中查看您的使用者代符。</small>"
 
-#: ../data/SettingsWeb.ui:905
+#: ../data/SettingsWeb.ui:739
 msgid "User token"
 msgstr "使用者代符"
 
-#: ../data/SettingsWeb.ui:938
+#: ../data/SettingsWeb.ui:752 ../data/SettingsWeb.ui:985
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:254
+msgid "Disabled in network settings"
+msgstr "於網路設定中取消"
+
+#: ../data/SettingsWeb.ui:772
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:967
+#: ../data/SettingsWeb.ui:801
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -867,22 +864,22 @@ msgstr ""
 "<small>否則你會很快將預設用量用罄…\n"
 "Lollypop 需要此設定來進行圖片搜尋。</small>"
 
-#: ../data/SettingsWeb.ui:998
+#: ../data/SettingsWeb.ui:832
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
 msgstr ""
 "<small>您需要啟用您專案的「Custom Search API」和「YouTube API v3」。</small>"
 
-#: ../data/SettingsWeb.ui:1013
+#: ../data/SettingsWeb.ui:847
 msgid "?"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:1030
+#: ../data/SettingsWeb.ui:864
 msgid "API key"
 msgstr "API 金鑰"
 
-#: ../data/SettingsWeb.ui:1061
+#: ../data/SettingsWeb.ui:895
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -891,15 +888,15 @@ msgstr ""
 "使用最新版本的 youtube-dl\n"
 "<span size=\"small\" alpha='40000'>若網路回放無法正常運作則啟動此設定</span>"
 
-#: ../data/SettingsWeb.ui:1102
+#: ../data/SettingsWeb.ui:936
 msgid "No server set"
 msgstr "未設定伺服器"
 
-#: ../data/SettingsWeb.ui:1130
+#: ../data/SettingsWeb.ui:964
 msgid "Use an Invidious server"
 msgstr "使用 Invidious 伺服器"
 
-#: ../data/SettingsWeb.ui:1170
+#: ../data/SettingsWeb.ui:1004
 msgid "Google"
 msgstr "Google"
 
@@ -1147,11 +1144,11 @@ msgstr "返回"
 msgid "Go home"
 msgstr "回主頁"
 
-#: ../lollypop/collection_scanner.py:463
+#: ../lollypop/collection_scanner.py:462
 msgid "Scan disabled, missing collection"
 msgstr "掃描已停用，遺失收藏"
 
-#: ../lollypop/collection_scanner.py:727 ../lollypop/database_tracks.py:380
+#: ../lollypop/collection_scanner.py:726 ../lollypop/database_tracks.py:380
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1176,7 +1173,7 @@ msgstr "請考慮贊助本專案"
 msgid "Many artists"
 msgstr "多位演出者"
 
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:122
+#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:123
 #: ../lollypop/widgets_device.py:144
 msgid "Cancel"
 msgstr "取消"
@@ -1224,7 +1221,7 @@ msgstr "設定網路服務"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:71
+#: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:72
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "裝置"
@@ -1284,12 +1281,12 @@ msgstr "播放中的專輯"
 msgid "Create a new playlist"
 msgstr "製作新的播放清單"
 
-#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:65
+#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:66
 msgid "Show tracks number"
 msgstr "顯示曲目編號"
 
 #: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:57
-#: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:69
+#: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:70
 msgid "Add to"
 msgstr "加入至"
 
@@ -1365,27 +1362,27 @@ msgstr "結束後不暫停"
 msgid "Stop after"
 msgstr "結束後停止"
 
-#: ../lollypop/menu_playlist.py:43 ../lollypop/menu_playlist.py:118
+#: ../lollypop/menu_playlist.py:43 ../lollypop/menu_playlist.py:119
 msgid "Save playlist"
 msgstr "儲存播放清單"
 
-#: ../lollypop/menu_playlist.py:49
+#: ../lollypop/menu_playlist.py:50
 msgid "Manage smart playlist"
 msgstr "管理智慧播放清單"
 
-#: ../lollypop/menu_playlist.py:53
+#: ../lollypop/menu_playlist.py:54
 msgid "Remove playlist"
 msgstr "移除播放清單"
 
-#: ../lollypop/menu_playlist.py:67
+#: ../lollypop/menu_playlist.py:68
 msgid "Playlist"
 msgstr "播放清單"
 
-#: ../lollypop/menu_playlist.py:73
+#: ../lollypop/menu_playlist.py:74
 msgid "Edit"
 msgstr "編輯"
 
-#: ../lollypop/menu_playlist.py:95
+#: ../lollypop/menu_playlist.py:96
 msgid "Remove this playlist?"
 msgstr "移除這份播放清單？"
 
@@ -1396,6 +1393,18 @@ msgstr "新播放清單"
 #: ../lollypop/menu_radio.py:94
 msgid "New radio"
 msgstr "新電臺"
+
+#: ../lollypop/menu_search.py:33 ../lollypop/shown.py:40
+msgid "Search"
+msgstr "搜尋"
+
+#: ../lollypop/menu_search.py:48
+msgid "Spotify"
+msgstr ""
+
+#: ../lollypop/menu_search.py:52
+msgid "Last.FM"
+msgstr ""
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1421,15 +1430,15 @@ msgstr "選項"
 msgid "Sections"
 msgstr "區段"
 
-#: ../lollypop/menu_similars.py:154 ../lollypop/view_lyrics.py:132
+#: ../lollypop/menu_similars.py:157 ../lollypop/view_lyrics.py:132
 msgid "Loading…"
 msgstr "載入中…"
 
-#: ../lollypop/menu_similars.py:184
+#: ../lollypop/menu_similars.py:179
 msgid "Similar artists"
 msgstr "類似的演出者"
 
-#: ../lollypop/menu_similars.py:275
+#: ../lollypop/menu_similars.py:269
 msgid "No results"
 msgstr "沒有結果"
 
@@ -1441,7 +1450,7 @@ msgstr "所有裝置"
 msgid "Radio"
 msgstr "廣播"
 
-#: ../lollypop/player_bin.py:426
+#: ../lollypop/player_bin.py:427
 msgid "Can't find this track on YouTube"
 msgstr "無法在 Youtube 上搜尋到此曲目"
 
@@ -1522,10 +1531,6 @@ msgstr "演出者"
 msgid "Artists (list)"
 msgstr "演出者（清單）"
 
-#: ../lollypop/shown.py:40
-msgid "Search"
-msgstr "搜尋"
-
 #: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "彙編"
@@ -1585,15 +1590,15 @@ msgstr "缺少 youtube-dl 指令"
 msgid "You need to enable YouTube in network settings"
 msgstr ""
 
-#: ../lollypop/view_albums_line.py:162
+#: ../lollypop/view_albums_line.py:170
 msgid "Others compilations"
 msgstr "其他匯集"
 
-#: ../lollypop/view_albums_line.py:196
+#: ../lollypop/view_albums_line.py:204
 msgid "Appears on"
 msgstr ""
 
-#: ../lollypop/view_albums_line.py:226
+#: ../lollypop/view_albums_line.py:234
 msgid "Popular albums at the moment"
 msgstr "目前的流行專輯"
 
@@ -1630,12 +1635,12 @@ msgstr "找不到歌詞 "
 msgid "No items to show"
 msgstr "沒有可顯示的項目"
 
-#: ../lollypop/view_search.py:150 ../lollypop/view_search.py:160
-#: ../lollypop/view_search.py:197
+#: ../lollypop/view_search.py:146 ../lollypop/view_search.py:156
+#: ../lollypop/view_search.py:180
 msgid "Search for artists, albums and tracks"
 msgstr "搜尋演出者、專輯、和曲目"
 
-#: ../lollypop/view_search.py:315
+#: ../lollypop/view_search.py:290
 msgid "No results for this search"
 msgstr "無搜尋結果"
 
@@ -1800,19 +1805,19 @@ msgstr "高科技"
 msgid "Custom"
 msgstr "自訂"
 
-#: ../lollypop/widgets_loved.py:119
+#: ../lollypop/widgets_loved.py:105
 msgid "Allow playback"
 msgstr "允許回播"
 
-#: ../lollypop/widgets_loved.py:124
+#: ../lollypop/widgets_loved.py:110
 msgid "Like"
 msgstr "喜歡"
 
-#: ../lollypop/widgets_loved.py:129
+#: ../lollypop/widgets_loved.py:115
 msgid "Disallow playback"
 msgstr "不允許回播"
 
-#: ../lollypop/widgets_player_buttons.py:147
+#: ../lollypop/widgets_player_buttons.py:185
 msgid "Pause"
 msgstr "暫停"
 
@@ -1871,14 +1876,13 @@ msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d 首曲目"
 
-#: ../lollypop/widgets_settings_web.py:49
-#: ../lollypop/widgets_settings_web.py:51
-msgid "You need to install pylast and gi secret"
-msgstr "您需要安裝 pylast 和 gi secrect"
-
-#: ../lollypop/widgets_settings_web.py:260
+#: ../lollypop/widgets_settings_web.py:258
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "使用「GNOME 線上帳號」設定"
+
+#: ../lollypop/widgets_settings_web.py:282
+msgid "Disconnect"
+msgstr ""
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
@@ -1887,6 +1891,21 @@ msgstr "樂團"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "歌手"
+
+#~ msgid "Search on Spotify"
+#~ msgstr "在 Spotify 上搜尋"
+
+#~ msgid "Login:"
+#~ msgstr "登入："
+
+#~ msgid "Password:"
+#~ msgstr "密碼："
+
+#~ msgid "Libre.fm"
+#~ msgstr "Libre.fm"
+
+#~ msgid "You need to install pylast and gi secret"
+#~ msgstr "您需要安裝 pylast 和 gi secrect"
 
 #~ msgid ""
 #~ "Startpage\n"
@@ -1989,9 +2008,6 @@ msgstr "歌手"
 
 #~ msgid "Search in your collection"
 #~ msgstr "搜尋您的收藏"
-
-#~ msgid "Search on the Web"
-#~ msgstr "搜尋網路"
 
 #~ msgid "No shuffle"
 #~ msgstr "不要隨機"
