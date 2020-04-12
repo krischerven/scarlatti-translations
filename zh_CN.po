@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-11 22:04+0200\n"
+"POT-Creation-Date: 2020-04-13 00:58+0200\n"
 "PO-Revision-Date: 2020-04-02 10:51+0000\n"
 "Last-Translator: Zhenkai Weng <oakrc@protonmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -83,7 +83,7 @@ msgstr "在派对模式中启用分类"
 msgid "ID for genres."
 msgstr "类型 ID。"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:55
+#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:59
 msgid "Search on the Web"
 msgstr ""
 
@@ -700,11 +700,9 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:153
 msgid ""
-"Last.fm and Libre.fm\n"
+"Last.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
-"Last.fm 和 Libre.fm\n"
-"<span size=\"x-small\" alpha=\"70%\">Scrobbler, 封面, …</span>"
 
 #: ../data/SettingsWeb.ui:168
 msgid ""
@@ -819,25 +817,31 @@ msgstr ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">搜索歌曲, 封面, …</span>"
 
-#: ../data/SettingsWeb.ui:606
+#: ../data/SettingsWeb.ui:588
+msgid ""
+"Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:635
 msgid "Privacy"
 msgstr "隐私"
 
-#: ../data/SettingsWeb.ui:624 ../data/SettingsWeb.ui:664
-#: ../lollypop/widgets_settings_web.py:130
-#: ../lollypop/widgets_settings_web.py:143
+#: ../data/SettingsWeb.ui:653 ../data/SettingsWeb.ui:693
+#: ../lollypop/widgets_settings_web.py:129
+#: ../lollypop/widgets_settings_web.py:142
 msgid "Connect"
 msgstr "连接"
 
-#: ../data/SettingsWeb.ui:641
+#: ../data/SettingsWeb.ui:670
 msgid "Last.FM:"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:654
+#: ../data/SettingsWeb.ui:683
 msgid "Librefm:"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:709
+#: ../data/SettingsWeb.ui:738
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -849,20 +853,20 @@ msgstr ""
 "用户令牌。您可以到<a href=\"https://listenbrainz.org/profile/\">用户个人档案"
 "</a>中查看您的用户令牌。</small>"
 
-#: ../data/SettingsWeb.ui:739
+#: ../data/SettingsWeb.ui:768
 msgid "User token"
 msgstr "用户令牌"
 
-#: ../data/SettingsWeb.ui:752 ../data/SettingsWeb.ui:985
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:254
+#: ../data/SettingsWeb.ui:781 ../data/SettingsWeb.ui:1014
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:253
 msgid "Disabled in network settings"
 msgstr "已在网络设置中禁用"
 
-#: ../data/SettingsWeb.ui:772
+#: ../data/SettingsWeb.ui:801
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:801
+#: ../data/SettingsWeb.ui:830
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -872,7 +876,7 @@ msgstr ""
 "<small>否则你将很快用完默认次数\n"
 "Lollypop需要这个来搜索插图</small>"
 
-#: ../data/SettingsWeb.ui:832
+#: ../data/SettingsWeb.ui:861
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -880,15 +884,15 @@ msgstr ""
 "<small>您需要启用为您的项目启用 \"自定义搜索API\" 和 \"YouTube API v3\"。</"
 "small>"
 
-#: ../data/SettingsWeb.ui:847
+#: ../data/SettingsWeb.ui:876
 msgid "?"
 msgstr ""
 
-#: ../data/SettingsWeb.ui:864
+#: ../data/SettingsWeb.ui:893
 msgid "API key"
 msgstr "API 密钥"
 
-#: ../data/SettingsWeb.ui:895
+#: ../data/SettingsWeb.ui:924
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -897,15 +901,15 @@ msgstr ""
 "使用最新版本的 youtube-dl\n"
 "<span size=\"small\" alpha='40000'>若网络回放無法正常工作则启用此设置</span>"
 
-#: ../data/SettingsWeb.ui:936
+#: ../data/SettingsWeb.ui:965
 msgid "No server set"
 msgstr "未设置服务器"
 
-#: ../data/SettingsWeb.ui:964
+#: ../data/SettingsWeb.ui:993
 msgid "Use an Invidious server"
 msgstr "使用 Invidious 服务器"
 
-#: ../data/SettingsWeb.ui:1004
+#: ../data/SettingsWeb.ui:1033
 msgid "Google"
 msgstr "Google"
 
@@ -1153,11 +1157,11 @@ msgstr "返回"
 msgid "Go home"
 msgstr "回到主页"
 
-#: ../lollypop/collection_scanner.py:462
+#: ../lollypop/collection_scanner.py:452
 msgid "Scan disabled, missing collection"
 msgstr "扫描已禁用，曲库缺失"
 
-#: ../lollypop/collection_scanner.py:726 ../lollypop/database_tracks.py:380
+#: ../lollypop/collection_scanner.py:716 ../lollypop/database_tracks.py:381
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1178,7 +1182,7 @@ msgstr "是"
 msgid "Please consider a donation to the project"
 msgstr "请考虑向此项目捐赠"
 
-#: ../lollypop/database_artists.py:121
+#: ../lollypop/database_artists.py:122
 msgid "Many artists"
 msgstr "许多艺术家"
 
@@ -1246,10 +1250,6 @@ msgstr "您正在使用损坏的光标主题!"
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
 msgstr "播放中的音乐"
-
-#: ../lollypop/lastfm.py:23
-msgid "Last.fm authentication disabled"
-msgstr "关闭Last.fm 认证"
 
 #: ../lollypop/menu_actions.py:58 ../lollypop/widgets_row_album.py:122
 msgid "Save in collection"
@@ -1328,7 +1328,7 @@ msgid "From Spotify"
 msgstr ""
 
 #: ../lollypop/menu_playback.py:106
-msgid "From Last.FM"
+msgid "From Last.fm"
 msgstr ""
 
 #: ../lollypop/menu_playback.py:143
@@ -1412,7 +1412,11 @@ msgid "Spotify"
 msgstr ""
 
 #: ../lollypop/menu_search.py:52
-msgid "Last.FM"
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: ../lollypop/menu_search.py:56
+msgid "MusicBrainz"
 msgstr ""
 
 #: ../lollypop/menu_selectionlist.py:50
@@ -1884,11 +1888,11 @@ msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d 首曲目"
 
-#: ../lollypop/widgets_settings_web.py:258
+#: ../lollypop/widgets_settings_web.py:257
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "使用\"GNOME在线账户\"设置"
 
-#: ../lollypop/widgets_settings_web.py:282
+#: ../lollypop/widgets_settings_web.py:281
 msgid "Disconnect"
 msgstr ""
 
@@ -1899,6 +1903,16 @@ msgstr "乐队"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "歌手"
+
+#~ msgid ""
+#~ "Last.fm and Libre.fm\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
+#~ msgstr ""
+#~ "Last.fm 和 Libre.fm\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Scrobbler, 封面, …</span>"
+
+#~ msgid "Last.fm authentication disabled"
+#~ msgstr "关闭Last.fm 认证"
 
 #~ msgid "Search on Spotify"
 #~ msgstr "在Spotify上搜索"
@@ -2046,9 +2060,6 @@ msgstr "歌手"
 
 #~ msgid "Unknown error while syncing, try to reboot your device"
 #~ msgstr "同步时发生未知错误，请重启你的设备"
-
-#~ msgid "Last.fm"
-#~ msgstr "Last.fm"
 
 #~ msgid "Wikipedia"
 #~ msgstr "维基百科"

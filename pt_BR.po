@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-11 22:04+0200\n"
+"POT-Creation-Date: 2020-04-13 00:58+0200\n"
 "PO-Revision-Date: 2020-04-12 22:57+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -85,7 +85,7 @@ msgstr "Gêneros ativos em modo de festa"
 msgid "ID for genres."
 msgstr "ID para gêneros."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:55
+#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:59
 msgid "Search on the Web"
 msgstr "Procurar na Web"
 
@@ -717,11 +717,9 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:153
 msgid ""
-"Last.fm and Libre.fm\n"
+"Last.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
-"Last.fm e Libre.fm\n"
-"<span size=\"x-small\" alpha=\"70%\">Informação, Arte,, …</span>"
 
 #: ../data/SettingsWeb.ui:168
 msgid ""
@@ -837,25 +835,31 @@ msgstr ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">Buscando músicas , capas, …</span>"
 
-#: ../data/SettingsWeb.ui:606
+#: ../data/SettingsWeb.ui:588
+msgid ""
+"Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
+msgstr ""
+
+#: ../data/SettingsWeb.ui:635
 msgid "Privacy"
 msgstr "Privacidade"
 
-#: ../data/SettingsWeb.ui:624 ../data/SettingsWeb.ui:664
-#: ../lollypop/widgets_settings_web.py:130
-#: ../lollypop/widgets_settings_web.py:143
+#: ../data/SettingsWeb.ui:653 ../data/SettingsWeb.ui:693
+#: ../lollypop/widgets_settings_web.py:129
+#: ../lollypop/widgets_settings_web.py:142
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../data/SettingsWeb.ui:641
+#: ../data/SettingsWeb.ui:670
 msgid "Last.FM:"
 msgstr "Last.FM:"
 
-#: ../data/SettingsWeb.ui:654
+#: ../data/SettingsWeb.ui:683
 msgid "Librefm:"
 msgstr "Libre.fm:"
 
-#: ../data/SettingsWeb.ui:709
+#: ../data/SettingsWeb.ui:738
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -867,20 +871,20 @@ msgstr ""
 "de usuário do ListenBrainz . Você pode ver seu chave de usuário em seu <a "
 "href=\"https://listenbrainz.org/profile/\"></a>perfil de usuário.</small>"
 
-#: ../data/SettingsWeb.ui:739
+#: ../data/SettingsWeb.ui:768
 msgid "User token"
 msgstr "Chave de usuário"
 
-#: ../data/SettingsWeb.ui:752 ../data/SettingsWeb.ui:985
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:254
+#: ../data/SettingsWeb.ui:781 ../data/SettingsWeb.ui:1014
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:253
 msgid "Disabled in network settings"
 msgstr "Desabilitado nas configurações de rede"
 
-#: ../data/SettingsWeb.ui:772
+#: ../data/SettingsWeb.ui:801
 msgid "ListenBrainz"
 msgstr "ListenBainz"
 
-#: ../data/SettingsWeb.ui:801
+#: ../data/SettingsWeb.ui:830
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -890,7 +894,7 @@ msgstr ""
 "<small>Sem uma, a cota padrão de pesquisas se esgotará rápido.\n"
 "O Lollypop precisa dela para pesquisar imagens de capa.</small>"
 
-#: ../data/SettingsWeb.ui:832
+#: ../data/SettingsWeb.ui:861
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -898,15 +902,15 @@ msgstr ""
 "<small>Você precisa ativar o 'API de pesquisa personalizada' e 'API do "
 "YouTube v3' para seu projeto</small>"
 
-#: ../data/SettingsWeb.ui:847
+#: ../data/SettingsWeb.ui:876
 msgid "?"
 msgstr "?"
 
-#: ../data/SettingsWeb.ui:864
+#: ../data/SettingsWeb.ui:893
 msgid "API key"
 msgstr "Chave da API"
 
-#: ../data/SettingsWeb.ui:895
+#: ../data/SettingsWeb.ui:924
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -916,15 +920,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>A ativação desta reprodução na rede não "
 "está funcionando</span>"
 
-#: ../data/SettingsWeb.ui:936
+#: ../data/SettingsWeb.ui:965
 msgid "No server set"
 msgstr "Nenhum servidor definido"
 
-#: ../data/SettingsWeb.ui:964
+#: ../data/SettingsWeb.ui:993
 msgid "Use an Invidious server"
 msgstr "Use um servidor individual"
 
-#: ../data/SettingsWeb.ui:1004
+#: ../data/SettingsWeb.ui:1033
 msgid "Google"
 msgstr "Google"
 
@@ -1172,11 +1176,11 @@ msgstr "Voltar"
 msgid "Go home"
 msgstr "Ir para a página inicial"
 
-#: ../lollypop/collection_scanner.py:462
+#: ../lollypop/collection_scanner.py:452
 msgid "Scan disabled, missing collection"
 msgstr "Verificação desativada, coleção ausente"
 
-#: ../lollypop/collection_scanner.py:726 ../lollypop/database_tracks.py:380
+#: ../lollypop/collection_scanner.py:716 ../lollypop/database_tracks.py:381
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1197,7 +1201,7 @@ msgstr "Sim"
 msgid "Please consider a donation to the project"
 msgstr "Por favor, considere fazer uma doação ao projeto"
 
-#: ../lollypop/database_artists.py:121
+#: ../lollypop/database_artists.py:122
 msgid "Many artists"
 msgstr "Vários artistas"
 
@@ -1265,10 +1269,6 @@ msgstr "Você está usando um tema de cursor quebrado!"
 #: ../lollypop/inhibitor.py:101
 msgid "Playing music"
 msgstr "Tocando música"
-
-#: ../lollypop/lastfm.py:23
-msgid "Last.fm authentication disabled"
-msgstr "Autenticação Last.fm desativada"
 
 #: ../lollypop/menu_actions.py:58 ../lollypop/widgets_row_album.py:122
 msgid "Save in collection"
@@ -1347,8 +1347,8 @@ msgid "From Spotify"
 msgstr "Do Spotify"
 
 #: ../lollypop/menu_playback.py:106
-msgid "From Last.FM"
-msgstr "Da Last.FM"
+msgid "From Last.fm"
+msgstr ""
 
 #: ../lollypop/menu_playback.py:143
 msgid "Play this playlist"
@@ -1431,8 +1431,12 @@ msgid "Spotify"
 msgstr "Spotify®"
 
 #: ../lollypop/menu_search.py:52
-msgid "Last.FM"
-msgstr "Last.FM"
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: ../lollypop/menu_search.py:56
+msgid "MusicBrainz"
+msgstr ""
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1907,11 +1911,11 @@ msgid_plural "%d tracks"
 msgstr[0] "%d faixa"
 msgstr[1] "%d faixas"
 
-#: ../lollypop/widgets_settings_web.py:258
+#: ../lollypop/widgets_settings_web.py:257
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Usando ajustes da \"Conta Online Gnome\""
 
-#: ../lollypop/widgets_settings_web.py:282
+#: ../lollypop/widgets_settings_web.py:281
 msgid "Disconnect"
 msgstr "Desconectar"
 
@@ -1922,6 +1926,22 @@ msgstr "banda"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "Cantor(a)"
+
+#~ msgid ""
+#~ "Last.fm and Libre.fm\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
+#~ msgstr ""
+#~ "Last.fm e Libre.fm\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Informação, Arte,, …</span>"
+
+#~ msgid "Last.fm authentication disabled"
+#~ msgstr "Autenticação Last.fm desativada"
+
+#~ msgid "From Last.FM"
+#~ msgstr "Da Last.FM"
+
+#~ msgid "Last.FM"
+#~ msgstr "Last.FM"
 
 #~ msgid "Search on Spotify"
 #~ msgstr "Buscar no Spotfy"
@@ -2228,9 +2248,6 @@ msgstr "Cantor(a)"
 
 #~ msgid "Unknown error while syncing, try to reboot your device"
 #~ msgstr "Erro desconhecido ao sincronizar, tente reiniciar o seu dispositivo"
-
-#~ msgid "Last.fm"
-#~ msgstr "Last.fm"
 
 #~ msgid "Wikipedia"
 #~ msgstr "Wikipédia"
