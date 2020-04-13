@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-13 01:05+0200\n"
-"PO-Revision-Date: 2020-03-02 16:42+0000\n"
+"PO-Revision-Date: 2020-04-16 11:11+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ca/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.0.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -236,7 +236,7 @@ msgstr "Comportament de les notificacions"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:244
 msgid "Items count in views"
-msgstr ""
+msgstr "Elements dins les visualitzacions"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:248
 msgid "Show track number from tags"
@@ -319,7 +319,6 @@ msgid "Applies signal compression/limiting to raw audio data"
 msgstr "Aplica compressió/limitació del senyal per a dades d'àudio raw"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:359
-#, fuzzy
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
@@ -719,6 +718,8 @@ msgid ""
 "Last.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
+"Last.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, caràtules, …</span>"
 
 #: ../data/SettingsWeb.ui:168
 msgid ""
@@ -749,6 +750,8 @@ msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
+"Pàgina d'inici\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca cançons, caràtules, …</span>"
 
 #: ../data/SettingsWeb.ui:228
 msgid ""
@@ -829,12 +832,16 @@ msgid ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Cerca cançons, caràtules,…</span>"
 
 #: ../data/SettingsWeb.ui:588
 msgid ""
 "Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
 msgstr ""
+"Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
 
 #: ../data/SettingsWeb.ui:635
 msgid "Privacy"
@@ -848,11 +855,11 @@ msgstr "Connecta"
 
 #: ../data/SettingsWeb.ui:670
 msgid "Last.fm:"
-msgstr ""
+msgstr "Last.fm:"
 
 #: ../data/SettingsWeb.ui:683
 msgid "Libre.fm:"
-msgstr ""
+msgstr "Libre.fm:"
 
 #: ../data/SettingsWeb.ui:738
 msgid ""
@@ -900,7 +907,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:876
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: ../data/SettingsWeb.ui:893
 msgid "API key"
@@ -1336,15 +1343,15 @@ msgstr "Elimina de la reproducció"
 
 #: ../lollypop/menu_playback.py:86
 msgid "From collection"
-msgstr ""
+msgstr "De la col·lecció"
 
 #: ../lollypop/menu_playback.py:96
 msgid "From Spotify"
-msgstr ""
+msgstr "De l'Spotify"
 
 #: ../lollypop/menu_playback.py:106
 msgid "From Last.fm"
-msgstr ""
+msgstr "De Last.fm"
 
 #: ../lollypop/menu_playback.py:143
 msgid "Play this playlist"
@@ -1356,7 +1363,7 @@ msgstr "Reprodueix aquest artista"
 
 #: ../lollypop/menu_playback.py:192 ../lollypop/menu_playback.py:417
 msgid "Play a radio"
-msgstr ""
+msgstr "Reprodueix ràdio"
 
 #: ../lollypop/menu_playback.py:253
 msgid "Play this genre"
@@ -1616,7 +1623,7 @@ msgstr "Manca l'ordre youtube-dl"
 
 #: ../lollypop/view_albums_box.py:66
 msgid "You need to enable YouTube in network settings"
-msgstr ""
+msgstr "Cal que activeu YouTube en la configuració de xarxa"
 
 #: ../lollypop/view_albums_line.py:170
 msgid "Others compilations"
@@ -1624,7 +1631,7 @@ msgstr "Altres compilacions"
 
 #: ../lollypop/view_albums_line.py:204
 msgid "Appears on"
-msgstr ""
+msgstr "Apareix en"
 
 #: ../lollypop/view_albums_line.py:234
 msgid "Popular albums at the moment"
@@ -1913,7 +1920,7 @@ msgstr "S'estan utilitzant els paràmetres dels comptes en línia del GNOME"
 
 #: ../lollypop/widgets_settings_web.py:281
 msgid "Disconnect"
-msgstr ""
+msgstr "Desconnectat"
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
