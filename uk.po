@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-13 01:05+0200\n"
-"PO-Revision-Date: 2020-03-16 06:36+0000\n"
+"PO-Revision-Date: 2020-04-16 11:11+0000\n"
 "Last-Translator: strixaluco <maddox@i.ua>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/uk/>\n"
@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -63,7 +63,7 @@ msgstr "Доступ до мережі"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:75
 msgid "Save artwork/popularity in tags"
-msgstr "Зберігати обгортку/популярність в тегах"
+msgstr "Зберігати обгортку/популярність в позначниках"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:80
 msgid "Window maximized"
@@ -83,7 +83,7 @@ msgstr "ID жанрів."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:59
 msgid "Search on the Web"
-msgstr ""
+msgstr "Шукати в мережі"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Allow syncing to USB disks"
@@ -127,7 +127,7 @@ msgstr "Ключ Google Custom Search API"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:140
 msgid "Favorite tag editor"
-msgstr "Улюблений редактор тегів"
+msgstr "Улюблений редактор позначок"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:145
 msgid "Favorite cover file"
@@ -164,7 +164,7 @@ msgstr "Автоматично оновлювати музику"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:170
 msgid "Show tracks in artist view"
-msgstr ""
+msgstr "Показувати доріжки у режимі виконавця"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:175 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
@@ -211,6 +211,8 @@ msgstr "Напр: The Beatles сортувати як Beatles. Потребує 
 #: ../data/org.gnome.Lollypop.gschema.xml:220
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
+"Показувати позначник сортування в якості виконавця. Може потребувати "
+"скидання бази даних"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Ex: Beatles, The"
@@ -230,11 +232,11 @@ msgstr "Поведінка сповіщень"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:244
 msgid "Items count in views"
-msgstr ""
+msgstr "Кількість елементів у виглядах"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:248
 msgid "Show track number from tags"
-msgstr "Показувати номер доріжки з тегів"
+msgstr "Показувати номер доріжки з позначок"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "JPG cover quality"
@@ -250,7 +252,7 @@ msgstr "Примусовий одноколонковий режим"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:273
 msgid "Volume rate"
-msgstr ""
+msgstr "Рівень гучності"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:274
 msgid "0.0-1.0"
@@ -362,6 +364,17 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    Піктограма Lollypop\n"
+"Geary Development Team:\n"
+"    Піктограма tag-list-symbolic\n"
+"GNOME Project:\n"
+"    unplayed-albums-symbolic\n"
+"    Піктограми artists-list-symbolic\n"
+"Martins D. Okoi:\n"
+"    Опис у appdata\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:66
 msgid "Donations:"
@@ -592,7 +605,7 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
-"Збірка це альбом без жодного \"тегу виконавця альбому\"\n"
+"Збірка це альбом без жодної позначки \"Виконавець альбому\"\n"
 "та з різними виконавцями."
 
 #: ../data/SettingsAppearance.ui:372
@@ -682,22 +695,22 @@ msgid "Search artwork in background"
 msgstr "Шукати обкладинки на тлі"
 
 #: ../data/SettingsWeb.ui:137
-#, fuzzy
 msgid ""
 "Background data\n"
 "<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
 msgstr ""
 "Background data\n"
-"<span size=\"x-small\" alpha=\"70%\">Search artwork in background</span>"
+"<span size=\"x-small\" alpha=\"70%\">Шукати обкладинку на тлі</span>"
 
 #: ../data/SettingsWeb.ui:153
 msgid ""
 "Last.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
+"Last.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Скробблер, обкладинка, …</span>"
 
 #: ../data/SettingsWeb.ui:168
-#, fuzzy
 msgid ""
 "Spotify\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
@@ -714,7 +727,6 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Відтворення композицій</span>"
 
 #: ../data/SettingsWeb.ui:198
-#, fuzzy
 msgid ""
 "Google\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -727,9 +739,10 @@ msgid ""
 "Startpage\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
+"Startpage\n"
+"<span size=\"x-small\" alpha=\"70%\">Пошук композицій, обкладинок, …</span>"
 
 #: ../data/SettingsWeb.ui:228
-#, fuzzy
 msgid ""
 "Wikia\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -746,7 +759,6 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Біографії виконавців</span>"
 
 #: ../data/SettingsWeb.ui:356
-#, fuzzy
 msgid ""
 "Tunein\n"
 "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
@@ -755,7 +767,6 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Пошук радіо</span>"
 
 #: ../data/SettingsWeb.ui:385
-#, fuzzy
 msgid ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
@@ -764,7 +775,6 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Скробблер, інформація, …</span>"
 
 #: ../data/SettingsWeb.ui:414
-#, fuzzy
 msgid ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -773,7 +783,6 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Пошук текстів</span>"
 
 #: ../data/SettingsWeb.ui:443
-#, fuzzy
 msgid ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -790,7 +799,6 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Пошук обкладинок</span>"
 
 #: ../data/SettingsWeb.ui:501
-#, fuzzy
 msgid ""
 "AudioDB\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
@@ -801,7 +809,6 @@ msgstr ""
 "…</span>"
 
 #: ../data/SettingsWeb.ui:530
-#, fuzzy
 msgid ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -814,12 +821,16 @@ msgid ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
+"DuckDuckGo\n"
+"<span size=\"x-small\" alpha=\"70%\">Пошук композицій, обкладинок, …</span>"
 
 #: ../data/SettingsWeb.ui:588
 msgid ""
 "Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
 msgstr ""
+"Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Скробблер</span>"
 
 #: ../data/SettingsWeb.ui:635
 msgid "Privacy"
@@ -833,11 +844,11 @@ msgstr "Приєднатися"
 
 #: ../data/SettingsWeb.ui:670
 msgid "Last.fm:"
-msgstr ""
+msgstr "Last.fm:"
 
 #: ../data/SettingsWeb.ui:683
 msgid "Libre.fm:"
-msgstr ""
+msgstr "Libre.fm:"
 
 #: ../data/SettingsWeb.ui:738
 msgid ""
@@ -884,14 +895,13 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:876
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: ../data/SettingsWeb.ui:893
 msgid "API key"
 msgstr "Ключ API"
 
 #: ../data/SettingsWeb.ui:924
-#, fuzzy
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -1321,15 +1331,15 @@ msgstr "Вилучити з відтворення"
 
 #: ../lollypop/menu_playback.py:86
 msgid "From collection"
-msgstr ""
+msgstr "Зі збірки"
 
 #: ../lollypop/menu_playback.py:96
 msgid "From Spotify"
-msgstr ""
+msgstr "Зі Spotify"
 
 #: ../lollypop/menu_playback.py:106
 msgid "From Last.fm"
-msgstr ""
+msgstr "З Last.fm"
 
 #: ../lollypop/menu_playback.py:143
 msgid "Play this playlist"
@@ -1341,7 +1351,7 @@ msgstr "Відтворити цього виконавця"
 
 #: ../lollypop/menu_playback.py:192 ../lollypop/menu_playback.py:417
 msgid "Play a radio"
-msgstr ""
+msgstr "Відтворити радіо"
 
 #: ../lollypop/menu_playback.py:253
 msgid "Play this genre"
@@ -1409,7 +1419,7 @@ msgstr "Пошук"
 
 #: ../lollypop/menu_search.py:48
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../lollypop/menu_search.py:52
 msgid "Last.fm"
@@ -1417,7 +1427,7 @@ msgstr "Last.fm"
 
 #: ../lollypop/menu_search.py:56
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1601,7 +1611,7 @@ msgstr "Бракує команди youtube-dl"
 
 #: ../lollypop/view_albums_box.py:66
 msgid "You need to enable YouTube in network settings"
-msgstr ""
+msgstr "Ви маєте увімкнути YouTube у параметрах тенет"
 
 #: ../lollypop/view_albums_line.py:170
 msgid "Others compilations"
@@ -1609,7 +1619,7 @@ msgstr "Інші збірки"
 
 #: ../lollypop/view_albums_line.py:204
 msgid "Appears on"
-msgstr ""
+msgstr "З'являється на"
 
 #: ../lollypop/view_albums_line.py:234
 msgid "Popular albums at the moment"
@@ -1674,6 +1684,8 @@ msgid ""
 "This album has no track. Check tags, all 'album artist' tags should be in "
 "'artist' tags"
 msgstr ""
+"Цей альбом не має жодної доріжки. Перевірте позначки — усі значення з "
+"позначок 'Виконавець альбому' мають також бути й у позначках 'Виконавець'"
 
 #: ../lollypop/view_tracks_album.py:231
 #, python-format
@@ -1895,11 +1907,11 @@ msgstr[2] "%d доріжок"
 
 #: ../lollypop/widgets_settings_web.py:257
 msgid "Using \"GNOME Online Accounts\" settings"
-msgstr ""
+msgstr "Використовуючи параметри \"Облікові записи в інтернеті\""
 
 #: ../lollypop/widgets_settings_web.py:281
 msgid "Disconnect"
-msgstr ""
+msgstr "Від'єднатись"
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
