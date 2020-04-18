@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-13 01:05+0200\n"
-"PO-Revision-Date: 2020-03-30 00:48+0000\n"
+"PO-Revision-Date: 2020-04-19 23:11+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "it/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.0.2-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -716,6 +716,8 @@ msgid ""
 "Last.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, artwork, …</span>"
 msgstr ""
+"Last.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler, copertine, …</span>"
 
 #: ../data/SettingsWeb.ui:168
 msgid ""
@@ -795,7 +797,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "ITunes\n"
-"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
+"<span size=\"x-small\" alpha=\"70%\">Cerca copertine</span>"
 
 #: ../data/SettingsWeb.ui:458
 msgid ""
@@ -803,7 +805,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "Deezer\n"
-"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
+"<span size=\"x-small\" alpha=\"70%\">Cerca copertine</span>"
 
 #: ../data/SettingsWeb.ui:501
 msgid ""
@@ -812,8 +814,8 @@ msgid ""
 "span>"
 msgstr ""
 "AudioDB\n"
-"<span size=\"x-small\" alpha=\"70%\">Cerca biografia dell'artista, immagini, "
-"…</span>"
+"<span size=\"x-small\" alpha=\"70%\">Cerca biografia dell'artista, "
+"copertine, …</span>"
 
 #: ../data/SettingsWeb.ui:530
 msgid ""
@@ -821,7 +823,7 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
 msgstr ""
 "FANART.TV\n"
-"<span size=\"x-small\" alpha=\"70%\">Cerca immagini</span>"
+"<span size=\"x-small\" alpha=\"70%\">Cerca copertine</span>"
 
 #: ../data/SettingsWeb.ui:559
 msgid ""
@@ -829,13 +831,15 @@ msgid ""
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
 msgstr ""
 "DuckDuckGo\n"
-"<span size=\"x-small\" alpha=\"70%\">Cerca tracce, immagini, …</span>"
+"<span size=\"x-small\" alpha=\"70%\">Cerca tracce, copertine, …</span>"
 
 #: ../data/SettingsWeb.ui:588
 msgid ""
 "Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
 msgstr ""
+"Libre.fm\n"
+"<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
 
 #: ../data/SettingsWeb.ui:635
 msgid "Privacy"
@@ -849,11 +853,11 @@ msgstr "Connetti"
 
 #: ../data/SettingsWeb.ui:670
 msgid "Last.fm:"
-msgstr ""
+msgstr "Last.fm:"
 
 #: ../data/SettingsWeb.ui:683
 msgid "Libre.fm:"
-msgstr ""
+msgstr "Libre.fm:"
 
 #: ../data/SettingsWeb.ui:738
 msgid ""
@@ -864,8 +868,8 @@ msgid ""
 msgstr ""
 "<b>Token utente ListenBrainz</b>\n"
 "<small>Per inviare i tuoi ascolti a ListenBrainz, inserisci il tuo token "
-"ListenBrainz qui sotto. Puoi ottenere il tuo token utente <a href=\"https://"
-"listenbrainz.org/profile/\">qui</a>.</small>"
+"ListenBrainz qui sotto. Puoi ottenere il tuo token nel tuo <a href=\""
+"https://listenbrainz.org/profile/\">profilo utente</a>.</small>"
 
 #: ../data/SettingsWeb.ui:768
 msgid "User token"
@@ -888,7 +892,7 @@ msgid ""
 msgstr ""
 "<b>I servizi web di Google richiedono una chiave API. </b>\n"
 "<small>In caso contrario si raggiungerà presto la quota predefinita…\n"
-"Lollypop richiede la chiave per cercare le immagini.</small>"
+"Lollypop richiede la chiave per cercare le copertine.</small>"
 
 #: ../data/SettingsWeb.ui:861
 msgid ""
@@ -900,7 +904,7 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:876
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: ../data/SettingsWeb.ui:893
 msgid "API key"
@@ -1328,23 +1332,23 @@ msgstr "Indirizzo pagina YouTube"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/widgets_row_album.py:333
 msgid "Add to playback"
-msgstr "Aggiungi alla riproduzione"
+msgstr "Aggiungi alla coda"
 
 #: ../lollypop/menu_playback.py:64 ../lollypop/widgets_row_album.py:340
 msgid "Remove from playback"
-msgstr "Rimuovi dalla riproduzione"
+msgstr "Rimuovi dalla coda"
 
 #: ../lollypop/menu_playback.py:86
 msgid "From collection"
-msgstr ""
+msgstr "Dalla collezione"
 
 #: ../lollypop/menu_playback.py:96
 msgid "From Spotify"
-msgstr ""
+msgstr "Da Spotify"
 
 #: ../lollypop/menu_playback.py:106
 msgid "From Last.fm"
-msgstr ""
+msgstr "Da Last.fm"
 
 #: ../lollypop/menu_playback.py:143
 msgid "Play this playlist"
@@ -1356,7 +1360,7 @@ msgstr "Riproduci questo artista"
 
 #: ../lollypop/menu_playback.py:192 ../lollypop/menu_playback.py:417
 msgid "Play a radio"
-msgstr ""
+msgstr "Riproduci una radio"
 
 #: ../lollypop/menu_playback.py:253
 msgid "Play this genre"
@@ -1913,7 +1917,7 @@ msgstr "Utilizza impostazioni \"Account online\" di GNOME"
 
 #: ../lollypop/widgets_settings_web.py:281
 msgid "Disconnect"
-msgstr ""
+msgstr "Disconnetti"
 
 #: ../lollypop/wikipedia.py:117
 msgid "band"
