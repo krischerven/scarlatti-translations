@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-29 18:07+0200\n"
-"PO-Revision-Date: 2020-04-19 23:11+0000\n"
+"PO-Revision-Date: 2020-04-30 13:53+0000\n"
 "Last-Translator: Jozef Gaal <preklady@mayday.sk>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "sk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.2-dev\n"
+"X-Generator: Weblate 4.0.2\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -85,11 +85,11 @@ msgstr "Hľadať na webe"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Shown suggestions"
-msgstr ""
+msgstr "Zobraziť návrhy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:100
 msgid "Play featured tracks"
-msgstr ""
+msgstr "Prehrať uvedené skladby"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:105
 msgid "Allow syncing to USB disks"
@@ -109,7 +109,7 @@ msgstr "Ak je to pravda, Lollypop nebude používať systém youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:125
 msgid "Show year below album name"
-msgstr ""
+msgstr "Zobraziť rok pod názvom albumu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "Import playlists from collections"
@@ -468,7 +468,7 @@ msgstr "Aktualizovať hudbu"
 
 #: ../data/Appmenu.ui:63
 msgid "Mini player"
-msgstr ""
+msgstr "Mini prehrávač"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
@@ -808,6 +808,8 @@ msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search, search songs</span>"
 msgstr ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Vyhľadávanie obrázkov, skladieb</span>"
 
 #: ../data/SettingsWeb.ui:501
 msgid ""
@@ -993,7 +995,7 @@ msgstr "Režim na celú obrazovku"
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Mini player"
-msgstr ""
+msgstr "Mini prehrávač"
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
@@ -1210,11 +1212,11 @@ msgstr "Mnoho interpretov"
 
 #: ../lollypop/database_upgrade.py:772
 msgid "Please wait while Lollypop is updating albums"
-msgstr ""
+msgstr "Počkajte prosím, kým Lollypop aktualizuje albumy"
 
 #: ../lollypop/database_upgrade.py:791
 msgid "Please wait while Lollypop is updating tracks"
-msgstr ""
+msgstr "Počkajte prosím, kým Lollypop aktualizuje skladby"
 
 #: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:138
 #: ../lollypop/widgets_device.py:144
@@ -1303,11 +1305,11 @@ msgstr "Zobraziť skladby"
 
 #: ../lollypop/menu_artist.py:57
 msgid "Show year"
-msgstr ""
+msgstr "Zobraziť rok"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr ""
+msgstr "Prehrať uvedené"
 
 #: ../lollypop/menu_artist.py:68 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:41 ../lollypop/menu_objects.py:45
@@ -1368,7 +1370,7 @@ msgstr "Z hudobnej zbierky"
 
 #: ../lollypop/menu_playback.py:123
 msgid "From Deezer"
-msgstr ""
+msgstr "Z Deezer-a"
 
 #: ../lollypop/menu_playback.py:133
 msgid "From Last.fm"
@@ -1420,7 +1422,7 @@ msgstr "Uložiť zoznam skladieb"
 
 #: ../lollypop/menu_playlist.py:50
 msgid "Sync from Last.FM"
-msgstr ""
+msgstr "Synchronizovať z Last.FM"
 
 #: ../lollypop/menu_playlist.py:57
 msgid "Manage smart playlist"
@@ -1456,7 +1458,7 @@ msgstr "Hľadať"
 
 #: ../lollypop/menu_search.py:55
 msgid "Deezer"
-msgstr ""
+msgstr "Deezer"
 
 #: ../lollypop/menu_search.py:59
 msgid "Last.fm"
@@ -1512,19 +1514,19 @@ msgstr "Návrhy"
 
 #: ../lollypop/menu_suggestions.py:45 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
-msgstr ""
+msgstr "Nové vydania na Spotify"
 
 #: ../lollypop/menu_suggestions.py:56 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
-msgstr ""
+msgstr "Návrhy zo Spotify"
 
 #: ../lollypop/menu_suggestions.py:67 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
-msgstr ""
+msgstr "Naj albumy na Deezer"
 
 #: ../lollypop/menu_suggestions.py:70
 msgid "From the Web"
-msgstr ""
+msgstr "Z webu"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
@@ -1537,7 +1539,7 @@ msgstr "Rádio"
 #: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
 #: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
 msgid "No album available"
-msgstr ""
+msgstr "Nie je žiadny dostupný album"
 
 #: ../lollypop/player_bin.py:427
 msgid "Can't find this track on YouTube"
@@ -1735,7 +1737,7 @@ msgstr "Vitajte v Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid "All tracks skipped"
-msgstr ""
+msgstr "Všetky skladby preskočené"
 
 #: ../lollypop/view_tracks_album.py:231
 #, python-format
