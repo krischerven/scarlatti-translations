@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-13 01:05+0200\n"
+"POT-Creation-Date: 2020-04-29 18:07+0200\n"
 "PO-Revision-Date: 2020-04-16 11:11+0000\n"
 "Last-Translator: strixaluco <maddox@i.ua>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
@@ -18,8 +18,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
@@ -42,14 +42,14 @@ msgstr "Розташування вікна (x та y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:50
 #: ../data/org.gnome.Lollypop.gschema.xml:55
 #: ../data/org.gnome.Lollypop.gschema.xml:70
-#: ../data/org.gnome.Lollypop.gschema.xml:100
-#: ../data/org.gnome.Lollypop.gschema.xml:240
-#: ../data/org.gnome.Lollypop.gschema.xml:253
-#: ../data/org.gnome.Lollypop.gschema.xml:258
-#: ../data/org.gnome.Lollypop.gschema.xml:283
-#: ../data/org.gnome.Lollypop.gschema.xml:288
-#: ../data/org.gnome.Lollypop.gschema.xml:293
-#: ../data/org.gnome.Lollypop.gschema.xml:343
+#: ../data/org.gnome.Lollypop.gschema.xml:110
+#: ../data/org.gnome.Lollypop.gschema.xml:255
+#: ../data/org.gnome.Lollypop.gschema.xml:268
+#: ../data/org.gnome.Lollypop.gschema.xml:273
+#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:358
 msgid "INTERNAL"
 msgstr "ВНУТРІШНЬО"
 
@@ -81,15 +81,23 @@ msgstr "Увімкнені жанри в режимі вечірки"
 msgid "ID for genres."
 msgstr "ID жанрів."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:59
+#: ../data/org.gnome.Lollypop.gschema.xml:90 ../lollypop/menu_search.py:40
 msgid "Search on the Web"
 msgstr "Шукати в мережі"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
+msgid "Shown suggestions"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:100
+msgid "Play featured tracks"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:105
 msgid "Allow syncing to USB disks"
 msgstr "Дозволити синхронізувати з USB дисками"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:105
+#: ../data/org.gnome.Lollypop.gschema.xml:115
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
@@ -97,242 +105,246 @@ msgstr ""
 "Якщо позначено, Lollypop використовуватиме цей сервер замість YouTube. Див. "
 "https://github.com/omarroth/invidious"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:110
+#: ../data/org.gnome.Lollypop.gschema.xml:120
 msgid "If true, Lollypop will not use system youtube-dl"
 msgstr "Якщо увімкнено, Lollypop не використовуватиме youtube-dl з системи"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:115
+#: ../data/org.gnome.Lollypop.gschema.xml:125
+msgid "Show year below album name"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "Import playlists from collections"
 msgstr "Імпортувати списки відтворення зі збірок"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:120
+#: ../data/org.gnome.Lollypop.gschema.xml:135
 msgid "Music URI"
 msgstr "URI музики"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:121
+#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Коли порожньо, береться з XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:125
+#: ../data/org.gnome.Lollypop.gschema.xml:140
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Використати Libre.fm замість Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:130
+#: ../data/org.gnome.Lollypop.gschema.xml:145
 msgid "ListenBrainz user token"
 msgstr "Маркер користувача ListenBrainz"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:135
+#: ../data/org.gnome.Lollypop.gschema.xml:150
 msgid "Google Custom Search API key"
 msgstr "Ключ Google Custom Search API"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:140
+#: ../data/org.gnome.Lollypop.gschema.xml:155
 msgid "Favorite tag editor"
 msgstr "Улюблений редактор позначок"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:145
+#: ../data/org.gnome.Lollypop.gschema.xml:160
 msgid "Favorite cover file"
 msgstr "Улюблений файл обгортки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:146
-#: ../data/org.gnome.Lollypop.gschema.xml:231
+#: ../data/org.gnome.Lollypop.gschema.xml:161
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Restart needed"
 msgstr "Потрібен перезапуск"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:150
+#: ../data/org.gnome.Lollypop.gschema.xml:165
 msgid "Database version"
 msgstr "Версія бази даних"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:151
+#: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Скидання цього значення перезавантажить базу даних, популярні альбоми будуть "
 "відновлені"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:155 ../data/SettingsAppearance.ui:228
+#: ../data/org.gnome.Lollypop.gschema.xml:170 ../data/SettingsAppearance.ui:228
 msgid "Albums cover size"
 msgstr "Розмір обкладинки альбому"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:160
+#: ../data/org.gnome.Lollypop.gschema.xml:175
 msgid "Encoding quality"
 msgstr "Якість кодування"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:165 ../data/SettingsBehaviour.ui:40
+#: ../data/org.gnome.Lollypop.gschema.xml:180 ../data/SettingsBehaviour.ui:40
 #: ../data/SettingsBehaviour.ui:43 ../data/SettingsBehaviour.ui:57
 msgid "Auto update music"
 msgstr "Автоматично оновлювати музику"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:170
+#: ../data/org.gnome.Lollypop.gschema.xml:185
 msgid "Show tracks in artist view"
 msgstr "Показувати доріжки у режимі виконавця"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:175 ../data/SettingsAppearance.ui:138
+#: ../data/org.gnome.Lollypop.gschema.xml:190 ../data/SettingsAppearance.ui:138
 #: ../data/SettingsAppearance.ui:152
 msgid "Show artist artwork"
 msgstr "Показувати обгортку виконавця"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:180
+#: ../data/org.gnome.Lollypop.gschema.xml:195
 msgid "Use dark GTK theme"
 msgstr "Темний варіант теми"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:185
+#: ../data/org.gnome.Lollypop.gschema.xml:200
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Вимкнути декорації на стороні клієнта (заголовок)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:190
+#: ../data/org.gnome.Lollypop.gschema.xml:205
 msgid "Disable scrobbling usage"
 msgstr "Вимкнути скробблінг"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:195
+#: ../data/org.gnome.Lollypop.gschema.xml:210
 msgid "Handle compilations"
 msgstr "Обробляти компіляції"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:200 ../data/SettingsAppearance.ui:323
+#: ../data/org.gnome.Lollypop.gschema.xml:215 ../data/SettingsAppearance.ui:323
 msgid "Show compilations in albums view"
 msgstr "Показувати компіляції в перегляді альбомів"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:205 ../data/SettingsBehaviour.ui:87
+#: ../data/org.gnome.Lollypop.gschema.xml:220 ../data/SettingsBehaviour.ui:87
 #: ../data/SettingsBehaviour.ui:101
 msgid "Continue playback when closed"
 msgstr "Продовжувати відтворення після закриття"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:210
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Append albums by default"
 msgstr "Типово долучати альбоми"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:215
+#: ../data/org.gnome.Lollypop.gschema.xml:230
 msgid "Smart sort for artist"
 msgstr "Розумне сортування виконаців"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:216
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr "Напр: The Beatles сортувати як Beatles. Потребує скидання бази даних"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:220
+#: ../data/org.gnome.Lollypop.gschema.xml:235
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Показувати позначник сортування в якості виконавця. Може потребувати "
 "скидання бази даних"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:221
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Ex: Beatles, The"
 msgstr "Напр: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:225
+#: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Restore previous state"
 msgstr "Відновлювати попередній стан"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:230
+#: ../data/org.gnome.Lollypop.gschema.xml:245
 msgid "Disable MPRIS"
 msgstr "Вимкнути MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:235
+#: ../data/org.gnome.Lollypop.gschema.xml:250
 msgid "Notifications behaviour"
 msgstr "Поведінка сповіщень"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:244
+#: ../data/org.gnome.Lollypop.gschema.xml:259
 msgid "Items count in views"
 msgstr "Кількість елементів у виглядах"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:248
+#: ../data/org.gnome.Lollypop.gschema.xml:263
 msgid "Show track number from tags"
 msgstr "Показувати номер доріжки з позначок"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:263
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 msgid "JPG cover quality"
 msgstr "Якість JPG обкладинки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:264
+#: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:268
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "Force single column mode"
 msgstr "Примусовий одноколонковий режим"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:273
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Volume rate"
 msgstr "Рівень гучності"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "0.0-1.0"
 msgstr "0.0-1.0"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Equalizer enabled"
 msgstr "Еквалайзер увімкнений"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:313
 msgid "Show labels in sidebar"
 msgstr "Показувати мітки у бічній панелі"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:303
+#: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Smooth track transitions"
 msgstr "Плавні переходи між доріжками"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:308
+#: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "Smooth track transitions only in party mode"
 msgstr "Плавні переходи між доріжками тільки у режимі вечірки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "Transition duration in ms"
 msgstr "Тривалість переходу у мс"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318
+#: ../data/org.gnome.Lollypop.gschema.xml:333
 msgid "Fade effect on playback status change"
 msgstr "Ефект заникання за зміни статусу відтворення"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:323
+#: ../data/org.gnome.Lollypop.gschema.xml:338
 msgid "Fade duration in ms"
 msgstr "Тривалість заникання у мс"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:328
+#: ../data/org.gnome.Lollypop.gschema.xml:343
 msgid "Fade effect only in party mode"
 msgstr "Ефект заникання тільки у режимі вечірки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:333 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:348 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Тасувати доріжки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:338
+#: ../data/org.gnome.Lollypop.gschema.xml:353
 msgid "Ignore internal symlinks"
 msgstr "Ігнорувати внутрішні симпосилання"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:348
+#: ../data/org.gnome.Lollypop.gschema.xml:363
 msgid "ReplayGain state"
 msgstr "Стан ReplayGain"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:353
+#: ../data/org.gnome.Lollypop.gschema.xml:368
 msgid "ReplayGain value in dB"
 msgstr "Величина ReplayGain у dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:354
+#: ../data/org.gnome.Lollypop.gschema.xml:369
 msgid "Between -15 and 15"
 msgstr "Між -15 та 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:358
+#: ../data/org.gnome.Lollypop.gschema.xml:373
 msgid "Applies signal compression/limiting to raw audio data"
 msgstr "Застосовує стиснення/обмеження сигналу до необроблених аудіоданих"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:359
+#: ../data/org.gnome.Lollypop.gschema.xml:374
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:363
+#: ../data/org.gnome.Lollypop.gschema.xml:378
 msgid "Possibilities for powermanagement options"
 msgstr "Можливості для опцій керування споживанням"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:364
+#: ../data/org.gnome.Lollypop.gschema.xml:379
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr "Зупинити збереження екрану та режим сну під час відтворення."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:368
+#: ../data/org.gnome.Lollypop.gschema.xml:383
 msgid "Repeat"
 msgstr "Повторення"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:373 ../data/SettingsAppearance.ui:181
+#: ../data/org.gnome.Lollypop.gschema.xml:388 ../data/SettingsAppearance.ui:181
 msgid "Order albums by"
 msgstr "Сортувати альбоми за"
 
@@ -437,10 +449,6 @@ msgstr "Аудіо-скробблінг –"
 msgid "Music Player"
 msgstr "Відтворювач музики"
 
-#: ../data/org.gnome.Lollypop.desktop.in:7
-msgid "org.gnome.Lollypop"
-msgstr "org.gnome.Lollypop"
-
 #: ../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
 msgstr "Відтворити/Призупинити"
@@ -458,8 +466,8 @@ msgid "Update music"
 msgstr "Оновити музику"
 
 #: ../data/Appmenu.ui:63
-msgid "Equalizer"
-msgstr "Еквалайзер"
+msgid "Mini player"
+msgstr ""
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
@@ -477,9 +485,13 @@ msgstr "_Клавіатурні скорочення"
 msgid "_About Lollypop"
 msgstr "_Про Lollypop"
 
-#: ../data/Appmenu.ui:151
+#: ../data/Appmenu.ui:150
 msgid "Quit"
 msgstr "Вийти"
+
+#: ../data/Appmenu.ui:213
+msgid "Equalizer"
+msgstr "Еквалайзер"
 
 #: ../data/ArtistBannerWidget.ui:90
 msgid "Play albums"
@@ -531,12 +543,12 @@ msgid "Synchronized:"
 msgstr "Синхронізовано:"
 
 #: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:37
-#: ../lollypop/view_albums_line.py:282
+#: ../lollypop/view_albums_line.py:279
 msgid "Albums"
 msgstr "Альбоми"
 
-#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:60
-#: ../lollypop/menu_objects.py:53 ../lollypop/menu_objects.py:105
+#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:76
+#: ../lollypop/menu_objects.py:54 ../lollypop/menu_objects.py:106
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:40
 msgid "Playlists"
@@ -547,13 +559,13 @@ msgstr "Списки відтворення"
 msgid "Synchronize"
 msgstr "Синхронізувати"
 
-#: ../data/PlaylistBannerWidget.ui:74 ../lollypop/pop_tunein.py:192
+#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/pop_tunein.py:192
 #: ../lollypop/view_tracks_album.py:240
 #: ../lollypop/widgets_player_buttons.py:189
 msgid "Play"
 msgstr "Відтворити"
 
-#: ../data/PlaylistBannerWidget.ui:92
+#: ../data/PlaylistBannerWidget.ui:89
 msgid "Play playlist randomized"
 msgstr "Відтворити список випадково"
 
@@ -562,7 +574,7 @@ msgid "Name:"
 msgstr "Назва:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
-#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:122
+#: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:137
 msgid "Save"
 msgstr "Зберегти"
 
@@ -579,8 +591,8 @@ msgid "Show compilations"
 msgstr "Відображати збірки"
 
 #: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/menu_artist.py:55 ../lollypop/menu_objects.py:50
-#: ../lollypop/menu_objects.py:102
+#: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:51
+#: ../lollypop/menu_objects.py:103
 msgid "Artist"
 msgstr "Виконавець"
 
@@ -628,7 +640,7 @@ msgstr "Імпортувати списки відтворення, наявні
 msgid "Save changes to files"
 msgstr "Зберігати зміни до файлів"
 
-#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:505
+#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:508
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "Необхідно встановити kid3-cli"
@@ -645,7 +657,7 @@ msgstr "Плавні переходи"
 msgid "ReplayGain"
 msgstr "ReplayGain"
 
-#: ../data/SettingsBehaviour.ui:337 ../lollypop/menu_search.py:44
+#: ../data/SettingsBehaviour.ui:337 ../lollypop/menu_search.py:41
 msgid "Disabled"
 msgstr "Вимкнено"
 
@@ -665,7 +677,7 @@ msgstr "Тільки в режимі вечірки"
 msgid "Transitions duration in milliseconds"
 msgstr "Тривалість переходу у мілісекундах"
 
-#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:97
+#: ../data/SettingsCollections.ui:44 ../lollypop/menu_playlist.py:112
 msgid "Confirm"
 msgstr "Підтвердити"
 
@@ -793,10 +805,8 @@ msgstr ""
 #: ../data/SettingsWeb.ui:458
 msgid ""
 "Deezer\n"
-"<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+"<span size=\"x-small\" alpha=\"70%\">Artwork search, search songs</span>"
 msgstr ""
-"Deezer\n"
-"<span size=\"x-small\" alpha=\"70%\">Пошук обкладинок</span>"
 
 #: ../data/SettingsWeb.ui:501
 msgid ""
@@ -867,7 +877,7 @@ msgid "User token"
 msgstr "Маркер користувача"
 
 #: ../data/SettingsWeb.ui:781 ../data/SettingsWeb.ui:1014
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:253
+#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:241
 msgid "Disabled in network settings"
 msgstr "Вимкнено у налаштуваннях мережі"
 
@@ -975,13 +985,13 @@ msgstr "Прибрати гучність"
 
 #: ../data/Shortcuts.ui:80
 msgctxt "shortcut window"
-msgid "Show albums from artist"
-msgstr "Показувати альбоми виконавця"
+msgid "Fullscreen"
+msgstr "На весь екран"
 
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "На весь екран"
+msgid "Mini player"
+msgstr ""
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
@@ -1167,11 +1177,11 @@ msgstr "Назад"
 msgid "Go home"
 msgstr "Додому"
 
-#: ../lollypop/collection_scanner.py:452
+#: ../lollypop/collection_scanner.py:432
 msgid "Scan disabled, missing collection"
 msgstr "Сканування вимкнено, бракує збірки"
 
-#: ../lollypop/collection_scanner.py:716 ../lollypop/database_tracks.py:381
+#: ../lollypop/collection_scanner.py:702 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1196,7 +1206,15 @@ msgstr "Підтримайте, будь ласка, проєкт"
 msgid "Many artists"
 msgstr "Багато виконавців"
 
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:123
+#: ../lollypop/database_upgrade.py:772
+msgid "Please wait while Lollypop is updating albums"
+msgstr ""
+
+#: ../lollypop/database_upgrade.py:791
+msgid "Please wait while Lollypop is updating tracks"
+msgstr ""
+
+#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:138
 #: ../lollypop/widgets_device.py:144
 msgid "Cancel"
 msgstr "Скасувати"
@@ -1234,7 +1252,7 @@ msgid "Select music folders"
 msgstr "Вибрати теки з музикою"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:240 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:266 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Тенет"
 
@@ -1242,9 +1260,9 @@ msgstr "Тенет"
 msgid "Configure Web services"
 msgstr "Налаштувати мережеві служби"
 
-#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_artist.py:59
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:72
+#: ../lollypop/dialog_settings.py:61 ../lollypop/menu_artist.py:75
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:56
+#: ../lollypop/menu_objects.py:79 ../lollypop/menu_playlist.py:79
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Пристрої"
@@ -1253,7 +1271,7 @@ msgstr "Пристрої"
 msgid "Manage devices"
 msgstr "Керувати пристроями"
 
-#: ../lollypop/fullscreen.py:363
+#: ../lollypop/fullscreen.py:364
 msgid "You are using a broken cursor theme!"
 msgstr "Ви користуєтесь поламаною темою вказівників!"
 
@@ -1261,7 +1279,7 @@ msgstr "Ви користуєтесь поламаною темою вказів
 msgid "Playing music"
 msgstr "Відтворюється"
 
-#: ../lollypop/menu_actions.py:58 ../lollypop/widgets_row_album.py:122
+#: ../lollypop/menu_actions.py:58
 msgid "Save in collection"
 msgstr "Зберегти до збірки"
 
@@ -1277,22 +1295,30 @@ msgstr "Придбати цей альбом"
 msgid "Open with…"
 msgstr "Відкрити за допомогою…"
 
-#: ../lollypop/menu_artist.py:49
+#: ../lollypop/menu_artist.py:48
 msgid "Show tracks"
 msgstr "Показати доріжки"
 
-#: ../lollypop/menu_artist.py:52 ../lollypop/menu_decade.py:39
-#: ../lollypop/menu_genre.py:41 ../lollypop/menu_objects.py:46
-#: ../lollypop/menu_objects.py:97
+#: ../lollypop/menu_artist.py:57
+msgid "Show year"
+msgstr ""
+
+#: ../lollypop/menu_artist.py:65
+msgid "Play featured"
+msgstr ""
+
+#: ../lollypop/menu_artist.py:68 ../lollypop/menu_decade.py:39
+#: ../lollypop/menu_genre.py:41 ../lollypop/menu_objects.py:45
+#: ../lollypop/menu_objects.py:98
 msgid "Playback"
 msgstr "Відтворення"
 
-#: ../lollypop/menu_artist.py:102
+#: ../lollypop/menu_artist.py:120
 msgid "Available albums"
 msgstr "Доступні альбоми"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:52
-#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:62
+#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:64
 msgid "Playing albums"
 msgstr "Відтворення альбомів"
 
@@ -1300,108 +1326,117 @@ msgstr "Відтворення альбомів"
 msgid "Create a new playlist"
 msgstr "Створити новий список відтворення"
 
-#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:66
+#: ../lollypop/menu_current_albums.py:51 ../lollypop/menu_playlist.py:73
 msgid "Show tracks number"
 msgstr "Показувати номери доріжок"
 
-#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:57
-#: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:70
+#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:58
+#: ../lollypop/menu_objects.py:107 ../lollypop/menu_playlist.py:77
 msgid "Add to"
 msgstr "Додати до"
 
-#: ../lollypop/menu_objects.py:58 ../lollypop/menu_objects.py:107
+#: ../lollypop/menu_objects.py:59 ../lollypop/menu_objects.py:108
 msgid "Others"
 msgstr "Інші"
 
-#: ../lollypop/menu_objects.py:129
+#: ../lollypop/menu_objects.py:130
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/menu_objects.py:162
+#: ../lollypop/menu_objects.py:163
 msgid "YouTube page address"
 msgstr "Адреса сторінки YouTube"
 
-#: ../lollypop/menu_playback.py:57 ../lollypop/widgets_row_album.py:333
+#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:239
+#: ../lollypop/menu_playback.py:475
+msgid "Play a radio"
+msgstr "Відтворити радіо"
+
+#: ../lollypop/menu_playback.py:72
 msgid "Add to playback"
 msgstr "Додати до відтворення"
 
-#: ../lollypop/menu_playback.py:64 ../lollypop/widgets_row_album.py:340
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:104
 msgid "Remove from playback"
 msgstr "Вилучити з відтворення"
 
-#: ../lollypop/menu_playback.py:86
+#: ../lollypop/menu_playback.py:113
 msgid "From collection"
 msgstr "Зі збірки"
 
-#: ../lollypop/menu_playback.py:96
-msgid "From Spotify"
-msgstr "Зі Spotify"
+#: ../lollypop/menu_playback.py:123
+msgid "From Deezer"
+msgstr ""
 
-#: ../lollypop/menu_playback.py:106
+#: ../lollypop/menu_playback.py:133
 msgid "From Last.fm"
 msgstr "З Last.fm"
 
 #: ../lollypop/menu_playback.py:143
+msgid "From Spotify"
+msgstr "Зі Spotify"
+
+#: ../lollypop/menu_playback.py:182
 msgid "Play this playlist"
 msgstr "Відтворити цей список"
 
-#: ../lollypop/menu_playback.py:186
+#: ../lollypop/menu_playback.py:230
 msgid "Play this artist"
 msgstr "Відтворити цього виконавця"
 
-#: ../lollypop/menu_playback.py:192 ../lollypop/menu_playback.py:417
-msgid "Play a radio"
-msgstr "Відтворити радіо"
-
-#: ../lollypop/menu_playback.py:253
+#: ../lollypop/menu_playback.py:302
 msgid "Play this genre"
 msgstr "Відтворити цей жанр"
 
-#: ../lollypop/menu_playback.py:332
+#: ../lollypop/menu_playback.py:383
 msgid "Play this decade"
 msgstr "Відтворити це десятиліття"
 
-#: ../lollypop/menu_playback.py:411 ../lollypop/widgets_row_album.py:114
+#: ../lollypop/menu_playback.py:466
 msgid "Play this album"
 msgstr "Відтворити цей альбом"
 
-#: ../lollypop/menu_playback.py:531
+#: ../lollypop/menu_playback.py:593
 msgid "Add to queue"
 msgstr "Додати до черги"
 
-#: ../lollypop/menu_playback.py:537
+#: ../lollypop/menu_playback.py:599
 msgid "Remove from queue"
 msgstr "Вилучити з черги"
 
-#: ../lollypop/menu_playback.py:548
+#: ../lollypop/menu_playback.py:610
 msgid "Do not stop after"
 msgstr "Не зупиняти після"
 
-#: ../lollypop/menu_playback.py:553
+#: ../lollypop/menu_playback.py:615
 msgid "Stop after"
 msgstr "Зупинити після"
 
-#: ../lollypop/menu_playlist.py:43 ../lollypop/menu_playlist.py:119
+#: ../lollypop/menu_playlist.py:43 ../lollypop/menu_playlist.py:134
 msgid "Save playlist"
 msgstr "Зберегти список відтворення"
 
 #: ../lollypop/menu_playlist.py:50
+msgid "Sync from Last.FM"
+msgstr ""
+
+#: ../lollypop/menu_playlist.py:57
 msgid "Manage smart playlist"
 msgstr "Керувати розумним списком відтворення"
 
-#: ../lollypop/menu_playlist.py:54
+#: ../lollypop/menu_playlist.py:61
 msgid "Remove playlist"
 msgstr "Вилучити список відтворення"
 
-#: ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_playlist.py:75
 msgid "Playlist"
 msgstr "Список відтворення"
 
-#: ../lollypop/menu_playlist.py:74
+#: ../lollypop/menu_playlist.py:81
 msgid "Edit"
 msgstr "Редагувати"
 
-#: ../lollypop/menu_playlist.py:96
+#: ../lollypop/menu_playlist.py:111
 msgid "Remove this playlist?"
 msgstr "Вилучити цей список відтворення?"
 
@@ -1417,17 +1452,21 @@ msgstr "Нове радіо"
 msgid "Search"
 msgstr "Пошук"
 
-#: ../lollypop/menu_search.py:48
-msgid "Spotify"
-msgstr "Spotify"
+#: ../lollypop/menu_search.py:55
+msgid "Deezer"
+msgstr ""
 
-#: ../lollypop/menu_search.py:52
+#: ../lollypop/menu_search.py:59
 msgid "Last.fm"
 msgstr "Last.fm"
 
-#: ../lollypop/menu_search.py:56
+#: ../lollypop/menu_search.py:63
 msgid "MusicBrainz"
 msgstr "MusicBrainz"
+
+#: ../lollypop/menu_search.py:67
+msgid "Spotify"
+msgstr "Spotify"
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1465,6 +1504,26 @@ msgstr "Схожі виконавці"
 msgid "No results"
 msgstr "Без результатів"
 
+#: ../lollypop/menu_suggestions.py:34 ../lollypop/shown.py:24
+msgid "Suggestions"
+msgstr "Пропозиції"
+
+#: ../lollypop/menu_suggestions.py:45 ../lollypop/view_suggestions.py:129
+msgid "New releases on Spotify"
+msgstr ""
+
+#: ../lollypop/menu_suggestions.py:56 ../lollypop/view_suggestions.py:127
+msgid "Suggestions from Spotify"
+msgstr ""
+
+#: ../lollypop/menu_suggestions.py:67 ../lollypop/view_suggestions.py:131
+msgid "Top albums on Deezer"
+msgstr ""
+
+#: ../lollypop/menu_suggestions.py:70
+msgid "From the Web"
+msgstr ""
+
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
 msgstr "Усі пристрої"
@@ -1473,15 +1532,20 @@ msgstr "Усі пристрої"
 msgid "Radio"
 msgstr "Радіо"
 
+#: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
+#: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
+msgid "No album available"
+msgstr ""
+
 #: ../lollypop/player_bin.py:427
 msgid "Can't find this track on YouTube"
 msgstr "Не вдалось знайти цю доріжку на YouTube"
 
-#: ../lollypop/playlists.py:93 ../lollypop/playlists.py:96
+#: ../lollypop/playlists.py:94 ../lollypop/playlists.py:97
 msgid "New playlist "
 msgstr "Новий список відтворення "
 
-#: ../lollypop/playlists.py:106 ../lollypop/playlists.py:350
+#: ../lollypop/playlists.py:107 ../lollypop/playlists.py:355
 #: ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Вподобані доріжки"
@@ -1501,10 +1565,6 @@ msgstr "Додати"
 #: ../lollypop/pop_tunein.py:362 ../lollypop/pop_tunein.py:364
 msgid "No result…"
 msgstr "Безрезультатно…"
-
-#: ../lollypop/shown.py:24
-msgid "Suggestions"
-msgstr "Пропозиції"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1578,26 +1638,26 @@ msgstr "Зрідка відтворювані доріжки"
 msgid "All tracks"
 msgstr "Усі доріжки"
 
-#: ../lollypop/toolbar_end.py:237
+#: ../lollypop/toolbar_end.py:263
 msgid "All genres"
 msgstr "Усі жанри"
 
-#: ../lollypop/utils.py:75
+#: ../lollypop/utils.py:77
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s г %s хв"
 
-#: ../lollypop/utils.py:77
+#: ../lollypop/utils.py:79
 #, python-format
 msgid "%s h"
 msgstr "%s г"
 
-#: ../lollypop/utils.py:79
+#: ../lollypop/utils.py:81
 #, python-format
 msgid "%s m"
 msgstr "%s хв"
 
-#: ../lollypop/utils.py:300
+#: ../lollypop/utils.py:345
 msgid "The the"
 msgstr "The the"
 
@@ -1613,15 +1673,15 @@ msgstr "Бракує команди youtube-dl"
 msgid "You need to enable YouTube in network settings"
 msgstr "Ви маєте увімкнути YouTube у параметрах тенет"
 
-#: ../lollypop/view_albums_line.py:170
+#: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
 msgstr "Інші збірки"
 
-#: ../lollypop/view_albums_line.py:204
+#: ../lollypop/view_albums_line.py:199
 msgid "Appears on"
 msgstr "З'являється на"
 
-#: ../lollypop/view_albums_line.py:234
+#: ../lollypop/view_albums_line.py:230
 msgid "Popular albums at the moment"
 msgstr "Популярні станом на зараз альбоми"
 
@@ -1658,34 +1718,22 @@ msgstr "Не знайдено тексти пісень "
 msgid "No items to show"
 msgstr "Порожньо"
 
-#: ../lollypop/view_search.py:146 ../lollypop/view_search.py:156
-#: ../lollypop/view_search.py:180
+#: ../lollypop/view_search.py:151 ../lollypop/view_search.py:161
+#: ../lollypop/view_search.py:185
 msgid "Search for artists, albums and tracks"
 msgstr "Шукайте виконавців, альбоми та доріжки"
 
-#: ../lollypop/view_search.py:290
+#: ../lollypop/view_search.py:305
 msgid "No results for this search"
 msgstr "За цим запитом не знайдено жодного результату"
 
-#: ../lollypop/view_suggestions.py:68
-msgid "You might like this"
-msgstr "Вам мають сподобатись"
-
-#: ../lollypop/view_suggestions.py:73
-msgid "New albums from Spotify"
-msgstr "Нові альбоми зі Spotify"
-
-#: ../lollypop/view_suggestions.py:118
+#: ../lollypop/view_suggestions.py:145
 msgid "Welcome to Lollypop"
 msgstr "Ласкаво просимо до Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
-msgid ""
-"This album has no track. Check tags, all 'album artist' tags should be in "
-"'artist' tags"
+msgid "All tracks skipped"
 msgstr ""
-"Цей альбом не має жодної доріжки. Перевірте позначки — усі значення з "
-"позначок 'Виконавець альбому' мають також бути й у позначках 'Виконавець'"
 
 #: ../lollypop/view_tracks_album.py:231
 #, python-format
@@ -1708,23 +1756,23 @@ msgstr "Виберіть зображення"
 msgid "Remove"
 msgstr "Вилучити"
 
-#: ../lollypop/widgets_banner_artist.py:264
+#: ../lollypop/widgets_banner_artist.py:265
 msgid "Add to current playlist"
 msgstr "Додати до поточного списку відтворення"
 
-#: ../lollypop/widgets_banner_artist.py:271
+#: ../lollypop/widgets_banner_artist.py:272
 msgid "Remove from current playlist"
 msgstr "Вилучити з поточного списку відтворення"
 
-#: ../lollypop/widgets_banner_current_albums.py:39
+#: ../lollypop/widgets_banner_current_albums.py:41
 msgid "Clear albums"
 msgstr "Очистити альбоми"
 
-#: ../lollypop/widgets_banner_current_albums.py:57
+#: ../lollypop/widgets_banner_current_albums.py:59
 msgid "Go to current track"
 msgstr "Перейти до поточної доріжки"
 
-#: ../lollypop/widgets_banner_today.py:70
+#: ../lollypop/widgets_banner_today.py:71
 msgid "<b>Album of the day</b>\n"
 msgstr "<b>Альбом дня</b>\n"
 
@@ -1873,11 +1921,11 @@ msgstr "менше ніж"
 msgid "Song played %s times"
 msgstr "Кількість відтворень: %s"
 
-#: ../lollypop/widgets_row_album.py:99
+#: ../lollypop/widgets_row_album.py:91
 msgid "Compilation"
 msgstr "Збірка"
 
-#: ../lollypop/widgets_row_album.py:338 ../lollypop/widgets_row_track.py:115
+#: ../lollypop/widgets_row_album.py:106 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "Вилучити зі списку відтворення"
 
@@ -1905,11 +1953,11 @@ msgstr[0] "%d доріжка"
 msgstr[1] "%d доріжки"
 msgstr[2] "%d доріжок"
 
-#: ../lollypop/widgets_settings_web.py:257
+#: ../lollypop/widgets_settings_web.py:245
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Використовуючи параметри \"Облікові записи в інтернеті\""
 
-#: ../lollypop/widgets_settings_web.py:281
+#: ../lollypop/widgets_settings_web.py:269
 msgid "Disconnect"
 msgstr "Від'єднатись"
 
@@ -1920,6 +1968,33 @@ msgstr "гурт"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "співак(-чка)"
+
+#~ msgid "org.gnome.Lollypop"
+#~ msgstr "org.gnome.Lollypop"
+
+#~ msgid ""
+#~ "Deezer\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
+#~ msgstr ""
+#~ "Deezer\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Пошук обкладинок</span>"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show albums from artist"
+#~ msgstr "Показувати альбоми виконавця"
+
+#~ msgid "You might like this"
+#~ msgstr "Вам мають сподобатись"
+
+#~ msgid "New albums from Spotify"
+#~ msgstr "Нові альбоми зі Spotify"
+
+#~ msgid ""
+#~ "This album has no track. Check tags, all 'album artist' tags should be in "
+#~ "'artist' tags"
+#~ msgstr ""
+#~ "Цей альбом не має жодної доріжки. Перевірте позначки — усі значення з "
+#~ "позначок 'Виконавець альбому' мають також бути й у позначках 'Виконавець'"
 
 #, fuzzy
 #~ msgid ""
