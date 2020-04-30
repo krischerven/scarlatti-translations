@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-29 18:07+0200\n"
+"POT-Creation-Date: 2020-04-30 15:53+0200\n"
 "PO-Revision-Date: 2020-01-02 17:21+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1134,11 +1134,11 @@ msgstr "Takaisin"
 msgid "Go home"
 msgstr "Kotiin"
 
-#: ../lollypop/collection_scanner.py:432
+#: ../lollypop/collection_scanner.py:439
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:702 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:720 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1304,8 +1304,8 @@ msgstr ""
 msgid "YouTube page address"
 msgstr "YouTube-sivuosoite"
 
-#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:239
-#: ../lollypop/menu_playback.py:475
+#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:265
+#: ../lollypop/menu_playback.py:501
 msgid "Play a radio"
 msgstr ""
 
@@ -1317,55 +1317,72 @@ msgstr "Lisää toistoon"
 msgid "Remove from playback"
 msgstr "Poista toistosta"
 
-#: ../lollypop/menu_playback.py:113
+#: ../lollypop/menu_playback.py:114
+msgid "Related tracks"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
+#: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
+msgid "Loved tracks"
+msgstr "Tykätyt kappaleet"
+
+#: ../lollypop/menu_playback.py:132 ../lollypop/shown.py:68
+msgid "Popular tracks"
+msgstr "Suositut kappaleet"
+
+#: ../lollypop/menu_playback.py:136
 msgid "From collection"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:123
-msgid "From Deezer"
+#: ../lollypop/menu_playback.py:144 ../lollypop/menu_search.py:55
+msgid "Deezer"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:133
-msgid "From Last.fm"
+#: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:59
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: ../lollypop/menu_playback.py:164 ../lollypop/menu_search.py:67
+msgid "Spotify"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:143
-msgid "From Spotify"
+#: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:70
+msgid "From the Web"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:182
+#: ../lollypop/menu_playback.py:208
 msgid "Play this playlist"
 msgstr "Toista tämä soittolista"
 
-#: ../lollypop/menu_playback.py:230
+#: ../lollypop/menu_playback.py:256
 msgid "Play this artist"
 msgstr "Toista tämä esittäjä"
 
-#: ../lollypop/menu_playback.py:302
+#: ../lollypop/menu_playback.py:328
 msgid "Play this genre"
 msgstr "Toista tämä tyylilaji"
 
-#: ../lollypop/menu_playback.py:383
+#: ../lollypop/menu_playback.py:409
 msgid "Play this decade"
 msgstr "Toista tämä vuosikymmen"
 
-#: ../lollypop/menu_playback.py:466
+#: ../lollypop/menu_playback.py:492
 msgid "Play this album"
 msgstr "Toista tämä albumi"
 
-#: ../lollypop/menu_playback.py:593
+#: ../lollypop/menu_playback.py:619
 msgid "Add to queue"
 msgstr "Lisää jonoon"
 
-#: ../lollypop/menu_playback.py:599
+#: ../lollypop/menu_playback.py:625
 msgid "Remove from queue"
 msgstr "Poista jonosta"
 
-#: ../lollypop/menu_playback.py:610
+#: ../lollypop/menu_playback.py:636
 msgid "Do not stop after"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:615
+#: ../lollypop/menu_playback.py:641
 msgid "Stop after"
 msgstr ""
 
@@ -1409,20 +1426,8 @@ msgstr "Uusi radio"
 msgid "Search"
 msgstr "Etsi"
 
-#: ../lollypop/menu_search.py:55
-msgid "Deezer"
-msgstr ""
-
-#: ../lollypop/menu_search.py:59
-msgid "Last.fm"
-msgstr "Last.fm"
-
 #: ../lollypop/menu_search.py:63
 msgid "MusicBrainz"
-msgstr ""
-
-#: ../lollypop/menu_search.py:67
-msgid "Spotify"
 msgstr ""
 
 #: ../lollypop/menu_selectionlist.py:50
@@ -1477,10 +1482,6 @@ msgstr ""
 msgid "Top albums on Deezer"
 msgstr ""
 
-#: ../lollypop/menu_suggestions.py:70
-msgid "From the Web"
-msgstr ""
-
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
 msgstr "Kaikki laitteet"
@@ -1501,11 +1502,6 @@ msgstr "Tätä kappaletta ei löydy YouTubesta"
 #: ../lollypop/playlists.py:94 ../lollypop/playlists.py:97
 msgid "New playlist "
 msgstr "Uusi soittolista"
-
-#: ../lollypop/playlists.py:107 ../lollypop/playlists.py:355
-#: ../lollypop/shown.py:70
-msgid "Loved tracks"
-msgstr "Tykätyt kappaleet"
 
 #: ../lollypop/pop_tunein.py:146 ../lollypop/pop_tunein.py:369
 msgid "Can't connect to TuneIn…"
@@ -1574,10 +1570,6 @@ msgstr "Esittäjät (lista)"
 #: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Kokoelmat"
-
-#: ../lollypop/shown.py:68
-msgid "Popular tracks"
-msgstr "Suositut kappaleet"
 
 #: ../lollypop/shown.py:69
 msgid "Random tracks"

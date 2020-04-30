@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-29 18:07+0200\n"
+"POT-Creation-Date: 2020-04-30 15:53+0200\n"
 "PO-Revision-Date: 2020-04-19 23:11+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1193,11 +1193,11 @@ msgstr "Вернуться назад"
 msgid "Go home"
 msgstr "Вернуться домой"
 
-#: ../lollypop/collection_scanner.py:432
+#: ../lollypop/collection_scanner.py:439
 msgid "Scan disabled, missing collection"
 msgstr "Сканирование выключено, коллекции недоступны"
 
-#: ../lollypop/collection_scanner.py:702 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:720 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1363,8 +1363,8 @@ msgstr "%d-%m-%Y"
 msgid "YouTube page address"
 msgstr "Адрес YouTube страницы"
 
-#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:239
-#: ../lollypop/menu_playback.py:475
+#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:265
+#: ../lollypop/menu_playback.py:501
 msgid "Play a radio"
 msgstr "Воспроизвести радио"
 
@@ -1376,55 +1376,72 @@ msgstr "Добавить в воспроизведение"
 msgid "Remove from playback"
 msgstr "Удалить из воспроизведения"
 
-#: ../lollypop/menu_playback.py:113
+#: ../lollypop/menu_playback.py:114
+msgid "Related tracks"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
+#: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
+msgid "Loved tracks"
+msgstr "Любимые треки"
+
+#: ../lollypop/menu_playback.py:132 ../lollypop/shown.py:68
+msgid "Popular tracks"
+msgstr "Популярные треки"
+
+#: ../lollypop/menu_playback.py:136
 msgid "From collection"
 msgstr "Из коллекции"
 
-#: ../lollypop/menu_playback.py:123
-msgid "From Deezer"
+#: ../lollypop/menu_playback.py:144 ../lollypop/menu_search.py:55
+msgid "Deezer"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:133
-msgid "From Last.fm"
-msgstr "Из Last.fm"
+#: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:59
+msgid "Last.fm"
+msgstr "Last.fm"
 
-#: ../lollypop/menu_playback.py:143
-msgid "From Spotify"
-msgstr "Из Spotify"
+#: ../lollypop/menu_playback.py:164 ../lollypop/menu_search.py:67
+msgid "Spotify"
+msgstr "Spotify"
 
-#: ../lollypop/menu_playback.py:182
+#: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:70
+msgid "From the Web"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:208
 msgid "Play this playlist"
 msgstr "Воспроизвести этот плейлист"
 
-#: ../lollypop/menu_playback.py:230
+#: ../lollypop/menu_playback.py:256
 msgid "Play this artist"
 msgstr "Воспроизвести этого исполнителя"
 
-#: ../lollypop/menu_playback.py:302
+#: ../lollypop/menu_playback.py:328
 msgid "Play this genre"
 msgstr "Воспроизвести этот жанр"
 
-#: ../lollypop/menu_playback.py:383
+#: ../lollypop/menu_playback.py:409
 msgid "Play this decade"
 msgstr "Воспроизвести это десятилетие"
 
-#: ../lollypop/menu_playback.py:466
+#: ../lollypop/menu_playback.py:492
 msgid "Play this album"
 msgstr "Воспроизвести этот альбом"
 
-#: ../lollypop/menu_playback.py:593
+#: ../lollypop/menu_playback.py:619
 msgid "Add to queue"
 msgstr "Добавить в очередь"
 
-#: ../lollypop/menu_playback.py:599
+#: ../lollypop/menu_playback.py:625
 msgid "Remove from queue"
 msgstr "Удалить из очереди"
 
-#: ../lollypop/menu_playback.py:610
+#: ../lollypop/menu_playback.py:636
 msgid "Do not stop after"
 msgstr "Не останавливать после"
 
-#: ../lollypop/menu_playback.py:615
+#: ../lollypop/menu_playback.py:641
 msgid "Stop after"
 msgstr "Остановить после"
 
@@ -1468,21 +1485,9 @@ msgstr "Новая радиостанция"
 msgid "Search"
 msgstr "Поиск"
 
-#: ../lollypop/menu_search.py:55
-msgid "Deezer"
-msgstr ""
-
-#: ../lollypop/menu_search.py:59
-msgid "Last.fm"
-msgstr "Last.fm"
-
 #: ../lollypop/menu_search.py:63
 msgid "MusicBrainz"
 msgstr "MusicBrainz"
-
-#: ../lollypop/menu_search.py:67
-msgid "Spotify"
-msgstr "Spotify"
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1536,10 +1541,6 @@ msgstr ""
 msgid "Top albums on Deezer"
 msgstr ""
 
-#: ../lollypop/menu_suggestions.py:70
-msgid "From the Web"
-msgstr ""
-
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
 msgstr "Все устройства"
@@ -1560,11 +1561,6 @@ msgstr "Не удается найти этот трек на YouTube"
 #: ../lollypop/playlists.py:94 ../lollypop/playlists.py:97
 msgid "New playlist "
 msgstr "Новый плейлист "
-
-#: ../lollypop/playlists.py:107 ../lollypop/playlists.py:355
-#: ../lollypop/shown.py:70
-msgid "Loved tracks"
-msgstr "Любимые треки"
 
 #: ../lollypop/pop_tunein.py:146 ../lollypop/pop_tunein.py:369
 msgid "Can't connect to TuneIn…"
@@ -1633,10 +1629,6 @@ msgstr "Исполнители (список)"
 #: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Подборки"
-
-#: ../lollypop/shown.py:68
-msgid "Popular tracks"
-msgstr "Популярные треки"
 
 #: ../lollypop/shown.py:69
 msgid "Random tracks"
@@ -1987,6 +1979,12 @@ msgstr "группа"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "вокалист"
+
+#~ msgid "From Last.fm"
+#~ msgstr "Из Last.fm"
+
+#~ msgid "From Spotify"
+#~ msgstr "Из Spotify"
 
 #~ msgid "org.gnome.Lollypop"
 #~ msgstr "org.gnome.Lollypop"
