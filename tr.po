@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-30 15:53+0200\n"
+"POT-Creation-Date: 2020-05-05 14:02+0200\n"
 "PO-Revision-Date: 2020-05-03 10:12+0000\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -103,8 +103,8 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
-"Ayarlanırsa, Lollypop YouTube yerine bu sunucuyu kullanır. Bkz.: "
-"https://github.com/omarroth/invidious"
+"Ayarlanırsa, Lollypop YouTube yerine bu sunucuyu kullanır. Bkz.: https://"
+"github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:120
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -399,19 +399,19 @@ msgstr ""
 "    Açıklama appdata’da\n"
 "    "
 
-#: ../data/AboutDialog.ui.in:66
+#: ../data/AboutDialog.ui.in:67
 msgid "Donations:"
 msgstr "Bağış:"
 
-#: ../data/AboutDialog.ui.in:73
+#: ../data/AboutDialog.ui.in:74
 msgid "Liberapay"
 msgstr "Liberapay ✓"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon ✓"
 
-#: ../data/AboutDialog.ui.in:93 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal ✓"
 
@@ -500,7 +500,7 @@ msgstr "Lollypop _Hakkında"
 msgid "Quit"
 msgstr "Çık"
 
-#: ../data/Appmenu.ui:213
+#: ../data/Appmenu.ui:220
 msgid "Equalizer"
 msgstr "Dengeleyici"
 
@@ -651,7 +651,7 @@ msgstr "Koleksiyonlarda bulunan çalma listeleri dosyalarını içe aktar"
 msgid "Save changes to files"
 msgstr "Değişiklikleri dosyalara kaydet"
 
-#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:508
+#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:509
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli’i kurman gerekmektedir"
@@ -891,7 +891,7 @@ msgid "User token"
 msgstr "Kullanıcı jetonu"
 
 #: ../data/SettingsWeb.ui:781 ../data/SettingsWeb.ui:1014
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:241
+#: ../lollypop/view_lyrics.py:305 ../lollypop/widgets_settings_web.py:241
 msgid "Disabled in network settings"
 msgstr "Ağ ayarlarında devre dışı"
 
@@ -1191,11 +1191,11 @@ msgstr "Geri dön"
 msgid "Go home"
 msgstr "Anasayfaya git"
 
-#: ../lollypop/collection_scanner.py:439
+#: ../lollypop/collection_scanner.py:442
 msgid "Scan disabled, missing collection"
 msgstr "Tarama devre dışı, koleksiyon eksik"
 
-#: ../lollypop/collection_scanner.py:720 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:723 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1220,11 +1220,11 @@ msgstr "Lütfen projeye bağış yapmayı düşünün"
 msgid "Many artists"
 msgstr "Birçok sanatçı"
 
-#: ../lollypop/database_upgrade.py:772
+#: ../lollypop/database_upgrade.py:779
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Lollypop albümleri güncellerken lütfen bekleyin"
 
-#: ../lollypop/database_upgrade.py:791
+#: ../lollypop/database_upgrade.py:798
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Lollypop parçaları güncellerken lütfen bekleyin"
 
@@ -1266,7 +1266,7 @@ msgid "Select music folders"
 msgstr "Müzik dosyalarını seç"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:266 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:262 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Web"
 
@@ -1370,7 +1370,7 @@ msgstr "Radyo çal"
 msgid "Add to playback"
 msgstr "Kayıttan çalmaya ekle"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:104
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:105
 msgid "Remove from playback"
 msgstr "Kayıttan çalmadan kaldır"
 
@@ -1391,19 +1391,19 @@ msgstr "Gözde parçalar"
 msgid "From collection"
 msgstr "Koleksiyondan"
 
-#: ../lollypop/menu_playback.py:144 ../lollypop/menu_search.py:55
+#: ../lollypop/menu_playback.py:144 ../lollypop/menu_search.py:56
 msgid "Deezer"
 msgstr "Deezer"
 
-#: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:59
+#: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:60
 msgid "Last.fm"
 msgstr "Last.fm"
 
-#: ../lollypop/menu_playback.py:164 ../lollypop/menu_search.py:67
+#: ../lollypop/menu_playback.py:164 ../lollypop/menu_search.py:68
 msgid "Spotify"
 msgstr "Spotify"
 
-#: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:70
+#: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:74
 msgid "From the Web"
 msgstr "Web’den"
 
@@ -1423,7 +1423,7 @@ msgstr "Bu türü çal"
 msgid "Play this decade"
 msgstr "Bu on yılı çal"
 
-#: ../lollypop/menu_playback.py:492
+#: ../lollypop/menu_playback.py:492 ../lollypop/widgets_row_album.py:113
 msgid "Play this album"
 msgstr "Bu albümü çal"
 
@@ -1483,7 +1483,7 @@ msgstr "Yeni radyo"
 msgid "Search"
 msgstr "Ara"
 
-#: ../lollypop/menu_search.py:63
+#: ../lollypop/menu_search.py:64
 msgid "MusicBrainz"
 msgstr "MusicBrainz servisi"
 
@@ -1523,19 +1523,19 @@ msgstr "Benzer sanatçılar"
 msgid "No results"
 msgstr "Sonuç yok"
 
-#: ../lollypop/menu_suggestions.py:34 ../lollypop/shown.py:24
+#: ../lollypop/menu_suggestions.py:35 ../lollypop/shown.py:24
 msgid "Suggestions"
 msgstr "Öneriler"
 
-#: ../lollypop/menu_suggestions.py:45 ../lollypop/view_suggestions.py:129
+#: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
 msgstr "Spotify’da yeni çıkanlar"
 
-#: ../lollypop/menu_suggestions.py:56 ../lollypop/view_suggestions.py:127
+#: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
 msgstr "Spotify’dan öneriler"
 
-#: ../lollypop/menu_suggestions.py:67 ../lollypop/view_suggestions.py:131
+#: ../lollypop/menu_suggestions.py:71 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
 msgstr "Deezer’daki gözde albümler"
 
@@ -1552,7 +1552,7 @@ msgstr "Radyo"
 msgid "No album available"
 msgstr "Albüm yok"
 
-#: ../lollypop/player_bin.py:427
+#: ../lollypop/player_bin.py:428
 msgid "Can't find this track on YouTube"
 msgstr "Bu parça YouTube’da bulunamıyor"
 
@@ -1644,7 +1644,7 @@ msgstr "Nadiren çalınan parçalar"
 msgid "All tracks"
 msgstr "Tüm parçalar"
 
-#: ../lollypop/toolbar_end.py:263
+#: ../lollypop/toolbar_end.py:259
 msgid "All genres"
 msgstr "Tüm türler"
 
@@ -1667,17 +1667,13 @@ msgstr "%s d"
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:57 ../lollypop/view_lyrics.py:167
-msgid "Network not available"
-msgstr "Ağ kullanılamıyor"
-
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:56
 msgid "Missing youtube-dl command"
 msgstr "youtube-dl komutu eksik"
 
-#: ../lollypop/view_albums_box.py:66
-msgid "You need to enable YouTube in network settings"
-msgstr "Ağ ayarlarında YouTube’u etkinleştirmelisiniz"
+#: ../lollypop/view_albums_box.py:61 ../lollypop/view_lyrics.py:168
+msgid "Network unavailable or disabled in settings"
+msgstr ""
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1695,11 +1691,11 @@ msgstr "Şu an gözde albümler"
 msgid "Why not listen to?"
 msgstr "Neden dinlemiyorsun?"
 
-#: ../lollypop/view_information.py:159
+#: ../lollypop/view_information.py:158
 msgid "Loading information"
 msgstr "Bilgi yükleniyor"
 
-#: ../lollypop/view_information.py:274
+#: ../lollypop/view_information.py:275
 #, python-format
 msgid "No information for %s"
 msgstr "%s için bilgi yok"
@@ -1708,15 +1704,15 @@ msgstr "%s için bilgi yok"
 msgid "No track playing"
 msgstr "Çalınan parça yok"
 
-#: ../lollypop/view_lyrics.py:261
+#: ../lollypop/view_lyrics.py:262
 msgid "You need to install python3-textblob module"
 msgstr "python3-textblob modülünü kurmanız gerekiyor"
 
-#: ../lollypop/view_lyrics.py:266
+#: ../lollypop/view_lyrics.py:267
 msgid "Can't translate this lyrics"
 msgstr "Bu şarkı sözleri çevrilemiyor"
 
-#: ../lollypop/view_lyrics.py:307
+#: ../lollypop/view_lyrics.py:308
 msgid "No lyrics found "
 msgstr "Şarkı sözü bulunamadı "
 
@@ -1931,7 +1927,7 @@ msgstr "Şarkı %s kez çalındı"
 msgid "Compilation"
 msgstr "Derleme"
 
-#: ../lollypop/widgets_row_album.py:106 ../lollypop/widgets_row_track.py:115
+#: ../lollypop/widgets_row_album.py:107 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "Çalma listesinden kaldır"
 
@@ -1971,6 +1967,12 @@ msgstr "grup"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "şarkıcı"
+
+#~ msgid "Network not available"
+#~ msgstr "Ağ kullanılamıyor"
+
+#~ msgid "You need to enable YouTube in network settings"
+#~ msgstr "Ağ ayarlarında YouTube’u etkinleştirmelisiniz"
 
 #~ msgid "From Last.fm"
 #~ msgstr "Last.fm'den"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-30 15:53+0200\n"
+"POT-Creation-Date: 2020-05-05 14:02+0200\n"
 "PO-Revision-Date: 2020-04-02 10:51+0000\n"
 "Last-Translator: Zhenkai Weng <oakrc@protonmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -386,19 +386,19 @@ msgstr ""
 "    应用数据说明\n"
 "    "
 
-#: ../data/AboutDialog.ui.in:66
+#: ../data/AboutDialog.ui.in:67
 msgid "Donations:"
 msgstr "捐赠："
 
-#: ../data/AboutDialog.ui.in:73
+#: ../data/AboutDialog.ui.in:74
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:93 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -485,7 +485,7 @@ msgstr "关于Lollypop(_A)"
 msgid "Quit"
 msgstr "退出"
 
-#: ../data/Appmenu.ui:213
+#: ../data/Appmenu.ui:220
 msgid "Equalizer"
 msgstr "均衡器"
 
@@ -636,7 +636,7 @@ msgstr "导入曲库中已有的播放列表"
 msgid "Save changes to files"
 msgstr "将更改保存到文件"
 
-#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:508
+#: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:509
 #: ../lollypop/widgets_rating.py:212
 msgid "You need to install kid3-cli"
 msgstr "您需要安装kid3-cli"
@@ -868,7 +868,7 @@ msgid "User token"
 msgstr "用户令牌"
 
 #: ../data/SettingsWeb.ui:781 ../data/SettingsWeb.ui:1014
-#: ../lollypop/view_lyrics.py:304 ../lollypop/widgets_settings_web.py:241
+#: ../lollypop/view_lyrics.py:305 ../lollypop/widgets_settings_web.py:241
 msgid "Disabled in network settings"
 msgstr "已在网络设置中禁用"
 
@@ -1167,11 +1167,11 @@ msgstr "返回"
 msgid "Go home"
 msgstr "回到主页"
 
-#: ../lollypop/collection_scanner.py:439
+#: ../lollypop/collection_scanner.py:442
 msgid "Scan disabled, missing collection"
 msgstr "扫描已禁用，曲库缺失"
 
-#: ../lollypop/collection_scanner.py:720 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:723 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1196,11 +1196,11 @@ msgstr "请考虑向此项目捐赠"
 msgid "Many artists"
 msgstr "许多艺术家"
 
-#: ../lollypop/database_upgrade.py:772
+#: ../lollypop/database_upgrade.py:779
 msgid "Please wait while Lollypop is updating albums"
 msgstr ""
 
-#: ../lollypop/database_upgrade.py:791
+#: ../lollypop/database_upgrade.py:798
 msgid "Please wait while Lollypop is updating tracks"
 msgstr ""
 
@@ -1242,7 +1242,7 @@ msgid "Select music folders"
 msgstr "选择音乐文件夹"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:266 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:262 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Web"
 
@@ -1346,7 +1346,7 @@ msgstr ""
 msgid "Add to playback"
 msgstr "添加至回放"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:104
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:105
 msgid "Remove from playback"
 msgstr "从回放移除"
 
@@ -1367,19 +1367,19 @@ msgstr "流行曲目"
 msgid "From collection"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:144 ../lollypop/menu_search.py:55
+#: ../lollypop/menu_playback.py:144 ../lollypop/menu_search.py:56
 msgid "Deezer"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:59
+#: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:60
 msgid "Last.fm"
 msgstr "Last.fm"
 
-#: ../lollypop/menu_playback.py:164 ../lollypop/menu_search.py:67
+#: ../lollypop/menu_playback.py:164 ../lollypop/menu_search.py:68
 msgid "Spotify"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:70
+#: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:74
 msgid "From the Web"
 msgstr ""
 
@@ -1399,7 +1399,7 @@ msgstr "播放此风格"
 msgid "Play this decade"
 msgstr "播放此年代"
 
-#: ../lollypop/menu_playback.py:492
+#: ../lollypop/menu_playback.py:492 ../lollypop/widgets_row_album.py:113
 msgid "Play this album"
 msgstr "播放此专辑"
 
@@ -1459,7 +1459,7 @@ msgstr "新电台"
 msgid "Search"
 msgstr "搜索"
 
-#: ../lollypop/menu_search.py:63
+#: ../lollypop/menu_search.py:64
 msgid "MusicBrainz"
 msgstr ""
 
@@ -1499,19 +1499,19 @@ msgstr "相似艺术家"
 msgid "No results"
 msgstr "无结果"
 
-#: ../lollypop/menu_suggestions.py:34 ../lollypop/shown.py:24
+#: ../lollypop/menu_suggestions.py:35 ../lollypop/shown.py:24
 msgid "Suggestions"
 msgstr "建议"
 
-#: ../lollypop/menu_suggestions.py:45 ../lollypop/view_suggestions.py:129
+#: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
 msgstr ""
 
-#: ../lollypop/menu_suggestions.py:56 ../lollypop/view_suggestions.py:127
+#: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
 msgstr ""
 
-#: ../lollypop/menu_suggestions.py:67 ../lollypop/view_suggestions.py:131
+#: ../lollypop/menu_suggestions.py:71 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
 msgstr ""
 
@@ -1528,7 +1528,7 @@ msgstr "电台"
 msgid "No album available"
 msgstr ""
 
-#: ../lollypop/player_bin.py:427
+#: ../lollypop/player_bin.py:428
 msgid "Can't find this track on YouTube"
 msgstr "无法在YouTube上找到此曲目"
 
@@ -1620,7 +1620,7 @@ msgstr "不常播放的曲目"
 msgid "All tracks"
 msgstr "全部曲目"
 
-#: ../lollypop/toolbar_end.py:263
+#: ../lollypop/toolbar_end.py:259
 msgid "All genres"
 msgstr "全部风格"
 
@@ -1643,17 +1643,13 @@ msgstr "%s分钟"
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:57 ../lollypop/view_lyrics.py:167
-msgid "Network not available"
-msgstr "网络不可用"
-
-#: ../lollypop/view_albums_box.py:61
+#: ../lollypop/view_albums_box.py:56
 msgid "Missing youtube-dl command"
 msgstr "缺少 youtube-dl 指令"
 
-#: ../lollypop/view_albums_box.py:66
-msgid "You need to enable YouTube in network settings"
-msgstr "您需要在网络设置中启用YouTube"
+#: ../lollypop/view_albums_box.py:61 ../lollypop/view_lyrics.py:168
+msgid "Network unavailable or disabled in settings"
+msgstr ""
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1671,11 +1667,11 @@ msgstr "当下流行专辑"
 msgid "Why not listen to?"
 msgstr "何不聆听?"
 
-#: ../lollypop/view_information.py:159
+#: ../lollypop/view_information.py:158
 msgid "Loading information"
 msgstr "载入信息中"
 
-#: ../lollypop/view_information.py:274
+#: ../lollypop/view_information.py:275
 #, python-format
 msgid "No information for %s"
 msgstr "没有%s的信息"
@@ -1684,15 +1680,15 @@ msgstr "没有%s的信息"
 msgid "No track playing"
 msgstr "没有正在播放的曲目"
 
-#: ../lollypop/view_lyrics.py:261
+#: ../lollypop/view_lyrics.py:262
 msgid "You need to install python3-textblob module"
 msgstr "您需要安装python3-textblob模块"
 
-#: ../lollypop/view_lyrics.py:266
+#: ../lollypop/view_lyrics.py:267
 msgid "Can't translate this lyrics"
 msgstr "无法翻译此歌词"
 
-#: ../lollypop/view_lyrics.py:307
+#: ../lollypop/view_lyrics.py:308
 msgid "No lyrics found "
 msgstr "未找到歌词 "
 
@@ -1907,7 +1903,7 @@ msgstr "音乐已播放 %s 次"
 msgid "Compilation"
 msgstr "曲集"
 
-#: ../lollypop/widgets_row_album.py:106 ../lollypop/widgets_row_track.py:115
+#: ../lollypop/widgets_row_album.py:107 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "从播放列表中移除"
 
@@ -1944,6 +1940,12 @@ msgstr "乐队"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "歌手"
+
+#~ msgid "Network not available"
+#~ msgstr "网络不可用"
+
+#~ msgid "You need to enable YouTube in network settings"
+#~ msgstr "您需要在网络设置中启用YouTube"
 
 #~ msgid "org.gnome.Lollypop"
 #~ msgstr "org.gnome.Lollypop"
