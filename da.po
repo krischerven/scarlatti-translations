@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 14:02+0200\n"
-"PO-Revision-Date: 2020-04-19 23:11+0000\n"
+"PO-Revision-Date: 2020-05-07 18:27+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "da/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.2-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -86,11 +86,11 @@ msgstr "Søg på webbet"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:95
 msgid "Shown suggestions"
-msgstr ""
+msgstr "Viste forslag"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:100
 msgid "Play featured tracks"
-msgstr ""
+msgstr "Afspil udvalgte spor"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:105
 msgid "Allow syncing to USB disks"
@@ -110,7 +110,7 @@ msgstr "Hvis den er sand, så bruger Lollypop ikke systemets youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:125
 msgid "Show year below album name"
-msgstr ""
+msgstr "Vis år under albumnavn"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "Import playlists from collections"
@@ -469,7 +469,7 @@ msgstr "Opdater musik"
 
 #: ../data/Appmenu.ui:63
 msgid "Mini player"
-msgstr ""
+msgstr "Miniafspiller"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
@@ -809,6 +809,9 @@ msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search, search songs</span>"
 msgstr ""
+"Deezer\n"
+"<span size=\"x-small\" alpha=\"70%\">Søg efter billede, søg efter "
+"sange</span>"
 
 #: ../data/SettingsWeb.ui:501
 msgid ""
@@ -992,7 +995,7 @@ msgstr "Fuldskærm"
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Mini player"
-msgstr ""
+msgstr "Miniafspiller"
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
@@ -1209,11 +1212,11 @@ msgstr "Mange kunstnere"
 
 #: ../lollypop/database_upgrade.py:779
 msgid "Please wait while Lollypop is updating albums"
-msgstr ""
+msgstr "Vent venligst men Lollypop opdaterer albummer"
 
 #: ../lollypop/database_upgrade.py:798
 msgid "Please wait while Lollypop is updating tracks"
-msgstr ""
+msgstr "Vent venligst men Lollypop opdaterer spor"
 
 #: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:138
 #: ../lollypop/widgets_device.py:144
@@ -1302,11 +1305,11 @@ msgstr "Vis spor"
 
 #: ../lollypop/menu_artist.py:57
 msgid "Show year"
-msgstr ""
+msgstr "Vis år"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr ""
+msgstr "Afspil udvalgte"
 
 #: ../lollypop/menu_artist.py:68 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:41 ../lollypop/menu_objects.py:45
@@ -1363,7 +1366,7 @@ msgstr "Fjern fra afspilning"
 
 #: ../lollypop/menu_playback.py:114
 msgid "Related tracks"
-msgstr ""
+msgstr "Relaterede spor"
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
 #: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
@@ -1392,7 +1395,7 @@ msgstr "Spotify"
 
 #: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:74
 msgid "From the Web"
-msgstr ""
+msgstr "Fra webbet"
 
 #: ../lollypop/menu_playback.py:208
 msgid "Play this playlist"
@@ -1436,7 +1439,7 @@ msgstr "Gem playliste"
 
 #: ../lollypop/menu_playlist.py:50
 msgid "Sync from Last.FM"
-msgstr ""
+msgstr "Synkroniser fra Last.FM"
 
 #: ../lollypop/menu_playlist.py:57
 msgid "Manage smart playlist"
@@ -1516,15 +1519,15 @@ msgstr "Forslag"
 
 #: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
-msgstr ""
+msgstr "Nye udgivelser på Spotify"
 
 #: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
-msgstr ""
+msgstr "Forslag fra Spotify"
 
 #: ../lollypop/menu_suggestions.py:71 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
-msgstr ""
+msgstr "Topalbummer på Deezer"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
@@ -1537,7 +1540,7 @@ msgstr "Radio"
 #: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
 #: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
 msgid "No album available"
-msgstr ""
+msgstr "Ingen album tilgængelig"
 
 #: ../lollypop/player_bin.py:428
 msgid "Can't find this track on YouTube"
@@ -1660,7 +1663,7 @@ msgstr "Mangler youtube-dl-kommando"
 
 #: ../lollypop/view_albums_box.py:61 ../lollypop/view_lyrics.py:168
 msgid "Network unavailable or disabled in settings"
-msgstr ""
+msgstr "Netværket er utilgængeligt eller deaktiveret i indstillingerne"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1722,7 +1725,7 @@ msgstr "Velkommen til Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid "All tracks skipped"
-msgstr ""
+msgstr "Sprang over alle spor"
 
 #: ../lollypop/view_tracks_album.py:231
 #, python-format
