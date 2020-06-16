@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-05 14:02+0200\n"
+"POT-Creation-Date: 2020-06-16 15:05+0200\n"
 "PO-Revision-Date: 2020-05-07 18:27+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -27,8 +27,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
@@ -371,12 +371,9 @@ msgstr "Посетить сайт Lollypop"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:27
-msgctxt "Translation credits here, put your name here!"
-msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+msgctxt "Add your names here, do not remove previous names!"
+msgid "translator1, translator2, ..."
 msgstr ""
-"Derpy Crabs <derpycrabs@gmail.com>\n"
-"Maxim Orlov <murmansksity@gmail.com>\n"
-"Artemii Sudakov <finziyr@yandex.ru>"
 
 #: ../data/AboutDialog.ui.in:28
 msgid ""
@@ -404,19 +401,19 @@ msgstr ""
 "    Описание в appdata\n"
 "    "
 
-#: ../data/AboutDialog.ui.in:67
+#: ../data/AboutDialog.ui.in:66
 msgid "Donations:"
 msgstr "Пожертвовать:"
 
-#: ../data/AboutDialog.ui.in:74
+#: ../data/AboutDialog.ui.in:73
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container_notification.py:86
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:93 ../lollypop/container_notification.py:86
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -469,11 +466,11 @@ msgstr "Музыкальный плеер"
 msgid "Play/Pause"
 msgstr "Воспроизведение/Пауза"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../lollypop/notification.py:40
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Следующий"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/notification.py:36
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Предыдущий"
 
@@ -564,7 +561,7 @@ msgid "Albums"
 msgstr "Альбомы"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:76
-#: ../lollypop/menu_objects.py:54 ../lollypop/menu_objects.py:106
+#: ../lollypop/menu_objects.py:53 ../lollypop/menu_objects.py:105
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:40
 msgid "Playlists"
@@ -575,9 +572,8 @@ msgstr "Плейлисты"
 msgid "Synchronize"
 msgstr "Синхронизация"
 
-#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/pop_tunein.py:192
-#: ../lollypop/view_tracks_album.py:240
-#: ../lollypop/widgets_player_buttons.py:189
+#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:250
+#: ../lollypop/widgets_player_buttons.py:187
 msgid "Play"
 msgstr "Воспроизвести"
 
@@ -607,8 +603,8 @@ msgid "Show compilations"
 msgstr "Показывать подборки"
 
 #: ../data/SettingsAppearance.ui:198 ../data/SmartPlaylistWidget.ui:29
-#: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:51
-#: ../lollypop/menu_objects.py:103
+#: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:50
+#: ../lollypop/menu_objects.py:102
 msgid "Artist"
 msgstr "по исполнителю"
 
@@ -657,7 +653,7 @@ msgid "Save changes to files"
 msgstr "Сохранить изменения в файлах"
 
 #: ../data/SettingsBehaviour.ui:228 ../lollypop/art_album.py:509
-#: ../lollypop/widgets_rating.py:212
+#: ../lollypop/widgets_rating.py:211
 msgid "You need to install kid3-cli"
 msgstr "Вам нужно установить kid3-cli"
 
@@ -788,21 +784,13 @@ msgstr ""
 
 #: ../data/SettingsWeb.ui:356
 msgid ""
-"Tunein\n"
-"<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
-msgstr ""
-"Tunein\n"
-"<span size=\"x-small\" alpha=\"70%\">Поиск радио</span>"
-
-#: ../data/SettingsWeb.ui:385
-msgid ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler, information, …</span>"
 msgstr ""
 "MusicBrainz\n"
 "<span size=\"x-small\" alpha=\"70%\">Скробблер, информация, …</span>"
 
-#: ../data/SettingsWeb.ui:414
+#: ../data/SettingsWeb.ui:385
 msgid ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Search lyrics</span>"
@@ -810,7 +798,7 @@ msgstr ""
 "Genius\n"
 "<span size=\"x-small\" alpha=\"70%\">Поиск текста песни</span>"
 
-#: ../data/SettingsWeb.ui:443
+#: ../data/SettingsWeb.ui:414
 msgid ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -818,7 +806,7 @@ msgstr ""
 "ITunes\n"
 "<span size=\"x-small\" alpha=\"70%\">Поиск обложек</span>"
 
-#: ../data/SettingsWeb.ui:458
+#: ../data/SettingsWeb.ui:429
 msgid ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search, search songs</span>"
@@ -826,7 +814,7 @@ msgstr ""
 "Deezer\n"
 "<span size=\"x-small\" alpha=\"70%\">Поиск обложек, музыки</span>"
 
-#: ../data/SettingsWeb.ui:501
+#: ../data/SettingsWeb.ui:472
 msgid ""
 "AudioDB\n"
 "<span size=\"x-small\" alpha=\"70%\">Artist biography, artwork search, …</"
@@ -836,7 +824,7 @@ msgstr ""
 "<span size=\"x-small\" alpha=\"70%\">Биография исполнителя, поиск обложек, …"
 "</span>"
 
-#: ../data/SettingsWeb.ui:530
+#: ../data/SettingsWeb.ui:501
 msgid ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Artwork search</span>"
@@ -844,7 +832,7 @@ msgstr ""
 "FANART.TV\n"
 "<span size=\"x-small\" alpha=\"70%\">Поиск обложек</span>"
 
-#: ../data/SettingsWeb.ui:559
+#: ../data/SettingsWeb.ui:530
 msgid ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">Search songs , artwork, …</span>"
@@ -852,7 +840,7 @@ msgstr ""
 "DuckDuckGo\n"
 "<span size=\"x-small\" alpha=\"70%\">Поиск музыки , обложек, …</span>"
 
-#: ../data/SettingsWeb.ui:588
+#: ../data/SettingsWeb.ui:559
 msgid ""
 "Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Scrobbler</span>"
@@ -860,25 +848,25 @@ msgstr ""
 "Libre.fm\n"
 "<span size=\"x-small\" alpha=\"70%\">Скробблер</span>"
 
-#: ../data/SettingsWeb.ui:635
+#: ../data/SettingsWeb.ui:612
 msgid "Privacy"
 msgstr "Приватность"
 
-#: ../data/SettingsWeb.ui:653 ../data/SettingsWeb.ui:693
-#: ../lollypop/widgets_settings_web.py:129
-#: ../lollypop/widgets_settings_web.py:142
+#: ../data/SettingsWeb.ui:630 ../data/SettingsWeb.ui:670
+#: ../lollypop/widgets_settings_web.py:133
+#: ../lollypop/widgets_settings_web.py:146
 msgid "Connect"
 msgstr "Подключение"
 
-#: ../data/SettingsWeb.ui:670
+#: ../data/SettingsWeb.ui:647
 msgid "Last.fm:"
 msgstr "Last.fm:"
 
-#: ../data/SettingsWeb.ui:683
+#: ../data/SettingsWeb.ui:660
 msgid "Libre.fm:"
 msgstr "Libre.fm:"
 
-#: ../data/SettingsWeb.ui:738
+#: ../data/SettingsWeb.ui:727
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -890,20 +878,20 @@ msgstr ""
 "пользовательский токен ListenBrainz внизу. Вы можете найти его в вашем <a "
 "href=\"https://listenbrainz.org/profile/\">профиле пользователя</a>.</small>"
 
-#: ../data/SettingsWeb.ui:768
+#: ../data/SettingsWeb.ui:757
 msgid "User token"
 msgstr "Пользовательский токен"
 
-#: ../data/SettingsWeb.ui:781 ../data/SettingsWeb.ui:1014
-#: ../lollypop/view_lyrics.py:305 ../lollypop/widgets_settings_web.py:241
+#: ../data/SettingsWeb.ui:770 ../data/SettingsWeb.ui:1003
+#: ../lollypop/view_lyrics.py:305 ../lollypop/widgets_settings_web.py:245
 msgid "Disabled in network settings"
 msgstr "Выключено в настройках сети"
 
-#: ../data/SettingsWeb.ui:801
+#: ../data/SettingsWeb.ui:790
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsWeb.ui:830
+#: ../data/SettingsWeb.ui:819
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -913,7 +901,7 @@ msgstr ""
 "<small>В противном случае вы не сможете ими воспользоваться…\n"
 "Lollypop нуждается в этом для поиска обложек.</small>"
 
-#: ../data/SettingsWeb.ui:861
+#: ../data/SettingsWeb.ui:850
 msgid ""
 "<small>You need to enable \"Custom Search API\" and \"YouTube API v3\" for "
 "your project.</small>"
@@ -921,15 +909,15 @@ msgstr ""
 "<small>Вам необходимо включить \"Поиск сторонних API\" и \"YouTube API v3\" "
 "для вашего проекта.</small>"
 
-#: ../data/SettingsWeb.ui:876
+#: ../data/SettingsWeb.ui:865
 msgid "?"
 msgstr "?"
 
-#: ../data/SettingsWeb.ui:893
+#: ../data/SettingsWeb.ui:882
 msgid "API key"
 msgstr "API ключ"
 
-#: ../data/SettingsWeb.ui:924
+#: ../data/SettingsWeb.ui:913
 msgid ""
 "Use a recent version of youtube-dl\n"
 "<span size=\"small\" alpha='40000'>Activate this if Web playback does not "
@@ -939,15 +927,15 @@ msgstr ""
 "<span size=\"small\" alpha='40000'>Включите если Веб-воспроизведение не "
 "работает</span>"
 
-#: ../data/SettingsWeb.ui:965
+#: ../data/SettingsWeb.ui:954
 msgid "No server set"
 msgstr "Сервер не установлен"
 
-#: ../data/SettingsWeb.ui:993
+#: ../data/SettingsWeb.ui:982
 msgid "Use an Invidious server"
 msgstr "Использовать индивидуальный сервер"
 
-#: ../data/SettingsWeb.ui:1033
+#: ../data/SettingsWeb.ui:1022
 msgid "Google"
 msgstr "Google"
 
@@ -1195,11 +1183,11 @@ msgstr "Вернуться назад"
 msgid "Go home"
 msgstr "Вернуться домой"
 
-#: ../lollypop/collection_scanner.py:442
+#: ../lollypop/collection_scanner.py:443
 msgid "Scan disabled, missing collection"
 msgstr "Сканирование выключено, коллекции недоступны"
 
-#: ../lollypop/collection_scanner.py:723 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:724 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
 #: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
@@ -1224,11 +1212,11 @@ msgstr "Пожалуйста, поддержите проект пожертво
 msgid "Many artists"
 msgstr "Множество исполнителей"
 
-#: ../lollypop/database_upgrade.py:779
+#: ../lollypop/database_upgrade.py:773
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Подождите, Lollypop обновляет данные альбомов"
 
-#: ../lollypop/database_upgrade.py:798
+#: ../lollypop/database_upgrade.py:792
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Подождите, Lollypop обновляет данные треков"
 
@@ -1270,7 +1258,7 @@ msgid "Select music folders"
 msgstr "Выбрать директории с музыкой"
 
 #: ../lollypop/dialog_settings.py:56 ../lollypop/shown.py:35
-#: ../lollypop/toolbar_end.py:262 ../lollypop/view_settings.py:47
+#: ../lollypop/toolbar_end.py:247 ../lollypop/view_settings.py:47
 msgid "Web"
 msgstr "Веб"
 
@@ -1279,8 +1267,8 @@ msgid "Configure Web services"
 msgstr "Настроить веб-сервисы"
 
 #: ../lollypop/dialog_settings.py:61 ../lollypop/menu_artist.py:75
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:56
-#: ../lollypop/menu_objects.py:79 ../lollypop/menu_playlist.py:79
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:55
+#: ../lollypop/menu_objects.py:78 ../lollypop/menu_playlist.py:79
 #: ../lollypop/view_settings.py:50
 msgid "Devices"
 msgstr "Устройства"
@@ -1289,7 +1277,7 @@ msgstr "Устройства"
 msgid "Manage devices"
 msgstr "Управление устройствами"
 
-#: ../lollypop/fullscreen.py:364
+#: ../lollypop/fullscreen.py:363
 msgid "You are using a broken cursor theme!"
 msgstr "Вы используете тему с неисправным курсором!"
 
@@ -1327,7 +1315,7 @@ msgstr "Воспроизводить feat"
 
 #: ../lollypop/menu_artist.py:68 ../lollypop/menu_decade.py:39
 #: ../lollypop/menu_genre.py:41 ../lollypop/menu_objects.py:45
-#: ../lollypop/menu_objects.py:98
+#: ../lollypop/menu_objects.py:97
 msgid "Playback"
 msgstr "Проигрывание"
 
@@ -1336,7 +1324,7 @@ msgid "Available albums"
 msgstr "Доступные альбомы"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:52
-#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:64
+#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:65
 msgid "Playing albums"
 msgstr "Воспроизведение альбомов"
 
@@ -1348,25 +1336,25 @@ msgstr "Создать новый плейлист"
 msgid "Show tracks number"
 msgstr "Показать номера треков"
 
-#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:58
-#: ../lollypop/menu_objects.py:107 ../lollypop/menu_playlist.py:77
+#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:57
+#: ../lollypop/menu_objects.py:106 ../lollypop/menu_playlist.py:77
 msgid "Add to"
 msgstr "Добавить в"
 
-#: ../lollypop/menu_objects.py:59 ../lollypop/menu_objects.py:108
+#: ../lollypop/menu_objects.py:58 ../lollypop/menu_objects.py:107
 msgid "Others"
 msgstr "Другие"
 
-#: ../lollypop/menu_objects.py:130
+#: ../lollypop/menu_objects.py:129
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
-#: ../lollypop/menu_objects.py:163
+#: ../lollypop/menu_objects.py:162
 msgid "YouTube page address"
 msgstr "Адрес YouTube страницы"
 
-#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:265
-#: ../lollypop/menu_playback.py:501
+#: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:267
+#: ../lollypop/menu_playback.py:503
 msgid "Play a radio"
 msgstr "Воспроизвести радио"
 
@@ -1374,7 +1362,7 @@ msgstr "Воспроизвести радио"
 msgid "Add to playback"
 msgstr "Добавить в воспроизведение"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:105
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:107
 msgid "Remove from playback"
 msgstr "Удалить из воспроизведения"
 
@@ -1411,39 +1399,39 @@ msgstr "Spotify"
 msgid "From the Web"
 msgstr "Из интернета"
 
-#: ../lollypop/menu_playback.py:208
+#: ../lollypop/menu_playback.py:210
 msgid "Play this playlist"
 msgstr "Воспроизвести этот плейлист"
 
-#: ../lollypop/menu_playback.py:256
+#: ../lollypop/menu_playback.py:258
 msgid "Play this artist"
 msgstr "Воспроизвести этого исполнителя"
 
-#: ../lollypop/menu_playback.py:328
+#: ../lollypop/menu_playback.py:330
 msgid "Play this genre"
 msgstr "Воспроизвести этот жанр"
 
-#: ../lollypop/menu_playback.py:409
+#: ../lollypop/menu_playback.py:411
 msgid "Play this decade"
 msgstr "Воспроизвести это десятилетие"
 
-#: ../lollypop/menu_playback.py:492 ../lollypop/widgets_row_album.py:113
+#: ../lollypop/menu_playback.py:494 ../lollypop/widgets_row_album.py:115
 msgid "Play this album"
 msgstr "Воспроизвести этот альбом"
 
-#: ../lollypop/menu_playback.py:619
+#: ../lollypop/menu_playback.py:621
 msgid "Add to queue"
 msgstr "Добавить в очередь"
 
-#: ../lollypop/menu_playback.py:625
+#: ../lollypop/menu_playback.py:627
 msgid "Remove from queue"
 msgstr "Удалить из очереди"
 
-#: ../lollypop/menu_playback.py:636
+#: ../lollypop/menu_playback.py:638
 msgid "Do not stop after"
 msgstr "Не останавливать после"
 
-#: ../lollypop/menu_playback.py:641
+#: ../lollypop/menu_playback.py:643
 msgid "Stop after"
 msgstr "Остановить после"
 
@@ -1478,10 +1466,6 @@ msgstr "Удалить из этого плейлиста?"
 #: ../lollypop/menu_playlists.py:47
 msgid "New playlist"
 msgstr "Новый плейлист"
-
-#: ../lollypop/menu_radio.py:94
-msgid "New radio"
-msgstr "Новая радиостанция"
 
 #: ../lollypop/menu_search.py:33 ../lollypop/shown.py:40
 msgid "Search"
@@ -1547,38 +1531,18 @@ msgstr "Лучшие альбомы на Deezer"
 msgid "All devices"
 msgstr "Все устройства"
 
-#: ../lollypop/objects_radio.py:32 ../lollypop/objects_radio.py:62
-msgid "Radio"
-msgstr "Радио"
-
 #: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
 #: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
 msgid "No album available"
 msgstr "Нет доступного альбома"
 
-#: ../lollypop/player_bin.py:428
+#: ../lollypop/player_bin.py:425
 msgid "Can't find this track on YouTube"
 msgstr "Не удается найти этот трек на YouTube"
 
 #: ../lollypop/playlists.py:94 ../lollypop/playlists.py:97
 msgid "New playlist "
 msgstr "Новый плейлист "
-
-#: ../lollypop/pop_tunein.py:146 ../lollypop/pop_tunein.py:369
-msgid "Can't connect to TuneIn…"
-msgstr "Не удается подключиться к TuneIn…"
-
-#: ../lollypop/pop_tunein.py:152
-msgid "Please wait…"
-msgstr "Пожалуйста, подождите…"
-
-#: ../lollypop/pop_tunein.py:199
-msgid "Add"
-msgstr "Добавить"
-
-#: ../lollypop/pop_tunein.py:362 ../lollypop/pop_tunein.py:364
-msgid "No result…"
-msgstr "Нет результатов…"
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1600,7 +1564,7 @@ msgstr "Недавно добавленные альбомы"
 msgid "Seldomly played albums"
 msgstr "Редко воспроизводимые альбомы"
 
-#: ../lollypop/shown.py:31 ../lollypop/widgets_banner_radios.py:38
+#: ../lollypop/shown.py:31
 msgid "Radios"
 msgstr "Радиостанции"
 
@@ -1648,7 +1612,7 @@ msgstr "Редко прослушиваемые треки"
 msgid "All tracks"
 msgstr "Все треки"
 
-#: ../lollypop/toolbar_end.py:259
+#: ../lollypop/toolbar_end.py:244
 msgid "All genres"
 msgstr "Все жанры"
 
@@ -1671,11 +1635,11 @@ msgstr "%s мин"
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:56
+#: ../lollypop/view_albums_box.py:54
 msgid "Missing youtube-dl command"
 msgstr "Команда youtube-dl не найдена"
 
-#: ../lollypop/view_albums_box.py:61 ../lollypop/view_lyrics.py:168
+#: ../lollypop/view_albums_box.py:59 ../lollypop/view_lyrics.py:168
 msgid "Network unavailable or disabled in settings"
 msgstr "Сеть недоступна или выключена в настройках"
 
@@ -1695,16 +1659,16 @@ msgstr "Популярные альбомы на данный момент"
 msgid "Why not listen to?"
 msgstr "Почему бы не послушать?"
 
-#: ../lollypop/view_information.py:158
+#: ../lollypop/view_information.py:159
 msgid "Loading information"
 msgstr "Загрузка информации"
 
-#: ../lollypop/view_information.py:275
+#: ../lollypop/view_information.py:276
 #, python-format
 msgid "No information for %s"
 msgstr "Нет информации о %s"
 
-#: ../lollypop/view_lyrics.py:105 ../lollypop/widgets_banner_lyrics.py:129
+#: ../lollypop/view_lyrics.py:105 ../lollypop/widgets_banner_lyrics.py:128
 msgid "No track playing"
 msgstr "Воспроизведение не запущено"
 
@@ -1720,7 +1684,7 @@ msgstr "Не могу перевести этот текст песни"
 msgid "No lyrics found "
 msgstr "Текст песни не найден "
 
-#: ../lollypop/view.py:49
+#: ../lollypop/view.py:48
 msgid "No items to show"
 msgstr "Ничего не найдено"
 
@@ -1741,7 +1705,7 @@ msgstr "Добро пожаловать в Lollypop"
 msgid "All tracks skipped"
 msgstr "Пропущены все треки"
 
-#: ../lollypop/view_tracks_album.py:231
+#: ../lollypop/view_tracks_album.py:241
 #, python-format
 msgid "Disc %s"
 msgstr "Диск %s"
@@ -1770,11 +1734,11 @@ msgstr "Добавить в текущий плейлист"
 msgid "Remove from current playlist"
 msgstr "Удалить из плейлиста"
 
-#: ../lollypop/widgets_banner_current_albums.py:41
+#: ../lollypop/widgets_banner_current_albums.py:42
 msgid "Clear albums"
 msgstr "Очистить альбомы"
 
-#: ../lollypop/widgets_banner_current_albums.py:59
+#: ../lollypop/widgets_banner_current_albums.py:60
 msgid "Go to current track"
 msgstr "Перейти к текущему треку"
 
@@ -1894,7 +1858,7 @@ msgstr "Нравится"
 msgid "Disallow playback"
 msgstr "Запретить воспроизведение"
 
-#: ../lollypop/widgets_player_buttons.py:185
+#: ../lollypop/widgets_player_buttons.py:183
 msgid "Pause"
 msgstr "Приостановить"
 
@@ -1927,11 +1891,11 @@ msgstr "меньше чем"
 msgid "Song played %s times"
 msgstr "Песня проиграна %s раз"
 
-#: ../lollypop/widgets_row_album.py:91
+#: ../lollypop/widgets_row_album.py:93
 msgid "Compilation"
 msgstr "Подборка"
 
-#: ../lollypop/widgets_row_album.py:107 ../lollypop/widgets_row_track.py:115
+#: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:115
 msgid "Remove from playlist"
 msgstr "Удалить из плейлиста"
 
@@ -1962,11 +1926,11 @@ msgstr[1] "%d трека"
 msgstr[2] "%d треков"
 msgstr[3] "%d треков"
 
-#: ../lollypop/widgets_settings_web.py:245
+#: ../lollypop/widgets_settings_web.py:249
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Использование настроек \"Онлайн аккаунтов GNOME\""
 
-#: ../lollypop/widgets_settings_web.py:269
+#: ../lollypop/widgets_settings_web.py:273
 msgid "Disconnect"
 msgstr "Отсоединиться"
 
@@ -1977,6 +1941,38 @@ msgstr "группа"
 #: ../lollypop/wikipedia.py:117
 msgid "singer"
 msgstr "вокалист"
+
+#~ msgctxt "Translation credits here, put your name here!"
+#~ msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+#~ msgstr ""
+#~ "Derpy Crabs <derpycrabs@gmail.com>\n"
+#~ "Maxim Orlov <murmansksity@gmail.com>\n"
+#~ "Artemii Sudakov <finziyr@yandex.ru>"
+
+#~ msgid ""
+#~ "Tunein\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Radios search</span>"
+#~ msgstr ""
+#~ "Tunein\n"
+#~ "<span size=\"x-small\" alpha=\"70%\">Поиск радио</span>"
+
+#~ msgid "New radio"
+#~ msgstr "Новая радиостанция"
+
+#~ msgid "Radio"
+#~ msgstr "Радио"
+
+#~ msgid "Can't connect to TuneIn…"
+#~ msgstr "Не удается подключиться к TuneIn…"
+
+#~ msgid "Please wait…"
+#~ msgstr "Пожалуйста, подождите…"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "No result…"
+#~ msgstr "Нет результатов…"
 
 #~ msgid "Network not available"
 #~ msgstr "Сеть недоступна"
