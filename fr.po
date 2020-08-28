@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-28 08:27+0200\n"
+"POT-Creation-Date: 2020-08-28 08:41+0200\n"
 "PO-Revision-Date: 2020-08-28 06:36+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -462,7 +462,11 @@ msgstr "Musique;Lecteur ;"
 msgid "Play/Pause"
 msgstr "Lecture/Pause"
 
-#: ../data/org.gnome.Lollypop.desktop.in:25 ../lollypop/notification.py:39
+#: ../data/org.gnome.Lollypop.desktop.in:25 ../lollypop/assistant_google.py:42
+#: ../lollypop/assistant_google.py:54 ../lollypop/assistant_google.py:71
+#: ../lollypop/assistant_lastfm.py:45 ../lollypop/assistant_lastfm.py:58
+#: ../lollypop/assistant_musicbrainz.py:38
+#: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Suivant"
 
@@ -1140,6 +1144,12 @@ msgstr ""
 "\n"
 "qui est utilisé pour jouer des chansons."
 
+#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
+#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "Annuler"
+
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
 msgstr "Connectez-vous à la console"
@@ -1155,6 +1165,13 @@ msgstr ""
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
 msgstr "Accéder à la console de développement Google"
+
+#: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
+#: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
+#: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
+#: ../lollypop/assistant_musicbrainz.py:60
+msgid "Back"
+msgstr ""
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
@@ -1195,6 +1212,11 @@ msgstr ""
 "<b>Créez des identifiants</b> pour une <b>clé API</b>.\n"
 "\n"
 "<b> Copiez la clé d'API dans Lollypop </b>"
+
+#: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
+#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:144
+msgid "Finish"
+msgstr "Terminer"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
@@ -1291,10 +1313,6 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr "Impossible de contacter ce service"
 
-#: ../lollypop/assistant.py:144
-msgid "Finish"
-msgstr "Terminer"
-
 #: ../lollypop/collection_scanner.py:328
 msgid "Resetting database"
 msgstr "Réinitialisation de la base de données"
@@ -1335,11 +1353,6 @@ msgstr "Veuillez patienter pendant que Lollypop met à jour ses albums"
 #: ../lollypop/database_upgrade.py:793
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Veuillez patienter pendant que Lollypop met à jour les pistes"
-
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
-#: ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "Annuler"
 
 #: ../lollypop/dialog_apps.py:73
 msgid "Select"
