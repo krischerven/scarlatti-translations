@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 16:43+0200\n"
-"PO-Revision-Date: 2020-06-16 13:14+0000\n"
+"PO-Revision-Date: 2020-08-28 06:10+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1-dev\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -113,7 +113,7 @@ msgstr "Afficher l'année sous le nom de l'album"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "Do not use original date if set"
-msgstr ""
+msgstr "N'utilisez pas la date d'origine si elle est définie"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:135
 msgid "Import playlists from collections"
@@ -456,7 +456,7 @@ msgstr "Lecteur de musique"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;"
-msgstr ""
+msgstr "Musique;Lecteur ;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:21
 msgid "Play/Pause"
@@ -592,7 +592,7 @@ msgstr "Adresse :"
 
 #: ../data/SettingsDialog.ui:41
 msgid "General"
-msgstr ""
+msgstr "Général"
 
 #: ../data/SettingsDialog.ui:46
 msgid "Appearance"
@@ -600,15 +600,15 @@ msgstr "Apparence"
 
 #: ../data/SettingsDialog.ui:51 ../data/SettingsDialog.ui:54
 msgid "Whether the application should use a dark theme"
-msgstr ""
+msgstr "Si l'application doit utiliser un thème sombre"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
-msgstr ""
+msgstr "Mode sombre"
 
 #: ../data/SettingsDialog.ui:87
 msgid "Artwork size"
-msgstr ""
+msgstr "Taille des images"
 
 #: ../data/SettingsDialog.ui:104 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -620,11 +620,11 @@ msgstr "Comportement"
 
 #: ../data/SettingsDialog.ui:125
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Mettre à jour la musique si des fichiers sont ajoutés à la collection"
 
 #: ../data/SettingsDialog.ui:143
 msgid "Play music in background"
-msgstr ""
+msgstr "Jouer de musique en arrière-plan"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Restore state on startup"
@@ -632,7 +632,7 @@ msgstr "Restaurer l'état au démarrage"
 
 #: ../data/SettingsDialog.ui:161
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Restaurer la lecture et la vue actuelle"
 
 #: ../data/SettingsDialog.ui:177
 msgid "Import playlists"
@@ -640,19 +640,19 @@ msgstr "Importer les listes de lecture"
 
 #: ../data/SettingsDialog.ui:179
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Rechercher des listes de lecture dans votre collection"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Save changes to file"
-msgstr ""
+msgstr "Sauvegarder les modifications dans les fichiers"
 
 #: ../data/SettingsDialog.ui:197
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Enregistrer les pochettes et la notation dans les fichiers"
 
 #: ../data/SettingsDialog.ui:213
 msgid "You need to reset database"
-msgstr ""
+msgstr "Vous devez réinitialiser la base de données"
 
 #: ../data/SettingsDialog.ui:214
 msgid "Show compilations"
@@ -663,10 +663,12 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Une compilation est un album sans aucun «tag artistes de l'album»\n"
+"et avec des artistes différents."
 
 #: ../data/SettingsDialog.ui:234
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Les albums seront triés par ce champ"
 
 #: ../data/SettingsDialog.ui:243 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:49
@@ -694,19 +696,19 @@ msgstr "Lecture"
 
 #: ../data/SettingsDialog.ui:267
 msgid "Enable transitions"
-msgstr ""
+msgstr "Activer les transitions"
 
 #: ../data/SettingsDialog.ui:269
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Ajoute une transition sur le changement de piste"
 
 #: ../data/SettingsDialog.ui:285
 msgid "Duration"
-msgstr ""
+msgstr "Durée"
 
 #: ../data/SettingsDialog.ui:287
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "Durée des transitions en millisecondes"
 
 #: ../data/SettingsDialog.ui:303
 msgid "ReplayGain"
@@ -714,7 +716,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:305
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Applique une correction audio à la volée"
 
 #: ../data/SettingsDialog.ui:314 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -734,19 +736,19 @@ msgstr "Musique"
 
 #: ../data/SettingsDialog.ui:340
 msgid "Collection"
-msgstr ""
+msgstr "Collection"
 
 #: ../data/SettingsDialog.ui:351 ../lollypop/dialog_settings.py:241
 msgid "Reset collection"
-msgstr ""
+msgstr "Réinitialiser la collection"
 
 #: ../data/SettingsDialog.ui:390
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiques"
 
 #: ../data/SettingsDialog.ui:421
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Supprimer les périphériques gérés par Lollypop"
 
 #: ../data/SettingsDialog.ui:422 ../lollypop/menu_artist.py:75
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
@@ -761,7 +763,7 @@ msgstr "Web"
 
 #: ../data/SettingsDialog.ui:440
 msgid "Status"
-msgstr ""
+msgstr "État"
 
 #: ../data/SettingsDialog.ui:445
 msgid "Allow network access"
@@ -777,20 +779,20 @@ msgstr "Recherche les images en arrière-plan"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Song playback"
-msgstr ""
+msgstr "Lecture des chansons"
 
 #: ../data/SettingsDialog.ui:496 ../data/SettingsDialog.ui:640
 #: ../data/SettingsDialog.ui:697 ../data/SettingsDialog.ui:754
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: ../data/SettingsDialog.ui:513
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Utiliser une version récente de youtube-dl"
 
 #: ../data/SettingsDialog.ui:529
 msgid "Google API-key"
-msgstr ""
+msgstr "Clé API de Google"
 
 #: ../data/SettingsDialog.ui:543
 msgid "AIzaSyAfXimyn-JsnPzAhhIuxYwgyMrj21Ee7e0"
@@ -812,15 +814,15 @@ msgstr "Aucun serveur défini"
 
 #: ../data/SettingsDialog.ui:601
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Qu'est-ce qu'Invidious ?"
 
 #: ../data/SettingsDialog.ui:629
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Recherche (images, chansons, ...)"
 
 #: ../data/SettingsDialog.ui:770
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "Clé API ListenBrainz"
 
 #: ../data/SettingsDialog.ui:785
 msgid "00000000-0000-0000-0000-000000000000"
@@ -833,7 +835,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:836
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:852 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
@@ -841,8 +843,9 @@ msgid "Spotify"
 msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:868
+#, fuzzy
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:884
 msgid "ITunes"
@@ -854,7 +857,7 @@ msgstr "Google"
 
 #: ../data/SettingsDialog.ui:916
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:932
 msgid "DuckDuckGo"
@@ -1126,7 +1129,7 @@ msgstr "Vous devez installer kid3-cli"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
-msgstr ""
+msgstr "Qu'est-ce que la clé API de Google ?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
