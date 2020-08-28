@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 09:15+0200\n"
-"PO-Revision-Date: 2020-06-18 16:41+0000\n"
+"PO-Revision-Date: 2020-08-28 13:54+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
 ">\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1-dev\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -103,14 +103,14 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
-"Schakel dit in om Lollypop gebruik te laten maken van deze server in plaats "
-"van YouTube. Zie https://github.com/omarroth/invidious"
+"Schakel in om Lollypop gebruik te laten maken van deze server i.p.v. "
+"YouTube. Zie https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:120
 msgid "If true, Lollypop will not use system youtube-dl"
 msgstr ""
-"Schakel dit in om geen gebruik te maken van de geïnstalleerde versie van "
-"youtube-dl"
+"Schakel in om geen gebruik te maken van de geïnstalleerde versie van youtube-"
+"dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:125
 msgid "Show year below album name"
@@ -118,7 +118,7 @@ msgstr "Jaartal tonen onder albumnaam"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "Do not use original date if set"
-msgstr ""
+msgstr "Oorspronkelijke datum niet gebruiken (indien ingesteld)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:135
 msgid "Import playlists from collections"
@@ -460,7 +460,7 @@ msgstr "Muziekspeler"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;"
-msgstr ""
+msgstr "Muziek;Speler;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:21
 msgid "Play/Pause"
@@ -600,7 +600,7 @@ msgstr "Adres:"
 
 #: ../data/SettingsDialog.ui:41
 msgid "General"
-msgstr ""
+msgstr "Algemeen"
 
 #: ../data/SettingsDialog.ui:46
 msgid "Appearance"
@@ -608,15 +608,15 @@ msgstr "Uiterlijk"
 
 #: ../data/SettingsDialog.ui:51 ../data/SettingsDialog.ui:54
 msgid "Whether the application should use a dark theme"
-msgstr ""
+msgstr "Of de toepassing een donker thema moet gebruiken"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
-msgstr ""
+msgstr "Donker thema"
 
 #: ../data/SettingsDialog.ui:87
 msgid "Artwork size"
-msgstr ""
+msgstr "Hoesgrootte"
 
 #: ../data/SettingsDialog.ui:104 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -628,11 +628,11 @@ msgstr "Gedrag"
 
 #: ../data/SettingsDialog.ui:125
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Muziek bijwerken bij nieuwe bestanden in verzameling"
 
 #: ../data/SettingsDialog.ui:143
 msgid "Play music in background"
-msgstr ""
+msgstr "Muziek op de achtergrond afspelen"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Restore state on startup"
@@ -640,7 +640,7 @@ msgstr "Toestand herstellen bij opstarten"
 
 #: ../data/SettingsDialog.ui:161
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Huidige weergave en afgespeeld nummer herstellen"
 
 #: ../data/SettingsDialog.ui:177
 msgid "Import playlists"
@@ -648,19 +648,19 @@ msgstr "Afspeellijsten importeren"
 
 #: ../data/SettingsDialog.ui:179
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Afspeellijsten zoeken in verzameling"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Save changes to file"
-msgstr ""
+msgstr "Wijzigingen opslaan in bestand"
 
 #: ../data/SettingsDialog.ui:197
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Hoezen en waarderingen opslaan in bestanden"
 
 #: ../data/SettingsDialog.ui:213
 msgid "You need to reset database"
-msgstr ""
+msgstr "Je moet de databank herstellen"
 
 #: ../data/SettingsDialog.ui:214
 msgid "Show compilations"
@@ -671,10 +671,12 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Een compilatie is een album met daarop meerdere artiesten\n"
+"en zonder albumartiest-tag"
 
 #: ../data/SettingsDialog.ui:234
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Albums worden gesorteerd op basis van dit veld"
 
 #: ../data/SettingsDialog.ui:243 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:49
@@ -702,19 +704,19 @@ msgstr "Afspelen"
 
 #: ../data/SettingsDialog.ui:267
 msgid "Enable transitions"
-msgstr ""
+msgstr "Overgangen gebruiken"
 
 #: ../data/SettingsDialog.ui:269
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Voeg een overgang toe tussen nummers"
 
 #: ../data/SettingsDialog.ui:285
 msgid "Duration"
-msgstr ""
+msgstr "Duur"
 
 #: ../data/SettingsDialog.ui:287
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "De overgangsduur, in milliseconden"
 
 #: ../data/SettingsDialog.ui:303
 msgid "ReplayGain"
@@ -722,7 +724,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:305
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Audiocorrectie direct toepassen"
 
 #: ../data/SettingsDialog.ui:314 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -742,19 +744,19 @@ msgstr "Muziek"
 
 #: ../data/SettingsDialog.ui:340
 msgid "Collection"
-msgstr ""
+msgstr "Verzameling"
 
 #: ../data/SettingsDialog.ui:351 ../lollypop/dialog_settings.py:241
 msgid "Reset collection"
-msgstr ""
+msgstr "Verzameling herstellen"
 
 #: ../data/SettingsDialog.ui:390
 msgid "Statistics"
-msgstr ""
+msgstr "Statistieken"
 
 #: ../data/SettingsDialog.ui:421
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Verwijder door Lollypop beheerde apparaten"
 
 #: ../data/SettingsDialog.ui:422 ../lollypop/menu_artist.py:75
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
@@ -769,7 +771,7 @@ msgstr "Internet"
 
 #: ../data/SettingsDialog.ui:440
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ../data/SettingsDialog.ui:445
 msgid "Allow network access"
@@ -785,20 +787,20 @@ msgstr "Naar albumhoezen zoeken op de achtergrond"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Song playback"
-msgstr ""
+msgstr "Afspelen"
 
 #: ../data/SettingsDialog.ui:496 ../data/SettingsDialog.ui:640
 #: ../data/SettingsDialog.ui:697 ../data/SettingsDialog.ui:754
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: ../data/SettingsDialog.ui:513
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Recente versie van youtube-dl gebruiken"
 
 #: ../data/SettingsDialog.ui:529
 msgid "Google API-key"
-msgstr ""
+msgstr "Google API-sleutel"
 
 #: ../data/SettingsDialog.ui:553 ../data/SettingsDialog.ui:666
 #: ../data/SettingsDialog.ui:723 ../data/SettingsDialog.ui:795
@@ -816,15 +818,15 @@ msgstr "Geen server ingesteld"
 
 #: ../data/SettingsDialog.ui:601
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Wat is Invidious?"
 
 #: ../data/SettingsDialog.ui:629
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Zoeken (hoezen, nummers, ...)"
 
 #: ../data/SettingsDialog.ui:770
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "ListenBrainz API-sleutel"
 
 #: ../data/SettingsDialog.ui:820 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
@@ -833,7 +835,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:836
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:852 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
@@ -842,7 +844,7 @@ msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:868
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:884
 msgid "ITunes"
@@ -854,7 +856,7 @@ msgstr "Google"
 
 #: ../data/SettingsDialog.ui:916
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:932
 msgid "DuckDuckGo"
@@ -1126,7 +1128,7 @@ msgstr "Installeer kid3-cli"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
-msgstr ""
+msgstr "Wat is een Google API-sleutel?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1138,6 +1140,13 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+"\n"
+"Om YouTube-nummers af te spelen,\n"
+"dien je een API-sleutel te genereren voor de\n"
+"\n"
+"<b>\"YouTube Data API v3\"</b>,\n"
+"\n"
+"die wordt gebruikt om nummers af te spelen."
 
 #: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1147,28 +1156,30 @@ msgstr "Annuleren"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
-msgstr ""
+msgstr "Maak verbinding met de console"
 
 #: ../lollypop/assistant_google.py:48
 msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Open en log</b> in op de <b>Google Developer Console</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
-msgstr ""
+msgstr "Ga naar de Google Developer Console"
 
 #: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
 #: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
 #: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
 #: ../lollypop/assistant_musicbrainz.py:60
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
-msgstr ""
+msgstr "Activeer de API"
 
 #: ../lollypop/assistant_google.py:60
 msgid ""
@@ -1180,10 +1191,17 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>Voeg een nieuw project</b> toe aan de console.\n"
+"\n"
+"<b>Voeg daarna een nieuwe API toe</b> en zoek\n"
+"naar <b>\"YouTube Data API v3\"</b>.\n"
+"\n"
+"<b>Activeer die API</b> voor je project"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
-msgstr ""
+msgstr "Kopieer de sleutel"
 
 #: ../lollypop/assistant_google.py:77
 msgid ""
@@ -1193,16 +1211,21 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Klik in de zijbalk op <b>'Inloggegevens'</b> en vervolgens op\n"
+"<b>Gegevens maken</b> voor een<b>API-sleutel</b>.\n"
+"\n"
+"<b>Kopieer de API-sleutel en plak deze in Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:144
 msgid "Finish"
-msgstr ""
+msgstr "Afronden"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Er wordt gescrobbeld naar %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1211,11 +1234,14 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Als je je activiteit wilt delen op <b>%s</b>,\n"
+"dien je <b>Lollypop</b> toegang te verlenen."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "Koppel %s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1224,25 +1250,30 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Open en log in</b> op <b>%s</b>.\n"
+"Verleen Lollypop vervolgens toegang."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "%s koppelen"
 
 #: ../lollypop/assistant_lastfm.py:62
 msgid "Just play a track"
-msgstr ""
+msgstr "Gewoon een nummer afspelen"
 
 #: ../lollypop/assistant_lastfm.py:64
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Klik nadien op 'Afronden'</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Er wordt gescrobbeld naar ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1250,38 +1281,46 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Als je je activiteit wilt delen op <b>ListenBrainz</b>,\n"
+"dien je <b>Lollypop</b> toegang te verlenen."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "Koppel ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Open en log in</b> op <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Ga naar ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "Kopieer de sleutel"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Rond af</b> door de <b>API-sleutel</b> te kopiëren en te plakken in "
+"Lollypop."
 
 #: ../lollypop/assistant.py:142
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Kan geen verbinding maken met dienst"
 
 #: ../lollypop/collection_scanner.py:328
 msgid "Resetting database"
-msgstr ""
+msgstr "Bezig met herstellen van databank"
 
 #: ../lollypop/collection_scanner.py:498
 msgid "Scan disabled, missing collection"
@@ -1331,17 +1370,17 @@ msgstr "Kies een toepassing"
 #: ../lollypop/dialog_settings.py:84
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Aantal artiesten: %s"
 
 #: ../lollypop/dialog_settings.py:86
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Aantal albums: %s"
 
 #: ../lollypop/dialog_settings.py:88
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Aantal nummers: %s"
 
 #: ../lollypop/dialog_settings.py:202 ../lollypop/dialog_settings.py:337
 msgid "Disconnect"
@@ -1349,7 +1388,7 @@ msgstr "Koppeling verbreken"
 
 #: ../lollypop/dialog_settings.py:247
 msgid "Are you sure?"
-msgstr ""
+msgstr "Weet je het zeker?"
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
@@ -1393,7 +1432,7 @@ msgstr "Beschikbare albums"
 
 #: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
 msgid "Change Artwork"
-msgstr ""
+msgstr "Andere hoes kiezen"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:65
@@ -1465,7 +1504,7 @@ msgstr "Afspeellijst afspelen"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Afspeellijst toevoegen"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1828,15 +1867,15 @@ msgstr "Standaard"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "Akoestisch"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr ""
+msgstr "Bas"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr ""
+msgstr "Bas en hoge tonen"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1852,31 +1891,31 @@ msgstr "Dance"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "Disco"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Drum-'n'-Bass"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Heavy metal"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Jazz"
-msgstr ""
+msgstr "Jazz"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Latin"
-msgstr ""
+msgstr "Latin"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "Metal"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
-msgstr ""
+msgstr "New age"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "Party"
@@ -1900,7 +1939,7 @@ msgstr "Techno"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Vocal"
-msgstr ""
+msgstr "Vocaal"
 
 #: ../lollypop/widgets_equalizer.py:160 ../lollypop/widgets_equalizer.py:192
 msgid "Custom"
