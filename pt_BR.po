@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 09:15+0200\n"
-"PO-Revision-Date: 2020-08-28 13:54+0000\n"
+"PO-Revision-Date: 2020-09-03 09:57+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/pt_BR/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -78,7 +78,7 @@ msgstr "Estado da janela maximizada."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:85
 msgid "Enabled genres in party mode"
-msgstr "Gêneros ativos em modo festa"
+msgstr "Habilitar gêneros no modo festa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "ID for genres."
@@ -198,7 +198,7 @@ msgstr "Desativar o uso de decorações de janela (barra de título)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:210
 msgid "Disable scrobbling usage"
-msgstr "Desativar o uso de scrobbling"
+msgstr "Desativar o uso de rastreamento"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:215
 msgid "Handle compilations"
@@ -360,7 +360,7 @@ msgstr "Ordenar álbuns por"
 
 #: ../data/AboutDialog.ui.in:13
 msgid "A music player for GNOME."
-msgstr "Um player de música para o GNOME."
+msgstr "Um tocador de música para o GNOME."
 
 #: ../data/AboutDialog.ui.in:15
 msgid "Visit Lollypop website"
@@ -417,7 +417,7 @@ msgstr "PayPal®"
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
-msgstr "Player Lollypop"
+msgstr "Tocador Lollypop"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:9
 #: ../data/org.gnome.Lollypop.desktop.in:5
@@ -453,7 +453,7 @@ msgstr "Sincronização –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr "Scrobbling de Áudio -"
+msgstr "Rastreamento de Áudio -"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -570,7 +570,7 @@ msgstr "Álbuns"
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
-msgstr "Listas de reprodução"
+msgstr "Listas de Reprodução"
 
 #: ../data/DeviceWidget.ui:284 ../lollypop/widgets_device.py:137
 #: ../lollypop/widgets_device.py:338
@@ -633,11 +633,11 @@ msgstr "Atualiza a música se os arquivos forem adicionados à coleção"
 
 #: ../data/SettingsDialog.ui:143
 msgid "Play music in background"
-msgstr "Toca música ao fundo"
+msgstr "Toca música em segundo plano"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Restore state on startup"
-msgstr "Restaurar estado na inicialização"
+msgstr "Restaurar o estado na inicialização"
 
 #: ../data/SettingsDialog.ui:161
 msgid "Restore current playback and view"
@@ -645,15 +645,15 @@ msgstr "Restaura a reprodução e visualização atuais"
 
 #: ../data/SettingsDialog.ui:177
 msgid "Import playlists"
-msgstr "Importa lista de reprodução"
+msgstr "Importar lista de reprodução"
 
 #: ../data/SettingsDialog.ui:179
 msgid "Search for playlists in your collection"
-msgstr "Pesquisa listas de reprodução em sua coleção"
+msgstr "Busca listas de reprodução em sua coleção"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Save changes to file"
-msgstr "Salva as alterações no arquivo"
+msgstr "Salvar as alterações no arquivo"
 
 #: ../data/SettingsDialog.ui:197
 msgid "Save artwork and rating to files"
@@ -780,11 +780,11 @@ msgstr "Permitir o acesso a rede"
 
 #: ../data/SettingsDialog.ui:462
 msgid "Background data"
-msgstr "Dados de fundo"
+msgstr "Dados de segundo plano"
 
 #: ../data/SettingsDialog.ui:464
 msgid "Search artwork in background"
-msgstr "Pesquisar capa em segundo plano"
+msgstr "Buscar capa em segundo plano"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Song playback"
@@ -853,7 +853,7 @@ msgstr "ITunes®"
 
 #: ../data/SettingsDialog.ui:900
 msgid "Google"
-msgstr "Google"
+msgstr "Google®"
 
 #: ../data/SettingsDialog.ui:916
 msgid "Startpage"
@@ -865,7 +865,7 @@ msgstr "DuckDuckGo®"
 
 #: ../data/SettingsDialog.ui:948
 msgid "Wikipedia"
-msgstr "Wikipédia"
+msgstr "Wikipédia®"
 
 #: ../data/SettingsDialog.ui:969 ../lollypop/shown.py:36
 msgid "Lyrics"
@@ -997,7 +997,7 @@ msgstr "Avançar rapidamente"
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
-msgstr "Habilitar/desabilitar scrobbling"
+msgstr "Habilitar/desabilitar rastreamento"
 
 #: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
@@ -1021,23 +1021,23 @@ msgstr "artista"
 
 #: ../data/SmartPlaylistView.ui:139
 msgid "year DESC"
-msgstr "ano DECRES"
+msgstr "ano DECRESCENTE"
 
 #: ../data/SmartPlaylistView.ui:140
 msgid "year ASC"
-msgstr "ano ACEND"
+msgstr "ano ACENDENTE"
 
 #: ../data/SmartPlaylistView.ui:141
 msgid "duration DESC"
-msgstr "duração DECRES"
+msgstr "duração DECRESCENTE"
 
 #: ../data/SmartPlaylistView.ui:142
 msgid "duration ASC"
-msgstr "duração ACEND"
+msgstr "duração ACENDENTE"
 
 #: ../data/SmartPlaylistView.ui:184
 msgid "Match music for "
-msgstr "Corresponder a música para "
+msgstr "Combinar a música para "
 
 #: ../data/SmartPlaylistView.ui:210
 msgid "all"
@@ -1105,11 +1105,11 @@ msgstr "Não repetir"
 
 #: ../data/ToolbarEnd.ui:52
 msgid "Scrobbling"
-msgstr "Enviando informações"
+msgstr "Rastreamento"
 
 #: ../data/ToolbarEnd.ui:54
 msgid "Enable scrobbling"
-msgstr "Habilitar scrobbling"
+msgstr "Habilitar rastreamento"
 
 #: ../data/ToolbarEnd.ui:96
 msgid "Playback options"
@@ -1226,7 +1226,7 @@ msgstr "Finalizado"
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr "Scrobbling para %s"
+msgstr "Rastreando para %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr "Scrobbling para ListenBrainz"
+msgstr "Rastreamento para ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1416,7 +1416,7 @@ msgstr "Abrir com…"
 
 #: ../lollypop/menu_artist.py:48
 msgid "Show tracks"
-msgstr "Mostrar Faixas"
+msgstr "Mostrar faixas"
 
 #: ../lollypop/menu_artist.py:57
 msgid "Show year"
@@ -1424,7 +1424,7 @@ msgstr "Mostrar ano"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr "Reprodução em destaque"
+msgstr "Reprodução destacada"
 
 #: ../lollypop/menu_artist.py:120
 msgid "Available albums"
@@ -1454,7 +1454,7 @@ msgstr "Outros"
 
 #: ../lollypop/menu_objects.py:128
 msgid "%Y-%m-%d"
-msgstr "%A-%m%d"
+msgstr "%d-%m%y"
 
 #: ../lollypop/menu_objects.py:161
 msgid "YouTube page address"
@@ -1649,7 +1649,7 @@ msgstr "Não foi possível encontrar esta faixa no YouTube"
 
 #: ../lollypop/playlists.py:94 ../lollypop/playlists.py:97
 msgid "New playlist "
-msgstr "Nova playlist "
+msgstr "Nova lista de reprodução "
 
 #: ../lollypop/shown.py:25
 msgid "Popular albums"
@@ -1657,7 +1657,7 @@ msgstr "Álbuns populares"
 
 #: ../lollypop/shown.py:26
 msgid "Random albums"
-msgstr "Embaralhar álbuns"
+msgstr "Misturar álbuns"
 
 #: ../lollypop/shown.py:27
 msgid "Loved albums"
@@ -1665,7 +1665,7 @@ msgstr "Álbuns favoritos"
 
 #: ../lollypop/shown.py:28
 msgid "Recently added albums"
-msgstr "Álbuns recentes"
+msgstr "Álbuns Adic. recentemente"
 
 #: ../lollypop/shown.py:29
 msgid "Seldomly played albums"
@@ -1979,11 +1979,11 @@ msgstr "não contém"
 
 #: ../lollypop/widgets_playlist_smart.py:171
 msgid "is greater than"
-msgstr "é melhor que"
+msgstr "é maior que"
 
 #: ../lollypop/widgets_playlist_smart.py:172
 msgid "is less than"
-msgstr "é menos que"
+msgstr "é menor que"
 
 #: ../lollypop/widgets_rating.py:51
 #, python-format
