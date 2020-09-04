@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 09:15+0200\n"
-"PO-Revision-Date: 2020-06-26 23:21+0000\n"
+"PO-Revision-Date: 2020-09-04 11:31+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ru/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:35
 msgid "Window size"
@@ -123,7 +123,7 @@ msgstr "Показывать год выпуска под именем альб�
 
 #: ../data/org.gnome.Lollypop.gschema.xml:130
 msgid "Do not use original date if set"
-msgstr ""
+msgstr "Если включено, не использовать исходную дату"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:135
 msgid "Import playlists from collections"
@@ -306,7 +306,7 @@ msgstr "Затухание влияет на изменение статуса �
 
 #: ../data/org.gnome.Lollypop.gschema.xml:338
 msgid "Fade duration in ms"
-msgstr "Длительность затухания в мс"
+msgstr "Длительность перехода в мс"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:343
 msgid "Fade effect only in party mode"
@@ -373,7 +373,7 @@ msgstr "Посетить сайт Lollypop"
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr "Артемий Судаков,"
+msgstr "Артемий Судаков"
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -464,7 +464,7 @@ msgstr "Музыкальный плеер"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;"
-msgstr ""
+msgstr "Музыка;Плеер;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:21
 msgid "Play/Pause"
@@ -604,7 +604,7 @@ msgstr "Адрес:"
 
 #: ../data/SettingsDialog.ui:41
 msgid "General"
-msgstr ""
+msgstr "Основные"
 
 #: ../data/SettingsDialog.ui:46
 msgid "Appearance"
@@ -612,15 +612,15 @@ msgstr "Внешний вид"
 
 #: ../data/SettingsDialog.ui:51 ../data/SettingsDialog.ui:54
 msgid "Whether the application should use a dark theme"
-msgstr ""
+msgstr "Должно ли приложение использовать тёмную тему"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
-msgstr ""
+msgstr "Тёмная тема"
 
 #: ../data/SettingsDialog.ui:87
 msgid "Artwork size"
-msgstr ""
+msgstr "Размер обложки"
 
 #: ../data/SettingsDialog.ui:104 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -632,11 +632,11 @@ msgstr "Поведение"
 
 #: ../data/SettingsDialog.ui:125
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Обновлять музыку, если файлы были добавлены в коллекцию"
 
 #: ../data/SettingsDialog.ui:143
 msgid "Play music in background"
-msgstr ""
+msgstr "Воспроизводить музыку когда приложение свёрнуто"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Restore state on startup"
@@ -644,7 +644,7 @@ msgstr "Восстанавливать состояние при запуске"
 
 #: ../data/SettingsDialog.ui:161
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Восстанавливает воспроизведение и внешний вид"
 
 #: ../data/SettingsDialog.ui:177
 msgid "Import playlists"
@@ -652,19 +652,19 @@ msgstr "Импортировать плейлисты"
 
 #: ../data/SettingsDialog.ui:179
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Ищет плейлисты в вашей коллекции"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Save changes to file"
-msgstr ""
+msgstr "Сохранить изменения в файл"
 
 #: ../data/SettingsDialog.ui:197
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Сохраняет обложку и рейтинг в файлы"
 
 #: ../data/SettingsDialog.ui:213
 msgid "You need to reset database"
-msgstr ""
+msgstr "Вам нужно пересоздать базу данных"
 
 #: ../data/SettingsDialog.ui:214
 msgid "Show compilations"
@@ -675,10 +675,12 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Подборка - альбом без \"имени исполнителя\"\n"
+"также содержащий в себе разных исполнителей"
 
 #: ../data/SettingsDialog.ui:234
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Альбомы будут отсортированы по этому пункту"
 
 #: ../data/SettingsDialog.ui:243 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:49
@@ -706,19 +708,19 @@ msgstr "Проигрывание"
 
 #: ../data/SettingsDialog.ui:267
 msgid "Enable transitions"
-msgstr ""
+msgstr "Включить переход"
 
 #: ../data/SettingsDialog.ui:269
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Добавляет плавных переход при переключении треков"
 
 #: ../data/SettingsDialog.ui:285
 msgid "Duration"
-msgstr ""
+msgstr "Длительность"
 
 #: ../data/SettingsDialog.ui:287
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "Длительность перехода в миллисекундах"
 
 #: ../data/SettingsDialog.ui:303
 msgid "ReplayGain"
@@ -726,7 +728,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:305
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Применять автоматическую коррекцию звука"
 
 #: ../data/SettingsDialog.ui:314 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -746,19 +748,19 @@ msgstr "Музыка"
 
 #: ../data/SettingsDialog.ui:340
 msgid "Collection"
-msgstr ""
+msgstr "Коллекция"
 
 #: ../data/SettingsDialog.ui:351 ../lollypop/dialog_settings.py:241
 msgid "Reset collection"
-msgstr ""
+msgstr "Восстановить коллекцию"
 
 #: ../data/SettingsDialog.ui:390
 msgid "Statistics"
-msgstr ""
+msgstr "Статистика"
 
 #: ../data/SettingsDialog.ui:421
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Удалить устройства контролируемые Lollypop"
 
 #: ../data/SettingsDialog.ui:422 ../lollypop/menu_artist.py:75
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
@@ -773,7 +775,7 @@ msgstr "Веб"
 
 #: ../data/SettingsDialog.ui:440
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #: ../data/SettingsDialog.ui:445
 msgid "Allow network access"
@@ -781,7 +783,7 @@ msgstr "Разрешить доступ к сети"
 
 #: ../data/SettingsDialog.ui:462
 msgid "Background data"
-msgstr ""
+msgstr "Фоновые данные"
 
 #: ../data/SettingsDialog.ui:464
 msgid "Search artwork in background"
@@ -789,20 +791,20 @@ msgstr "Искать обложку в фоне"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Song playback"
-msgstr ""
+msgstr "Воспроизведение музыки"
 
 #: ../data/SettingsDialog.ui:496 ../data/SettingsDialog.ui:640
 #: ../data/SettingsDialog.ui:697 ../data/SettingsDialog.ui:754
 msgid "Enabled"
-msgstr ""
+msgstr "Включено"
 
 #: ../data/SettingsDialog.ui:513
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Использовать последнюю версию youtube-dl"
 
 #: ../data/SettingsDialog.ui:529
 msgid "Google API-key"
-msgstr ""
+msgstr "Ключ Google API"
 
 #: ../data/SettingsDialog.ui:553 ../data/SettingsDialog.ui:666
 #: ../data/SettingsDialog.ui:723 ../data/SettingsDialog.ui:795
@@ -812,7 +814,7 @@ msgstr "Подключение"
 
 #: ../data/SettingsDialog.ui:576
 msgid "Use an Invidious server"
-msgstr "Использовать индивидуальный сервер"
+msgstr "Использовать особенный сервер"
 
 #: ../data/SettingsDialog.ui:591
 msgid "No server set"
@@ -820,15 +822,15 @@ msgstr "Сервер не установлен"
 
 #: ../data/SettingsDialog.ui:601
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Что значит \"особенный\"?"
 
 #: ../data/SettingsDialog.ui:629
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Поиск (обложки, музыка, ...)"
 
 #: ../data/SettingsDialog.ui:770
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "API ключ ListenBrainz"
 
 #: ../data/SettingsDialog.ui:820 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
@@ -837,7 +839,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:836
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:852 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
@@ -846,11 +848,11 @@ msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:868
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:884
 msgid "ITunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:900
 msgid "Google"
@@ -858,11 +860,11 @@ msgstr "Google"
 
 #: ../data/SettingsDialog.ui:916
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:932
 msgid "DuckDuckGo"
-msgstr ""
+msgstr "DuckDuckGo"
 
 #: ../data/SettingsDialog.ui:948
 msgid "Wikipedia"
@@ -874,11 +876,11 @@ msgstr "Текст песни"
 
 #: ../data/SettingsDialog.ui:974
 msgid "Wikia"
-msgstr ""
+msgstr "Wikia"
 
 #: ../data/SettingsDialog.ui:990
 msgid "Genius"
-msgstr ""
+msgstr "Genius"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1130,7 +1132,7 @@ msgstr "Вам нужно установить kid3-cli"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
-msgstr ""
+msgstr "Что такое \"ключ API Google\"?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1142,6 +1144,13 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+"\n"
+"Для того что бы воспроизводить музыку с YouTube\n"
+"вам нужно создать API-ключ для\n"
+"\n"
+"<b>\"YouTube Data API v3\"</b>\n"
+"\n"
+"который будет использоваться для проигрывания музыки."
 
 #: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1151,28 +1160,30 @@ msgstr "Отмена"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
-msgstr ""
+msgstr "Присоединиться к консоли"
 
 #: ../lollypop/assistant_google.py:48
 msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Откройте и войдите</b> в <b>Google Developer Console</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
-msgstr ""
+msgstr "Открыть Google Developer Console"
 
 #: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
 #: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
 #: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
 #: ../lollypop/assistant_musicbrainz.py:60
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
-msgstr ""
+msgstr "Активируйте API"
 
 #: ../lollypop/assistant_google.py:60
 msgid ""
@@ -1184,10 +1195,17 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"Нажмите на <b>Добавить новый проект</b> в консоли.\n"
+"\n"
+"После этого, нажмите <b>добавить новый API</b> и\n"
+"ищите там <b>\"YouTube Data API v3\"</b>.\n"
+"\n"
+"Нажмите <b>Включить этот API</b> для вашего проекта"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
-msgstr ""
+msgstr "Копирование ключа"
 
 #: ../lollypop/assistant_google.py:77
 msgid ""
@@ -1197,16 +1215,21 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Откройте <b>\"Учётные данные\"</b> в боковом меню и нажмите\n"
+"<b>Создать</b> для<b>API-ключа</b>.\n"
+"\n"
+"<b>Скопируйте API-ключ в Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:144
 msgid "Finish"
-msgstr ""
+msgstr "Завершить"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Скробблинг для %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1215,11 +1238,14 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Для того что-бы отправить ваши данные в <b>%s</b>,\n"
+"вы должны разрешить их для <b>Lollypop</b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "Присоединение к %s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1228,25 +1254,30 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Откройте и войдите</b> в <b>%s</b>.\n"
+"Далее, разрешите использовать Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "Открыть %s"
 
 #: ../lollypop/assistant_lastfm.py:62
 msgid "Just play a track"
-msgstr ""
+msgstr "Просто включите трек"
 
 #: ../lollypop/assistant_lastfm.py:64
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Нажмите \"Завершить\"</b> когда всё будет готово."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Скробблинг для ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1254,38 +1285,45 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Для того что-бы отправить ваши данные в <b>ListenBrainz</b>,\n"
+"вы должны разрешить их для <b>Lollypop</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "Присоединение к ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Откройте и войдите</b> в <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Открыть ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "Копирование ключа"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Закончите</b> активацию, скопировав <b>API-ключ</b> в Lollypop."
 
 #: ../lollypop/assistant.py:142
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Не удалось присоединиться к этому сервису"
 
 #: ../lollypop/collection_scanner.py:328
 msgid "Resetting database"
-msgstr ""
+msgstr "Пересоздание базы данных"
 
 #: ../lollypop/collection_scanner.py:498
 msgid "Scan disabled, missing collection"
@@ -1335,17 +1373,17 @@ msgstr "Выберите приложение"
 #: ../lollypop/dialog_settings.py:84
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Количество композиторов: %s"
 
 #: ../lollypop/dialog_settings.py:86
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Количество альбомов: %s"
 
 #: ../lollypop/dialog_settings.py:88
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Количество треков: %s"
 
 #: ../lollypop/dialog_settings.py:202 ../lollypop/dialog_settings.py:337
 msgid "Disconnect"
@@ -1353,7 +1391,7 @@ msgstr "Отсоединиться"
 
 #: ../lollypop/dialog_settings.py:247
 msgid "Are you sure?"
-msgstr ""
+msgstr "Вы уверены?"
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
@@ -1397,7 +1435,7 @@ msgstr "Доступные альбомы"
 
 #: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
 msgid "Change Artwork"
-msgstr ""
+msgstr "Изменить обложку"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:65
@@ -1469,7 +1507,7 @@ msgstr "Воспроизвести этот плейлист"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Добавить этот плейлист"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1832,15 +1870,15 @@ msgstr "По-умолчанию"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "Акустика"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr ""
+msgstr "Бас"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr ""
+msgstr "Бас и высокие частоты"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1856,31 +1894,31 @@ msgstr "Танец"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "Диско"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Драм'н'Бэйс"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Тяжёлый металл"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Jazz"
-msgstr ""
+msgstr "Джаз"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Latin"
-msgstr ""
+msgstr "Латинское"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "Металл"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
-msgstr ""
+msgstr "Нью-эйдж"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "Party"
@@ -1904,7 +1942,7 @@ msgstr "Техно"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Vocal"
-msgstr ""
+msgstr "Вокал"
 
 #: ../lollypop/widgets_equalizer.py:160 ../lollypop/widgets_equalizer.py:192
 msgid "Custom"
