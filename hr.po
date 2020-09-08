@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 09:15+0200\n"
-"PO-Revision-Date: 2020-09-08 23:25+0000\n"
+"PO-Revision-Date: 2020-09-10 00:36+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "hr/>\n"
@@ -666,6 +666,8 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Kompilacija je album bez oznake jednog izvođača albuma\n"
+"i s različitim izvođačima"
 
 #: ../data/SettingsDialog.ui:234
 msgid "Albums will be sorted by this field"
@@ -717,7 +719,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:305
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Primijeni ispravljanje zvuka tijekom sviranja"
 
 #: ../data/SettingsDialog.ui:314 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -811,7 +813,7 @@ msgstr "Nijedan poslužitelj nije postavljen"
 
 #: ../data/SettingsDialog.ui:601
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Što je Invidious ?"
 
 #: ../data/SettingsDialog.ui:629
 msgid "Search (artwork, songs, ...)"
@@ -828,7 +830,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:836
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:852 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
@@ -1156,6 +1158,8 @@ msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Otvori i prijavi se</b> na <b>Google Developer Console</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
@@ -1182,6 +1186,13 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>Dodaj novi projekt</b> u konzoli.\n"
+"\n"
+"Nakon toga <b>dodaj novi API</b> i potraži\n"
+"<b>„YouTube Data API v3”</b>.\n"
+"\n"
+"<b>Aktiviraj taj API</b> za tvoj projekt"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
@@ -1195,6 +1206,11 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Otvori <b>„Podaci za prijavu”</b> u bočnoj traci i\n"
+"<b>Stvori podatke za prijavu</b> za <b>API-ključ</b>.\n"
+"\n"
+"<b>Kopiraj API-ključ u Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:144
@@ -1204,7 +1220,7 @@ msgstr "Završi"
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Scrobbling na %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1213,6 +1229,9 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Za slanje tvoje aktivnost prema <b>%s</b>,\n"
+"moraš dozvoliti <b>Lollypop</b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
@@ -1226,6 +1245,9 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Otvori i prijavi se</b> na <b>%s</b>.\n"
+"Zatim, dozvoli Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
@@ -1241,10 +1263,12 @@ msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Pritisni „Završi”</b> nakon što je Lollypop dozvoljen."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Scrobbling na ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1252,16 +1276,21 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Za slanje tvoje aktivnost na <b>ListenBrainz</b>,\n"
+"moraš dozvoliti <b>Lollypop</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "Spoji se na ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Otvori i prijavi se</b> na <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
@@ -1302,7 +1331,7 @@ msgstr "Nepoznato"
 
 #: ../lollypop/container_notification.py:71
 msgid "Automatically download albums and artists artwork?"
-msgstr "Automatski preuzimati albume i slike izvođača?"
+msgstr "Automatski preuzeti albume i slike izvođača?"
 
 #: ../lollypop/container_notification.py:72
 msgid "Yes"
