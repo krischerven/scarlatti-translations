@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-28 09:15+0200\n"
+"POT-Creation-Date: 2020-09-10 21:22+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Irish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -42,12 +42,12 @@ msgstr "Ionad fuinneoige (x agus y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:55
 #: ../data/org.gnome.Lollypop.gschema.xml:70
 #: ../data/org.gnome.Lollypop.gschema.xml:110
-#: ../data/org.gnome.Lollypop.gschema.xml:260
-#: ../data/org.gnome.Lollypop.gschema.xml:273
-#: ../data/org.gnome.Lollypop.gschema.xml:298
+#: ../data/org.gnome.Lollypop.gschema.xml:265
+#: ../data/org.gnome.Lollypop.gschema.xml:278
 #: ../data/org.gnome.Lollypop.gschema.xml:303
 #: ../data/org.gnome.Lollypop.gschema.xml:308
-#: ../data/org.gnome.Lollypop.gschema.xml:358
+#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:363
 msgid "INTERNAL"
 msgstr "INMHEÁNACH"
 
@@ -146,7 +146,7 @@ msgid "Favorite cover file"
 msgstr "Comhad clúdaigh na coitiantachta"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "Restart needed"
 msgstr "Atosú de dhíth"
 
@@ -167,7 +167,7 @@ msgstr "Méid chlúdach albam"
 msgid "Encoding quality"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:185 ../data/SettingsDialog.ui:123
+#: ../data/org.gnome.Lollypop.gschema.xml:185 ../data/SettingsDialog.ui:358
 msgid "Auto update music"
 msgstr "Uath-nuashonraigh ceol"
 
@@ -175,7 +175,7 @@ msgstr "Uath-nuashonraigh ceol"
 msgid "Show tracks in artist view"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:195 ../data/SettingsDialog.ui:70
+#: ../data/org.gnome.Lollypop.gschema.xml:195 ../data/SettingsDialog.ui:89
 msgid "Show artist artwork"
 msgstr "Taispeáin saothar ealaíne ealaíontóra"
 
@@ -196,148 +196,152 @@ msgid "Handle compilations"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:220
+msgid "Handle performers, compositors, ..."
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:225
 msgid "Show compilations in albums view"
 msgstr "Taispeáin teaglaimí i radharc albam"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:225 ../data/SettingsDialog.ui:141
+#: ../data/org.gnome.Lollypop.gschema.xml:230 ../data/SettingsDialog.ui:142
 msgid "Continue playback when closed"
 msgstr "Lean ar athsheinm nuair dúnta"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:230
+#: ../data/org.gnome.Lollypop.gschema.xml:235
 msgid "Append albums by default"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:235
+#: ../data/org.gnome.Lollypop.gschema.xml:240
 msgid "Smart sort for artist"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:240
+#: ../data/org.gnome.Lollypop.gschema.xml:245
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Ex: Beatles, The"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:245
+#: ../data/org.gnome.Lollypop.gschema.xml:250
 msgid "Restore previous state"
 msgstr "Athbhunaigh staid roimhe"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:250
+#: ../data/org.gnome.Lollypop.gschema.xml:255
 msgid "Disable MPRIS"
 msgstr "Míchumasaigh MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:255
+#: ../data/org.gnome.Lollypop.gschema.xml:260
 msgid "Notifications behaviour"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:264
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Items count in views"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:268
+#: ../data/org.gnome.Lollypop.gschema.xml:273
 msgid "Show track number from tags"
 msgstr "Taispeáin uimhir riain as chlibeanna"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:278
+#: ../data/org.gnome.Lollypop.gschema.xml:283
 msgid "JPG cover quality"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:279
+#: ../data/org.gnome.Lollypop.gschema.xml:284
 msgid "0-100"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:283
+#: ../data/org.gnome.Lollypop.gschema.xml:288
 msgid "Force single column mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:288
+#: ../data/org.gnome.Lollypop.gschema.xml:293
 msgid "Volume rate"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:289
+#: ../data/org.gnome.Lollypop.gschema.xml:294
 msgid "0.0-1.0"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:293
+#: ../data/org.gnome.Lollypop.gschema.xml:298
 msgid "Equalizer enabled"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:313
+#: ../data/org.gnome.Lollypop.gschema.xml:318
 msgid "Show labels in sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:318
+#: ../data/org.gnome.Lollypop.gschema.xml:323
 msgid "Smooth track transitions"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:323
+#: ../data/org.gnome.Lollypop.gschema.xml:328
 msgid "Smooth track transitions only in party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:328
+#: ../data/org.gnome.Lollypop.gschema.xml:333
 msgid "Transition duration in ms"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:333
+#: ../data/org.gnome.Lollypop.gschema.xml:338
 msgid "Fade effect on playback status change"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:338
+#: ../data/org.gnome.Lollypop.gschema.xml:343
 msgid "Fade duration in ms"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:343
+#: ../data/org.gnome.Lollypop.gschema.xml:348
 msgid "Fade effect only in party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:348 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:353 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Suaith rianta"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:353
+#: ../data/org.gnome.Lollypop.gschema.xml:358
 msgid "Ignore internal symlinks"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:363
+#: ../data/org.gnome.Lollypop.gschema.xml:368
 msgid "ReplayGain state"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:368
+#: ../data/org.gnome.Lollypop.gschema.xml:373
 msgid "ReplayGain value in dB"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:369
+#: ../data/org.gnome.Lollypop.gschema.xml:374
 msgid "Between -15 and 15"
 msgstr "Idir -15 agus 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:373
+#: ../data/org.gnome.Lollypop.gschema.xml:378
 msgid "Applies signal compression/limiting to raw audio data"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:374
+#: ../data/org.gnome.Lollypop.gschema.xml:379
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:378
+#: ../data/org.gnome.Lollypop.gschema.xml:383
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:379
+#: ../data/org.gnome.Lollypop.gschema.xml:384
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:383
+#: ../data/org.gnome.Lollypop.gschema.xml:388
 msgid "Repeat"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:388 ../data/SettingsDialog.ui:233
+#: ../data/org.gnome.Lollypop.gschema.xml:393 ../data/SettingsDialog.ui:196
 msgid "Order albums by"
 msgstr "Cuir albaim in eagar le"
 
@@ -477,11 +481,11 @@ msgstr ""
 msgid "Equalizer"
 msgstr ""
 
-#: ../data/ArtistBannerWidget.ui:90
+#: ../data/ArtistBannerWidget.ui:92
 msgid "Play albums"
 msgstr "Seinn albaim"
 
-#: ../data/ArtistBannerWidget.ui:108
+#: ../data/ArtistBannerWidget.ui:110
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr ""
@@ -526,7 +530,7 @@ msgstr ""
 msgid "Synchronized:"
 msgstr ""
 
-#: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:37
+#: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:36
 #: ../lollypop/view_albums_line.py:279
 msgid "Albums"
 msgstr "Albaim"
@@ -581,265 +585,285 @@ msgstr ""
 msgid "Dark Mode"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:87
+#: ../data/SettingsDialog.ui:71
+msgid "Single column mode"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:73
+msgid "Only show a single column for tracks"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:106
 msgid "Artwork size"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:104 ../lollypop/menu_actions.py:77
+#: ../data/SettingsDialog.ui:123 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:118
+#: ../data/SettingsDialog.ui:137
 msgid "Behaviour"
 msgstr "Iompar"
 
-#: ../data/SettingsDialog.ui:125
-msgid "Update music if files added to collection"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:143
+#: ../data/SettingsDialog.ui:144
 msgid "Play music in background"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:159
+#: ../data/SettingsDialog.ui:160
 msgid "Restore state on startup"
 msgstr "Athbhunaigh staid ar thosú"
 
-#: ../data/SettingsDialog.ui:161
+#: ../data/SettingsDialog.ui:162
 msgid "Restore current playback and view"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:177
-msgid "Import playlists"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:179
-msgid "Search for playlists in your collection"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:195
+#: ../data/SettingsDialog.ui:178
 msgid "Save changes to file"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:197
+#: ../data/SettingsDialog.ui:180
 msgid "Save artwork and rating to files"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:213
-msgid "You need to reset database"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:214
-msgid "Show compilations"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:216
-msgid ""
-"A compilation is an album without any \"Album artist tag\"\n"
-"and with different artists"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:234
+#: ../data/SettingsDialog.ui:197
 msgid "Albums will be sorted by this field"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:243 ../data/SmartPlaylistWidget.ui:29
+#: ../data/SettingsDialog.ui:206 ../data/SmartPlaylistWidget.ui:29
 #: ../lollypop/menu_artist.py:71 ../lollypop/menu_objects.py:49
 #: ../lollypop/menu_objects.py:101
 msgid "Artist"
 msgstr "Ealaíontóir"
 
-#: ../data/SettingsDialog.ui:244
+#: ../data/SettingsDialog.ui:207
 msgid "Name"
 msgstr "Ainm"
 
-#: ../data/SettingsDialog.ui:245 ../data/SmartPlaylistWidget.ui:33
+#: ../data/SettingsDialog.ui:208 ../data/SmartPlaylistWidget.ui:33
 msgid "Year"
 msgstr "Bliain"
 
-#: ../data/SettingsDialog.ui:246 ../data/SmartPlaylistWidget.ui:32
+#: ../data/SettingsDialog.ui:209 ../data/SmartPlaylistWidget.ui:32
 msgid "Popularity"
 msgstr "Tóir"
 
-#: ../data/SettingsDialog.ui:262 ../lollypop/menu_artist.py:68
+#: ../data/SettingsDialog.ui:225 ../lollypop/menu_artist.py:68
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:96
 msgid "Playback"
 msgstr "Athsheinm"
 
-#: ../data/SettingsDialog.ui:267
+#: ../data/SettingsDialog.ui:230
 msgid "Enable transitions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:269
+#: ../data/SettingsDialog.ui:232
 msgid "Add a transition on track change"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:285
+#: ../data/SettingsDialog.ui:248
 msgid "Duration"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:287
+#: ../data/SettingsDialog.ui:250
 msgid "Transition duration in milliseconds"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:303
+#: ../data/SettingsDialog.ui:266
 msgid "ReplayGain"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:305
+#: ../data/SettingsDialog.ui:268
 msgid "Apply audio correction on the fly"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:314 ../lollypop/menu_search.py:41
+#: ../data/SettingsDialog.ui:277 ../lollypop/menu_search.py:41
 msgid "Disabled"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:315
+#: ../data/SettingsDialog.ui:278
 msgid "Track"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:316 ../data/SmartPlaylistWidget.ui:30
+#: ../data/SettingsDialog.ui:279 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:335
+#: ../data/SettingsDialog.ui:298
 msgid "Music"
 msgstr "Ceol"
 
-#: ../data/SettingsDialog.ui:340
+#: ../data/SettingsDialog.ui:303
 msgid "Collection"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:351 ../lollypop/dialog_settings.py:241
+#: ../data/SettingsDialog.ui:314 ../lollypop/dialog_settings.py:245
 msgid "Reset collection"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:390
+#: ../data/SettingsDialog.ui:353
+msgid "Import settings"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:360
+msgid "Update music if files added to collection"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:376 ../data/SettingsDialog.ui:415
+msgid "You need to reset collection"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:377
+msgid "Show compilations"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:379
+msgid ""
+"A compilation is an album without any \"Album artist tag\"\n"
+"and with different artists"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:396
+msgid "Import playlists"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:398
+msgid "Search for playlists in your collection"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:414
+msgid "Import advanced tags"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:417
+msgid "Performers, composers, …"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:435
 msgid "Statistics"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:421
+#: ../data/SettingsDialog.ui:466
 msgid "Remove devices managed by Lollypop"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:422 ../lollypop/menu_artist.py:75
+#: ../data/SettingsDialog.ui:467 ../lollypop/menu_artist.py:75
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
 #: ../lollypop/menu_objects.py:77 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:435 ../lollypop/shown.py:35
+#: ../data/SettingsDialog.ui:480 ../lollypop/shown.py:34
 #: ../lollypop/toolbar_end.py:249
 msgid "Web"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:440
+#: ../data/SettingsDialog.ui:485
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:445
+#: ../data/SettingsDialog.ui:490
 msgid "Allow network access"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:462
+#: ../data/SettingsDialog.ui:507
 msgid "Background data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:464
+#: ../data/SettingsDialog.ui:509
 msgid "Search artwork in background"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:485
+#: ../data/SettingsDialog.ui:530
 msgid "Song playback"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:496 ../data/SettingsDialog.ui:640
-#: ../data/SettingsDialog.ui:697 ../data/SettingsDialog.ui:754
+#: ../data/SettingsDialog.ui:541 ../data/SettingsDialog.ui:685
+#: ../data/SettingsDialog.ui:742 ../data/SettingsDialog.ui:799
 msgid "Enabled"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:513
+#: ../data/SettingsDialog.ui:558
 msgid "Use a recent version of youtube-dl"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:529
+#: ../data/SettingsDialog.ui:574
 msgid "Google API-key"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:553 ../data/SettingsDialog.ui:666
-#: ../data/SettingsDialog.ui:723 ../data/SettingsDialog.ui:795
-#: ../lollypop/dialog_settings.py:186
+#: ../data/SettingsDialog.ui:598 ../data/SettingsDialog.ui:711
+#: ../data/SettingsDialog.ui:768 ../data/SettingsDialog.ui:840
+#: ../lollypop/dialog_settings.py:189
 msgid "Connect"
 msgstr "Ceangail"
 
-#: ../data/SettingsDialog.ui:576
+#: ../data/SettingsDialog.ui:621
 msgid "Use an Invidious server"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:591
+#: ../data/SettingsDialog.ui:636
 msgid "No server set"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:601
+#: ../data/SettingsDialog.ui:646
 msgid "What is Invidious ?"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:674
 msgid "Search (artwork, songs, ...)"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:770
+#: ../data/SettingsDialog.ui:815
 msgid "ListenBrainz API-Key"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:820 ../lollypop/menu_playback.py:144
+#: ../data/SettingsDialog.ui:865 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
 msgid "Deezer"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:836
+#: ../data/SettingsDialog.ui:881
 msgid "AudioDB"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:852 ../lollypop/menu_playback.py:164
+#: ../data/SettingsDialog.ui:897 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
 msgid "Spotify"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:868
+#: ../data/SettingsDialog.ui:913
 msgid "FANART.TV"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:884
+#: ../data/SettingsDialog.ui:929
 msgid "ITunes"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:900
+#: ../data/SettingsDialog.ui:945
 msgid "Google"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:916
+#: ../data/SettingsDialog.ui:961
 msgid "Startpage"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:932
+#: ../data/SettingsDialog.ui:977
 msgid "DuckDuckGo"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:948
+#: ../data/SettingsDialog.ui:993
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: ../data/SettingsDialog.ui:969 ../lollypop/shown.py:36
+#: ../data/SettingsDialog.ui:1014 ../lollypop/shown.py:35
 msgid "Lyrics"
 msgstr "Focail"
 
-#: ../data/SettingsDialog.ui:974
+#: ../data/SettingsDialog.ui:1019
 msgid "Wikia"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:990
+#: ../data/SettingsDialog.ui:1035
 msgid "Genius"
 msgstr ""
 
@@ -1246,20 +1270,20 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:328
+#: ../lollypop/collection_scanner.py:336
 msgid "Resetting database"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:498
+#: ../lollypop/collection_scanner.py:506
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:802 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:84 ../lollypop/tagreader.py:100
-#: ../lollypop/tagreader.py:171 ../lollypop/tagreader.py:219
-#: ../lollypop/tagreader.py:241 ../lollypop/tagreader.py:257
-#: ../lollypop/tagreader.py:261 ../lollypop/tagreader.py:271
-#: ../lollypop/tagreader.py:279
+#: ../lollypop/tagreader.py:116 ../lollypop/tagreader.py:187
+#: ../lollypop/tagreader.py:235 ../lollypop/tagreader.py:257
+#: ../lollypop/tagreader.py:273 ../lollypop/tagreader.py:277
+#: ../lollypop/tagreader.py:287 ../lollypop/tagreader.py:295
 msgid "Unknown"
 msgstr "Anaithnid"
 
@@ -1295,31 +1319,39 @@ msgstr ""
 msgid "Select an application"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:84
+#: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:86
+#: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:88
+#: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:202 ../lollypop/dialog_settings.py:337
+#: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:247
+#: ../lollypop/dialog_settings.py:251
 msgid "Are you sure?"
 msgstr ""
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
+msgstr ""
+
+#: ../lollypop/helper_web_wikipedia.py:117
+msgid "band"
+msgstr ""
+
+#: ../lollypop/helper_web_wikipedia.py:117
+msgid "singer"
 msgstr ""
 
 #: ../lollypop/inhibitor.py:101
@@ -1363,7 +1395,7 @@ msgid "Change Artwork"
 msgstr ""
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
-#: ../lollypop/shown.py:41 ../lollypop/widgets_banner_current_albums.py:65
+#: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
 msgid "Playing albums"
 msgstr "Albaim á sheinm"
 
@@ -1406,11 +1438,11 @@ msgid "Related tracks"
 msgstr ""
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
-#: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
+#: ../lollypop/playlists.py:354 ../lollypop/shown.py:69
 msgid "Loved tracks"
 msgstr "Rianta is fearr"
 
-#: ../lollypop/menu_playback.py:132 ../lollypop/shown.py:68
+#: ../lollypop/menu_playback.py:132 ../lollypop/shown.py:67
 msgid "Popular tracks"
 msgstr "Rianta móréilimh"
 
@@ -1502,7 +1534,7 @@ msgstr "Deimhnigh"
 msgid "New playlist"
 msgstr "Seinnliosta nua"
 
-#: ../lollypop/menu_search.py:33 ../lollypop/shown.py:40
+#: ../lollypop/menu_search.py:33 ../lollypop/shown.py:39
 msgid "Search"
 msgstr "Cuardach"
 
@@ -1538,11 +1570,11 @@ msgstr ""
 msgid "Loading…"
 msgstr ""
 
-#: ../lollypop/menu_similars.py:179
+#: ../lollypop/menu_similars.py:180
 msgid "Similar artists"
 msgstr ""
 
-#: ../lollypop/menu_similars.py:269
+#: ../lollypop/menu_similars.py:270
 msgid "No results"
 msgstr ""
 
@@ -1600,46 +1632,42 @@ msgid "Seldomly played albums"
 msgstr ""
 
 #: ../lollypop/shown.py:31
-msgid "Radios"
-msgstr "Raidiónna"
-
-#: ../lollypop/shown.py:32
 msgid "Years"
 msgstr ""
 
-#: ../lollypop/shown.py:33
+#: ../lollypop/shown.py:32
 msgid "Genres"
 msgstr ""
 
-#: ../lollypop/shown.py:34
+#: ../lollypop/shown.py:33
 msgid "Genres (list)"
 msgstr ""
 
-#: ../lollypop/shown.py:38 ../lollypop/view_artists_line.py:165
+#: ../lollypop/shown.py:37 ../lollypop/view_artists_line.py:165
 msgid "Artists"
 msgstr ""
 
-#: ../lollypop/shown.py:39
+#: ../lollypop/shown.py:38
 msgid "Artists (list)"
 msgstr ""
 
-#: ../lollypop/shown.py:42
+#: ../lollypop/shown.py:41
 msgid "Compilations"
 msgstr "Teaglaimí"
 
-#: ../lollypop/shown.py:69
+#: ../lollypop/shown.py:68
 msgid "Random tracks"
 msgstr "Rianta randamacha"
 
-#: ../lollypop/shown.py:71
+#: ../lollypop/shown.py:70
 msgid "Recently played tracks"
 msgstr ""
 
-#: ../lollypop/shown.py:72
+#: ../lollypop/shown.py:71
 msgid "Seldomly played tracks"
 msgstr ""
 
-#: ../lollypop/shown.py:73
+#: ../lollypop/shown.py:72
 msgid "All tracks"
 msgstr ""
 
@@ -1690,11 +1718,11 @@ msgstr ""
 msgid "Why not listen to?"
 msgstr ""
 
-#: ../lollypop/view_information.py:159
+#: ../lollypop/view_information.py:160
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/view_information.py:276
+#: ../lollypop/view_information.py:294
 #, python-format
 msgid "No information for %s"
 msgstr ""
@@ -1753,20 +1781,20 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
-#: ../lollypop/widgets_artwork.py:143
+#: ../lollypop/widgets_artwork.py:144
 msgid "Select artwork"
 msgstr "Rognaigh saothar ealaíne"
 
-#: ../lollypop/widgets_artwork.py:184
+#: ../lollypop/widgets_artwork.py:187
 msgid "Remove"
 msgstr "Bain"
 
-#: ../lollypop/widgets_banner_artist.py:291
+#: ../lollypop/widgets_banner_artist.py:298
 #, fuzzy
 msgid "Add to current playlist"
 msgstr "Cuir le seinnliosta"
 
-#: ../lollypop/widgets_banner_artist.py:298
+#: ../lollypop/widgets_banner_artist.py:305
 #, fuzzy
 msgid "Remove from current playlist"
 msgstr "Cuir le seinnliosta"
@@ -1924,17 +1952,12 @@ msgstr ""
 msgid "Compilation"
 msgstr "Teaglaim"
 
-#: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:112
+#: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr ""
 
-#: ../lollypop/wikipedia.py:117
-msgid "band"
-msgstr ""
-
-#: ../lollypop/wikipedia.py:117
-msgid "singer"
-msgstr ""
+#~ msgid "Radios"
+#~ msgstr "Raidiónna"
 
 #~ msgid "Use dark theme variant"
 #~ msgstr "Úsáid leagan cuma dorcha"
