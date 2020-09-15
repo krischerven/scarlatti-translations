@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 13:30+0200\n"
+"POT-Creation-Date: 2020-09-15 11:17+0200\n"
 "PO-Revision-Date: 2020-09-15 09:17+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -405,11 +405,11 @@ msgstr "Donations :"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1344,15 +1344,15 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr "Impossible de contacter ce service"
 
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:337
 msgid "Resetting database"
 msgstr "Réinitialisation de la base de données"
 
-#: ../lollypop/collection_scanner.py:506
+#: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
 msgstr "Scan désactivé, collection manquante"
 
-#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1361,15 +1361,15 @@ msgstr "Scan désactivé, collection manquante"
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: ../lollypop/container_notification.py:71
+#: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
 msgstr "Télécharger automatiquement les images des albums et artistes ?"
 
-#: ../lollypop/container_notification.py:72
+#: ../lollypop/container_notification.py:97
 msgid "Yes"
 msgstr "Oui"
 
-#: ../lollypop/container_notification.py:85
+#: ../lollypop/container_notification.py:106
 msgid "Please consider a donation to the project"
 msgstr "Merci de considérer un don au projet"
 
@@ -1768,13 +1768,21 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the La la Le le Les les"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
 msgstr "Commande youtube-dl manquante"
 
-#: ../lollypop/view_albums_box.py:59 ../lollypop/view_lyrics.py:169
+#: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
 msgstr "Réseau indisponible ou désactivé dans les paramètres"
+
+#: ../lollypop/view_albums_box.py:193
+msgid "New albums available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
+msgid "Refresh"
+msgstr "Rafraîchir"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1791,6 +1799,10 @@ msgstr "Albums populaires en ce moment"
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
 msgstr "Pourquoi ne pas écouter ceci ?"
+
+#: ../lollypop/view_artists_rounded.py:154
+msgid "New artists available"
+msgstr ""
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"
@@ -2558,9 +2570,6 @@ msgstr "Supprimer de la liste de lecture"
 
 #~ msgid "New tracks available"
 #~ msgstr "Nouveaux morceaux disponibles"
-
-#~ msgid "Refresh"
-#~ msgstr "Rafraîchir"
 
 #~ msgid "Unplayed albums"
 #~ msgstr "Albums jamais joués"

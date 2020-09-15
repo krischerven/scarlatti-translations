@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 13:30+0200\n"
+"POT-Creation-Date: 2020-09-15 11:17+0200\n"
 "PO-Revision-Date: 2020-05-07 18:27+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -409,11 +409,11 @@ msgstr "Donatius:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
 msgid "PayPal"
 msgstr "Paypal"
 
@@ -1310,15 +1310,15 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:337
 msgid "Resetting database"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:506
+#: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
 msgstr "Seguiment desactivat, manca col·lecció"
 
-#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1327,15 +1327,15 @@ msgstr "Seguiment desactivat, manca col·lecció"
 msgid "Unknown"
 msgstr "Desconegut"
 
-#: ../lollypop/container_notification.py:71
+#: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
 msgstr "Voleu baixar automàticament les caràtules d'àlbums i artistes?"
 
-#: ../lollypop/container_notification.py:72
+#: ../lollypop/container_notification.py:97
 msgid "Yes"
 msgstr "Sí"
 
-#: ../lollypop/container_notification.py:85
+#: ../lollypop/container_notification.py:106
 msgid "Please consider a donation to the project"
 msgstr "Considereu fer una donació al projecte"
 
@@ -1734,13 +1734,21 @@ msgstr "%s m"
 msgid "The the"
 msgstr "The the El el La la Els els Les les L' l' L’ l’"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
 msgstr "Manca l'ordre youtube-dl"
 
-#: ../lollypop/view_albums_box.py:59 ../lollypop/view_lyrics.py:169
+#: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
 msgstr "La xarxa no està disponible o desactivada a la configuració"
+
+#: ../lollypop/view_albums_box.py:193
+msgid "New albums available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
+msgid "Refresh"
+msgstr "Actualitza"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1757,6 +1765,10 @@ msgstr "Àlbums populars actualment"
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
 msgstr "I si escolteu a...?"
+
+#: ../lollypop/view_artists_rounded.py:154
+msgid "New artists available"
+msgstr ""
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"
@@ -2487,9 +2499,6 @@ msgstr "Elimina de la llista de reproducció"
 
 #~ msgid "New tracks available"
 #~ msgstr "Hi ha noves pistes disponibles"
-
-#~ msgid "Refresh"
-#~ msgstr "Actualitza"
 
 #~ msgid "Unplayed albums"
 #~ msgstr "Àlbums no reproduits"

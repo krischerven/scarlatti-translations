@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 13:30+0200\n"
+"POT-Creation-Date: 2020-09-15 11:17+0200\n"
 "PO-Revision-Date: 2020-09-15 09:17+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -408,11 +408,11 @@ msgstr "Bağış:"
 msgid "Liberapay"
 msgstr "Liberapay ✓"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
 msgid "Patreon"
 msgstr "Patreon ✓"
 
-#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
 msgid "PayPal"
 msgstr "PayPal ✓"
 
@@ -1348,15 +1348,15 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr "Bu servisle iletişim kurulamıyor"
 
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:337
 msgid "Resetting database"
 msgstr "Veri tabanı sıfırlanıyor"
 
-#: ../lollypop/collection_scanner.py:506
+#: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
 msgstr "Tarama devre dışı, koleksiyon eksik"
 
-#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1365,15 +1365,15 @@ msgstr "Tarama devre dışı, koleksiyon eksik"
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: ../lollypop/container_notification.py:71
+#: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
 msgstr "Albümleri ve sanatçı kapak resimlerini kendiliğinden indir?"
 
-#: ../lollypop/container_notification.py:72
+#: ../lollypop/container_notification.py:97
 msgid "Yes"
 msgstr "Evet"
 
-#: ../lollypop/container_notification.py:85
+#: ../lollypop/container_notification.py:106
 msgid "Please consider a donation to the project"
 msgstr "Lütfen projeye bağış yapmayı düşünün"
 
@@ -1772,13 +1772,21 @@ msgstr "%s d"
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
 msgstr "youtube-dl komutu eksik"
 
-#: ../lollypop/view_albums_box.py:59 ../lollypop/view_lyrics.py:169
+#: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
 msgstr "Ağ kullanılamıyor veya ayarlarda devre dışı bırakılmış"
+
+#: ../lollypop/view_albums_box.py:193
+msgid "New albums available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
+msgid "Refresh"
+msgstr "Tazele"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1795,6 +1803,10 @@ msgstr "Şu an gözde albümler"
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
 msgstr "Neden dinlemiyorsun?"
+
+#: ../lollypop/view_artists_rounded.py:154
+msgid "New artists available"
+msgstr ""
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"
@@ -2557,9 +2569,6 @@ msgstr "Çalma listesinden kaldır"
 
 #~ msgid "New tracks available"
 #~ msgstr "Yeni parçalar var"
-
-#~ msgid "Refresh"
-#~ msgstr "Tazele"
 
 #~ msgid "Unplayed albums"
 #~ msgstr "Çalınmamış albümler"

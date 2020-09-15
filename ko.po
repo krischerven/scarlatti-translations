@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 13:30+0200\n"
+"POT-Creation-Date: 2020-09-15 11:17+0200\n"
 "PO-Revision-Date: 2020-06-14 11:41+0000\n"
 "Last-Translator: MarongHappy <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -396,11 +396,11 @@ msgstr "기부:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1295,15 +1295,15 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:337
 msgid "Resetting database"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:506
+#: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
 msgstr "스캔 비활성화, 누락된 모음집"
 
-#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1312,15 +1312,15 @@ msgstr "스캔 비활성화, 누락된 모음집"
 msgid "Unknown"
 msgstr "알 수 없음"
 
-#: ../lollypop/container_notification.py:71
+#: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
 msgstr "자동으로 앨범 및 아티스트 아트워크를 다운로드하시겠습니까?"
 
-#: ../lollypop/container_notification.py:72
+#: ../lollypop/container_notification.py:97
 msgid "Yes"
 msgstr "예"
 
-#: ../lollypop/container_notification.py:85
+#: ../lollypop/container_notification.py:106
 msgid "Please consider a donation to the project"
 msgstr "프로젝트에 기부하는 것을 고려해 주십시오"
 
@@ -1719,13 +1719,21 @@ msgstr "%s분"
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
 msgstr "누락된 youtube-dl 명령"
 
-#: ../lollypop/view_albums_box.py:59 ../lollypop/view_lyrics.py:169
+#: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
 msgstr "네트워크를 사용할 수 없거나 설정에서 비활성화"
+
+#: ../lollypop/view_albums_box.py:193
+msgid "New albums available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
+msgid "Refresh"
+msgstr ""
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1742,6 +1750,10 @@ msgstr "현재 인기있는 앨범"
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
 msgstr "들어보시겠습니까?"
+
+#: ../lollypop/view_artists_rounded.py:154
+msgid "New artists available"
+msgstr ""
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"

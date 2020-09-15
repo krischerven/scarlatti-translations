@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 13:30+0200\n"
+"POT-Creation-Date: 2020-09-15 11:17+0200\n"
 "PO-Revision-Date: 2020-09-14 11:15+0000\n"
 "Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
 "co.jp>\n"
@@ -403,11 +403,11 @@ msgstr "寄付:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:86
+#: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1333,15 +1333,15 @@ msgstr ""
 msgid "Can't contact this service"
 msgstr "このサービスに接続できません"
 
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:337
 msgid "Resetting database"
 msgstr "データベースをリセット中"
 
-#: ../lollypop/collection_scanner.py:506
+#: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
 msgstr "コレクションがないためスキャンは無効です"
 
-#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1350,15 +1350,15 @@ msgstr "コレクションがないためスキャンは無効です"
 msgid "Unknown"
 msgstr "不明"
 
-#: ../lollypop/container_notification.py:71
+#: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
 msgstr "アルバムとアーティストのアートワークを自動的にダウンロードしますか?"
 
-#: ../lollypop/container_notification.py:72
+#: ../lollypop/container_notification.py:97
 msgid "Yes"
 msgstr "はい"
 
-#: ../lollypop/container_notification.py:85
+#: ../lollypop/container_notification.py:106
 msgid "Please consider a donation to the project"
 msgstr "プロジェクトへの寄付をご検討ください"
 
@@ -1757,13 +1757,21 @@ msgstr "%s 分"
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_box.py:54
+#: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
 msgstr "youtube-dl コマンドがありません"
 
-#: ../lollypop/view_albums_box.py:59 ../lollypop/view_lyrics.py:169
+#: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
 msgstr "ネットワークが利用不可、またはネットワーク設定が無効になっています"
+
+#: ../lollypop/view_albums_box.py:193
+msgid "New albums available"
+msgstr ""
+
+#: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
+msgid "Refresh"
+msgstr "更新"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1780,6 +1788,10 @@ msgstr "現時点で人気のアルバム"
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
 msgstr "聴いてみませんか?"
+
+#: ../lollypop/view_artists_rounded.py:154
+msgid "New artists available"
+msgstr ""
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"
@@ -2511,9 +2523,6 @@ msgstr "プレイリストから削除"
 
 #~ msgid "New tracks available"
 #~ msgstr "新しいトラックが利用可能です"
-
-#~ msgid "Refresh"
-#~ msgstr "更新"
 
 #~ msgid "Unplayed albums"
 #~ msgstr "未再生のアルバム"
