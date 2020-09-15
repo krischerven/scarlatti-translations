@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-14 13:30+0200\n"
-"PO-Revision-Date: 2020-09-07 18:39+0000\n"
+"PO-Revision-Date: 2020-09-15 09:17+0000\n"
 "Last-Translator: ihor_ck <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/uk/>\n"
@@ -62,7 +62,7 @@ msgstr "Доступ до мережі"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:76
 msgid "Save artwork/popularity in tags"
-msgstr "Зберігати обгортку/популярність в позначниках"
+msgstr "Зберігати обкладинку/популярність в мітках"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Window maximized"
@@ -90,19 +90,19 @@ msgstr "Показані пропозиції"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:101
 msgid "Play featured tracks"
-msgstr ""
+msgstr "Відтворення вибраних композицій"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:106
 msgid "Allow syncing to USB disks"
-msgstr "Дозволити синхронізувати з USB дисками"
+msgstr "Дозволити синхронізувати з носіями USB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:116
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
-"Якщо позначено, Lollypop використовуватиме цей сервер замість YouTube. Див. "
-"https://github.com/omarroth/invidious"
+"Якщо позначено, Lollypop використовуватиме цей сервер замість YouTube. "
+"Докладніше https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:121
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -142,7 +142,7 @@ msgstr "Ключ Google Custom Search API"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Favorite tag editor"
-msgstr "Улюблений редактор позначок"
+msgstr "Улюблений редактор міток"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover file"
@@ -161,8 +161,8 @@ msgstr "Версія бази даних"
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
-"Скидання цього значення перезавантажить базу даних, популярні альбоми будуть "
-"відновлені"
+"Скидання цього значення перезавантажить базу даних, популярні альбоми буде "
+"відновлено"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:176
 msgid "Albums cover size"
@@ -186,7 +186,7 @@ msgstr "Показувати обгортку виконавця"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
-msgstr "Темний варіант теми"
+msgstr "Темна тема GTK"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Disable use of client side window decorations (headerbar)"
@@ -202,7 +202,7 @@ msgstr "Обробляти компіляції"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Handle performers, compositors, ..."
-msgstr ""
+msgstr "Обробляти виконавців, композиторів, ..."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:226
 msgid "Show compilations in albums view"
@@ -218,17 +218,17 @@ msgstr "Типово долучати альбоми"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Smart sort for artist"
-msgstr "Розумне сортування виконаців"
+msgstr "Розумне впорядкування за виконавцем"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:242
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
-msgstr "Напр: The Beatles сортувати як Beatles. Потребує скидання бази даних"
+msgstr "Напр: The Beatles впорядкувати як Beatles. Потребує скидання бази даних"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
-"Показувати позначник сортування в якості виконавця. Може потребувати "
-"скидання бази даних"
+"Показувати мітку впорядкування в якості виконавця. Може потребувати скидання "
+"бази даних"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:247
 msgid "Ex: Beatles, The"
@@ -252,7 +252,7 @@ msgstr "Кількість елементів у виглядах"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:274
 msgid "Show track number from tags"
-msgstr "Показувати номер доріжки з позначок"
+msgstr "Показувати номер доріжки з міток"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:284
 msgid "JPG cover quality"
@@ -264,7 +264,7 @@ msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
-msgstr "Примусовий одноколонковий режим"
+msgstr "Примусовий режим одного стовпчика"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:294
 msgid "Volume rate"
@@ -276,11 +276,11 @@ msgstr "0.0-1.0"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:299
 msgid "Equalizer enabled"
-msgstr "Еквалайзер увімкнений"
+msgstr "Еквалайзер увімкнено"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:319
 msgid "Show labels in sidebar"
-msgstr "Показувати мітки у бічній панелі"
+msgstr "Показувати ярлики у бічній панелі"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:324
 msgid "Smooth track transitions"
@@ -288,7 +288,7 @@ msgstr "Плавні переходи між доріжками"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "Smooth track transitions only in party mode"
-msgstr "Плавні переходи між доріжками тільки у режимі вечірки"
+msgstr "Плавні переходи між доріжками лише в режимі вечірки"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Transition duration in ms"
@@ -296,23 +296,23 @@ msgstr "Тривалість переходу у мс"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:339
 msgid "Fade effect on playback status change"
-msgstr "Ефект заникання за зміни статусу відтворення"
+msgstr "Ефект заникання за зміни стану відтворення"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:344
 msgid "Fade duration in ms"
-msgstr "Тривалість заникання у мс"
+msgstr "Тривалість затухання в мс"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:349
 msgid "Fade effect only in party mode"
-msgstr "Ефект заникання тільки у режимі вечірки"
+msgstr "Ефект затухання лише в режимі вечірки"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
-msgstr "Тасувати доріжки"
+msgstr "Перемішати доріжки"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:359
 msgid "Ignore internal symlinks"
-msgstr "Ігнорувати внутрішні симпосилання"
+msgstr "Ігнорувати внутрішні символьні посилання"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:369
 msgid "ReplayGain state"
@@ -335,14 +335,18 @@ msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
+"Виконує суворе жорстке обмеження з характеристиками soft-knee, "
+"використовуючи поріг -6 дБ"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:384
 msgid "Possibilities for powermanagement options"
-msgstr "Можливості для опцій керування споживанням"
+msgstr "Можливості для параметрів керування енергоспоживанням"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:385
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr "Зупинити збереження екрану та режим сну під час відтворення."
+msgstr ""
+"Цей параметр вимикає заставку та призупиняє роботу під час відтворення "
+"Lollypop."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:389
 msgid "Repeat"
@@ -350,7 +354,7 @@ msgstr "Повторення"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:394 ../data/SettingsDialog.ui:195
 msgid "Order albums by"
-msgstr "Сортувати альбоми за"
+msgstr "Впорядкувати альбоми за"
 
 #: ../data/AboutDialog.ui.in:13
 msgid "A music player for GNOME."
@@ -364,7 +368,7 @@ msgstr "Відвідати сторінку Lollypop"
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr ""
+msgstr "Ihor Hordiichuk"
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -394,7 +398,7 @@ msgstr ""
 
 #: ../data/AboutDialog.ui.in:67
 msgid "Donations:"
-msgstr "Пожертвування:"
+msgstr "Внески:"
 
 #: ../data/AboutDialog.ui.in:74
 msgid "Liberapay"
@@ -427,11 +431,11 @@ msgid ""
 "online; and provides native support for ReplayGain."
 msgstr ""
 "Lollypop — це легкий, сучасний музичний програвач, спроєктований для "
-"відмінної роботи у стільниці GNOME. Він також пропонує режим вечірки, що "
-"автоматично обиратиме підхожі до вечірки списки відтворення; дозволяє "
-"керування з вашого дивану завдяки його повноекранному режиму; вибирає "
-"тексти, обкладинки та біографії з мережі та надає вбудовану підтримку "
-"ReplayGain."
+"відмінної роботи зі стільничним середовищем GNOME. Він також пропонує режим "
+"вечірки, що автоматично обиратиме підхожі до вечірки списки відтворення; "
+"дозволяє керування з вашого дивану завдяки його повноекранному режиму; "
+"знаходить тексти, обкладинки та біографії в мережі та надає вбудовану "
+"підтримку ReplayGain."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -451,7 +455,7 @@ msgstr "Аудіо-скробблінг –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
-msgstr "Відтворювач музики"
+msgstr "Музичний програвач"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;"
@@ -467,11 +471,11 @@ msgstr "Відтворити/Призупинити"
 #: ../lollypop/assistant_musicbrainz.py:38
 #: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:39
 msgid "Next"
-msgstr "Наступний"
+msgstr "Наступна"
 
 #: ../data/org.gnome.Lollypop.desktop.in:29 ../lollypop/notification.py:35
 msgid "Previous"
-msgstr "Попередній"
+msgstr "Попередня"
 
 #: ../data/Appmenu.ui:45
 msgid "Update music"
@@ -479,7 +483,7 @@ msgstr "Оновити музику"
 
 #: ../data/Appmenu.ui:63
 msgid "Mini player"
-msgstr "Міні-ппрогравач"
+msgstr "Міні-програвач"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
@@ -491,7 +495,7 @@ msgstr "_Параметри"
 
 #: ../data/Appmenu.ui:122
 msgid "_Keyboard Shortcuts"
-msgstr "_Клавіатурні скорочення"
+msgstr "_Комбінації клавіш"
 
 #: ../data/Appmenu.ui:136
 msgid "_About Lollypop"
@@ -578,7 +582,7 @@ msgstr "Відтворити"
 
 #: ../data/PlaylistBannerWidget.ui:89
 msgid "Play playlist randomized"
-msgstr "Відтворити список випадково"
+msgstr "Відтворити список у випадковому порядку"
 
 #: ../data/PlaylistPopover.ui:23 ../data/RadioMenu.ui:50
 msgid "Name:"
@@ -603,7 +607,7 @@ msgstr "Зовнішній вигляд"
 
 #: ../data/SettingsDialog.ui:51 ../data/SettingsDialog.ui:54
 msgid "Whether the application should use a dark theme"
-msgstr ""
+msgstr "Чи повинна програма застосовувати темну тему"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
@@ -611,15 +615,15 @@ msgstr "Темний режим"
 
 #: ../data/SettingsDialog.ui:70
 msgid "Single column mode"
-msgstr ""
+msgstr "Режим одного стовпчика"
 
 #: ../data/SettingsDialog.ui:72
 msgid "Only show a single column for tracks"
-msgstr ""
+msgstr "Показувати лише один стовпчик для композицій"
 
 #: ../data/SettingsDialog.ui:105
 msgid "Artwork size"
-msgstr ""
+msgstr "Розмір обкладинки"
 
 #: ../data/SettingsDialog.ui:122 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -635,35 +639,35 @@ msgstr "Відтворення музики у фоновому режимі"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Restore state on startup"
-msgstr "Відновлювати стан при запуску"
+msgstr "Відновлювати стан під час запуску"
 
 #: ../data/SettingsDialog.ui:161
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Відновлення поточного відтворення та вигляду"
 
 #: ../data/SettingsDialog.ui:177
 msgid "Save changes to file"
-msgstr "Зберегти зміни у файлі"
+msgstr "Зберегти зміни до файлу"
 
 #: ../data/SettingsDialog.ui:179
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Зберегти обкладинки та оцінки до файлів"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Альбоми буде відсортовано за цим пунктом"
 
 #: ../data/SettingsDialog.ui:205
 msgid "Artist - year"
-msgstr ""
+msgstr "Виконавець-рік"
 
 #: ../data/SettingsDialog.ui:206
 msgid "Artist - title"
-msgstr ""
+msgstr "Виконавець-назва"
 
 #: ../data/SettingsDialog.ui:207
 msgid "Title"
-msgstr ""
+msgstr "Назва"
 
 #: ../data/SettingsDialog.ui:208 ../data/SmartPlaylistWidget.ui:33
 msgid "Year"
@@ -685,7 +689,7 @@ msgstr "Увімкнути плавні переходи"
 
 #: ../data/SettingsDialog.ui:232
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Додати плавний перехід між композиціями"
 
 #: ../data/SettingsDialog.ui:248
 msgid "Duration"
@@ -701,7 +705,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:268
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Застосувати автокоригування звуку"
 
 #: ../data/SettingsDialog.ui:277 ../lollypop/menu_search.py:41
 msgid "Disabled"
