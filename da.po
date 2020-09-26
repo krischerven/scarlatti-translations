@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-15 11:17+0200\n"
-"PO-Revision-Date: 2020-09-16 16:57+0000\n"
+"PO-Revision-Date: 2020-09-27 14:33+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "da/>\n"
@@ -748,6 +748,8 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"En samling er et album uden \"Albumkunstnermærkat\"\n"
+"og med forskellige kunstnere"
 
 #: ../data/SettingsDialog.ui:396
 msgid "Import playlists"
@@ -759,7 +761,7 @@ msgstr "Søg efter afspilningsliste i din samling"
 
 #: ../data/SettingsDialog.ui:415
 msgid "Import advanced tags"
-msgstr ""
+msgstr "Importér avancerede mærkater"
 
 #: ../data/SettingsDialog.ui:417
 msgid "Performers, composers, …"
@@ -802,7 +804,7 @@ msgstr "Søg efter billede i baggrunden"
 
 #: ../data/SettingsDialog.ui:530
 msgid "Song playback"
-msgstr ""
+msgstr "Afspilning af sang"
 
 #: ../data/SettingsDialog.ui:541 ../data/SettingsDialog.ui:685
 #: ../data/SettingsDialog.ui:742 ../data/SettingsDialog.ui:799
@@ -811,7 +813,7 @@ msgstr "Aktiveret"
 
 #: ../data/SettingsDialog.ui:558
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Brug en nyere version af youtube-dl"
 
 #: ../data/SettingsDialog.ui:574
 msgid "Google API-key"
@@ -1160,6 +1162,13 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+"\n"
+"For at bruge YoutTube-afspilningen\n"
+"skal du oprette en API-nøgle til\n"
+"\n"
+"<b>\"YouTube Data API v3\"</b>\n"
+"\n"
+"som bruges til afspilning af sange."
 
 #: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1176,10 +1185,12 @@ msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Åbn og log ind</b> i <b>Google Developer Console</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
-msgstr ""
+msgstr "Tilgå Google Developer Console"
 
 #: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
 #: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
@@ -1202,6 +1213,13 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>Tilføj et nyt projekt</b> i konsollen.\n"
+"\n"
+"<b>Tilføj en nyt API</b> og søg efter\n"
+"<b>\"YouTube Data API v3\"</b>.\n"
+"\n"
+"<b>Aktivér API'en</b> til dit projekt"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
@@ -1215,6 +1233,11 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Åbn <b>\"Loginoplysninger\"</b> i sidebjælken og\n"
+"<b>Opret loginoplysninger</b> til en <b>API-nøgle</b>.\n"
+"\n"
+"<b>Kopiér API-nøglen til Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:144
@@ -1224,7 +1247,7 @@ msgstr "Færdig"
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Scrobbling til %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1233,6 +1256,9 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"For at kunne sende din aktivitet til <b>%s</b>\n"
+"skal du tillade <b>Lollypop</b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
@@ -1246,25 +1272,30 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Åbn og log ind</b> på <b>%s</b>.\n"
+"Tillad herefter Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "Tilgå %s"
 
 #: ../lollypop/assistant_lastfm.py:62
 msgid "Just play a track"
-msgstr ""
+msgstr "Afspil bare et spor"
 
 #: ../lollypop/assistant_lastfm.py:64
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Klik på \"Færdig\"</b> når Lollypop er blevet tilladt."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Scrobbling til ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1272,6 +1303,9 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"For at kunne sende din aktivitet til <b>ListenBrainz</b>\n"
+"skal du tillade <b>Lollypop</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
@@ -1282,10 +1316,12 @@ msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Åbn og log ind</b> på <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Tilgå ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
@@ -1296,10 +1332,12 @@ msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Færdiggør</b> aktiveringen ved at kopiere <b>API-nøglen</b> i Lollypop."
 
 #: ../lollypop/assistant.py:142
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Kan ikke kontakte tjenesten"
 
 #: ../lollypop/collection_scanner.py:337
 msgid "Resetting database"
@@ -1353,17 +1391,17 @@ msgstr "Vælg et program"
 #: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Antal kunstnere: %s"
 
 #: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Antal albummer: %s"
 
 #: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Antal spor: %s"
 
 #: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
@@ -1735,7 +1773,7 @@ msgstr "Netværket er utilgængeligt eller deaktiveret i indstillingerne"
 
 #: ../lollypop/view_albums_box.py:193
 msgid "New albums available"
-msgstr ""
+msgstr "Nye albummer tilgængelige"
 
 #: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
 msgid "Refresh"
@@ -1759,7 +1797,7 @@ msgstr "Hvorfor ikke lytte til?"
 
 #: ../lollypop/view_artists_rounded.py:154
 msgid "New artists available"
-msgstr ""
+msgstr "Nye kunstnere tilgængelige"
 
 #: ../lollypop/view_information.py:160
 msgid "Loading information"
@@ -1866,7 +1904,7 @@ msgstr "Standard"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "Akustisk"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
@@ -1890,7 +1928,7 @@ msgstr "Dance"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "Disko"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
