@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-15 11:17+0200\n"
+"POT-Creation-Date: 2020-09-27 16:33+0200\n"
 "PO-Revision-Date: 2020-09-26 13:40+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -43,12 +43,12 @@ msgstr "Pozicio de fenestro (x kaj y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:56
 #: ../data/org.gnome.Lollypop.gschema.xml:71
 #: ../data/org.gnome.Lollypop.gschema.xml:111
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-#: ../data/org.gnome.Lollypop.gschema.xml:279
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:299
 #: ../data/org.gnome.Lollypop.gschema.xml:304
 #: ../data/org.gnome.Lollypop.gschema.xml:309
-#: ../data/org.gnome.Lollypop.gschema.xml:314
-#: ../data/org.gnome.Lollypop.gschema.xml:364
+#: ../data/org.gnome.Lollypop.gschema.xml:359
 msgid "INTERNAL"
 msgstr "INTERNA"
 
@@ -149,7 +149,7 @@ msgid "Favorite cover file"
 msgstr "Pliŝatata dosiero de albumartaĵo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:252
 msgid "Restart needed"
 msgstr "Restartigo necesas"
 
@@ -189,168 +189,164 @@ msgid "Use dark GTK theme"
 msgstr "Uzi malhelan GTK-etoson"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:206
-msgid "Disable use of client side window decorations (headerbar)"
-msgstr "Malŝalti klientajn ornamojn (titola breto)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Disable scrobbling usage"
 msgstr "Malŝalti la luditkolektadon"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:216
+#: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
 msgstr "Trakti kompilojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:221
+#: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
 msgstr "Konduki interpretistojn, komponistoj, ..."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
 msgstr "Montri kompilojn en la albuma vido"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231 ../data/SettingsDialog.ui:141
+#: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:141
 msgid "Continue playback when closed"
 msgstr "Daŭrigi ludadon kiam fermita"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Append albums by default"
 msgstr "Aldoni albumojn implicite"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Smart sort for artist"
 msgstr "Inteligenta ordigo por artisto"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:242
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Ekzemple: The Beatles ordigita kiel Beatles. Necesas reagordon de datumbazo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Montri ordigan markon kiel artisto. Eble necesas reagordon de datumbazo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:247
+#: ../data/org.gnome.Lollypop.gschema.xml:242
 msgid "Ex: Beatles, The"
 msgstr "Ekz: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Restore previous state"
 msgstr "Restarigi antaŭan staton"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "Disable MPRIS"
 msgstr "Malŝalti MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "Notifications behaviour"
 msgstr "Konduto de sciigoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:270
+#: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "Items count in views"
 msgstr "Nombro de eroj en vidoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Show track number from tags"
 msgstr "Montri trakan numeron el markoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:284
+#: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "JPG cover quality"
 msgstr "Kvalito de JPG-albumkovrilo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:285
+#: ../data/org.gnome.Lollypop.gschema.xml:280
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:289
+#: ../data/org.gnome.Lollypop.gschema.xml:284
 msgid "Force single column mode"
 msgstr "Neprigi unukolumnan reĝimon"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:294
+#: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Volume rate"
 msgstr "Nivelo de laŭteco"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:295
+#: ../data/org.gnome.Lollypop.gschema.xml:290
 msgid "0.0-1.0"
 msgstr "0.0-1.0"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:299
+#: ../data/org.gnome.Lollypop.gschema.xml:294
 msgid "Equalizer enabled"
 msgstr "Egaligilo enŝaltita"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:319
+#: ../data/org.gnome.Lollypop.gschema.xml:314
 msgid "Show labels in sidebar"
 msgstr "Vidigu etikedojn en flanka breto"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:324
+#: ../data/org.gnome.Lollypop.gschema.xml:319
 msgid "Smooth track transitions"
 msgstr "Glata transiro inter trakoj"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:329
+#: ../data/org.gnome.Lollypop.gschema.xml:324
 msgid "Smooth track transitions only in party mode"
 msgstr "Glataj transiroj inter pecoj nurnure en festreĝimo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:334
+#: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "Transition duration in ms"
 msgstr "Daŭro de transiro en ms"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:339
+#: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Fade effect on playback status change"
 msgstr "Dissolva efekto kiam stato de ludado aliiĝas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:344
+#: ../data/org.gnome.Lollypop.gschema.xml:339
 msgid "Fade duration in ms"
 msgstr "Dissolva daŭro en ms"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:349
+#: ../data/org.gnome.Lollypop.gschema.xml:344
 msgid "Fade effect only in party mode"
 msgstr "Dissolva efekto nurnure en festreĝimo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:349 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "Hazardelekti trakojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:359
+#: ../data/org.gnome.Lollypop.gschema.xml:354
 msgid "Ignore internal symlinks"
 msgstr "Ignori internajn simbolajn ligilojn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:369
+#: ../data/org.gnome.Lollypop.gschema.xml:364
 msgid "ReplayGain state"
 msgstr "Stato de ludada gajno"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:374
+#: ../data/org.gnome.Lollypop.gschema.xml:369
 msgid "ReplayGain value in dB"
 msgstr "Valuto de ludada gajno en dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:375
+#: ../data/org.gnome.Lollypop.gschema.xml:370
 msgid "Between -15 and 15"
 msgstr "Inter -15 kaj 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:379
+#: ../data/org.gnome.Lollypop.gschema.xml:374
 msgid "Applies signal compression/limiting to raw audio data"
 msgstr "Densigas/Limigas signalon de kruda aŭda datumo"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:380
+#: ../data/org.gnome.Lollypop.gschema.xml:375
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
 "Ĝi faras striktan malmolan limigon kun poiomaj ecoj, uzante sojlon de -6 dB"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:384
+#: ../data/org.gnome.Lollypop.gschema.xml:379
 msgid "Possibilities for powermanagement options"
 msgstr "Opcioj por energiŝparado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:385
+#: ../data/org.gnome.Lollypop.gschema.xml:380
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 "Tiu ĉi opcio malebligas ekrankurtenon kaj dormetadon kiam Lollypop ludas."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:389
+#: ../data/org.gnome.Lollypop.gschema.xml:384
 msgid "Repeat"
 msgstr "Ripeti"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:394 ../data/SettingsDialog.ui:195
+#: ../data/org.gnome.Lollypop.gschema.xml:389 ../data/SettingsDialog.ui:195
 msgid "Order albums by"
 msgstr "Ordigi albumojn laŭ"
 
@@ -466,11 +462,11 @@ msgstr "Ludi/Paŭzigi"
 #: ../lollypop/assistant_google.py:54 ../lollypop/assistant_google.py:71
 #: ../lollypop/assistant_lastfm.py:45 ../lollypop/assistant_lastfm.py:58
 #: ../lollypop/assistant_musicbrainz.py:38
-#: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:39
+#: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:37
 msgid "Next"
 msgstr "Sekva"
 
-#: ../data/org.gnome.Lollypop.desktop.in:29 ../lollypop/notification.py:35
+#: ../data/org.gnome.Lollypop.desktop.in:29 ../lollypop/notification.py:33
 msgid "Previous"
 msgstr "Antaŭa"
 
@@ -515,7 +511,7 @@ msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Aldoni al nunludanta ludlisto"
 
-#: ../data/ArtistInformation.ui:60
+#: ../data/ArtistInformation.ui:51
 msgid "Go to artist view"
 msgstr "Iri al vido de artisto"
 
@@ -1229,7 +1225,7 @@ msgid ""
 msgstr ""
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
-#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:144
+#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
 msgid "Finish"
 msgstr ""
 
@@ -1309,11 +1305,11 @@ msgid ""
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
 
-#: ../lollypop/assistant.py:142
+#: ../lollypop/assistant.py:145
 msgid "Can't contact this service"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:337
+#: ../lollypop/collection_scanner.py:338
 msgid "Resetting database"
 msgstr ""
 
@@ -1321,7 +1317,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "Skanado malebligita, mankas kolekto"
 
-#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:373
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:373
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1481,11 +1477,11 @@ msgid "Related tracks"
 msgstr ""
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
-#: ../lollypop/playlists.py:354 ../lollypop/shown.py:69
+#: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
 msgid "Loved tracks"
 msgstr "Ŝatataj trakoj"
 
-#: ../lollypop/menu_playback.py:132 ../lollypop/shown.py:67
+#: ../lollypop/menu_playback.py:132 ../lollypop/shown.py:68
 msgid "Popular tracks"
 msgstr "Popularaj trakoj"
 
@@ -1695,22 +1691,26 @@ msgid "Artists (list)"
 msgstr "Artistoj (listo)"
 
 #: ../lollypop/shown.py:41
+msgid "Current artist"
+msgstr ""
+
+#: ../lollypop/shown.py:42
 msgid "Compilations"
 msgstr "Kompiloj"
 
-#: ../lollypop/shown.py:68
+#: ../lollypop/shown.py:69
 msgid "Random tracks"
 msgstr "Hazardaj trakoj"
 
-#: ../lollypop/shown.py:70
+#: ../lollypop/shown.py:71
 msgid "Recently played tracks"
 msgstr "Ĵus luditaj pecoj"
 
-#: ../lollypop/shown.py:71
+#: ../lollypop/shown.py:72
 msgid "Seldomly played tracks"
 msgstr "Apenaŭ luditaj pecoj"
 
-#: ../lollypop/shown.py:72
+#: ../lollypop/shown.py:73
 msgid "All tracks"
 msgstr "Ĉiuj pecoj"
 
@@ -1733,7 +1733,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:345
+#: ../lollypop/utils.py:331
 msgid "The the"
 msgstr "La la The the"
 
@@ -1773,11 +1773,11 @@ msgstr "Kial ne aŭskulti?"
 msgid "New artists available"
 msgstr ""
 
-#: ../lollypop/view_information.py:160
+#: ../lollypop/view_information.py:161
 msgid "Loading information"
 msgstr "Ŝargante informojn"
 
-#: ../lollypop/view_information.py:294
+#: ../lollypop/view_information.py:320
 #, python-format
 msgid "No information for %s"
 msgstr "Neniu informo por %s"
@@ -2008,6 +2008,9 @@ msgstr "Kompilo"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr "Forigi el ludlisto"
+
+#~ msgid "Disable use of client side window decorations (headerbar)"
+#~ msgstr "Malŝalti klientajn ornamojn (titola breto)"
 
 #~ msgid "ITunes"
 #~ msgstr "ITunes"
