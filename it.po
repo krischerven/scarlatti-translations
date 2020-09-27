@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-27 16:33+0200\n"
-"PO-Revision-Date: 2020-09-15 09:17+0000\n"
+"PO-Revision-Date: 2020-09-28 20:40+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "it/>\n"
@@ -1218,6 +1218,13 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>Aggiungi un nuovo progetto</b> nella console.\n"
+"\n"
+"Successivamente, <b>aggiungi una nuova API</b> e\n"
+"cerca <b>\"YouTube Data API v3\"</b>.\n"
+"\n"
+"<b>Abilita questa API</b> per il tuo progetto"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
@@ -1231,6 +1238,11 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Apri <b>\"Credenziali\"</b> nella barra laterale e\n"
+"<b>Crea Credenziali</b> per ottenere l'<b>API-Key</b>.\n"
+"\n"
+"<b>Copia l'API-Key in Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
@@ -1249,6 +1261,9 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Per inviare le tue attività a <b>%s</b>,\n"
+"devi concedere i permessi a <b>Lollypop</b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
@@ -1262,6 +1277,9 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Apri e accedi</b> a <b>%s</b>.\n"
+"Poi, concedi i permessi a Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
@@ -1296,35 +1314,39 @@ msgstr ""
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "Collegati a ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Apri e accedi</b> a <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Accedi a ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "Copia chiave"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Completa</b> l'attivazione copiando l'<b>API-Key</b> in Lollypop."
 
 #: ../lollypop/assistant.py:145
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Impossibile contattare questo servizio"
 
 #: ../lollypop/collection_scanner.py:338
 msgid "Resetting database"
-msgstr ""
+msgstr "Azzeramento database"
 
 #: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
@@ -1374,17 +1396,17 @@ msgstr "Seleziona un'applicazione"
 #: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Numero Artisti: %s"
 
 #: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Numero Album: %s"
 
 #: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Numero Tracce: %s"
 
 #: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
@@ -1392,7 +1414,7 @@ msgstr "Disconnetti"
 
 #: ../lollypop/dialog_settings.py:251
 msgid "Are you sure?"
-msgstr ""
+msgstr "Sei sicuro?"
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
@@ -1516,7 +1538,7 @@ msgstr "Riproduci questa playlist"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Aggiungi questa playlist"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1705,7 +1727,7 @@ msgstr "Artisti (lista)"
 
 #: ../lollypop/shown.py:41
 msgid "Current artist"
-msgstr ""
+msgstr "Artista corrente"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1760,7 +1782,7 @@ msgstr "Rete non disponibile o disattivata nelle impostazioni"
 
 #: ../lollypop/view_albums_box.py:193
 msgid "New albums available"
-msgstr ""
+msgstr "Nuovi album disponibili"
 
 #: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
 msgid "Refresh"
@@ -1784,7 +1806,7 @@ msgstr "Perché non ascoltare?"
 
 #: ../lollypop/view_artists_rounded.py:154
 msgid "New artists available"
-msgstr ""
+msgstr "Nuovi artisti disponibili"
 
 #: ../lollypop/view_information.py:161
 msgid "Loading information"
@@ -1891,15 +1913,15 @@ msgstr "Predefinito"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "Acustico"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr ""
+msgstr "Bassi"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr ""
+msgstr "Bassi e Alti"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1915,31 +1937,31 @@ msgstr "Dance"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "Disco"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Drum'n'Bass"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Heavy Metal"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Jazz"
-msgstr ""
+msgstr "Jazz"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Latin"
-msgstr ""
+msgstr "Latina"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "Metal"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
-msgstr ""
+msgstr "New Age"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "Party"
@@ -1963,7 +1985,7 @@ msgstr "Techno"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Vocal"
-msgstr ""
+msgstr "Vocale"
 
 #: ../lollypop/widgets_equalizer.py:160 ../lollypop/widgets_equalizer.py:192
 msgid "Custom"
