@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 16:33+0200\n"
+"POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-05-07 18:27+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -516,10 +516,6 @@ msgstr "Reprodueix àlbums"
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Afegeix a la llista actual"
-
-#: ../data/ArtistInformation.ui:51
-msgid "Go to artist view"
-msgstr "Vés a la vista de l'artista"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -1686,7 +1682,7 @@ msgid "Artists (list)"
 msgstr "Artistes (llista)"
 
 #: ../lollypop/shown.py:41
-msgid "Current artist"
+msgid "Information"
 msgstr ""
 
 #: ../lollypop/shown.py:42
@@ -1768,11 +1764,11 @@ msgstr "I si escolteu a...?"
 msgid "New artists available"
 msgstr ""
 
-#: ../lollypop/view_information.py:161
+#: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
 msgstr "S'està carregant la informació"
 
-#: ../lollypop/view_information.py:320
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "Cap informació de %s"
@@ -2003,6 +1999,9 @@ msgstr "Compilació"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr "Elimina de la llista de reproducció"
+
+#~ msgid "Go to artist view"
+#~ msgstr "Vés a la vista de l'artista"
 
 #~ msgid "Disable use of client side window decorations (headerbar)"
 #~ msgstr ""

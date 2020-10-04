@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 16:33+0200\n"
+"POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-10-01 11:40+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -509,10 +509,6 @@ msgstr "Afspil albummer"
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Tilføj til nuværende playliste"
-
-#: ../data/ArtistInformation.ui:51
-msgid "Go to artist view"
-msgstr "Gå til kunstner-visning"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -1717,8 +1713,8 @@ msgid "Artists (list)"
 msgstr "Kunstnere (liste)"
 
 #: ../lollypop/shown.py:41
-msgid "Current artist"
-msgstr "Nuværende kunstner"
+msgid "Information"
+msgstr ""
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1799,11 +1795,11 @@ msgstr "Hvorfor ikke lytte til?"
 msgid "New artists available"
 msgstr "Nye kunstnere tilgængelige"
 
-#: ../lollypop/view_information.py:161
+#: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
 msgstr "Indlæser information"
 
-#: ../lollypop/view_information.py:320
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "Ingen information for %s"
@@ -2034,6 +2030,12 @@ msgstr "Samling"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr "Fjern fra afspilningsliste"
+
+#~ msgid "Go to artist view"
+#~ msgstr "Gå til kunstner-visning"
+
+#~ msgid "Current artist"
+#~ msgstr "Nuværende kunstner"
 
 #~ msgid "Disable use of client side window decorations (headerbar)"
 #~ msgstr "Deaktivér brug af klientside-vinduesdekorationer (hovedbjælke)"

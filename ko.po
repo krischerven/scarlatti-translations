@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 16:33+0200\n"
+"POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-06-14 11:41+0000\n"
 "Last-Translator: MarongHappy <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -503,10 +503,6 @@ msgstr "앨범 재생하기"
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "현재 재생목록에 추가"
-
-#: ../data/ArtistInformation.ui:51
-msgid "Go to artist view"
-msgstr "아티스트 보기로 가기"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -1673,7 +1669,7 @@ msgid "Artists (list)"
 msgstr "아티스트 (목록)"
 
 #: ../lollypop/shown.py:41
-msgid "Current artist"
+msgid "Information"
 msgstr ""
 
 #: ../lollypop/shown.py:42
@@ -1755,11 +1751,11 @@ msgstr "들어보시겠습니까?"
 msgid "New artists available"
 msgstr ""
 
-#: ../lollypop/view_information.py:161
+#: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
 msgstr "정보 불러오는 중"
 
-#: ../lollypop/view_information.py:320
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "%s에 대한 정보 없음"
@@ -1990,6 +1986,9 @@ msgstr "컴필레이션"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr "재생목록에서 제거"
+
+#~ msgid "Go to artist view"
+#~ msgstr "아티스트 보기로 가기"
 
 #~ msgid "Disable use of client side window decorations (headerbar)"
 #~ msgstr "클라이언트 측면 창 장식(헤더바) 비활성화"

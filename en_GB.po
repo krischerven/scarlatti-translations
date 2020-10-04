@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 16:33+0200\n"
+"POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-08-11 16:32+0000\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
@@ -504,10 +504,6 @@ msgstr "Play albums"
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Add to current playlist"
-
-#: ../data/ArtistInformation.ui:51
-msgid "Go to artist view"
-msgstr "Go to artist view"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -1674,7 +1670,7 @@ msgid "Artists (list)"
 msgstr "Artists (list)"
 
 #: ../lollypop/shown.py:41
-msgid "Current artist"
+msgid "Information"
 msgstr ""
 
 #: ../lollypop/shown.py:42
@@ -1756,11 +1752,11 @@ msgstr "Why not listen to?"
 msgid "New artists available"
 msgstr ""
 
-#: ../lollypop/view_information.py:161
+#: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
 msgstr "Loading information"
 
-#: ../lollypop/view_information.py:320
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "No information for %s"
@@ -1991,6 +1987,9 @@ msgstr "Compilation"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr "Remove from playlist"
+
+#~ msgid "Go to artist view"
+#~ msgstr "Go to artist view"
 
 #~ msgid "Disable use of client side window decorations (headerbar)"
 #~ msgstr "Disable use of client side window decorations (headerbar)"

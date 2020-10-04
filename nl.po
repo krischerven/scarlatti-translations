@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 16:33+0200\n"
+"POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-09-28 20:40+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -518,10 +518,6 @@ msgstr "Albums afspelen"
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Toevoegen aan huidige afspeellijst"
-
-#: ../data/ArtistInformation.ui:51
-msgid "Go to artist view"
-msgstr "Ga naar artiestweergave"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -1727,8 +1723,8 @@ msgid "Artists (list)"
 msgstr "Artiesten (lijst)"
 
 #: ../lollypop/shown.py:41
-msgid "Current artist"
-msgstr "Huidige artiest"
+msgid "Information"
+msgstr ""
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1809,11 +1805,11 @@ msgstr "Luister ook eens naar…"
 msgid "New artists available"
 msgstr "Nieuwe artiesten beschikbaar"
 
-#: ../lollypop/view_information.py:161
+#: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
 msgstr "Bezig met laden van informatie…"
 
-#: ../lollypop/view_information.py:320
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "Geen informatie over %s"
@@ -2044,6 +2040,12 @@ msgstr "Compilatie"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr "Verwijderen van afspeellijst"
+
+#~ msgid "Go to artist view"
+#~ msgstr "Ga naar artiestweergave"
+
+#~ msgid "Current artist"
+#~ msgstr "Huidige artiest"
 
 #~ msgid "Disable use of client side window decorations (headerbar)"
 #~ msgstr "Vensterdecoraties aan cliëntzijde (headerbar) uitschakelen"

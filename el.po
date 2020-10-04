@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 16:33+0200\n"
+"POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-02-01 17:50+0000\n"
 "Last-Translator: Stelios <steliosks@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/gnumdk/lollypop/el/"
@@ -494,10 +494,6 @@ msgstr "Αναπαραγωγή άλμπουμ"
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "Προσθήκη στην τρέχουσα λίστα αναπαραγωγής"
-
-#: ../data/ArtistInformation.ui:51
-msgid "Go to artist view"
-msgstr "Μετάβαση στην προβολή καλλιτέχνη"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -1664,7 +1660,7 @@ msgid "Artists (list)"
 msgstr ""
 
 #: ../lollypop/shown.py:41
-msgid "Current artist"
+msgid "Information"
 msgstr ""
 
 #: ../lollypop/shown.py:42
@@ -1746,11 +1742,11 @@ msgstr ""
 msgid "New artists available"
 msgstr ""
 
-#: ../lollypop/view_information.py:161
+#: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
 msgstr "Φόρτωση πληροφοριών"
 
-#: ../lollypop/view_information.py:320
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
 #, python-format
 msgid "No information for %s"
 msgstr "Χωρίς πληροφορίες για %s"
@@ -1981,6 +1977,9 @@ msgstr "Συλλογή"
 #: ../lollypop/widgets_row_album.py:109 ../lollypop/widgets_row_track.py:105
 msgid "Remove from playlist"
 msgstr ""
+
+#~ msgid "Go to artist view"
+#~ msgstr "Μετάβαση στην προβολή καλλιτέχνη"
 
 #~ msgid "Disable use of client side window decorations (headerbar)"
 #~ msgstr ""
