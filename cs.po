@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-04 13:59+0200\n"
-"PO-Revision-Date: 2019-12-11 16:46+0000\n"
+"PO-Revision-Date: 2020-10-10 11:26+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
 ">\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -87,11 +87,11 @@ msgstr "Hledat na webu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:96
 msgid "Shown suggestions"
-msgstr ""
+msgstr "Ukázat návrhy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:101
 msgid "Play featured tracks"
-msgstr ""
+msgstr "Přehrávat uváděné skladby"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:106
 msgid "Allow syncing to USB disks"
@@ -111,11 +111,11 @@ msgstr "Pokud je povoleno, Lollypop nebude používat youtube-dl systému"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:126
 msgid "Show year below album name"
-msgstr ""
+msgstr "Ukázat rok pod názvem alba"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
 msgid "Do not use original date if set"
-msgstr ""
+msgstr "Nepoužívat původní datum, je-li nastaveno"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Import playlists from collections"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
-msgstr ""
+msgstr "Spravovat účinkující, skladatele, ..."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
@@ -247,7 +247,7 @@ msgstr "Chování oznamování"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "Items count in views"
-msgstr ""
+msgstr "Počet položek v zobrazení"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Show track number from tags"
@@ -267,11 +267,11 @@ msgstr "Vynutit jednosloupcový režim"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Volume rate"
-msgstr ""
+msgstr "Hlasitost"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:290
 msgid "0.0-1.0"
-msgstr ""
+msgstr "0.0-1.0"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:294
 msgid "Equalizer enabled"
@@ -287,23 +287,23 @@ msgstr "Plynulé přechody skladeb"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:324
 msgid "Smooth track transitions only in party mode"
-msgstr ""
+msgstr "Plynulé přechody skladeb pouze ve večírkovém režimu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "Transition duration in ms"
-msgstr ""
+msgstr "Doba trvání přechodu v ms"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Fade effect on playback status change"
-msgstr ""
+msgstr "Efekt prolínání při změně stavu přehrávání"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:339
 msgid "Fade duration in ms"
-msgstr ""
+msgstr "Doba trvání prolínání v ms"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:344
 msgid "Fade effect only in party mode"
-msgstr ""
+msgstr "Efekt prolínání jen ve večírkovém režimu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:349 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
@@ -327,13 +327,15 @@ msgstr "Mezi -15 a 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:374
 msgid "Applies signal compression/limiting to raw audio data"
-msgstr ""
+msgstr "Použije kompresi/omezení signálu na nezpracovaná zvuková data"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:375
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
+"Provádí přísné tvrdé omezení s charakteristikami měkkých kolen, s prahovou "
+"hodnotou -6 dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:379
 msgid "Possibilities for powermanagement options"
@@ -365,7 +367,7 @@ msgstr "Navštivte stránky Lollypopu"
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr ""
+msgstr "Pavel Fric ..."
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -457,7 +459,7 @@ msgstr "Přehrávač hudby"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;"
-msgstr ""
+msgstr "Hudba;Přehrávač;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:21
 msgid "Play/Pause"
@@ -481,7 +483,7 @@ msgstr "Aktualizovat hudbu"
 
 #: ../data/Appmenu.ui:63
 msgid "Mini player"
-msgstr ""
+msgstr "Malý přehrávač"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
@@ -593,7 +595,7 @@ msgstr "Adresa:"
 
 #: ../data/SettingsDialog.ui:41
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 #: ../data/SettingsDialog.ui:46
 msgid "Appearance"
@@ -601,23 +603,23 @@ msgstr "Vzhled"
 
 #: ../data/SettingsDialog.ui:51 ../data/SettingsDialog.ui:54
 msgid "Whether the application should use a dark theme"
-msgstr ""
+msgstr "Program používá tmavý vzhled"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
-msgstr ""
+msgstr "Tmavý vzhled"
 
 #: ../data/SettingsDialog.ui:70
 msgid "Single column mode"
-msgstr ""
+msgstr "Jednosloupcový režim"
 
 #: ../data/SettingsDialog.ui:72
 msgid "Only show a single column for tracks"
-msgstr ""
+msgstr "U skladeb zobrazit pouze jeden sloupec"
 
 #: ../data/SettingsDialog.ui:105
 msgid "Artwork size"
-msgstr ""
+msgstr "Velikost obalu"
 
 #: ../data/SettingsDialog.ui:122 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -629,7 +631,7 @@ msgstr "Chování"
 
 #: ../data/SettingsDialog.ui:143
 msgid "Play music in background"
-msgstr ""
+msgstr "Přehrávat hudbu na pozadí"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Restore state on startup"
@@ -637,31 +639,31 @@ msgstr "Obnovit stav při spuštění"
 
 #: ../data/SettingsDialog.ui:161
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Obnovit nynější přehrávání a zobrazení"
 
 #: ../data/SettingsDialog.ui:177
 msgid "Save changes to file"
-msgstr ""
+msgstr "Uložit změny do souboru"
 
 #: ../data/SettingsDialog.ui:179
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Uložit obal a hodnocení do souborů"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Alba budou řazena podle tohoto pole"
 
 #: ../data/SettingsDialog.ui:205
 msgid "Artist - year"
-msgstr ""
+msgstr "Umělec - rok"
 
 #: ../data/SettingsDialog.ui:206
 msgid "Artist - title"
-msgstr ""
+msgstr "Umělec - název"
 
 #: ../data/SettingsDialog.ui:207
 msgid "Title"
-msgstr ""
+msgstr "Název"
 
 #: ../data/SettingsDialog.ui:208 ../data/SmartPlaylistWidget.ui:33
 msgid "Year"
@@ -679,19 +681,19 @@ msgstr "Přehrávání"
 
 #: ../data/SettingsDialog.ui:230
 msgid "Enable transitions"
-msgstr ""
+msgstr "Povolit přechody"
 
 #: ../data/SettingsDialog.ui:232
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Přidat přechod při změně skladby"
 
 #: ../data/SettingsDialog.ui:248
 msgid "Duration"
-msgstr ""
+msgstr "Doba trvání"
 
 #: ../data/SettingsDialog.ui:250
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "Doba trvání přechodu v milisekundách"
 
 #: ../data/SettingsDialog.ui:266
 msgid "ReplayGain"
@@ -699,7 +701,7 @@ msgstr "Vyrovnání hlasitosti"
 
 #: ../data/SettingsDialog.ui:268
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Provádět zvukové opravy za běhu"
 
 #: ../data/SettingsDialog.ui:277 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -719,23 +721,23 @@ msgstr "Hudba"
 
 #: ../data/SettingsDialog.ui:303
 msgid "Collection"
-msgstr ""
+msgstr "Sbírka"
 
 #: ../data/SettingsDialog.ui:314 ../lollypop/dialog_settings.py:245
 msgid "Reset collection"
-msgstr ""
+msgstr "Obnovit výchozí sbírku"
 
 #: ../data/SettingsDialog.ui:353
 msgid "Import settings"
-msgstr ""
+msgstr "Nastavení zavedení"
 
 #: ../data/SettingsDialog.ui:360
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Aktualizovat hudbu při přidání souborů do sbírky"
 
 #: ../data/SettingsDialog.ui:376 ../data/SettingsDialog.ui:414
 msgid "You need to reset collection"
-msgstr ""
+msgstr "Je potřeba obnovit výchozí sbírku"
 
 #: ../data/SettingsDialog.ui:377
 msgid "Show compilations"
@@ -747,6 +749,8 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Kompilace je album bez jakékoli značky umělce alba.\n"
+"a s různými umělci"
 
 #: ../data/SettingsDialog.ui:396
 msgid "Import playlists"
@@ -754,23 +758,23 @@ msgstr "Zavést seznamy skladeb"
 
 #: ../data/SettingsDialog.ui:398
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Hledat seznamy skladeb ve sbírce"
 
 #: ../data/SettingsDialog.ui:415
 msgid "Import advanced tags"
-msgstr ""
+msgstr "Zavést pokročilé značky"
 
 #: ../data/SettingsDialog.ui:417
 msgid "Performers, composers, …"
-msgstr ""
+msgstr "Účinkující, skladatelé, …"
 
 #: ../data/SettingsDialog.ui:435
 msgid "Statistics"
-msgstr ""
+msgstr "Statistika"
 
 #: ../data/SettingsDialog.ui:466
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Odstranit zařízení spravovaná Lollypopem"
 
 #: ../data/SettingsDialog.ui:467 ../lollypop/menu_artist.py:75
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
@@ -785,7 +789,7 @@ msgstr "Internet"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: ../data/SettingsDialog.ui:490
 msgid "Allow network access"
@@ -793,7 +797,7 @@ msgstr "Povolit přístup k síti"
 
 #: ../data/SettingsDialog.ui:507
 msgid "Background data"
-msgstr ""
+msgstr "Data na pozadí"
 
 #: ../data/SettingsDialog.ui:509
 msgid "Search artwork in background"
@@ -801,20 +805,20 @@ msgstr "Hledat obrázky obalů na pozadí"
 
 #: ../data/SettingsDialog.ui:530
 msgid "Song playback"
-msgstr ""
+msgstr "Přehrávání písně"
 
 #: ../data/SettingsDialog.ui:541 ../data/SettingsDialog.ui:685
 #: ../data/SettingsDialog.ui:742 ../data/SettingsDialog.ui:799
 msgid "Enabled"
-msgstr ""
+msgstr "Povoleno"
 
 #: ../data/SettingsDialog.ui:558
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Použít nejnovější verzi youtube-dl"
 
 #: ../data/SettingsDialog.ui:574
 msgid "Google API-key"
-msgstr ""
+msgstr "Klíč API Google"
 
 #: ../data/SettingsDialog.ui:598 ../data/SettingsDialog.ui:711
 #: ../data/SettingsDialog.ui:768 ../data/SettingsDialog.ui:840
@@ -832,37 +836,37 @@ msgstr "Nenastaven žádný server"
 
 #: ../data/SettingsDialog.ui:646
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Co je to Invidious?"
 
 #: ../data/SettingsDialog.ui:674
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Hledat (obal, písně, ...)"
 
 #: ../data/SettingsDialog.ui:815
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "Klíč API ListenBrainz"
 
 #: ../data/SettingsDialog.ui:865 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
 msgid "Deezer"
-msgstr ""
+msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:881
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:897 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:913
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:929
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:945
 msgid "Google"
@@ -870,11 +874,11 @@ msgstr "Google"
 
 #: ../data/SettingsDialog.ui:961
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:977
 msgid "DuckDuckGo"
-msgstr ""
+msgstr "DuckDuckGo"
 
 #: ../data/SettingsDialog.ui:993
 msgid "Wikipedia"
@@ -886,11 +890,11 @@ msgstr "Text písně"
 
 #: ../data/SettingsDialog.ui:1019
 msgid "Wikia"
-msgstr ""
+msgstr "Wikia"
 
 #: ../data/SettingsDialog.ui:1035
 msgid "Genius"
-msgstr ""
+msgstr "Genius"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -950,7 +954,7 @@ msgstr "Celá obrazovka"
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Mini player"
-msgstr ""
+msgstr "Malý přehrávač"
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
@@ -1107,11 +1111,11 @@ msgstr "Nepřetržité přehrávání"
 
 #: ../data/ToolbarEnd.ui:31
 msgid "Automatic playback (similar)"
-msgstr ""
+msgstr "Automatické přehrávání (podobné)"
 
 #: ../data/ToolbarEnd.ui:36
 msgid "Automatic playback (random)"
-msgstr ""
+msgstr "Automatické přehrávání (náhodné)"
 
 #: ../data/ToolbarEnd.ui:41
 msgid "Repeat track"
@@ -1147,7 +1151,7 @@ msgstr "Je potřeba nainstalovat kid3-cli"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
-msgstr ""
+msgstr "Co je to klíč API Google?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1159,6 +1163,12 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+"\n"
+"Chcete-li použít přehrávání Youtube,\n"
+"musíte vytvořit klíč API pro\n"
+"<b> „YouTube Data API v3“ </b>,\n"
+"\n"
+"který se používá k přehrávání skladeb."
 
 #: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1168,28 +1178,30 @@ msgstr "Zrušit"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
-msgstr ""
+msgstr "Připojit ke konzoli"
 
 #: ../lollypop/assistant_google.py:48
 msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Otevřít a přihlásit se</b> ke <b>Google Developer Console</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
-msgstr ""
+msgstr "Přistoupit k Google Developer Console"
 
 #: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
 #: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
 #: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
 #: ../lollypop/assistant_musicbrainz.py:60
 msgid "Back"
-msgstr ""
+msgstr "Zpět"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
-msgstr ""
+msgstr "Zapnout API"
 
 #: ../lollypop/assistant_google.py:60
 msgid ""
@@ -1201,10 +1213,17 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b> Přidejte nový projekt </b> do konzoly.\n"
+"\n"
+"Poté <b> přidejte nové API </b> a vyhledejte\n"
+"pro <b> „YouTube Data API v3“ </b>.\n"
+"\n"
+"<b> Zapněte toto API </b> pro svůj projekt"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
-msgstr ""
+msgstr "Kopírovat klíč"
 
 #: ../lollypop/assistant_google.py:77
 msgid ""
@@ -1214,16 +1233,21 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Otevřete <b>\"Přihlašovací údaje\"</b> na postranním panelu a\n"
+"<b> Vytvořte přihlašovací údaje</b> pro <b> klíč API </b>.\n"
+"\n"
+"<b> Zkopírujte klíč API do Lollypopu </b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
 msgid "Finish"
-msgstr ""
+msgstr "Dokončit"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Odesílání údajů %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1232,11 +1256,14 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Abyste mohli svou činnost poslat <b>%s </b>,\n"
+"musíte povolit <b> Lollypop </b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "Připojit k %s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1245,25 +1272,30 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b> Otevřete a přihlaste se </b> k <b>%s</b>.\n"
+"Poté povolte Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "Přistoupit k %s"
 
 #: ../lollypop/assistant_lastfm.py:62
 msgid "Just play a track"
-msgstr ""
+msgstr "Pouze přehrát skladbu"
 
 #: ../lollypop/assistant_lastfm.py:64
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Klepněte na \"Dokončit\"</b>, jakmile byl Lollypop povolen."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Odesílání údajů ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1271,38 +1303,45 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Aby bylo možné vaši činnost posílat<b>ListenBrainz</b>,\n"
+"musíte povolit <b>Lollypop</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "Připojit k ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Otevřete a přihlaste se</b> ke službě <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Přistoupit k ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "Kopírovat klíč"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b> Dokončete </b> aktivaci zkopírováním <b> klíče API </b> do Lollypopu."
 
 #: ../lollypop/assistant.py:145
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Nelze se spojit s touto službou"
 
 #: ../lollypop/collection_scanner.py:338
 msgid "Resetting database"
-msgstr ""
+msgstr "Obnovuje se výchozí databáze"
 
 #: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
@@ -1335,42 +1374,42 @@ msgstr "Mnoho umělců"
 
 #: ../lollypop/database_upgrade.py:774
 msgid "Please wait while Lollypop is updating albums"
-msgstr ""
+msgstr "Počkejte, prosím, než Lollypop zaktualizuje alba"
 
 #: ../lollypop/database_upgrade.py:793
 msgid "Please wait while Lollypop is updating tracks"
-msgstr ""
+msgstr "Počkejte, prosím, než Lollypop zaktualizuje skladby"
 
 #: ../lollypop/dialog_apps.py:73
 msgid "Select"
-msgstr ""
+msgstr "Vybrat"
 
 #: ../lollypop/dialog_apps.py:81
 msgid "Select an application"
-msgstr ""
+msgstr "Vyberte program"
 
 #: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Počet umělců: %s"
 
 #: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Počet alb: %s"
 
 #: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Počet skladeb: %s"
 
 #: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
-msgstr ""
+msgstr "Odpojit"
 
 #: ../lollypop/dialog_settings.py:251
 msgid "Are you sure?"
-msgstr ""
+msgstr "Jste si jistý?"
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
@@ -1402,7 +1441,7 @@ msgstr "Koupit toto album"
 
 #: ../lollypop/menu_actions.py:99
 msgid "Open with…"
-msgstr ""
+msgstr "Otevřít s…"
 
 #: ../lollypop/menu_artist.py:48
 msgid "Show tracks"
@@ -1410,11 +1449,11 @@ msgstr "Ukázat skladby"
 
 #: ../lollypop/menu_artist.py:57
 msgid "Show year"
-msgstr ""
+msgstr "Ukázat rok"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr ""
+msgstr "Přehrávat doporučené"
 
 #: ../lollypop/menu_artist.py:120
 msgid "Available albums"
@@ -1422,7 +1461,7 @@ msgstr "Dostupná alba"
 
 #: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
 msgid "Change Artwork"
-msgstr ""
+msgstr "Změnit obal"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
@@ -1440,7 +1479,7 @@ msgstr "Přidat do"
 
 #: ../lollypop/menu_objects.py:57 ../lollypop/menu_objects.py:106
 msgid "Others"
-msgstr ""
+msgstr "Jiné"
 
 #: ../lollypop/menu_objects.py:128
 msgid "%Y-%m-%d"
@@ -1453,7 +1492,7 @@ msgstr "Adresa stránky YouTube"
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
 #: ../lollypop/menu_playback.py:526
 msgid "Play a radio"
-msgstr ""
+msgstr "Přehrávat rádio"
 
 #: ../lollypop/menu_playback.py:72
 msgid "Add to playback"
@@ -1465,7 +1504,7 @@ msgstr "Odstranit z řady skladeb k přehrání"
 
 #: ../lollypop/menu_playback.py:114
 msgid "Related tracks"
-msgstr ""
+msgstr "Související skladby"
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
 #: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
@@ -1478,7 +1517,7 @@ msgstr "Oblíbené skladby"
 
 #: ../lollypop/menu_playback.py:136
 msgid "From collection"
-msgstr ""
+msgstr "Ze sbírky"
 
 #: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:60
 msgid "Last.fm"
@@ -1486,7 +1525,7 @@ msgstr "Last.fm"
 
 #: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:74
 msgid "From the Web"
-msgstr ""
+msgstr "Z internetu"
 
 #: ../lollypop/menu_playback.py:210
 msgid "Play this playlist"
@@ -1494,7 +1533,7 @@ msgstr "Přehrát tento seznam skladeb"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Přidat tento seznam skladeb"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1534,7 +1573,7 @@ msgstr "Uložit seznam skladeb"
 
 #: ../lollypop/menu_playlist.py:50
 msgid "Sync from Last.FM"
-msgstr ""
+msgstr "Seřídit s Last.FM"
 
 #: ../lollypop/menu_playlist.py:57
 msgid "Manage smart playlist"
@@ -1570,7 +1609,7 @@ msgstr "Hledat"
 
 #: ../lollypop/menu_search.py:64
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1614,15 +1653,15 @@ msgstr "Návrhy"
 
 #: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
-msgstr ""
+msgstr "Nová vydání na Spotify"
 
 #: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
-msgstr ""
+msgstr "Návrhy Spotify"
 
 #: ../lollypop/menu_suggestions.py:71 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
-msgstr ""
+msgstr "Nejlepší alba na Deezeru"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
@@ -1631,7 +1670,7 @@ msgstr "Všechna zařízení"
 #: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
 #: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
 msgid "No album available"
-msgstr ""
+msgstr "Není dostupné žádné album"
 
 #: ../lollypop/player_bin.py:425
 msgid "Can't find this track on YouTube"
@@ -1683,7 +1722,7 @@ msgstr "Umělci (seznam)"
 
 #: ../lollypop/shown.py:41
 msgid "Information"
-msgstr ""
+msgstr "Informace"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1734,11 +1773,11 @@ msgstr "Chybí příkaz youtube-dl"
 
 #: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
-msgstr ""
+msgstr "Síť není dostupná nebo je v nastavení vypnuta"
 
 #: ../lollypop/view_albums_box.py:193
 msgid "New albums available"
-msgstr ""
+msgstr "Jsou dostupná nová alba"
 
 #: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
 msgid "Refresh"
@@ -1750,7 +1789,7 @@ msgstr "Jiné kompilace"
 
 #: ../lollypop/view_albums_line.py:199
 msgid "Appears on"
-msgstr ""
+msgstr "Objeví se na"
 
 #: ../lollypop/view_albums_line.py:230
 msgid "Popular albums at the moment"
@@ -1762,7 +1801,7 @@ msgstr "Proč si neposlechnout?"
 
 #: ../lollypop/view_artists_rounded.py:154
 msgid "New artists available"
-msgstr ""
+msgstr "Jsou dostupní noví umělci"
 
 #: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
@@ -1812,7 +1851,7 @@ msgstr "Vítejte v Lollypopu"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid "All tracks skipped"
-msgstr ""
+msgstr "Všechny skladby přeskočeny"
 
 #: ../lollypop/view_tracks_album.py:240
 #, python-format
@@ -1869,15 +1908,15 @@ msgstr "Výchozí"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "Akustický"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr ""
+msgstr "Hloubky"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr ""
+msgstr "Hloubky a výšky"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1893,31 +1932,31 @@ msgstr "Taneční"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "Disko"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Drum'n'Bass"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Heavy Metal"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Jazz"
-msgstr ""
+msgstr "Džez"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Latin"
-msgstr ""
+msgstr "Latina"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "Metal"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
-msgstr ""
+msgstr "New Age"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "Party"
@@ -1941,7 +1980,7 @@ msgstr "Techno"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Vocal"
-msgstr ""
+msgstr "Zpěvní"
 
 #: ../lollypop/widgets_equalizer.py:160 ../lollypop/widgets_equalizer.py:192
 msgid "Custom"
