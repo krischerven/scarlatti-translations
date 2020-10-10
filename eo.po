@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-04 13:59+0200\n"
-"PO-Revision-Date: 2020-09-26 13:40+0000\n"
+"PO-Revision-Date: 2020-10-11 13:26+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/eo/>\n"
@@ -1206,10 +1206,17 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>Aldonu novan projekton</b> en la konzolo.\n"
+"\n"
+"Poste, <b>aldonu novan API</b> kaj priserĉu\n"
+" la <b>\"YouTube Datumon API v3\"</b>.\n"
+"\n"
+"<b>Aktivigu ĉi-tiun API</b> por via projekto"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
-msgstr ""
+msgstr "Kopii la ŝlosilon"
 
 #: ../lollypop/assistant_google.py:77
 msgid ""
@@ -1219,16 +1226,22 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"Malfermu na <b> \"Atestiloj\" </b> en la flanka breto kaj\n"
+"<b> Kreu Atestilojn </b> por <b> API-Ŝlosilo </b>.\n"
+"\n"
+"<b> Kopiu la API-Ŝlosilon al Lollypop </b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
+#, fuzzy
 msgid "Finish"
-msgstr ""
+msgstr "Fini"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Luditkolekti al %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1237,11 +1250,14 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Por sendi vian aktivecon al <b>%s</b>,\n"
+"vi devas permesi al <b>Lollypop</b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "Konekti al %s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1250,25 +1266,30 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Malfermu kaj ensalutu</b> je <b>%s</b>.\n"
+"Sekve, permesu al Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "Atingi %s"
 
 #: ../lollypop/assistant_lastfm.py:62
 msgid "Just play a track"
-msgstr ""
+msgstr "Nur ludi muzikpecon"
 
 #: ../lollypop/assistant_lastfm.py:64
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Klaku \"Fini\"</b> kiam Lollypop estos permesita."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Luditkolekti al ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1276,38 +1297,45 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Por sendi vian aktivecon al <b>ListenBrainz</b>,\n"
+"vi bezonas permesi al <b>Lollypop</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "Konekti al ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>Malfermu kaj ensalutu</b> je <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Atingi na ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "Kopii ŝlosilon"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Fini</b> aktivigon kopiante la <b>API-Ŝlosilon</b> al Lollypop."
 
 #: ../lollypop/assistant.py:145
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Neeblas atingi ĉi-tiun servon"
 
 #: ../lollypop/collection_scanner.py:338
 msgid "Resetting database"
-msgstr ""
+msgstr "Restarigi la datumbazon"
 
 #: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
@@ -1340,42 +1368,42 @@ msgstr "Diversaj artistoj"
 
 #: ../lollypop/database_upgrade.py:774
 msgid "Please wait while Lollypop is updating albums"
-msgstr ""
+msgstr "Bonvolu pacienci dum Lollypop ĝisdatiĝas la albumojn"
 
 #: ../lollypop/database_upgrade.py:793
 msgid "Please wait while Lollypop is updating tracks"
-msgstr ""
+msgstr "Bonvolu pacienci dum Lollypop ĝisdatiĝas muzikpecojn"
 
 #: ../lollypop/dialog_apps.py:73
 msgid "Select"
-msgstr ""
+msgstr "Elekti"
 
 #: ../lollypop/dialog_apps.py:81
 msgid "Select an application"
-msgstr ""
+msgstr "Elekti aplikaĵon"
 
 #: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Nombro de artistoj: %s"
 
 #: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Nombro de albumoj: %s"
 
 #: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Nombro de muzikpecoj: %s"
 
 #: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
-msgstr ""
+msgstr "Malkonekti"
 
 #: ../lollypop/dialog_settings.py:251
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ĉu vi certas?"
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
@@ -1407,7 +1435,7 @@ msgstr "Aĉeti ĉi-tiun albumon"
 
 #: ../lollypop/menu_actions.py:99
 msgid "Open with…"
-msgstr ""
+msgstr "Malfermu per…"
 
 #: ../lollypop/menu_artist.py:48
 msgid "Show tracks"
@@ -1415,11 +1443,11 @@ msgstr "Montri pecojn"
 
 #: ../lollypop/menu_artist.py:57
 msgid "Show year"
-msgstr ""
+msgstr "Montru jaron"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr ""
+msgstr "Ludi elstarigitojn"
 
 #: ../lollypop/menu_artist.py:120
 msgid "Available albums"
@@ -1427,7 +1455,7 @@ msgstr "Haveblaj albumoj"
 
 #: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
 msgid "Change Artwork"
-msgstr ""
+msgstr "Ŝanĝi la artaĵon"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
@@ -1445,7 +1473,7 @@ msgstr "Aldoni je"
 
 #: ../lollypop/menu_objects.py:57 ../lollypop/menu_objects.py:106
 msgid "Others"
-msgstr ""
+msgstr "Alio"
 
 #: ../lollypop/menu_objects.py:128
 msgid "%Y-%m-%d"
@@ -1458,7 +1486,7 @@ msgstr "Paĝadreso de Youtube"
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
 #: ../lollypop/menu_playback.py:526
 msgid "Play a radio"
-msgstr ""
+msgstr "Ludi radion"
 
 #: ../lollypop/menu_playback.py:72
 msgid "Add to playback"
@@ -1470,7 +1498,7 @@ msgstr "Forigi el ludado"
 
 #: ../lollypop/menu_playback.py:114
 msgid "Related tracks"
-msgstr ""
+msgstr "Ialigitaj pecoj"
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
 #: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
@@ -1483,7 +1511,7 @@ msgstr "Popularaj trakoj"
 
 #: ../lollypop/menu_playback.py:136
 msgid "From collection"
-msgstr ""
+msgstr "El kolekto"
 
 #: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:60
 msgid "Last.fm"
@@ -1491,7 +1519,7 @@ msgstr "Last.fm"
 
 #: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:74
 msgid "From the Web"
-msgstr ""
+msgstr "El reto"
 
 #: ../lollypop/menu_playback.py:210
 msgid "Play this playlist"
@@ -1499,7 +1527,7 @@ msgstr "Ludi ĉi tiun ludliston"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Aldoni al ĉi-tiun ludliston"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1539,7 +1567,7 @@ msgstr "Konservi ludliston"
 
 #: ../lollypop/menu_playlist.py:50
 msgid "Sync from Last.FM"
-msgstr ""
+msgstr "Sinkronigi el Last.FM"
 
 #: ../lollypop/menu_playlist.py:57
 msgid "Manage smart playlist"
@@ -1619,15 +1647,15 @@ msgstr "Sugesto"
 
 #: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
-msgstr ""
+msgstr "Novaj eldonoj ĉe Spotify"
 
 #: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
-msgstr ""
+msgstr "Sugestoj el Spotify"
 
 #: ../lollypop/menu_suggestions.py:71 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
-msgstr ""
+msgstr "Elstaraj albumoj ĉe Deezer"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
@@ -1636,7 +1664,7 @@ msgstr "Ĉiuj aparatoj"
 #: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
 #: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
 msgid "No album available"
-msgstr ""
+msgstr "Neniu albumo disponeblas"
 
 #: ../lollypop/player_bin.py:425
 msgid "Can't find this track on YouTube"
@@ -1688,7 +1716,7 @@ msgstr "Artistoj (listo)"
 
 #: ../lollypop/shown.py:41
 msgid "Information"
-msgstr ""
+msgstr "Informo"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1739,11 +1767,11 @@ msgstr "Mankas komando de youtube-dl"
 
 #: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
-msgstr ""
+msgstr "Retatingo malhaveblas aŭ malebligitas en agordoj"
 
 #: ../lollypop/view_albums_box.py:193
 msgid "New albums available"
-msgstr ""
+msgstr "Novaj albumoj disponeblas"
 
 #: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
 msgid "Refresh"
@@ -1755,7 +1783,7 @@ msgstr "Alies kompiloj"
 
 #: ../lollypop/view_albums_line.py:199
 msgid "Appears on"
-msgstr ""
+msgstr "Aperas ĉe"
 
 #: ../lollypop/view_albums_line.py:230
 msgid "Popular albums at the moment"
@@ -1767,7 +1795,7 @@ msgstr "Kial ne aŭskulti?"
 
 #: ../lollypop/view_artists_rounded.py:154
 msgid "New artists available"
-msgstr ""
+msgstr "Novaj artistoj disponeblas"
 
 #: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
@@ -1817,7 +1845,7 @@ msgstr "Bonenon je Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid "All tracks skipped"
-msgstr ""
+msgstr "Ĉiuj muzikpecoj preterpasatis"
 
 #: ../lollypop/view_tracks_album.py:240
 #, python-format
@@ -1874,15 +1902,15 @@ msgstr "Implicita"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "Akustika"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr ""
+msgstr "Baso"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr ""
+msgstr "Baso kaj Soprano"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1898,27 +1926,29 @@ msgstr "Danco"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "Diskomuziko"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Tamburo k. Baso"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Peza Roko"
 
 #: ../lollypop/widgets_equalizer.py:45
+#, fuzzy
 msgid "Jazz"
-msgstr ""
+msgstr "Ĵazo"
 
 #: ../lollypop/widgets_equalizer.py:47
+#, fuzzy
 msgid "Latin"
-msgstr ""
+msgstr "Latino"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "Metalo"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
