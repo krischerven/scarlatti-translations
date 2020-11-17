@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-04 13:59+0200\n"
 "PO-Revision-Date: 2020-11-17 06:43+0000\n"
-"Last-Translator: Martin Gansser <martin.gansser@gmail.com>\n"
+"Last-Translator: mv87 <mv87@dismail.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "de/>\n"
 "Language: de\n"
@@ -372,7 +372,7 @@ msgstr "Besuche die Lollypop-Webseite"
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr ""
+msgstr "Übersetzer1, Übersetzer2, ..."
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -388,6 +388,17 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    Lollypop-Icon\n"
+"Geary-Entwicklerteam:\n"
+"    tag-list-symbolic-Icon\n"
+"GNOME-Projekt:\n"
+"    unplayed-albums-symbolic\n"
+"    artists-list-symbolic-Icons\n"
+"Martins D. Okoi:\n"
+"    Beschreibung in appdata\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:67
 msgid "Donations:"
@@ -423,6 +434,12 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
+"Lollypop ist ein leichtgewichtiger moderner Musikspieler, der für eine "
+"perfekte Integration in die GNOME-Desktopumgebung konzipiert ist. Er hat "
+"auch einen Partymodus, der automatisch partytaugliche Playlisten auswählt, "
+"ist von der Couch aus über einen Vollbildmodus steuerbar aus, holt "
+"Songtexte, Albencover und Biografien aus dem Internet und bietet native "
+"Unterstützung für ReplayGain."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -446,7 +463,7 @@ msgstr "Musikspieler"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;"
-msgstr ""
+msgstr "Musik;Spieler;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:21
 msgid "Play/Pause"
@@ -822,7 +839,7 @@ msgstr "Kein Server festgelegt"
 
 #: ../data/SettingsDialog.ui:646
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Was ist Invidious?"
 
 #: ../data/SettingsDialog.ui:674
 msgid "Search (artwork, songs, ...)"
@@ -852,7 +869,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:929
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:945
 msgid "Google"
@@ -1172,6 +1189,8 @@ msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Öffnen und anmelden/b> in der  <b>Google Developer Console</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
@@ -1201,7 +1220,7 @@ msgstr ""
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
-msgstr ""
+msgstr "Schlüssel kopieren"
 
 #: ../lollypop/assistant_google.py:77
 msgid ""
@@ -1220,7 +1239,7 @@ msgstr ""
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Scrobble zu %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1233,7 +1252,7 @@ msgstr ""
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "Verbinde mit %s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1242,6 +1261,9 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>Öffne und melde dich an</b> bei <b>%s</b>.\n"
+"Erlaube dann Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
@@ -1260,7 +1282,7 @@ msgstr ""
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Scrobble nach ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1285,17 +1307,20 @@ msgstr ""
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "Schlüssel kopieren"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Schließe die Aktivierung ab</b>, indem du den <b>API-Schlüssel</b> in "
+"Lollypop einfügst."
 
 #: ../lollypop/assistant.py:145
 msgid "Can't contact this service"
-msgstr ""
+msgstr "Konnte keine Verbindung zu dem Dienst aufbauen"
 
 #: ../lollypop/collection_scanner.py:338
 msgid "Resetting database"
@@ -1462,7 +1487,7 @@ msgstr "Aus Wiedergabe entfernen"
 
 #: ../lollypop/menu_playback.py:114
 msgid "Related tracks"
-msgstr ""
+msgstr "Verwandte Titel"
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
 #: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
@@ -1894,27 +1919,27 @@ msgstr ""
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Drum'n'Bass"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Heavy Metal"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Jazz"
-msgstr ""
+msgstr "Jazz"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Latin"
-msgstr ""
+msgstr "Latin"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "Metal"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
-msgstr ""
+msgstr "New Age"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "Party"
@@ -1938,7 +1963,7 @@ msgstr "Techno"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Vocal"
-msgstr ""
+msgstr "Vokal"
 
 #: ../lollypop/widgets_equalizer.py:160 ../lollypop/widgets_equalizer.py:192
 msgid "Custom"
