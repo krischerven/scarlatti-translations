@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-04 13:59+0200\n"
-"PO-Revision-Date: 2020-11-21 12:12+0000\n"
-"Last-Translator: Andreas Rönnquist <andreas@ronnquist.net>\n"
+"PO-Revision-Date: 2020-11-24 04:28+0000\n"
+"Last-Translator: Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "sv/>\n"
 "Language: sv\n"
@@ -67,7 +67,7 @@ msgstr "Spara omslag/popularitet i taggar"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Window maximized"
-msgstr "Fönster maximerat"
+msgstr "Fönstret maximerat"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:82
 msgid "Window maximized state."
@@ -91,7 +91,7 @@ msgstr "Visade förslag"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:101
 msgid "Play featured tracks"
-msgstr "Spela presenterade spår"
+msgstr "Spela utvalda spår"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:106
 msgid "Allow syncing to USB disks"
@@ -191,7 +191,7 @@ msgstr "Använd mörkt GTK-tema"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Disable scrobbling usage"
-msgstr "Inaktivera användning av scrobbling"
+msgstr "Inaktivera användning av skrobbling"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
@@ -331,7 +331,7 @@ msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
 msgstr ""
-"Det utför strikt hård begränsning med soft-knee egenskaper, med ett "
+"Den utför strikt hård begränsning med soft-knee egenskaper, med ett "
 "tröskelvärde på -6 dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:379
@@ -369,6 +369,8 @@ msgstr ""
 "Anders Jonsson\n"
 "Göran Olsson\n"
 "Patrik Nilsson\n"
+"Andreas Rönnquist\n"
+"Ricky Lindén\n"
 "Jonatan Nyberg"
 
 #: ../data/AboutDialog.ui.in:29
@@ -431,9 +433,9 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
-"Lollypop är en lätt modern musikspelare som är utformad för att fungera "
-"utmärkt på skrivbordsmiljön GNOME. Den har också ett festläge som "
-"automatiskt väljer festrelaterade spellistor; ger tillgång till spelaren "
+"Lollypop är en lättviktig modern musikspelare som är utformad för att "
+"fungera utmärkt på skrivbordsmiljön GNOME. Den har också ett festläge som "
+"automatiskt väljer festrelaterade spellistor; ger dig tillgång till spelaren "
 "från din soffa tack vare fullskärmsläge; hämtar låttexter, omslag och "
 "biografi på nätet; och tillhandahåller inbyggt stöd för ReplayGain."
 
@@ -451,7 +453,7 @@ msgstr "Synkronisering –"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr "Ljud-scrobbling –"
+msgstr "Ljudskrobbling –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -1013,7 +1015,7 @@ msgstr "Hoppa framåt i spår"
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
-msgstr "Aktivera/inaktivera scrobbling"
+msgstr "Aktivera/inaktivera skrobbling"
 
 #: ../data/SmartPlaylistView.ui:94
 msgid "Limit to"
@@ -1126,11 +1128,11 @@ msgstr "Upprepa inte"
 
 #: ../data/ToolbarEnd.ui:52
 msgid "Scrobbling"
-msgstr "Scrobbling"
+msgstr "Skrobbling"
 
 #: ../data/ToolbarEnd.ui:54
 msgid "Enable scrobbling"
-msgstr "Aktivera scrobbling"
+msgstr "Aktivera skrobbling"
 
 #: ../data/ToolbarEnd.ui:96
 msgid "Playback options"
@@ -1247,7 +1249,7 @@ msgstr "Slutför"
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr "Scrobbling till %s"
+msgstr "Skrobbling till %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1295,7 +1297,7 @@ msgstr ""
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr "Scrobbling till ListenBrainz"
+msgstr "Skrobbling till ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1453,7 +1455,7 @@ msgstr "Visa år"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr "Spela presenterade"
+msgstr "Spela utvalda"
 
 #: ../lollypop/menu_artist.py:120
 msgid "Available albums"
@@ -1653,7 +1655,7 @@ msgstr "Förslag"
 
 #: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
-msgstr "Nya publiceringar på Spotify"
+msgstr "Nya utgåvor på Spotify"
 
 #: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
@@ -1789,7 +1791,7 @@ msgstr "Andra samlingar"
 
 #: ../lollypop/view_albums_line.py:199
 msgid "Appears on"
-msgstr "Visas på"
+msgstr "Förekommer på"
 
 #: ../lollypop/view_albums_line.py:230
 msgid "Popular albums at the moment"
@@ -1912,11 +1914,11 @@ msgstr "Akustisk"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr "Bass"
+msgstr "Bas"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr "Bass and Treble"
+msgstr "Bas och diskant"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1928,15 +1930,15 @@ msgstr "Klubb"
 
 #: ../lollypop/widgets_equalizer.py:37
 msgid "Dance"
-msgstr "Dance"
+msgstr "Dans"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr "Disco"
+msgstr "Disko"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr "Drum'n'Bass"
+msgstr "Trumma och bas"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
