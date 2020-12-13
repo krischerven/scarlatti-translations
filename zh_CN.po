@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-04 13:59+0200\n"
-"PO-Revision-Date: 2020-12-03 07:29+0000\n"
+"PO-Revision-Date: 2020-12-14 11:29+0000\n"
 "Last-Translator: maitreya2019 <crc2005@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/zh_Hans/>\n"
@@ -88,7 +88,7 @@ msgstr "联网搜索"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:96
 msgid "Shown suggestions"
-msgstr "显示建议"
+msgstr "显示推荐"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:101
 msgid "Play featured tracks"
@@ -358,7 +358,7 @@ msgstr "浏览Lollypop 网站"
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr "maitreya2019..."
+msgstr "maitreya2019, ..."
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -669,19 +669,19 @@ msgstr "回放"
 
 #: ../data/SettingsDialog.ui:230
 msgid "Enable transitions"
-msgstr ""
+msgstr "启用过渡"
 
 #: ../data/SettingsDialog.ui:232
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "为曲目切换添加过渡"
 
 #: ../data/SettingsDialog.ui:248
 msgid "Duration"
-msgstr ""
+msgstr "持续时长"
 
 #: ../data/SettingsDialog.ui:250
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "过渡持续时长，以毫秒为单位"
 
 #: ../data/SettingsDialog.ui:266
 msgid "ReplayGain"
@@ -689,7 +689,7 @@ msgstr "回放增益"
 
 #: ../data/SettingsDialog.ui:268
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "在回放中应用音频校正"
 
 #: ../data/SettingsDialog.ui:277 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -709,23 +709,23 @@ msgstr "音乐"
 
 #: ../data/SettingsDialog.ui:303
 msgid "Collection"
-msgstr ""
+msgstr "曲库"
 
 #: ../data/SettingsDialog.ui:314 ../lollypop/dialog_settings.py:245
 msgid "Reset collection"
-msgstr ""
+msgstr "重设曲库"
 
 #: ../data/SettingsDialog.ui:353
 msgid "Import settings"
-msgstr ""
+msgstr "导入设置"
 
 #: ../data/SettingsDialog.ui:360
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "文件添加至曲库时更新音乐"
 
 #: ../data/SettingsDialog.ui:376 ../data/SettingsDialog.ui:414
 msgid "You need to reset collection"
-msgstr ""
+msgstr "您需要重设曲库"
 
 #: ../data/SettingsDialog.ui:377
 msgid "Show compilations"
@@ -736,6 +736,8 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"曲集是由不同艺术家创作\n"
+"且无“专辑艺术家标签”的专辑"
 
 #: ../data/SettingsDialog.ui:396
 msgid "Import playlists"
@@ -743,23 +745,23 @@ msgstr "导入播放列表"
 
 #: ../data/SettingsDialog.ui:398
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "在您的曲库中搜索播放列表"
 
 #: ../data/SettingsDialog.ui:415
 msgid "Import advanced tags"
-msgstr ""
+msgstr "导入高级标签"
 
 #: ../data/SettingsDialog.ui:417
 msgid "Performers, composers, …"
-msgstr ""
+msgstr "表演者，作曲者，…"
 
 #: ../data/SettingsDialog.ui:435
 msgid "Statistics"
-msgstr ""
+msgstr "统计"
 
 #: ../data/SettingsDialog.ui:466
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "移除由Lollypop管理的设备"
 
 #: ../data/SettingsDialog.ui:467 ../lollypop/menu_artist.py:75
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
@@ -774,7 +776,7 @@ msgstr "Web"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: ../data/SettingsDialog.ui:490
 msgid "Allow network access"
@@ -782,7 +784,7 @@ msgstr "允许网络访问"
 
 #: ../data/SettingsDialog.ui:507
 msgid "Background data"
-msgstr ""
+msgstr "后台数据"
 
 #: ../data/SettingsDialog.ui:509
 msgid "Search artwork in background"
@@ -790,20 +792,20 @@ msgstr "后台搜索封面"
 
 #: ../data/SettingsDialog.ui:530
 msgid "Song playback"
-msgstr ""
+msgstr "歌曲回放"
 
 #: ../data/SettingsDialog.ui:541 ../data/SettingsDialog.ui:685
 #: ../data/SettingsDialog.ui:742 ../data/SettingsDialog.ui:799
 msgid "Enabled"
-msgstr ""
+msgstr "启用"
 
 #: ../data/SettingsDialog.ui:558
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "使用youtube-dl的最新版本"
 
 #: ../data/SettingsDialog.ui:574
 msgid "Google API-key"
-msgstr ""
+msgstr "谷歌API-key"
 
 #: ../data/SettingsDialog.ui:598 ../data/SettingsDialog.ui:711
 #: ../data/SettingsDialog.ui:768 ../data/SettingsDialog.ui:840
@@ -821,49 +823,49 @@ msgstr "未设置服务器"
 
 #: ../data/SettingsDialog.ui:646
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "什么是Invidious ?"
 
 #: ../data/SettingsDialog.ui:674
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "搜索 (专辑封面，歌曲，...)"
 
 #: ../data/SettingsDialog.ui:815
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "ListenBrainz API-Key"
 
 #: ../data/SettingsDialog.ui:865 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
 msgid "Deezer"
-msgstr ""
+msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:881
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:897 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:913
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:929
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:945
 msgid "Google"
-msgstr "Google"
+msgstr "谷歌"
 
 #: ../data/SettingsDialog.ui:961
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:977
 msgid "DuckDuckGo"
-msgstr ""
+msgstr "DuckDuckGo"
 
 #: ../data/SettingsDialog.ui:993
 msgid "Wikipedia"
@@ -875,11 +877,11 @@ msgstr "歌词"
 
 #: ../data/SettingsDialog.ui:1019
 msgid "Wikia"
-msgstr ""
+msgstr "Wikia"
 
 #: ../data/SettingsDialog.ui:1035
 msgid "Genius"
-msgstr ""
+msgstr "Genius"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -939,7 +941,7 @@ msgstr "全屏"
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Mini player"
-msgstr ""
+msgstr "迷你播放器"
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
@@ -1112,7 +1114,7 @@ msgstr "不要循环播放"
 
 #: ../data/ToolbarEnd.ui:52
 msgid "Scrobbling"
-msgstr "Scrobbling"
+msgstr "歌曲记录"
 
 #: ../data/ToolbarEnd.ui:54
 msgid "Enable scrobbling"
@@ -1136,7 +1138,7 @@ msgstr "您需要安装kid3-cli"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
-msgstr ""
+msgstr "什么是谷歌API-key?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1148,6 +1150,13 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+"\n"
+"为使用YouTube回放，\n"
+"您需要创建API-Key于\n"
+"\n"
+"<b>\"YouTube Data API v3\"</b>\n"
+"\n"
+"用于播放音乐。"
 
 #: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1157,28 +1166,30 @@ msgstr "取消"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
-msgstr ""
+msgstr "连接至控制台"
 
 #: ../lollypop/assistant_google.py:48
 msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>打开并登录</b>进入 <b>谷歌开发者控制台</b>"
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
-msgstr ""
+msgstr "访问谷歌开发者控制台"
 
 #: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
 #: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
 #: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
 #: ../lollypop/assistant_musicbrainz.py:60
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
-msgstr ""
+msgstr "激活API"
 
 #: ../lollypop/assistant_google.py:60
 msgid ""
@@ -1190,10 +1201,17 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>添加新项目</b> 于控制台。\n"
+"\n"
+"此后，<b>添加新API</b>并搜索\n"
+" <b>\"YouTube Data API v3\"</b>。\n"
+"\n"
+"<b>激活此API</b> 为您的项目"
 
 #: ../lollypop/assistant_google.py:75
 msgid "Copy the key"
-msgstr ""
+msgstr "复制密钥"
 
 #: ../lollypop/assistant_google.py:77
 msgid ""
@@ -1203,16 +1221,21 @@ msgid ""
 "\n"
 "<b>Copy the API-Key to Lollypop</b>"
 msgstr ""
+"\n"
+"打开 <b>\"Credentials\"</b> 于侧边栏，\n"
+"<b>创建 Credentials</b> 为<b>API-Key</b>。\n"
+"\n"
+"<b>复制此API-Key至Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
 msgid "Finish"
-msgstr ""
+msgstr "结束"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "记录歌曲至%s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1221,11 +1244,14 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"为将您的活动发送至 <b>%s</b>，\n"
+"您需要许可 <b>Lollypop</b>。"
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "连接至%s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1234,25 +1260,30 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"<b>打开并登录</b> 到 <b>%s</b>.\n"
+"然后， 许可Lollypop。"
 
 #: ../lollypop/assistant_lastfm.py:54
 #, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "访问%s"
 
 #: ../lollypop/assistant_lastfm.py:62
 msgid "Just play a track"
-msgstr ""
+msgstr "且放一曲"
 
 #: ../lollypop/assistant_lastfm.py:64
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>点击 \"结束\"</b> 当Lollypop已被许可时。"
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "记录歌曲至ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1260,38 +1291,45 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"为将您的活动发送至 <b>ListenBrainz</b>，\n"
+"您需要许可 <b>Lollypop</b>。"
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
-msgstr ""
+msgstr "连接至ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"<b>打开并登录</b> 至 <b>ListenBrainz</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:46
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "访问ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
-msgstr ""
+msgstr "复制密钥"
 
 #: ../lollypop/assistant_musicbrainz.py:56
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>结束</b>激活通过复制<b>API-Key</b>于Lollypop。"
 
 #: ../lollypop/assistant.py:145
 msgid "Can't contact this service"
-msgstr ""
+msgstr "无法接通此服务"
 
 #: ../lollypop/collection_scanner.py:338
 msgid "Resetting database"
-msgstr ""
+msgstr "重设数据库"
 
 #: ../lollypop/collection_scanner.py:507
 msgid "Scan disabled, missing collection"
@@ -1324,11 +1362,11 @@ msgstr "许多艺术家"
 
 #: ../lollypop/database_upgrade.py:774
 msgid "Please wait while Lollypop is updating albums"
-msgstr ""
+msgstr "Lollypop正在更新专辑，请耐心等待"
 
 #: ../lollypop/database_upgrade.py:793
 msgid "Please wait while Lollypop is updating tracks"
-msgstr ""
+msgstr "Lollypop正在更新曲目，请耐心等待"
 
 #: ../lollypop/dialog_apps.py:73
 msgid "Select"
@@ -1341,25 +1379,25 @@ msgstr "选取应用程序"
 #: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "艺术家总计: %s"
 
 #: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "专辑总计: %s"
 
 #: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "曲目总计: %s"
 
 #: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
-msgstr ""
+msgstr "断开连接"
 
 #: ../lollypop/dialog_settings.py:251
 msgid "Are you sure?"
-msgstr ""
+msgstr "您是否确定?"
 
 #: ../lollypop/fullscreen.py:355
 msgid "You are using a broken cursor theme!"
@@ -1399,11 +1437,11 @@ msgstr "显示曲目"
 
 #: ../lollypop/menu_artist.py:57
 msgid "Show year"
-msgstr ""
+msgstr "显示年份"
 
 #: ../lollypop/menu_artist.py:65
 msgid "Play featured"
-msgstr ""
+msgstr "播放特色曲目"
 
 #: ../lollypop/menu_artist.py:120
 msgid "Available albums"
@@ -1411,7 +1449,7 @@ msgstr "可用专辑"
 
 #: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
 msgid "Change Artwork"
-msgstr ""
+msgstr "更改专辑封面"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
@@ -1442,7 +1480,7 @@ msgstr "YouTube页面地址"
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
 #: ../lollypop/menu_playback.py:526
 msgid "Play a radio"
-msgstr ""
+msgstr "播放电台"
 
 #: ../lollypop/menu_playback.py:72
 msgid "Add to playback"
@@ -1454,7 +1492,7 @@ msgstr "从回放移除"
 
 #: ../lollypop/menu_playback.py:114
 msgid "Related tracks"
-msgstr ""
+msgstr "相关曲目"
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
 #: ../lollypop/playlists.py:354 ../lollypop/shown.py:70
@@ -1467,7 +1505,7 @@ msgstr "流行曲目"
 
 #: ../lollypop/menu_playback.py:136
 msgid "From collection"
-msgstr ""
+msgstr "来自曲库"
 
 #: ../lollypop/menu_playback.py:154 ../lollypop/menu_search.py:60
 msgid "Last.fm"
@@ -1475,7 +1513,7 @@ msgstr "Last.fm"
 
 #: ../lollypop/menu_playback.py:168 ../lollypop/menu_suggestions.py:74
 msgid "From the Web"
-msgstr ""
+msgstr "来自网络"
 
 #: ../lollypop/menu_playback.py:210
 msgid "Play this playlist"
@@ -1483,7 +1521,7 @@ msgstr "播放此列表"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "添加此列表"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1523,7 +1561,7 @@ msgstr "保存播放列表"
 
 #: ../lollypop/menu_playlist.py:50
 msgid "Sync from Last.FM"
-msgstr ""
+msgstr "从Last.FM同步"
 
 #: ../lollypop/menu_playlist.py:57
 msgid "Manage smart playlist"
@@ -1559,7 +1597,7 @@ msgstr "搜索"
 
 #: ../lollypop/menu_search.py:64
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../lollypop/menu_selectionlist.py:50
 msgid "Default on startup"
@@ -1599,19 +1637,19 @@ msgstr "无结果"
 
 #: ../lollypop/menu_suggestions.py:35 ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr "建议"
+msgstr "推荐"
 
 #: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
-msgstr ""
+msgstr "Spotify上的全新发布"
 
 #: ../lollypop/menu_suggestions.py:59 ../lollypop/view_suggestions.py:127
 msgid "Suggestions from Spotify"
-msgstr ""
+msgstr "来自Spotify的推荐"
 
 #: ../lollypop/menu_suggestions.py:71 ../lollypop/view_suggestions.py:131
 msgid "Top albums on Deezer"
-msgstr ""
+msgstr "Deezer上的热门专辑"
 
 #: ../lollypop/menu_sync.py:33
 msgid "All devices"
@@ -1620,7 +1658,7 @@ msgstr "全部设备"
 #: ../lollypop/player_albums.py:58 ../lollypop/player_albums.py:142
 #: ../lollypop/player_albums.py:169 ../lollypop/player_albums.py:185
 msgid "No album available"
-msgstr ""
+msgstr "无可用专辑"
 
 #: ../lollypop/player_bin.py:425
 msgid "Can't find this track on YouTube"
@@ -1672,7 +1710,7 @@ msgstr "艺术家 (列表)"
 
 #: ../lollypop/shown.py:41
 msgid "Information"
-msgstr ""
+msgstr "信息"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1723,15 +1761,15 @@ msgstr "缺少 youtube-dl 指令"
 
 #: ../lollypop/view_albums_box.py:60 ../lollypop/view_lyrics.py:169
 msgid "Network unavailable or disabled in settings"
-msgstr ""
+msgstr "网络不可用或在设置中被禁用"
 
 #: ../lollypop/view_albums_box.py:193
 msgid "New albums available"
-msgstr ""
+msgstr "有可用的新专辑"
 
 #: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
@@ -1751,7 +1789,7 @@ msgstr "何不聆听?"
 
 #: ../lollypop/view_artists_rounded.py:154
 msgid "New artists available"
-msgstr ""
+msgstr "有可用的新艺术家"
 
 #: ../lollypop/view_information.py:151 ../lollypop/view_information.py:233
 msgid "Loading information"
@@ -1801,7 +1839,7 @@ msgstr "欢迎使用Lollypop"
 
 #: ../lollypop/view_tracks_album.py:67
 msgid "All tracks skipped"
-msgstr ""
+msgstr "已跳过所有曲目"
 
 #: ../lollypop/view_tracks_album.py:240
 #, python-format
@@ -1858,15 +1896,15 @@ msgstr "默认"
 
 #: ../lollypop/widgets_equalizer.py:26
 msgid "Acoustic"
-msgstr ""
+msgstr "原声"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Bass"
-msgstr ""
+msgstr "低音"
 
 #: ../lollypop/widgets_equalizer.py:31
 msgid "Bass and Treble"
-msgstr ""
+msgstr "低音与立体声"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Classical"
@@ -1882,31 +1920,31 @@ msgstr "舞曲"
 
 #: ../lollypop/widgets_equalizer.py:39
 msgid "Disco"
-msgstr ""
+msgstr "迪斯科"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "鼓与贝司"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Heavy Metal"
-msgstr ""
+msgstr "重金属"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Jazz"
-msgstr ""
+msgstr "爵士"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Latin"
-msgstr ""
+msgstr "拉丁"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Metal"
-msgstr ""
+msgstr "金属"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "New Age"
-msgstr ""
+msgstr "新世纪"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "Party"
@@ -1930,7 +1968,7 @@ msgstr "泰科诺"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Vocal"
-msgstr ""
+msgstr "人声"
 
 #: ../lollypop/widgets_equalizer.py:160 ../lollypop/widgets_equalizer.py:192
 msgid "Custom"
