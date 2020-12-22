@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 16:01+0100\n"
-"PO-Revision-Date: 2020-12-06 15:29+0000\n"
+"PO-Revision-Date: 2020-12-26 09:29+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/uk/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -65,6 +65,8 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Поріг, який використовується, щоб вирішити, чи слід відтворювати попередню "
+"доріжку чи перезапускати поточну"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -152,7 +154,7 @@ msgstr "Улюблений редактор міток"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:171
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Назва файлу улюбленої обкладинки без розширення"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:172
 #: ../data/org.gnome.Lollypop.gschema.xml:257
@@ -259,7 +261,7 @@ msgstr "Показувати номер доріжки з міток"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:284
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Увімкнути кешування обкладинок формату PNG"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -460,7 +462,7 @@ msgstr "Музичний програвач"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Музика;Програвач;Плеєр;Music;Player;Lollipop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -620,11 +622,11 @@ msgstr "Показувати лише один стовпчик для дорі�
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Обкладинки високої якости"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
-msgstr "Розмір зображення"
+msgstr "Розмір обкладинки"
 
 #: ../data/SettingsDialog.ui:139 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -805,7 +807,7 @@ msgstr "Фонові дані"
 
 #: ../data/SettingsDialog.ui:526
 msgid "Search artwork in background"
-msgstr "Шукати обкладинки в фоні"
+msgstr "Шукати обкладинки в фоновому режимі"
 
 #: ../data/SettingsDialog.ui:547
 msgid "Song playback"
@@ -857,7 +859,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -906,11 +908,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro Lyrics"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1375,7 +1377,7 @@ msgstr "Невідомий"
 
 #: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
-msgstr "Звантажувати обкладинки альбомів та фото виконавців автоматично?"
+msgstr "Звантажувати обкладинки альбомів та світлини виконавців автоматично?"
 
 #: ../lollypop/container_notification.py:97
 msgid "Yes"
@@ -1496,7 +1498,7 @@ msgstr "Додати до"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Показати альбом"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 msgid "Others"
@@ -1763,7 +1765,7 @@ msgstr "Зрідка відтворювані доріжки"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Пропущені доріжки"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
