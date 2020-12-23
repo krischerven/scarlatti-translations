@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 16:01+0100\n"
-"PO-Revision-Date: 2020-11-30 20:29+0000\n"
-"Last-Translator: Fernando Espada <fespada@posteo.net>\n"
+"PO-Revision-Date: 2020-12-26 09:29+0000\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "es/>\n"
 "Language: es\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -63,21 +63,23 @@ msgstr "INTERNO"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:61
 msgid "Allow using a cover per track"
-msgstr "Permitir el uso de una carátula por pista"
+msgstr "Permitir el uso de una portada por pista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:66
 msgid "Access network"
-msgstr "Buscar en internet"
+msgstr "Red de acceso"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:76
 msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Umbral utilizado para decidir si la pista anterior debe ser reproducida o la "
+"que se está ejecutando actualmente debe ser reiniciada"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
-msgstr "Guardar portada/popularidad en los archivos de música"
+msgstr "Guardar carátula/popularidad en las etiquetas"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "Window maximized"
@@ -89,7 +91,7 @@ msgstr "Estado maximizado de la ventana."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:91
 msgid "Enabled genres in party mode"
-msgstr "Habilitar géneros en modo fiesta"
+msgstr "Habilitar géneros en el modo fiesta"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:92
 msgid "ID for genres."
@@ -125,7 +127,7 @@ msgstr "Al estar activo, Lollypop no utilizará el sistema youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
 msgid "Show year below album name"
-msgstr "Mostrar año debajo del nombre de álbum"
+msgstr "Mostrar año debajo del nombre del álbum"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Do not use original date if set"
@@ -133,7 +135,7 @@ msgstr "No usar la fecha original si está fijada"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:141
 msgid "Import playlists from collections"
-msgstr "Importar listas de reproducción desde colecciones"
+msgstr "Importar listas de reproducción desde las colecciones"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:146
 msgid "Music URI"
@@ -141,7 +143,7 @@ msgstr "Música URI"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:147
 msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "Utilice XDG_MUSIC_DIR si está vacio"
+msgstr "Cuando esté vacío, utilice XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:151
 msgid "Use Libre.fm instead of Last.fm"
@@ -149,7 +151,7 @@ msgstr "Usar Libre.fm en lugar de Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:156
 msgid "ListenBrainz user token"
-msgstr "Token de usuario ListenBrainz"
+msgstr "Token de usuario de ListenBrainz"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Google Custom Search API key"
@@ -161,7 +163,7 @@ msgstr "Editor de etiquetas preferido"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:171
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Nombre del archivo de la portada favorito sin extensión"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:172
 #: ../data/org.gnome.Lollypop.gschema.xml:257
@@ -181,7 +183,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:181
 msgid "Albums cover size"
-msgstr "Tamaño de la carátula del álbum"
+msgstr "Tamaño de la portada del álbum"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:186
 msgid "Encoding quality"
@@ -197,7 +199,7 @@ msgstr "Mostrar pistas en vista de artista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:201 ../data/SettingsDialog.ui:88
 msgid "Show artist artwork"
-msgstr "Mostrar imagen del artista"
+msgstr "Mostrar carátula del artista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Use dark GTK theme"
@@ -268,7 +270,7 @@ msgstr "Mostrar el número de pista de las etiquetas"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:284
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Habilitar el caché en PNG de las carátulas"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -442,7 +444,7 @@ msgstr ""
 "excepcionalmente en el entorno de escritorio GNOME. También incluye un modo "
 "fiesta el cual selecciona automáticamente listas de reproducción "
 "relacionadas con fiestas; permite acceso al reproductor desde tu sofá "
-"gracias a su modo de pantalla completa; recolecta letras, portadas y "
+"gracias a su modo de pantalla completa; recolecta letras, carátulas y "
 "biografías automáticamente en línea; y provee soporte nativo para ReplayGain."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
@@ -467,7 +469,7 @@ msgstr "Reproductor de música"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Music;Player;Lollipop;Música;Reproductor;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -615,7 +617,7 @@ msgstr "Si la aplicación debe usar un tema oscuro"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
-msgstr "Modo Oscuro"
+msgstr "Modo oscuro"
 
 #: ../data/SettingsDialog.ui:70
 msgid "Single column mode"
@@ -627,11 +629,11 @@ msgstr "Solo mostrar una sola columna para las pistas"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Carátulas de alta calidad"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
-msgstr "Tamaño de la portada"
+msgstr "Tamaño de la carátula"
 
 #: ../data/SettingsDialog.ui:139 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -659,7 +661,7 @@ msgstr "Guardar los cambios en el archivo"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Save artwork and rating to files"
-msgstr "Guardar la portada y la clasificación en los archivos"
+msgstr "Guardar la carátula y la clasificación en los archivos"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Albums will be sorted by this field"
@@ -812,7 +814,7 @@ msgstr "Datos en segundo plano"
 
 #: ../data/SettingsDialog.ui:526
 msgid "Search artwork in background"
-msgstr "Buscar portadas en segundo plano"
+msgstr "Buscar carátulas en segundo plano"
 
 #: ../data/SettingsDialog.ui:547
 msgid "Song playback"
@@ -851,7 +853,7 @@ msgstr "¿Qué es Invidious?"
 
 #: ../data/SettingsDialog.ui:735
 msgid "Search (artwork, songs, ...)"
-msgstr "Buscar (portadas, canciones, ...)"
+msgstr "Buscar (carátulas, canciones, ...)"
 
 #: ../data/SettingsDialog.ui:926
 msgid "ListenBrainz API-Key"
@@ -864,7 +866,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -913,11 +915,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro Lyrics"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1382,7 +1384,7 @@ msgstr "Desconocido"
 
 #: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
-msgstr "¿Descargar automáticamente álbumes y portadas?"
+msgstr "¿Descargar automáticamente álbumes y carátulas?"
 
 #: ../lollypop/container_notification.py:97
 msgid "Yes"
@@ -1485,7 +1487,7 @@ msgstr "Álbumes disponibles"
 
 #: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
 msgid "Change Artwork"
-msgstr "Cambiar portada"
+msgstr "Cambiar carátula"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
@@ -1503,7 +1505,7 @@ msgstr "Agregar a"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Mostrar álbum"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 msgid "Others"
@@ -1770,7 +1772,7 @@ msgstr "Pistas poco reproducidas"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Pistas omitidas"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
