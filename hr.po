@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-27 13:23+0100\n"
+"POT-Creation-Date: 2020-12-27 13:42+0100\n"
 "PO-Revision-Date: 2020-10-06 03:26+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1170,13 +1170,6 @@ msgid ""
 "you need to allow <b>Lollypop</b>."
 msgstr ""
 
-#: ../lollypop/assistant_flatpak.py:38 ../lollypop/assistant_google.py:40
-#: ../lollypop/assistant_lastfm.py:43 ../lollypop/assistant_musicbrainz.py:36
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
-#: ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "Odustani"
-
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
 msgstr ""
@@ -1223,6 +1216,12 @@ msgstr ""
 "<b> \"YouTube Data API v3\" </b>\n"
 "\n"
 "koji se koristi za sviranje pjesama."
+
+#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
+#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "Odustani"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
@@ -1281,7 +1280,7 @@ msgstr ""
 "<b>Kopiraj API-ključ u Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
-#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
+#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
 msgid "Finish"
 msgstr "Završi"
 
@@ -1376,7 +1375,7 @@ msgstr ""
 "\n"
 "<b>Završi</b> aktivaciju kopiranjem <b>API-ključa</b> u Lollypopu."
 
-#: ../lollypop/assistant.py:145
+#: ../lollypop/assistant.py:149
 msgid "Can't contact this service"
 msgstr "Nije moguće kontaktirati ovu uslugu"
 
@@ -1906,7 +1905,7 @@ msgid "Disc %s"
 msgstr "Disk %s"
 
 #: ../lollypop/view_tracks_queue.py:36
-msgid "Actually in queue"
+msgid "Currently in queue"
 msgstr ""
 
 #: ../lollypop/view_tracks_search.py:103

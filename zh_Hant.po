@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-27 13:23+0100\n"
+"POT-Creation-Date: 2020-12-27 13:42+0100\n"
 "PO-Revision-Date: 2020-03-10 17:11+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -1154,13 +1154,6 @@ msgid ""
 "you need to allow <b>Lollypop</b>."
 msgstr ""
 
-#: ../lollypop/assistant_flatpak.py:38 ../lollypop/assistant_google.py:40
-#: ../lollypop/assistant_lastfm.py:43 ../lollypop/assistant_musicbrainz.py:36
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
-#: ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "取消"
-
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
 msgstr ""
@@ -1200,6 +1193,12 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+
+#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
+#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "取消"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
@@ -1244,7 +1243,7 @@ msgid ""
 msgstr ""
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
-#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
+#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
 msgid "Finish"
 msgstr ""
 
@@ -1324,7 +1323,7 @@ msgid ""
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
 
-#: ../lollypop/assistant.py:145
+#: ../lollypop/assistant.py:149
 msgid "Can't contact this service"
 msgstr ""
 
@@ -1854,7 +1853,7 @@ msgid "Disc %s"
 msgstr "碟片 %s"
 
 #: ../lollypop/view_tracks_queue.py:36
-msgid "Actually in queue"
+msgid "Currently in queue"
 msgstr ""
 
 #: ../lollypop/view_tracks_search.py:103

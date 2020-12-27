@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-27 13:23+0100\n"
+"POT-Creation-Date: 2020-12-27 13:42+0100\n"
 "PO-Revision-Date: 2020-12-27 12:42+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -1180,13 +1180,6 @@ msgstr ""
 "Sta <b>Lollypop</b> toe om je verzameling\n"
 "te indexeren."
 
-#: ../lollypop/assistant_flatpak.py:38 ../lollypop/assistant_google.py:40
-#: ../lollypop/assistant_lastfm.py:43 ../lollypop/assistant_musicbrainz.py:36
-#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
-#: ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "Annuleren"
-
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
 msgstr "Mappen bijwerken"
@@ -1238,6 +1231,12 @@ msgstr ""
 "<b>\"YouTube Data API v3\"</b>,\n"
 "\n"
 "die wordt gebruikt om nummers af te spelen."
+
+#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
+#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
+#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "Annuleren"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
@@ -1296,7 +1295,7 @@ msgstr ""
 "<b>Kopieer de API-sleutel en plak deze in Lollypop</b>"
 
 #: ../lollypop/assistant_google.py:86 ../lollypop/assistant_lastfm.py:70
-#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:147
+#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
 msgid "Finish"
 msgstr "Afronden"
 
@@ -1392,7 +1391,7 @@ msgstr ""
 "<b>Rond af</b> door de <b>API-sleutel</b> te kopiëren en te plakken in "
 "Lollypop."
 
-#: ../lollypop/assistant.py:145
+#: ../lollypop/assistant.py:149
 msgid "Can't contact this service"
 msgstr "Kan geen verbinding maken met dienst"
 
@@ -1922,8 +1921,8 @@ msgid "Disc %s"
 msgstr "Schijf %s"
 
 #: ../lollypop/view_tracks_queue.py:36
-msgid "Actually in queue"
-msgstr "Reeds in wachtrij"
+msgid "Currently in queue"
+msgstr ""
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
@@ -2106,6 +2105,9 @@ msgstr "Compilatie"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Verwijderen van afspeellijst"
+
+#~ msgid "Actually in queue"
+#~ msgstr "Reeds in wachtrij"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Jaartal tonen onder albumnaam"
