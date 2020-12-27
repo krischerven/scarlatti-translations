@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-22 16:01+0100\n"
+"POT-Creation-Date: 2020-12-27 13:23+0100\n"
 "PO-Revision-Date: 2020-10-05 23:39+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -52,8 +52,9 @@ msgstr "Позиция окна (x, y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:56
 #: ../data/org.gnome.Lollypop.gschema.xml:71
 #: ../data/org.gnome.Lollypop.gschema.xml:116
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-#: ../data/org.gnome.Lollypop.gschema.xml:279
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:284
 #: ../data/org.gnome.Lollypop.gschema.xml:304
 #: ../data/org.gnome.Lollypop.gschema.xml:309
 #: ../data/org.gnome.Lollypop.gschema.xml:314
@@ -124,149 +125,145 @@ msgid "If true, Lollypop will not use system youtube-dl"
 msgstr "Если включено, Lollypop не будет использовать локальный youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
-msgid "Show year below album name"
-msgstr "Показывать год выпуска под именем альбома"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Do not use original date if set"
 msgstr "Если включено, не использовать исходную дату"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:141
+#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Import playlists from collections"
 msgstr "Импортировать плейлисты с коллекций"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:146
+#: ../data/org.gnome.Lollypop.gschema.xml:141
 msgid "Music URI"
 msgstr "URI музыки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:147
+#: ../data/org.gnome.Lollypop.gschema.xml:142
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Когда не установлено, используется XDG_MUSIC_DIR"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:151
+#: ../data/org.gnome.Lollypop.gschema.xml:146
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Использовать Libre.fm вместо Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:156
+#: ../data/org.gnome.Lollypop.gschema.xml:151
 msgid "ListenBrainz user token"
 msgstr "Токен пользователя ListenBrainz"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:161
+#: ../data/org.gnome.Lollypop.gschema.xml:156
 msgid "Google Custom Search API key"
 msgstr "Google Custom Search API ключ"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:166
+#: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Favorite tag editor"
 msgstr "Любимый редактор тегов"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:171
+#: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:172
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:167
+#: ../data/org.gnome.Lollypop.gschema.xml:252
 msgid "Restart needed"
 msgstr "Необходим перезапуск"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:176
+#: ../data/org.gnome.Lollypop.gschema.xml:171
 msgid "Database version"
 msgstr "Версия базы данных"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:177
+#: ../data/org.gnome.Lollypop.gschema.xml:172
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Переустановка этого параметра восстановит базу данных и популярные альбомы"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:181
+#: ../data/org.gnome.Lollypop.gschema.xml:176
 msgid "Albums cover size"
 msgstr "Размер обложки альбома"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:186
+#: ../data/org.gnome.Lollypop.gschema.xml:181
 msgid "Encoding quality"
 msgstr "Качество кодирования"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:191 ../data/SettingsDialog.ui:375
+#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:375
 msgid "Auto update music"
 msgstr "Автоматическое обновление музыки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:196
+#: ../data/org.gnome.Lollypop.gschema.xml:191
 msgid "Show tracks in artist view"
 msgstr "Показывать треки в просмотре исполнителя"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:201 ../data/SettingsDialog.ui:88
+#: ../data/org.gnome.Lollypop.gschema.xml:196 ../data/SettingsDialog.ui:88
 msgid "Show artist artwork"
 msgstr "Показывать обложку исполнителя"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:206
+#: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
 msgstr "Использовать темную тему GTK"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:211
+#: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Disable scrobbling usage"
 msgstr "Выключить скробблинг"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:216
+#: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
 msgstr "Обработка подборок"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:221
+#: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
 msgstr "Обработка исполнителей, композиторов, ..."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
 msgstr "Показывать сборники в списке альбомов"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231 ../data/SettingsDialog.ui:158
+#: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:158
 msgid "Continue playback when closed"
 msgstr "Продолжать воспроизведение после закрытия"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Append albums by default"
 msgstr "Добавлять альбомы по-умолчанию"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Smart sort for artist"
 msgstr "Умная сортировка по исполнителю"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:242
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Пр: The Beatles отсортированы как Beatles. Требуется восстановление базы "
 "данных"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "Показывать тег сортировки по исполнителям. Возможно понадобится "
 "восстановление базы данных"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:247
+#: ../data/org.gnome.Lollypop.gschema.xml:242
 msgid "Ex: Beatles, The"
 msgstr "Пр: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Restore previous state"
 msgstr "Восстанавливать предыдущее состояние"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "Disable MPRIS"
 msgstr "Отключить MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "Notifications behaviour"
 msgstr "Поведение уведомлений"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:270
+#: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "Items count in views"
 msgstr "Количество изображений в просмотрах"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Show track number from tags"
 msgstr "Показывать номер трека из тегов"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:284
+#: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
 msgstr ""
 
@@ -472,10 +469,10 @@ msgstr ""
 msgid "Play/Pause"
 msgstr "Воспроизведение/Пауза"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_google.py:42
-#: ../lollypop/assistant_google.py:54 ../lollypop/assistant_google.py:71
-#: ../lollypop/assistant_lastfm.py:45 ../lollypop/assistant_lastfm.py:58
-#: ../lollypop/assistant_musicbrainz.py:38
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_flatpak.py:40
+#: ../lollypop/assistant_google.py:42 ../lollypop/assistant_google.py:54
+#: ../lollypop/assistant_google.py:71 ../lollypop/assistant_lastfm.py:45
+#: ../lollypop/assistant_lastfm.py:58 ../lollypop/assistant_musicbrainz.py:38
 #: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:37
 msgid "Next"
 msgstr "Далее"
@@ -566,7 +563,7 @@ msgstr "Синхронизированно:"
 msgid "Albums"
 msgstr "Альбомы"
 
-#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:76
+#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
 #: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:117
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
@@ -684,7 +681,7 @@ msgstr "По году"
 msgid "Popularity"
 msgstr "По популярности"
 
-#: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:68
+#: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
 #: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:109
 msgid "Playback"
@@ -786,7 +783,7 @@ msgstr "Статистика"
 msgid "Remove devices managed by Lollypop"
 msgstr "Удалить устройства, контролируемые Lollypop"
 
-#: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:75
+#: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
 #: ../lollypop/menu_objects.py:90 ../lollypop/menu_playlist.py:68
 msgid "Devices"
@@ -1094,8 +1091,8 @@ msgstr "одно из следующих правил:"
 msgid "Genre"
 msgstr "Жанр"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_artist.py:71
-#: ../lollypop/menu_objects.py:48 ../lollypop/menu_objects.py:114
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
+#: ../lollypop/menu_objects.py:114
 msgid "Artist"
 msgstr "по исполнителю"
 
@@ -1171,6 +1168,49 @@ msgstr "Вернуться домой"
 msgid "You need to install kid3-cli"
 msgstr "Вам нужно установить kid3-cli"
 
+#: ../lollypop/assistant_flatpak.py:31
+msgid "Authorization needed"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:33
+msgid ""
+"\n"
+"In order to be able to access your collection,\n"
+"you need to allow <b>Lollypop</b>."
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:38 ../lollypop/assistant_google.py:40
+#: ../lollypop/assistant_lastfm.py:43 ../lollypop/assistant_musicbrainz.py:36
+#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
+#: ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../lollypop/assistant_flatpak.py:44
+msgid "Update folders"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:46
+msgid ""
+"\n"
+"- <b>Open</b> Lollypop <b>preferences</b>\n"
+"- Go to the <b>Music</b> tab\n"
+"- <b>Remove</b> all folders from collection\n"
+"- Then, <b>add</b> them again"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
+#: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
+#: ../lollypop/assistant_lastfm.py:56 ../lollypop/assistant_lastfm.py:68
+#: ../lollypop/assistant_musicbrainz.py:48
+#: ../lollypop/assistant_musicbrainz.py:60
+msgid "Back"
+msgstr "Назад"
+
+#: ../lollypop/assistant_flatpak.py:55
+msgid "Preferences"
+msgstr "Настройки"
+
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
 msgstr "Что такое \"API ключ Google\"?"
@@ -1193,12 +1233,6 @@ msgstr ""
 "\n"
 "который будет использоваться для проигрывания музыки."
 
-#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
-#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
-#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "Отмена"
-
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
 msgstr "Присоединение к консоли"
@@ -1214,13 +1248,6 @@ msgstr ""
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
 msgstr "Открыть Google Developer Console"
-
-#: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
-#: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
-#: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
-#: ../lollypop/assistant_musicbrainz.py:60
-msgid "Back"
-msgstr "Назад"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
@@ -1470,19 +1497,21 @@ msgstr "Открыть с помощью…"
 msgid "Show tracks"
 msgstr "Показать треки"
 
-#: ../lollypop/menu_artist.py:57
-msgid "Show year"
-msgstr "Показывать год выпуска"
-
-#: ../lollypop/menu_artist.py:65
+#: ../lollypop/menu_artist.py:56
 msgid "Play featured"
 msgstr "Воспроизводить feat"
 
-#: ../lollypop/menu_artist.py:120
+#: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
+#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_playlist.py:66
+msgid "Add to"
+msgstr "Добавить в"
+
+#: ../lollypop/menu_artist.py:111
 msgid "Available albums"
 msgstr "Доступные альбомы"
 
-#: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
+#: ../lollypop/menu_artwork.py:67 ../lollypop/menu_artwork.py:114
 msgid "Change Artwork"
 msgstr "Изменить обложку"
 
@@ -1495,16 +1524,12 @@ msgstr "Воспроизведение альбомов"
 msgid "Create a new playlist"
 msgstr "Создать новый плейлист"
 
-#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:118 ../lollypop/menu_playlist.py:66
-msgid "Add to"
-msgstr "Добавить в"
-
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
 msgstr ""
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "Другие"
 
@@ -1666,11 +1691,11 @@ msgstr "Секции"
 msgid "Loading…"
 msgstr "Загрузка…"
 
-#: ../lollypop/menu_similars.py:167
+#: ../lollypop/menu_similars.py:175
 msgid "Similar artists"
 msgstr "Похожие исполнители"
 
-#: ../lollypop/menu_similars.py:271
+#: ../lollypop/menu_similars.py:279
 msgid "No results"
 msgstr "Нет результатов"
 
@@ -1699,7 +1724,7 @@ msgstr "Все устройства"
 msgid "No album available"
 msgstr "Нет доступного альбома"
 
-#: ../lollypop/player_bin.py:423
+#: ../lollypop/player_bin.py:426
 msgid "Can't find this track on YouTube"
 msgstr "Не удается найти этот трек на YouTube"
 
@@ -1794,7 +1819,7 @@ msgstr "%s ч"
 msgid "%s m"
 msgstr "%s мин"
 
-#: ../lollypop/utils.py:331
+#: ../lollypop/utils.py:309
 msgid "The the"
 msgstr "The the"
 
@@ -1838,7 +1863,7 @@ msgstr "Доступны новые исполнители"
 msgid "Loading information"
 msgstr "Загрузка информации"
 
-#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:294
 #, python-format
 msgid "No information for %s"
 msgstr "Нет информации о %s"
@@ -1889,7 +1914,11 @@ msgstr "Пропущены все треки"
 msgid "Disc %s"
 msgstr "Диск %s"
 
-#: ../lollypop/view_tracks_search.py:105
+#: ../lollypop/view_tracks_queue.py:36
+msgid "Actually in queue"
+msgstr ""
+
+#: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
 msgstr "Треки"
 
@@ -1897,11 +1926,11 @@ msgstr "Треки"
 msgid "Local"
 msgstr "Локальные"
 
-#: ../lollypop/widgets_artwork.py:141
+#: ../lollypop/widgets_artwork.py:139
 msgid "Select artwork"
 msgstr "Выбрать обложку"
 
-#: ../lollypop/widgets_artwork.py:181
+#: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
 msgstr "Удалить"
 
@@ -2067,9 +2096,15 @@ msgstr "Песня проиграна %s раз"
 msgid "Compilation"
 msgstr "Подборка"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:105
+#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Удалить из плейлиста"
+
+#~ msgid "Show year below album name"
+#~ msgstr "Показывать год выпуска под именем альбома"
+
+#~ msgid "Show year"
+#~ msgstr "Показывать год выпуска"
 
 #~ msgid "Favorite cover file"
 #~ msgstr "Любимый файл обложки"
@@ -2140,9 +2175,6 @@ msgstr "Удалить из плейлиста"
 
 #~ msgid "Remove devices managed by Lollypop:"
 #~ msgstr "Удаленные устройства управляемые Lollypop:"
-
-#~ msgid "Preferences"
-#~ msgstr "Настройки"
 
 #~ msgid "Control your privacy by selecting allowed services"
 #~ msgstr "Контролируйте свою приватность выбирая разрешенные сервисы"

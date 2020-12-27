@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-22 16:01+0100\n"
+"POT-Creation-Date: 2020-12-27 13:23+0100\n"
 "PO-Revision-Date: 2020-12-26 09:29+0000\n"
 "Last-Translator: Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -44,8 +44,9 @@ msgstr "Fönsterposition (x och y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:56
 #: ../data/org.gnome.Lollypop.gschema.xml:71
 #: ../data/org.gnome.Lollypop.gschema.xml:116
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-#: ../data/org.gnome.Lollypop.gschema.xml:279
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:284
 #: ../data/org.gnome.Lollypop.gschema.xml:304
 #: ../data/org.gnome.Lollypop.gschema.xml:309
 #: ../data/org.gnome.Lollypop.gschema.xml:314
@@ -118,147 +119,143 @@ msgid "If true, Lollypop will not use system youtube-dl"
 msgstr "Om sant, kommer Lollypop inte att använda systemets youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
-msgid "Show year below album name"
-msgstr "Visa år under albumtitel"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Do not use original date if set"
 msgstr "Använd inte originaldatumet om det är inställt"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:141
+#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Import playlists from collections"
 msgstr "Importera spellistor från samlingar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:146
+#: ../data/org.gnome.Lollypop.gschema.xml:141
 msgid "Music URI"
 msgstr "Musik URI"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:147
+#: ../data/org.gnome.Lollypop.gschema.xml:142
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Använd XDG_MUSIC_DIR om tom"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:151
+#: ../data/org.gnome.Lollypop.gschema.xml:146
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Använd Libre.fm istället för Last.fm"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:156
+#: ../data/org.gnome.Lollypop.gschema.xml:151
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz-användartoken"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:161
+#: ../data/org.gnome.Lollypop.gschema.xml:156
 msgid "Google Custom Search API key"
 msgstr "Google Custom Search API-nyckel"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:166
+#: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Favorite tag editor"
 msgstr "Favorit taggredigerare"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:171
+#: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
 msgstr "Favoritomslagets filnamn utan filändelse"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:172
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:167
+#: ../data/org.gnome.Lollypop.gschema.xml:252
 msgid "Restart needed"
 msgstr "Omstart krävs"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:176
+#: ../data/org.gnome.Lollypop.gschema.xml:171
 msgid "Database version"
 msgstr "Databasversion"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:177
+#: ../data/org.gnome.Lollypop.gschema.xml:172
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 "Återställning av detta värde kommer att nollställa databasen, populära album "
 "kommer att återskapas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:181
+#: ../data/org.gnome.Lollypop.gschema.xml:176
 msgid "Albums cover size"
 msgstr "Storlek på omslag för album"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:186
+#: ../data/org.gnome.Lollypop.gschema.xml:181
 msgid "Encoding quality"
 msgstr "Kodnings kvalitet"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:191 ../data/SettingsDialog.ui:375
+#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:375
 msgid "Auto update music"
 msgstr "Uppdatera musik automatiskt"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:196
+#: ../data/org.gnome.Lollypop.gschema.xml:191
 msgid "Show tracks in artist view"
 msgstr "Visa spår i artistvy"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:201 ../data/SettingsDialog.ui:88
+#: ../data/org.gnome.Lollypop.gschema.xml:196 ../data/SettingsDialog.ui:88
 msgid "Show artist artwork"
 msgstr "Visa omslag"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:206
+#: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
 msgstr "Använd mörkt GTK-tema"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:211
+#: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Disable scrobbling usage"
 msgstr "Inaktivera användning av skrobbling"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:216
+#: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
 msgstr "Hantera samlingar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:221
+#: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
 msgstr "Hantera artister, kompositörer, ..."
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
 msgstr "Visa samlingar i albumvyn"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231 ../data/SettingsDialog.ui:158
+#: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:158
 msgid "Continue playback when closed"
 msgstr "Fortsätt uppspelning vid stängning"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Append albums by default"
 msgstr "Lägg till album som standard"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Smart sort for artist"
 msgstr "Smart sortering för artist"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:242
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
 "Exempel: The Beatles sorterad som Beatles. Återställning av databas krävs"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr "Visa sorteringstagg som artist. Återställning av databasen kan krävas"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:247
+#: ../data/org.gnome.Lollypop.gschema.xml:242
 msgid "Ex: Beatles, The"
 msgstr "Exempel: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Restore previous state"
 msgstr "Återställ föregående tillstånd"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "Disable MPRIS"
 msgstr "Inaktivera MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "Notifications behaviour"
 msgstr "Aviseringsbeteende"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:270
+#: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "Items count in views"
 msgstr "Antal poster i vyer"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Show track number from tags"
 msgstr "Visa spårnummer från taggar"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:284
+#: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
 msgstr "Aktivera PNG-omslagscache"
 
@@ -471,10 +468,10 @@ msgstr "Musik;Spelare;Lollipop;"
 msgid "Play/Pause"
 msgstr "Spela/Pausa"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_google.py:42
-#: ../lollypop/assistant_google.py:54 ../lollypop/assistant_google.py:71
-#: ../lollypop/assistant_lastfm.py:45 ../lollypop/assistant_lastfm.py:58
-#: ../lollypop/assistant_musicbrainz.py:38
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_flatpak.py:40
+#: ../lollypop/assistant_google.py:42 ../lollypop/assistant_google.py:54
+#: ../lollypop/assistant_google.py:71 ../lollypop/assistant_lastfm.py:45
+#: ../lollypop/assistant_lastfm.py:58 ../lollypop/assistant_musicbrainz.py:38
 #: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:37
 msgid "Next"
 msgstr "Nästa"
@@ -565,7 +562,7 @@ msgstr "Synkroniserad:"
 msgid "Albums"
 msgstr "Album"
 
-#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:76
+#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
 #: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:117
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
@@ -683,7 +680,7 @@ msgstr "År"
 msgid "Popularity"
 msgstr "Popularitet"
 
-#: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:68
+#: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
 #: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:109
 msgid "Playback"
@@ -785,7 +782,7 @@ msgstr "Statistik"
 msgid "Remove devices managed by Lollypop"
 msgstr "Ta bort enheter som hanteras av Lollypop"
 
-#: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:75
+#: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
 #: ../lollypop/menu_objects.py:90 ../lollypop/menu_playlist.py:68
 msgid "Devices"
@@ -1093,8 +1090,8 @@ msgstr "av följande regler :"
 msgid "Genre"
 msgstr "Genre"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_artist.py:71
-#: ../lollypop/menu_objects.py:48 ../lollypop/menu_objects.py:114
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
+#: ../lollypop/menu_objects.py:114
 msgid "Artist"
 msgstr "Artist"
 
@@ -1170,6 +1167,49 @@ msgstr "Gå hem"
 msgid "You need to install kid3-cli"
 msgstr "Du måste installera kid3-cli"
 
+#: ../lollypop/assistant_flatpak.py:31
+msgid "Authorization needed"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:33
+msgid ""
+"\n"
+"In order to be able to access your collection,\n"
+"you need to allow <b>Lollypop</b>."
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:38 ../lollypop/assistant_google.py:40
+#: ../lollypop/assistant_lastfm.py:43 ../lollypop/assistant_musicbrainz.py:36
+#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
+#: ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../lollypop/assistant_flatpak.py:44
+msgid "Update folders"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:46
+msgid ""
+"\n"
+"- <b>Open</b> Lollypop <b>preferences</b>\n"
+"- Go to the <b>Music</b> tab\n"
+"- <b>Remove</b> all folders from collection\n"
+"- Then, <b>add</b> them again"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
+#: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
+#: ../lollypop/assistant_lastfm.py:56 ../lollypop/assistant_lastfm.py:68
+#: ../lollypop/assistant_musicbrainz.py:48
+#: ../lollypop/assistant_musicbrainz.py:60
+msgid "Back"
+msgstr "Tillbaka"
+
+#: ../lollypop/assistant_flatpak.py:55
+msgid "Preferences"
+msgstr "Inställningar"
+
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
 msgstr "Vad är Google API-nyckel?"
@@ -1192,12 +1232,6 @@ msgstr ""
 "\n"
 "som används för att spela låtar."
 
-#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
-#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
-#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "Avbryt"
-
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
 msgstr "Anslut till konsolen"
@@ -1213,13 +1247,6 @@ msgstr ""
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
 msgstr "Åtkomst till Google-utvecklarkonsol"
-
-#: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
-#: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
-#: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
-#: ../lollypop/assistant_musicbrainz.py:60
-msgid "Back"
-msgstr "Tillbaka"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
@@ -1469,19 +1496,21 @@ msgstr "Öppna med…"
 msgid "Show tracks"
 msgstr "Visa spår"
 
-#: ../lollypop/menu_artist.py:57
-msgid "Show year"
-msgstr "Visa år"
-
-#: ../lollypop/menu_artist.py:65
+#: ../lollypop/menu_artist.py:56
 msgid "Play featured"
 msgstr "Spela utvalda"
 
-#: ../lollypop/menu_artist.py:120
+#: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
+#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_playlist.py:66
+msgid "Add to"
+msgstr "Lägg till i"
+
+#: ../lollypop/menu_artist.py:111
 msgid "Available albums"
 msgstr "Tillgängliga album"
 
-#: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
+#: ../lollypop/menu_artwork.py:67 ../lollypop/menu_artwork.py:114
 msgid "Change Artwork"
 msgstr "Byt omslag"
 
@@ -1494,16 +1523,12 @@ msgstr "Spelar album"
 msgid "Create a new playlist"
 msgstr "Skapa en ny spellista"
 
-#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:118 ../lollypop/menu_playlist.py:66
-msgid "Add to"
-msgstr "Lägg till i"
-
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
 msgstr "Visa album"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "Andra"
 
@@ -1665,11 +1690,11 @@ msgstr "Sektioner"
 msgid "Loading…"
 msgstr "Läser in…"
 
-#: ../lollypop/menu_similars.py:167
+#: ../lollypop/menu_similars.py:175
 msgid "Similar artists"
 msgstr "Liknande artister"
 
-#: ../lollypop/menu_similars.py:271
+#: ../lollypop/menu_similars.py:279
 msgid "No results"
 msgstr "Inga resultat"
 
@@ -1698,7 +1723,7 @@ msgstr "Alla enheter"
 msgid "No album available"
 msgstr "Inget album tillgängligt"
 
-#: ../lollypop/player_bin.py:423
+#: ../lollypop/player_bin.py:426
 msgid "Can't find this track on YouTube"
 msgstr "Kan inte hitta detta spår på YouTube"
 
@@ -1793,7 +1818,7 @@ msgstr "%s h"
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/utils.py:331
+#: ../lollypop/utils.py:309
 msgid "The the"
 msgstr "Den den"
 
@@ -1837,7 +1862,7 @@ msgstr "Nya artister tillgängliga"
 msgid "Loading information"
 msgstr "Läser in information"
 
-#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:294
 #, python-format
 msgid "No information for %s"
 msgstr "Ingen information om %s"
@@ -1888,7 +1913,11 @@ msgstr "Alla spår hoppades över"
 msgid "Disc %s"
 msgstr "Skiva %s"
 
-#: ../lollypop/view_tracks_search.py:105
+#: ../lollypop/view_tracks_queue.py:36
+msgid "Actually in queue"
+msgstr ""
+
+#: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
 msgstr "Spår"
 
@@ -1896,11 +1925,11 @@ msgstr "Spår"
 msgid "Local"
 msgstr "Lokal"
 
-#: ../lollypop/widgets_artwork.py:141
+#: ../lollypop/widgets_artwork.py:139
 msgid "Select artwork"
 msgstr "Välj omslag"
 
-#: ../lollypop/widgets_artwork.py:181
+#: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
 msgstr "Ta bort"
 
@@ -2066,9 +2095,15 @@ msgstr "Låt spelad %s gånger"
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:105
+#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Ta bort från spellista"
+
+#~ msgid "Show year below album name"
+#~ msgstr "Visa år under albumtitel"
+
+#~ msgid "Show year"
+#~ msgstr "Visa år"
 
 #~ msgid "Favorite cover file"
 #~ msgstr "Favoritfil för omslag"
@@ -2125,9 +2160,6 @@ msgstr "Ta bort från spellista"
 
 #~ msgid "Remove devices managed by Lollypop:"
 #~ msgstr "Ta bort enheter som hanteras av Lollypop:"
-
-#~ msgid "Preferences"
-#~ msgstr "Inställningar"
 
 #~ msgid "Privacy"
 #~ msgstr "Integritet"

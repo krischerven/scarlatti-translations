@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-22 16:01+0100\n"
+"POT-Creation-Date: 2020-12-27 13:23+0100\n"
 "PO-Revision-Date: 2020-06-14 11:41+0000\n"
 "Last-Translator: MarongHappy <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -40,8 +40,9 @@ msgstr "창 위치 (x 및 y)."
 #: ../data/org.gnome.Lollypop.gschema.xml:56
 #: ../data/org.gnome.Lollypop.gschema.xml:71
 #: ../data/org.gnome.Lollypop.gschema.xml:116
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-#: ../data/org.gnome.Lollypop.gschema.xml:279
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:284
 #: ../data/org.gnome.Lollypop.gschema.xml:304
 #: ../data/org.gnome.Lollypop.gschema.xml:309
 #: ../data/org.gnome.Lollypop.gschema.xml:314
@@ -112,145 +113,141 @@ msgid "If true, Lollypop will not use system youtube-dl"
 msgstr "True인 경우, 롤리팝은 시스템 youtube-dl을 사용하지 않습니다"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
-msgid "Show year below album name"
-msgstr "앨범 이름 아래 연도 표시"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Do not use original date if set"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:141
+#: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Import playlists from collections"
 msgstr "모음집에서 재생목록 가져오기"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:146
+#: ../data/org.gnome.Lollypop.gschema.xml:141
 msgid "Music URI"
 msgstr "음악 URI"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:147
+#: ../data/org.gnome.Lollypop.gschema.xml:142
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "비어 있는 경우, XDG_MUSIC_DIR 사용"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:151
+#: ../data/org.gnome.Lollypop.gschema.xml:146
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Last.fm 대신 Libre.fm 사용"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:156
+#: ../data/org.gnome.Lollypop.gschema.xml:151
 msgid "ListenBrainz user token"
 msgstr "ListenBrainz 사용자 토큰"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:161
+#: ../data/org.gnome.Lollypop.gschema.xml:156
 msgid "Google Custom Search API key"
 msgstr "구글 사용자 지정 검색 API 키"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:166
+#: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Favorite tag editor"
 msgstr "즐겨찾기 태그 편집기"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:171
+#: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:172
-#: ../data/org.gnome.Lollypop.gschema.xml:257
+#: ../data/org.gnome.Lollypop.gschema.xml:167
+#: ../data/org.gnome.Lollypop.gschema.xml:252
 msgid "Restart needed"
 msgstr "다시시작 필요함"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:176
+#: ../data/org.gnome.Lollypop.gschema.xml:171
 msgid "Database version"
 msgstr "데이터베이스 버전"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:177
+#: ../data/org.gnome.Lollypop.gschema.xml:172
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr "이 값을 재설정하면 데이터베이스가 재설정되고 인기 앨범이 복원됩니다"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:181
+#: ../data/org.gnome.Lollypop.gschema.xml:176
 msgid "Albums cover size"
 msgstr "앨범 표지 크기"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:186
+#: ../data/org.gnome.Lollypop.gschema.xml:181
 msgid "Encoding quality"
 msgstr "인코딩 품질"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:191 ../data/SettingsDialog.ui:375
+#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:375
 msgid "Auto update music"
 msgstr "음악 자동 업데이트"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:196
+#: ../data/org.gnome.Lollypop.gschema.xml:191
 msgid "Show tracks in artist view"
 msgstr "아티스트 보기에서 곡 표시"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:201 ../data/SettingsDialog.ui:88
+#: ../data/org.gnome.Lollypop.gschema.xml:196 ../data/SettingsDialog.ui:88
 msgid "Show artist artwork"
 msgstr "아티스트 아트워크 표시"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:206
+#: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
 msgstr "어두운 GTK 테마 사용"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:211
+#: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Disable scrobbling usage"
 msgstr "스크로빙 사용 비활성화"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:216
+#: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
 msgstr "핸들 컴필레이션"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:221
+#: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml:226
+#: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
 msgstr "앨범 보기에서 컴필레이션 표시"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:231 ../data/SettingsDialog.ui:158
+#: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:158
 msgid "Continue playback when closed"
 msgstr "닫혔을 때 계속 재생"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Append albums by default"
 msgstr "기본적으로 앨범 덧붙이기"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Smart sort for artist"
 msgstr "아티스트를 위한 스마트 정렬"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:242
+#: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr "예: Beatles는 Beatles로 분류되었습니다. 필요한 데이터베이스 재설정"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:246
+#: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
 "정렬 태그를 아티스트로 표시합니다. 데이터베이스 재설정이 필요할 수 있습니다"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:247
+#: ../data/org.gnome.Lollypop.gschema.xml:242
 msgid "Ex: Beatles, The"
 msgstr "예: Beatles, The"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Restore previous state"
 msgstr "이전 상태 복원"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:256
+#: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "Disable MPRIS"
 msgstr "MPRIS 비활성화"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:261
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "Notifications behaviour"
 msgstr "알림 동작"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:270
+#: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "Items count in views"
 msgstr "보기의 항목 수"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:274
+#: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Show track number from tags"
 msgstr "태그에서 곡 번호 표시"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:284
+#: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
 msgstr ""
 
@@ -453,10 +450,10 @@ msgstr ""
 msgid "Play/Pause"
 msgstr "재생하기/ 일시중지"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_google.py:42
-#: ../lollypop/assistant_google.py:54 ../lollypop/assistant_google.py:71
-#: ../lollypop/assistant_lastfm.py:45 ../lollypop/assistant_lastfm.py:58
-#: ../lollypop/assistant_musicbrainz.py:38
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_flatpak.py:40
+#: ../lollypop/assistant_google.py:42 ../lollypop/assistant_google.py:54
+#: ../lollypop/assistant_google.py:71 ../lollypop/assistant_lastfm.py:45
+#: ../lollypop/assistant_lastfm.py:58 ../lollypop/assistant_musicbrainz.py:38
 #: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:37
 msgid "Next"
 msgstr "다음"
@@ -547,7 +544,7 @@ msgstr "동기화됨:"
 msgid "Albums"
 msgstr "앨범"
 
-#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:76
+#: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
 #: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:117
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
@@ -665,7 +662,7 @@ msgstr "연도"
 msgid "Popularity"
 msgstr "인기"
 
-#: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:68
+#: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
 #: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:109
 msgid "Playback"
@@ -765,7 +762,7 @@ msgstr ""
 msgid "Remove devices managed by Lollypop"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:75
+#: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
 #: ../lollypop/menu_objects.py:90 ../lollypop/menu_playlist.py:68
 msgid "Devices"
@@ -1073,8 +1070,8 @@ msgstr "다음 규칙중 :"
 msgid "Genre"
 msgstr "장르"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_artist.py:71
-#: ../lollypop/menu_objects.py:48 ../lollypop/menu_objects.py:114
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
+#: ../lollypop/menu_objects.py:114
 msgid "Artist"
 msgstr "아티스트"
 
@@ -1150,6 +1147,49 @@ msgstr "홈으로 가기"
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli를 설치해야합니다"
 
+#: ../lollypop/assistant_flatpak.py:31
+msgid "Authorization needed"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:33
+msgid ""
+"\n"
+"In order to be able to access your collection,\n"
+"you need to allow <b>Lollypop</b>."
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:38 ../lollypop/assistant_google.py:40
+#: ../lollypop/assistant_lastfm.py:43 ../lollypop/assistant_musicbrainz.py:36
+#: ../lollypop/dialog_apps.py:70 ../lollypop/menu_playlist.py:117
+#: ../lollypop/widgets_device.py:144
+msgid "Cancel"
+msgstr "취소"
+
+#: ../lollypop/assistant_flatpak.py:44
+msgid "Update folders"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:46
+msgid ""
+"\n"
+"- <b>Open</b> Lollypop <b>preferences</b>\n"
+"- Go to the <b>Music</b> tab\n"
+"- <b>Remove</b> all folders from collection\n"
+"- Then, <b>add</b> them again"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
+#: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
+#: ../lollypop/assistant_lastfm.py:56 ../lollypop/assistant_lastfm.py:68
+#: ../lollypop/assistant_musicbrainz.py:48
+#: ../lollypop/assistant_musicbrainz.py:60
+msgid "Back"
+msgstr ""
+
+#: ../lollypop/assistant_flatpak.py:55
+msgid "Preferences"
+msgstr "기본설정"
+
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
 msgstr ""
@@ -1165,12 +1205,6 @@ msgid ""
 "which is used to play songs."
 msgstr ""
 
-#: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
-#: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
-#: ../lollypop/menu_playlist.py:117 ../lollypop/widgets_device.py:144
-msgid "Cancel"
-msgstr "취소"
-
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
 msgstr ""
@@ -1183,13 +1217,6 @@ msgstr ""
 
 #: ../lollypop/assistant_google.py:50
 msgid "Access Google Developer Console"
-msgstr ""
-
-#: ../lollypop/assistant_google.py:52 ../lollypop/assistant_google.py:69
-#: ../lollypop/assistant_google.py:84 ../lollypop/assistant_lastfm.py:56
-#: ../lollypop/assistant_lastfm.py:68 ../lollypop/assistant_musicbrainz.py:48
-#: ../lollypop/assistant_musicbrainz.py:60
-msgid "Back"
 msgstr ""
 
 #: ../lollypop/assistant_google.py:58
@@ -1413,19 +1440,21 @@ msgstr "다른 프로그램으로 열기…"
 msgid "Show tracks"
 msgstr "곡 표시"
 
-#: ../lollypop/menu_artist.py:57
-msgid "Show year"
-msgstr "연도 표시"
-
-#: ../lollypop/menu_artist.py:65
+#: ../lollypop/menu_artist.py:56
 msgid "Play featured"
 msgstr "추천 곡 재생하기"
 
-#: ../lollypop/menu_artist.py:120
+#: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
+#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_playlist.py:66
+msgid "Add to"
+msgstr "추가 위치"
+
+#: ../lollypop/menu_artist.py:111
 msgid "Available albums"
 msgstr "사용 가능한 앨범"
 
-#: ../lollypop/menu_artwork.py:63 ../lollypop/menu_artwork.py:106
+#: ../lollypop/menu_artwork.py:67 ../lollypop/menu_artwork.py:114
 msgid "Change Artwork"
 msgstr ""
 
@@ -1438,16 +1467,12 @@ msgstr "재생중인 앨범"
 msgid "Create a new playlist"
 msgstr "새 재생목록 만들기"
 
-#: ../lollypop/menu_genre.py:44 ../lollypop/menu_objects.py:55
-#: ../lollypop/menu_objects.py:118 ../lollypop/menu_playlist.py:66
-msgid "Add to"
-msgstr "추가 위치"
-
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
 msgstr ""
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "기타"
 
@@ -1609,11 +1634,11 @@ msgstr "섹션"
 msgid "Loading…"
 msgstr "불러오는 중…"
 
-#: ../lollypop/menu_similars.py:167
+#: ../lollypop/menu_similars.py:175
 msgid "Similar artists"
 msgstr "비슷한 아티스트"
 
-#: ../lollypop/menu_similars.py:271
+#: ../lollypop/menu_similars.py:279
 msgid "No results"
 msgstr "결과 없음"
 
@@ -1642,7 +1667,7 @@ msgstr "모든 장치"
 msgid "No album available"
 msgstr "사용 가능한 앨범 없음"
 
-#: ../lollypop/player_bin.py:423
+#: ../lollypop/player_bin.py:426
 msgid "Can't find this track on YouTube"
 msgstr "이 곡을 유튜브에서 찾을 수 없습니다"
 
@@ -1737,7 +1762,7 @@ msgstr "%s시간"
 msgid "%s m"
 msgstr "%s분"
 
-#: ../lollypop/utils.py:331
+#: ../lollypop/utils.py:309
 msgid "The the"
 msgstr "The the"
 
@@ -1781,7 +1806,7 @@ msgstr ""
 msgid "Loading information"
 msgstr "정보 불러오는 중"
 
-#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:295
+#: ../lollypop/view_information.py:262 ../lollypop/view_information.py:294
 #, python-format
 msgid "No information for %s"
 msgstr "%s에 대한 정보 없음"
@@ -1832,7 +1857,11 @@ msgstr "모든 곡 건너뛰기됨"
 msgid "Disc %s"
 msgstr "디스크 %s"
 
-#: ../lollypop/view_tracks_search.py:105
+#: ../lollypop/view_tracks_queue.py:36
+msgid "Actually in queue"
+msgstr ""
+
+#: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
 msgstr "곡"
 
@@ -1840,11 +1869,11 @@ msgstr "곡"
 msgid "Local"
 msgstr "로컬"
 
-#: ../lollypop/widgets_artwork.py:141
+#: ../lollypop/widgets_artwork.py:139
 msgid "Select artwork"
 msgstr "아트워크 선택"
 
-#: ../lollypop/widgets_artwork.py:181
+#: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
 msgstr "제거"
 
@@ -2010,9 +2039,15 @@ msgstr "노래 %s번 재생됨"
 msgid "Compilation"
 msgstr "컴필레이션"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:105
+#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "재생목록에서 제거"
+
+#~ msgid "Show year below album name"
+#~ msgstr "앨범 이름 아래 연도 표시"
+
+#~ msgid "Show year"
+#~ msgstr "연도 표시"
 
 #~ msgid "Favorite cover file"
 #~ msgstr "즐겨찾기 표지 파일"
@@ -2071,9 +2106,6 @@ msgstr "재생목록에서 제거"
 
 #~ msgid "Remove devices managed by Lollypop:"
 #~ msgstr "롤리팝에서 관리하는 장치 제거:"
-
-#~ msgid "Preferences"
-#~ msgstr "기본설정"
 
 #~ msgid "Control your privacy by selecting allowed services"
 #~ msgstr "허용된 서비스를 선택하여 개인 정보 보호 제어"
