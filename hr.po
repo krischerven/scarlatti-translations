@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-27 13:42+0100\n"
-"PO-Revision-Date: 2020-10-06 03:26+0000\n"
+"PO-Revision-Date: 2020-12-29 22:29+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "hr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -64,6 +64,8 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Prag za odlučivanje, da li svirati prethodnu pjesmu ili ponovo pokrenuti "
+"pjesmu koja se trenutačno izvodi"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -147,12 +149,12 @@ msgstr "Uređivač omiljenih oznaka"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Ime datoteke omiljenog omota bez datotečnog nastavka"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
 msgid "Restart needed"
-msgstr "Potrebno je ponovno pokretanje"
+msgstr "Zahtijeva ponovno pokretanje programa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:171
 msgid "Database version"
@@ -255,7 +257,7 @@ msgstr "Prikaži broj pjesme iz oznaka"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Aktiviraj predmemoriju PNG slika"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -454,7 +456,7 @@ msgstr "Svirač glazbe"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Glazba;Svirač;Player;Lollipop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -614,7 +616,7 @@ msgstr "Prikaži samo jedan stupac za pjesme"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Slika visoke kvalitete"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
@@ -851,7 +853,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -900,11 +902,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro Lyrics"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1161,7 +1163,7 @@ msgstr "Moraš istalirati kid3-cli"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
-msgstr ""
+msgstr "Zahtijeva autorizaciju"
 
 #: ../lollypop/assistant_flatpak.py:33
 msgid ""
@@ -1169,10 +1171,13 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Za pristup tvojoj zbirci,\n"
+"moraš dozvoliti <b>Lollypop</b>."
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
-msgstr ""
+msgstr "Aktualiziraj mape"
 
 #: ../lollypop/assistant_flatpak.py:46
 msgid ""
@@ -1182,6 +1187,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b>Otvori</b> Lollypop <b>postavke</b>\n"
+"- Idi na karticu <b>Glazba</b>\n"
+"- <b>Ukloni</b> sve mape iz zbirke\n"
+"- Zatim ih ponovo <b>dodaj</b>"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1516,7 +1526,7 @@ msgstr "Stvori novu playlistu"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Prikaži album"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_similars.py:167
@@ -1784,7 +1794,7 @@ msgstr "Rijetko svirane pjesme"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Preskočene pjesme"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
@@ -1906,7 +1916,7 @@ msgstr "Disk %s"
 
 #: ../lollypop/view_tracks_queue.py:36
 msgid "Currently in queue"
-msgstr ""
+msgstr "Trenutačno u popisu"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
