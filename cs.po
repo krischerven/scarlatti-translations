@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-27 13:42+0100\n"
-"PO-Revision-Date: 2020-10-10 11:26+0000\n"
+"PO-Revision-Date: 2021-01-04 12:29+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
 ">\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -67,6 +67,8 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Prahová hodnota používaná k rozhodnutí, zda má být přehrána předchozí "
+"skladba nebo zda má být znovu spuštěna právě přehrávaná skladba"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -150,7 +152,7 @@ msgstr "Oblíbený editor značek"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Oblíbený název souboru obalu bez přípony"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -258,7 +260,7 @@ msgstr "Ukázat číslo skladby ze značek"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Povolit vyrovnávací paměť pro obaly v PNG"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -458,7 +460,7 @@ msgstr "Přehrávač hudby"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Hudba;Přehrávač;Lollipop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -618,7 +620,7 @@ msgstr "U skladeb zobrazit pouze jeden sloupec"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Vysoce kvalitní umělecká díla"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
@@ -856,7 +858,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -905,11 +907,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Zpěvní text Metro"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1166,7 +1168,7 @@ msgstr "Je potřeba nainstalovat kid3-cli"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
-msgstr ""
+msgstr "Je nutné ověření"
 
 #: ../lollypop/assistant_flatpak.py:33
 msgid ""
@@ -1174,10 +1176,13 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Pro přístup ke sbírce,\n"
+"musíte povolit <b>Lollypop</b>."
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
-msgstr ""
+msgstr "Aktualizovat složky"
 
 #: ../lollypop/assistant_flatpak.py:46
 msgid ""
@@ -1187,6 +1192,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b>Otevřete</b> <b>nastavení</b> Lollypopu\n"
+"- Jděte na kartu <b>Hudba</b>\n"
+"- <b>Odstraňte</b> ze sbírky všechny složky\n"
+"- Potom je znovu <b>přidejte</b>"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1520,7 +1530,7 @@ msgstr "Vytvořit nový seznam skladeb"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Ukázat album"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_similars.py:167
@@ -1788,7 +1798,7 @@ msgstr "Zřídkakdy přehrávané skladby"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Přeskočené skladby"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
@@ -1910,7 +1920,7 @@ msgstr "Disk %s"
 
 #: ../lollypop/view_tracks_queue.py:36
 msgid "Currently in queue"
-msgstr ""
+msgstr "Nyní zařazeno"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
