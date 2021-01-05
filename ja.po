@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-27 13:42+0100\n"
-"PO-Revision-Date: 2020-10-16 11:26+0000\n"
-"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
-"co.jp>\n"
+"PO-Revision-Date: 2021-01-06 07:54+0000\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo.co"
+".jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3.1-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -63,7 +63,7 @@ msgstr "ネットワークアクセス"
 msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
-msgstr ""
+msgstr "前のトラックを再生するか現在再生中のトラックを再生し直すかを決めるのに使用するしきい値"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -147,7 +147,7 @@ msgstr "お気に入りのタグエディター"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "お気に入りのカバーのファイル名 (拡張子なし)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -254,7 +254,7 @@ msgstr "タグのトラック番号を表示"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "PNG のアートワークのキャッシュを有効化"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -452,7 +452,7 @@ msgstr "音楽プレーヤー"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Music;Player;Lollipop;音楽;楽曲;曲;歌;ミュージック;プレイヤー;プレーヤー;再生;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -612,7 +612,7 @@ msgstr "トラックを単一のカラムのみで表示します"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "高品質なアートワーク"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
@@ -849,7 +849,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -898,11 +898,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "メトロリリック"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1159,7 +1159,7 @@ msgstr "kid3-cli をインストールする必要があります"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
-msgstr ""
+msgstr "認証が必要です"
 
 #: ../lollypop/assistant_flatpak.py:33
 msgid ""
@@ -1167,10 +1167,13 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"<b>Lollypop</b> がコレクションに\n"
+"アクセスするのを許可する必要があります。"
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
-msgstr ""
+msgstr "フォルダーの更新"
 
 #: ../lollypop/assistant_flatpak.py:46
 msgid ""
@@ -1180,6 +1183,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- Lollypop の<b>設定</b>を<b>開き</b>ます\n"
+"- <b>音楽</b>タブをクリックします\n"
+"- コレクションのすべてのフォルダーを<b>削除</b>します\n"
+"- その後、フォルダーを<b>追加</b>し直します"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1506,7 +1514,7 @@ msgstr "新しいプレイリストを作成"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "アルバムを表示"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_similars.py:167
@@ -1774,7 +1782,7 @@ msgstr "滅多に再生しないトラック"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "スキップしたトラック"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
@@ -1896,7 +1904,7 @@ msgstr "ディスク %s"
 
 #: ../lollypop/view_tracks_queue.py:36
 msgid "Currently in queue"
-msgstr ""
+msgstr "現在のキュー"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
