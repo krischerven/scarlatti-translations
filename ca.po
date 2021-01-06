@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-05-07 18:27+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1352,7 +1352,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "Seguiment desactivat, manca col·lecció"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1377,11 +1377,11 @@ msgstr "Considereu fer una donació al projecte"
 msgid "Many artists"
 msgstr "Molts artistes"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Espereu mentre el Lollypop actualitza els àlbums"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Espereu mentre el Lollypop actualitza les pistes"
 
@@ -1497,7 +1497,7 @@ msgid "YouTube page address"
 msgstr "Adreça de la pàgina de YouTube"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Reprodueix ràdio"
 
@@ -1558,19 +1558,23 @@ msgstr "Reprodueix aquesta dècada"
 msgid "Play this album"
 msgstr "Reprodueix aquest àlbum"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Afegeix a la cua"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Elimina de la cua"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "No aturis després de"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Atura després de"
 
@@ -2007,17 +2011,13 @@ msgstr "Tecno"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Permet la reproducció"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "M'agrada"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "No permetis la reproducció"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Permet la reproducció"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2059,6 +2059,9 @@ msgstr "Compilació"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Elimina de la llista de reproducció"
+
+#~ msgid "Disallow playback"
+#~ msgstr "No permetis la reproducció"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Mostra l'any sota del nom de l'àlbum"

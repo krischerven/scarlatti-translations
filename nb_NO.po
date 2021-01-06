@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-09-11 20:04+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -1357,7 +1357,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1383,11 +1383,11 @@ msgstr "Overvei å donere til prosjektet"
 msgid "Many artists"
 msgstr "Mange artister"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Vent mens Lollypop oppdaterer album"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Vent mens Lollypop oppdaterer spor"
 
@@ -1503,7 +1503,7 @@ msgid "YouTube page address"
 msgstr "YouTubeside-adresse"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Spill en radiostasjon"
 
@@ -1564,19 +1564,23 @@ msgstr "Spill dette årtiet"
 msgid "Play this album"
 msgstr "Spill av dette albumet"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Legg til i kø"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Fjern fra kø"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Ikke stopp etter"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Stopp etter"
 
@@ -2014,17 +2018,13 @@ msgstr "Techno"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Tillat avspilling"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Liker"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "Ikke tillat avspilling"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Tillat avspilling"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2066,6 +2066,9 @@ msgstr "Samling"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Fjern fra spilleliste"
+
+#~ msgid "Disallow playback"
+#~ msgstr "Ikke tillat avspilling"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Vis år under albumnavn"

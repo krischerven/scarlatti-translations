@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-11-24 04:28+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -1330,7 +1330,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "Peržiūra išjungta, trūksta kolekcijos"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1355,11 +1355,11 @@ msgstr "Pasvarstykite paaukoti šiam projektui"
 msgid "Many artists"
 msgstr "Daugybė atlikėjų"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr ""
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr ""
 
@@ -1475,7 +1475,7 @@ msgid "YouTube page address"
 msgstr "YouTube puslapio adresas"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr ""
 
@@ -1536,19 +1536,23 @@ msgstr ""
 msgid "Play this album"
 msgstr ""
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Pridėti į eilę"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Šalinti iš eilės"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Nestabdyti po"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Stabdyti po"
 
@@ -1985,17 +1989,13 @@ msgstr "Techno"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Leisti atkūrimą"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Patinka"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "Nebeleisti atkūrimo"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Leisti atkūrimą"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2037,6 +2037,9 @@ msgstr "Rinkinys"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Šalinti iš grojaraščio"
+
+#~ msgid "Disallow playback"
+#~ msgstr "Nebeleisti atkūrimo"
 
 #~ msgid "Favorite cover file"
 #~ msgstr "Mėgstamas viršelio failas"

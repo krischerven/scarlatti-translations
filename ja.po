@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2021-01-06 13:55+0000\n"
-"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo.co"
-".jp>\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
+"co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -1389,7 +1389,7 @@ msgstr "データベースをリセット中"
 msgid "Scan disabled, missing collection"
 msgstr "コレクションがないためスキャンは無効です"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1414,11 +1414,11 @@ msgstr "プロジェクトへの寄付をご検討ください"
 msgid "Many artists"
 msgstr "多くのアーティスト"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Lollypop がアルバムを更新しているためお待ちください"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Lollypop がトラックを更新しているためお待ちください"
 
@@ -1534,7 +1534,7 @@ msgid "YouTube page address"
 msgstr "YouTube のアドレス"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "ラジオを再生"
 
@@ -1595,19 +1595,23 @@ msgstr "この年代を再生"
 msgid "Play this album"
 msgstr "このアルバムを再生"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "キューに追加"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "キューから削除"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "この曲で止めない"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "この曲で止める"
 
@@ -2044,17 +2048,13 @@ msgstr "テクノ"
 msgid "Vocal"
 msgstr "ボーカル"
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "再生を許可"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "スキ"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "再生を禁止"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "再生を許可"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2096,6 +2096,9 @@ msgstr "コンピレーション"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "プレイリストから削除"
+
+#~ msgid "Disallow playback"
+#~ msgstr "再生を禁止"
 
 #~ msgid "Show year below album name"
 #~ msgstr "アルバム名の下に制作年を表示"

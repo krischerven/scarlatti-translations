@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-11-27 13:28+0000\n"
 "Last-Translator: Carmen Bianca Bakker <account@carmenbianca.eu>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
@@ -1386,7 +1386,7 @@ msgstr "Reagordante la datumbazon"
 msgid "Scan disabled, missing collection"
 msgstr "Skanado malebligita, mankas kolekto"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1411,11 +1411,11 @@ msgstr "Bonvolu pripensi donacon al projekto"
 msgid "Many artists"
 msgstr "Diversaj artistoj"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Bonvolu atendi dum Lollypop ĝisdatigas la albumojn"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Bonvolu atendi dum Lollypop ĝisdatigas trakojn"
 
@@ -1531,7 +1531,7 @@ msgid "YouTube page address"
 msgstr "Paĝadreso de YouTube"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Ludi radion"
 
@@ -1592,19 +1592,23 @@ msgstr "Ludi ĉi tiun jardekon"
 msgid "Play this album"
 msgstr "Ludi ĉi tiun albumon"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Aldoni al atendovico"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Forigi el atendovico"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Ne ĉesi poste"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Ĉesi poste"
 
@@ -2042,17 +2046,13 @@ msgstr "Tekno"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Permesi ludadon"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Ŝati"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "Malpermesi ludadon"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Permesi ludadon"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2094,6 +2094,9 @@ msgstr "Kompilo"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Forigi el ludlisto"
+
+#~ msgid "Disallow playback"
+#~ msgstr "Malpermesi ludadon"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Montri la jaron sub l'albuma nomo"

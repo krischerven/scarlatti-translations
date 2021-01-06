@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-12-22 10:29+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1332,7 +1332,7 @@ msgstr "Nollataan tietokanta"
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1357,11 +1357,11 @@ msgstr "Harkitse lahjoitusta projektille"
 msgid "Many artists"
 msgstr "Useita esittäjiä"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Odota hetki, kun Lollypop päivittää albumeja"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Odota, Lollypop päivittää kappaleita"
 
@@ -1477,7 +1477,7 @@ msgid "YouTube page address"
 msgstr "YouTube-sivuosoite"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Toista radioa"
 
@@ -1538,19 +1538,23 @@ msgstr "Toista tämä vuosikymmen"
 msgid "Play this album"
 msgstr "Toista tämä albumi"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Lisää jonoon"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Poista jonosta"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Älä lopeta jälkeen"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Lopeta jälkeen"
 
@@ -1988,17 +1992,13 @@ msgstr "Tekno"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Salli toisto"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Tykkää"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr ""
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Salli toisto"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"

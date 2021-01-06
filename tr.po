@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2021-01-06 13:55+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1401,7 +1401,7 @@ msgstr "Veri tabanı sıfırlanıyor"
 msgid "Scan disabled, missing collection"
 msgstr "Tarama devre dışı, koleksiyon eksik"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1426,11 +1426,11 @@ msgstr "Lütfen projeye bağış yapmayı düşünün"
 msgid "Many artists"
 msgstr "Birçok sanatçı"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Lollypop albümleri güncellerken lütfen bekleyin"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Lollypop parçaları güncellerken lütfen bekleyin"
 
@@ -1546,7 +1546,7 @@ msgid "YouTube page address"
 msgstr "YouTube sayfa adresi"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Radyo çal"
 
@@ -1607,19 +1607,23 @@ msgstr "Bu on yılı çal"
 msgid "Play this album"
 msgstr "Bu albümü çal"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Sıraya ekle"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Sıradan kaldır"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Sonra durma"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Sonra dur"
 
@@ -2056,17 +2060,13 @@ msgstr "Tekno"
 msgid "Vocal"
 msgstr "Vokal"
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Kayıttan çalmaya izin ver"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Beğen"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "Kayıttan çalmaya izin verme"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Kayıttan çalmaya izin ver"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2108,6 +2108,9 @@ msgstr "Derleme"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Çalma listesinden kaldır"
+
+#~ msgid "Disallow playback"
+#~ msgstr "Kayıttan çalmaya izin verme"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Albüm adının altında yılı göster"

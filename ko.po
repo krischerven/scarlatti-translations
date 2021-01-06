@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-06-14 11:41+0000\n"
 "Last-Translator: MarongHappy <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1339,7 +1339,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "스캔 비활성화, 누락된 모음집"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1364,11 +1364,11 @@ msgstr "프로젝트에 기부하는 것을 고려해 주십시오"
 msgid "Many artists"
 msgstr "많은 아티스트"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "롤리팝이 앨범을 업데이트하는 동안 잠시 기다리십시오"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "롤리팝이 곡을 업데이트하는 동안 잠시 기다리십시오"
 
@@ -1484,7 +1484,7 @@ msgid "YouTube page address"
 msgstr "유튜브 페이지 주소"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "라디오 재생하기"
 
@@ -1545,19 +1545,23 @@ msgstr "이 X0년대 곡 재생하기"
 msgid "Play this album"
 msgstr "이 앨범 재생하기"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "대기열에 추가"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "대기열에서 제거"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "이후에 멈추지 않기"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "이후 중지"
 
@@ -1994,17 +1998,13 @@ msgstr "테크노"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "재생 허용"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "좋아요"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "재생 금지"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "재생 허용"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2046,6 +2046,9 @@ msgstr "컴필레이션"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "재생목록에서 제거"
+
+#~ msgid "Disallow playback"
+#~ msgstr "재생 금지"
 
 #~ msgid "Show year below album name"
 #~ msgstr "앨범 이름 아래 연도 표시"

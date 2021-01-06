@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-11-30 20:28+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -1398,7 +1398,7 @@ msgstr "Datenbank wird zurückgesetzt"
 msgid "Scan disabled, missing collection"
 msgstr "Scan deaktiviert, fehlende Sammlung"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1423,11 +1423,11 @@ msgstr "Bitte erwägen Sie eine Spende an das Projekt"
 msgid "Many artists"
 msgstr "Viele Künstler"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Bitte warten während Lollypop die Alben aktualisiert"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Bitte warten während Lollypop Titel aktualisiert"
 
@@ -1543,7 +1543,7 @@ msgid "YouTube page address"
 msgstr "YouTube Videoadresse"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Radio abspielen"
 
@@ -1604,19 +1604,23 @@ msgstr "Dieses Jahrzehnt wiedergeben"
 msgid "Play this album"
 msgstr "Dieses Album wiedergeben"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Zur Warteschlange hinzufügen"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Aus Warteschlange entfernen"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Nicht anhalten nach"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Stopp nach"
 
@@ -2053,17 +2057,13 @@ msgstr "Techno"
 msgid "Vocal"
 msgstr "Vokal"
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Wiedergabe zulassen"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Like"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "Wiedergabe verbieten"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Wiedergabe zulassen"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2105,6 +2105,9 @@ msgstr "Kompilation"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Aus der Wiedergabeliste entfernen"
+
+#~ msgid "Disallow playback"
+#~ msgstr "Wiedergabe verbieten"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Jahr unter dem Albumnamen anzeigen"

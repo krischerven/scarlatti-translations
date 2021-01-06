@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-05-25 02:41+0000\n"
 "Last-Translator: PB <regisztralo111@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnumdk/"
@@ -1336,7 +1336,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "Keresés letiltva, hiányzó gyűjtemény"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1361,11 +1361,11 @@ msgstr "Kérlek fontold meg a projekt a támogatását"
 msgid "Many artists"
 msgstr "Sok előadó"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Kérlek várj, amíg a Lollypop frissíti az albumokat"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Kérlek várj, amíg a Lollypop frissíti a számokat"
 
@@ -1481,7 +1481,7 @@ msgid "YouTube page address"
 msgstr "YouTube oldal címe"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "Rádió lejátszása"
 
@@ -1542,19 +1542,23 @@ msgstr "Évtized lejátszása"
 msgid "Play this album"
 msgstr "Album lejátszása"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "Sorhoz adás"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "Eltávolítás a sorból"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "Ne álljon meg utána"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "Megállítás utána"
 
@@ -1991,17 +1995,13 @@ msgstr "Techno"
 msgid "Vocal"
 msgstr ""
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "Lejátszás engedélyezése"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "Tetszik"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "Lejátszás letiltása"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "Lejátszás engedélyezése"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2043,6 +2043,9 @@ msgstr "Összeállítás"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Eltávolítás lejátszási listáról"
+
+#~ msgid "Disallow playback"
+#~ msgstr "Lejátszás letiltása"
 
 #~ msgid "Show year below album name"
 #~ msgstr "Évszám mutatása az album neve alatt"

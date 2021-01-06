@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 08:56+0100\n"
+"POT-Creation-Date: 2021-01-06 14:55+0100\n"
 "PO-Revision-Date: 2020-12-27 12:23+0000\n"
 "Last-Translator: maitreya2019 <crc2005@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -1379,7 +1379,7 @@ msgstr "重设数据库"
 msgid "Scan disabled, missing collection"
 msgstr "扫描已禁用，曲库缺失"
 
-#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1404,11 +1404,11 @@ msgstr "请考虑向此项目捐赠"
 msgid "Many artists"
 msgstr "许多艺术家"
 
-#: ../lollypop/database_upgrade.py:774
+#: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
 msgstr "Lollypop正在更新专辑，请耐心等待"
 
-#: ../lollypop/database_upgrade.py:793
+#: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
 msgstr "Lollypop正在更新曲目，请耐心等待"
 
@@ -1524,7 +1524,7 @@ msgid "YouTube page address"
 msgstr "YouTube页面地址"
 
 #: ../lollypop/menu_playback.py:57 ../lollypop/menu_playback.py:290
-#: ../lollypop/menu_playback.py:526
+#: ../lollypop/menu_playback.py:534
 msgid "Play a radio"
 msgstr "播放电台"
 
@@ -1585,19 +1585,23 @@ msgstr "播放此年代"
 msgid "Play this album"
 msgstr "播放此专辑"
 
-#: ../lollypop/menu_playback.py:644
+#: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
+msgid "Ignored"
+msgstr ""
+
+#: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
 msgstr "添加到等候播放的曲目中"
 
-#: ../lollypop/menu_playback.py:650
+#: ../lollypop/menu_playback.py:678
 msgid "Remove from queue"
 msgstr "从排队清单中移除"
 
-#: ../lollypop/menu_playback.py:661
+#: ../lollypop/menu_playback.py:689
 msgid "Do not stop after"
 msgstr "结束后不停止"
 
-#: ../lollypop/menu_playback.py:666
+#: ../lollypop/menu_playback.py:694
 msgid "Stop after"
 msgstr "结束后停止"
 
@@ -2034,17 +2038,13 @@ msgstr "泰科诺"
 msgid "Vocal"
 msgstr "人声"
 
-#: ../lollypop/widgets_loved.py:107
-msgid "Allow playback"
-msgstr "允许回放"
-
-#: ../lollypop/widgets_loved.py:112
+#: ../lollypop/widgets_loved.py:108
 msgid "Like"
 msgstr "喜欢"
 
-#: ../lollypop/widgets_loved.py:117
-msgid "Disallow playback"
-msgstr "不允许回放"
+#: ../lollypop/widgets_loved.py:113
+msgid "Allow playback"
+msgstr "允许回放"
 
 #: ../lollypop/widgets_player_buttons.py:184
 msgid "Pause"
@@ -2086,6 +2086,9 @@ msgstr "曲集"
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "从播放列表中移除"
+
+#~ msgid "Disallow playback"
+#~ msgstr "不允许回放"
 
 #~ msgid "Show year below album name"
 #~ msgstr "在专辑名下显示年份"
