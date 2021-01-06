@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-27 13:42+0100\n"
+"POT-Creation-Date: 2021-01-06 08:56+0100\n"
 "PO-Revision-Date: 2020-05-07 18:27+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -569,7 +569,7 @@ msgstr "Llistes"
 msgid "Synchronize"
 msgstr "Sincronitza"
 
-#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:254
+#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:312
 #: ../lollypop/widgets_player_buttons.py:188
 msgid "Play"
 msgstr "Reprodueix"
@@ -1348,11 +1348,11 @@ msgstr ""
 msgid "Resetting database"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:504
+#: ../lollypop/collection_scanner.py:505
 msgid "Scan disabled, missing collection"
 msgstr "Seguiment desactivat, manca col·lecció"
 
-#: ../lollypop/collection_scanner.py:797 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1860,11 +1860,11 @@ msgstr "No hi ha resultats per a aquesta cerca"
 msgid "Welcome to Lollypop"
 msgstr "Us donem la benvinguda al Lollypop"
 
-#: ../lollypop/view_tracks_album.py:66
+#: ../lollypop/view_tracks_album.py:69
 msgid "All tracks skipped"
 msgstr "Ignora totes les pistes"
 
-#: ../lollypop/view_tracks_album.py:237
+#: ../lollypop/view_tracks_album.py:327
 #, python-format
 msgid "Disc %s"
 msgstr "Disc %s"
@@ -1888,6 +1888,11 @@ msgstr "Trieu una caràtula"
 #: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
 msgstr "Elimina"
+
+#: ../lollypop/widgets_banner_album.py:245
+#, python-format
+msgid "Released on %s"
+msgstr ""
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"

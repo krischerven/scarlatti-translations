@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-27 13:42+0100\n"
+"POT-Creation-Date: 2021-01-06 08:56+0100\n"
 "PO-Revision-Date: 2021-01-06 07:54+0000\n"
-"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo.co"
-".jp>\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo."
+"co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ja/>\n"
 "Language: ja\n"
@@ -63,7 +63,9 @@ msgstr "ネットワークアクセス"
 msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
-msgstr "前のトラックを再生するか現在再生中のトラックを再生し直すかを決めるのに使用するしきい値"
+msgstr ""
+"前のトラックを再生するか現在再生中のトラックを再生し直すかを決めるのに使用す"
+"るしきい値"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -452,7 +454,9 @@ msgstr "音楽プレーヤー"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr "Music;Player;Lollipop;音楽;楽曲;曲;歌;ミュージック;プレイヤー;プレーヤー;再生;"
+msgstr ""
+"Music;Player;Lollipop;音楽;楽曲;曲;歌;ミュージック;プレイヤー;プレーヤー;再"
+"生;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -564,7 +568,7 @@ msgstr "プレイリスト"
 msgid "Synchronize"
 msgstr "同期する"
 
-#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:254
+#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:312
 #: ../lollypop/widgets_player_buttons.py:188
 msgid "Play"
 msgstr "再生"
@@ -1381,11 +1385,11 @@ msgstr "このサービスに接続できません"
 msgid "Resetting database"
 msgstr "データベースをリセット中"
 
-#: ../lollypop/collection_scanner.py:504
+#: ../lollypop/collection_scanner.py:505
 msgid "Scan disabled, missing collection"
 msgstr "コレクションがないためスキャンは無効です"
 
-#: ../lollypop/collection_scanner.py:797 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1893,11 +1897,11 @@ msgstr "見つかりません"
 msgid "Welcome to Lollypop"
 msgstr "Lollypop へようこそ"
 
-#: ../lollypop/view_tracks_album.py:66
+#: ../lollypop/view_tracks_album.py:69
 msgid "All tracks skipped"
 msgstr "すべてのトラックをスキップしました"
 
-#: ../lollypop/view_tracks_album.py:237
+#: ../lollypop/view_tracks_album.py:327
 #, python-format
 msgid "Disc %s"
 msgstr "ディスク %s"
@@ -1921,6 +1925,11 @@ msgstr "アートワークを選択"
 #: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
 msgstr "削除"
+
+#: ../lollypop/widgets_banner_album.py:245
+#, python-format
+msgid "Released on %s"
+msgstr ""
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-27 13:42+0100\n"
+"POT-Creation-Date: 2021-01-06 08:56+0100\n"
 "PO-Revision-Date: 2020-10-08 00:26+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -562,7 +562,7 @@ msgstr "Afspilningslister"
 msgid "Synchronize"
 msgstr "Synkroniserede"
 
-#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:254
+#: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:312
 #: ../lollypop/widgets_player_buttons.py:188
 msgid "Play"
 msgstr "Afspil"
@@ -1379,11 +1379,11 @@ msgstr "Kan ikke kontakte tjenesten"
 msgid "Resetting database"
 msgstr "Nulstiller database"
 
-#: ../lollypop/collection_scanner.py:504
+#: ../lollypop/collection_scanner.py:505
 msgid "Scan disabled, missing collection"
 msgstr "Skanning deaktiveret, manglende samling"
 
-#: ../lollypop/collection_scanner.py:797 ../lollypop/database_tracks.py:354
+#: ../lollypop/collection_scanner.py:798 ../lollypop/database_tracks.py:354
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
 #: ../lollypop/tagreader.py:119 ../lollypop/tagreader.py:190
 #: ../lollypop/tagreader.py:238 ../lollypop/tagreader.py:260
@@ -1891,11 +1891,11 @@ msgstr "Ingen resultater for søgningen"
 msgid "Welcome to Lollypop"
 msgstr "Velkommen til Lollypop"
 
-#: ../lollypop/view_tracks_album.py:66
+#: ../lollypop/view_tracks_album.py:69
 msgid "All tracks skipped"
 msgstr "Sprang over alle spor"
 
-#: ../lollypop/view_tracks_album.py:237
+#: ../lollypop/view_tracks_album.py:327
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
@@ -1919,6 +1919,11 @@ msgstr "Vælg billede"
 #: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
 msgstr "Fjern"
+
+#: ../lollypop/widgets_banner_album.py:245
+#, python-format
+msgid "Released on %s"
+msgstr ""
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
