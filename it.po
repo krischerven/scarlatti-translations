@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2020-10-10 11:26+0000\n"
+"PO-Revision-Date: 2021-01-18 17:32+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "it/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -72,10 +72,12 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Soglia utilizzata per decidere se riprodurre la traccia precedente o "
+"riavviare quella attualmente in esecuzione"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
-msgstr "Salva immagine/popolarità nelle etichette"
+msgstr "Salva grafica/popolarità nelle etichette"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "Window maximized"
@@ -155,7 +157,7 @@ msgstr "Editor di etichette preferito"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Nome file di copertina preferito senza estensione"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -191,7 +193,7 @@ msgstr "Mostra tracce nella vista dell'artista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:196 ../data/SettingsDialog.ui:88
 msgid "Show artist artwork"
-msgstr "Mostra immagine dell'artista"
+msgstr "Mostra grafica dell'artista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
@@ -260,7 +262,7 @@ msgstr "Mostra numero della traccia dalle etichette"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Abilita cache grafica PNG"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -434,8 +436,8 @@ msgstr ""
 "perfettamente con l'ambiente desktop GNOME. Dispone, inoltre, di una "
 "modalità party adatta a selezionare automaticamente le playlist relative ad "
 "una festa; permette l'uso da remoto grazie alla modalità a schermo intero; "
-"ottiene testi delle canzoni, copertine e biografie online; e fornisce "
-"supporto nativo al ReplayGain."
+"ottiene testi delle canzoni, grafica e biografie online; e fornisce supporto "
+"nativo al ReplayGain."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
@@ -459,7 +461,7 @@ msgstr "Riproduttore Musicale"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Musica;Player;Lollypop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -619,11 +621,11 @@ msgstr "Mostra solo una singola colonna per le tracce"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Grafica di alta qualità"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
-msgstr "Dimensione copertina"
+msgstr "Dimensione grafica"
 
 #: ../data/SettingsDialog.ui:139 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -651,7 +653,7 @@ msgstr "Salva modifiche nel file"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Save artwork and rating to files"
-msgstr "Salva immagini e gradimento nei file"
+msgstr "Salva grafica e gradimento nei file"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Albums will be sorted by this field"
@@ -804,7 +806,7 @@ msgstr "Dati in background"
 
 #: ../data/SettingsDialog.ui:526
 msgid "Search artwork in background"
-msgstr "Cerca immagini in background"
+msgstr "Cerca grafica in background"
 
 #: ../data/SettingsDialog.ui:547
 msgid "Song playback"
@@ -843,7 +845,7 @@ msgstr "Cos'è Invidious?"
 
 #: ../data/SettingsDialog.ui:735
 msgid "Search (artwork, songs, ...)"
-msgstr "Cerca (immagini, canzoni, ...)"
+msgstr "Cerca (grafica, canzoni, ...)"
 
 #: ../data/SettingsDialog.ui:926
 msgid "ListenBrainz API-Key"
@@ -856,7 +858,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -905,11 +907,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro Lyrics"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1166,7 +1168,7 @@ msgstr "È necessario installare kid3-cli"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
-msgstr ""
+msgstr "Autorizzazione necessaria"
 
 #: ../lollypop/assistant_flatpak.py:33
 msgid ""
@@ -1174,10 +1176,13 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Per poter accedere alla tua raccolta,\n"
+"devi consentirlo a <b> Lollypop </b>."
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
-msgstr ""
+msgstr "Aggiorna cartelle"
 
 #: ../lollypop/assistant_flatpak.py:46
 msgid ""
@@ -1187,6 +1192,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b> Apri </b> le <b> Preferenze </b> di Lollypop\n"
+"- Vai alla scheda <b> Musica </b>\n"
+"- <b> Rimuovi </b> tutte le cartelle dalla raccolta\n"
+"- Quindi, <b>aggiungile</b> di nuovo"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1403,7 +1413,7 @@ msgstr "Sconosciuto"
 
 #: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
-msgstr "Scaricare automaticamente immagini per album ed artisti?"
+msgstr "Scaricare automaticamente grafica per album ed artisti?"
 
 #: ../lollypop/container_notification.py:97
 msgid "Yes"
@@ -1508,7 +1518,7 @@ msgstr "Album disponibili"
 
 #: ../lollypop/menu_artwork.py:67 ../lollypop/menu_artwork.py:114
 msgid "Change Artwork"
-msgstr "Cambia Immagine"
+msgstr "Cambia Grafica"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
@@ -1521,7 +1531,7 @@ msgstr "Crea una nuova lista di riproduzione"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Mostra album"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_similars.py:167
@@ -1600,7 +1610,7 @@ msgstr "Riproduci questo album"
 
 #: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
 msgid "Ignored"
-msgstr ""
+msgstr "Ignorato"
 
 #: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
@@ -1793,7 +1803,7 @@ msgstr "Tracce trascurate"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Tracce saltate"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
@@ -1915,7 +1925,7 @@ msgstr "Disco %s"
 
 #: ../lollypop/view_tracks_queue.py:36
 msgid "Currently in queue"
-msgstr ""
+msgstr "Attualmente in coda"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
@@ -1927,7 +1937,7 @@ msgstr "Locale"
 
 #: ../lollypop/widgets_artwork.py:139
 msgid "Select artwork"
-msgstr "Seleziona immagine"
+msgstr "Seleziona grafica"
 
 #: ../lollypop/widgets_artwork.py:179
 msgid "Remove"
@@ -1936,7 +1946,7 @@ msgstr "Rimuovi"
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
-msgstr ""
+msgstr "Pubblicato il %s"
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
