@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2021-01-04 12:29+0000\n"
+"PO-Revision-Date: 2021-03-15 09:02+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
 ">\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -200,8 +200,7 @@ msgstr "Zakázat odesílání informací o přehrávání"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
-msgstr ""
-"Zpracovat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů"
+msgstr "Zpracovat sbírková alba"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
@@ -209,9 +208,7 @@ msgstr "Spravovat účinkující, skladatele, ..."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
-msgstr ""
-"Ukázat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů v "
-"pohledu na alba"
+msgstr "Ukázat sbírková alba v zobrazení alb"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:158
 msgid "Continue playback when closed"
@@ -746,16 +743,15 @@ msgstr "Je potřeba obnovit výchozí sbírku"
 
 #: ../data/SettingsDialog.ui:394
 msgid "Show compilations"
-msgstr ""
-"Ukázat alba s nahrávkami jednoho nebo více umělců vybraných z více zdrojů"
+msgstr "Ukázat sbírková alba"
 
 #: ../data/SettingsDialog.ui:396
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
-"Kompilace je album bez jakékoli značky umělce alba.\n"
-"a s různými umělci"
+"Sbírkové album je album bez jakékoli značky pro umělce alba.\n"
+"a s různými umělci. Obsahuje nahrávky z různých zdrojů"
 
 #: ../data/SettingsDialog.ui:413
 msgid "Import playlists"
@@ -1116,7 +1112,7 @@ msgstr "Nastavit"
 
 #: ../data/ToolbarEnd.ui:17
 msgid "Shuffle"
-msgstr "Náhodně zamíchat"
+msgstr "Zamíchání"
 
 #: ../data/ToolbarEnd.ui:24
 msgid "Repetition"
@@ -1509,7 +1505,7 @@ msgstr "Přehrávat doporučené"
 #: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:118
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
-msgstr "Přidat do"
+msgstr "Přidání"
 
 #: ../lollypop/menu_artist.py:111
 msgid "Available albums"
@@ -1552,7 +1548,7 @@ msgstr "Přehrávat rádio"
 
 #: ../lollypop/menu_playback.py:72
 msgid "Add to playback"
-msgstr "Přidat do řady skladeb k přehrání"
+msgstr "Přidat do přehrávání"
 
 #: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
 msgid "Remove from playback"
@@ -1609,7 +1605,7 @@ msgstr "Přehrát toto album"
 
 #: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
 msgid "Ignored"
-msgstr ""
+msgstr "Přehlíží se"
 
 #: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
@@ -1786,7 +1782,7 @@ msgstr "Informace"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
-msgstr "Alba s různými umělci"
+msgstr "Sbírková alba"
 
 #: ../lollypop/shown.py:69
 msgid "Random tracks"
@@ -1849,7 +1845,7 @@ msgstr "Obnovit"
 
 #: ../lollypop/view_albums_line.py:164
 msgid "Others compilations"
-msgstr "Jiné kompilace"
+msgstr "Jiná sbírková alba"
 
 #: ../lollypop/view_albums_line.py:199
 msgid "Appears on"
@@ -1861,7 +1857,7 @@ msgstr "V tuto chvíli oblíbená alba"
 
 #: ../lollypop/view_artists_line.py:133
 msgid "Why not listen to?"
-msgstr "Proč si neposlechnout?"
+msgstr "Poslechnete si?"
 
 #: ../lollypop/view_artists_rounded.py:154
 msgid "New artists available"
@@ -1945,7 +1941,7 @@ msgstr "Odstranit"
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
-msgstr ""
+msgstr "Vydáno %s"
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
@@ -2103,7 +2099,7 @@ msgstr "Píseň hrána %s krát"
 
 #: ../lollypop/widgets_row_album.py:96
 msgid "Compilation"
-msgstr "Sbírka skladeb"
+msgstr "Sbírkové album"
 
 #: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
