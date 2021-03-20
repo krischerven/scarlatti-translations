@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2020-11-27 13:28+0000\n"
-"Last-Translator: Carmen Bianca Bakker <account@carmenbianca.eu>\n"
+"PO-Revision-Date: 2021-03-21 05:30+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/eo/>\n"
 "Language: eo\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -66,6 +66,7 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Sojlo por decidi ĉu ludi la antaŭan trakon aŭ ĉu rekomenci la aktualan trakon"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -73,7 +74,7 @@ msgstr "Konservi artaĵon/popularecon en la etikedaro"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "Window maximized"
-msgstr "Fenestro maksimumigita"
+msgstr "Maksimumigita fenestsro"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:87
 msgid "Window maximized state."
@@ -149,7 +150,7 @@ msgstr "Ŝatata redaktilo de etikedoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Dosiernomo de ŝatata albumartaĵo sen dosiersufikso"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -255,7 +256,7 @@ msgstr "Montri trakan numeron el etikedoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Ŝalti kaŝmemoron de PNG-artaĵoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -453,7 +454,7 @@ msgstr "Muzikludilo"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Muziko;Ludilo;Lollipop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -489,7 +490,7 @@ msgstr "_Agordoj"
 
 #: ../data/Appmenu.ui:122
 msgid "_Keyboard Shortcuts"
-msgstr "_Klavkombinoj"
+msgstr "Fulmo_klavoj"
 
 #: ../data/Appmenu.ui:136
 msgid "_About Lollypop"
@@ -613,7 +614,7 @@ msgstr "Nur montri unu kolumnon por trakoj"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Altkvalita artaĵo"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
@@ -637,7 +638,7 @@ msgstr "Restaŭri staton dum startigo"
 
 #: ../data/SettingsDialog.ui:178
 msgid "Restore current playback and view"
-msgstr "Restarigi akutalan ludadon kaj vidon"
+msgstr "Restarigi aktualan ludadon kaj vidon"
 
 #: ../data/SettingsDialog.ui:194
 msgid "Save changes to file"
@@ -825,7 +826,7 @@ msgstr "Konekti"
 
 #: ../data/SettingsDialog.ui:660
 msgid "Use an Invidious server"
-msgstr "Uzi  alternativan servon al youtube-dl (Invidious)"
+msgstr "Uzi alternativan servon al youtube-dl (Invidious)"
 
 #: ../data/SettingsDialog.ui:676
 msgid "No server set"
@@ -850,7 +851,7 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
@@ -875,7 +876,7 @@ msgstr "Google"
 
 #: ../data/SettingsDialog.ui:1116
 msgid "Startpage"
-msgstr "Eka paĝo"
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:1133
 msgid "DuckDuckGo"
@@ -899,11 +900,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro Lyrics"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1160,7 +1161,7 @@ msgstr "Vi bezonas instali kid3-cli"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
-msgstr ""
+msgstr "Rajtigo necesas"
 
 #: ../lollypop/assistant_flatpak.py:33
 msgid ""
@@ -1168,10 +1169,13 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Por atingi vian kolekton,\n"
+"vi devas rajtigi <b>Lollypop</b>."
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
-msgstr ""
+msgstr "Ĝisdatigi dosierujojn"
 
 #: ../lollypop/assistant_flatpak.py:46
 msgid ""
@@ -1181,6 +1185,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b>Malfermu</b> <b>agordojn</b> de Lollypop\n"
+"- Iru al la langeto <b>Muziko</b>\n"
+"- <b>Forigu</b> ĉiujn dosierujojn for de kolekto\n"
+"- Poste, <b>realdonu</b> ilin"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1515,7 +1524,7 @@ msgstr "Krei novan ludliston"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Montri albumon"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_similars.py:167
@@ -1594,7 +1603,7 @@ msgstr "Ludi ĉi tiun albumon"
 
 #: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
 msgid "Ignored"
-msgstr ""
+msgstr "Ignorata"
 
 #: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
@@ -1787,7 +1796,7 @@ msgstr "Apenaŭ luditaj trakoj"
 
 #: ../lollypop/shown.py:73
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Preterpasitaj trakoj"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
@@ -1909,7 +1918,7 @@ msgstr "Disko %s"
 
 #: ../lollypop/view_tracks_queue.py:36
 msgid "Currently in queue"
-msgstr ""
+msgstr "Aktuale en atendovico"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
@@ -1930,11 +1939,11 @@ msgstr "Forigi"
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
-msgstr ""
+msgstr "Eldonita je %s"
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
-msgstr "Aldoni al aktualan ludlisto"
+msgstr "Aldoni al aktuala ludlisto"
 
 #: ../lollypop/widgets_banner_artist.py:305
 msgid "Remove from current playlist"
@@ -2010,9 +2019,8 @@ msgid "Jazz"
 msgstr "Ĵazo"
 
 #: ../lollypop/widgets_equalizer.py:49
-#, fuzzy
 msgid "Latin"
-msgstr "Latino"
+msgstr "Latinamerika"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "Metal"
@@ -2020,7 +2028,7 @@ msgstr "Metalo"
 
 #: ../lollypop/widgets_equalizer.py:53
 msgid "New Age"
-msgstr ""
+msgstr "Novepoka"
 
 #: ../lollypop/widgets_equalizer.py:55
 msgid "Party"
@@ -2044,7 +2052,7 @@ msgstr "Tekno"
 
 #: ../lollypop/widgets_equalizer.py:65
 msgid "Vocal"
-msgstr ""
+msgstr "Voĉa"
 
 #: ../lollypop/widgets_loved.py:108
 msgid "Like"
