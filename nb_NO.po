@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2020-09-11 20:04+0000\n"
+"PO-Revision-Date: 2021-04-05 13:26+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/nb_NO/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -64,6 +64,8 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Terskel brukt til å avgjøre om forrige spor skal spilles, eller om nåværende "
+"skal startes på ny"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -115,8 +117,9 @@ msgid "If true, Lollypop will not use system youtube-dl"
 msgstr "Unngå bruk av systemets youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
+#, fuzzy
 msgid "Do not use original date if set"
-msgstr ""
+msgstr "Ikke bruk opprinnelig dato hvis dette er satt"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Import playlists from collections"
@@ -149,7 +152,7 @@ msgstr "Favoritt-merkelappredigerer"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Favorittomslags-filnavn uten filendelse"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -201,7 +204,7 @@ msgstr "Håndter samlinger"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
-msgstr ""
+msgstr "Håndter artister, komponister, …"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
@@ -255,8 +258,9 @@ msgid "Show track number from tags"
 msgstr "Vis spornummer fra merkelapper"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
+#, fuzzy
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Hurtiglager for PNG-omslagsbilder"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -454,8 +458,9 @@ msgid "Music Player"
 msgstr "Musikkavspiller"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
+#, fuzzy
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Musikk;Spiller;Lollipop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
@@ -615,12 +620,13 @@ msgid "Only show a single column for tracks"
 msgstr "Vis kun én kolonne for spor"
 
 #: ../data/SettingsDialog.ui:105
+#, fuzzy
 msgid "High quality artwork"
-msgstr ""
+msgstr "Omslag i høy kvalitet"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
-msgstr ""
+msgstr "Omslagsstørrelse"
 
 #: ../data/SettingsDialog.ui:139 ../lollypop/menu_actions.py:77
 msgid "Clean cache"
@@ -640,7 +646,7 @@ msgstr "Gjenopprett tilstand ved oppstart"
 
 #: ../data/SettingsDialog.ui:178
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Gjenopprett nåværende avspilling og vis"
 
 #: ../data/SettingsDialog.ui:194
 msgid "Save changes to file"
@@ -648,23 +654,23 @@ msgstr "Lagre endringer til fil"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Lagre omslagskunst og vurdering i filer"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Album vil sorteres etter dette feltet"
 
 #: ../data/SettingsDialog.ui:222
 msgid "Artist - year"
-msgstr ""
+msgstr "Artist - år"
 
 #: ../data/SettingsDialog.ui:223
 msgid "Artist - title"
-msgstr ""
+msgstr "Artist - tittel"
 
 #: ../data/SettingsDialog.ui:224
 msgid "Title"
-msgstr ""
+msgstr "Tittel"
 
 #: ../data/SettingsDialog.ui:225 ../data/SmartPlaylistWidget.ui:33
 msgid "Year"
@@ -681,12 +687,14 @@ msgid "Playback"
 msgstr "Avspilling"
 
 #: ../data/SettingsDialog.ui:247
+#, fuzzy
 msgid "Enable transitions"
-msgstr ""
+msgstr "Overganger"
 
 #: ../data/SettingsDialog.ui:249
+#, fuzzy
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Overgang ved sporbytte"
 
 #: ../data/SettingsDialog.ui:265
 msgid "Duration"
@@ -694,7 +702,7 @@ msgstr "Varighet"
 
 #: ../data/SettingsDialog.ui:267
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "Overgangsvarighet i millisekunder"
 
 #: ../data/SettingsDialog.ui:283
 msgid "ReplayGain"
@@ -702,7 +710,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:285
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Legg til lydkorrigering i sanntid"
 
 #: ../data/SettingsDialog.ui:294 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -722,33 +730,37 @@ msgstr "Musikk"
 
 #: ../data/SettingsDialog.ui:320
 msgid "Collection"
-msgstr ""
+msgstr "Samling"
 
 #: ../data/SettingsDialog.ui:331 ../lollypop/dialog_settings.py:245
 msgid "Reset collection"
-msgstr ""
+msgstr "Tilbakestill samling"
 
 #: ../data/SettingsDialog.ui:370
 msgid "Import settings"
 msgstr "Importer innstillinger"
 
 #: ../data/SettingsDialog.ui:377
+#, fuzzy
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Oppdater musikk hvis filer legges til i samlingen"
 
 #: ../data/SettingsDialog.ui:393 ../data/SettingsDialog.ui:431
 msgid "You need to reset collection"
-msgstr ""
+msgstr "Du må tilbakestille samlingen"
 
 #: ../data/SettingsDialog.ui:394
 msgid "Show compilations"
 msgstr "Vis samlinger"
 
 #: ../data/SettingsDialog.ui:396
+#, fuzzy
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"En samling er et album uten noen «albumartist-etikett«\n"
+"bestående av forskjellige artister"
 
 #: ../data/SettingsDialog.ui:413
 msgid "Import playlists"
@@ -756,15 +768,16 @@ msgstr "Importer spillelister"
 
 #: ../data/SettingsDialog.ui:415
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Søk etter spillelister i din samling"
 
 #: ../data/SettingsDialog.ui:432
 msgid "Import advanced tags"
 msgstr "Importer avanserte etiketter"
 
 #: ../data/SettingsDialog.ui:434
+#, fuzzy
 msgid "Performers, composers, …"
-msgstr ""
+msgstr "Artister, komponister, …"
 
 #: ../data/SettingsDialog.ui:452
 msgid "Statistics"
@@ -772,7 +785,7 @@ msgstr "Stitistikk"
 
 #: ../data/SettingsDialog.ui:483
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Fjern enheter som håndteres av Lollypop"
 
 #: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
@@ -803,16 +816,17 @@ msgstr "Søk etter omslag i bakgrunnen"
 
 #: ../data/SettingsDialog.ui:547
 msgid "Song playback"
-msgstr ""
+msgstr "Sporavspilling"
 
 #: ../data/SettingsDialog.ui:558 ../data/SettingsDialog.ui:746
 #: ../data/SettingsDialog.ui:828 ../data/SettingsDialog.ui:910
+#, fuzzy
 msgid "Enabled"
-msgstr ""
+msgstr "Påskrudd"
 
 #: ../data/SettingsDialog.ui:575
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Bruk en nylig versjon av youtube-dl"
 
 #: ../data/SettingsDialog.ui:591
 msgid "Google API-key"
@@ -839,11 +853,11 @@ msgstr "Hva er Invidious?"
 
 #: ../data/SettingsDialog.ui:735
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Søk (omslag, spor, …)"
 
 #: ../data/SettingsDialog.ui:926
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "API-nøkkel for ListenBrainz"
 
 #: ../data/SettingsDialog.ui:998 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
@@ -852,11 +866,11 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:1048 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
@@ -865,11 +879,11 @@ msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:1065
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:1082
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:1099
 msgid "Google"
@@ -877,7 +891,7 @@ msgstr "Google"
 
 #: ../data/SettingsDialog.ui:1116
 msgid "Startpage"
-msgstr ""
+msgstr "Startside"
 
 #: ../data/SettingsDialog.ui:1133
 msgid "DuckDuckGo"
@@ -902,11 +916,11 @@ msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1211
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro-sangtekster"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1166,18 +1180,22 @@ msgstr "Du må installere kid3-cli"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
-msgstr ""
+msgstr "Identitetsbekreftelse kreves"
 
 #: ../lollypop/assistant_flatpak.py:33
+#, fuzzy
 msgid ""
 "\n"
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"For å få tilgang til samlingen din\n"
+"må du tillate <b>Lollypop</b>."
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
-msgstr ""
+msgstr "Oppdater mapper"
 
 #: ../lollypop/assistant_flatpak.py:46
 msgid ""
@@ -1187,6 +1205,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b>Åpne</b> Lollypop<b>-innstillingene</b>\n"
+"- Gå til <b>Musikk</b>-fanen\n"
+"- <b>Fjern</b> alle mapper fra samlingen\n"
+"- Deretter kan du <b>legge dem til</b> igjen."
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1202,9 +1225,10 @@ msgstr "Innstillinger"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is Google API-key?"
-msgstr ""
+msgstr "Hva er Google-API-nøkkelen?"
 
 #: ../lollypop/assistant_google.py:31
+#, fuzzy
 msgid ""
 "\n"
 "In order to use the YoutTube playback,\n"
@@ -1214,6 +1238,13 @@ msgid ""
 "\n"
 "which is used to play songs."
 msgstr ""
+"\n"
+"For å bruke YouTube-avspilling må du\n"
+"opprette en API-nøkkel for\n"
+"\n"
+"<b>«YouTube Data API v3»</b>\n"
+"\n"
+"som brukes til å spille spor."
 
 #: ../lollypop/assistant_google.py:40 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1223,17 +1254,20 @@ msgstr "Avbryt"
 
 #: ../lollypop/assistant_google.py:46
 msgid "Connect to the console"
-msgstr ""
+msgstr "Koble til konsollen"
 
 #: ../lollypop/assistant_google.py:48
 msgid ""
 "\n"
 "<b>Open and log</b> in to the <b>Google Developer Console</b>"
 msgstr ""
+"\n"
+"<b>Åpne og logg inn</b> i <b>Google-utviklerkonsollen</b>"
 
 #: ../lollypop/assistant_google.py:50
+#, fuzzy
 msgid "Access Google Developer Console"
-msgstr ""
+msgstr "Få tilgang til Google-utviklerkonsollen"
 
 #: ../lollypop/assistant_google.py:58
 msgid "Activate the API"
@@ -1284,7 +1318,7 @@ msgstr ""
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
 msgid "Connect to %s"
-msgstr ""
+msgstr "Koble til %s"
 
 #: ../lollypop/assistant_lastfm.py:51
 #, python-format
@@ -1304,10 +1338,13 @@ msgid "Just play a track"
 msgstr ""
 
 #: ../lollypop/assistant_lastfm.py:64
+#, fuzzy
 msgid ""
 "\n"
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
+"\n"
+"<b>Klikk «Fullfør»</b> når Lollypop er innvilget tilgang."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
@@ -1350,7 +1387,7 @@ msgstr "Kan ikke koble til tjenesten"
 
 #: ../lollypop/collection_scanner.py:334
 msgid "Resetting database"
-msgstr ""
+msgstr "Tilbakestiller database"
 
 #: ../lollypop/collection_scanner.py:505
 #, fuzzy
@@ -1402,17 +1439,17 @@ msgstr "Velg et program"
 #: ../lollypop/dialog_settings.py:85
 #, python-format
 msgid "Artists count: %s"
-msgstr ""
+msgstr "Artistantall: %s"
 
 #: ../lollypop/dialog_settings.py:87
 #, python-format
 msgid "Albums count: %s"
-msgstr ""
+msgstr "Albumantall: %s"
 
 #: ../lollypop/dialog_settings.py:89
 #, python-format
 msgid "Tracks count: %s"
-msgstr ""
+msgstr "Sporantall: %s"
 
 #: ../lollypop/dialog_settings.py:206 ../lollypop/dialog_settings.py:341
 msgid "Disconnect"
@@ -1474,7 +1511,7 @@ msgstr "Tilgjengelige album"
 
 #: ../lollypop/menu_artwork.py:67 ../lollypop/menu_artwork.py:114
 msgid "Change Artwork"
-msgstr ""
+msgstr "Endre omslagsbilde"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
@@ -1487,7 +1524,7 @@ msgstr "Opprett en ny spilleliste"
 
 #: ../lollypop/menu_objects.py:66
 msgid "Show album"
-msgstr ""
+msgstr "Vis album"
 
 #: ../lollypop/menu_objects.py:70 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_similars.py:167
@@ -1546,7 +1583,7 @@ msgstr "Spill denne spillelisten"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Legg til denne spillelisten"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1566,7 +1603,7 @@ msgstr "Spill av dette albumet"
 
 #: ../lollypop/menu_playback.py:529 ../lollypop/menu_playback.py:615
 msgid "Ignored"
-msgstr ""
+msgstr "Ignorert"
 
 #: ../lollypop/menu_playback.py:672
 msgid "Add to queue"
@@ -1666,7 +1703,7 @@ msgstr "Resultatløst"
 
 #: ../lollypop/menu_suggestions.py:35 ../lollypop/shown.py:24
 msgid "Suggestions"
-msgstr "Anbefalinger"
+msgstr "Forslag"
 
 #: ../lollypop/menu_suggestions.py:47 ../lollypop/view_suggestions.py:129
 msgid "New releases on Spotify"
@@ -1738,8 +1775,9 @@ msgid "Artists (list)"
 msgstr "Artister (liste)"
 
 #: ../lollypop/shown.py:41
+#, fuzzy
 msgid "Information"
-msgstr ""
+msgstr "Info"
 
 #: ../lollypop/shown.py:42
 msgid "Compilations"
@@ -1798,7 +1836,7 @@ msgstr "Nettverk utilgjengelig, eller avskrudd i innstillingene"
 
 #: ../lollypop/view_albums_box.py:193
 msgid "New albums available"
-msgstr ""
+msgstr "Nye album tilgjengelige"
 
 #: ../lollypop/view_albums_box.py:194 ../lollypop/view_artists_rounded.py:155
 msgid "Refresh"
@@ -1822,8 +1860,9 @@ msgid "Why not listen to?"
 msgstr "Hvorfor ikke lytte til?"
 
 #: ../lollypop/view_artists_rounded.py:154
+#, fuzzy
 msgid "New artists available"
-msgstr ""
+msgstr "Vis tilgjengelige artister"
 
 #: ../lollypop/view_information.py:152
 msgid "Loading information"
@@ -1881,8 +1920,9 @@ msgid "Disc %s"
 msgstr "Disk %s"
 
 #: ../lollypop/view_tracks_queue.py:36
+#, fuzzy
 msgid "Currently in queue"
-msgstr ""
+msgstr "I køen nå"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
@@ -1944,15 +1984,15 @@ msgstr "Egendefinert"
 
 #: ../lollypop/widgets_equalizer.py:28
 msgid "Acoustic"
-msgstr ""
+msgstr "Akustisk"
 
 #: ../lollypop/widgets_equalizer.py:30
 msgid "Bass"
-msgstr ""
+msgstr "Bass"
 
 #: ../lollypop/widgets_equalizer.py:33
 msgid "Bass and Treble"
-msgstr ""
+msgstr "Bass og diskant"
 
 #: ../lollypop/widgets_equalizer.py:35
 msgid "Classical"
@@ -1968,7 +2008,7 @@ msgstr "Dance"
 
 #: ../lollypop/widgets_equalizer.py:41
 msgid "Disco"
-msgstr ""
+msgstr "Disko"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Drum'n'Bass"
@@ -1976,11 +2016,11 @@ msgstr ""
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Heavy Metal"
-msgstr ""
+msgstr "Tungmetall"
 
 #: ../lollypop/widgets_equalizer.py:47
 msgid "Jazz"
-msgstr ""
+msgstr "Jass"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Latin"
@@ -2016,7 +2056,7 @@ msgstr "Techno"
 
 #: ../lollypop/widgets_equalizer.py:65
 msgid "Vocal"
-msgstr ""
+msgstr "Vokal"
 
 #: ../lollypop/widgets_loved.py:108
 msgid "Like"
