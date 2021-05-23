@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2021-01-11 13:32+0000\n"
+"PO-Revision-Date: 2021-05-24 08:21+0000\n"
 "Last-Translator: David Planella <david.planella@ubuntu.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ca/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -135,7 +135,7 @@ msgstr "Quan estigui buit, utilitza XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:146
 msgid "Use Libre.fm instead of Last.fm"
-msgstr "Utilitza Libre.fm en lloc de Last.fm"
+msgstr "Utilitza el Libre.fm en lloc del Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:151
 msgid "ListenBrainz user token"
@@ -203,7 +203,7 @@ msgstr "Gestiona compilacions"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:216
 msgid "Handle performers, compositors, ..."
-msgstr ""
+msgstr "Gestiona els intèrprets, compositors, ..."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
@@ -257,7 +257,7 @@ msgstr "Mostra el número de pista de les etiquetes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Habilita la memòria cau per al contingut PNG"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -615,7 +615,7 @@ msgstr "Mode de columna única"
 
 #: ../data/SettingsDialog.ui:72
 msgid "Only show a single column for tracks"
-msgstr "Monstra només una columna per a les pistes"
+msgstr "Mostra només una columna per a les pistes"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
@@ -685,19 +685,19 @@ msgstr "Reproducció"
 
 #: ../data/SettingsDialog.ui:247
 msgid "Enable transitions"
-msgstr ""
+msgstr "Habilita les transicions"
 
 #: ../data/SettingsDialog.ui:249
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Afegeix una transició en canviar de pista"
 
 #: ../data/SettingsDialog.ui:265
 msgid "Duration"
-msgstr ""
+msgstr "Durada"
 
 #: ../data/SettingsDialog.ui:267
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "Durada de la transició en mil·lisegons"
 
 #: ../data/SettingsDialog.ui:283
 msgid "ReplayGain"
@@ -705,7 +705,7 @@ msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:285
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Aplica la correcció de l'àudio sobre la marxa"
 
 #: ../data/SettingsDialog.ui:294 ../lollypop/menu_search.py:41
 msgid "Disabled"
@@ -725,11 +725,11 @@ msgstr "Música"
 
 #: ../data/SettingsDialog.ui:320
 msgid "Collection"
-msgstr ""
+msgstr "Col·lecció"
 
 #: ../data/SettingsDialog.ui:331 ../lollypop/dialog_settings.py:245
 msgid "Reset collection"
-msgstr ""
+msgstr "Reinicialitza la col·lecció"
 
 #: ../data/SettingsDialog.ui:370
 msgid "Import settings"
@@ -737,11 +737,11 @@ msgstr "Paràmetres d'importació"
 
 #: ../data/SettingsDialog.ui:377
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Actualitza la col·lecció en afegir-hi fitxers"
 
 #: ../data/SettingsDialog.ui:393 ../data/SettingsDialog.ui:431
 msgid "You need to reset collection"
-msgstr ""
+msgstr "Cal reiniciar la col·lecció"
 
 #: ../data/SettingsDialog.ui:394
 msgid "Show compilations"
@@ -752,6 +752,8 @@ msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Una compilació és un àlbum sense etiqueta d'artista\n"
+"i amb artistes diferents"
 
 #: ../data/SettingsDialog.ui:413
 msgid "Import playlists"
@@ -759,23 +761,23 @@ msgstr "Importa llistes de reprodució"
 
 #: ../data/SettingsDialog.ui:415
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Cerca llistes de reproducció a la col·lecció"
 
 #: ../data/SettingsDialog.ui:432
 msgid "Import advanced tags"
-msgstr ""
+msgstr "Importa les etiquetes avançades"
 
 #: ../data/SettingsDialog.ui:434
 msgid "Performers, composers, …"
-msgstr ""
+msgstr "Intèrprets, compositors, …"
 
 #: ../data/SettingsDialog.ui:452
 msgid "Statistics"
-msgstr ""
+msgstr "Estadístiques"
 
 #: ../data/SettingsDialog.ui:483
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Suprimeix els dispositius gestionats pel Lollypop"
 
 #: ../data/SettingsDialog.ui:484 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
@@ -790,7 +792,7 @@ msgstr "Web"
 
 #: ../data/SettingsDialog.ui:502
 msgid "Status"
-msgstr ""
+msgstr "Estat"
 
 #: ../data/SettingsDialog.ui:507
 msgid "Allow network access"
@@ -806,16 +808,16 @@ msgstr "Cerca caràtules en segon pla"
 
 #: ../data/SettingsDialog.ui:547
 msgid "Song playback"
-msgstr ""
+msgstr "Reproducció de cançons"
 
 #: ../data/SettingsDialog.ui:558 ../data/SettingsDialog.ui:746
 #: ../data/SettingsDialog.ui:828 ../data/SettingsDialog.ui:910
 msgid "Enabled"
-msgstr ""
+msgstr "Habilitat"
 
 #: ../data/SettingsDialog.ui:575
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Utilitza una versió recent del youtube-dl"
 
 #: ../data/SettingsDialog.ui:591
 msgid "Google API-key"
@@ -841,7 +843,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:735
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Cerca (art, cançons, ...)"
 
 #: ../data/SettingsDialog.ui:926
 msgid "ListenBrainz API-Key"
@@ -854,11 +856,11 @@ msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1015 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1031
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:1048 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
@@ -867,11 +869,11 @@ msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:1065
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:1082
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:1099
 msgid "Google"
