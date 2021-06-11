@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2021-04-06 18:26+0000\n"
+"PO-Revision-Date: 2021-06-12 11:33+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/zh_Hans/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -30,7 +30,7 @@ msgstr "窗口大小"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:37
 msgid "Window size (width and height)."
-msgstr "窗口大小(宽度和高度)。"
+msgstr "窗口大小（宽度和高度）。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:41
 msgid "Window position"
@@ -38,7 +38,7 @@ msgstr "窗口位置"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:42
 msgid "Window position (x and y)."
-msgstr "视窗位置(x和y)。"
+msgstr "窗口位置（X 和 Y）。"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:46
 #: ../data/org.gnome.Lollypop.gschema.xml:51
@@ -67,7 +67,7 @@ msgstr "访问网络"
 msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
-msgstr "阈值用于决定上一条音轨是否应被播放或当前播放的音轨是否应"
+msgstr "阈值用于决定是否应播放上一首曲目或应重新启动当前正在播放的曲目"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -103,19 +103,17 @@ msgstr "播放特色曲目"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:111
 msgid "Allow syncing to USB disks"
-msgstr "允许向USB设备同步"
+msgstr "允许向 USB 设备同步"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:121
 msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
-msgstr ""
-"点选后，Lollypop会用此服务器代替YouTube （参照 https://github.com/omarroth/"
-"invidious）"
+msgstr "点选后，Lollypop 会用此服务器代替 YouTube。见 https://github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:126
 msgid "If true, Lollypop will not use system youtube-dl"
-msgstr "选中后，Lollypop将不会使用系统的youtube-dl"
+msgstr "选中后，Lollypop 将不会使用系统的 youtube-dl"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:131
 msgid "Do not use original date if set"
@@ -131,7 +129,7 @@ msgstr "音乐 URI"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:142
 msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "为空时，使用XDG_MUSIC_DIR"
+msgstr "为空时，使用 XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:146
 msgid "Use Libre.fm instead of Last.fm"
@@ -139,7 +137,7 @@ msgstr "使用 Libre.fm 而不是 Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:151
 msgid "ListenBrainz user token"
-msgstr "ListenBrainz用户口令"
+msgstr "ListenBrainz 用户口令"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:156
 msgid "Google Custom Search API key"
@@ -151,7 +149,7 @@ msgstr "最喜爱的标签编辑器"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr "最喜爱的专辑名称(不含扩展名)"
+msgstr "最喜爱的专辑名称（不含扩展名）"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -189,11 +187,11 @@ msgstr "显示艺术家图片"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
-msgstr "使用深色GTK主题"
+msgstr "使用深色 GTK 主题"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:206
 msgid "Disable scrobbling usage"
-msgstr "关闭Scrobbling"
+msgstr "关闭 Scrobbling"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:211
 msgid "Handle compilations"
@@ -606,7 +604,7 @@ msgstr "仅在单独一栏上显示曲目"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "高质量的艺术作品"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
@@ -896,7 +894,7 @@ msgstr "Metro歌词"
 
 #: ../data/SettingsDialog.ui:1228
 msgid "Bing"
-msgstr ""
+msgstr "必应"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1161,6 +1159,9 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"为了能够访问你的收藏。\n"
+"你需要允许<b>Lollypop</b>。"
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
@@ -1174,6 +1175,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b>打开</b> Lollypop <b>偏好</b>。\n"
+"- 转到<b>音乐</b>标签\n"
+"- <b>从收藏中删除</b>所有文件夹\n"
+"- 然后，<b>再次添加</b>它们"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1923,7 +1929,7 @@ msgstr "移除"
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
-msgstr ""
+msgstr "于%s发布"
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
