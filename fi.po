@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-06 14:55+0100\n"
-"PO-Revision-Date: 2021-03-06 19:50+0000\n"
+"PO-Revision-Date: 2021-08-09 09:34+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -249,7 +249,7 @@ msgstr "Näytä kappaleen numero tunnistetiedoista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Käytä PNG-kuvituksen välimuistia"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -289,11 +289,11 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:344
 msgid "Fade duration in ms"
-msgstr ""
+msgstr "Häivytyksen kesto millisekunneissa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:349
 msgid "Fade effect only in party mode"
-msgstr ""
+msgstr "Häivytystehoste vain biletilassa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
@@ -305,7 +305,7 @@ msgstr "Ohita sisäiset symlinkit"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:369
 msgid "ReplayGain state"
-msgstr ""
+msgstr "ReplayGainin tila"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:374
 msgid "ReplayGain value in dB"
@@ -1150,6 +1150,9 @@ msgid ""
 "In order to be able to access your collection,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"Jotta voit käyttää kokoelmaasi,\n"
+"sinun tulee sallia <b>Lollypop</b>in."
 
 #: ../lollypop/assistant_flatpak.py:44
 msgid "Update folders"
@@ -1163,6 +1166,11 @@ msgid ""
 "- <b>Remove</b> all folders from collection\n"
 "- Then, <b>add</b> them again"
 msgstr ""
+"\n"
+"- <b>Avaa</b> Lollypopin <b>asetukset</b>\n"
+"- Siirry <b>Musiikki</b>-välilehdelle\n"
+"- <b>Poista</b> kaikki kansiot kokoelmasta\n"
+"- Sen jälkeen <b>lisää</b> kansiot uudelleen"
 
 #: ../lollypop/assistant_flatpak.py:53 ../lollypop/assistant_google.py:52
 #: ../lollypop/assistant_google.py:69 ../lollypop/assistant_google.py:84
@@ -1330,7 +1338,7 @@ msgstr "Nollataan tietokanta"
 
 #: ../lollypop/collection_scanner.py:505
 msgid "Scan disabled, missing collection"
-msgstr ""
+msgstr "Läpikäynti pois käytöstä, kokoelma puuttuu"
 
 #: ../lollypop/collection_scanner.py:800 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:87 ../lollypop/tagreader.py:103
@@ -1491,7 +1499,7 @@ msgstr "Poista toistosta"
 
 #: ../lollypop/menu_playback.py:114
 msgid "Related tracks"
-msgstr ""
+msgstr "Liittyvät kappaleet"
 
 #: ../lollypop/menu_playback.py:123 ../lollypop/playlists.py:107
 #: ../lollypop/playlists.py:371 ../lollypop/shown.py:70
@@ -1520,7 +1528,7 @@ msgstr "Toista tämä soittolista"
 
 #: ../lollypop/menu_playback.py:217
 msgid "Add this playlist"
-msgstr ""
+msgstr "Lisää tämä soittolista"
 
 #: ../lollypop/menu_playback.py:281
 msgid "Play this artist"
@@ -1856,7 +1864,7 @@ msgstr "Levy %s"
 
 #: ../lollypop/view_tracks_queue.py:36
 msgid "Currently in queue"
-msgstr ""
+msgstr "Parhaillaan jonossa"
 
 #: ../lollypop/view_tracks_search.py:103
 msgid "Tracks"
