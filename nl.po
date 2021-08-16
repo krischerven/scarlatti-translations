@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 18:57+0200\n"
-"PO-Revision-Date: 2021-08-16 16:57+0000\n"
+"PO-Revision-Date: 2021-08-17 00:28+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
 ">\n"
@@ -370,7 +370,7 @@ msgstr "Bezoek de Lollypop-website"
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr "Heimen Stoffels <vistausss@outlook.com>"
+msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -845,7 +845,7 @@ msgstr "Wat is Invidious?"
 
 #: ../data/SettingsDialog.ui:737
 msgid "Search (artwork, songs, ...)"
-msgstr "Zoeken (hoezen, nummers, ...)"
+msgstr "Zoeken (hoezen, nummers, …)"
 
 #: ../data/SettingsDialog.ui:928
 msgid "ListenBrainz API-Key"
@@ -1222,6 +1222,11 @@ msgid ""
 "\n"
 "<b>\"YouTube Data API v3\"</b>\n"
 msgstr ""
+"\n"
+"Om muziek van YouTube te kunnen luisteren,\n"
+"dien je een sleutel te genereren voor de\n"
+"\n"
+"<b>YouTube Data API v3</b>\n"
 
 #: ../lollypop/assistant_google.py:39 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1280,6 +1285,12 @@ msgid ""
 "Then click 'Finish' within this wizard.\n"
 "Copy the API key to Lollypop.\n"
 msgstr ""
+"\n"
+"Klik op <b>Credentials</b> in de zijbalk en\n"
+"genereer de gegevens voor een api-sleutel.\n"
+"\n"
+"Klik hier vervolgens op ‘Afronden’.\n"
+"Kopieer en plak de api-sleutel in Lollypop.\n"
 
 #: ../lollypop/assistant_google.py:87 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
@@ -1333,7 +1344,7 @@ msgid ""
 "<b>Click \"Finish\"</b> once Lollypop has been allowed."
 msgstr ""
 "\n"
-"<b>Klik nadien op 'Afronden'</b>."
+"<b>Klik nadien op ‘Afronden’</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:29
 msgid "Scrobbling to ListenBrainz"
@@ -1380,7 +1391,7 @@ msgstr ""
 
 #: ../lollypop/assistant.py:149
 msgid "Can't contact this service"
-msgstr "Kan geen verbinding maken met dienst"
+msgstr "Er kan geen verbinding worden gemaakt met de dienst"
 
 #: ../lollypop/collection_scanner.py:336
 msgid "Resetting database"
@@ -1417,11 +1428,11 @@ msgstr "Meerdere artiesten"
 
 #: ../lollypop/database_upgrade.py:775
 msgid "Please wait while Lollypop is updating albums"
-msgstr "Bezig met bijwerken van albums..."
+msgstr "Bezig met bijwerken van albums…"
 
 #: ../lollypop/database_upgrade.py:794
 msgid "Please wait while Lollypop is updating tracks"
-msgstr "Bezig met bijwerken van nummers..."
+msgstr "Bezig met bijwerken van nummers…"
 
 #: ../lollypop/dialog_apps.py:73
 msgid "Select"
@@ -1876,7 +1887,7 @@ msgstr "Installeer python3-textblob-module"
 
 #: ../lollypop/view_lyrics.py:274
 msgid "Can't translate this lyrics"
-msgstr "Kan songtekst niet vertalen"
+msgstr "De songtekst kan niet worden vertaald"
 
 #: ../lollypop/view_lyrics.py:304
 msgid "Disabled in network settings"
