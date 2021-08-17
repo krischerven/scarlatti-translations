@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 18:57+0200\n"
-"PO-Revision-Date: 2021-02-03 20:41+0000\n"
+"PO-Revision-Date: 2021-08-18 14:35+0000\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "de/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -75,6 +75,8 @@ msgid ""
 "Threshold used to decide if the previous track should be played or the "
 "currently running one should be restarted"
 msgstr ""
+"Schwellenwert, der entscheidet, ob der gegenwärtig laufende Titel neu "
+"gestartet oder der vorige Titel abgespielt werden soll"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
@@ -157,7 +159,7 @@ msgstr "Bevorzugter Tag-Editor"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:166
 msgid "Favorite cover filename without extension"
-msgstr ""
+msgstr "Bevorzugter Cover-Dateiname ohne Dateityp-Endung"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:167
 #: ../data/org.gnome.Lollypop.gschema.xml:252
@@ -265,7 +267,7 @@ msgstr "Titelnummern aus Tags anzeigen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "PNG-Cache für Bildmaterial aktivieren"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
@@ -1207,7 +1209,7 @@ msgstr "Einstellungen"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is the Google API key?"
-msgstr ""
+msgstr "Was ist ein Google API-Schlüssel?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1217,6 +1219,10 @@ msgid ""
 "\n"
 "<b>\"YouTube Data API v3\"</b>\n"
 msgstr ""
+"\n"
+"Um YouTube-Wiedergabe zu aktivieren,\n"
+"muss ein API-Schlüssel für die\n"
+"<b>\"YouTube Data API v3\"</b> erstellt werden.\n"
 
 #: ../lollypop/assistant_google.py:39 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1930,7 +1936,7 @@ msgstr "Entfernen"
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
-msgstr ""
+msgstr "Veröffentlich auf %s"
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
