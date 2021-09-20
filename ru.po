@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 18:57+0200\n"
-"PO-Revision-Date: 2021-07-07 13:34+0000\n"
-"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
+"PO-Revision-Date: 2021-09-21 18:36+0000\n"
+"Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "ru/>\n"
 "Language: ru\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -152,7 +152,7 @@ msgstr "Токен пользователя ListenBrainz"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:156
 msgid "Google Custom Search API key"
-msgstr "Google Custom Search API ключ"
+msgstr "API ключ Google Custom Search"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:161
 msgid "Favorite tag editor"
@@ -1216,7 +1216,7 @@ msgstr "Настройки"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is the Google API key?"
-msgstr ""
+msgstr "Что такое API ключ Google?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1226,6 +1226,11 @@ msgid ""
 "\n"
 "<b>\"YouTube Data API v3\"</b>\n"
 msgstr ""
+"\n"
+"Для воспроизведения треков с\n"
+"YouTube'а, нужно создать API ключ для\n"
+"\n"
+"<b>\"YouTube Data API v3\"</b>\n"
 
 #: ../lollypop/assistant_google.py:39 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1284,6 +1289,12 @@ msgid ""
 "Then click 'Finish' within this wizard.\n"
 "Copy the API key to Lollypop.\n"
 msgstr ""
+"\n"
+"Откройте вкладку <b>\"Credentials\"</b> в левом меню сайта\n"
+"и создайте API ключ.\n"
+"\n"
+"После чего нажмите 'Finish'.\n"
+"Скопируйте созданный ключ и вставьте его сюда.\n"
 
 #: ../lollypop/assistant_google.py:87 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
