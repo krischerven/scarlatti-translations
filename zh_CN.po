@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 18:57+0200\n"
-"PO-Revision-Date: 2021-06-12 11:33+0000\n"
-"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
+"PO-Revision-Date: 2021-11-25 13:51+0000\n"
+"Last-Translator: Ruichao Chen <matreya.harbinger@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -808,7 +808,7 @@ msgstr "使用youtube-dl的最新版本"
 
 #: ../data/SettingsDialog.ui:593
 msgid "Google API-key"
-msgstr "谷歌API-key"
+msgstr "谷歌API密匙"
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
@@ -834,7 +834,7 @@ msgstr "搜索 (专辑封面，歌曲，...)"
 
 #: ../data/SettingsDialog.ui:928
 msgid "ListenBrainz API-Key"
-msgstr "ListenBrainz API-Key"
+msgstr "ListenBrainz API密匙"
 
 #: ../data/SettingsDialog.ui:1000 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
@@ -1197,7 +1197,7 @@ msgstr "首选项"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is the Google API key?"
-msgstr ""
+msgstr "什么是谷歌API密匙？"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1207,6 +1207,11 @@ msgid ""
 "\n"
 "<b>\"YouTube Data API v3\"</b>\n"
 msgstr ""
+"\n"
+"为启用YouTube回放，\n"
+"您需要创建一个密匙于\n"
+"\n"
+"<b>\"YouTube Data API v3\"</b>\n"
 
 #: ../lollypop/assistant_google.py:39 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1265,6 +1270,12 @@ msgid ""
 "Then click 'Finish' within this wizard.\n"
 "Copy the API key to Lollypop.\n"
 msgstr ""
+"\n"
+"在侧边栏打开 <b>\"Credentials\"</b> \n"
+"并给它创建一个密匙。\n"
+"\n"
+"然后点击向导界面的“结束”按钮， \n"
+"将API密匙复制到Lollypop。\n"
 
 #: ../lollypop/assistant_google.py:87 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
@@ -1360,7 +1371,7 @@ msgid ""
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
 "\n"
-"<b>结束</b>激活通过复制<b>API-Key</b>于Lollypop。"
+"<b>完成</b>激活通过复制<b>API密匙</b>到Lollypop。"
 
 #: ../lollypop/assistant.py:149
 msgid "Can't contact this service"
