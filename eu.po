@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 18:57+0200\n"
-"PO-Revision-Date: 2021-12-09 22:50+0000\n"
+"PO-Revision-Date: 2022-03-02 14:56+0000\n"
 "Last-Translator: Alexander Gabilondo <alexgabi@openmailbox.org>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "eu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml:81
 msgid "Save artwork/popularity in tags"
-msgstr "Gorde karatula/ospea etiketetan"
+msgstr "Gorde azala/ospea etiketetan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:86
 msgid "Window maximized"
@@ -184,7 +184,7 @@ msgstr "Artistak ikusteko pistak erakutsi"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:196 ../data/SettingsDialog.ui:88
 msgid "Show artist artwork"
-msgstr "Erakutsi artistaren karatula"
+msgstr "Erakutsi artistaren azala"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:201
 msgid "Use dark GTK theme"
@@ -204,7 +204,7 @@ msgstr "Maneiatu interpreteak, konpositoreak, ..."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
-msgstr ""
+msgstr "Erakutsi bildumak albumen ikuspegian"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:158
 msgid "Continue playback when closed"
@@ -212,151 +212,156 @@ msgstr "jarraitu erreproduzitzen itxita dagoenean"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Append albums by default"
-msgstr ""
+msgstr "Erantsi albumak modu lehenetsian"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Smart sort for artist"
-msgstr ""
+msgstr "Ordenatze adimentsua artistarentzat"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:237
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required"
 msgstr ""
+"Adib: The Beatles Beatles gisa ordenatuta. Datu-basea berrabiarazi behar da"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:241
 msgid "Show sort tag as artist. Reset of database may be required"
 msgstr ""
+"Erakutsi orden-etiketa artista gisa. Baliteke datu-basea berrabiarazi behar "
+"izatea"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:242
 msgid "Ex: Beatles, The"
-msgstr ""
+msgstr "Adib: Beatles, The"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "Restore previous state"
-msgstr ""
+msgstr "Lehengoratu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:251
 msgid "Disable MPRIS"
-msgstr ""
+msgstr "Desaktibatu MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "Notifications behaviour"
-msgstr ""
+msgstr "Jakinarazpenen portaera"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:265
 msgid "Items count in views"
-msgstr ""
+msgstr "Ikuspegietako elementuen kopurua"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:269
 msgid "Show track number from tags"
-msgstr ""
+msgstr "Erakutsi etiketen pista-zenbakia"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:279
 msgid "Enable PNG artwork cache"
-msgstr ""
+msgstr "Gaitu azalen PNG cachea"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:289
 msgid "Force single column mode"
-msgstr ""
+msgstr "Erakutsi pista-zenbakia etiketetatik"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:294
 msgid "Volume rate"
-msgstr ""
+msgstr "Bolumen ratioa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:295
 msgid "0.0-1.0"
-msgstr ""
+msgstr "0.0-1.0"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:299
 msgid "Equalizer enabled"
-msgstr ""
+msgstr "Ekualizatzailea gaituta"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:319
 msgid "Show labels in sidebar"
-msgstr ""
+msgstr "Erakutsi etiketak alboko barran"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:324
 msgid "Smooth track transitions"
-msgstr ""
+msgstr "Pista trantsizio leunak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "Smooth track transitions only in party mode"
-msgstr ""
+msgstr "Trantsizio leunak festa moduan soilik"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Transition duration in ms"
-msgstr ""
+msgstr "Trantsizioaren iraupena ms-tan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:339
 msgid "Fade effect on playback status change"
-msgstr ""
+msgstr "Desagertze-efektua erreprodukzio-egoeraren aldaketan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:344
 msgid "Fade duration in ms"
-msgstr ""
+msgstr "Desagertzearen iraupena ms-tan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:349
 msgid "Fade effect only in party mode"
-msgstr ""
+msgstr "Desagertzeko efektua festa moduan soilik"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
-msgstr ""
+msgstr "Nahastu pistak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:359
 msgid "Ignore internal symlinks"
-msgstr ""
+msgstr "Ez ikusi barneko esteka sinbolikoak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:369
 msgid "ReplayGain state"
-msgstr ""
+msgstr "ReplayGain egoera"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:374
 msgid "ReplayGain value in dB"
-msgstr ""
+msgstr "ReplayGain balioa dB-tan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:375
 msgid "Between -15 and 15"
-msgstr ""
+msgstr "-15 eta 15 bitartean"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:379
 msgid "Applies signal compression/limiting to raw audio data"
-msgstr ""
+msgstr "Seinalearen konpresioa/mugapena aplikatzen die audio-datu gordinei"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:380
 msgid ""
 "It performs strict hard limiting with soft-knee characteristics, using a "
 "threshold of -6 dB"
-msgstr ""
+msgstr "Mugatze gogorra egiten du funtzio leunduekin, -6 dB atalasea erabiliz"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:384
 msgid "Possibilities for powermanagement options"
-msgstr ""
+msgstr "Potentzia kudeatzeko aukerak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:385
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
+"Aukera honek pantaila-babeslea eta etetea galarazten du Lollypop "
+"erreprodukzioan."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:389
 msgid "Repeat"
-msgstr ""
+msgstr "Errepikatu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:394 ../data/SettingsDialog.ui:212
 msgid "Order albums by"
-msgstr ""
+msgstr "Ordenatu albumak honen arabera"
 
 #: ../data/AboutDialog.ui.in:13
 msgid "A music player for GNOME."
-msgstr ""
+msgstr "GNOMErako musika erreproduzigailua."
 
 #: ../data/AboutDialog.ui.in:15
 msgid "Visit Lollypop website"
-msgstr ""
+msgstr "Bisitatu Lollypop-en webgunea"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:28
 msgctxt "Add your names here, do not remove previous names!"
 msgid "translator1, translator2, ..."
-msgstr ""
+msgstr "Alexander Gabilondo."
 
 #: ../data/AboutDialog.ui.in:29
 msgid ""
@@ -372,32 +377,47 @@ msgid ""
 "    Description in appdata\n"
 "    "
 msgstr ""
+"\n"
+"Reda Lazri:\n"
+"    Lollypop-en ikonoa\n"
+"Geary garapen-taldea:\n"
+"    tag-list-symbolic ikonoa\n"
+"GNOME Projektua:\n"
+"    unplayed-albums-symbolic\n"
+"    artists-list-symbolic ikonoak\n"
+"Martins D. Okoi:\n"
+"    Appdatako deskribapena\n"
+"    "
 
 #: ../data/AboutDialog.ui.in:67
 msgid "Donations:"
-msgstr ""
+msgstr "Dohaintzak:"
 
 #: ../data/AboutDialog.ui.in:74
+#, fuzzy
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
+#, fuzzy
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
+#, fuzzy
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:3
+#, fuzzy
 msgid "Lollypop"
-msgstr ""
+msgstr "Lollypop"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:9
 #: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr ""
+msgstr "Erreproduzitu eta antolatu zure musika bilduma"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:11
 msgid ""
@@ -407,34 +427,40 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
+"Lollypop GNOME mahaigaineko ingurunean bikain funtzionatzeko diseinatutako "
+"musika erreproduzitzaile moderno arina da. Festa-modu bat ere badu, "
+"festarekin lotutako erreprodukzio-zerrendak automatikoki hautatuko dituena; "
+"erreproduzigailua zure sofatik kontrolatzeko aukera ematen du pantaila osoko "
+"moduari esker; letrak, azalak eta biografiak sarean eskuratzen ditu; eta "
+"ReplaGain jatorrizko laguntza eskaintzen du."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Multiple Audio Formats –"
-msgstr ""
+msgstr "Audio formatu anitz -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid "Metadata –"
-msgstr ""
+msgstr "Metadatuak -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Synchronization –"
-msgstr ""
+msgstr "Sinkronizazioa -"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Audio Scrobbling –"
-msgstr ""
+msgstr "Audio Scrobbling –"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
-msgstr ""
+msgstr "Musika erreproduzigailua"
 
 #: ../data/org.gnome.Lollypop.desktop.in:13
 msgid "Music;Player;Lollipop;"
-msgstr ""
+msgstr "Musika;erreproduzigailua;Lollipop;"
 
 #: ../data/org.gnome.Lollypop.desktop.in:23
 msgid "Play/Pause"
-msgstr ""
+msgstr "Erreproduzitu/Pausatu"
 
 #: ../data/org.gnome.Lollypop.desktop.in:27 ../lollypop/assistant_flatpak.py:40
 #: ../lollypop/assistant_google.py:41 ../lollypop/assistant_google.py:53
@@ -442,159 +468,159 @@ msgstr ""
 #: ../lollypop/assistant_lastfm.py:58 ../lollypop/assistant_musicbrainz.py:38
 #: ../lollypop/assistant_musicbrainz.py:50 ../lollypop/notification.py:37
 msgid "Next"
-msgstr ""
+msgstr "Hurrengoa"
 
 #: ../data/org.gnome.Lollypop.desktop.in:31 ../lollypop/notification.py:33
 msgid "Previous"
-msgstr ""
+msgstr "Aurrekoa"
 
 #: ../data/Appmenu.ui:45
 msgid "Update music"
-msgstr ""
+msgstr "Eguneratu musika"
 
 #: ../data/Appmenu.ui:63
 msgid "Mini player"
-msgstr ""
+msgstr "Erreproduzigailu txikia"
 
 #: ../data/Appmenu.ui:81
 msgid "Fullscreen"
-msgstr ""
+msgstr "Pantaila osoa"
 
 #: ../data/Appmenu.ui:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Hobespenak"
 
 #: ../data/Appmenu.ui:122
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Laster-teklak"
 
 #: ../data/Appmenu.ui:136
 msgid "_About Lollypop"
-msgstr ""
+msgstr "Lollypop-i buruz"
 
 #: ../data/Appmenu.ui:149
 msgid "Quit"
-msgstr ""
+msgstr "Irten"
 
 #: ../data/Appmenu.ui:219
 msgid "Equalizer"
-msgstr ""
+msgstr "Ekualizatzailea"
 
 #: ../data/ArtistBannerWidget.ui:92
 msgid "Play albums"
-msgstr ""
+msgstr "Erreproduzitu albumak"
 
 #: ../data/ArtistBannerWidget.ui:110
 msgctxt "artist context"
 msgid "Add to current playlist"
-msgstr ""
+msgstr "Gehitu uneko erreprodukzio-zerrendan"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
-msgstr ""
+msgstr "Hautatu tokiko fitxategi bat"
 
 #: ../data/DeviceWidget.ui:67
 msgid "Convert to:"
-msgstr ""
+msgstr "Bihurtu hona:"
 
 #: ../data/DeviceWidget.ui:79
 msgid "Normalize"
-msgstr ""
+msgstr "Normalizatu"
 
 #: ../data/DeviceWidget.ui:100
 msgid "Do not convert"
-msgstr ""
+msgstr "Ez bihurtu"
 
 #: ../data/DeviceWidget.ui:117
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../data/DeviceWidget.ui:134
 msgid "Ogg Vorbis"
-msgstr ""
+msgstr "Ogg Vorbis"
 
 #: ../data/DeviceWidget.ui:151
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../data/DeviceWidget.ui:168
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../data/DeviceWidget.ui:204
 msgid "Synchronized:"
-msgstr ""
+msgstr "Sinkronizatuta:"
 
 #: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:36
 #: ../lollypop/view_albums_line.py:279
 msgid "Albums"
-msgstr ""
+msgstr "Albumak"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
 #: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
-msgstr ""
+msgstr "Erreprodukzio-zerrendak"
 
 #: ../data/DeviceWidget.ui:284 ../lollypop/widgets_device.py:137
 #: ../lollypop/widgets_device.py:338
 msgid "Synchronize"
-msgstr ""
+msgstr "Sinkronizatu"
 
 #: ../data/PlaylistBannerWidget.ui:71 ../lollypop/view_tracks_album.py:313
 #: ../lollypop/widgets_player_buttons.py:188
 msgid "Play"
-msgstr ""
+msgstr "Erreproduzitu"
 
 #: ../data/PlaylistBannerWidget.ui:89
 msgid "Play playlist randomized"
-msgstr ""
+msgstr "Erreproduzitu zerrenda ausaz"
 
 #: ../data/PlaylistPopover.ui:23 ../data/RadioMenu.ui:50
 msgid "Name:"
-msgstr ""
+msgstr "Izena:"
 
 #: ../data/PlaylistPopover.ui:59 ../data/RadioMenu.ui:106
 #: ../data/SmartPlaylistView.ui:153 ../lollypop/menu_playlist.py:116
 msgid "Save"
-msgstr ""
+msgstr "Gorde"
 
 #: ../data/RadioMenu.ui:61
 msgid "Address:"
-msgstr ""
+msgstr "Helbidea:"
 
 #: ../data/SettingsDialog.ui:41
 msgid "General"
-msgstr ""
+msgstr "Orokorra"
 
 #: ../data/SettingsDialog.ui:46
 msgid "Appearance"
-msgstr ""
+msgstr "Itxura"
 
 #: ../data/SettingsDialog.ui:51 ../data/SettingsDialog.ui:54
 msgid "Whether the application should use a dark theme"
-msgstr ""
+msgstr "Aplikazioak gai ilun bat erabili behar duen ala ez"
 
 #: ../data/SettingsDialog.ui:52
 msgid "Dark Mode"
-msgstr ""
+msgstr "Modu iluna"
 
 #: ../data/SettingsDialog.ui:70
 msgid "Single column mode"
-msgstr ""
+msgstr "Zutabe bakarreko modua"
 
 #: ../data/SettingsDialog.ui:72
 msgid "Only show a single column for tracks"
-msgstr ""
+msgstr "Erakutsi zutabe bakarra pistetarako"
 
 #: ../data/SettingsDialog.ui:105
 msgid "High quality artwork"
-msgstr ""
+msgstr "Kalitate handiko azalak"
 
 #: ../data/SettingsDialog.ui:122
 msgid "Artwork size"
-msgstr ""
+msgstr "Azalaren tamaina"
 
 #: ../data/SettingsDialog.ui:139 ../lollypop/menu_actions.py:78
 msgid "Clean cache"
@@ -622,7 +648,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:196
 msgid "Save artwork and rating to files"
-msgstr ""
+msgstr "Gorde azala eta balorazioa fitxategietan"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Albums will be sorted by this field"
@@ -773,7 +799,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:528
 msgid "Search artwork in background"
-msgstr ""
+msgstr "Bilatu azalak bigarren planoan"
 
 #: ../data/SettingsDialog.ui:549
 msgid "Song playback"
@@ -812,7 +838,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:737
 msgid "Search (artwork, songs, ...)"
-msgstr ""
+msgstr "Bilatu (azalak, abestiak,...)"
 
 #: ../data/SettingsDialog.ui:928
 msgid "ListenBrainz API-Key"
@@ -1335,7 +1361,7 @@ msgstr ""
 
 #: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
-msgstr ""
+msgstr "Deskargatu automatikoki albumak eta artisten azalak?"
 
 #: ../lollypop/container_notification.py:97
 msgid "Yes"
@@ -1440,7 +1466,7 @@ msgstr ""
 
 #: ../lollypop/menu_artwork.py:67 ../lollypop/menu_artwork.py:114
 msgid "Change Artwork"
-msgstr ""
+msgstr "Aldatu azala"
 
 #: ../lollypop/menu_current_albums.py:34 ../lollypop/menu_current_albums.py:43
 #: ../lollypop/shown.py:40 ../lollypop/widgets_banner_current_albums.py:65
