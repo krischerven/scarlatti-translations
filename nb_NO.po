@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 18:57+0200\n"
-"PO-Revision-Date: 2021-04-05 13:26+0000\n"
+"PO-Revision-Date: 2022-03-02 14:56+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "lollypop/nb_NO/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -1225,7 +1225,7 @@ msgstr "Innstillinger"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is the Google API key?"
-msgstr ""
+msgstr "Hva er en Google-API-nøkkel?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1235,6 +1235,11 @@ msgid ""
 "\n"
 "<b>\"YouTube Data API v3\"</b>\n"
 msgstr ""
+"\n"
+"For å kunne spille av fra YouTube,\n"
+"må du opprette en nøkkel for\n"
+"\n"
+"<b>«YouTube Data API v3»</b>\n"
 
 #: ../lollypop/assistant_google.py:39 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1264,6 +1269,7 @@ msgid "Activate the API"
 msgstr "Aktiver API-et"
 
 #: ../lollypop/assistant_google.py:59
+#, fuzzy
 msgid ""
 "\n"
 "<b>Add a new project</b> in the console.\n"
@@ -1273,6 +1279,13 @@ msgid ""
 "\n"
 "<b>Activate that API</b> for your project"
 msgstr ""
+"\n"
+"<b>Legg til et nytt prosjekt</b> i konsollen.\n"
+"\n"
+"Etter det kan du <b>legge til et nytt API</b> og søke etter\n"
+"<b>\"YouTube Data API v3\"</b>.\n"
+"\n"
+"<b>Aktiver det API-et</b> for ditt prosjekt."
 
 #: ../lollypop/assistant_google.py:74
 msgid "Copy the key"
@@ -1287,6 +1300,12 @@ msgid ""
 "Then click 'Finish' within this wizard.\n"
 "Copy the API key to Lollypop.\n"
 msgstr ""
+"\n"
+"Åpne <b>«Identitetsdetaljer»</b> i sidefeltet og\n"
+"opprett identitetsdetaljer for en API-nøkkel.\n"
+"\n"
+"Klikk deretter «Fullfør» i denne veiviseren.\n"
+"Kopier API-nøkkelen til Lollypop.\n"
 
 #: ../lollypop/assistant_google.py:87 ../lollypop/assistant_lastfm.py:70
 #: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
@@ -1294,9 +1313,9 @@ msgid "Finish"
 msgstr "Fullfør"
 
 #: ../lollypop/assistant_lastfm.py:36
-#, python-format
+#, fuzzy, python-format
 msgid "Scrobbling to %s"
-msgstr ""
+msgstr "Skrobbler til %s"
 
 #: ../lollypop/assistant_lastfm.py:38
 #, python-format
@@ -1305,6 +1324,9 @@ msgid ""
 "In order to send your activity to <b>%s</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"For å kunne sende aktiviteten din til <b>%s</b>,\n"
+"må du tillate <b>Lollypop</b>."
 
 #: ../lollypop/assistant_lastfm.py:49
 #, python-format
@@ -1318,15 +1340,19 @@ msgid ""
 "<b>Open and login</b> to <b>%s</b>.\n"
 "Then, allow Lollypop."
 msgstr ""
+"\n"
+"Åpne <b>%s</b> og logg inn der.\n"
+"Tillat deretter Lollypop."
 
 #: ../lollypop/assistant_lastfm.py:54
-#, python-format
+#, fuzzy, python-format
 msgid "Access %s"
-msgstr ""
+msgstr "Åpne %s"
 
 #: ../lollypop/assistant_lastfm.py:62
+#, fuzzy
 msgid "Just play a track"
-msgstr ""
+msgstr "Bare spill av et spor"
 
 #: ../lollypop/assistant_lastfm.py:64
 #, fuzzy
@@ -1338,8 +1364,9 @@ msgstr ""
 "<b>Klikk «Fullfør»</b> når Lollypop er innvilget tilgang."
 
 #: ../lollypop/assistant_musicbrainz.py:29
+#, fuzzy
 msgid "Scrobbling to ListenBrainz"
-msgstr ""
+msgstr "Skrobbler til ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:31
 msgid ""
@@ -1347,30 +1374,40 @@ msgid ""
 "In order to send your activity to <b>ListenBrainz</b>,\n"
 "you need to allow <b>Lollypop</b>."
 msgstr ""
+"\n"
+"For å kunne sende aktiviteten din til <b>ListenBrainz</b>,\n"
+"må du tillate <b>Lollypop</b>."
 
 #: ../lollypop/assistant_musicbrainz.py:42
 msgid "Connect to ListenBrainz"
 msgstr "Koble til LiztenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:44
+#, fuzzy
 msgid ""
 "\n"
 "<b>Open and login</b> to <b>ListenBrainz</b>."
 msgstr ""
+"\n"
+"Åpne <b>ListenBrainz</b> og logg inn der."
 
 #: ../lollypop/assistant_musicbrainz.py:46
+#, fuzzy
 msgid "Access ListenBrainz"
-msgstr ""
+msgstr "Åpne ListenBrainz"
 
 #: ../lollypop/assistant_musicbrainz.py:54
 msgid "Copy key"
 msgstr "Kopier nøkkel"
 
 #: ../lollypop/assistant_musicbrainz.py:56
+#, fuzzy
 msgid ""
 "\n"
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
+"\n"
+"<b>Fullfør</b> Aktiveringen ved å kopiere <b>API-nøkkelen</b> i Lollypop."
 
 #: ../lollypop/assistant.py:149
 msgid "Can't contact this service"
@@ -1788,8 +1825,9 @@ msgid "Seldomly played tracks"
 msgstr "Sjeldent spilte spor"
 
 #: ../lollypop/shown.py:73
+#, fuzzy
 msgid "Skipped tracks"
-msgstr ""
+msgstr "Overhoppede spor"
 
 #: ../lollypop/shown.py:74
 msgid "All tracks"
@@ -1933,9 +1971,9 @@ msgid "Remove"
 msgstr "Fjern"
 
 #: ../lollypop/widgets_banner_album.py:245
-#, python-format
+#, fuzzy, python-format
 msgid "Released on %s"
-msgstr ""
+msgstr "Utgitt %s"
 
 #: ../lollypop/widgets_banner_artist.py:298
 msgid "Add to current playlist"
@@ -2004,7 +2042,7 @@ msgstr "Disko"
 
 #: ../lollypop/widgets_equalizer.py:43
 msgid "Drum'n'Bass"
-msgstr ""
+msgstr "Drum and bass"
 
 #: ../lollypop/widgets_equalizer.py:45
 msgid "Heavy Metal"
@@ -2016,15 +2054,16 @@ msgstr "Jass"
 
 #: ../lollypop/widgets_equalizer.py:49
 msgid "Latin"
-msgstr ""
+msgstr "Latin-amerikansk"
 
 #: ../lollypop/widgets_equalizer.py:51
 msgid "Metal"
 msgstr "Metall"
 
 #: ../lollypop/widgets_equalizer.py:53
+#, fuzzy
 msgid "New Age"
-msgstr ""
+msgstr "New age"
 
 #: ../lollypop/widgets_equalizer.py:55
 msgid "Party"
