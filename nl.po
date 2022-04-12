@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 18:57+0200\n"
+"POT-Creation-Date: 2022-04-12 10:21+0200\n"
 "PO-Revision-Date: 2021-08-17 00:28+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/lollypop/nl/"
@@ -439,21 +439,9 @@ msgstr ""
 "opzoeken van albumhoezen en biografieën, en ingebouwde ondersteuning voor "
 "ReplayGain."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
-msgid "Multiple Audio Formats –"
-msgstr "Meerdere audioformaten –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
-msgid "Metadata –"
-msgstr "Metagegevens –"
-
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Synchronization –"
-msgstr "Synchronisatie –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
-msgid "Audio Scrobbling –"
-msgstr "Audioscrobbling –"
+msgid "Bug fixes"
+msgstr "Oplossingen voor programmafouten"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -562,7 +550,7 @@ msgid "Albums"
 msgstr "Albums"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
-#: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
@@ -681,7 +669,7 @@ msgstr "Populariteit"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
-#: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:110
+#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
 msgstr "Afspelen"
 
@@ -729,7 +717,7 @@ msgstr "Muziek"
 msgid "Collection"
 msgstr "Verzameling"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:249
+#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "Verzameling herstellen"
 
@@ -782,8 +770,8 @@ msgid "Remove devices managed by Lollypop"
 msgstr "Verwijder door Lollypop beheerde apparaten"
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_objects.py:91 ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "Apparaten"
 
@@ -827,7 +815,7 @@ msgstr "Google API-sleutel"
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
-#: ../lollypop/dialog_settings.py:193
+#: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "Verbinden"
 
@@ -898,18 +886,14 @@ msgid "Lyrics"
 msgstr "Songtekst"
 
 #: ../data/SettingsDialog.ui:1180
-msgid "Wikia"
-msgstr "Wikia"
-
-#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr "Genius"
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
 msgstr "MetroLyrics"
 
-#: ../data/SettingsDialog.ui:1231
+#: ../data/SettingsDialog.ui:1214
 msgid "Bing"
 msgstr "Bing"
 
@@ -1089,8 +1073,8 @@ msgstr "van de volgende regels:"
 msgid "Genre"
 msgstr "Genre"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
-#: ../lollypop/menu_objects.py:115
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:49
+#: ../lollypop/menu_objects.py:116
 msgid "Artist"
 msgstr "Artiest"
 
@@ -1401,7 +1385,7 @@ msgstr "Bezig met herstellen van databank"
 msgid "Scan disabled, missing collection"
 msgstr "Scannen is uitgeschakeld: verzameling ontbreekt"
 
-#: ../lollypop/collection_scanner.py:804 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1457,15 +1441,15 @@ msgstr "Aantal albums: %s"
 msgid "Tracks count: %s"
 msgstr "Aantal nummers: %s"
 
-#: ../lollypop/dialog_settings.py:210 ../lollypop/dialog_settings.py:345
+#: ../lollypop/dialog_settings.py:212 ../lollypop/dialog_settings.py:347
 msgid "Disconnect"
 msgstr "Koppeling verbreken"
 
-#: ../lollypop/dialog_settings.py:255
+#: ../lollypop/dialog_settings.py:257
 msgid "Are you sure?"
 msgstr "Weet je het zeker?"
 
-#: ../lollypop/fullscreen.py:345
+#: ../lollypop/fullscreen.py:344
 msgid "You are using a broken cursor theme!"
 msgstr "Je gebruikt een niet-werkend cursorthema!"
 
@@ -1506,7 +1490,7 @@ msgid "Play featured"
 msgstr "Uitgelichte nummers afspelen"
 
 #: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:120
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
 msgstr "Toevoegen aan"
@@ -1528,20 +1512,20 @@ msgstr "Afspelende albums"
 msgid "Create a new playlist"
 msgstr "Nieuwe afspeellijst maken"
 
-#: ../lollypop/menu_objects.py:66
+#: ../lollypop/menu_objects.py:67
 msgid "Show album"
 msgstr "Album bekijken"
 
-#: ../lollypop/menu_objects.py:71 ../lollypop/menu_objects.py:122
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:123
 #: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "Overig"
 
-#: ../lollypop/menu_objects.py:144
+#: ../lollypop/menu_objects.py:145
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
-#: ../lollypop/menu_objects.py:174
+#: ../lollypop/menu_objects.py:175
 msgid "YouTube page address"
 msgstr "YouTube-adres"
 
@@ -1554,7 +1538,7 @@ msgstr "Radiostation beluisteren"
 msgid "Add to playback"
 msgstr "Toevoegen aan wachtrij"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:111
 msgid "Remove from playback"
 msgstr "Verwijderen uit wachtrij"
 
@@ -1608,7 +1592,7 @@ msgstr "Alles van genre afspelen"
 msgid "Play this decade"
 msgstr "Alles van afgelopen 10 jaar afspelen"
 
-#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:118
+#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "Album afspelen"
 
@@ -2102,13 +2086,28 @@ msgstr "is kleiner dan"
 msgid "Song played %s times"
 msgstr "%s keer beluisterd"
 
-#: ../lollypop/widgets_row_album.py:96
+#: ../lollypop/widgets_row_album.py:97
 msgid "Compilation"
 msgstr "Compilatie"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Verwijderen van afspeellijst"
+
+#~ msgid "Multiple Audio Formats –"
+#~ msgstr "Meerdere audioformaten –"
+
+#~ msgid "Metadata –"
+#~ msgstr "Metagegevens –"
+
+#~ msgid "Synchronization –"
+#~ msgstr "Synchronisatie –"
+
+#~ msgid "Audio Scrobbling –"
+#~ msgstr "Audioscrobbling –"
+
+#~ msgid "Wikia"
+#~ msgstr "Wikia"
 
 #~ msgid "What is Google API-key?"
 #~ msgstr "Wat is een Google API-sleutel?"
@@ -2770,9 +2769,6 @@ msgstr "Verwijderen van afspeellijst"
 #~ msgstr ""
 #~ "Albumhoesdownloader: download automatisch albumhoezen van Last.fm, iTunes "
 #~ "en Spotify"
-
-#~ msgid "Bug fixes"
-#~ msgstr "Oplossingen voor programmafouten"
 
 #~ msgid "_About"
 #~ msgstr "_Over"

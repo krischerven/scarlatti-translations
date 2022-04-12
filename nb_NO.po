@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: https://hosted.weblate.org/projects/gnumdk/\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 18:57+0200\n"
+"POT-Creation-Date: 2022-04-12 10:21+0200\n"
 "PO-Revision-Date: 2022-03-02 14:56+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -437,21 +437,10 @@ msgstr ""
 "fullskjermsmoduset; det henter sangtekster, omslag og biografier fra "
 "Internett, og tilbyr innebygget støtte for ReplayGain."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
-msgid "Multiple Audio Formats –"
-msgstr "Flere lydformater –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
-msgid "Metadata –"
-msgstr "Metadata –"
-
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Synchronization –"
-msgstr "Synkronisering –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
-msgid "Audio Scrobbling –"
-msgstr "Lydskrobbling –"
+#, fuzzy
+msgid "Bug fixes"
+msgstr "Feilrettinger"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -561,7 +550,7 @@ msgid "Albums"
 msgstr "Album"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
-#: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
@@ -682,7 +671,7 @@ msgstr "Popularitet"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
-#: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:110
+#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
 msgstr "Avspilling"
 
@@ -732,7 +721,7 @@ msgstr "Musikk"
 msgid "Collection"
 msgstr "Samling"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:249
+#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "Tilbakestill samling"
 
@@ -788,8 +777,8 @@ msgid "Remove devices managed by Lollypop"
 msgstr "Fjern enheter som håndteres av Lollypop"
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_objects.py:91 ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "Enheter"
 
@@ -834,7 +823,7 @@ msgstr "Google-API-nøkkel"
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
-#: ../lollypop/dialog_settings.py:193
+#: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "Koble til"
 
@@ -906,19 +895,15 @@ msgid "Lyrics"
 msgstr "Tekster"
 
 #: ../data/SettingsDialog.ui:1180
-msgid "Wikia"
-msgstr "Wikia"
-
-#: ../data/SettingsDialog.ui:1197
 #, fuzzy
 msgid "Genius"
 msgstr "Genius"
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
 msgstr "Metro-sangtekster"
 
-#: ../data/SettingsDialog.ui:1231
+#: ../data/SettingsDialog.ui:1214
 msgid "Bing"
 msgstr "Bing"
 
@@ -1100,8 +1085,8 @@ msgstr "av følgende regler:"
 msgid "Genre"
 msgstr "Sjanger"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
-#: ../lollypop/menu_objects.py:115
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:49
+#: ../lollypop/menu_objects.py:116
 msgid "Artist"
 msgstr "Artist"
 
@@ -1422,7 +1407,7 @@ msgstr "Tilbakestiller database"
 msgid "Scan disabled, missing collection"
 msgstr "Skanning avskrudd, manglende samling"
 
-#: ../lollypop/collection_scanner.py:804 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1479,15 +1464,15 @@ msgstr "Albumantall: %s"
 msgid "Tracks count: %s"
 msgstr "Sporantall: %s"
 
-#: ../lollypop/dialog_settings.py:210 ../lollypop/dialog_settings.py:345
+#: ../lollypop/dialog_settings.py:212 ../lollypop/dialog_settings.py:347
 msgid "Disconnect"
 msgstr "Koble fra"
 
-#: ../lollypop/dialog_settings.py:255
+#: ../lollypop/dialog_settings.py:257
 msgid "Are you sure?"
 msgstr "Er du sikker?"
 
-#: ../lollypop/fullscreen.py:345
+#: ../lollypop/fullscreen.py:344
 msgid "You are using a broken cursor theme!"
 msgstr "Du bruker en knekt pekerdrakt!"
 
@@ -1528,7 +1513,7 @@ msgid "Play featured"
 msgstr "Vis framhevede"
 
 #: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:120
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
 msgstr "Legg til i"
@@ -1550,20 +1535,20 @@ msgstr "Album som spilles"
 msgid "Create a new playlist"
 msgstr "Opprett en ny spilleliste"
 
-#: ../lollypop/menu_objects.py:66
+#: ../lollypop/menu_objects.py:67
 msgid "Show album"
 msgstr "Vis album"
 
-#: ../lollypop/menu_objects.py:71 ../lollypop/menu_objects.py:122
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:123
 #: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "Andre"
 
-#: ../lollypop/menu_objects.py:144
+#: ../lollypop/menu_objects.py:145
 msgid "%Y-%m-%d"
 msgstr "%d-%m-%Y"
 
-#: ../lollypop/menu_objects.py:174
+#: ../lollypop/menu_objects.py:175
 msgid "YouTube page address"
 msgstr "YouTubeside-adresse"
 
@@ -1576,7 +1561,7 @@ msgstr "Spill en radiostasjon"
 msgid "Add to playback"
 msgstr "Legg til i avspilling"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:111
 msgid "Remove from playback"
 msgstr "Fjern fra avspilling"
 
@@ -1630,7 +1615,7 @@ msgstr "Spill denne sjangeren"
 msgid "Play this decade"
 msgstr "Spill dette årtiet"
 
-#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:118
+#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "Spill av dette albumet"
 
@@ -2130,13 +2115,28 @@ msgstr "er mindre enn"
 msgid "Song played %s times"
 msgstr "Sang spilt %s ganger"
 
-#: ../lollypop/widgets_row_album.py:96
+#: ../lollypop/widgets_row_album.py:97
 msgid "Compilation"
 msgstr "Samling"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Fjern fra spilleliste"
+
+#~ msgid "Multiple Audio Formats –"
+#~ msgstr "Flere lydformater –"
+
+#~ msgid "Metadata –"
+#~ msgstr "Metadata –"
+
+#~ msgid "Synchronization –"
+#~ msgstr "Synkronisering –"
+
+#~ msgid "Audio Scrobbling –"
+#~ msgstr "Lydskrobbling –"
+
+#~ msgid "Wikia"
+#~ msgstr "Wikia"
 
 #~ msgid "What is Google API-key?"
 #~ msgstr "Hva er Google-API-nøkkelen?"
@@ -2890,10 +2890,6 @@ msgstr "Fjern fra spilleliste"
 #~ msgstr ""
 #~ "Omslagsnedlaster: Automatisk omslagsnedlaster fra Last.fm, Itunes og "
 #~ "Spotify"
-
-#, fuzzy
-#~ msgid "Bug fixes"
-#~ msgstr "Feilrettinger"
 
 #~ msgid "_About"
 #~ msgstr "_Om"

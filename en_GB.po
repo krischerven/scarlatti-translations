@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 18:57+0200\n"
+"POT-Creation-Date: 2022-04-12 10:21+0200\n"
 "PO-Revision-Date: 2020-08-11 16:32+0000\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
@@ -423,21 +423,9 @@ msgstr ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
-msgid "Multiple Audio Formats –"
-msgstr "Multiple Audio Formats –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
-msgid "Metadata –"
-msgstr "Metadata –"
-
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Synchronization –"
-msgstr "Synchronisation –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
-msgid "Audio Scrobbling –"
-msgstr "Audio Scrobbling –"
+msgid "Bug fixes"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -546,7 +534,7 @@ msgid "Albums"
 msgstr "Albums"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
-#: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
@@ -665,7 +653,7 @@ msgstr "Popularity"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
-#: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:110
+#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
 msgstr "Playback"
 
@@ -713,7 +701,7 @@ msgstr "Music"
 msgid "Collection"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:249
+#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr ""
 
@@ -764,8 +752,8 @@ msgid "Remove devices managed by Lollypop"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_objects.py:91 ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "Devices"
 
@@ -809,7 +797,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
-#: ../lollypop/dialog_settings.py:193
+#: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "Connect"
 
@@ -880,18 +868,14 @@ msgid "Lyrics"
 msgstr "Lyrics"
 
 #: ../data/SettingsDialog.ui:1180
-msgid "Wikia"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1231
+#: ../data/SettingsDialog.ui:1214
 msgid "Bing"
 msgstr ""
 
@@ -1071,8 +1055,8 @@ msgstr "of the following rules :"
 msgid "Genre"
 msgstr "Genre"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
-#: ../lollypop/menu_objects.py:115
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:49
+#: ../lollypop/menu_objects.py:116
 msgid "Artist"
 msgstr "Artist"
 
@@ -1339,7 +1323,7 @@ msgstr ""
 msgid "Scan disabled, missing collection"
 msgstr "Scan disabled, missing collection"
 
-#: ../lollypop/collection_scanner.py:804 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1395,15 +1379,15 @@ msgstr ""
 msgid "Tracks count: %s"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:210 ../lollypop/dialog_settings.py:345
+#: ../lollypop/dialog_settings.py:212 ../lollypop/dialog_settings.py:347
 msgid "Disconnect"
 msgstr "Disconnect"
 
-#: ../lollypop/dialog_settings.py:255
+#: ../lollypop/dialog_settings.py:257
 msgid "Are you sure?"
 msgstr ""
 
-#: ../lollypop/fullscreen.py:345
+#: ../lollypop/fullscreen.py:344
 msgid "You are using a broken cursor theme!"
 msgstr "You are using a broken cursor theme!"
 
@@ -1444,7 +1428,7 @@ msgid "Play featured"
 msgstr "Play featured"
 
 #: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:120
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
 msgstr "Add to"
@@ -1466,20 +1450,20 @@ msgstr "Playing albums"
 msgid "Create a new playlist"
 msgstr "Create a new playlist"
 
-#: ../lollypop/menu_objects.py:66
+#: ../lollypop/menu_objects.py:67
 msgid "Show album"
 msgstr ""
 
-#: ../lollypop/menu_objects.py:71 ../lollypop/menu_objects.py:122
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:123
 #: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "Others"
 
-#: ../lollypop/menu_objects.py:144
+#: ../lollypop/menu_objects.py:145
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/menu_objects.py:174
+#: ../lollypop/menu_objects.py:175
 msgid "YouTube page address"
 msgstr "YouTube page address"
 
@@ -1492,7 +1476,7 @@ msgstr "Play a radio"
 msgid "Add to playback"
 msgstr "Add to playback"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:111
 msgid "Remove from playback"
 msgstr "Remove from playback"
 
@@ -1546,7 +1530,7 @@ msgstr "Play this genre"
 msgid "Play this decade"
 msgstr "Play this decade"
 
-#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:118
+#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "Play this album"
 
@@ -2040,13 +2024,25 @@ msgstr "is less than"
 msgid "Song played %s times"
 msgstr "Song played %s times"
 
-#: ../lollypop/widgets_row_album.py:96
+#: ../lollypop/widgets_row_album.py:97
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Remove from playlist"
+
+#~ msgid "Multiple Audio Formats –"
+#~ msgstr "Multiple Audio Formats –"
+
+#~ msgid "Metadata –"
+#~ msgstr "Metadata –"
+
+#~ msgid "Synchronization –"
+#~ msgstr "Synchronisation –"
+
+#~ msgid "Audio Scrobbling –"
+#~ msgstr "Audio Scrobbling –"
 
 #~ msgid "Disallow playback"
 #~ msgstr "Disallow playback"

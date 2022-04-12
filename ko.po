@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 18:57+0200\n"
+"POT-Creation-Date: 2022-04-12 10:21+0200\n"
 "PO-Revision-Date: 2021-05-28 09:33+0000\n"
 "Last-Translator: Kevin Kim <chaeya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -424,21 +424,9 @@ msgstr ""
 "고, 전체 화면 모드 덕분에 소파에서 재생기에 접속할 수 있으며, 가사, 아트워크 "
 "및 약력을 온라인으로 가져오고, ReplayGain을 기본적으로 지원합니다."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
-msgid "Multiple Audio Formats –"
-msgstr "다중 오디오 형식 –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
-msgid "Metadata –"
-msgstr "메타데이터 –"
-
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Synchronization –"
-msgstr "동기화 –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
-msgid "Audio Scrobbling –"
-msgstr "오디오 정보 보내기 –"
+msgid "Bug fixes"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -547,7 +535,7 @@ msgid "Albums"
 msgstr "앨범"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
-#: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
@@ -666,7 +654,7 @@ msgstr "인기"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
-#: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:110
+#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
 msgstr "재생"
 
@@ -714,7 +702,7 @@ msgstr "음악"
 msgid "Collection"
 msgstr "컬랙션"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:249
+#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "컬랙션 초기화"
 
@@ -767,8 +755,8 @@ msgid "Remove devices managed by Lollypop"
 msgstr "롤리팝이 관리하는 장치 제거"
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_objects.py:91 ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "장치"
 
@@ -812,7 +800,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
-#: ../lollypop/dialog_settings.py:193
+#: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "연결하기"
 
@@ -883,18 +871,14 @@ msgid "Lyrics"
 msgstr "가사"
 
 #: ../data/SettingsDialog.ui:1180
-msgid "Wikia"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1231
+#: ../data/SettingsDialog.ui:1214
 msgid "Bing"
 msgstr ""
 
@@ -1074,8 +1058,8 @@ msgstr "다음 규칙중 :"
 msgid "Genre"
 msgstr "장르"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
-#: ../lollypop/menu_objects.py:115
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:49
+#: ../lollypop/menu_objects.py:116
 msgid "Artist"
 msgstr "아티스트"
 
@@ -1367,7 +1351,7 @@ msgstr "데이터베이스 초기화"
 msgid "Scan disabled, missing collection"
 msgstr "스캔 비활성화, 누락된 컬랙션"
 
-#: ../lollypop/collection_scanner.py:804 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1423,15 +1407,15 @@ msgstr ""
 msgid "Tracks count: %s"
 msgstr ""
 
-#: ../lollypop/dialog_settings.py:210 ../lollypop/dialog_settings.py:345
+#: ../lollypop/dialog_settings.py:212 ../lollypop/dialog_settings.py:347
 msgid "Disconnect"
 msgstr "연결 해제됨"
 
-#: ../lollypop/dialog_settings.py:255
+#: ../lollypop/dialog_settings.py:257
 msgid "Are you sure?"
 msgstr ""
 
-#: ../lollypop/fullscreen.py:345
+#: ../lollypop/fullscreen.py:344
 msgid "You are using a broken cursor theme!"
 msgstr "손상된 커서 테마를 사용하고 있습니다!"
 
@@ -1472,7 +1456,7 @@ msgid "Play featured"
 msgstr "추천 곡 재생하기"
 
 #: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:120
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
 msgstr "추가 위치"
@@ -1494,20 +1478,20 @@ msgstr "재생중인 앨범"
 msgid "Create a new playlist"
 msgstr "새 재생목록 만들기"
 
-#: ../lollypop/menu_objects.py:66
+#: ../lollypop/menu_objects.py:67
 msgid "Show album"
 msgstr "앨범 보기"
 
-#: ../lollypop/menu_objects.py:71 ../lollypop/menu_objects.py:122
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:123
 #: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "기타"
 
-#: ../lollypop/menu_objects.py:144
+#: ../lollypop/menu_objects.py:145
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/menu_objects.py:174
+#: ../lollypop/menu_objects.py:175
 msgid "YouTube page address"
 msgstr "유튜브 페이지 주소"
 
@@ -1520,7 +1504,7 @@ msgstr "라디오 재생하기"
 msgid "Add to playback"
 msgstr "재생에 추가"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:111
 msgid "Remove from playback"
 msgstr "재생에서 제거"
 
@@ -1574,7 +1558,7 @@ msgstr "이 장르 곡 재생하기"
 msgid "Play this decade"
 msgstr "이 X0년대 곡 재생하기"
 
-#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:118
+#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "이 앨범 재생하기"
 
@@ -2068,13 +2052,25 @@ msgstr "다음보다 더 적음"
 msgid "Song played %s times"
 msgstr "%s번 재생됨"
 
-#: ../lollypop/widgets_row_album.py:96
+#: ../lollypop/widgets_row_album.py:97
 msgid "Compilation"
 msgstr "컴필레이션"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "재생목록에서 제거"
+
+#~ msgid "Multiple Audio Formats –"
+#~ msgstr "다중 오디오 형식 –"
+
+#~ msgid "Metadata –"
+#~ msgstr "메타데이터 –"
+
+#~ msgid "Synchronization –"
+#~ msgstr "동기화 –"
+
+#~ msgid "Audio Scrobbling –"
+#~ msgstr "오디오 정보 보내기 –"
 
 #~ msgid "What is Google API-key?"
 #~ msgstr "Google API 키란 무엇입니까?"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 18:57+0200\n"
+"POT-Creation-Date: 2022-04-12 10:21+0200\n"
 "PO-Revision-Date: 2021-08-23 10:33+0000\n"
 "Last-Translator: Jozef Gaal <preklady@mayday.sk>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -431,21 +431,9 @@ msgstr ""
 "pohovky vďaka režimu celej obrazovky. Preberá texty skladieb, obrázky "
 "albumov a životopisy online a poskytuje natívnu podporu pre ReplayGain."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
-msgid "Multiple Audio Formats –"
-msgstr "Viacero zvukových formátov –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
-msgid "Metadata –"
-msgstr "Metadáta –"
-
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Synchronization –"
-msgstr "Synchronizácia –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
-msgid "Audio Scrobbling –"
-msgstr "Audio Scrobbling –"
+msgid "Bug fixes"
+msgstr "Opravy chýb"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -554,7 +542,7 @@ msgid "Albums"
 msgstr "Albumy"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
-#: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
@@ -673,7 +661,7 @@ msgstr "Obľúbenosť"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
-#: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:110
+#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
 msgstr "Prehrávanie"
 
@@ -721,7 +709,7 @@ msgstr "Hudba"
 msgid "Collection"
 msgstr "Zbierka"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:249
+#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "Obnoviť zbierku skladieb"
 
@@ -774,8 +762,8 @@ msgid "Remove devices managed by Lollypop"
 msgstr "Odstrániť zariadenia spravované programom Lollypop"
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_objects.py:91 ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "Zariadenia"
 
@@ -819,7 +807,7 @@ msgstr "Google API kľúč"
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
-#: ../lollypop/dialog_settings.py:193
+#: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "Pripojiť"
 
@@ -890,18 +878,14 @@ msgid "Lyrics"
 msgstr "Text skladby"
 
 #: ../data/SettingsDialog.ui:1180
-msgid "Wikia"
-msgstr "Wikia"
-
-#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr "Genius"
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
 msgstr "Metro Lyrics"
 
-#: ../data/SettingsDialog.ui:1231
+#: ../data/SettingsDialog.ui:1214
 msgid "Bing"
 msgstr "Bing"
 
@@ -1081,8 +1065,8 @@ msgstr "z nasledujúcich pravidiel:"
 msgid "Genre"
 msgstr "Žáner"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
-#: ../lollypop/menu_objects.py:115
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:49
+#: ../lollypop/menu_objects.py:116
 msgid "Artist"
 msgstr "Interpret"
 
@@ -1393,7 +1377,7 @@ msgstr "Obnovuje sa databáza"
 msgid "Scan disabled, missing collection"
 msgstr "Prehľadávanie je zakázané, chýba zbierka skladieb"
 
-#: ../lollypop/collection_scanner.py:804 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1449,15 +1433,15 @@ msgstr "Počet albumov: %s"
 msgid "Tracks count: %s"
 msgstr "Počet skladieb: %s"
 
-#: ../lollypop/dialog_settings.py:210 ../lollypop/dialog_settings.py:345
+#: ../lollypop/dialog_settings.py:212 ../lollypop/dialog_settings.py:347
 msgid "Disconnect"
 msgstr "Odpojiť"
 
-#: ../lollypop/dialog_settings.py:255
+#: ../lollypop/dialog_settings.py:257
 msgid "Are you sure?"
 msgstr "Ste si istý?"
 
-#: ../lollypop/fullscreen.py:345
+#: ../lollypop/fullscreen.py:344
 msgid "You are using a broken cursor theme!"
 msgstr "Používate poškodený vzhľad kurzoru!"
 
@@ -1498,7 +1482,7 @@ msgid "Play featured"
 msgstr "Prehrať uvedené"
 
 #: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:120
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
 msgstr "Pridať do"
@@ -1520,20 +1504,20 @@ msgstr "Prehrávané albumy"
 msgid "Create a new playlist"
 msgstr "Vytvoriť nový zoznam skladieb"
 
-#: ../lollypop/menu_objects.py:66
+#: ../lollypop/menu_objects.py:67
 msgid "Show album"
 msgstr "Zobraziť album"
 
-#: ../lollypop/menu_objects.py:71 ../lollypop/menu_objects.py:122
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:123
 #: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "Iné"
 
-#: ../lollypop/menu_objects.py:144
+#: ../lollypop/menu_objects.py:145
 msgid "%Y-%m-%d"
 msgstr "%R-%m-%d"
 
-#: ../lollypop/menu_objects.py:174
+#: ../lollypop/menu_objects.py:175
 msgid "YouTube page address"
 msgstr "Adresa stránky služby YouTube"
 
@@ -1546,7 +1530,7 @@ msgstr "Spustiť rádio"
 msgid "Add to playback"
 msgstr "Pridať do zoznamu skladieb"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:111
 msgid "Remove from playback"
 msgstr "Odstrániť zo zoznamu skladieb"
 
@@ -1600,7 +1584,7 @@ msgstr "Prehrať tento žáner"
 msgid "Play this decade"
 msgstr "Prehrať túto dekádu"
 
-#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:118
+#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "Prehrať tento album"
 
@@ -2094,13 +2078,28 @@ msgstr "je menšie ako"
 msgid "Song played %s times"
 msgstr "Skladba prehraná %s-krát"
 
-#: ../lollypop/widgets_row_album.py:96
+#: ../lollypop/widgets_row_album.py:97
 msgid "Compilation"
 msgstr "Kompilácia"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "Odstrániť zo zoznamu skladieb"
+
+#~ msgid "Multiple Audio Formats –"
+#~ msgstr "Viacero zvukových formátov –"
+
+#~ msgid "Metadata –"
+#~ msgstr "Metadáta –"
+
+#~ msgid "Synchronization –"
+#~ msgstr "Synchronizácia –"
+
+#~ msgid "Audio Scrobbling –"
+#~ msgstr "Audio Scrobbling –"
+
+#~ msgid "Wikia"
+#~ msgstr "Wikia"
 
 #~ msgid "What is Google API-key?"
 #~ msgstr "Čo je Google API kľúč?"
@@ -2730,9 +2729,6 @@ msgstr "Odstrániť zo zoznamu skladieb"
 #~ msgstr ""
 #~ "Sťahovanie obalov: Automatické sťahovanie obalov z Last.fm, Itunes a "
 #~ "Spotify"
-
-#~ msgid "Bug fixes"
-#~ msgstr "Opravy chýb"
 
 #~ msgid "_About"
 #~ msgstr "_O programe"

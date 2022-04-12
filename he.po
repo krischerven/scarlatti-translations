@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 18:57+0200\n"
+"POT-Creation-Date: 2022-04-12 10:21+0200\n"
 "PO-Revision-Date: 2021-08-18 14:35+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -109,8 +109,8 @@ msgid ""
 "If set, Lollypop will use this server instead of YouTube. See https://github."
 "com/omarroth/invidious"
 msgstr ""
-"אם הוגדר, ב־Lollypop יעשה שימוש בשרת הזה במקום ב־YouTube. לפרטים: "
-"https://github.com/omarroth/invidious"
+"אם הוגדר, ב־Lollypop יעשה שימוש בשרת הזה במקום ב־YouTube. לפרטים: https://"
+"github.com/omarroth/invidious"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:126
 msgid "If true, Lollypop will not use system youtube-dl"
@@ -424,21 +424,9 @@ msgstr ""
 "מאפשר לגשת לנגן מהספה תודות למצב המסך המלא, מושך מילות שירים, עטיפות אלבומים "
 "וביוגרפיה באופן מקוון וגם מספק תמיכה טבעית ב־ReplayGain."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
-msgid "Multiple Audio Formats –"
-msgstr "מגוון סוגי קובצי שמע –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
-msgid "Metadata –"
-msgstr "נתוני על –"
-
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Synchronization –"
-msgstr "סנכרון –"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
-msgid "Audio Scrobbling –"
-msgstr "סקרובלינג של שמע -"
+msgid "Bug fixes"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -547,7 +535,7 @@ msgid "Albums"
 msgstr "אלבומים"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
-#: ../lollypop/menu_objects.py:51 ../lollypop/menu_objects.py:118
+#: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
@@ -666,7 +654,7 @@ msgstr "פופולריות"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
-#: ../lollypop/menu_objects.py:43 ../lollypop/menu_objects.py:110
+#: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
 msgstr "בִצוע מוקלט"
 
@@ -714,7 +702,7 @@ msgstr "מוזיקה"
 msgid "Collection"
 msgstr "אוסף"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:249
+#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "לאפס את האוסף"
 
@@ -767,8 +755,8 @@ msgid "Remove devices managed by Lollypop"
 msgstr "להסיר התקנים שמנוהלים על ידי Lollypop"
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
-#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:53
-#: ../lollypop/menu_objects.py:91 ../lollypop/menu_playlist.py:68
+#: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
+#: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "התקנים"
 
@@ -812,7 +800,7 @@ msgstr "מפתח API של Google"
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
-#: ../lollypop/dialog_settings.py:193
+#: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "התחברות"
 
@@ -883,18 +871,14 @@ msgid "Lyrics"
 msgstr "Lyrics"
 
 #: ../data/SettingsDialog.ui:1180
-msgid "Wikia"
-msgstr "Wikia"
-
-#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr "Genius"
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
 msgstr "Metro Lyrics"
 
-#: ../data/SettingsDialog.ui:1231
+#: ../data/SettingsDialog.ui:1214
 msgid "Bing"
 msgstr "Bing"
 
@@ -1074,8 +1058,8 @@ msgstr "של הכללים הבאים:"
 msgid "Genre"
 msgstr "סגנון"
 
-#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:48
-#: ../lollypop/menu_objects.py:115
+#: ../data/SmartPlaylistWidget.ui:29 ../lollypop/menu_objects.py:49
+#: ../lollypop/menu_objects.py:116
 msgid "Artist"
 msgstr "אמן"
 
@@ -1385,7 +1369,7 @@ msgstr "מסד הנתונים מתאפס"
 msgid "Scan disabled, missing collection"
 msgstr "הסריקה הושבתה, חסר אוסף"
 
-#: ../lollypop/collection_scanner.py:804 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1441,15 +1425,15 @@ msgstr "כמות אלבומים: %s"
 msgid "Tracks count: %s"
 msgstr "כמות רצועות: %s"
 
-#: ../lollypop/dialog_settings.py:210 ../lollypop/dialog_settings.py:345
+#: ../lollypop/dialog_settings.py:212 ../lollypop/dialog_settings.py:347
 msgid "Disconnect"
 msgstr "ניתוק"
 
-#: ../lollypop/dialog_settings.py:255
+#: ../lollypop/dialog_settings.py:257
 msgid "Are you sure?"
 msgstr "להמשיך?"
 
-#: ../lollypop/fullscreen.py:345
+#: ../lollypop/fullscreen.py:344
 msgid "You are using a broken cursor theme!"
 msgstr "ערכת הסמנים בה בחרת להשתמש פגומה!"
 
@@ -1490,7 +1474,7 @@ msgid "Play featured"
 msgstr "לנגן את המובילים"
 
 #: ../lollypop/menu_artist.py:62 ../lollypop/menu_genre.py:44
-#: ../lollypop/menu_objects.py:55 ../lollypop/menu_objects.py:119
+#: ../lollypop/menu_objects.py:56 ../lollypop/menu_objects.py:120
 #: ../lollypop/menu_playlist.py:66
 msgid "Add to"
 msgstr "להוסיף אל"
@@ -1512,20 +1496,20 @@ msgstr "ניגון אלבומים"
 msgid "Create a new playlist"
 msgstr "יצירת רשימת נגינה חדשה"
 
-#: ../lollypop/menu_objects.py:66
+#: ../lollypop/menu_objects.py:67
 msgid "Show album"
 msgstr "הצגת אלבום"
 
-#: ../lollypop/menu_objects.py:71 ../lollypop/menu_objects.py:122
+#: ../lollypop/menu_objects.py:72 ../lollypop/menu_objects.py:123
 #: ../lollypop/menu_similars.py:167
 msgid "Others"
 msgstr "אחרים"
 
-#: ../lollypop/menu_objects.py:144
+#: ../lollypop/menu_objects.py:145
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: ../lollypop/menu_objects.py:174
+#: ../lollypop/menu_objects.py:175
 msgid "YouTube page address"
 msgstr "כתובת עמוד ה־YouTube"
 
@@ -1538,7 +1522,7 @@ msgstr "לנגן רדיו"
 msgid "Add to playback"
 msgstr "הוספה לנגינה"
 
-#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:110
+#: ../lollypop/menu_playback.py:79 ../lollypop/widgets_row_album.py:111
 msgid "Remove from playback"
 msgstr "הסרה מהנגינה"
 
@@ -1592,7 +1576,7 @@ msgstr "לנגן את הסגנון הזה"
 msgid "Play this decade"
 msgstr "לנגן את העשור הזה"
 
-#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:118
+#: ../lollypop/menu_playback.py:554 ../lollypop/widgets_row_album.py:119
 msgid "Play this album"
 msgstr "לנגן את האלבום הזה"
 
@@ -2086,13 +2070,28 @@ msgstr "קטן מ־"
 msgid "Song played %s times"
 msgstr "השיר התנגן %s פעמים"
 
-#: ../lollypop/widgets_row_album.py:96
+#: ../lollypop/widgets_row_album.py:97
 msgid "Compilation"
 msgstr "אוסף"
 
-#: ../lollypop/widgets_row_album.py:112 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
 msgid "Remove from playlist"
 msgstr "הסרה מרשימת הנגינה"
+
+#~ msgid "Multiple Audio Formats –"
+#~ msgstr "מגוון סוגי קובצי שמע –"
+
+#~ msgid "Metadata –"
+#~ msgstr "נתוני על –"
+
+#~ msgid "Synchronization –"
+#~ msgstr "סנכרון –"
+
+#~ msgid "Audio Scrobbling –"
+#~ msgstr "סקרובלינג של שמע -"
+
+#~ msgid "Wikia"
+#~ msgstr "Wikia"
 
 #~ msgid "What is Google API-key?"
 #~ msgstr "מה זה מפתח ה־API של Google?"
