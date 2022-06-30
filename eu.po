@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-12 10:21+0200\n"
-"PO-Revision-Date: 2022-03-02 14:56+0000\n"
-"Last-Translator: Alexander Gabilondo <alexgabi@openmailbox.org>\n"
+"PO-Revision-Date: 2022-07-02 21:19+0000\n"
+"Last-Translator: Porrumentzio <porrumentzio@riseup.net>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/gnumdk/lollypop/"
 "eu/>\n"
 "Language: eu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -120,7 +120,7 @@ msgstr "Ez erabili jatorrizko data finkatuta badago"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:136
 msgid "Import playlists from collections"
-msgstr "Inportatu erreprodukzio-zerrendak bildumetatik"
+msgstr "Inportatu zerrendak sortetatik"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:141
 msgid "Music URI"
@@ -163,12 +163,12 @@ msgstr "Datu-basearen bertsioa"
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
-"Balio hori berrabiarazteak datu-basea berrabiaraziko du, eta album "
-"herrikoiak leheneratuko dira"
+"Balio hori berrezartzeak datu-basea berrezarriko du, eta bilduma "
+"arrakastatsuak dira"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:176
 msgid "Albums cover size"
-msgstr "Albumaren azalaren tamaina"
+msgstr "Bildumaren azalaren tamaina"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:181
 msgid "Encoding quality"
@@ -204,7 +204,7 @@ msgstr "Maneiatu interpreteak, konpositoreak, ..."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:221
 msgid "Show compilations in albums view"
-msgstr "Erakutsi bildumak albumen ikuspegian"
+msgstr "Erakutsi splitak bildumen ikuspegian"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:226 ../data/SettingsDialog.ui:158
 msgid "Continue playback when closed"
@@ -212,7 +212,7 @@ msgstr "jarraitu erreproduzitzen itxita dagoenean"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Append albums by default"
-msgstr "Erantsi albumak modu lehenetsian"
+msgstr "Erantsi bildumak modu lehenetsian"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Smart sort for artist"
@@ -347,7 +347,7 @@ msgstr "Errepikatu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:394 ../data/SettingsDialog.ui:212
 msgid "Order albums by"
-msgstr "Ordenatu albumak honen arabera"
+msgstr "Ordenatu bildumak honen arabera"
 
 #: ../data/AboutDialog.ui.in:13
 msgid "A music player for GNOME."
@@ -394,32 +394,29 @@ msgid "Donations:"
 msgstr "Dohaintzak:"
 
 #: ../data/AboutDialog.ui.in:74
-#, fuzzy
 msgid "Liberapay"
 msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
-#, fuzzy
 msgid "Patreon"
 msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
-#, fuzzy
 msgid "PayPal"
 msgstr "PayPal"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:3
-#, fuzzy
 msgid "Lollypop"
 msgstr "Lollypop"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:9
 #: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr "Erreproduzitu eta antolatu zure musika bilduma"
+msgstr "Erreproduzitu eta antolatu zure musika sorta"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:11
+#, fuzzy
 msgid ""
 "Lollypop is a lightweight modern music player designed to work excellently "
 "on the GNOME desktop environment. It also features a party mode which will "
@@ -427,16 +424,16 @@ msgid ""
 "couch thanks to it fullscreen mode; fetches lyrics, artwork and biography "
 "online; and provides native support for ReplayGain."
 msgstr ""
-"Lollypop GNOME mahaigaineko ingurunean bikain funtzionatzeko diseinatutako "
-"musika erreproduzitzaile moderno arina da. Festa-modu bat ere badu, "
-"festarekin lotutako erreprodukzio-zerrendak automatikoki hautatuko dituena; "
-"erreproduzigailua zure sofatik kontrolatzeko aukera ematen du pantaila osoko "
-"moduari esker; letrak, azalak eta biografiak sarean eskuratzen ditu; eta "
-"ReplaGain jatorrizko laguntza eskaintzen du."
+"Lollypop GNOME mahaigain ingurunean bikain ibiltzeko diseinatutako musika "
+"erreproduzitzaile moderno eta arina da. Festa-modu bat ere badu, festarekin "
+"lotutako zerrendak automatikoki hautatuko dituena; pantaila osoko moduari "
+"esker, erreproduzitzailea zure sofatik kontrolatu dezakezu; letrak, azalak "
+"eta biografiak saretik eskuratzen ditu; eta ReplayGain euskarri natiboa "
+"eskaintzen du."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Bug fixes"
-msgstr ""
+msgstr "Akatsen zuzenketak"
 
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
@@ -496,12 +493,12 @@ msgstr "Ekualizatzailea"
 
 #: ../data/ArtistBannerWidget.ui:92
 msgid "Play albums"
-msgstr "Erreproduzitu albumak"
+msgstr "Erreproduzitu bildumak"
 
 #: ../data/ArtistBannerWidget.ui:110
 msgctxt "artist context"
 msgid "Add to current playlist"
-msgstr "Gehitu uneko erreprodukzio-zerrendan"
+msgstr "Gehitu uneko zerrendan"
 
 #: ../data/ArtworkSearch.ui:69
 msgid "Select a local file"
@@ -542,14 +539,14 @@ msgstr "Sinkronizatuta:"
 #: ../data/DeviceWidget.ui:217 ../lollypop/shown.py:36
 #: ../lollypop/view_albums_line.py:279
 msgid "Albums"
-msgstr "Albumak"
+msgstr "Bildumak"
 
 #: ../data/DeviceWidget.ui:233 ../lollypop/menu_artist.py:67
 #: ../lollypop/menu_objects.py:52 ../lollypop/menu_objects.py:119
 #: ../lollypop/menu_selectionlist.py:93 ../lollypop/shown.py:30
 #: ../lollypop/widgets_banner_playlists.py:42
 msgid "Playlists"
-msgstr "Erreprodukzio-zerrendak"
+msgstr "Zerrendak"
 
 #: ../data/DeviceWidget.ui:284 ../lollypop/widgets_device.py:137
 #: ../lollypop/widgets_device.py:338
@@ -612,27 +609,27 @@ msgstr "Azalaren tamaina"
 
 #: ../data/SettingsDialog.ui:139 ../lollypop/menu_actions.py:78
 msgid "Clean cache"
-msgstr ""
+msgstr "Garbitu cachea"
 
 #: ../data/SettingsDialog.ui:153
 msgid "Behaviour"
-msgstr ""
+msgstr "Jokabidea"
 
 #: ../data/SettingsDialog.ui:160
 msgid "Play music in background"
-msgstr ""
+msgstr "Erreproduzitu musika atzeko planoan"
 
 #: ../data/SettingsDialog.ui:176
 msgid "Restore state on startup"
-msgstr ""
+msgstr "Berrezarri egoera abiarazterakoan"
 
 #: ../data/SettingsDialog.ui:178
 msgid "Restore current playback and view"
-msgstr ""
+msgstr "Berrezarri uneko erreprodukzioa eta bistaratzea"
 
 #: ../data/SettingsDialog.ui:194
 msgid "Save changes to file"
-msgstr ""
+msgstr "Gorde aldaketak fitxategian"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Save artwork and rating to files"
@@ -640,150 +637,153 @@ msgstr "Gorde azala eta balorazioa fitxategietan"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Albums will be sorted by this field"
-msgstr ""
+msgstr "Eremu honen arabera ordenatuko dira bildumak"
 
 #: ../data/SettingsDialog.ui:222
 msgid "Artist - year"
-msgstr ""
+msgstr "Artista - urtea"
 
 #: ../data/SettingsDialog.ui:223
 msgid "Artist - title"
-msgstr ""
+msgstr "Artista - izenburua"
 
 #: ../data/SettingsDialog.ui:224
 msgid "Title"
-msgstr ""
+msgstr "Izenburua"
 
 #: ../data/SettingsDialog.ui:225 ../data/SmartPlaylistWidget.ui:33
 msgid "Year"
-msgstr ""
+msgstr "Urtea"
 
 #: ../data/SettingsDialog.ui:226 ../data/SmartPlaylistWidget.ui:32
 msgid "Popularity"
-msgstr ""
+msgstr "Ospea"
 
 #: ../data/SettingsDialog.ui:242 ../lollypop/menu_artist.py:59
 #: ../lollypop/menu_decade.py:39 ../lollypop/menu_genre.py:41
 #: ../lollypop/menu_objects.py:44 ../lollypop/menu_objects.py:111
 msgid "Playback"
-msgstr ""
+msgstr "Erreprodukzioa"
 
 #: ../data/SettingsDialog.ui:247
 msgid "Enable transitions"
-msgstr ""
+msgstr "Gaitu trantsizioak"
 
 #: ../data/SettingsDialog.ui:249
 msgid "Add a transition on track change"
-msgstr ""
+msgstr "Gehitu trantsizio bat pista-aldaketan"
 
 #: ../data/SettingsDialog.ui:265
 msgid "Duration"
-msgstr ""
+msgstr "Iraupena"
 
 #: ../data/SettingsDialog.ui:267
 msgid "Transition duration in milliseconds"
-msgstr ""
+msgstr "Trantsizioaren iraupena milisegundotan"
 
 #: ../data/SettingsDialog.ui:285
 msgid "ReplayGain"
-msgstr ""
+msgstr "ReplayGain"
 
 #: ../data/SettingsDialog.ui:287
+#, fuzzy
 msgid "Apply audio correction on the fly"
-msgstr ""
+msgstr "Aplikatu audio-zuzenketa zuzenean"
 
 #: ../data/SettingsDialog.ui:296 ../lollypop/menu_search.py:41
 msgid "Disabled"
-msgstr ""
+msgstr "Desgaituta"
 
 #: ../data/SettingsDialog.ui:297
 msgid "Track"
-msgstr ""
+msgstr "Pista"
 
 #: ../data/SettingsDialog.ui:298 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
-msgstr ""
+msgstr "Bilduma"
 
 #: ../data/SettingsDialog.ui:317
 msgid "Music"
-msgstr ""
+msgstr "Musika"
 
 #: ../data/SettingsDialog.ui:322
 msgid "Collection"
-msgstr ""
+msgstr "Sorta"
 
 #: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
-msgstr ""
+msgstr "Berrezarri sorta"
 
 #: ../data/SettingsDialog.ui:372
 msgid "Import settings"
-msgstr ""
+msgstr "Inportatu ezarpenak"
 
 #: ../data/SettingsDialog.ui:379
 msgid "Update music if files added to collection"
-msgstr ""
+msgstr "Eguneratu musika fitxategiak gehitzen badira sortan"
 
 #: ../data/SettingsDialog.ui:395 ../data/SettingsDialog.ui:433
 msgid "You need to reset collection"
-msgstr ""
+msgstr "Sorta berrezarri behar duzu"
 
 #: ../data/SettingsDialog.ui:396
 msgid "Show compilations"
-msgstr ""
+msgstr "Erakutsi splitak"
 
 #: ../data/SettingsDialog.ui:398
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
 msgstr ""
+"Split bat \"bildumaren artista\" etiketarik gabeko eta\n"
+"hainbat artistez osatutako albuma da"
 
 #: ../data/SettingsDialog.ui:415
 msgid "Import playlists"
-msgstr ""
+msgstr "Inportatu zerrendak"
 
 #: ../data/SettingsDialog.ui:417
 msgid "Search for playlists in your collection"
-msgstr ""
+msgstr "Bilatu zerrendak zure sortan"
 
 #: ../data/SettingsDialog.ui:434
 msgid "Import advanced tags"
-msgstr ""
+msgstr "Inportatu etiketa aurreratuak"
 
 #: ../data/SettingsDialog.ui:436
 msgid "Performers, composers, …"
-msgstr ""
+msgstr "Interpreteak, konpositoreak, …"
 
 #: ../data/SettingsDialog.ui:454
 msgid "Statistics"
-msgstr ""
+msgstr "Estatistikak"
 
 #: ../data/SettingsDialog.ui:485
 msgid "Remove devices managed by Lollypop"
-msgstr ""
+msgstr "Kendu Lollypop-ek kudeatutako gailuak"
 
 #: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
-msgstr ""
+msgstr "Gailuak"
 
 #: ../data/SettingsDialog.ui:499 ../lollypop/shown.py:34
 #: ../lollypop/toolbar_end.py:249
 msgid "Web"
-msgstr ""
+msgstr "Sarea"
 
 #: ../data/SettingsDialog.ui:504
 msgid "Status"
-msgstr ""
+msgstr "Egoera"
 
 #: ../data/SettingsDialog.ui:509
 msgid "Allow network access"
-msgstr ""
+msgstr "Baimendu sarerako sarbidea"
 
 #: ../data/SettingsDialog.ui:526
 msgid "Background data"
-msgstr ""
+msgstr "Atzeko planoko datuak"
 
 #: ../data/SettingsDialog.ui:528
 msgid "Search artwork in background"
@@ -791,38 +791,39 @@ msgstr "Bilatu azalak bigarren planoan"
 
 #: ../data/SettingsDialog.ui:549
 msgid "Song playback"
-msgstr ""
+msgstr "Abestien erreprodukzioa"
 
 #: ../data/SettingsDialog.ui:560 ../data/SettingsDialog.ui:748
 #: ../data/SettingsDialog.ui:830 ../data/SettingsDialog.ui:912
 msgid "Enabled"
-msgstr ""
+msgstr "Gaituta"
 
 #: ../data/SettingsDialog.ui:577
+#, fuzzy
 msgid "Use a recent version of youtube-dl"
-msgstr ""
+msgstr "Erabili youtube-dl-ren duela gutxiko bertsio bat"
 
 #: ../data/SettingsDialog.ui:593
 msgid "Google API-key"
-msgstr ""
+msgstr "Google API-gakoa"
 
 #: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
 #: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
 #: ../lollypop/dialog_settings.py:195
 msgid "Connect"
-msgstr ""
+msgstr "Konektatu"
 
 #: ../data/SettingsDialog.ui:662
 msgid "Use an Invidious server"
-msgstr ""
+msgstr "Erabili Invidious zerbitzari bat"
 
 #: ../data/SettingsDialog.ui:678
 msgid "No server set"
-msgstr ""
+msgstr "Ez da zerbitzaririk ezarri"
 
 #: ../data/SettingsDialog.ui:688
 msgid "What is Invidious ?"
-msgstr ""
+msgstr "Zer da Invidious?"
 
 #: ../data/SettingsDialog.ui:737
 msgid "Search (artwork, songs, ...)"
@@ -830,180 +831,180 @@ msgstr "Bilatu (azalak, abestiak,...)"
 
 #: ../data/SettingsDialog.ui:928
 msgid "ListenBrainz API-Key"
-msgstr ""
+msgstr "ListenBrainz API-gakoa"
 
 #: ../data/SettingsDialog.ui:1000 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
 msgid "Deezer"
-msgstr ""
+msgstr "Deezer"
 
 #: ../data/SettingsDialog.ui:1017 ../lollypop/menu_search.py:72
 msgid "Jamendo"
-msgstr ""
+msgstr "Jamendo"
 
 #: ../data/SettingsDialog.ui:1034
 msgid "AudioDB"
-msgstr ""
+msgstr "AudioDB"
 
 #: ../data/SettingsDialog.ui:1051 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui:1068
 msgid "FANART.TV"
-msgstr ""
+msgstr "FANART.TV"
 
 #: ../data/SettingsDialog.ui:1085
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #: ../data/SettingsDialog.ui:1102
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: ../data/SettingsDialog.ui:1119
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: ../data/SettingsDialog.ui:1136
 msgid "DuckDuckGo"
-msgstr ""
+msgstr "DuckDuckGo"
 
 #: ../data/SettingsDialog.ui:1153
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 #: ../data/SettingsDialog.ui:1175 ../lollypop/shown.py:35
 msgid "Lyrics"
-msgstr ""
+msgstr "Letra"
 
 #: ../data/SettingsDialog.ui:1180
 msgid "Genius"
-msgstr ""
+msgstr "Genius"
 
 #: ../data/SettingsDialog.ui:1197
 msgid "Metro Lyrics"
-msgstr ""
+msgstr "Metro Lyrics"
 
 #: ../data/SettingsDialog.ui:1214
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Orokorra"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr ""
+msgstr "Ezarpenak"
 
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Bilatu"
 
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Party mode"
-msgstr ""
+msgstr "Festa modua"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Show/Hide filter"
-msgstr ""
+msgstr "Erakutsi/Ezkutatu iragazkia"
 
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Lock playback"
-msgstr ""
+msgstr "Blokeatu erreprodukzioa"
 
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
 msgid "Show equalizer"
-msgstr ""
+msgstr "Ekualizatzailea erakutsi"
 
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Show lyrics"
-msgstr ""
+msgstr "Erakutsi letra"
 
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Volume up"
-msgstr ""
+msgstr "Igo bolumena"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
 msgid "Volume down"
-msgstr ""
+msgstr "Jaitsi bolumena"
 
 #: ../data/Shortcuts.ui:80
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Pantaila osoa"
 
 #: ../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Mini player"
-msgstr ""
+msgstr "Erreproduzitzaile txikia"
 
 #: ../data/Shortcuts.ui:96
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Erreprodukzioa"
 
 #: ../data/Shortcuts.ui:100
 msgctxt "shortcut window"
 msgid "Play"
-msgstr ""
+msgstr "Erreproduzitu"
 
 #: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Pause"
-msgstr ""
+msgstr "Eten"
 
 #: ../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Stop"
-msgstr ""
+msgstr "Gelditu"
 
 #: ../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Next track"
-msgstr ""
+msgstr "Hurrengo pista"
 
 #: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Previous track"
-msgstr ""
+msgstr "Aurreko pista"
 
 #: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Skip current album"
-msgstr ""
+msgstr "Saltatu uneko bilduma"
 
 #: ../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Love current track"
-msgstr ""
+msgstr "Datsegit uneko pista"
 
 #: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Repeat track"
-msgstr ""
+msgstr "Errepikatu pista"
 
 #: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Skip backward in track"
-msgstr ""
+msgstr "Pistan atzera egin"
 
 #: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip forward in track"
-msgstr ""
+msgstr "Pistan aurrera egin"
 
 #: ../data/Shortcuts.ui:170
 msgctxt "shortcut window"
@@ -1024,7 +1025,7 @@ msgstr ""
 
 #: ../data/SmartPlaylistView.ui:137
 msgid "album"
-msgstr ""
+msgstr "bilduma"
 
 #: ../data/SmartPlaylistView.ui:138
 msgid "artist"
@@ -1345,7 +1346,7 @@ msgstr ""
 
 #: ../lollypop/container_notification.py:96
 msgid "Automatically download albums and artists artwork?"
-msgstr "Deskargatu automatikoki albumak eta artisten azalak?"
+msgstr "Deskargatu automatikoki bildumak eta artisten azalak?"
 
 #: ../lollypop/container_notification.py:97
 msgid "Yes"
