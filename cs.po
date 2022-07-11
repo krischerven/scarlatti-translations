@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-12 10:21+0200\n"
-"PO-Revision-Date: 2022-07-02 21:19+0000\n"
-"Last-Translator: multiflexi <multi.flexi@seznam.cz>\n"
+"PO-Revision-Date: 2022-07-12 20:19+0000\n"
+"Last-Translator: Pavel Fric <pavelfric@yahoo.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gnumdk/lollypop/cs/"
 ">\n"
 "Language: cs\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -84,7 +84,7 @@ msgstr "Zvětšený stav okna."
 
 #: ../data/org.gnome.Lollypop.gschema.xml:91
 msgid "Enabled genres in party mode"
-msgstr "Povolené žánry ve večírkovém režimu"
+msgstr "Povolené žánry v režimu oslavy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:92
 msgid "ID for genres."
@@ -285,7 +285,7 @@ msgstr "Plynulé přechody skladeb"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:329
 msgid "Smooth track transitions only in party mode"
-msgstr "Plynulé přechody skladeb pouze ve večírkovém režimu"
+msgstr "Plynulé přechody skladeb pouze v režimu oslavy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:334
 msgid "Transition duration in ms"
@@ -301,7 +301,7 @@ msgstr "Doba trvání prolínání v ms"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:349
 msgid "Fade effect only in party mode"
-msgstr "Efekt prolínání jen ve večírkovém režimu"
+msgstr "Efekt prolínání jen v režimu oslavy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
@@ -428,12 +428,12 @@ msgid ""
 "online; and provides native support for ReplayGain."
 msgstr ""
 "Lollypop je lehký pokrokový přehrávač navržený tak, aby pracoval výborně v "
-"prostředí pracovní plochy GNOME. Je vybaven i večírkovým režimem, v němž "
-"jsou automaticky vybírány seznamy skladeb spojené se společenskými "
-"událostmi. Díky svému celoobrazovkovému režimu dává možnost přehrávač "
-"ovládat z pohodlí lehátka. Natahuje z internetových databází slova písní, "
-"obrázky týkající se děl a umělců a životopisy. Poskytuje vlastní podporu pro "
-"vyrovnání hlasitosti přehrávaných skladeb."
+"prostředí pracovní plochy GNOME. Je vybaven i režimem oslavy, v němž jsou "
+"automaticky vybírány seznamy skladeb spojené s oslavou. Díky svému "
+"celoobrazovkovému režimu dává možnost přehrávač ovládat z pohodlí lehátka. "
+"Natahuje z internetových databází slova písní, obrázky týkající se děl a "
+"umělců a životopisy. Poskytuje vlastní podporu pro vyrovnání hlasitosti "
+"přehrávaných skladeb."
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Bug fixes"
@@ -911,7 +911,7 @@ msgstr "Hledat"
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Party mode"
-msgstr "Večírkový režim"
+msgstr "Režim oslavy"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -1084,11 +1084,11 @@ msgstr "ÚZM"
 
 #: ../data/ToolbarEnd.ui:7
 msgid "Party mode"
-msgstr "Večírkový režim"
+msgstr "Režim oslavy"
 
 #: ../data/ToolbarEnd.ui:9
 msgid "Enable party mode"
-msgstr "Povolit večírkový režim"
+msgstr "Povolit režim oslavy"
 
 #: ../data/ToolbarEnd.ui:13
 msgid "Configure"
@@ -2018,7 +2018,7 @@ msgstr "New Age"
 
 #: ../lollypop/widgets_equalizer.py:55
 msgid "Party"
-msgstr "Večírek"
+msgstr "Oslava"
 
 #: ../lollypop/widgets_equalizer.py:57
 msgid "Pop"
