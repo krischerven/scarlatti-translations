@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-12 10:21+0200\n"
+"POT-Creation-Date: 2022-12-22 10:13+0100\n"
 "PO-Revision-Date: 2022-04-13 16:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -174,7 +174,7 @@ msgstr "גודל עטיפת אלבום"
 msgid "Encoding quality"
 msgstr "איכות קידוד"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:377
+#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:394
 msgid "Auto update music"
 msgstr "עדכון מוזיקה באופן אוטומטי"
 
@@ -298,7 +298,7 @@ msgstr "משך עמעום במילישניות"
 msgid "Fade effect only in party mode"
 msgstr "אפקט עמעום רק במצב מסיבה"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:20
 msgid "Shuffle tracks"
 msgstr "ערבוב רצועות"
 
@@ -424,10 +424,6 @@ msgstr ""
 "מאפשר לגשת לנגן מהספה תודות למצב המסך המלא, מושך מילות שירים, עטיפות אלבומים "
 "וביוגרפיה באופן מקוון וגם מספק תמיכה טבעית ב־ReplayGain."
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Bug fixes"
-msgstr "תיקוני תקלות"
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "נגן מוזיקה"
@@ -484,11 +480,11 @@ msgstr "יציאה"
 msgid "Equalizer"
 msgstr "אקולייזר"
 
-#: ../data/ArtistBannerWidget.ui:92
+#: ../data/ArtistBannerWidget.ui:88
 msgid "Play albums"
 msgstr "ניגון אלבומים"
 
-#: ../data/ArtistBannerWidget.ui:110
+#: ../data/ArtistBannerWidget.ui:106
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "להוסיף לרשימת הנגינה הנוכחית"
@@ -667,62 +663,66 @@ msgid "Add a transition on track change"
 msgstr "להוסיף מעברון עם החלפת רצועה"
 
 #: ../data/SettingsDialog.ui:265
+msgid "Transitions only in party mode"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:282
 msgid "Duration"
 msgstr "משך"
 
-#: ../data/SettingsDialog.ui:267
+#: ../data/SettingsDialog.ui:284
 msgid "Transition duration in milliseconds"
 msgstr "משך המעברון במילישניות"
 
-#: ../data/SettingsDialog.ui:285
+#: ../data/SettingsDialog.ui:302
 msgid "ReplayGain"
 msgstr "ReplayGain"
 
-#: ../data/SettingsDialog.ui:287
+#: ../data/SettingsDialog.ui:304
 msgid "Apply audio correction on the fly"
 msgstr "להחיל תיקוני שמע בזמן ההשמעה"
 
-#: ../data/SettingsDialog.ui:296 ../lollypop/menu_search.py:41
+#: ../data/SettingsDialog.ui:313 ../lollypop/menu_search.py:41
 msgid "Disabled"
 msgstr "מושבת"
 
-#: ../data/SettingsDialog.ui:297
+#: ../data/SettingsDialog.ui:314
 msgid "Track"
 msgstr "רצועה"
 
-#: ../data/SettingsDialog.ui:298 ../data/SmartPlaylistWidget.ui:30
+#: ../data/SettingsDialog.ui:315 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
 msgstr "אלבום"
 
-#: ../data/SettingsDialog.ui:317
+#: ../data/SettingsDialog.ui:334
 msgid "Music"
 msgstr "מוזיקה"
 
-#: ../data/SettingsDialog.ui:322
+#: ../data/SettingsDialog.ui:339
 msgid "Collection"
 msgstr "אוסף"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
+#: ../data/SettingsDialog.ui:350 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "לאפס את האוסף"
 
-#: ../data/SettingsDialog.ui:372
+#: ../data/SettingsDialog.ui:389
 msgid "Import settings"
 msgstr "הגדרות ייבוא"
 
-#: ../data/SettingsDialog.ui:379
+#: ../data/SettingsDialog.ui:396
 msgid "Update music if files added to collection"
 msgstr "לעדכן את המוזיקה אם נוספים קבצים לאוסף"
 
-#: ../data/SettingsDialog.ui:395 ../data/SettingsDialog.ui:433
+#: ../data/SettingsDialog.ui:412 ../data/SettingsDialog.ui:450
 msgid "You need to reset collection"
 msgstr "עליך לאפס את האוסף"
 
-#: ../data/SettingsDialog.ui:396
+#: ../data/SettingsDialog.ui:413
 msgid "Show compilations"
 msgstr "להציג אוספים"
 
-#: ../data/SettingsDialog.ui:398
+#: ../data/SettingsDialog.ui:415
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
@@ -730,155 +730,155 @@ msgstr ""
 "אוסף הוא אלבום בלי „תגית אמן אלבום”\n"
 "ועם מגוון אמנים"
 
-#: ../data/SettingsDialog.ui:415
+#: ../data/SettingsDialog.ui:432
 msgid "Import playlists"
 msgstr "ייבוא רשימות נגינה"
 
-#: ../data/SettingsDialog.ui:417
+#: ../data/SettingsDialog.ui:434
 msgid "Search for playlists in your collection"
 msgstr "חיפוש רשימות נגינה באוסף שלך"
 
-#: ../data/SettingsDialog.ui:434
+#: ../data/SettingsDialog.ui:451
 msgid "Import advanced tags"
 msgstr "ייבוא תגיות מתקדמות"
 
-#: ../data/SettingsDialog.ui:436
+#: ../data/SettingsDialog.ui:453
 msgid "Performers, composers, …"
 msgstr "מבצעים, מלחינים, …"
 
-#: ../data/SettingsDialog.ui:454
+#: ../data/SettingsDialog.ui:471
 msgid "Statistics"
 msgstr "סטטיסטיקה"
 
-#: ../data/SettingsDialog.ui:485
+#: ../data/SettingsDialog.ui:502
 msgid "Remove devices managed by Lollypop"
 msgstr "להסיר התקנים שמנוהלים על ידי Lollypop"
 
-#: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
+#: ../data/SettingsDialog.ui:503 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "התקנים"
 
-#: ../data/SettingsDialog.ui:499 ../lollypop/shown.py:34
+#: ../data/SettingsDialog.ui:516 ../lollypop/shown.py:34
 #: ../lollypop/toolbar_end.py:249
 msgid "Web"
 msgstr "אינטרנט"
 
-#: ../data/SettingsDialog.ui:504
+#: ../data/SettingsDialog.ui:521
 msgid "Status"
 msgstr "מצב"
 
-#: ../data/SettingsDialog.ui:509
+#: ../data/SettingsDialog.ui:526
 msgid "Allow network access"
 msgstr "לאפשר גישה לרשת"
 
-#: ../data/SettingsDialog.ui:526
+#: ../data/SettingsDialog.ui:543
 msgid "Background data"
 msgstr "נתוני רקע"
 
-#: ../data/SettingsDialog.ui:528
+#: ../data/SettingsDialog.ui:545
 msgid "Search artwork in background"
 msgstr "לחפש את עטיפת האלבום ברקע"
 
-#: ../data/SettingsDialog.ui:549
+#: ../data/SettingsDialog.ui:566
 msgid "Song playback"
 msgstr "נגינת שיר"
 
-#: ../data/SettingsDialog.ui:560 ../data/SettingsDialog.ui:748
-#: ../data/SettingsDialog.ui:830 ../data/SettingsDialog.ui:912
+#: ../data/SettingsDialog.ui:577 ../data/SettingsDialog.ui:765
+#: ../data/SettingsDialog.ui:847 ../data/SettingsDialog.ui:929
 msgid "Enabled"
 msgstr "מופעלת"
 
-#: ../data/SettingsDialog.ui:577
+#: ../data/SettingsDialog.ui:594
 msgid "Use a recent version of youtube-dl"
 msgstr "להשתמש בגרסה העדכנית ביותר של youtube-dl"
 
-#: ../data/SettingsDialog.ui:593
+#: ../data/SettingsDialog.ui:610
 msgid "Google API-key"
 msgstr "מפתח API של Google"
 
-#: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
-#: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
+#: ../data/SettingsDialog.ui:635 ../data/SettingsDialog.ui:792
+#: ../data/SettingsDialog.ui:874 ../data/SettingsDialog.ui:971
 #: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "התחברות"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:679
 msgid "Use an Invidious server"
 msgstr "להשתמש בשרת Invidious"
 
-#: ../data/SettingsDialog.ui:678
+#: ../data/SettingsDialog.ui:695
 msgid "No server set"
 msgstr "לא הוגדר שרת"
 
-#: ../data/SettingsDialog.ui:688
+#: ../data/SettingsDialog.ui:705
 msgid "What is Invidious ?"
 msgstr "מה זה Invidious?"
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:754
 msgid "Search (artwork, songs, ...)"
 msgstr "חיפוש (עטיפת אלבום, שירים, …)"
 
-#: ../data/SettingsDialog.ui:928
+#: ../data/SettingsDialog.ui:945
 msgid "ListenBrainz API-Key"
 msgstr "מפתח API של ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1000 ../lollypop/menu_playback.py:144
+#: ../data/SettingsDialog.ui:1017 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
 msgid "Deezer"
 msgstr "Deezer"
 
-#: ../data/SettingsDialog.ui:1017 ../lollypop/menu_search.py:72
+#: ../data/SettingsDialog.ui:1034 ../lollypop/menu_search.py:72
 msgid "Jamendo"
 msgstr "Jamendo"
 
-#: ../data/SettingsDialog.ui:1034
+#: ../data/SettingsDialog.ui:1051
 msgid "AudioDB"
 msgstr "AudioDB"
 
-#: ../data/SettingsDialog.ui:1051 ../lollypop/menu_playback.py:164
+#: ../data/SettingsDialog.ui:1068 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
 msgid "Spotify"
 msgstr "Spotify"
 
-#: ../data/SettingsDialog.ui:1068
+#: ../data/SettingsDialog.ui:1085
 msgid "FANART.TV"
 msgstr "FANART.TV"
 
-#: ../data/SettingsDialog.ui:1085
+#: ../data/SettingsDialog.ui:1102
 msgid "iTunes"
 msgstr "iTunes"
 
-#: ../data/SettingsDialog.ui:1102
+#: ../data/SettingsDialog.ui:1119
 msgid "Google"
 msgstr "Google"
 
-#: ../data/SettingsDialog.ui:1119
+#: ../data/SettingsDialog.ui:1136
 msgid "Startpage"
 msgstr "Startpage"
 
-#: ../data/SettingsDialog.ui:1136
+#: ../data/SettingsDialog.ui:1153
 msgid "DuckDuckGo"
 msgstr "DuckDuckGo"
 
-#: ../data/SettingsDialog.ui:1153
+#: ../data/SettingsDialog.ui:1170
 msgid "Wikipedia"
 msgstr "ויקיפדיה"
 
-#: ../data/SettingsDialog.ui:1175 ../lollypop/shown.py:35
+#: ../data/SettingsDialog.ui:1192 ../lollypop/shown.py:35
 msgid "Lyrics"
 msgstr "Lyrics"
 
-#: ../data/SettingsDialog.ui:1180
+#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr "Genius"
 
-#: ../data/SettingsDialog.ui:1197
+#: ../data/SettingsDialog.ui:1214
 msgid "Metro Lyrics"
 msgstr "Metro Lyrics"
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1231
 msgid "Bing"
 msgstr "Bing"
 
@@ -984,20 +984,15 @@ msgstr "רצועה נוכחית אהובה"
 
 #: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
-msgid "Repeat track"
-msgstr "לחזור על הרצועה"
-
-#: ../data/Shortcuts.ui:156
-msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "דילוג אחורה ברצועה"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "דילוג קדימה ברצועה"
 
-#: ../data/Shortcuts.ui:170
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "להפעיל/להשבית Scrobbling"
@@ -1079,47 +1074,47 @@ msgstr "מצב מסיבה"
 msgid "Enable party mode"
 msgstr "להפעיל מצב מסיבה"
 
-#: ../data/ToolbarEnd.ui:13
+#: ../data/ToolbarEnd.ui:14
 msgid "Configure"
 msgstr "להגדיר"
 
-#: ../data/ToolbarEnd.ui:17
+#: ../data/ToolbarEnd.ui:18
 msgid "Shuffle"
 msgstr "ערבוב"
 
-#: ../data/ToolbarEnd.ui:24
+#: ../data/ToolbarEnd.ui:26
 msgid "Repetition"
 msgstr "חזרה"
 
-#: ../data/ToolbarEnd.ui:26
+#: ../data/ToolbarEnd.ui:28
 msgid "Continuous playback"
 msgstr "השמעה רציפה"
 
-#: ../data/ToolbarEnd.ui:31
+#: ../data/ToolbarEnd.ui:34
 msgid "Automatic playback (similar)"
 msgstr "נגינה אוטומטית (דומה)"
 
-#: ../data/ToolbarEnd.ui:36
+#: ../data/ToolbarEnd.ui:40
 msgid "Automatic playback (random)"
 msgstr "נגינה אוטומטית (אקראית)"
 
-#: ../data/ToolbarEnd.ui:41
+#: ../data/ToolbarEnd.ui:46
 msgid "Repeat track"
 msgstr "חזרה על הרצועה"
 
-#: ../data/ToolbarEnd.ui:46
+#: ../data/ToolbarEnd.ui:52
 msgid "Do not repeat"
 msgstr "לא לחזור"
 
-#: ../data/ToolbarEnd.ui:52
+#: ../data/ToolbarEnd.ui:59
 msgid "Scrobbling"
 msgstr "סקרובלינג"
 
-#: ../data/ToolbarEnd.ui:54
+#: ../data/ToolbarEnd.ui:61
 msgid "Enable scrobbling"
 msgstr "הפעלת סקרובלינג"
 
-#: ../data/ToolbarEnd.ui:96
+#: ../data/ToolbarEnd.ui:104
 msgid "Playback options"
 msgstr "אפשרויות נגינה"
 
@@ -1134,6 +1129,15 @@ msgstr "מעבר לבית"
 #: ../lollypop/artwork_album.py:515 ../lollypop/widgets_rating.py:211
 msgid "You need to install kid3-cli"
 msgstr "יש להתקין kid3-cli"
+
+#: ../lollypop/assistant.py:149
+msgid "Can't contact this service"
+msgstr "לא ניתן ליצור קשר עם השירות הזה"
+
+#: ../lollypop/assistant.py:151 ../lollypop/assistant_google.py:87
+#: ../lollypop/assistant_lastfm.py:70 ../lollypop/assistant_musicbrainz.py:62
+msgid "Finish"
+msgstr "סיום"
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
@@ -1261,11 +1265,6 @@ msgstr ""
 "לאחר מכן ללחוץ על ‚סיום’ באשף הזה.\n"
 "להעתיק את מפתח ה־API ל־Lollypop.\n"
 
-#: ../lollypop/assistant_google.py:87 ../lollypop/assistant_lastfm.py:70
-#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
-msgid "Finish"
-msgstr "סיום"
-
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
@@ -1357,19 +1356,15 @@ msgstr ""
 "\n"
 "<b>לסיים</b> את ההפעלה על ידי העתקת <b>מפתח ה־API</b> ב־Lollypop."
 
-#: ../lollypop/assistant.py:149
-msgid "Can't contact this service"
-msgstr "לא ניתן ליצור קשר עם השירות הזה"
-
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:339
 msgid "Resetting database"
 msgstr "מסד הנתונים מתאפס"
 
-#: ../lollypop/collection_scanner.py:507
+#: ../lollypop/collection_scanner.py:510
 msgid "Scan disabled, missing collection"
 msgstr "הסריקה הושבתה, חסר אוסף"
 
-#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1796,9 +1791,13 @@ msgstr "%s שעות"
 msgid "%s m"
 msgstr "%s דקות"
 
-#: ../lollypop/utils.py:314
+#: ../lollypop/utils.py:318
 msgid "The the"
 msgstr "ה"
+
+#: ../lollypop/view.py:48
+msgid "No items to show"
+msgstr "אין פריטים להצגה"
 
 #: ../lollypop/view_albums_box.py:55
 msgid "Missing youtube-dl command"
@@ -1836,11 +1835,11 @@ msgstr "למה לא להאזין ל…?"
 msgid "New artists available"
 msgstr "אמנים חדשים זמינים"
 
-#: ../lollypop/view_information.py:151
+#: ../lollypop/view_information.py:150
 msgid "Loading information"
 msgstr "המידע נטען"
 
-#: ../lollypop/view_information.py:258 ../lollypop/view_information.py:290
+#: ../lollypop/view_information.py:257 ../lollypop/view_information.py:289
 #, python-format
 msgid "No information for %s"
 msgstr "אין מידע על %s"
@@ -1864,10 +1863,6 @@ msgstr "מושבת בהגדרות הרשת"
 #: ../lollypop/view_lyrics.py:307
 msgid "No lyrics found "
 msgstr "לא נמצאו מילות שירים "
-
-#: ../lollypop/view.py:48
-msgid "No items to show"
-msgstr "אין פריטים להצגה"
 
 #: ../lollypop/view_search.py:151 ../lollypop/view_search.py:161
 #: ../lollypop/view_search.py:185
@@ -1899,10 +1894,6 @@ msgstr "כרגע בתור"
 msgid "Tracks"
 msgstr "רצועות"
 
-#: ../lollypop/widgets_artwork_album.py:64
-msgid "Local"
-msgstr "מקומי"
-
 #: ../lollypop/widgets_artwork.py:139
 msgid "Select artwork"
 msgstr "בחירת תמונה"
@@ -1911,16 +1902,20 @@ msgstr "בחירת תמונה"
 msgid "Remove"
 msgstr "הסרה"
 
+#: ../lollypop/widgets_artwork_album.py:64
+msgid "Local"
+msgstr "מקומי"
+
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
 msgstr "ראה אור ב־%s"
 
-#: ../lollypop/widgets_banner_artist.py:298
+#: ../lollypop/widgets_banner_artist.py:302
 msgid "Add to current playlist"
 msgstr "הוספה לרשימת הנגינה הנוכחית"
 
-#: ../lollypop/widgets_banner_artist.py:305
+#: ../lollypop/widgets_banner_artist.py:309
 msgid "Remove from current playlist"
 msgstr "הסרה מרשימת הנגינה הנוכחית"
 
@@ -2074,9 +2069,16 @@ msgstr "השיר התנגן %s פעמים"
 msgid "Compilation"
 msgstr "אוסף"
 
-#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:108
 msgid "Remove from playlist"
 msgstr "הסרה מרשימת הנגינה"
+
+#~ msgid "Bug fixes"
+#~ msgstr "תיקוני תקלות"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Repeat track"
+#~ msgstr "לחזור על הרצועה"
 
 #~ msgid "Multiple Audio Formats –"
 #~ msgstr "מגוון סוגי קובצי שמע –"

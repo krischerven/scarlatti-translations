@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-12 10:21+0200\n"
+"POT-Creation-Date: 2022-12-22 10:13+0100\n"
 "PO-Revision-Date: 2021-08-03 13:34+0000\n"
 "Last-Translator: Oymate <dhruboadittya96@gmail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -174,7 +174,7 @@ msgstr "অ্যালবাম কভার সাইজ"
 msgid "Encoding quality"
 msgstr "এনকোডিংয়ের কোয়ালিটি"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:377
+#: ../data/org.gnome.Lollypop.gschema.xml:186 ../data/SettingsDialog.ui:394
 msgid "Auto update music"
 msgstr "মিউজিক অটো আপডেট করুন"
 
@@ -300,7 +300,7 @@ msgstr "ফেডের সময়কাল মিলিসেকেন্ড�
 msgid "Fade effect only in party mode"
 msgstr "ফেড ইফেক্ট শুধুমাত্র পার্টি মোডে"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:19
+#: ../data/org.gnome.Lollypop.gschema.xml:354 ../data/ToolbarEnd.ui:20
 msgid "Shuffle tracks"
 msgstr "ট্র্যাকগুলি শাফল করুন"
 
@@ -429,10 +429,6 @@ msgstr ""
 "সম্পর্কিত প্লেলিস্টগুলি স্বয়ংক্রিয়ভাবে নির্বাচন করবে; এবং রিপ্লেগেইনের জন্য স্থানীয় "
 "সমর্থন সরবরাহ করে।"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:15
-msgid "Bug fixes"
-msgstr ""
-
 #: ../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "সঙ্গীত প্লেয়ার"
@@ -489,11 +485,11 @@ msgstr "ত্যাগ করুন"
 msgid "Equalizer"
 msgstr "ইকুয়ালাইজার"
 
-#: ../data/ArtistBannerWidget.ui:92
+#: ../data/ArtistBannerWidget.ui:88
 msgid "Play albums"
 msgstr "অ্যালবামগুলি চালান"
 
-#: ../data/ArtistBannerWidget.ui:110
+#: ../data/ArtistBannerWidget.ui:106
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "বর্তমান প্লেলিস্টে যোগ করুন"
@@ -672,62 +668,66 @@ msgid "Add a transition on track change"
 msgstr "ট্র্যাক পরিবর্তনের সময় ট্রানজিশন যোগ করুন"
 
 #: ../data/SettingsDialog.ui:265
+msgid "Transitions only in party mode"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:282
 msgid "Duration"
 msgstr "সময়কাল"
 
-#: ../data/SettingsDialog.ui:267
+#: ../data/SettingsDialog.ui:284
 msgid "Transition duration in milliseconds"
 msgstr "ট্রানজিশন এর সময়কাল মিলিসেকেন্ডে"
 
-#: ../data/SettingsDialog.ui:285
+#: ../data/SettingsDialog.ui:302
 msgid "ReplayGain"
 msgstr "রিপ্লেগেইন"
 
-#: ../data/SettingsDialog.ui:287
+#: ../data/SettingsDialog.ui:304
 msgid "Apply audio correction on the fly"
 msgstr "চলাকালীনই অডিও সংশোধন প্রয়োগ করুন"
 
-#: ../data/SettingsDialog.ui:296 ../lollypop/menu_search.py:41
+#: ../data/SettingsDialog.ui:313 ../lollypop/menu_search.py:41
 msgid "Disabled"
 msgstr "অক্ষম করা আছে"
 
-#: ../data/SettingsDialog.ui:297
+#: ../data/SettingsDialog.ui:314
 msgid "Track"
 msgstr "ট্র্যাক"
 
-#: ../data/SettingsDialog.ui:298 ../data/SmartPlaylistWidget.ui:30
+#: ../data/SettingsDialog.ui:315 ../data/SmartPlaylistWidget.ui:30
 msgid "Album"
 msgstr "অ্যালবাম"
 
-#: ../data/SettingsDialog.ui:317
+#: ../data/SettingsDialog.ui:334
 msgid "Music"
 msgstr "সঙ্গীত"
 
-#: ../data/SettingsDialog.ui:322
+#: ../data/SettingsDialog.ui:339
 msgid "Collection"
 msgstr "সংগ্রহ"
 
-#: ../data/SettingsDialog.ui:333 ../lollypop/dialog_settings.py:251
+#: ../data/SettingsDialog.ui:350 ../lollypop/dialog_settings.py:251
 msgid "Reset collection"
 msgstr "সংগ্রহ রিসেট করুন"
 
-#: ../data/SettingsDialog.ui:372
+#: ../data/SettingsDialog.ui:389
 msgid "Import settings"
 msgstr "সেটিং আমদানি করুন"
 
-#: ../data/SettingsDialog.ui:379
+#: ../data/SettingsDialog.ui:396
 msgid "Update music if files added to collection"
 msgstr "ফাইলে মিউজিক আপডেট করুন যদি সংগ্রহে যোগ করা হয়ে থাকে"
 
-#: ../data/SettingsDialog.ui:395 ../data/SettingsDialog.ui:433
+#: ../data/SettingsDialog.ui:412 ../data/SettingsDialog.ui:450
 msgid "You need to reset collection"
 msgstr "আপনার সংগ্রহ রিসেট করা দরকার"
 
-#: ../data/SettingsDialog.ui:396
+#: ../data/SettingsDialog.ui:413
 msgid "Show compilations"
 msgstr "সংকলনগুলি দেখান"
 
-#: ../data/SettingsDialog.ui:398
+#: ../data/SettingsDialog.ui:415
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists"
@@ -735,155 +735,155 @@ msgstr ""
 "একটি সংকলন হলো একটি অ্যালবাম যা কোনো “অ্যালবাম শিল্পী ট্যাগ” ছাড়াই\n"
 "এবং বিভিন্ন শিল্পীদের নিয়ে গঠিত"
 
-#: ../data/SettingsDialog.ui:415
+#: ../data/SettingsDialog.ui:432
 msgid "Import playlists"
 msgstr "প্লেলিস্টগুলি আমদানি করুন"
 
-#: ../data/SettingsDialog.ui:417
+#: ../data/SettingsDialog.ui:434
 msgid "Search for playlists in your collection"
 msgstr "আপনার সংগ্রহে প্লেলিস্টগুলি অনুসন্ধান করুন"
 
-#: ../data/SettingsDialog.ui:434
+#: ../data/SettingsDialog.ui:451
 msgid "Import advanced tags"
 msgstr "অ্যাডভান্স ট্যাগগুলি আমদানি করুন"
 
-#: ../data/SettingsDialog.ui:436
+#: ../data/SettingsDialog.ui:453
 msgid "Performers, composers, …"
 msgstr "অভিনেতা, সুরকার,…"
 
-#: ../data/SettingsDialog.ui:454
+#: ../data/SettingsDialog.ui:471
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
 
-#: ../data/SettingsDialog.ui:485
+#: ../data/SettingsDialog.ui:502
 msgid "Remove devices managed by Lollypop"
 msgstr "ললিপপ দ্বারা পরিচালিত ডিভাইসগুলি সরান"
 
-#: ../data/SettingsDialog.ui:486 ../lollypop/menu_artist.py:66
+#: ../data/SettingsDialog.ui:503 ../lollypop/menu_artist.py:66
 #: ../lollypop/menu_genre.py:53 ../lollypop/menu_objects.py:54
 #: ../lollypop/menu_objects.py:92 ../lollypop/menu_playlist.py:68
 msgid "Devices"
 msgstr "ডিভাইসগুলি"
 
-#: ../data/SettingsDialog.ui:499 ../lollypop/shown.py:34
+#: ../data/SettingsDialog.ui:516 ../lollypop/shown.py:34
 #: ../lollypop/toolbar_end.py:249
 msgid "Web"
 msgstr "ওয়েব"
 
-#: ../data/SettingsDialog.ui:504
+#: ../data/SettingsDialog.ui:521
 msgid "Status"
 msgstr "স্ট্যাটাস"
 
-#: ../data/SettingsDialog.ui:509
+#: ../data/SettingsDialog.ui:526
 msgid "Allow network access"
 msgstr "নেটওয়ার্ক অ্যাক্সেস এর অনুমতি দিন"
 
-#: ../data/SettingsDialog.ui:526
+#: ../data/SettingsDialog.ui:543
 msgid "Background data"
 msgstr "ব্যাকগ্রাউন্ড ডেটা"
 
-#: ../data/SettingsDialog.ui:528
+#: ../data/SettingsDialog.ui:545
 msgid "Search artwork in background"
 msgstr "ব্যাকগ্রাউন্ডে শিল্পকর্ম অনুসন্ধান করুন"
 
-#: ../data/SettingsDialog.ui:549
+#: ../data/SettingsDialog.ui:566
 msgid "Song playback"
 msgstr "গান প্লেব্যাক"
 
-#: ../data/SettingsDialog.ui:560 ../data/SettingsDialog.ui:748
-#: ../data/SettingsDialog.ui:830 ../data/SettingsDialog.ui:912
+#: ../data/SettingsDialog.ui:577 ../data/SettingsDialog.ui:765
+#: ../data/SettingsDialog.ui:847 ../data/SettingsDialog.ui:929
 msgid "Enabled"
 msgstr "সক্ষম করা আছে"
 
-#: ../data/SettingsDialog.ui:577
+#: ../data/SettingsDialog.ui:594
 msgid "Use a recent version of youtube-dl"
 msgstr "ইউটিউব-ডিএল এর একটি সাম্প্রতিক সংস্করণ ব্যবহার করুন"
 
-#: ../data/SettingsDialog.ui:593
+#: ../data/SettingsDialog.ui:610
 msgid "Google API-key"
 msgstr "গুগল এপিআই-চাবি"
 
-#: ../data/SettingsDialog.ui:618 ../data/SettingsDialog.ui:775
-#: ../data/SettingsDialog.ui:857 ../data/SettingsDialog.ui:954
+#: ../data/SettingsDialog.ui:635 ../data/SettingsDialog.ui:792
+#: ../data/SettingsDialog.ui:874 ../data/SettingsDialog.ui:971
 #: ../lollypop/dialog_settings.py:195
 msgid "Connect"
 msgstr "সংযোগ করুন"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:679
 msgid "Use an Invidious server"
 msgstr "একটি সম্ভাব্য ক্ষতিকর সার্ভার ব্যবহার করুন"
 
-#: ../data/SettingsDialog.ui:678
+#: ../data/SettingsDialog.ui:695
 msgid "No server set"
 msgstr "কোন সার্ভার সেট করা নেই"
 
-#: ../data/SettingsDialog.ui:688
+#: ../data/SettingsDialog.ui:705
 msgid "What is Invidious ?"
 msgstr "সম্ভাব্য ক্ষতিকর কি?"
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:754
 msgid "Search (artwork, songs, ...)"
 msgstr "অনুসন্ধান করুন (শিল্পকর্ম, গান, …)"
 
-#: ../data/SettingsDialog.ui:928
+#: ../data/SettingsDialog.ui:945
 msgid "ListenBrainz API-Key"
 msgstr "লিসেনব্রেনজ এপিআই-চাবি"
 
-#: ../data/SettingsDialog.ui:1000 ../lollypop/menu_playback.py:144
+#: ../data/SettingsDialog.ui:1017 ../lollypop/menu_playback.py:144
 #: ../lollypop/menu_search.py:56
 msgid "Deezer"
 msgstr "ডিজার"
 
-#: ../data/SettingsDialog.ui:1017 ../lollypop/menu_search.py:72
+#: ../data/SettingsDialog.ui:1034 ../lollypop/menu_search.py:72
 msgid "Jamendo"
 msgstr "জামেন্দো"
 
-#: ../data/SettingsDialog.ui:1034
+#: ../data/SettingsDialog.ui:1051
 msgid "AudioDB"
 msgstr "অডিওডিবি"
 
-#: ../data/SettingsDialog.ui:1051 ../lollypop/menu_playback.py:164
+#: ../data/SettingsDialog.ui:1068 ../lollypop/menu_playback.py:164
 #: ../lollypop/menu_search.py:68
 msgid "Spotify"
 msgstr "স্পটিফাই"
 
-#: ../data/SettingsDialog.ui:1068
+#: ../data/SettingsDialog.ui:1085
 msgid "FANART.TV"
 msgstr "ফ্যানার্ট.টিভি"
 
-#: ../data/SettingsDialog.ui:1085
+#: ../data/SettingsDialog.ui:1102
 msgid "iTunes"
 msgstr "আইটিউনস"
 
-#: ../data/SettingsDialog.ui:1102
+#: ../data/SettingsDialog.ui:1119
 msgid "Google"
 msgstr "গুগল"
 
-#: ../data/SettingsDialog.ui:1119
+#: ../data/SettingsDialog.ui:1136
 msgid "Startpage"
 msgstr "স্টার্টপেজ"
 
-#: ../data/SettingsDialog.ui:1136
+#: ../data/SettingsDialog.ui:1153
 msgid "DuckDuckGo"
 msgstr "ডাকডাকগো"
 
-#: ../data/SettingsDialog.ui:1153
+#: ../data/SettingsDialog.ui:1170
 msgid "Wikipedia"
 msgstr "উইকিপিডিয়া"
 
-#: ../data/SettingsDialog.ui:1175 ../lollypop/shown.py:35
+#: ../data/SettingsDialog.ui:1192 ../lollypop/shown.py:35
 msgid "Lyrics"
 msgstr "গানের কথা"
 
-#: ../data/SettingsDialog.ui:1180
+#: ../data/SettingsDialog.ui:1197
 msgid "Genius"
 msgstr "জিনিয়াস"
 
-#: ../data/SettingsDialog.ui:1197
+#: ../data/SettingsDialog.ui:1214
 msgid "Metro Lyrics"
 msgstr "মেট্রো লিরিক্স"
 
-#: ../data/SettingsDialog.ui:1214
+#: ../data/SettingsDialog.ui:1231
 msgid "Bing"
 msgstr "বিং"
 
@@ -989,20 +989,15 @@ msgstr "বর্তমান অ্যালবামটি লাভ চিহ
 
 #: ../data/Shortcuts.ui:149
 msgctxt "shortcut window"
-msgid "Repeat track"
-msgstr "ট্র্যাকটি রিপিট করুন"
-
-#: ../data/Shortcuts.ui:156
-msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "ট্র্যাকে পিছনে টপকে চলে আসুন"
 
-#: ../data/Shortcuts.ui:163
+#: ../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "ট্র্যাকে সামনে টপকে চলে যান"
 
-#: ../data/Shortcuts.ui:170
+#: ../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Enable/disable scrobbling"
 msgstr "স্ক্রবলিং সক্ষম/অক্ষম করুন"
@@ -1084,47 +1079,47 @@ msgstr "পার্টি মোড"
 msgid "Enable party mode"
 msgstr "পার্টি মোড সক্ষম করুন"
 
-#: ../data/ToolbarEnd.ui:13
+#: ../data/ToolbarEnd.ui:14
 msgid "Configure"
 msgstr "কনফিগার করুন"
 
-#: ../data/ToolbarEnd.ui:17
+#: ../data/ToolbarEnd.ui:18
 msgid "Shuffle"
 msgstr "শাফল"
 
-#: ../data/ToolbarEnd.ui:24
+#: ../data/ToolbarEnd.ui:26
 msgid "Repetition"
 msgstr "পুনরাবৃত্তি"
 
-#: ../data/ToolbarEnd.ui:26
+#: ../data/ToolbarEnd.ui:28
 msgid "Continuous playback"
 msgstr "একটানা প্লেব্যাক"
 
-#: ../data/ToolbarEnd.ui:31
+#: ../data/ToolbarEnd.ui:34
 msgid "Automatic playback (similar)"
 msgstr "স্বত: প্লেব্যাক (সদৃশ)"
 
-#: ../data/ToolbarEnd.ui:36
+#: ../data/ToolbarEnd.ui:40
 msgid "Automatic playback (random)"
 msgstr "স্বত: প্লেব্যাক (যথেচ্ছ)"
 
-#: ../data/ToolbarEnd.ui:41
+#: ../data/ToolbarEnd.ui:46
 msgid "Repeat track"
 msgstr "পুনরায় ট্র্যাকটি চালান"
 
-#: ../data/ToolbarEnd.ui:46
+#: ../data/ToolbarEnd.ui:52
 msgid "Do not repeat"
 msgstr "পুনরাবৃত্তি করবেন না"
 
-#: ../data/ToolbarEnd.ui:52
+#: ../data/ToolbarEnd.ui:59
 msgid "Scrobbling"
 msgstr "স্ক্রবলিং"
 
-#: ../data/ToolbarEnd.ui:54
+#: ../data/ToolbarEnd.ui:61
 msgid "Enable scrobbling"
 msgstr "স্ক্রবলিং সক্ষম করুন"
 
-#: ../data/ToolbarEnd.ui:96
+#: ../data/ToolbarEnd.ui:104
 msgid "Playback options"
 msgstr "প্লেব্যাক বিকল্পসমূহ"
 
@@ -1139,6 +1134,15 @@ msgstr "হোমে যান"
 #: ../lollypop/artwork_album.py:515 ../lollypop/widgets_rating.py:211
 msgid "You need to install kid3-cli"
 msgstr "আপনাকে kid3-cli ইনস্টল করতে হবে"
+
+#: ../lollypop/assistant.py:149
+msgid "Can't contact this service"
+msgstr ""
+
+#: ../lollypop/assistant.py:151 ../lollypop/assistant_google.py:87
+#: ../lollypop/assistant_lastfm.py:70 ../lollypop/assistant_musicbrainz.py:62
+msgid "Finish"
+msgstr ""
 
 #: ../lollypop/assistant_flatpak.py:31
 msgid "Authorization needed"
@@ -1241,11 +1245,6 @@ msgid ""
 "Copy the API key to Lollypop.\n"
 msgstr ""
 
-#: ../lollypop/assistant_google.py:87 ../lollypop/assistant_lastfm.py:70
-#: ../lollypop/assistant_musicbrainz.py:62 ../lollypop/assistant.py:151
-msgid "Finish"
-msgstr ""
-
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
 msgid "Scrobbling to %s"
@@ -1322,19 +1321,15 @@ msgid ""
 "<b>Finish</b> the activation by copying <b>API-Key</b> in Lollypop."
 msgstr ""
 
-#: ../lollypop/assistant.py:149
-msgid "Can't contact this service"
-msgstr ""
-
-#: ../lollypop/collection_scanner.py:336
+#: ../lollypop/collection_scanner.py:339
 msgid "Resetting database"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:507
+#: ../lollypop/collection_scanner.py:510
 msgid "Scan disabled, missing collection"
 msgstr ""
 
-#: ../lollypop/collection_scanner.py:805 ../lollypop/database_tracks.py:356
+#: ../lollypop/collection_scanner.py:808 ../lollypop/database_tracks.py:356
 #: ../lollypop/tagreader.py:90 ../lollypop/tagreader.py:100
 #: ../lollypop/tagreader.py:110 ../lollypop/tagreader.py:173
 #: ../lollypop/tagreader.py:203 ../lollypop/tagreader.py:216
@@ -1761,8 +1756,12 @@ msgstr ""
 msgid "%s m"
 msgstr ""
 
-#: ../lollypop/utils.py:314
+#: ../lollypop/utils.py:318
 msgid "The the"
+msgstr ""
+
+#: ../lollypop/view.py:48
+msgid "No items to show"
 msgstr ""
 
 #: ../lollypop/view_albums_box.py:55
@@ -1801,11 +1800,11 @@ msgstr ""
 msgid "New artists available"
 msgstr ""
 
-#: ../lollypop/view_information.py:151
+#: ../lollypop/view_information.py:150
 msgid "Loading information"
 msgstr ""
 
-#: ../lollypop/view_information.py:258 ../lollypop/view_information.py:290
+#: ../lollypop/view_information.py:257 ../lollypop/view_information.py:289
 #, python-format
 msgid "No information for %s"
 msgstr ""
@@ -1828,10 +1827,6 @@ msgstr ""
 
 #: ../lollypop/view_lyrics.py:307
 msgid "No lyrics found "
-msgstr ""
-
-#: ../lollypop/view.py:48
-msgid "No items to show"
 msgstr ""
 
 #: ../lollypop/view_search.py:151 ../lollypop/view_search.py:161
@@ -1864,10 +1859,6 @@ msgstr ""
 msgid "Tracks"
 msgstr ""
 
-#: ../lollypop/widgets_artwork_album.py:64
-msgid "Local"
-msgstr ""
-
 #: ../lollypop/widgets_artwork.py:139
 msgid "Select artwork"
 msgstr ""
@@ -1876,16 +1867,20 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
+#: ../lollypop/widgets_artwork_album.py:64
+msgid "Local"
+msgstr ""
+
 #: ../lollypop/widgets_banner_album.py:245
 #, python-format
 msgid "Released on %s"
 msgstr ""
 
-#: ../lollypop/widgets_banner_artist.py:298
+#: ../lollypop/widgets_banner_artist.py:302
 msgid "Add to current playlist"
 msgstr ""
 
-#: ../lollypop/widgets_banner_artist.py:305
+#: ../lollypop/widgets_banner_artist.py:309
 msgid "Remove from current playlist"
 msgstr ""
 
@@ -2039,9 +2034,13 @@ msgstr ""
 msgid "Compilation"
 msgstr ""
 
-#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:107
+#: ../lollypop/widgets_row_album.py:113 ../lollypop/widgets_row_track.py:108
 msgid "Remove from playlist"
 msgstr ""
+
+#~ msgctxt "shortcut window"
+#~ msgid "Repeat track"
+#~ msgstr "ট্র্যাকটি রিপিট করুন"
 
 #~ msgid "Multiple Audio Formats –"
 #~ msgstr "বহুবিধ অডিও ফর্ম্যাট -"
