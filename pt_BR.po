@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-22 10:13+0100\n"
-"PO-Revision-Date: 2021-01-07 00:37+0000\n"
-"Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
+"PO-Revision-Date: 2023-02-18 04:39+0000\n"
+"Last-Translator: José Gabriel Ribeiro Paiva <gavuriiru@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/lollypop/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml:36
 msgid "Window size"
@@ -405,7 +405,7 @@ msgstr "Doações:"
 
 #: ../data/AboutDialog.ui.in:74
 msgid "Liberapay"
-msgstr "Liberapay®"
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:84 ../lollypop/container_notification.py:107
 msgid "Patreon"
@@ -413,7 +413,7 @@ msgstr "Patreon®"
 
 #: ../data/AboutDialog.ui.in:94 ../lollypop/container_notification.py:107
 msgid "PayPal"
-msgstr "PayPal®"
+msgstr "PayPal"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in:8
 #: ../data/org.gnome.Lollypop.desktop.in:3
@@ -482,7 +482,7 @@ msgstr "_Preferências"
 
 #: ../data/Appmenu.ui:122
 msgid "_Keyboard Shortcuts"
-msgstr "_Atalhos do Teclado"
+msgstr "_Atalhos de Teclado"
 
 #: ../data/Appmenu.ui:136
 msgid "_About Lollypop"
@@ -680,7 +680,7 @@ msgstr "Adiciona uma transição na mudança de faixa"
 
 #: ../data/SettingsDialog.ui:265
 msgid "Transitions only in party mode"
-msgstr ""
+msgstr "Transições apenas no modo festa"
 
 #: ../data/SettingsDialog.ui:282
 msgid "Duration"
@@ -1201,7 +1201,7 @@ msgstr "Preferências"
 
 #: ../lollypop/assistant_google.py:29
 msgid "What is the Google API key?"
-msgstr ""
+msgstr "Qual é a chave da Google API?"
 
 #: ../lollypop/assistant_google.py:31
 msgid ""
@@ -1211,6 +1211,11 @@ msgid ""
 "\n"
 "<b>\"YouTube Data API v3\"</b>\n"
 msgstr ""
+"\n"
+"A fim de permitir a reprodução no YouTube,\n"
+"você precisa criar uma chave para a\n"
+"\n"
+"<b>\"Youtube Data API v3\"</b>\n"
 
 #: ../lollypop/assistant_google.py:39 ../lollypop/assistant_lastfm.py:43
 #: ../lollypop/assistant_musicbrainz.py:36 ../lollypop/dialog_apps.py:70
@@ -1269,6 +1274,12 @@ msgid ""
 "Then click 'Finish' within this wizard.\n"
 "Copy the API key to Lollypop.\n"
 msgstr ""
+"\n"
+"Abra <b>\"Credenciais\"</b> na barra lateral e\n"
+"crie credenciais para uma chave de API.\n"
+"\n"
+"Então, clique em \"Finalizar\" neste assistente.\n"
+"Copie a chave da API para o Lollypop.\n"
 
 #: ../lollypop/assistant_lastfm.py:36
 #, python-format
@@ -2019,7 +2030,7 @@ msgstr "Reggae Jamaica"
 
 #: ../lollypop/widgets_equalizer.py:61
 msgid "Rock"
-msgstr "Rock in Row"
+msgstr "Rock"
 
 #: ../lollypop/widgets_equalizer.py:63
 msgid "Techno"
