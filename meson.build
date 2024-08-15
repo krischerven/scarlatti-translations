@@ -1,4 +1,4 @@
-project ('lollypop-po')
+project ('scarlatti-po')
 
 if not meson.is_subproject()
     message('WARNING: This project is only intended to be used as a subproject!')
@@ -8,4 +8,4 @@ i18n = import('i18n')
 
 
 message('Update translations')
-i18n.gettext('lollypop', preset: 'glib')
+i18n.gettext('scarlatti', preset: 'glib')
